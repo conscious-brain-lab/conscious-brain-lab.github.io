@@ -4,8 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager | Conscious Brain Lab</title>
-  <link rel="icon" type="image/jpeg" href="/assets/images/CBL_logo.png" />
+  <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
+  
+  <!-- Cropper.js for Client-Side Crop & Resize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
+  
   <style>
+    /* BibTeX Helper Bar */
     .cbl-bibtex-helper {
       margin-bottom: 8px;
       padding: 8px 12px;
@@ -55,15 +60,321 @@
     .cbl-fetch-status.error {
       color: #b91c1c;
     }
+
+    /* Image Editor & Cropper Action Buttons */
+    .cbl-img-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+      flex-wrap: wrap;
+    }
+    .cbl-crop-btn {
+      background: #4f46e5;
+      color: #ffffff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .cbl-crop-btn:hover {
+      background: #4338ca;
+    }
+    .cbl-crop-btn:active {
+      transform: scale(0.98);
+    }
+
+    .cbl-upload-crop-btn {
+      background: #0284c7;
+      color: #ffffff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .cbl-upload-crop-btn:hover {
+      background: #0369a1;
+    }
+
+    /* Cropper Modal */
+    #cbl-crop-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 999999;
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(4px);
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    #cbl-crop-modal.active {
+      display: flex;
+    }
+    .cbl-modal-dialog {
+      background: #ffffff;
+      width: 100%;
+      max-width: 860px;
+      border-radius: 12px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      max-height: 94vh;
+      animation: modalScale 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes modalScale {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .cbl-modal-header {
+      padding: 14px 20px;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f8fafc;
+    }
+    .cbl-modal-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .cbl-modal-close {
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      color: #64748b;
+      padding: 4px;
+      border-radius: 4px;
+    }
+    .cbl-modal-close:hover {
+      color: #0f172a;
+      background: #e2e8f0;
+    }
+
+    /* Modal Canvas Container */
+    .cbl-crop-container {
+      height: 420px;
+      background: #090d16;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .cbl-crop-container img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+
+    /* Modal Controls */
+    .cbl-modal-toolbar {
+      padding: 12px 20px;
+      background: #f8fafc;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .cbl-tool-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .cbl-aspect-btn-group, .cbl-transform-btn-group {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .cbl-pill-btn {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #334155;
+      padding: 5px 11px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .cbl-pill-btn:hover {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+    }
+    .cbl-pill-btn.active {
+      background: #4f46e5;
+      color: #ffffff;
+      border-color: #4f46e5;
+    }
+
+    .cbl-select {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #334155;
+      font-weight: 500;
+    }
+
+    .cbl-modal-footer {
+      padding: 12px 20px;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+    }
+    .cbl-dimension-badge {
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 500;
+    }
+    .cbl-footer-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .cbl-btn-cancel {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 7px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #475569;
+      cursor: pointer;
+    }
+    .cbl-btn-cancel:hover {
+      background: #f8fafc;
+    }
+    .cbl-btn-save {
+      background: #16a34a;
+      color: #ffffff;
+      border: none;
+      padding: 7px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+    .cbl-btn-save:hover {
+      background: #15803d;
+    }
+    .cbl-btn-save:disabled {
+      background: #9ca3af;
+      cursor: not-allowed;
+    }
   </style>
 </head>
 <body>
   <!-- Official Decap CMS Runtime -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  
+  <!-- Cropper.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.js"></script>
 
-  <!-- Automatic BibTeX Generator & DOI Resolver Extension -->
+  <!-- Interactive Crop & Resize Modal Markup -->
+  <div id="cbl-crop-modal">
+    <div class="cbl-modal-dialog">
+      <div class="cbl-modal-header">
+        <h3 class="cbl-modal-title">
+          <span>✂️</span> Image Crop &amp; Resize Editor
+        </h3>
+        <button type="button" class="cbl-modal-close" id="cbl-close-modal">&times;</button>
+      </div>
+
+      <div class="cbl-crop-container">
+        <img id="cbl-cropper-image" src="" alt="To Crop" />
+      </div>
+
+      <div class="cbl-modal-toolbar">
+        <div class="cbl-tool-row">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:12px; font-weight:600; color:#475569;">Aspect Ratio:</span>
+            <div class="cbl-aspect-btn-group">
+              <button type="button" class="cbl-pill-btn active" data-ratio="1">1:1 (Square / Avatar)</button>
+              <button type="button" class="cbl-pill-btn" data-ratio="1.77777777778">16:9 (Banner)</button>
+              <button type="button" class="cbl-pill-btn" data-ratio="1.33333333333">4:3 (Photo)</button>
+              <button type="button" class="cbl-pill-btn" data-ratio="NaN">Freeform</button>
+            </div>
+          </div>
+
+          <div class="cbl-transform-btn-group">
+            <button type="button" class="cbl-pill-btn" id="cbl-rot-left" title="Rotate counterclockwise">↺ -90°</button>
+            <button type="button" class="cbl-pill-btn" id="cbl-rot-right" title="Rotate clockwise">↻ +90°</button>
+            <button type="button" class="cbl-pill-btn" id="cbl-flip-h" title="Flip Horizontal">↔ Flip</button>
+            <button type="button" class="cbl-pill-btn" id="cbl-reset" title="Reset Crop">⟲ Reset</button>
+          </div>
+        </div>
+
+        <div class="cbl-tool-row">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:12px; font-weight:600; color:#475569;">Max Output Width:</span>
+            <select class="cbl-select" id="cbl-max-width">
+              <option value="800" selected>800 px (Recommended for Profiles &amp; Web)</option>
+              <option value="600">600 px (Fast Loading)</option>
+              <option value="1200">1200 px (High-Res Banners)</option>
+              <option value="1600">1600 px (Full Master Size)</option>
+            </select>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:12px; font-weight:600; color:#475569;">Format:</span>
+            <select class="cbl-select" id="cbl-img-format">
+              <option value="image/jpeg" selected>JPEG (88% Web Optimized)</option>
+              <option value="image/png">PNG (Lossless)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="cbl-modal-footer">
+        <span class="cbl-dimension-badge" id="cbl-crop-dimensions">Drag crop handles to adjust framing</span>
+        <div class="cbl-footer-actions">
+          <button type="button" class="cbl-btn-cancel" id="cbl-cancel-crop">Cancel</button>
+          <button type="button" class="cbl-btn-save" id="cbl-save-crop">
+            <span>✓</span> Apply &amp; Save to CMS
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden file input for direct "Upload & Crop" -->
+  <input type="file" id="cbl-hidden-file-input" accept="image/*" style="display:none" />
+
+  <!-- Automatic BibTeX & Image Editor Extension Logic -->
   <script>
     (function () {
+      // -------------------------------------------------------------
+      // 1. REACT INPUT HELPER
+      // -------------------------------------------------------------
       function setReactInputValue(input, value) {
         const prototype = input instanceof HTMLTextAreaElement 
           ? window.HTMLTextAreaElement.prototype 
@@ -78,29 +389,22 @@
         input.dispatchEvent(new Event('change', { bubbles: true }));
       }
 
+      // -------------------------------------------------------------
+      // 2. AUTOMATIC BIBTEX GENERATOR
+      // -------------------------------------------------------------
       function formatBibtex(raw) {
         let clean = raw.trim();
-        // Ensure clean indentation
         clean = clean.replace(/,\s*([a-zA-Z0-9_-]+)\s*=/g, ',\n  $1 =');
         clean = clean.replace(/}\s*$/, '\n}');
         return clean;
       }
 
       async function fetchBibtexFromDoi(doi) {
-        // Try Crossref Content Negotiation API (CORS enabled worldwide)
         const url = `https://api.crossref.org/works/${encodeURIComponent(doi)}/transform/application/x-bibtex`;
-        const res = await fetch(url, {
-          headers: {
-            'Accept': 'application/x-bibtex'
-          }
-        });
-        if (!res.ok) {
-          throw new Error(`Crossref returned HTTP ${res.status}`);
-        }
+        const res = await fetch(url, { headers: { 'Accept': 'application/x-bibtex' } });
+        if (!res.ok) throw new Error(`Crossref returned HTTP ${res.status}`);
         const text = await res.text();
-        if (!text || !text.includes('@')) {
-          throw new Error('Invalid BibTeX response from Crossref');
-        }
+        if (!text || !text.includes('@')) throw new Error('Invalid BibTeX response from Crossref');
         return formatBibtex(text);
       }
 
@@ -122,15 +426,11 @@
       }
 
       function attachBibtexHelper() {
-        // Find bibtex textarea
         const bibtexArea = document.querySelector('textarea[id*="bibtex"], textarea[name*="bibtex"]');
         if (!bibtexArea) return;
 
         const parentControl = bibtexArea.closest('div');
-        if (!parentControl) return;
-
-        // Prevent duplicate buttons
-        if (parentControl.querySelector('.cbl-bibtex-helper')) return;
+        if (!parentControl || parentControl.querySelector('.cbl-bibtex-helper')) return;
 
         const helperBar = document.createElement('div');
         helperBar.className = 'cbl-bibtex-helper';
@@ -156,17 +456,13 @@
           statusText.textContent = '🔍 Reading DOI / Paper URL...';
 
           try {
-            // Find paper_url input
             const paperUrlInput = document.querySelector('input[id*="paper_url"], input[name*="paper_url"]');
             const paperUrl = paperUrlInput ? paperUrlInput.value.trim() : '';
-
-            // Find citation and year for fallback
             const citationEl = document.querySelector('textarea[id*="citation"], input[id*="citation"]');
             const citation = citationEl ? citationEl.value.trim() : '';
             const yearEl = document.querySelector('input[id*="year"]');
             const year = yearEl ? yearEl.value.trim() : '2024';
 
-            // Match DOI
             const doiMatch = paperUrl.match(/(10\.\d{4,9}\/[-._;()/:A-Za-z0-9]+)/);
             
             if (doiMatch) {
@@ -202,14 +498,268 @@
         });
       }
 
-      // Observe DOM mutations to attach helper whenever publication editor opens
+      // -------------------------------------------------------------
+      // 3. IMAGE EDITOR & CROPPER EXTENSION
+      // -------------------------------------------------------------
+      let cropperInstance = null;
+      let activeImageWidget = null;
+      let currentScaleX = 1;
+
+      const modal = document.getElementById('cbl-crop-modal');
+      const cropperImg = document.getElementById('cbl-cropper-image');
+      const dimensionsBadge = document.getElementById('cbl-crop-dimensions');
+      const saveCropBtn = document.getElementById('cbl-save-crop');
+      const cancelCropBtn = document.getElementById('cbl-cancel-crop');
+      const closeModalBtn = document.getElementById('cbl-close-modal');
+      const hiddenFileInput = document.getElementById('cbl-hidden-file-input');
+
+      function openCropper(imageSrc, widgetEl, defaultRatio = 1) {
+        activeImageWidget = widgetEl;
+        currentScaleX = 1;
+        saveCropBtn.disabled = false;
+        saveCropBtn.innerHTML = '<span>✓</span> Apply &amp; Save to CMS';
+
+        // Select default ratio button
+        document.querySelectorAll('.cbl-aspect-btn-group .cbl-pill-btn').forEach(btn => {
+          const ratio = parseFloat(btn.dataset.ratio);
+          if ((isNaN(ratio) && isNaN(defaultRatio)) || Math.abs(ratio - defaultRatio) < 0.05) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+
+        // Set image source
+        cropperImg.src = imageSrc;
+        modal.classList.add('active');
+
+        if (cropperInstance) {
+          cropperInstance.destroy();
+        }
+
+        cropperInstance = new Cropper(cropperImg, {
+          aspectRatio: defaultRatio,
+          viewMode: 1,
+          autoCropArea: 0.9,
+          responsive: true,
+          crop(event) {
+            const w = Math.round(event.detail.width);
+            const h = Math.round(event.detail.height);
+            dimensionsBadge.textContent = `Framing: ${w} × ${h} px`;
+          }
+        });
+      }
+
+      function closeCropper() {
+        modal.classList.remove('active');
+        if (cropperInstance) {
+          cropperInstance.destroy();
+          cropperInstance = null;
+        }
+        activeImageWidget = null;
+      }
+
+      closeModalBtn.addEventListener('click', closeCropper);
+      cancelCropBtn.addEventListener('click', closeCropper);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeCropper();
+      });
+
+      // Aspect Ratio Controls
+      document.querySelectorAll('.cbl-aspect-btn-group .cbl-pill-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.cbl-aspect-btn-group .cbl-pill-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const ratio = parseFloat(btn.dataset.ratio);
+          if (cropperInstance) {
+            cropperInstance.setAspectRatio(isNaN(ratio) ? NaN : ratio);
+          }
+        });
+      });
+
+      // Transform Controls
+      document.getElementById('cbl-rot-left').addEventListener('click', () => {
+        if (cropperInstance) cropperInstance.rotate(-90);
+      });
+      document.getElementById('cbl-rot-right').addEventListener('click', () => {
+        if (cropperInstance) cropperInstance.rotate(90);
+      });
+      document.getElementById('cbl-flip-h').addEventListener('click', () => {
+        if (cropperInstance) {
+          currentScaleX = -currentScaleX;
+          cropperInstance.scaleX(currentScaleX);
+        }
+      });
+      document.getElementById('cbl-reset').addEventListener('click', () => {
+        if (cropperInstance) {
+          cropperInstance.reset();
+          currentScaleX = 1;
+        }
+      });
+
+      // Persist Media Helper (Supports Local Backend & GitHub Mode)
+      async function persistCroppedFile(relPath, base64Data) {
+        // Try local server
+        try {
+          const res = await fetch('http://127.0.0.1:8081/api/v1', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              action: 'persistMedia',
+              params: {
+                asset: {
+                  path: relPath,
+                  content: base64Data,
+                  encoding: 'base64'
+                }
+              }
+            })
+          });
+          if (res.ok) return true;
+        } catch (e) {
+          console.warn('Local persistMedia failed, will try CMS backend:', e);
+        }
+
+        // Try Decap backend if available
+        if (window.CMS && typeof window.CMS.getBackend === 'function') {
+          const backend = window.CMS.getBackend();
+          if (backend && typeof backend.persistMedia === 'function') {
+            const byteCharacters = atob(base64Data);
+            const byteNumbers = new Array(byteCharacters.length);
+            for (let i = 0; i < byteCharacters.length; i++) {
+              byteNumbers[i] = byteCharacters.charCodeAt(i);
+            }
+            const blob = new Blob([new Uint8Array(byteNumbers)], { type: relPath.endsWith('.png') ? 'image/png' : 'image/jpeg' });
+            const file = new File([blob], relPath.split('/').pop(), { type: blob.type });
+            await backend.persistMedia(file);
+            return true;
+          }
+        }
+        return true;
+      }
+
+      // Save Cropped Image
+      saveCropBtn.addEventListener('click', async () => {
+        if (!cropperInstance || !activeImageWidget) return;
+
+        saveCropBtn.disabled = true;
+        saveCropBtn.textContent = '⏳ Processing & Saving...';
+
+        try {
+          const maxWidth = parseInt(document.getElementById('cbl-max-width').value, 10);
+          const format = document.getElementById('cbl-img-format').value;
+          const quality = format === 'image/jpeg' ? 0.88 : 1.0;
+
+          const canvas = cropperInstance.getCroppedCanvas({
+            maxWidth: maxWidth,
+            maxHeight: maxWidth,
+            imageSmoothingEnabled: true,
+            imageSmoothingQuality: 'high'
+          });
+
+          const dataUrl = canvas.toDataURL(format, quality);
+          const base64Data = dataUrl.split(',')[1];
+          const ext = format === 'image/png' ? 'png' : 'jpg';
+          const filename = `crop_${Date.now()}.${ext}`;
+          const relPath = `assets/images/${filename}`;
+
+          // Save file
+          await persistCroppedFile(relPath, base64Data);
+
+          // Find "Replace with URL" button inside active image widget
+          const replaceBtn = Array.from(activeImageWidget.querySelectorAll('button')).find(b => 
+            b.textContent.includes('Replace with URL')
+          );
+
+          if (replaceBtn) {
+            const oldPrompt = window.prompt;
+            window.prompt = () => `/${relPath}`;
+            replaceBtn.click();
+            window.prompt = oldPrompt;
+          }
+
+          // Directly update thumbnail preview immediately
+          const previewImg = activeImageWidget.querySelector('img');
+          if (previewImg) {
+            previewImg.src = dataUrl;
+          }
+
+          closeCropper();
+        } catch (err) {
+          console.error('Failed to save cropped image:', err);
+          alert('Error saving cropped image: ' + err.message);
+          saveCropBtn.disabled = false;
+          saveCropBtn.textContent = 'Apply & Save to CMS';
+        }
+      });
+
+      // Handle Hidden File Upload & Crop
+      hiddenFileInput.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file || !activeImageWidget) return;
+
+        const reader = new FileReader();
+        reader.onload = (evt) => {
+          const isMember = window.location.hash.includes('/members');
+          openCropper(evt.target.result, activeImageWidget, isMember ? 1 : 1.77777777778);
+        };
+        reader.readAsDataURL(file);
+        hiddenFileInput.value = '';
+      });
+
+      // Attach Image Editing Buttons to Decap CMS Image Widgets
+      function attachImageEditorHelpers() {
+        // Find all Decap CMS image preview containers
+        const images = document.querySelectorAll('div[class*="ControlContainer"] img, div[class*="image"] img');
+        
+        images.forEach(img => {
+          const widgetContainer = img.closest('div[class*="ControlContainer"]') || img.closest('div');
+          if (!widgetContainer) return;
+
+          // Check if already injected
+          if (widgetContainer.querySelector('.cbl-img-toolbar')) return;
+
+          const toolbar = document.createElement('div');
+          toolbar.className = 'cbl-img-toolbar';
+          toolbar.innerHTML = `
+            <button type="button" class="cbl-crop-btn" title="Crop, rotate, and resize this image">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6.13 1L6 16a2 2 0 0 0 2 2h15"></path><path d="M1 6.13L16 6a2 2 0 0 1 2 2v15"></path></svg>
+              ✂️ Crop &amp; Resize
+            </button>
+            <button type="button" class="cbl-upload-crop-btn" title="Upload a new photo and open the crop tool">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+              📁 Upload &amp; Crop New
+            </button>
+          `;
+
+          // Append toolbar below image
+          img.parentNode.appendChild(toolbar);
+
+          const cropBtn = toolbar.querySelector('.cbl-crop-btn');
+          const uploadCropBtn = toolbar.querySelector('.cbl-upload-crop-btn');
+
+          cropBtn.addEventListener('click', () => {
+            const isMember = window.location.hash.includes('/members');
+            openCropper(img.src, widgetContainer, isMember ? 1 : 1.77777777778);
+          });
+
+          uploadCropBtn.addEventListener('click', () => {
+            activeImageWidget = widgetContainer;
+            hiddenFileInput.click();
+          });
+        });
+      }
+
+      // Continuous observer to attach helpers when user opens entries
       const observer = new MutationObserver(() => {
         attachBibtexHelper();
+        attachImageEditorHelpers();
       });
 
       document.addEventListener('DOMContentLoaded', () => {
         observer.observe(document.body, { childList: true, subtree: true });
         attachBibtexHelper();
+        attachImageEditorHelpers();
       });
     })();
   </script>
