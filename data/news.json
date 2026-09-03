@@ -4,108 +4,13 @@
     "title": "Congratulations Nico!",
     "date": "May 2025",
     "date_sort": "2025-05",
-    "text": "Nicol\u00e1s S\u00e1nchez-Fuenzalida successfully defended his PhD thesis on June 5, well done!",
+    "text": "Nicolás Sánchez-Fuenzalida successfully defended his PhD thesis on June 5, well done!",
     "image": "/assets/images/news/news_nico.jpg",
     "wix_url": "https://static.wixstatic.com/media/6ee27e_26db58cdfa00460bb1d8d563c6f178ea~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_26db58cdfa00460bb1d8d563c6f178ea~mv2.jpg",
     "type": "photo",
     "position": "center 15%",
-    "link": ""
-  },
-  {
-    "id": "lola-defense",
-    "title": "Congratulations Lola!",
-    "date": "April 2025",
-    "date_sort": "2025-04",
-    "text": "Lola Beerendonk successfully defended her PhD thesis on May 28, well done!",
-    "image": "/assets/images/news/news_lola.jpg",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_9ccb44d6e2b144c2b2c4d20628a11c13~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_9ccb44d6e2b144c2b2c4d20628a11c13~mv2.jpg",
-    "type": "photo",
-    "position": "center 15%",
-    "link": ""
-  },
-  {
-    "id": "samuel-defense",
-    "title": "Congratulations Samuel!",
-    "date": "September 2024",
-    "date_sort": "2024-09",
-    "text": "Samuel Noorman successfully defended his PhD thesis on April 8, well done!",
-    "image": "/assets/images/news/news_samuel.jpg",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_833238e5cff24296a81a504d69475e44~mv2.jpeg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_833238e5cff24296a81a504d69475e44~mv2.jpeg",
-    "type": "photo",
-    "position": "center 15%",
-    "link": ""
-  },
-  {
-    "id": "stijn-defense",
-    "title": "Congratulations Stijn!",
-    "date": "April 2024",
-    "date_sort": "2024-04",
-    "text": "Stijn Nuijten successfully defended his PhD thesis on Sept 4, well done!",
-    "image": "/assets/images/news/news_stijn.jpg",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_301da73f2f914dba95ba2c0ca920f0a2~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_301da73f2f914dba95ba2c0ca920f0a2~mv2.jpg",
-    "type": "photo",
-    "position": "center 15%",
-    "link": ""
-  },
-  {
-    "id": "open-science-award",
-    "title": "Johannes Receives Faculty's Open Science Award",
-    "date": "March 2024",
-    "date_sort": "2024-03",
-    "text": "The Open Science Award of the Faculty of Behavioural and Movement Sciences at the Free University Amsterdam was awarded to Johannes Fahrenfort for developing the open-source ADAM decoding toolbox.",
-    "image": "/assets/images/news/news_open_science.png",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_33b7c52aedf645cd90575dbda4416c04~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_33b7c52aedf645cd90575dbda4416c04~mv2.png",
-    "type": "logo",
-    "position": "center",
-    "link": "https://www.fahrenfort.com"
-  },
-  {
-    "id": "simon-parool",
-    "title": "Simon Interviewed for Dutch Newspaper",
-    "date": "March 2024",
-    "date_sort": "2024-03-b",
-    "text": "Simon was interviewed by Dutch newspaper 'Het Parool' discussing cognitive control, brain mechanisms, and conscious decision-making.",
-    "image": "/assets/images/news/news_simon_nrc.png",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_45783a4228e64757b65c5c97494808e5~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_45783a4228e64757b65c5c97494808e5~mv2.png",
-    "type": "logo",
-    "position": "center",
-    "link": ""
-  },
-  {
-    "id": "proefkonijnen-tv",
-    "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
-    "date": "October 2023",
-    "date_sort": "2023-10",
-    "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
-    "image": "/assets/images/news/news_tv_proefkonijnen.png",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_f6f3c402d12e4c848c23d6a93560d40c~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_f6f3c402d12e4c848c23d6a93560d40c~mv2.png",
-    "type": "photo",
-    "position": "center 25%",
-    "link": "/proefkonijnen/"
-  },
-  {
-    "id": "pnas-papers",
-    "title": "Two PNAS Publications in One Year",
-    "date": "November 2022",
-    "date_sort": "2022-11",
-    "text": "This year we had not one but two PNAS publications! Very proud of Nico and Lola who did all the hard work on these projects exploring perceptual consciousness.",
-    "image": "/assets/images/news/news_pnas.png",
-    "wix_url": "https://static.wixstatic.com/media/6f2981_3cfb3c281d6841e288c411046b601c96~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6f2981_3cfb3c281d6841e288c411046b601c96~mv2.png",
-    "type": "logo",
-    "position": "center",
-    "link": "/publications/"
-  },
-  {
-    "id": "erc-grant",
-    "title": "Simon Receives an ERC Consolidator Grant",
-    "date": "September 2022",
-    "date_sort": "2022-09",
-    "text": "We are happy to consolidate our work on the neural mechanisms of consciousness! Simon van Gaal has been awarded a \u20ac2 million ERC Consolidator Grant.",
-    "image": "/assets/images/news/news_erc.png",
-    "wix_url": "https://static.wixstatic.com/media/6ee27e_e4fc1bee87c24b24b093799b90492bd6~mv2.jpg/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_e4fc1bee87c24b24b093799b90492bd6~mv2.jpg",
-    "type": "logo",
-    "position": "center",
-    "link": "/projects/"
+    "link": "",
+    "slug": "news-1"
   },
   {
     "id": "templeton-grant",
@@ -117,7 +22,8 @@
     "wix_url": "https://static.wixstatic.com/media/6ee27e_6ea40501663e495ca7ecc1798e9e37e2~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_6ea40501663e495ca7ecc1798e9e37e2~mv2.png",
     "type": "logo",
     "position": "center",
-    "link": "/projects/"
+    "link": "/projects/",
+    "slug": "news-10"
   },
   {
     "id": "assc25",
@@ -129,7 +35,8 @@
     "wix_url": "https://static.wixstatic.com/media/6ee27e_6ea40501663e495ca7ecc1798e9e37e2~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_6ea40501663e495ca7ecc1798e9e37e2~mv2.png",
     "type": "logo",
     "position": "center",
-    "link": ""
+    "link": "",
+    "slug": "news-11"
   },
   {
     "id": "elife-animation",
@@ -141,19 +48,21 @@
     "wix_url": "https://static.wixstatic.com/media/6f2981_8f630a703d8741c88a64f19d072b4fae~mv2.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_auto/6f2981_8f630a703d8741c88a64f19d072b4fae~mv2.jpg",
     "type": "photo",
     "position": "center 20%",
-    "link": "/publications/"
+    "link": "/publications/",
+    "slug": "news-12"
   },
   {
     "id": "josipa-defense",
     "title": "Congratulations Josipa!",
     "date": "July 2021",
     "date_sort": "2021-07",
-    "text": "Josipa Alilovi\u0107 received her PhD doctoral degree on July 2, 2021. Congratulations Josipa!",
+    "text": "Josipa Alilović received her PhD doctoral degree on July 2, 2021. Congratulations Josipa!",
     "image": "/assets/images/news/news_josipa.jpg",
     "wix_url": "https://static.wixstatic.com/media/6f2981_455b73727b95498aa2d3f1ac0e64d3fa~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6f2981_455b73727b95498aa2d3f1ac0e64d3fa~mv2.jpg",
     "type": "photo",
     "position": "center 15%",
-    "link": ""
+    "link": "",
+    "slug": "news-13"
   },
   {
     "id": "valeria-defense",
@@ -165,19 +74,21 @@
     "wix_url": "https://static.wixstatic.com/media/6f2981_47aae1706e2a4a07a7a506804810a380~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6f2981_47aae1706e2a4a07a7a506804810a380~mv2.jpg",
     "type": "photo",
     "position": "center 15%",
-    "link": ""
+    "link": "",
+    "slug": "news-14"
   },
   {
-    "id": "maartje-abc-grant",
-    "title": "ABC Grant for Maartje de Jong: New CBL Member!",
+    "position": "center 15%",
+    "slug": "news-15",
+    "text": "Maartje de Jong receives an ABC talent grant and joins the Conscious Brain Lab to perform 7T fMRI pharmacological research.",
     "date": "May 2019",
     "date_sort": "2019-05",
-    "text": "Maartje de Jong receives an ABC talent grant and joins the Conscious Brain Lab to perform 7T fMRI pharmacological research.",
-    "image": "/assets/images/news/news_maartje.jpg",
     "wix_url": "https://static.wixstatic.com/media/6f2981_0ef67710a9b94816938f27feec45dd60~mv2_d_3035_2023_s_2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6f2981_0ef67710a9b94816938f27feec45dd60~mv2_d_3035_2023_s_2.jpg",
+    "title": "ABC Grant for Maartje de Jong: New CBL Member!",
     "type": "photo",
-    "position": "center 15%",
-    "link": "/members/"
+    "link": "/members/",
+    "id": "maartje-abc-grant",
+    "image": "/assets/images/maartje_de_jong.jpg"
   },
   {
     "id": "erik-defense",
@@ -189,7 +100,8 @@
     "wix_url": "https://static.wixstatic.com/media/6f2981_ff0397049084410cab47d5af435bd9ab~mv2_d_2023_3035_s_2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6f2981_ff0397049084410cab47d5af435bd9ab~mv2_d_2023_3035_s_2.jpg",
     "type": "photo",
     "position": "center 15%",
-    "link": ""
+    "link": "",
+    "slug": "news-16"
   },
   {
     "id": "camile-defense",
@@ -201,7 +113,8 @@
     "wix_url": "https://static.wixstatic.com/media/6f2981_53b9ea04b729498686244ee6e27bce38~mv2_d_1600_1200_s_2.jpeg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6f2981_53b9ea04b729498686244ee6e27bce38~mv2_d_1600_1200_s_2.jpeg",
     "type": "photo",
     "position": "center 15%",
-    "link": ""
+    "link": "",
+    "slug": "news-17"
   },
   {
     "id": "assc-krakow",
@@ -213,6 +126,111 @@
     "wix_url": "https://static.wixstatic.com/media/6f2981_455b73727b95498aa2d3f1ac0e64d3fa~mv2.jpg/v1/fill/w_600,h_400,al_c,q_85,enc_auto/6f2981_455b73727b95498aa2d3f1ac0e64d3fa~mv2.jpg",
     "type": "photo",
     "position": "center 20%",
-    "link": ""
+    "link": "",
+    "slug": "news-18"
+  },
+  {
+    "id": "lola-defense",
+    "title": "Congratulations Lola!",
+    "date": "April 2025",
+    "date_sort": "2025-04",
+    "text": "Lola Beerendonk successfully defended her PhD thesis on May 28, well done!",
+    "image": "/assets/images/news/news_lola.jpg",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_9ccb44d6e2b144c2b2c4d20628a11c13~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_9ccb44d6e2b144c2b2c4d20628a11c13~mv2.jpg",
+    "type": "photo",
+    "position": "center 15%",
+    "link": "",
+    "slug": "news-2"
+  },
+  {
+    "id": "samuel-defense",
+    "title": "Congratulations Samuel!",
+    "date": "September 2024",
+    "date_sort": "2024-09",
+    "text": "Samuel Noorman successfully defended his PhD thesis on April 8, well done!",
+    "image": "/assets/images/news/news_samuel.jpg",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_833238e5cff24296a81a504d69475e44~mv2.jpeg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_833238e5cff24296a81a504d69475e44~mv2.jpeg",
+    "type": "photo",
+    "position": "center 15%",
+    "link": "",
+    "slug": "news-3"
+  },
+  {
+    "id": "stijn-defense",
+    "title": "Congratulations Stijn!",
+    "date": "April 2024",
+    "date_sort": "2024-04",
+    "text": "Stijn Nuijten successfully defended his PhD thesis on Sept 4, well done!",
+    "image": "/assets/images/news/news_stijn.jpg",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_301da73f2f914dba95ba2c0ca920f0a2~mv2.jpg/v1/fill/w_600,h_450,al_c,q_85,enc_auto/6ee27e_301da73f2f914dba95ba2c0ca920f0a2~mv2.jpg",
+    "type": "photo",
+    "position": "center 15%",
+    "link": "",
+    "slug": "news-4"
+  },
+  {
+    "id": "open-science-award",
+    "title": "Johannes Receives Faculty's Open Science Award",
+    "date": "March 2024",
+    "date_sort": "2024-03",
+    "text": "The Open Science Award of the Faculty of Behavioural and Movement Sciences at the Free University Amsterdam was awarded to Johannes Fahrenfort for developing the open-source ADAM decoding toolbox.",
+    "image": "/assets/images/news/news_open_science.png",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_33b7c52aedf645cd90575dbda4416c04~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_33b7c52aedf645cd90575dbda4416c04~mv2.png",
+    "type": "logo",
+    "position": "center",
+    "link": "https://www.fahrenfort.com",
+    "slug": "news-5"
+  },
+  {
+    "id": "simon-parool",
+    "title": "Simon Interviewed for Dutch Newspaper",
+    "date": "March 2024",
+    "date_sort": "2024-03-b",
+    "text": "Simon was interviewed by Dutch newspaper 'Het Parool' discussing cognitive control, brain mechanisms, and conscious decision-making.",
+    "image": "/assets/images/news/news_simon_nrc.png",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_45783a4228e64757b65c5c97494808e5~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_45783a4228e64757b65c5c97494808e5~mv2.png",
+    "type": "logo",
+    "position": "center",
+    "link": "",
+    "slug": "news-6"
+  },
+  {
+    "id": "proefkonijnen-tv",
+    "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
+    "date": "October 2023",
+    "date_sort": "2023-10",
+    "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
+    "image": "/assets/images/news/news_tv_proefkonijnen.png",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_f6f3c402d12e4c848c23d6a93560d40c~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_f6f3c402d12e4c848c23d6a93560d40c~mv2.png",
+    "type": "photo",
+    "position": "center 25%",
+    "link": "/proefkonijnen/",
+    "slug": "news-7"
+  },
+  {
+    "id": "pnas-papers",
+    "title": "Two PNAS Publications in One Year",
+    "date": "November 2022",
+    "date_sort": "2022-11",
+    "text": "This year we had not one but two PNAS publications! Very proud of Nico and Lola who did all the hard work on these projects exploring perceptual consciousness.",
+    "image": "/assets/images/news/news_pnas.png",
+    "wix_url": "https://static.wixstatic.com/media/6f2981_3cfb3c281d6841e288c411046b601c96~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6f2981_3cfb3c281d6841e288c411046b601c96~mv2.png",
+    "type": "logo",
+    "position": "center",
+    "link": "/publications/",
+    "slug": "news-8"
+  },
+  {
+    "id": "erc-grant",
+    "title": "Simon Receives an ERC Consolidator Grant",
+    "date": "September 2022",
+    "date_sort": "2022-09",
+    "text": "We are happy to consolidate our work on the neural mechanisms of consciousness! Simon van Gaal has been awarded a €2 million ERC Consolidator Grant.",
+    "image": "/assets/images/news/news_erc.png",
+    "wix_url": "https://static.wixstatic.com/media/6ee27e_e4fc1bee87c24b24b093799b90492bd6~mv2.jpg/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_e4fc1bee87c24b24b093799b90492bd6~mv2.jpg",
+    "type": "logo",
+    "position": "center",
+    "link": "/projects/",
+    "slug": "news-9"
   }
 ]

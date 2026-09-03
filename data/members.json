@@ -1,15 +1,5 @@
 [
   {
-    "name": "Simon van Gaal",
-    "role": "Principal Investigator / Associate Professor",
-    "status": "current",
-    "category": "pi",
-    "slug": "simon-van-gaal",
-    "image": "/assets/images/simon_van_gaal.jpg",
-    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
-    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
-  },
-  {
     "name": "Johannes Fahrenfort",
     "role": "Principal Investigator / Assistant Professor",
     "status": "current",
@@ -18,6 +8,16 @@
     "image": "/assets/images/johannes_fahrenfort.jpg",
     "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and the Brain and Cognition group at UvA. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
     "link": "https://www.fahrenfort.com"
+  },
+  {
+    "name": "Simon van Gaal",
+    "role": "Principal Investigator / Associate Professor",
+    "status": "current",
+    "category": "pi",
+    "slug": "simon-van-gaal",
+    "image": "/assets/images/simon_van_gaal.jpg",
+    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
+    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
   },
   {
     "name": "Timo Stein",
@@ -47,6 +47,26 @@
     "slug": "maartje-de-jong",
     "image": "/assets/images/maartje_de_jong.jpg",
     "bio": "Postdoctoral researcher studying visual perception, bistable perception, and how neural representations transition into subjective conscious experience.",
+    "link": ""
+  },
+  {
+    "name": "Ana-Maria Barosan",
+    "role": "PhD Candidate",
+    "status": "current",
+    "category": "phd",
+    "slug": "ana-maria-barosan",
+    "image": "/assets/images/ana_maria_barosan.jpg",
+    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal. My research investigates how consciousness unfolds in time and space using advanced EEG and behavioral paradigms.",
+    "link": ""
+  },
+  {
+    "name": "Lola Beerendonk",
+    "role": "PhD Candidate",
+    "status": "current",
+    "category": "phd",
+    "slug": "lola-beerendonk",
+    "image": "/assets/images/lola_beerendonk.jpg",
+    "bio": "PhD candidate studying neural correlates of conscious perception and the boundaries of unconscious semantic processing.",
     "link": ""
   },
   {
@@ -80,33 +100,33 @@
     "link": ""
   },
   {
-    "name": "Ana-Maria Barosan",
-    "role": "PhD Candidate",
-    "status": "current",
-    "category": "phd",
-    "slug": "ana-maria-barosan",
-    "image": "/assets/images/ana_maria_barosan.jpg",
-    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal. My research investigates how consciousness unfolds in time and space using advanced EEG and behavioral paradigms.",
-    "link": ""
-  },
-  {
-    "name": "Lola Beerendonk",
-    "role": "PhD Candidate",
-    "status": "current",
-    "category": "phd",
-    "slug": "lola-beerendonk",
-    "image": "/assets/images/lola_beerendonk.png",
-    "bio": "PhD candidate studying neural correlates of conscious perception and the boundaries of unconscious semantic processing.",
-    "link": ""
-  },
-  {
-    "name": "Nicol\u00e1s S\u00e1nchez-Fuenzalida",
-    "role": "Former PhD Candidate & Postdoc",
+    "name": "Andres Canales-Johnson",
+    "role": "Former Postdoctoral Researcher",
     "status": "alumni",
     "category": "alumni",
-    "slug": "nicolas-sanchez-fuenzalida",
-    "image": "/assets/images/nicolas_sanchez.jpg",
-    "bio": "Former PhD candidate and postdoc at Conscious Brain Lab. Researched perceptual vs response biases and Bayesian single-subject methods for conscious experience (published in Nature Communications).",
+    "slug": "andres-canales-johnson",
+    "image": "/assets/images/alumni/andres_canales_johnson.jpg",
+    "bio": "Former postdoctoral researcher, now Senior Researcher at University of Cambridge and Universidad Diego Portales.",
+    "link": ""
+  },
+  {
+    "name": "Camile Correa",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "camile-correa",
+    "image": "/assets/images/alumni/camile_correa.jpg",
+    "bio": "Former researcher studying psychophysics and consciousness.",
+    "link": ""
+  },
+  {
+    "name": "Erik Meijs",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "erik-meijs",
+    "image": "/assets/images/alumni/erik_meijs.jpg",
+    "bio": "Former postdoctoral researcher, now at Donders Institute for Brain, Cognition and Behaviour.",
     "link": ""
   },
   {
@@ -120,123 +140,13 @@
     "link": "https://www.ru.nl"
   },
   {
-    "name": "Stijn Nuiten",
-    "role": "Former PhD Candidate",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "stijn-nuiten",
-    "image": "/assets/images/stijn_nuiten.jpg",
-    "bio": "Former PhD candidate in the Conscious Brain Lab. Researched pupil-linked arousal, V1 interneuron baseline activity, and visual awareness.",
-    "link": ""
-  },
-  {
-    "name": "Matthew Weaver",
-    "role": "Former Postdoctoral Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "matthew-weaver",
-    "image": "",
-    "bio": "Former postdoctoral fellow researching visual attention and unconscious information processing.",
-    "link": ""
-  },
-  {
-    "name": "Andres Canales-Johnson",
-    "role": "Former Postdoctoral Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "andres-canales-johnson",
-    "image": "",
-    "bio": "Former postdoctoral researcher, now Senior Researcher at University of Cambridge and Universidad Diego Portales.",
-    "link": ""
-  },
-  {
-    "name": "Samuel Noorman",
-    "role": "Former PhD Candidate",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "samuel-noorman",
-    "image": "",
-    "bio": "Former PhD candidate studying predictive processing and conscious perception.",
-    "link": ""
-  },
-  {
-    "name": "Philippa Johnson",
-    "role": "Former Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "philippa-johnson",
-    "image": "",
-    "bio": "Former researcher at the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Josipa Alilovi\u0107",
+    "name": "Josipa Alilović",
     "role": "Former PhD Candidate",
     "status": "alumni",
     "category": "alumni",
     "slug": "josipa-alilovic",
-    "image": "",
+    "image": "/assets/images/alumni/josipa_alilovic.jpg",
     "bio": "Former PhD candidate investigating neural oscillations and temporal dynamics of consciousness.",
-    "link": ""
-  },
-  {
-    "name": "Lucia Puppo",
-    "role": "Former Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "lucia-puppo",
-    "image": "",
-    "bio": "Former researcher at the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Valeria Mongelli",
-    "role": "Former Postdoctoral Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "valeria-mongelli",
-    "image": "",
-    "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",
-    "link": ""
-  },
-  {
-    "name": "Shady Guertin-Lahoud",
-    "role": "Former Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "shady-guertin-lahoud",
-    "image": "",
-    "bio": "Former research assistant at the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Nutsa Nanuashvili",
-    "role": "Former Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "nutsa-nanuashvili",
-    "image": "",
-    "bio": "Former researcher in the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Camile Correa",
-    "role": "Former Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "camile-correa",
-    "image": "",
-    "bio": "Former researcher studying psychophysics and consciousness.",
-    "link": ""
-  },
-  {
-    "name": "Erik Meijs",
-    "role": "Former Postdoctoral Researcher",
-    "status": "alumni",
-    "category": "alumni",
-    "slug": "erik-meijs",
-    "image": "",
-    "bio": "Former postdoctoral researcher, now at Donders Institute for Brain, Cognition and Behaviour.",
     "link": ""
   },
   {
@@ -245,8 +155,28 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "jun-jiang",
-    "image": "",
+    "image": "/assets/images/alumni/jun_jiang.jpg",
     "bio": "Former postdoctoral fellow researching visual consciousness and neural representations.",
+    "link": ""
+  },
+  {
+    "name": "Lucia Puppo",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "lucia-puppo",
+    "image": "/assets/images/alumni/lucia_puppo.jpg",
+    "bio": "Former researcher at the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Matthew Weaver",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "matthew-weaver",
+    "image": "/assets/images/alumni/matthew_weaver.jpg",
+    "bio": "Former postdoctoral fellow researching visual attention and unconscious information processing.",
     "link": ""
   },
   {
@@ -260,12 +190,82 @@
     "link": ""
   },
   {
+    "name": "Nicolás Sánchez-Fuenzalida",
+    "role": "Former PhD Candidate & Postdoc",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "nicolas-sanchez-fuenzalida",
+    "image": "/assets/images/nicolas_sanchez.jpg",
+    "bio": "Former PhD candidate and postdoc at Conscious Brain Lab. Researched perceptual vs response biases and Bayesian single-subject methods for conscious experience (published in Nature Communications).",
+    "link": ""
+  },
+  {
+    "name": "Nutsa Nanuashvili",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "nutsa-nanuashvili",
+    "image": "/assets/images/alumni/nutsa_nanuashvili.jpg",
+    "bio": "Former researcher in the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Philippa Johnson",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "philippa-johnson",
+    "image": "/assets/images/alumni/philippa_johnson.jpg",
+    "bio": "Former researcher at the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Samuel Noorman",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "samuel-noorman",
+    "image": "/assets/images/alumni/samuel_noorman.jpg",
+    "bio": "Former PhD candidate studying predictive processing and conscious perception.",
+    "link": ""
+  },
+  {
+    "name": "Shady Guertin-Lahoud",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "shady-guertin-lahoud",
+    "image": "/assets/images/alumni/shady_guertin_lahoud.jpg",
+    "bio": "Former research assistant at the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Stijn Nuiten",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "stijn-nuiten",
+    "image": "/assets/images/stijn_nuiten.jpg",
+    "bio": "Former PhD candidate in the Conscious Brain Lab. Researched pupil-linked arousal, V1 interneuron baseline activity, and visual awareness.",
+    "link": ""
+  },
+  {
+    "name": "Valeria Mongelli",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "valeria-mongelli",
+    "image": "/assets/images/alumni/valeria_mongelli.jpg",
+    "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",
+    "link": ""
+  },
+  {
     "name": "Youval Schnapper",
     "role": "Former Researcher",
     "status": "alumni",
     "category": "alumni",
     "slug": "youval-schnapper",
-    "image": "",
+    "image": "/assets/images/alumni/youval_schnapper.jpg",
     "bio": "Former researcher in cognitive neuroscience and behavioral modeling.",
     "link": ""
   }

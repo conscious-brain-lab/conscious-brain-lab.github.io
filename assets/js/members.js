@@ -13,7 +13,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   const filterBtns = document.querySelectorAll('.member-filter-btn');
 
   try {
-    const res = await fetch('/data/members.json');
+    const res = await fetch('/data/members.json?t=' + Date.now(), {
+      cache: 'no-cache',
+      headers: { 'Cache-Control': 'no-cache' }
+    });
     if (!res.ok) throw new Error('Failed to load members data');
     allMembers = await res.json();
     renderMembers();
@@ -31,14 +34,41 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  function setRoleFilter(role, updateHash = true) {
+    activeRole = role;
+    filterBtns.forEach(b => {
+      if (b.dataset.role === role) {
+        b.classList.add('active');
+      } else {
+        b.classList.remove('active');
+      }
+    });
+    if (updateHash && window.location.hash !== '#' + role) {
+      if (role === 'all') {
+        history.replaceState(null, '', window.location.pathname);
+      } else {
+        history.replaceState(null, '', '#' + role);
+      }
+    }
+    renderMembers();
+  }
+
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeRole = btn.dataset.role;
-      renderMembers();
+      setRoleFilter(btn.dataset.role);
     });
   });
+
+  function checkHash() {
+    const rawHash = window.location.hash.replace('#', '').toLowerCase();
+    if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
+      setRoleFilter(rawHash, false);
+    }
+  }
+
+  // Listen to hash changes (e.g. from top nav dropdown clicks)
+  window.addEventListener('hashchange', checkHash);
+  checkHash();
 });
 
 function filterMembersList() {
@@ -47,6 +77,8 @@ function filterMembersList() {
     if (activeRole !== 'all') {
       if (activeRole === 'pi') {
         matchesRole = m.category === 'pi';
+      } else if (activeRole === 'current') {
+        matchesRole = m.status === 'current';
       } else if (activeRole === 'postdoc') {
         matchesRole = m.category === 'postdoc' && m.status !== 'alumni';
       } else if (activeRole === 'phd') {
@@ -90,7 +122,8 @@ function renderMembers() {
     // Render actual image if available
     let avatarHtml;
     if (m.image) {
-      avatarHtml = `<img src="${m.image}" alt="${m.name}" loading="lazy" style="width:100%; height:100%; object-fit:cover; border-radius:50%;" onerror="this.style.display='none'; this.parentElement.innerText='${initial}';" />`;
+      const srcWithVersion = m.image + (m.image.includes('?') ? '&' : '?') + 'v=3';
+      avatarHtml = `<img src="${srcWithVersion}" alt="${m.name}" loading="lazy" style="width:100%; height:100%; object-fit:cover; border-radius:50%;" onerror="this.style.display='none'; this.parentElement.innerText='${initial}';" />`;
     } else {
       avatarHtml = `<div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--brand-gradient); color:#fff; font-weight:700; font-size:2rem; border-radius:50%;">${initial}</div>`;
     }

@@ -1,5 +1,6 @@
+local_backend: true
 backend:
-  name: github
+  name: git-gateway
   repo: conscious-brain-lab/website
   branch: main
 
@@ -7,58 +8,93 @@ media_folder: "assets/images"
 public_folder: "/assets/images"
 
 collections:
-  - name: "content_data"
-    label: "Lab Content & Data"
-    files:
-      - name: "publications"
-        label: "Publications & Preprints"
-        file: "data/publications.json"
-        description: "Manage scientific papers, preprints, DOIs, and BibTeX entries."
-        fields:
-          - label: "Publications List"
-            name: "publications"
-            widget: "list"
-            fields:
-              - { label: "Citation Text", name: "citation", widget: "text" }
-              - { label: "Year", name: "year", widget: "string" }
-              - { label: "Year Group / Section", name: "year_group", widget: "string", default: "2026" }
-              - { label: "Research Topics", name: "topics", widget: "list" }
-              - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false }
-              - { label: "Preprint URL", name: "preprint_url", widget: "string", required: false }
-              - { label: "Data & Code URL", name: "code_url", widget: "string", required: false }
-              - { label: "BibTeX", name: "bibtex", widget: "code", required: false }
+  - name: "members"
+    label: "Lab Members & Alumni"
+    label_singular: "Member"
+    folder: "content/members"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "name"
+    summary: "{{name}} ({{role}} - {{status}})"
+    fields:
+      - { label: "Full Name", name: "name", widget: "string" }
+      - { label: "Role / Position", name: "role", widget: "string" }
+      - { label: "Status", name: "status", widget: "select", options: [{label: "Current Lab Member", value: "current"}, {label: "Alumni", value: "alumni"}], default: "current" }
+      - { label: "Category", name: "category", widget: "select", options: [{label: "Principal Investigator", value: "pi"}, {label: "Postdoc", value: "postdoc"}, {label: "PhD Candidate", value: "phd"}, {label: "Alumni", value: "alumni"}], default: "phd" }
+      - { label: "URL Slug", name: "slug", widget: "string" }
+      - { label: "Photo", name: "image", widget: "image", required: false }
+      - { label: "Biography", name: "bio", widget: "text", required: false }
+      - { label: "External Profile URL (UvA / Google Scholar)", name: "link", widget: "string", required: false }
 
-      - name: "members"
-        label: "Lab Members & Alumni"
-        file: "data/members.json"
-        description: "Manage lab PIs, postdocs, PhD students, and alumni."
-        fields:
-          - label: "Members List"
-            name: "members"
-            widget: "list"
-            fields:
-              - { label: "Full Name", name: "name", widget: "string" }
-              - { label: "Role / Position", name: "role", widget: "string" }
-              - { label: "Status", name: "status", widget: "select", options: ["current", "alumni"], default: "current" }
-              - { label: "Category", name: "category", widget: "select", options: ["pi", "postdoc", "phd", "alumni"], default: "current" }
-              - { label: "Slug", name: "slug", widget: "string" }
-              - { label: "Photo", name: "image", widget: "image", required: false }
-              - { label: "Biography", name: "bio", widget: "text" }
-              - { label: "External Profile URL (UvA / Scholar)", name: "link", widget: "string", required: false }
+  - name: "publications"
+    label: "Publications & Preprints"
+    label_singular: "Publication"
+    folder: "content/publications"
+    create: true
+    format: "json"
+    slug: "{{id}}"
+    identifier_field: "citation"
+    summary: "({{year}}) {{citation}}"
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Full Citation Text", name: "citation", widget: "text" }
+      - { label: "Publication Year", name: "year", widget: "string" }
+      - { label: "Year Group / Section", name: "year_group", widget: "string", default: "2026" }
+      - label: "Research Topics"
+        name: "topics"
+        widget: "relation"
+        collection: "topics"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+      - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false }
+      - { label: "Preprint URL", name: "preprint_url", widget: "string", required: false }
+      - { label: "Data & Code URL", name: "code_url", widget: "string", required: false }
+      - { label: "BibTeX", name: "bibtex", widget: "text", required: false }
 
-      - name: "projects"
-        label: "Research Projects"
-        file: "data/projects.json"
-        fields:
-          - { label: "Page Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
+  - name: "topics"
+    label: "Research Topics & Tags"
+    label_singular: "Topic"
+    folder: "content/topics"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "name"
+    summary: "{{name}}"
+    fields:
+      - { label: "Topic Name", name: "name", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
 
-      - name: "news"
-        label: "News & Talks"
-        file: "data/news.json"
-        fields:
-          - label: "News Feed Items"
-            name: "news"
-            widget: "list"
-            fields:
-              - { label: "Announcement Text", name: "text", widget: "text" }
+  - name: "projects"
+    label: "Research Projects"
+    label_singular: "Project"
+    folder: "content/projects"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    summary: "{{title}} ({{tag}})"
+    fields:
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Core Pillar Tag", name: "tag", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Project Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+
+  - name: "news"
+    label: "News & Announcements"
+    label_singular: "News Item"
+    folder: "content/news"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{text}}"
+    fields:
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Announcement Text", name: "text", widget: "text" }
+      - { label: "Date / Note", name: "date", widget: "string", required: false }
+      - { label: "Image / Logo", name: "image", widget: "image", required: false }
+      - { label: "External Link", name: "link", widget: "string", required: false }
