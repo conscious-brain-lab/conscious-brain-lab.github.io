@@ -43,21 +43,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function filterMembersList() {
   return allMembers.filter(m => {
-    // Role / status filter
     let matchesRole = true;
     if (activeRole !== 'all') {
       if (activeRole === 'pi') {
-        matchesRole = m.role.toLowerCase().includes('principal investigator');
+        matchesRole = m.category === 'pi';
       } else if (activeRole === 'postdoc') {
-        matchesRole = m.role.toLowerCase().includes('postdoc') && m.status !== 'alumni';
+        matchesRole = m.category === 'postdoc' && m.status !== 'alumni';
       } else if (activeRole === 'phd') {
-        matchesRole = m.role.toLowerCase().includes('phd') && m.status !== 'alumni';
+        matchesRole = m.category === 'phd' && m.status !== 'alumni';
       } else if (activeRole === 'alumni') {
-        matchesRole = m.status === 'alumni';
+        matchesRole = m.status === 'alumni' || m.category === 'alumni';
       }
     }
 
-    // Search query matching
     let matchesSearch = true;
     if (memberSearchQuery) {
       const full = (m.name + ' ' + m.role + ' ' + m.bio).toLowerCase();
@@ -88,7 +86,14 @@ function renderMembers() {
     const isAlumni = m.status === 'alumni';
     const statusBadge = isAlumni ? '<span class="tag">Alumni</span>' : '<span class="tag tag-accent">Current Team</span>';
     const initial = m.name.charAt(0);
-    const avatarHtml = m.image ? `<img src="${m.image}" alt="${m.name}" loading="lazy" onerror="this.onerror=null; this.src=''; this.parentElement.innerText='${initial}';" />` : initial;
+    
+    // Render actual image if available
+    let avatarHtml;
+    if (m.image) {
+      avatarHtml = `<img src="${m.image}" alt="${m.name}" loading="lazy" style="width:100%; height:100%; object-fit:cover; border-radius:50%;" onerror="this.style.display='none'; this.parentElement.innerText='${initial}';" />`;
+    } else {
+      avatarHtml = `<div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--brand-gradient); color:#fff; font-weight:700; font-size:2rem; border-radius:50%;">${initial}</div>`;
+    }
 
     return `
       <article class="card member-card" id="member-${m.slug}">
@@ -119,7 +124,7 @@ function openBioModal(slug) {
   }
 
   const initial = member.name.charAt(0);
-  const avatarHtml = member.image ? `<img src="${member.image}" alt="${member.name}" style="width:100px; height:100px; border-radius:50%; object-fit:cover; border:2px solid var(--accent-light);" />` : `<div style="width:100px; height:100px; border-radius:50%; background:var(--brand-gradient); color:#fff; display:flex; align-items:center; justify-content:center; font-size:2rem; font-weight:700;">${initial}</div>`;
+  const avatarHtml = member.image ? `<img src="${member.image}" alt="${member.name}" style="width:100px; height:100px; border-radius:50%; object-fit:cover; border:3px solid var(--accent-light);" />` : `<div style="width:100px; height:100px; border-radius:50%; background:var(--brand-gradient); color:#fff; display:flex; align-items:center; justify-content:center; font-size:2rem; font-weight:700;">${initial}</div>`;
 
   modal.innerHTML = `
     <div class="modal-box">

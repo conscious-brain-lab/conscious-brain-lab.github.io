@@ -1,75 +1,64 @@
 backend:
   name: github
-  repo: conscious-brain-lab/website # Update with your lab GitHub repository (e.g. your-username/repo)
+  repo: conscious-brain-lab/website
   branch: main
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
 collections:
-  # 1. Publications Collection
-  - name: "publications"
-    label: "Publications"
-    file: "data/publications.json"
-    description: "Manage scientific peer-reviewed papers, preprints, and publications."
-    fields:
-      - label: "Publications List"
-        name: "publications"
-        widget: "list"
+  - name: "content_data"
+    label: "Lab Content & Data"
+    files:
+      - name: "publications"
+        label: "Publications & Preprints"
+        file: "data/publications.json"
+        description: "Manage scientific papers, preprints, DOIs, and BibTeX entries."
         fields:
-          - { label: "Citation Text", name: "citation", widget: "text" }
-          - { label: "Year", name: "year", widget: "string" }
-          - { label: "Year Group / Section", name: "year_group", widget: "string", default: "2026" }
-          - { label: "Research Topics", name: "topics", widget: "list", default: ["EEG", "Consciousness"] }
-          - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false }
-          - { label: "Preprint URL", name: "preprint_url", widget: "string", required: false }
-          - { label: "Data & Code URL", name: "code_url", widget: "string", required: false }
-          - { label: "BibTeX", name: "bibtex", widget: "code", required: false }
-
-  # 2. Team Members & Alumni
-  - name: "members"
-    label: "Lab Members & Alumni"
-    file: "data/members.json"
-    description: "Manage lab PIs, postdocs, PhD students, and alumni."
-    fields:
-      - label: "Members List"
-        name: "members"
-        widget: "list"
-        fields:
-          - { label: "Full Name", name: "name", widget: "string" }
-          - { label: "Role / Position", name: "role", widget: "string" }
-          - { label: "Status", name: "status", widget: "select", options: ["current", "alumni"], default: "current" }
-          - { label: "Slug", name: "slug", widget: "string" }
-          - { label: "Photo", name: "image", widget: "image", required: false }
-          - { label: "Biography", name: "bio", widget: "markdown" }
-          - { label: "External Profile URL (UvA / Scholar)", name: "link", widget: "string", required: false }
-
-  # 3. Research Projects
-  - name: "projects"
-    label: "Research Projects"
-    file: "data/projects.json"
-    fields:
-      - { label: "Page Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - label: "Project Paragraphs"
-        name: "paragraphs"
-        widget: "list"
-        field: { label: "Paragraph", name: "item", widget: "text" }
-
-  # 4. News & Talks
-  - name: "news"
-    label: "News & Talks"
-    file: "data/news.json"
-    fields:
-      - label: "News Feed Items"
-        name: "news"
-        widget: "list"
-        fields:
-          - { label: "Announcement Text", name: "text", widget: "text" }
-          - label: "Associated Links"
-            name: "links"
+          - label: "Publications List"
+            name: "publications"
             widget: "list"
-            required: false
             fields:
-              - { label: "Link Label", name: "label", widget: "string" }
-              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Citation Text", name: "citation", widget: "text" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Year Group / Section", name: "year_group", widget: "string", default: "2026" }
+              - { label: "Research Topics", name: "topics", widget: "list" }
+              - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false }
+              - { label: "Preprint URL", name: "preprint_url", widget: "string", required: false }
+              - { label: "Data & Code URL", name: "code_url", widget: "string", required: false }
+              - { label: "BibTeX", name: "bibtex", widget: "code", required: false }
+
+      - name: "members"
+        label: "Lab Members & Alumni"
+        file: "data/members.json"
+        description: "Manage lab PIs, postdocs, PhD students, and alumni."
+        fields:
+          - label: "Members List"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "Full Name", name: "name", widget: "string" }
+              - { label: "Role / Position", name: "role", widget: "string" }
+              - { label: "Status", name: "status", widget: "select", options: ["current", "alumni"], default: "current" }
+              - { label: "Category", name: "category", widget: "select", options: ["pi", "postdoc", "phd", "alumni"], default: "current" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Biography", name: "bio", widget: "text" }
+              - { label: "External Profile URL (UvA / Scholar)", name: "link", widget: "string", required: false }
+
+      - name: "projects"
+        label: "Research Projects"
+        file: "data/projects.json"
+        fields:
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+
+      - name: "news"
+        label: "News & Talks"
+        file: "data/news.json"
+        fields:
+          - label: "News Feed Items"
+            name: "news"
+            widget: "list"
+            fields:
+              - { label: "Announcement Text", name: "text", widget: "text" }

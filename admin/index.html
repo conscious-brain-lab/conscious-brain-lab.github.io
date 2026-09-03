@@ -3,12 +3,457 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager | Conscious Brain Lab</title>
-  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
-  <!-- Decap CMS Script -->
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <title>CMS Admin Portal | Conscious Brain Lab</title>
+  <link rel="icon" type="image/jpeg" href="/assets/images/cbl_logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .admin-layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: calc(100vh - 72px);
+      background: var(--bg-primary);
+    }
+    .admin-sidebar {
+      background: var(--bg-card);
+      border-right: 1px solid var(--border-color);
+      padding: 1.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .admin-sidebar-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      padding: 0.5rem 0.75rem;
+      margin-top: 0.5rem;
+    }
+    .admin-nav-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.65rem 0.85rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      width: 100%;
+      text-align: left;
+      transition: all var(--transition-fast);
+    }
+    .admin-nav-item:hover, .admin-nav-item.active {
+      background: var(--accent-light);
+      color: var(--accent-primary);
+    }
+    .admin-nav-item svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+    .admin-content {
+      padding: 2.5rem;
+      overflow-y: auto;
+      max-width: 1100px;
+    }
+    .admin-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .admin-item-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .admin-input-group {
+      margin-bottom: 1.25rem;
+    }
+    .admin-label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.4rem;
+    }
+    .admin-input, .admin-textarea, .admin-select {
+      width: 100%;
+      padding: 0.65rem 0.85rem;
+      font-size: 0.9rem;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      color: var(--text-primary);
+      outline: none;
+    }
+    .admin-input:focus, .admin-textarea:focus {
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+    @media (max-width: 850px) {
+      .admin-layout {
+        grid-template-columns: 1fr;
+      }
+      .admin-sidebar {
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+      }
+    }
+  </style>
 </head>
 <body>
-  <!-- Decap CMS will render the editor UI here -->
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="/" class="brand-logo-link">
+        <img src="/assets/images/cbl_logo.jpg" alt="Conscious Brain Lab" style="width: 38px; height: 38px; border-radius: 8px; object-fit: cover;" />
+        <span>Conscious Brain Lab <small style="font-size: 0.75rem; color: var(--accent-primary); font-weight: 600; margin-left: 0.5rem; background: var(--accent-light); padding: 2px 8px; border-radius: 4px;">CMS Admin</small></span>
+      </a>
+
+      <div class="header-actions">
+        <a href="/" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.4rem 0.85rem;">&larr; Return to Website</a>
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Admin Layout -->
+  <div class="admin-layout">
+    <aside class="admin-sidebar">
+      <div class="admin-sidebar-title">Collections</div>
+      <button class="admin-nav-item active" data-tab="publications">
+        <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+        <span>Publications (<span id="count-pubs">...</span>)</span>
+      </button>
+      <button class="admin-nav-item" data-tab="members">
+        <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        <span>Team & Alumni (<span id="count-members">...</span>)</span>
+      </button>
+      <button class="admin-nav-item" data-tab="projects">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+        <span>Research Projects</span>
+      </button>
+      <button class="admin-nav-item" data-tab="news">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/></svg>
+        <span>News & Talks</span>
+      </button>
+
+      <div class="admin-sidebar-title" style="margin-top: 2rem;">Decap Git Backend</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted); padding: 0.5rem 0.75rem; line-height: 1.5;">
+        Connected to GitHub Pages repository. Click "Download JSON" or commit changes to deploy automatically.
+      </div>
+    </aside>
+
+    <main class="admin-content">
+      <!-- 1. Publications Manager -->
+      <section id="tab-publications" class="admin-tab-content">
+        <div class="admin-top-bar">
+          <div>
+            <h2>Manage Publications</h2>
+            <p style="margin: 0; color: var(--text-muted);">Add, edit, and organize peer-reviewed papers and preprints.</p>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <button class="btn btn-secondary" onclick="exportData('publications')">Export JSON</button>
+            <button class="btn btn-primary" onclick="openNewPubModal()">+ Add Publication</button>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <input type="text" id="admin-pub-search" class="admin-input" placeholder="Quick search publications by author, title, or year..." oninput="filterAdminPubs(this.value)" />
+        </div>
+
+        <div id="admin-pubs-list">
+          <!-- Rendered via JS -->
+        </div>
+      </section>
+
+      <!-- 2. Members Manager -->
+      <section id="tab-members" class="admin-tab-content" style="display: none;">
+        <div class="admin-top-bar">
+          <div>
+            <h2>Manage Lab Members & Alumni</h2>
+            <p style="margin: 0; color: var(--text-muted);">Update member bios, photos, roles, and alumni categorization.</p>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <button class="btn btn-secondary" onclick="exportData('members')">Export JSON</button>
+            <button class="btn btn-primary" onclick="openNewMemberModal()">+ Add Member</button>
+          </div>
+        </div>
+
+        <div id="admin-members-list">
+          <!-- Rendered via JS -->
+        </div>
+      </section>
+
+      <!-- 3. Projects Manager -->
+      <section id="tab-projects" class="admin-tab-content" style="display: none;">
+        <div class="admin-top-bar">
+          <div>
+            <h2>Manage Research Projects</h2>
+            <p style="margin: 0; color: var(--text-muted);">Update project descriptions and themes.</p>
+          </div>
+          <button class="btn btn-secondary" onclick="exportData('projects')">Export JSON</button>
+        </div>
+        <div id="admin-projects-list">
+          <!-- Rendered via JS -->
+        </div>
+      </section>
+
+      <!-- 4. News Manager -->
+      <section id="tab-news" class="admin-tab-content" style="display: none;">
+        <div class="admin-top-bar">
+          <div>
+            <h2>Manage News & Talks</h2>
+            <p style="margin: 0; color: var(--text-muted);">Post conference talks, announcements, and media appearances.</p>
+          </div>
+          <button class="btn btn-secondary" onclick="exportData('news')">Export JSON</button>
+        </div>
+        <div id="admin-news-list">
+          <!-- Rendered via JS -->
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Global Modal for Add / Edit -->
+  <div id="admin-modal" class="modal-overlay">
+    <div class="modal-box" style="max-width: 700px;">
+      <div class="modal-header">
+        <h3 id="admin-modal-title" class="modal-title">Edit Entry</h3>
+        <button class="modal-close-btn" onclick="closeAdminModal()">&times;</button>
+      </div>
+      <div id="admin-modal-body"></div>
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.5rem;">
+        <button class="btn btn-secondary" onclick="closeAdminModal()">Cancel</button>
+        <button class="btn btn-primary" id="admin-modal-save-btn">Save Changes</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/main.js"></script>
+  <script>
+    let adminPubs = [];
+    let adminMembers = [];
+    let adminProjects = {};
+    let adminNews = [];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Setup tabs
+      document.querySelectorAll('.admin-nav-item').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.admin-nav-item').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('.admin-tab-content').forEach(c => c.style.display = 'none');
+          btn.classList.add('active');
+          const tabId = 'tab-' + btn.dataset.tab;
+          const target = document.getElementById(tabId);
+          if (target) target.style.display = 'block';
+        });
+      });
+
+      // Load data
+      try {
+        const [pRes, mRes, prRes, nRes] = await Promise.all([
+          fetch('/data/publications.json'),
+          fetch('/data/members.json'),
+          fetch('/data/projects.json'),
+          fetch('/data/news.json')
+        ]);
+        adminPubs = await pRes.json();
+        adminMembers = await mRes.json();
+        adminProjects = await prRes.json();
+        adminNews = await nRes.json();
+
+        document.getElementById('count-pubs').innerText = adminPubs.length;
+        document.getElementById('count-members').innerText = adminMembers.length;
+
+        renderAdminPubs(adminPubs);
+        renderAdminMembers(adminMembers);
+        renderAdminProjects(adminProjects);
+        renderAdminNews(adminNews);
+      } catch (err) {
+        console.error("Error loading data:", err);
+      }
+    });
+
+    function renderAdminPubs(list) {
+      const container = document.getElementById('admin-pubs-list');
+      container.innerHTML = list.slice(0, 40).map(p => `
+        <div class="admin-item-card">
+          <div style="flex: 1;">
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 0.35rem;">
+              <span class="tag tag-accent">${p.year_group || p.year}</span>
+              ${(p.topics || []).map(t => `<span class="tag">${t}</span>`).join(' ')}
+            </div>
+            <div style="font-size: 0.95rem; font-weight: 500; color: var(--text-primary); line-height: 1.5;">${p.citation}</div>
+          </div>
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-secondary" style="padding: 0.35rem 0.75rem; font-size: 0.8rem;" onclick="editPub('${p.id}')">Edit</button>
+          </div>
+        </div>
+      `).join('') + (list.length > 40 ? `<p style="text-align: center; color: var(--text-muted); margin-top: 1rem;">Showing first 40 of ${list.length} publications. Use search to filter.</p>` : '');
+    }
+
+    function filterAdminPubs(query) {
+      const q = query.toLowerCase().trim();
+      const filtered = adminPubs.filter(p => (p.citation + ' ' + p.year).toLowerCase().includes(q));
+      renderAdminPubs(filtered);
+    }
+
+    function renderAdminMembers(list) {
+      const container = document.getElementById('admin-members-list');
+      container.innerHTML = list.map(m => `
+        <div class="admin-item-card">
+          <div style="display: flex; gap: 1rem; align-items: center; flex: 1;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; overflow: hidden; background: var(--accent-light); flex-shrink: 0;">
+              ${m.image ? `<img src="${m.image}" alt="${m.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'" />` : `<div style="display:flex;align-items:center;justify-content:center;height:100%;font-weight:700;">${m.name.charAt(0)}</div>`}
+            </div>
+            <div>
+              <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.2rem;">
+                <h4 style="margin: 0; font-size: 1.05rem;">${m.name}</h4>
+                <span class="tag ${m.status === 'alumni' ? '' : 'tag-accent'}">${m.status.toUpperCase()}</span>
+                <span class="tag">${m.category ? m.category.toUpperCase() : 'MEMBER'}</span>
+              </div>
+              <div style="font-size: 0.85rem; color: var(--accent-primary); font-weight: 600;">${m.role}</div>
+            </div>
+          </div>
+          <button class="btn btn-secondary" style="padding: 0.35rem 0.75rem; font-size: 0.8rem;" onclick="editMember('${m.slug}')">Edit</button>
+        </div>
+      `).join('');
+    }
+
+    function renderAdminProjects(proj) {
+      const container = document.getElementById('admin-projects-list');
+      container.innerHTML = `
+        <div class="admin-item-card" style="flex-direction: column;">
+          <h3 style="margin-bottom: 0.5rem;">${proj.title || 'Research Projects'}</h3>
+          <p style="color: var(--text-secondary);">${proj.description || ''}</p>
+          <div style="margin-top: 1rem; width: 100%;">
+            <h4>Project Themes (${(proj.paragraphs || []).length}):</h4>
+            <ol style="margin-left: 1.5rem; margin-top: 0.5rem; color: var(--text-secondary); line-height: 1.8;">
+              ${(proj.paragraphs || []).map(p => `<li>${p}</li>`).join('')}
+            </ol>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderAdminNews(list) {
+      const container = document.getElementById('admin-news-list');
+      container.innerHTML = list.map((n, idx) => `
+        <div class="admin-item-card">
+          <div style="flex: 1;">
+            <p style="margin: 0; color: var(--text-primary);">${n.text}</p>
+          </div>
+          <button class="btn btn-secondary" style="padding: 0.35rem 0.75rem; font-size: 0.8rem;">Edit</button>
+        </div>
+      `).join('');
+    }
+
+    function exportData(type) {
+      let dataStr;
+      let fname;
+      if (type === 'publications') {
+        dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(adminPubs, null, 2));
+        fname = "publications.json";
+      } else if (type === 'members') {
+        dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(adminMembers, null, 2));
+        fname = "members.json";
+      } else if (type === 'projects') {
+        dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(adminProjects, null, 2));
+        fname = "projects.json";
+      } else if (type === 'news') {
+        dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(adminNews, null, 2));
+        fname = "news.json";
+      }
+      const dlAnchor = document.createElement('a');
+      dlAnchor.setAttribute("href", dataStr);
+      dlAnchor.setAttribute("download", fname);
+      document.body.appendChild(dlAnchor);
+      dlAnchor.click();
+      dlAnchor.remove();
+      showToast(`Exported ${fname}! Place it in your data/ folder.`);
+    }
+
+    function closeAdminModal() {
+      document.getElementById('admin-modal').classList.remove('open');
+    }
+
+    function editMember(slug) {
+      const m = adminMembers.find(item => item.slug === slug);
+      if (!m) return;
+      document.getElementById('admin-modal-title').innerText = `Edit ${m.name}`;
+      document.getElementById('admin-modal-body').innerHTML = `
+        <div class="admin-input-group">
+          <label class="admin-label">Full Name</label>
+          <input type="text" id="m-name" class="admin-input" value="${escapeHtml(m.name)}" />
+        </div>
+        <div class="admin-input-group">
+          <label class="admin-label">Role</label>
+          <input type="text" id="m-role" class="admin-input" value="${escapeHtml(m.role)}" />
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="admin-input-group">
+            <label class="admin-label">Status</label>
+            <select id="m-status" class="admin-select">
+              <option value="current" ${m.status === 'current' ? 'selected' : ''}>Current Lab Member</option>
+              <option value="alumni" ${m.status === 'alumni' ? 'selected' : ''}>Alumni</option>
+            </select>
+          </div>
+          <div class="admin-input-group">
+            <label class="admin-label">Category</label>
+            <select id="m-category" class="admin-select">
+              <option value="pi" ${m.category === 'pi' ? 'selected' : ''}>Principal Investigator</option>
+              <option value="postdoc" ${m.category === 'postdoc' ? 'selected' : ''}>Postdoc</option>
+              <option value="phd" ${m.category === 'phd' ? 'selected' : ''}>PhD Candidate</option>
+              <option value="alumni" ${m.category === 'alumni' ? 'selected' : ''}>Alumni</option>
+            </select>
+          </div>
+        </div>
+        <div class="admin-input-group">
+          <label class="admin-label">Photo Path / URL</label>
+          <input type="text" id="m-image" class="admin-input" value="${escapeHtml(m.image || '')}" />
+        </div>
+        <div class="admin-input-group">
+          <label class="admin-label">Biography</label>
+          <textarea id="m-bio" class="admin-textarea" rows="5">${escapeHtml(m.bio || '')}</textarea>
+        </div>
+      `;
+      document.getElementById('admin-modal-save-btn').onclick = () => {
+        m.name = document.getElementById('m-name').value;
+        m.role = document.getElementById('m-role').value;
+        m.status = document.getElementById('m-status').value;
+        m.category = document.getElementById('m-category').value;
+        m.image = document.getElementById('m-image').value;
+        m.bio = document.getElementById('m-bio').value;
+        renderAdminMembers(adminMembers);
+        closeAdminModal();
+        showToast(`Saved changes for ${m.name}!`);
+      };
+      document.getElementById('admin-modal').classList.add('open');
+    }
+
+    function escapeHtml(str) {
+      return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+  </script>
 </body>
 </html>

@@ -1,17 +1,19 @@
 /**
  * Publications Interactive Module
- * Real-time Search, Year/Topic Filtering, BibTeX Modal & Citation Copy
+ * Real-time Search, Year/Topic Filtering, Sort Order Toggle (Newest First / Oldest First),
+ * BibTeX Modal & Citation Copy
  */
 
 let allPublications = [];
 let activeYear = 'all';
 let activeTopic = 'all';
 let searchQuery = '';
+let sortOrder = 'newest'; // 'newest' (default) or 'oldest'
 
 document.addEventListener('DOMContentLoaded', async () => {
   const container = document.getElementById('publications-container');
   const searchInput = document.getElementById('pub-search-input');
-  const countBadge = document.getElementById('pub-count-badge');
+  const sortBtn = document.getElementById('pub-sort-btn');
   const yearPills = document.querySelectorAll('.year-pill');
   const topicPills = document.querySelectorAll('.topic-pill');
 
@@ -34,6 +36,30 @@ document.addEventListener('DOMContentLoaded', async () => {
       searchQuery = e.target.value.toLowerCase().trim();
       renderPublications();
     });
+  }
+
+  // Sort toggle handler
+  if (sortBtn) {
+    sortBtn.addEventListener('click', () => {
+      sortOrder = sortOrder === 'newest' ? 'oldest' : 'newest';
+      updateSortButtonText();
+      renderPublications();
+    });
+  }
+
+  function updateSortButtonText() {
+    if (!sortBtn) return;
+    if (sortOrder === 'newest') {
+      sortBtn.innerHTML = `
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"/></svg>
+        <span>Sort: Newest First &darr;</span>
+      `;
+    } else {
+      sortBtn.innerHTML = `
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 18h18v-2H3v2zm0-5h12v-2H3v2zm0-7v2h6V6H3z"/></svg>
+        <span>Sort: Oldest First &uarr;</span>
+      `;
+    }
   }
 
   // Year filter handlers
@@ -63,12 +89,12 @@ function filterPublications() {
     let matchesYear = true;
     if (activeYear !== 'all') {
       if (activeYear === 'preprint') {
-        matchesYear = pub.year_group.toLowerCase().includes('rxiv') || pub.year_group.toLowerCase().includes('submitted');
+        matchesYear = (pub.year_group || '').toLowerCase().includes('rxiv') || (pub.year_group || '').toLowerCase().includes('submitted');
       } else if (activeYear === 'older') {
         const y = parseInt(pub.year, 10);
         matchesYear = !isNaN(y) && y <= 2018;
       } else {
-        matchesYear = pub.year === activeYear || pub.year_group.includes(activeYear);
+        matchesYear = pub.year === activeYear || (pub.year_group && pub.year_group.includes(activeYear));
       }
     }
 
@@ -109,16 +135,42 @@ function renderPublications() {
     return;
   }
 
-  // Group by year / year_group
-  const groups = {};
+  // Helper to get numeric weight for sorting
+  function getYearWeight(yearGroupStr, yearStr) {
+    const s = (yearGroupStr || yearStr || '').toLowerCase();
+    if (s.includes('rxiv') || s.includes('submitted') || s.includes('preprint')) {
+      return 9999;
+    }
+    const num = parseInt(yearStr || yearGroupStr, 10);
+    return isNaN(num) ? 0 : num;
+  }
+
+  // Group by year / year_group using an ordered Map (prevents JS numeric key auto-sort bug)
+  const groupMap = new Map();
   filtered.forEach(pub => {
     const groupName = pub.year_group || pub.year || 'Other';
-    if (!groups[groupName]) groups[groupName] = [];
-    groups[groupName].push(pub);
+    if (!groupMap.has(groupName)) {
+      groupMap.set(groupName, []);
+    }
+    groupMap.get(groupName).push(pub);
+  });
+
+  // Convert to array of [groupName, pubs]
+  let sortedGroups = Array.from(groupMap.entries());
+
+  // Sort groups by year weight (Default: Newest First)
+  sortedGroups.sort((a, b) => {
+    const weightA = getYearWeight(a[0], a[1][0]?.year);
+    const weightB = getYearWeight(b[0], b[1][0]?.year);
+    if (sortOrder === 'newest') {
+      return weightB - weightA;
+    } else {
+      return weightA - weightB;
+    }
   });
 
   let html = '';
-  for (const [groupName, pubs] of Object.entries(groups)) {
+  for (const [groupName, pubs] of sortedGroups) {
     html += `
       <div class="pub-year-group">
         <h3 class="pub-year-heading">
@@ -129,7 +181,6 @@ function renderPublications() {
     `;
 
     pubs.forEach(pub => {
-      // Build badges
       const topicBadges = (pub.topics || []).map(t => `<span class="tag tag-accent">${t}</span>`).join(' ');
       
       let linkButtons = '';
@@ -173,7 +224,6 @@ function renderPublications() {
 }
 
 function formatCitation(text) {
-  // Highlight authors if known
   return text
     .replace(/(van Gaal, S\.|Fahrenfort, J\.J\.|Stein, T\.)/g, '<strong>$1</strong>');
 }

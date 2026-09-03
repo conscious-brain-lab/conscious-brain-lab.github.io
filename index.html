@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conscious Brain Lab | University of Amsterdam</title>
   <meta name="description" content="Conscious Brain Lab investigates the neural correlates of consciousness, cognitive control, perception, and subjective experience using EEG, fMRI, MEG, and computational modeling.">
-  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+  <link rel="icon" type="image/jpeg" href="./assets/images/cbl_logo.jpg">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,13 +19,7 @@
   <header class="site-header">
     <div class="container header-container">
       <a href="./" class="brand-logo-link">
-        <div class="brand-icon">
-          <svg viewBox="0 0 100 100">
-            <path d="M30 45 C30 35, 42 25, 50 25 C58 25, 70 35, 70 45 C70 52, 65 58, 60 62 C58 64, 55 68, 55 75 L45 75 C45 68, 42 64, 40 62 C35 58, 30 52, 30 45 Z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="50" cy="45" r="6" fill="#ffffff" />
-            <path d="M42 38 Q50 32 58 38" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
-          </svg>
-        </div>
+        <img src="./assets/images/cbl_logo.jpg" alt="Conscious Brain Lab Logo" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" />
         <span>Conscious Brain Lab</span>
       </a>
 
@@ -83,7 +77,7 @@
         <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
           <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
         </button>
-        <a href="./admin/" class="btn-admin" title="Open Decap CMS visual editor">
+        <a href="./admin/" class="btn-admin" title="Open visual CMS admin editor">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
           Admin CMS
         </a>
@@ -93,33 +87,33 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
-    <section class="hero-section">
+    <!-- Hero Section with Starry Background -->
+    <section class="hero-section" style="background: linear-gradient(180deg, rgba(15, 23, 42, 0.78) 0%, rgba(15, 23, 42, 0.94) 100%), url('/assets/images/starry_bg.jpg') center / cover no-repeat; color: #ffffff; padding: 5rem 0 4rem;">
       <div class="container">
-        <div class="hero-badge">
-          <span>🧠 Cognitive Neuroscience & Consciousness Research</span>
+        <div class="hero-badge" style="background: rgba(14, 165, 233, 0.2); border-color: rgba(56, 189, 248, 0.4); color: #38bdf8;">
+          <span>🧠 Cognitive Neuroscience &amp; Consciousness Research</span>
         </div>
-        <h1 class="hero-title">
+        <h1 class="hero-title" style="color: #ffffff; max-width: 850px;">
           Unraveling the Neural Mysteries of <span class="gradient-text">Conscious Experience</span>
         </h1>
-        <p class="hero-description">
+        <p class="hero-description" style="color: #cbd5e1; max-width: 820px; font-size: 1.15rem;">
           While you are reading these words, the electrochemical activity of billions of nerve cells is generating a conscious experience of these words: right now. But how do all those interconnected cells in your brain do that? Answering this question is the ultimate intellectual challenge for members of the <strong>Conscious Brain Lab</strong>.
         </p>
         <div class="hero-cta-group">
           <a href="./projects/" class="btn btn-primary">Explore Research Projects &rarr;</a>
-          <a href="./publications/" class="btn btn-secondary">Browse Publications</a>
-          <a href="./proefkonijnen/" class="btn btn-secondary">Deelname aan Onderzoek (NL)</a>
+          <a href="./publications/" class="btn btn-secondary" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">Browse Publications</a>
+          <a href="./proefkonijnen/" class="btn btn-secondary" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">Deelname aan Onderzoek (NL)</a>
         </div>
       </div>
     </section>
 
-    <!-- Institutional Partners Bar -->
+    <!-- Institutional Partners Bar with Real VU & UvA Logos -->
     <section class="funder-bar">
       <div class="container funder-bar-inner">
-        <span class="funder-label">Supported By & Affiliated With</span>
-        <div class="funder-logos">
-          <span class="funder-badge">🏛️ University of Amsterdam (UvA)</span>
-          <span class="funder-badge">🏛️ Vrije Universiteit Amsterdam (VU)</span>
+        <span class="funder-label">Supported By &amp; Affiliated With</span>
+        <div class="funder-logos" style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+          <img src="/assets/images/uva_logo.png" alt="Universiteit van Amsterdam (UvA)" style="height: 38px; object-fit: contain;" />
+          <img src="/assets/images/vu_logo.jpg" alt="Vrije Universiteit Amsterdam (VU)" style="height: 34px; object-fit: contain; border-radius: 4px;" />
           <span class="funder-badge">🇪🇺 European Research Council (ERC)</span>
           <span class="funder-badge">🇳🇱 Dutch Research Council (NWO)</span>
           <span class="funder-badge">🔬 Spinoza Centre for Neuroimaging</span>
@@ -127,173 +121,144 @@
       </div>
     </section>
 
-    <!-- Research Pillars Section -->
+    <!-- YouTube Multimedia Video Section: Understanding Consciousness Animation -->
+    <section class="section-padding" style="background: var(--bg-tertiary);">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 800px; margin: 0 auto 2.5rem;">
+          <span class="section-subtitle">Multimedia &amp; Outreach</span>
+          <h2 class="section-title">Understanding Consciousness</h2>
+          <p class="section-intro">Watch our recent animation explaining how cognitive neuroscience investigates the emergence of subjective awareness from neural circuitry.</p>
+        </div>
+
+        <div style="max-width: 880px; margin: 0 auto;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); background: #000;">
+            <iframe 
+              src="https://www.youtube.com/embed/rqIEIMXOwHk" 
+              title="Understanding Consciousness | University of Amsterdam | Brain &amp; Cognition" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen 
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">
+            </iframe>
+          </div>
+          <p style="text-align: center; font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem;">
+            Educational animation produced by the Conscious Brain Lab &amp; University of Amsterdam Brain &amp; Cognition department.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infographic Section -->
     <section class="section-padding">
       <div class="container">
         <div class="section-header">
-          <span class="section-subtitle">Core Pillars</span>
-          <h2 class="section-title">How We Investigate the Conscious Mind</h2>
-          <p class="section-intro">We combine state-of-the-art neuroimaging paradigms, computational modeling, and clinical partnerships to decipher how subjective experience emerges.</p>
+          <span class="section-subtitle">Research Framework</span>
+          <h2 class="section-title">Our Scientific Architecture</h2>
+          <p class="section-intro">How we combine psychophysics, electrophysiology, neuropharmacology, and computational modeling to dissect consciousness.</p>
         </div>
 
-        <div class="grid-3">
-          <div class="card">
-            <div class="card-icon-box">⚡</div>
-            <h3 class="card-title">Conscious vs Unconscious Processing</h3>
-            <p class="card-description">Using visual psychophysics, backward masking, continuous flash suppression, and attentional blink to pinpoint the exact temporal and spatial neural signatures of conscious awareness.</p>
-            <div class="card-tag-list">
-              <span class="tag tag-accent">High-Density EEG</span>
-              <span class="tag tag-accent">7T fMRI</span>
-              <span class="tag">Psychophysics</span>
-            </div>
+        <div class="grid-2" style="align-items: center; gap: 3rem;">
+          <div class="card" style="padding: 0.75rem; overflow: hidden; border-radius: var(--radius-lg);">
+            <img src="/assets/images/infographic_erc.jpg" alt="Conscious Brain Lab Research Infographic" style="width: 100%; border-radius: var(--radius-md);" />
           </div>
-
-          <div class="card">
-            <div class="card-icon-box">🎯</div>
-            <h3 class="card-title">Cognitive Control & Decision Making</h3>
-            <p class="card-description">Exploring how confidence, perceptual bias, and criterion setting interact with conscious awareness using formal Bayesian computational modeling and signal detection theory.</p>
-            <div class="card-tag-list">
-              <span class="tag tag-accent">Bayesian Modeling</span>
-              <span class="tag tag-accent">Metacognition</span>
-              <span class="tag">Decision Theory</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-icon-box">🏥</div>
-            <h3 class="card-title">Disorders of Consciousness</h3>
-            <p class="card-description">Applying consciousness paradigms to clinical questions: understanding what happens during sleep, general anesthesia, and in patients with unresponsive wakefulness syndrome at Amsterdam UMC.</p>
-            <div class="card-tag-list">
-              <span class="tag tag-accent">Amsterdam UMC</span>
-              <span class="tag tag-accent">Anesthesia</span>
-              <span class="tag">Clinical EEG</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-icon-box">🧪</div>
-            <h3 class="card-title">Neuropharmacology & Neuromodulation</h3>
-            <p class="card-description">ERC-funded pharmacological interventions (GABAergic, NMDA, cholinergic agonists) combined with neuroimaging to establish causal neural mechanisms of subjective states.</p>
-            <div class="card-tag-list">
-              <span class="tag tag-accent">ERC Grant</span>
-              <span class="tag tag-accent">Pharmacology</span>
-              <span class="tag">MEG</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-icon-box">🌀</div>
-            <h3 class="card-title">Hypnosis & Cognitive Penetration</h3>
-            <p class="card-description">Investigating how hypnosis alters sensations and overrides automatic information processing, determining the cortical depth at which top-down control modulates perception.</p>
-            <div class="card-tag-list">
-              <span class="tag tag-accent">Top-Down Control</span>
-              <span class="tag tag-accent">Sensory Inhibition</span>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-icon-box">🛠️</div>
-            <h3 class="card-title">Open Science & ADAM Toolbox</h3>
-            <p class="card-description">Developing and maintaining open-source tools for multivariate EEG/MEG decoding (ADAM Toolbox) and sharing open datasets with the global neuroscience community.</p>
-            <div class="card-tag-list">
-              <span class="tag tag-accent">ADAM Toolbox</span>
-              <span class="tag tag-accent">MATLAB / Python</span>
-              <span class="tag">Open Data</span>
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Multimodal Investigation of the Mind</h3>
+            <p style="line-height: 1.8; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              We are hosted at the <strong>University of Amsterdam</strong> (Simon van Gaal) and the <strong>Vrije Universiteit Amsterdam</strong> (Johannes Fahrenfort). Our projects probe subjective experience across multiple scales—from interneuron baseline firing rates to large-scale frontoparietal networks.
+            </p>
+            <p style="line-height: 1.8; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Combining high-density EEG with decoding toolboxes (such as the lab's open-source <strong>ADAM toolbox</strong>), pharmacological challenges, and 7T fMRI allows us to disentangle raw perceptual sensitivity from decisional criteria and confidence.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="./projects/" class="btn btn-primary">Discover Ongoing Projects &rarr;</a>
+              <a href="./publications/" class="btn btn-secondary">Read Our Papers</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Lab Leadership Section -->
+    <!-- Principal Investigators Section with Real Photos -->
     <section class="section-padding" style="background: var(--bg-tertiary);">
       <div class="container">
         <div class="section-header" style="text-align: center;">
           <span class="section-subtitle">Lab Leadership</span>
           <h2 class="section-title">Principal Investigators</h2>
-          <p class="section-intro" style="margin: 0 auto;">Meet the team leaders guiding research at the Conscious Brain Lab.</p>
+          <p class="section-intro" style="margin: 0 auto;">Meet the researchers directing scientific projects at the Conscious Brain Lab.</p>
         </div>
 
-        <div class="grid-3" style="max-width: 1000px; margin: 0 auto;">
+        <div class="grid-3" style="max-width: 1050px; margin: 0 auto;">
           <div class="card member-card">
-            <div class="member-avatar">S</div>
+            <div class="member-avatar">
+              <img src="/assets/images/simon_van_gaal.jpg" alt="Simon van Gaal" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" />
+            </div>
             <span class="tag tag-accent" style="margin-bottom: 0.5rem;">Principal Investigator</span>
             <h3 class="member-name">Simon van Gaal</h3>
             <p class="member-role">Associate Professor, UvA</p>
             <p class="member-bio">Studies the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using EEG, fMRI, and MEG.</p>
             <div class="member-links">
-              <a href="mailto:s.vangaal@uva.nl" class="icon-btn" title="Email Simon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
-              <a href="./members/" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">View Profile</a>
+              <a href="mailto:s.vangaal@uva.nl" class="icon-btn" title="Email Simon van Gaal"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+              <a href="https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html" target="_blank" rel="noopener" class="icon-btn" title="UvA Profile"><svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></a>
+              <a href="./members/" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">View Bio</a>
             </div>
           </div>
 
           <div class="card member-card">
-            <div class="member-avatar">J</div>
+            <div class="member-avatar">
+              <img src="/assets/images/johannes_fahrenfort.jpg" alt="Johannes Fahrenfort" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" />
+            </div>
             <span class="tag tag-accent" style="margin-bottom: 0.5rem;">Principal Investigator</span>
             <h3 class="member-name">Johannes Fahrenfort</h3>
             <p class="member-role">Assistant Professor, VU Amsterdam / UvA</p>
             <p class="member-bio">Expert in EEG decoding, creator of the ADAM toolbox, focusing on perceptual bias, metacognition, and neural mechanisms of automatic sensory control.</p>
             <div class="member-links">
-              <a href="mailto:j.j.fahrenfort@uva.nl" class="icon-btn" title="Email Johannes"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
-              <a href="./members/" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">View Profile</a>
+              <a href="mailto:j.j.fahrenfort@uva.nl" class="icon-btn" title="Email Johannes Fahrenfort"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+              <a href="https://www.fahrenfort.com" target="_blank" rel="noopener" class="icon-btn" title="Personal Website"><svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></a>
+              <a href="./members/" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">View Bio</a>
             </div>
           </div>
 
           <div class="card member-card">
-            <div class="member-avatar">T</div>
+            <div class="member-avatar">
+              <img src="/assets/images/timo_stein.jpg" alt="Timo Stein" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" />
+            </div>
             <span class="tag tag-accent" style="margin-bottom: 0.5rem;">Principal Investigator</span>
             <h3 class="member-name">Timo Stein</h3>
             <p class="member-role">Associate Professor, UvA</p>
             <p class="member-bio">Focuses on visual awareness, face and object recognition, and the dynamics of unconscious processing using psychophysical techniques.</p>
             <div class="member-links">
-              <a href="mailto:t.stein@uva.nl" class="icon-btn" title="Email Timo"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
-              <a href="./members/" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">View Profile</a>
+              <a href="mailto:t.stein@uva.nl" class="icon-btn" title="Email Timo Stein"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+              <a href="https://www.uva.nl/profiel/s/t/t.stein/t.stein.html" target="_blank" rel="noopener" class="icon-btn" title="UvA Profile"><svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></a>
+              <a href="./members/" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">View Bio</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Recent Publications Teaser -->
+    <!-- Campus & Conference Gallery -->
     <section class="section-padding">
       <div class="container">
-        <div class="section-header" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
-          <div>
-            <span class="section-subtitle">Latest Discoveries</span>
-            <h2 class="section-title">Recent Publications</h2>
-          </div>
-          <a href="./publications/" class="btn btn-secondary">View All 100+ Publications &rarr;</a>
+        <div class="section-header">
+          <span class="section-subtitle">Community &amp; Events</span>
+          <h2 class="section-title">Life at the Conscious Brain Lab</h2>
+          <p class="section-intro">Hosting international scientific meetings and conducting research in Amsterdam.</p>
         </div>
 
-        <div style="display: flex; flex-direction: column; gap: 1rem;">
-          <div class="pub-card">
-            <div class="pub-citation-text">
-              <strong>Sánchez-Fuenzalida, N., van Gaal, S., van den Hurk, Z., Sergent, C., Stein, T., Fahrenfort, J.J.</strong> Evidence for unconscious priming using a Bayesian single-subject approach.
-            </div>
-            <div class="pub-meta-row">
-              <div class="pub-topic-tags">
-                <span class="tag tag-accent">Consciousness</span>
-                <span class="tag tag-accent">Decision Making</span>
-                <span class="tag">Preprint</span>
-              </div>
-              <div class="pub-badge-links">
-                <a href="./publications/" class="pub-btn pub-btn-primary">View in Publications &rarr;</a>
-              </div>
+        <div class="grid-2">
+          <div class="card" style="padding: 0; overflow: hidden;">
+            <img src="/assets/images/assc_2022.jpg" alt="ASSC 2022 Amsterdam" style="width: 100%; height: 260px; object-fit: cover;" />
+            <div style="padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">ASSC 2022 in Amsterdam</h3>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">Our lab co-hosted the 25th annual meeting of the Association for the Scientific Study of Consciousness (ASSC) in Amsterdam.</p>
             </div>
           </div>
 
-          <div class="pub-card">
-            <div class="pub-citation-text">
-              <strong>Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S.M., van Gaal, S., and Fahrenfort, J.J.</strong> Disentangling perceptual and response biases: The act of detecting a stimulus contaminates measures of conscious experience. <em>Nature Communications</em>.
-            </div>
-            <div class="pub-meta-row">
-              <div class="pub-topic-tags">
-                <span class="tag tag-accent">Perception</span>
-                <span class="tag tag-accent">Nature Communications</span>
-              </div>
-              <div class="pub-badge-links">
-                <a href="./publications/" class="pub-btn pub-btn-primary">View in Publications &rarr;</a>
-              </div>
+          <div class="card" style="padding: 0; overflow: hidden;">
+            <img src="/assets/images/campus_rec.jpg" alt="Roeterseilandcampus UvA" style="width: 100%; height: 260px; object-fit: cover;" />
+            <div style="padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Roeterseilandcampus Amsterdam</h3>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">Situated right on the canal in central Amsterdam, housing our state-of-the-art EEG testing facilities and cognitive neuroscience labs.</p>
             </div>
           </div>
         </div>
@@ -307,17 +272,13 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="brand-logo-link">
-            <div class="brand-icon">
-              <svg viewBox="0 0 100 100">
-                <path d="M30 45 C30 35, 42 25, 50 25 C58 25, 70 35, 70 45 C70 52, 65 58, 60 62 C58 64, 55 68, 55 75 L45 75 C45 68, 42 64, 40 62 C35 58, 30 52, 30 45 Z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="50" cy="45" r="6" fill="#ffffff" />
-              </svg>
-            </div>
+            <img src="./assets/images/cbl_logo.jpg" alt="Conscious Brain Lab" style="width: 36px; height: 36px; border-radius: 6px; object-fit: cover;" />
             <span>Conscious Brain Lab</span>
           </div>
           <p>Investigating the neural architecture of consciousness, perception, and cognitive control at the University of Amsterdam and VU Amsterdam.</p>
-          <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+          <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
             <span class="tag tag-accent">UvA Psychology</span>
+            <span class="tag tag-accent">VU Amsterdam</span>
             <span class="tag tag-accent">Spinoza Centre</span>
           </div>
         </div>
@@ -359,7 +320,7 @@
 
       <div class="footer-bottom">
         <div>
-          &copy; 2026 Conscious Brain Lab. Open source static CMS migration.
+          &copy; 2026 Conscious Brain Lab. Subscription-free open CMS on GitHub Pages.
         </div>
         <div style="display: flex; gap: 1rem; align-items: center;">
           <span>Hosted on <strong>GitHub Pages</strong></span>

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conscious Brain Lab | University of Amsterdam</title>
   <meta name="description" content="Conscious Brain Lab investigates the neural correlates of consciousness, cognitive control, perception, and subjective experience using EEG, fMRI, MEG, and computational modeling.">
-  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="icon" type="image/jpeg" href="../assets/images/cbl_logo.jpg">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,13 +19,7 @@
   <header class="site-header">
     <div class="container header-container">
       <a href="../" class="brand-logo-link">
-        <div class="brand-icon">
-          <svg viewBox="0 0 100 100">
-            <path d="M30 45 C30 35, 42 25, 50 25 C58 25, 70 35, 70 45 C70 52, 65 58, 60 62 C58 64, 55 68, 55 75 L45 75 C45 68, 42 64, 40 62 C35 58, 30 52, 30 45 Z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="50" cy="45" r="6" fill="#ffffff" />
-            <path d="M42 38 Q50 32 58 38" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
-          </svg>
-        </div>
+        <img src="../assets/images/cbl_logo.jpg" alt="Conscious Brain Lab Logo" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" />
         <span>Conscious Brain Lab</span>
       </a>
 
@@ -83,7 +77,7 @@
         <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
           <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
         </button>
-        <a href="../admin/" class="btn-admin" title="Open Decap CMS visual editor">
+        <a href="../admin/" class="btn-admin" title="Open visual CMS admin editor">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
           Admin CMS
         </a>
@@ -96,11 +90,11 @@
     <div class="container">
       <div class="section-header">
         <span class="section-subtitle">Scientific Output</span>
-        <h1 class="section-title">Publications & Preprints</h1>
+        <h1 class="section-title">Publications &amp; Preprints</h1>
         <p class="section-intro">Explore our peer-reviewed journal papers, conference proceedings, preprints, and open-source data toolboxes.</p>
       </div>
 
-      <!-- Controls: Live Search & Filters -->
+      <!-- Controls: Live Search, Sort Button & Filters -->
       <div class="pub-controls">
         <div class="pub-search-row">
           <div class="pub-search-box">
@@ -109,6 +103,13 @@
             </svg>
             <input type="text" id="pub-search-input" class="pub-search-input" placeholder="Search by author, title, journal, topic, or keyword (e.g. 'van Gaal', 'EEG', 'fMRI', 'Nature')..." />
           </div>
+
+          <!-- Sort Button -->
+          <button id="pub-sort-btn" class="pub-btn" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" title="Toggle sort order">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"/></svg>
+            <span>Sort: Newest First &darr;</span>
+          </button>
+
           <div class="pub-stats-badge" id="pub-count-badge">Loading publications...</div>
         </div>
 
@@ -137,7 +138,7 @@
             <button class="pub-pill topic-pill" data-topic="EEG">EEG / ERP</button>
             <button class="pub-pill topic-pill" data-topic="fMRI">fMRI / MRI</button>
             <button class="pub-pill topic-pill" data-topic="MEG">MEG</button>
-            <button class="pub-pill topic-pill" data-topic="Decision Making">Decision Making & Bias</button>
+            <button class="pub-pill topic-pill" data-topic="Decision Making">Decision Making &amp; Bias</button>
             <button class="pub-pill topic-pill" data-topic="Cognitive Control">Cognitive Control</button>
             <button class="pub-pill topic-pill" data-topic="Neural Decoding">Neural Decoding / ADAM</button>
           </div>
@@ -146,7 +147,7 @@
 
       <!-- Publication Items Container -->
       <div id="publications-container">
-        <!-- Rendered via JavaScript -->
+        <!-- Rendered via JavaScript in Newest-to-Oldest order -->
       </div>
     </div>
   </main>
@@ -157,17 +158,13 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="brand-logo-link">
-            <div class="brand-icon">
-              <svg viewBox="0 0 100 100">
-                <path d="M30 45 C30 35, 42 25, 50 25 C58 25, 70 35, 70 45 C70 52, 65 58, 60 62 C58 64, 55 68, 55 75 L45 75 C45 68, 42 64, 40 62 C35 58, 30 52, 30 45 Z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="50" cy="45" r="6" fill="#ffffff" />
-              </svg>
-            </div>
+            <img src="../assets/images/cbl_logo.jpg" alt="Conscious Brain Lab" style="width: 36px; height: 36px; border-radius: 6px; object-fit: cover;" />
             <span>Conscious Brain Lab</span>
           </div>
           <p>Investigating the neural architecture of consciousness, perception, and cognitive control at the University of Amsterdam and VU Amsterdam.</p>
-          <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+          <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
             <span class="tag tag-accent">UvA Psychology</span>
+            <span class="tag tag-accent">VU Amsterdam</span>
             <span class="tag tag-accent">Spinoza Centre</span>
           </div>
         </div>
@@ -209,7 +206,7 @@
 
       <div class="footer-bottom">
         <div>
-          &copy; 2026 Conscious Brain Lab. Open source static CMS migration.
+          &copy; 2026 Conscious Brain Lab. Subscription-free open CMS on GitHub Pages.
         </div>
         <div style="display: flex; gap: 1rem; align-items: center;">
           <span>Hosted on <strong>GitHub Pages</strong></span>

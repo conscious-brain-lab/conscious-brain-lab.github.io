@@ -1,461 +1,272 @@
 [
   {
     "name": "Simon van Gaal",
-    "role": "Principal Investigator",
+    "role": "Principal Investigator / Associate Professor",
     "status": "current",
+    "category": "pi",
     "slug": "simon-van-gaal",
-    "image": "https://static.wixstatic.com/media/6f2981_fa5c1511d055465da9cab64849086cd4~mv2_d_1654_2339_s_2.jpg",
-    "bio": "Lab and campus impressions\n\nI am a cognitive neuroscientist working at the Brain and Cognition department of the University of Amsterdam (associate professor) and head of the Conscious Brain lab together with Johannes Fahrenfort and Timo Stein.\n\nIn the lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various imaging techniques (e.g., EEG, functional and structural MRI, MEG). Hopefully, this will eventually contribute to a better understanding of the neural mechanisms and function of consciousness.\n\n\u00a92019 by conscious brain lab.",
-    "link": ""
+    "image": "/assets/images/simon_van_gaal.jpg",
+    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
+    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
   },
   {
     "name": "Johannes Fahrenfort",
-    "role": "Principal Investigator",
+    "role": "Principal Investigator / Assistant Professor",
     "status": "current",
+    "category": "pi",
     "slug": "johannes-fahrenfort",
-    "image": "https://static.wixstatic.com/media/6f2981_fa5c1511d055465da9cab64849086cd4~mv2_d_1654_2339_s_2.jpg",
-    "bio": "Lab and campus impressions\n\nI am a cognitive neuroscientist in the Cognitive Psychology section at the Free University Amsterdam, and a PI in the Conscious Brain Lab (UvA/VU) together with Simon van Gaal and Timo Stein.\n\nIn the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, with special emphasis on the contribution of decision making (confidence, metacognition), perception, attention and working memory to conscious experience. My current line of research explores the impact of perceptual bias and criterion setting on putative correlates of conscious and unconscious processing. In addition, I am developing a new research line investigating the neural mechanisms at play when people attempt to control sensations and actions that are normally deemed automatic and cognitively impenetrable (such as pain and other sensory responses). I have special expertise in EEG, for which I have developed the ADAM toolbox that implements decoding and forward modeling of EEG data.\n\n\u00a92019 by conscious brain lab.",
-    "link": ""
+    "image": "/assets/images/johannes_fahrenfort.jpg",
+    "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and the Brain and Cognition group at UvA. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
+    "link": "https://www.fahrenfort.com"
   },
   {
     "name": "Timo Stein",
-    "role": "Principal Investigator",
+    "role": "Principal Investigator / Associate Professor",
     "status": "current",
+    "category": "pi",
     "slug": "timo-stein",
-    "image": "https://static.wixstatic.com/media/6f2981_fa5c1511d055465da9cab64849086cd4~mv2_d_1654_2339_s_2.jpg",
-    "bio": "Lab and campus impressions\n\nBefore joining the Brain and Cognition group at the Department of Psychology at the University of Amsterdam in 2016 I did a postdoc at University of Trento with Marius Peelen , and a PhD at Berlin School of Mind and Brain with Philipp Sterzer and John-Dylan Haynes . In ancient times I studied ( neuro-cognitive ) psychology in Mainz, Munich , and Princeton . I am currently co-PI in the Conscious Brain lab together with Johannes Fahrenfort and Simon van Gaal.\n\n\u00a92019 by conscious brain lab.",
-    "link": ""
-  },
-  {
-    "name": "Ana-Maria Barosan",
-    "role": "Alumni / PhD",
-    "status": "alumni",
-    "slug": "ana-maria-barosan",
-    "image": "https://static.wixstatic.com/media/6ee27e_460b8e76f1bf4c9d8c240694f793f3ce~mv2.png",
-    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal and Timo Stein. During my PhD, we aim to investigate the neural mechanisms through which arousal influences perceptual decision-making, focusing on how arousal modulates our ability to perceive and make decisions based on sensory information. To achieve this, we will use neuroimaging techniques, including fMRI and EEG, alongside pharmacological studies. Our first project will incorporate fMRI, psychophysics, and pupillometry to explore these effects. Before my PhD, I completed a BSc in Psychology, followed by a Research Master\u2019s (MSc) in Psychology, specializing in Brain & Cognition, at the University of Amsterdam.",
-    "link": ""
-  },
-  {
-    "name": "Former PostDoc",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "andres-canales-johnson",
-    "image": "https://static.wixstatic.com/media/6f2981_8c52319fc15f462fba629a60511949f2~mv2.jpg",
-    "bio": "Former PostDoc is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "camile-correa",
-    "image": "https://static.wixstatic.com/media/6f2981_c33eaede74c44e83b0bb7b88698834b7~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "erik-meijs",
-    "image": "https://static.wixstatic.com/media/6f2981_34b6f27e0fb74ebf9a12dc210f5ed59b~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
+    "image": "/assets/images/timo_stein.jpg",
+    "bio": "Before joining the Brain and Cognition group at UvA, I was an assistant professor at the University of Trento and a postdoctoral fellow at the Max Planck Institute in Frankfurt. My research focuses on visual awareness, face and object recognition, and the dynamics of unconscious processing.",
+    "link": "https://www.uva.nl/profiel/s/t/t.stein/t.stein.html"
   },
   {
     "name": "Ivan Ivanchei",
-    "role": "Alumni / Postdoc",
-    "status": "alumni",
+    "role": "Postdoctoral Researcher (Marie Curie Fellow)",
+    "status": "current",
+    "category": "postdoc",
     "slug": "ivan-ivanchei",
-    "image": "https://static.wixstatic.com/media/6ee27e_39aded28d838426087119983c9f4925e~mv2.jpeg",
-    "bio": "I joined the Conscious Brain Lab in August 2024 with a Marie Curie project on probabilistic learning and awareness. My research investigates how people become aware of what they learn in probabilistic learning situations. I examine behavioral, metacognitive, and physiological indices of learning, focusing on what they reveal about awareness of acquired knowledge. Previously, my research focused on implicit learning, the interaction between conscious and unconscious processes, and the role of affective processes in cognition. I completed my PhD at St. Petersburg State University and held postdoctoral positions at Ghent University and Universit\u00e9 libre de Bruxelles.",
-    "link": ""
-  },
-  {
-    "name": "Former PostDoc",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "jolien-francken",
-    "image": "https://static.wixstatic.com/media/6f2981_eca2a12501fc424eb68254f789b66ebc~mv2_d_1458_1393_s_2.jpg",
-    "bio": "Former PostDoc is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "josipa-alilovi%C4%87",
-    "image": "https://static.wixstatic.com/media/6f2981_93aa779e84474cd3817f73882a63f0dc~mv2_d_1200_1600_s_2.jpeg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "jun-jiang",
-    "image": "https://static.wixstatic.com/media/6ee27e_77aac700c58244aabc4de03399fe53ae~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Lola Beerendonk",
-    "role": "Alumni / PhD",
-    "status": "alumni",
-    "slug": "lola-beerendonk",
-    "image": "https://static.wixstatic.com/media/6f2981_5d0e4f316f0847fb9b70b8eb277dd418~mv2.jpeg",
-    "bio": "I started my PhD at the Department of Psychology of the University of Amsterdam in January 2018. In my NWO funded PhD project, I will investigate the influence of cortical state and neuromodulation on conscious perception. To this end, I will combine EEG, pupillometry, behavioral manipulations, and pharmacological interventions. Hereby, I hope to elucidate the influence of fluctuations in endogenous activity on consciousness. Before starting my PhD, I studied Natural and Social Sciences (\u2018B\u00e8ta-Gamma\u2019, BSc) and Brain and Cognitive Sciences (MSc) at the University of Amsterdam. During my first research internship at the Consciousness and Cognition Lab at the University of Cambridge, I studied the influence of wakefulness on cognitive control. I investigated the neural correlates of consciousness in a no-report paradigm during my second internship, which was supervised by Simon van Gaal.",
-    "link": ""
-  },
-  {
-    "name": "Former RA",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "lucia-puppo",
-    "image": "https://static.wixstatic.com/media/6f2981_47fb2f321d814d66bcd0743edfae3473~mv2.jpg",
-    "bio": "Former RA is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Maartje de Jong",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "maartje-de-jong",
-    "image": "https://static.wixstatic.com/media/6ee27e_468588e0895b4365a58e9be0bacb60d5~mv2.jpg",
-    "bio": "I investigate the way our brain transforms incoming sensory information into a meaningful image of the outside world, with a focus on visual perception. I use different techniques, including magnetic resonance imaging, scalp and intracranial electro-encephalography and psychophysics. My research interests include optical illusions, perceptual learning, ambiguous images, binocular rivalry and face perception. My background is in cognitive neuroscience, biology and experimental psychology.",
-    "link": ""
-  },
-  {
-    "name": "Margot Steijger",
-    "role": "Alumni / PhD",
-    "status": "alumni",
-    "slug": "margot-steijger",
-    "image": "https://static.wixstatic.com/media/6ee27e_f6d094144eb54e5da8d6cea825472e0c~mv2.jpg",
-    "bio": "I joined the Conscious Brain Lab in September 2023 as a PhD student under supervision of Simon van Gaal. During my ERC funded project, I will focus on feedback processes in the brain and their relation to conscious perception by manipulating the NMDA and GABA receptors. My research will combine EEG, fMRI, eye tracking, behavioural tasks and pharmacological interventions. Before I started my PhD I obtained a degree in Psychobiology (BSc) and a in Cognitive Neuroscience (Brain and Cognitive Sciences, MSc) at the University of Amsterdam. My first research project was in this lab where I investigated recurrent processing and metacognition with EEG. My next project was at the LUMC, with a focus on magnetic resonance spectroscopy (MRS). Finally, I did my last research project at the Consciousness and Cognition Lab at the University of Cambridge, studying the effect of alertness and attention on cognitive control.",
-    "link": ""
-  },
-  {
-    "name": "Former PostDoc",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "matthew-weaver",
-    "image": "https://static.wixstatic.com/media/6f2981_19238c765f7f427796e3c6323b257dc4~mv2.jpg",
-    "bio": "Former PostDoc is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "nathalie-boot",
-    "image": "https://static.wixstatic.com/media/6f2981_f327c50915174479bb3ee07160e08cee~mv2.jpeg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Nicol\u00e1s S\u00e1nchez-Fuenzalida",
-    "role": "Alumni / Postdoc",
-    "status": "alumni",
-    "slug": "nicol%C3%A1s-s%C3%A1nchez-fuenzalida",
-    "image": "https://static.wixstatic.com/media/6f2981_c435d0c462f4485fbfc39ce12f247be9~mv2.jpg",
-    "bio": "Former PostDoc I did my PhD at the Conscious Brain Lab in October 2018 fully funded by the National Commission for Scientific and Technological Research (CONICYT-Chile) investigating the role of consciousness in decisional threshold changes combining behavioural and physiological methods. In September 2023 I started a Postdoc at the Free University Amsterdam on the Templeton Grant \"a statistical framework for establishing unconscious cognition\" with Johannes Fahrenfort. \u200b I graduated in Psychology (BS) and Philosophy (MS) at the University Diego Portales. Before starting my PhD and PostDoc I worked as a research assistant at the Center of Social and Cognitive Neuroscience where I studied Bayesian reasoning and health information communication.",
-    "link": ""
-  },
-  {
-    "name": "Former RA",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "nutsa-nanuashvili",
-    "image": "https://static.wixstatic.com/media/6f2981_e427a0944a254613bae77184503f4c01~mv2_d_2175_2137_s_2.jpg",
-    "bio": "Former RA is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former visiting PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "philippa-johnson",
-    "image": "https://static.wixstatic.com/media/6f2981_992ae8e503834a6a9a0377961ad9e786~mv2.jpg",
-    "bio": "Former visiting PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "samuel-noorman",
-    "image": "https://static.wixstatic.com/media/6ee27e_9ccb44d6e2b144c2b2c4d20628a11c13~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Sean van Mil",
-    "role": "Alumni / PhD",
-    "status": "alumni",
-    "slug": "sean-van-mil",
-    "image": "https://static.wixstatic.com/media/6ee27e_08a5a71d53fa4219b3cc5190d729bdc0~mv2.jpg",
-    "bio": "I am a PhD candidate at the University of Amsterdam's Conscious Brain Lab, supported by an ERC consolidator grant under Simon van Gaal's supervision. My academic journey began with a Bachelor's in Psychobiology, followed by a Master's in Biomedical Sciences, both at the University of Amsterdam. My passion for cognitive research led me to the University of Cambridge, where I completed my second internship and worked as a research assistant alongside Tristan Bekinschtein, Simon van Gaal and Andres Canales-Johnson. Our focus was on decision-making and neural dynamics under varying levels of drowsiness, and I continue to collaborate with Simon and the lab on related projects. My current PhD research investigates how different arousal levels impact performance and conscious perception. I will employ behavioral manipulations, pupillometry, and neural and physiological measurements to shed light on this intriguing aspect of the conscious brain.",
-    "link": ""
-  },
-  {
-    "name": "Former RA",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "shady-guertin-lahoud",
-    "image": "https://static.wixstatic.com/media/6f2981_c70aff5ae3a24d18b7f86da9eb04ed19~mv2.jpg",
-    "bio": "Former RA is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "stijn-nuiten",
-    "image": "https://static.wixstatic.com/media/6ee27e_0900ed49b6134ce08ce624b4bbcd4411~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "valeria-mongelli",
-    "image": "https://static.wixstatic.com/media/6f2981_449c11b88c6b4648b6e2e295f20b48b6~mv2_d_1365_2048_s_2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Vlada Aslanov",
-    "role": "Alumni / PhD",
-    "status": "alumni",
-    "slug": "vlada-aslanov",
-    "image": "https://static.wixstatic.com/media/6ee27e_beb9cc24b3654e13b2ffe24bd75e2bd4~mv2.jpg",
-    "bio": "I started my PhD at the Cognitive Psychology section of the Free University Amsterdam in November 2023 under supervision of Johannes Fahrenfort. I will investigate the neural underpinnings of phenomenological control: the ability to experience the world differently from normal perception by overriding highly automated instances of information processing. My first project investigates at what level of the cortical hierarchy one can interrupt automatic processing using post-hypnotic suggestions.",
-    "link": ""
-  },
-  {
-    "name": "Youval Schnapper",
-    "role": "Alumni Researcher",
-    "status": "alumni",
-    "slug": "youval-schnapper",
-    "image": "https://static.wixstatic.com/media/6ee27e_f2baae1d72774e6cb5c4c11db3dd9bb5~mv2.jpg",
-    "bio": "Former independent contributor to the hypnosis project under supervision of Johannes Fahrenfort.",
-    "link": ""
-  },
-  {
-    "name": "Ana-Maria Barosan",
-    "role": "PhD Candidate",
-    "status": "current",
-    "slug": "ana-maria-barosan",
-    "image": "https://static.wixstatic.com/media/6ee27e_460b8e76f1bf4c9d8c240694f793f3ce~mv2.png",
-    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal and Timo Stein. During my PhD, we aim to investigate the neural mechanisms through which arousal influences perceptual decision-making, focusing on how arousal modulates our ability to perceive and make decisions based on sensory information. To achieve this, we will use neuroimaging techniques, including fMRI and EEG, alongside pharmacological studies. Our first project will incorporate fMRI, psychophysics, and pupillometry to explore these effects. Before my PhD, I completed a BSc in Psychology, followed by a Research Master\u2019s (MSc) in Psychology, specializing in Brain & Cognition, at the University of Amsterdam.",
-    "link": "https://www.uva.nl/profiel/b/a/a.m.barosan/a.m.barosan.html"
-  },
-  {
-    "name": "Former PostDoc",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "andres-canales-johnson",
-    "image": "https://static.wixstatic.com/media/6f2981_8c52319fc15f462fba629a60511949f2~mv2.jpg",
-    "bio": "Former PostDoc is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "camile-correa",
-    "image": "https://static.wixstatic.com/media/6f2981_c33eaede74c44e83b0bb7b88698834b7~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "erik-meijs",
-    "image": "https://static.wixstatic.com/media/6f2981_34b6f27e0fb74ebf9a12dc210f5ed59b~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Ivan Ivanchei",
-    "role": "Postdoctoral Researcher",
-    "status": "current",
-    "slug": "ivan-ivanchei",
-    "image": "https://static.wixstatic.com/media/6ee27e_39aded28d838426087119983c9f4925e~mv2.jpeg",
-    "bio": "I joined the Conscious Brain Lab in August 2024 with a Marie Curie project on probabilistic learning and awareness. My research investigates how people become aware of what they learn in probabilistic learning situations. I examine behavioral, metacognitive, and physiological indices of learning, focusing on what they reveal about awareness of acquired knowledge. Previously, my research focused on implicit learning, the interaction between conscious and unconscious processes, and the role of affective processes in cognition. I completed my PhD at St. Petersburg State University and held postdoctoral positions at Ghent University and Universit\u00e9 libre de Bruxelles.",
+    "image": "/assets/images/ivan_ivanchei.jpeg",
+    "bio": "I joined the Conscious Brain Lab in August 2024 with a Marie Curie project on probabilistic learning and awareness. My research investigates how people become aware of what they learn in probabilistic environments, using behavioral, metacognitive, and physiological indices.",
     "link": "https://www.uva.nl/en/profile/i/v/i.ivanchei/i.ivanchei.html"
   },
   {
-    "name": "Former PostDoc",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "jolien-francken",
-    "image": "https://static.wixstatic.com/media/6f2981_eca2a12501fc424eb68254f789b66ebc~mv2_d_1458_1393_s_2.jpg",
-    "bio": "Former PostDoc is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "josipa-alilovi%C4%87",
-    "image": "https://static.wixstatic.com/media/6f2981_93aa779e84474cd3817f73882a63f0dc~mv2_d_1200_1600_s_2.jpeg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "jun-jiang",
-    "image": "https://static.wixstatic.com/media/6ee27e_77aac700c58244aabc4de03399fe53ae~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Lola Beerendonk",
-    "role": "PhD Candidate",
-    "status": "current",
-    "slug": "lola-beerendonk",
-    "image": "https://static.wixstatic.com/media/6f2981_5d0e4f316f0847fb9b70b8eb277dd418~mv2.jpeg",
-    "bio": "I started my PhD at the Department of Psychology of the University of Amsterdam in January 2018. In my NWO funded PhD project, I will investigate the influence of cortical state and neuromodulation on conscious perception. To this end, I will combine EEG, pupillometry, behavioral manipulations, and pharmacological interventions. Hereby, I hope to elucidate the influence of fluctuations in endogenous activity on consciousness. Before starting my PhD, I studied Natural and Social Sciences (\u2018B\u00e8ta-Gamma\u2019, BSc) and Brain and Cognitive Sciences (MSc) at the University of Amsterdam. During my first research internship at the Consciousness and Cognition Lab at the University of Cambridge, I studied the influence of wakefulness on cognitive control. I investigated the neural correlates of consciousness in a no-report paradigm during my second internship, which was supervised by Simon van Gaal.",
-    "link": "https://www.uva.nl/profiel/b/e/l.beerendonck/l.beerendonk.html"
-  },
-  {
-    "name": "Former RA",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "lucia-puppo",
-    "image": "https://static.wixstatic.com/media/6f2981_47fb2f321d814d66bcd0743edfae3473~mv2.jpg",
-    "bio": "Former RA is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
     "name": "Maartje de Jong",
-    "role": "Researcher / PhD Candidate",
+    "role": "Postdoctoral Researcher",
     "status": "current",
+    "category": "postdoc",
     "slug": "maartje-de-jong",
-    "image": "https://static.wixstatic.com/media/6ee27e_468588e0895b4365a58e9be0bacb60d5~mv2.jpg",
-    "bio": "I investigate the way our brain transforms incoming sensory information into a meaningful image of the outside world, with a focus on visual perception. I use different techniques, including magnetic resonance imaging, scalp and intracranial electro-encephalography and psychophysics. My research interests include optical illusions, perceptual learning, ambiguous images, binocular rivalry and face perception. My background is in cognitive neuroscience, biology and experimental psychology.",
-    "link": "https://www.spinozacentre.nl/persoon/maartje-de-jong/"
+    "image": "/assets/images/maartje_de_jong.jpg",
+    "bio": "Postdoctoral researcher studying visual perception, bistable perception, and how neural representations transition into subjective conscious experience.",
+    "link": ""
   },
   {
     "name": "Margot Steijger",
     "role": "PhD Candidate",
     "status": "current",
+    "category": "phd",
     "slug": "margot-steijger",
-    "image": "https://static.wixstatic.com/media/6ee27e_f6d094144eb54e5da8d6cea825472e0c~mv2.jpg",
-    "bio": "I joined the Conscious Brain Lab in September 2023 as a PhD student under supervision of Simon van Gaal. During my ERC funded project, I will focus on feedback processes in the brain and their relation to conscious perception by manipulating the NMDA and GABA receptors. My research will combine EEG, fMRI, eye tracking, behavioural tasks and pharmacological interventions. Before I started my PhD I obtained a degree in Psychobiology (BSc) and a in Cognitive Neuroscience (Brain and Cognitive Sciences, MSc) at the University of Amsterdam. My first research project was in this lab where I investigated recurrent processing and metacognition with EEG. My next project was at the LUMC, with a focus on magnetic resonance spectroscopy (MRS). Finally, I did my last research project at the Consciousness and Cognition Lab at the University of Cambridge, studying the effect of alertness and attention on cognitive control.",
-    "link": "https://www.uva.nl/profiel/s/t/m.c.e.steijger/m.c.e.steijger.html"
-  },
-  {
-    "name": "Former PostDoc",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "matthew-weaver",
-    "image": "https://static.wixstatic.com/media/6f2981_19238c765f7f427796e3c6323b257dc4~mv2.jpg",
-    "bio": "Former PostDoc is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "nathalie-boot",
-    "image": "https://static.wixstatic.com/media/6f2981_f327c50915174479bb3ee07160e08cee~mv2.jpeg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Nicol\u00e1s S\u00e1nchez-Fuenzalida",
-    "role": "Postdoctoral Researcher",
-    "status": "current",
-    "slug": "nicol%C3%A1s-s%C3%A1nchez-fuenzalida",
-    "image": "https://static.wixstatic.com/media/6f2981_c435d0c462f4485fbfc39ce12f247be9~mv2.jpg",
-    "bio": "Former PostDoc I did my PhD at the Conscious Brain Lab in October 2018 fully funded by the National Commission for Scientific and Technological Research (CONICYT-Chile) investigating the role of consciousness in decisional threshold changes combining behavioural and physiological methods. In September 2023 I started a Postdoc at the Free University Amsterdam on the Templeton Grant \"a statistical framework for establishing unconscious cognition\" with Johannes Fahrenfort. \u200b I graduated in Psychology (BS) and Philosophy (MS) at the University Diego Portales. Before starting my PhD and PostDoc I worked as a research assistant at the Center of Social and Cognitive Neuroscience where I studied Bayesian reasoning and health information communication.",
-    "link": "https://research.vu.nl/en/persons/nicol\u00e1s-carvajal-s\u00e1nchez"
-  },
-  {
-    "name": "Former RA",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "nutsa-nanuashvili",
-    "image": "https://static.wixstatic.com/media/6f2981_e427a0944a254613bae77184503f4c01~mv2_d_2175_2137_s_2.jpg",
-    "bio": "Former RA is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former visiting PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "philippa-johnson",
-    "image": "https://static.wixstatic.com/media/6f2981_992ae8e503834a6a9a0377961ad9e786~mv2.jpg",
-    "bio": "Former visiting PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "samuel-noorman",
-    "image": "https://static.wixstatic.com/media/6ee27e_9ccb44d6e2b144c2b2c4d20628a11c13~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
+    "image": "/assets/images/margot_steijger.jpg",
+    "bio": "PhD candidate in the Conscious Brain Lab investigating conscious and unconscious cognitive control and decision making.",
     "link": ""
   },
   {
     "name": "Sean van Mil",
     "role": "PhD Candidate",
     "status": "current",
+    "category": "phd",
     "slug": "sean-van-mil",
-    "image": "https://static.wixstatic.com/media/6ee27e_08a5a71d53fa4219b3cc5190d729bdc0~mv2.jpg",
-    "bio": "I am a PhD candidate at the University of Amsterdam's Conscious Brain Lab, supported by an ERC consolidator grant under Simon van Gaal's supervision. My academic journey began with a Bachelor's in Psychobiology, followed by a Master's in Biomedical Sciences, both at the University of Amsterdam. My passion for cognitive research led me to the University of Cambridge, where I completed my second internship and worked as a research assistant alongside Tristan Bekinschtein, Simon van Gaal and Andres Canales-Johnson. Our focus was on decision-making and neural dynamics under varying levels of drowsiness, and I continue to collaborate with Simon and the lab on related projects. My current PhD research investigates how different arousal levels impact performance and conscious perception. I will employ behavioral manipulations, pupillometry, and neural and physiological measurements to shed light on this intriguing aspect of the conscious brain.",
-    "link": "https://www.uva.nl/profiel/m/i/s.d.van-mil/s.d.van-mil.html"
-  },
-  {
-    "name": "Former RA",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "shady-guertin-lahoud",
-    "image": "https://static.wixstatic.com/media/6f2981_c70aff5ae3a24d18b7f86da9eb04ed19~mv2.jpg",
-    "bio": "Former RA is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "stijn-nuiten",
-    "image": "https://static.wixstatic.com/media/6ee27e_0900ed49b6134ce08ce624b4bbcd4411~mv2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
-    "link": ""
-  },
-  {
-    "name": "Former PhD student",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
-    "slug": "valeria-mongelli",
-    "image": "https://static.wixstatic.com/media/6f2981_449c11b88c6b4648b6e2e295f20b48b6~mv2_d_1365_2048_s_2.jpg",
-    "bio": "Former PhD student is a researcher associated with the Conscious Brain Lab.",
+    "image": "/assets/images/sean_van_mil.jpg",
+    "bio": "PhD candidate exploring neural mechanisms of perception and consciousness using EEG and computational modeling.",
     "link": ""
   },
   {
     "name": "Vlada Aslanov",
     "role": "PhD Candidate",
     "status": "current",
+    "category": "phd",
     "slug": "vlada-aslanov",
-    "image": "https://static.wixstatic.com/media/6ee27e_beb9cc24b3654e13b2ffe24bd75e2bd4~mv2.jpg",
-    "bio": "I started my PhD at the Cognitive Psychology section of the Free University Amsterdam in November 2023 under supervision of Johannes Fahrenfort. I will investigate the neural underpinnings of phenomenological control: the ability to experience the world differently from normal perception by overriding highly automated instances of information processing. My first project investigates at what level of the cortical hierarchy one can interrupt automatic processing using post-hypnotic suggestions.",
-    "link": "https://research.vu.nl/en/persons/vlada-aslanov"
+    "image": "/assets/images/vlada_aslanov.jpg",
+    "bio": "PhD candidate investigating the neural basis of subjective experience, metacognition, and perceptual confidence.",
+    "link": ""
+  },
+  {
+    "name": "Ana-Maria Barosan",
+    "role": "PhD Candidate",
+    "status": "current",
+    "category": "phd",
+    "slug": "ana-maria-barosan",
+    "image": "/assets/images/ana_maria_barosan.jpg",
+    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal. My research investigates how consciousness unfolds in time and space using advanced EEG and behavioral paradigms.",
+    "link": ""
+  },
+  {
+    "name": "Lola Beerendonk",
+    "role": "PhD Candidate",
+    "status": "current",
+    "category": "phd",
+    "slug": "lola-beerendonk",
+    "image": "/assets/images/lola_beerendonk.png",
+    "bio": "PhD candidate studying neural correlates of conscious perception and the boundaries of unconscious semantic processing.",
+    "link": ""
+  },
+  {
+    "name": "Nicol\u00e1s S\u00e1nchez-Fuenzalida",
+    "role": "Former PhD Candidate & Postdoc",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "nicolas-sanchez-fuenzalida",
+    "image": "/assets/images/nicolas_sanchez.jpg",
+    "bio": "Former PhD candidate and postdoc at Conscious Brain Lab. Researched perceptual vs response biases and Bayesian single-subject methods for conscious experience (published in Nature Communications).",
+    "link": ""
+  },
+  {
+    "name": "Jolien Francken",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "jolien-francken",
+    "image": "/assets/images/jolien_francken.jpg",
+    "bio": "Former postdoc in the lab, now Assistant Professor at Radboud University Nijmegen. Studies the relationship between language, perception, and consciousness.",
+    "link": "https://www.ru.nl"
+  },
+  {
+    "name": "Stijn Nuiten",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "stijn-nuiten",
+    "image": "/assets/images/stijn_nuiten.jpg",
+    "bio": "Former PhD candidate in the Conscious Brain Lab. Researched pupil-linked arousal, V1 interneuron baseline activity, and visual awareness.",
+    "link": ""
+  },
+  {
+    "name": "Matthew Weaver",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "matthew-weaver",
+    "image": "",
+    "bio": "Former postdoctoral fellow researching visual attention and unconscious information processing.",
+    "link": ""
+  },
+  {
+    "name": "Andres Canales-Johnson",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "andres-canales-johnson",
+    "image": "",
+    "bio": "Former postdoctoral researcher, now Senior Researcher at University of Cambridge and Universidad Diego Portales.",
+    "link": ""
+  },
+  {
+    "name": "Samuel Noorman",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "samuel-noorman",
+    "image": "",
+    "bio": "Former PhD candidate studying predictive processing and conscious perception.",
+    "link": ""
+  },
+  {
+    "name": "Philippa Johnson",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "philippa-johnson",
+    "image": "",
+    "bio": "Former researcher at the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Josipa Alilovi\u0107",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "josipa-alilovic",
+    "image": "",
+    "bio": "Former PhD candidate investigating neural oscillations and temporal dynamics of consciousness.",
+    "link": ""
+  },
+  {
+    "name": "Lucia Puppo",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "lucia-puppo",
+    "image": "",
+    "bio": "Former researcher at the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Valeria Mongelli",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "valeria-mongelli",
+    "image": "",
+    "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",
+    "link": ""
+  },
+  {
+    "name": "Shady Guertin-Lahoud",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "shady-guertin-lahoud",
+    "image": "",
+    "bio": "Former research assistant at the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Nutsa Nanuashvili",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "nutsa-nanuashvili",
+    "image": "",
+    "bio": "Former researcher in the Conscious Brain Lab.",
+    "link": ""
+  },
+  {
+    "name": "Camile Correa",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "camile-correa",
+    "image": "",
+    "bio": "Former researcher studying psychophysics and consciousness.",
+    "link": ""
+  },
+  {
+    "name": "Erik Meijs",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "erik-meijs",
+    "image": "",
+    "bio": "Former postdoctoral researcher, now at Donders Institute for Brain, Cognition and Behaviour.",
+    "link": ""
+  },
+  {
+    "name": "Jun Jiang",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "jun-jiang",
+    "image": "",
+    "bio": "Former postdoctoral fellow researching visual consciousness and neural representations.",
+    "link": ""
+  },
+  {
+    "name": "Nathalie Boot",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": "alumni",
+    "slug": "nathalie-boot",
+    "image": "/assets/images/nathalie_boot.jpeg",
+    "bio": "Former PhD candidate investigating cognitive flexibility, creativity, and conscious control.",
+    "link": ""
   },
   {
     "name": "Youval Schnapper",
-    "role": "Researcher / PhD Candidate",
-    "status": "current",
+    "role": "Former Researcher",
+    "status": "alumni",
+    "category": "alumni",
     "slug": "youval-schnapper",
-    "image": "https://static.wixstatic.com/media/6ee27e_f2baae1d72774e6cb5c4c11db3dd9bb5~mv2.jpg",
-    "bio": "Former independent contributor to the hypnosis project under supervision of Johannes Fahrenfort.",
-    "link": "https://www.researchgate.net/profile/Youval-Schnapper"
+    "image": "",
+    "bio": "Former researcher in cognitive neuroscience and behavioral modeling.",
+    "link": ""
   }
 ]
