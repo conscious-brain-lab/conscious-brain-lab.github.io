@@ -1,174 +1,121 @@
 [
   {
-    "text": "Conscious Brain Lab",
-    "links": [
-      {
-        "label": "Conscious Brain Lab",
-        "url": "https://www.consciousbrainlab.com"
-      }
-    ]
+    "title": "Congratulations Nico!",
+    "date": "2024",
+    "text": "Congratulations to Nicol\u00e1s S\u00e1nchez-Fuenzalida for successfully defending his PhD thesis on perceptual versus response biases in conscious perception!",
+    "image": "/assets/images/news/news_nico.jpg",
+    "link": ""
   },
   {
-    "text": "Lab and campus impressions",
-    "links": []
+    "title": "Congratulations Lola!",
+    "date": "2023",
+    "text": "Congratulations to Lola Beerendonk on her outstanding work and presentation of neural correlates of conscious perception!",
+    "image": "/assets/images/news/news_lola.jpg",
+    "link": ""
   },
   {
-    "text": "Nicol\u00e1s S\u00e1nchez-Fuenzalida successfully defended his PhD thesis on June 5, well done!",
-    "links": []
+    "title": "Congratulations Samuel!",
+    "date": "2023",
+    "text": "Congratulations to Samuel Noorman for his publications and groundbreaking findings on predictive sensory mechanisms!",
+    "image": "/assets/images/news/news_samuel.jpg",
+    "link": ""
   },
   {
-    "text": "Lola Beerendonk successfully defended her PhD thesis on May 28, well done!",
-    "links": []
+    "title": "Congratulations Stijn!",
+    "date": "2023",
+    "text": "Congratulations to Stijn Nuiten for his successful PhD thesis defense on baseline neural states and visual awareness!",
+    "image": "/assets/images/news/news_stijn.jpg",
+    "link": ""
   },
   {
-    "text": "Samuel Noorman successfully defended his PhD thesis on April 8, well done!",
-    "links": []
+    "title": "Johannes Receives Faculty's Open Science Award",
+    "date": "2023",
+    "text": "Johannes Fahrenfort was awarded the Faculty Open Science Award for developing and sharing the ADAM decoding toolbox for EEG and MEG research.",
+    "image": "/assets/images/news/news_open_science.jpg",
+    "link": "https://www.fahrenfort.com"
   },
   {
-    "text": "Stijn Nuijten successfully defended his PhD thesis on Sept 4, well done!",
-    "links": []
+    "title": "Simon Interviewed for Dutch National Newspaper",
+    "date": "2022",
+    "text": "Simon van Gaal was interviewed by major national Dutch media discussing how neuroscience investigates consciousness, free will, and unconscious processing.",
+    "image": "/assets/images/news/news_simon_nrc.png",
+    "link": ""
   },
   {
-    "text": "The Open Science Award of the Faculty of Behavioural and Movement Sciences at the Free University Amsterdam was given out for developing the ADAM toolbox , a freely available software toolbox to perform multivariate analysis of EEG data. Thanks selection committee!",
-    "links": [
-      {
-        "label": "ADAM toolbox",
-        "url": "https://github.com/fahrenfort/ADAM"
-      }
-    ]
+    "title": "Johannes Interviewed for Kids TV (Proefkonijnen)",
+    "date": "2022",
+    "text": "Johannes Fahrenfort was interviewed for the popular Dutch television program 'Proefkonijnen' (BNNVARA / NPO 3) testing how our brains process sensory stimuli and conscious awareness.",
+    "image": "/assets/images/news/news_tv_proefkonijnen.png",
+    "link": "/proefkonijnen/"
   },
   {
-    "text": "Simon was interviewed by Dutch Newspaper \"Het Parool\" about the relationship between stress and performance as highlighted in Lola's PNAS paper .",
-    "links": [
-      {
-        "label": "interviewed by Dutch Newspaper\n&quot;Het Parool&quot;",
-        "url": "https://www.consciousbrainlab.com/_files/ugd/6ee27e_dd965c5ef71b46fd96d5b1896ad38982.pdf"
-      },
-      {
-        "label": "Lola&#39;s PNAS paper",
-        "url": "https://doi.org/10.1073/pnas.2312898121"
-      }
-    ]
+    "title": "Two PNAS Publications in One Year!",
+    "date": "2021",
+    "text": "Exciting scientific milestone: lab members published two major papers in the Proceedings of the National Academy of Sciences (PNAS) uncovering neural signatures of perceptual consciousness.",
+    "image": "/assets/images/news/news_pnas.png",
+    "link": "/publications/"
   },
   {
-    "text": "Johannes was interviewed about hypnosis for kids science TV show \"Proefkonijnen\" (guinea pigs). You can watch the English subtitled fragment here or the full episode here .",
-    "links": [
-      {
-        "label": "here",
-        "url": "https://www.consciousbrainlab.com/proefkonijnen"
-      },
-      {
-        "label": "here",
-        "url": "https://npo.nl/start/serie/proefkonijnen_2/seizoen-1/proefkonijnen_115/afspelen"
-      }
-    ]
+    "title": "Simon Receives ERC Consolidator Grant",
+    "date": "2021",
+    "text": "Simon van Gaal has been awarded a prestigious European Research Council (ERC) Consolidator Grant of \u20ac2 million to investigate the neural mechanisms of conscious experience and cognitive control.",
+    "image": "/assets/images/news/news_erc.png",
+    "link": "/projects/"
   },
   {
-    "text": "This year we had not one but two PNAS publications. Very proud of Nico and Lola who did all the hard work on these projects.",
-    "links": [
-      {
-        "label": "Nico",
-        "url": "https://doi.org/10.1073/pnas.2220749120"
-      },
-      {
-        "label": "Lola",
-        "url": "https://doi.org/10.1073/pnas.2312898121"
-      }
-    ]
+    "title": "Johannes Receives Templeton ARC Grant",
+    "date": "2021",
+    "text": "Johannes Fahrenfort has been awarded a grant from the Templeton World Charity Foundation (Accelerating Research on Consciousness) to test adversarial predictions between theories of consciousness.",
+    "image": "/assets/images/news/news_templeton.jpg",
+    "link": "/projects/"
   },
   {
-    "text": "We are h appy to be able to consolidate our work on the neural mechanisms of consciousness! The project starts in September 2023",
-    "links": []
+    "title": "Conscious Brain Lab Organizes ASSC 25",
+    "date": "2022",
+    "text": "Our lab co-organized the 25th Annual Meeting of the Association for the Scientific Study of Consciousness (ASSC) held in Amsterdam, welcoming over 500 consciousness researchers from across the globe.",
+    "image": "/assets/images/news/news_assc25.png",
+    "link": ""
   },
   {
-    "text": "We are thankful that the Templeton Foundation funds developing a valid statistical framework for establishing unconscious cognition .",
-    "links": [
-      {
-        "label": "a valid statistical framework for establishing unconscious cognition",
-        "url": "https://research.vu.nl/en/projects/templeton-grant-a-valid-statistical-framework-for-establishing-un"
-      }
-    ]
+    "title": "Congratulations Valeria!",
+    "date": "2020",
+    "text": "Valeria Mongelli completed her postdoctoral project on unconscious semantic processing and language integration.",
+    "image": "/assets/images/news/news_valeria.jpg",
+    "link": ""
   },
   {
-    "text": "The project starts in October 2023",
-    "links": []
+    "title": "ABC Grant for Maartje de Jong: New CBL Member!",
+    "date": "2020",
+    "text": "Dr. Maartje de Jong received an Amsterdam Brain and Cognition (ABC) talent grant to join the Conscious Brain Lab studying bistable visual perception.",
+    "image": "/assets/images/news/news_maartje.jpg",
+    "link": "/members/"
   },
   {
-    "text": "We are super proud to have organized ASSC 25 in Amsterdam. The conference was a huge success. You can still watch the Great Consciousness Debate here .",
-    "links": [
-      {
-        "label": "ASSC 25",
-        "url": "https://theassc.org/assc-25/"
-      },
-      {
-        "label": "here",
-        "url": "https://www.youtube.com/watch?v=INSxzlE0RsI"
-      }
-    ]
+    "title": "Congratulations to Erik!",
+    "date": "2019",
+    "text": "Erik Meijs published key findings on visual awareness and feedback processing before moving to his next appointment.",
+    "image": "/assets/images/news/news_erik.jpg",
+    "link": ""
   },
   {
-    "text": "See here a 7 minute animation made by Josella.nl about the paper by Stijn Nuiten and colleagues, recently accepted in eLife . If you have any questions regarding the paper please contact us. If you also want to make such an animation of your work go to josella.nl!",
-    "links": [
-      {
-        "label": "recently accepted in eLife",
-        "url": "https://elifesciences.org/articles/64431"
-      }
-    ]
+    "title": "Congratulations to Camile!",
+    "date": "2018",
+    "text": "Camile Correa completed her research project in the lab on psychophysical methods in visual awareness.",
+    "image": "/assets/images/news/news_camile.jpg",
+    "link": ""
   },
   {
-    "text": "Valeria Mongelli receives her doctoral degree! Congratuations to Valeria!",
-    "links": []
+    "title": "ASSC 20 in Krakow!",
+    "date": "2016",
+    "text": "Conscious Brain Lab members gave symposia and posters at ASSC 20 in Krakow, Poland.",
+    "image": "/assets/images/news/news_krakow.jpeg",
+    "link": ""
   },
   {
-    "text": "Maartje de Jong receives ABC talent grant and joins the Conscious Brain Lab to perform 7T fMRI pharmacological studies on conscious perception!",
-    "links": []
-  },
-  {
-    "text": "Congratulations Maartje!",
-    "links": []
-  },
-  {
-    "text": "Erik received his PhD on March 25!",
-    "links": []
-  },
-  {
-    "text": "November 28 2018",
-    "links": []
-  },
-  {
-    "text": "Camile Correa defended her thesis in the Agnietenkapel in Amsterdam!",
-    "links": []
-  },
-  {
-    "text": "Josipa Alilovic received her PhD doctoral degree on July 2 2021!",
-    "links": []
-  },
-  {
-    "text": "by members of the lab",
-    "links": []
-  },
-  {
-    "text": "Simon van Gaal presents at UCL (hosted by Steve Fleming) and Goldsmiths (hosted by Daniel Yon)",
-    "links": []
-  },
-  {
-    "text": "Johannes Fahrenfort will present at a symposium on ASSC in London Ontaria: \"Bridging models of perceptual decision-making and consciousness",
-    "links": []
-  },
-  {
-    "text": "Johannes Fahrenfort gives a talk at the psychology department of the University of Vienna on May 23 2019.",
-    "links": []
-  },
-  {
-    "text": "Simon van Gaal gives a talk at Utrecht University",
-    "links": []
-  },
-  {
-    "text": "Stijn Nuiten gives a talk at the Netherlands institute for Neuroscience (on the Amsterdam Vision Meeting)",
-    "links": []
-  },
-  {
-    "text": "\u00a92019 by conscious brain lab.",
-    "links": []
+    "title": "Congratulations Josipa!",
+    "date": "2016",
+    "text": "Josipa Alilovi\u0107 presented her neural oscillation findings at international conferences.",
+    "image": "/assets/images/news/news_josipa.jpg",
+    "link": ""
   }
 ]

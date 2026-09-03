@@ -9,100 +9,104 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/publications.css">
 </head>
 <body>
-  <!-- Global Site Header -->
+  <!-- Global Header with Top Brand Bar and Main Navigation -->
   <header class="site-header">
-    <div class="container header-container">
-      <a href="./" class="brand-logo-link">
-        <img src="./assets/images/cbl_logo.jpg" alt="Conscious Brain Lab Logo" style="width: 40px; height: 40px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" />
-        <span>Conscious Brain Lab</span>
-      </a>
-
-      <nav>
-        <ul class="nav-menu" id="nav-menu">
-          <li class="nav-item">
-            <a href="./" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="./members/" class="nav-link ">
-              People
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="./members/" class="dropdown-item">All Team Members</a></li>
-              <li><a href="./members/#pi" class="dropdown-item">Principal Investigators</a></li>
-              <li><a href="./members/#postdocs" class="dropdown-item">Postdoctoral Researchers</a></li>
-              <li><a href="./members/#phd" class="dropdown-item">PhD Candidates</a></li>
-              <li><a href="./members/#alumni" class="dropdown-item">Lab Alumni</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="./projects/" class="nav-link ">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="./publications/" class="nav-link ">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a href="./news/" class="nav-link ">
-              News & Talks
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="./news/" class="dropdown-item">News & Talks (English)</a></li>
-              <li><a href="./nieuws/" class="dropdown-item">Lab & Campus Impressions</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="./proefkonijnen/" class="nav-link ">
-              Participate
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="./proefkonijnen/" class="dropdown-item">Proefkonijnen (Deelname)</a></li>
-              <li><a href="./vacatures/" class="dropdown-item">Open Positions / Vacatures</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="./contact/" class="nav-link ">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="header-actions">
-        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
-          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
-        </button>
-        <a href="./admin/" class="btn-admin" title="Open visual CMS admin editor">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
-          Admin CMS
+    <!-- Top Branding Row: Logo & Lab Title all the way at the top with ample breathing room -->
+    <div class="header-top-bar">
+      <div class="container top-bar-inner">
+        <a href="./" class="brand-logo-link">
+          <img src="./assets/images/cbl_logo.jpg" alt="Conscious Brain Lab Logo" class="brand-logo-img" />
+          <div class="brand-text-block">
+            <span class="brand-title">CONSCIOUS BRAIN LAB</span>
+            <span class="brand-sub">Brain &amp; Cognition • University of Amsterdam &amp; VU Amsterdam</span>
+          </div>
         </a>
-        <button class="mobile-toggle-btn" id="mobile-toggle" aria-label="Open Mobile Menu">&#9776;</button>
+
+        <div class="top-bar-actions">
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Theme">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+          </button>
+          <a href="./admin/" class="btn-admin" title="Open visual CMS admin editor">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+            CMS Admin
+          </a>
+          <button class="mobile-toggle-btn" id="mobile-toggle" aria-label="Open Mobile Menu">&#9776;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Row: Faithfully replicating original menu structure -->
+    <div class="header-nav-bar">
+      <div class="container">
+        <nav class="main-nav">
+          <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+              <a href="./" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./members/" class="nav-link ">
+                People
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="./members/#pi" class="dropdown-item">Simon van Gaal</a></li>
+                <li><a href="./members/#pi" class="dropdown-item">Johannes Fahrenfort</a></li>
+                <li><a href="./members/#pi" class="dropdown-item">Timo Stein</a></li>
+                <li><a href="./members/#current" class="dropdown-item">Current Lab Members</a></li>
+                <li><a href="./members/#alumni" class="dropdown-item">Lab Alumni</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="./publications/" class="nav-link ">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a href="./projects/" class="nav-link ">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="./news/" class="nav-link ">
+                News
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="./news/" class="dropdown-item">News &amp; Talks</a></li>
+                <li><a href="./nieuws/" class="dropdown-item">Lab and Campus Impressions</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="./vacatures/" class="nav-link ">Positions</a>
+            </li>
+            <li class="nav-item nav-item-right">
+              <a href="./contact/" class="nav-link ">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
 
   <main>
-    <!-- Hero Section with Starry Background -->
-    <section class="hero-section" style="background: linear-gradient(180deg, rgba(15, 23, 42, 0.78) 0%, rgba(15, 23, 42, 0.94) 100%), url('/assets/images/starry_bg.jpg') center / cover no-repeat; color: #ffffff; padding: 5rem 0 4rem;">
+    <!-- Hero Section -->
+    <section class="hero-section">
       <div class="container">
-        <div class="hero-badge" style="background: rgba(14, 165, 233, 0.2); border-color: rgba(56, 189, 248, 0.4); color: #38bdf8;">
+        <div class="hero-badge">
           <span>🧠 Cognitive Neuroscience &amp; Consciousness Research</span>
         </div>
-        <h1 class="hero-title" style="color: #ffffff; max-width: 850px;">
+        <h1 class="hero-title">
           Unraveling the Neural Mysteries of <span class="gradient-text">Conscious Experience</span>
         </h1>
-        <p class="hero-description" style="color: #cbd5e1; max-width: 820px; font-size: 1.15rem;">
-          While you are reading these words, the electrochemical activity of billions of nerve cells is generating a conscious experience of these words: right now. But how do all those interconnected cells in your brain do that? Answering this question is the ultimate intellectual challenge for members of the <strong>Conscious Brain Lab</strong>.
+        <p class="hero-description" style="max-width: 840px;">
+          While you are reading these words, the electrochemical activity of billions of nerve cells is generating a conscious experience of these words: right now. But how do all those interconnected cells in your brain do that? And related, what happens for example when a person loses consciousness, for example when falling asleep or when placed under anesthetic? Answering these questions is the ultimate intellectual challenge for members of the <strong>Conscious Brain Lab</strong>.
         </p>
         <div class="hero-cta-group">
           <a href="./projects/" class="btn btn-primary">Explore Research Projects &rarr;</a>
-          <a href="./publications/" class="btn btn-secondary" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">Browse Publications</a>
-          <a href="./proefkonijnen/" class="btn btn-secondary" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.2);">Deelname aan Onderzoek (NL)</a>
+          <a href="./publications/" class="btn btn-secondary">Browse Publications</a>
+          <a href="./members/" class="btn btn-secondary">Meet the Team</a>
         </div>
       </div>
     </section>
@@ -121,13 +125,46 @@
       </div>
     </section>
 
+    <!-- Starry Background Section with INFOGRAPHIC BEHIND IT -->
+    <section class="starry-infographic-section">
+      <div class="container">
+        <div class="section-header" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+          <span class="section-subtitle" style="color: #38bdf8;">Scientific Framework</span>
+          <h2 class="section-title" style="color: #ffffff;">Our Research Architecture</h2>
+          <p class="section-intro" style="color: #cbd5e1; margin: 0 auto;">
+            We are hosted at the University of Amsterdam (Simon van Gaal) and the Free University Amsterdam (Johannes Fahrenfort). We combine psychophysics, high-density EEG, multivariate decoding, and fMRI to dissect consciousness.
+          </p>
+        </div>
+
+        <div class="grid-2" style="align-items: center; gap: 3.5rem;">
+          <div class="card" style="padding: 0.75rem; overflow: hidden; border-radius: var(--radius-lg); background: rgba(17, 26, 46, 0.85); border-color: rgba(56, 189, 248, 0.3); box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+            <img src="/assets/images/infographic_erc.jpg" alt="Conscious Brain Lab Research Infographic" style="width: 100%; border-radius: var(--radius-md);" />
+          </div>
+
+          <div>
+            <h3 style="font-size: 1.6rem; margin-bottom: 1rem; color: #ffffff;">Multimodal Investigation of the Mind</h3>
+            <p style="line-height: 1.8; color: #cbd5e1; margin-bottom: 1.25rem;">
+              In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).
+            </p>
+            <p style="line-height: 1.8; color: #cbd5e1; margin-bottom: 1.75rem;">
+              Using advanced multivariate decoding toolboxes (including the lab's open-source <strong>ADAM toolbox</strong> developed by Johannes Fahrenfort) and Bayesian response models, we disentangle raw subjective awareness from decisional criteria.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="./projects/" class="btn btn-primary">Discover Ongoing Projects &rarr;</a>
+              <a href="./publications/" class="btn btn-secondary" style="background: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.25);">Read Our Papers</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- YouTube Multimedia Video Section: Understanding Consciousness Animation -->
     <section class="section-padding" style="background: var(--bg-tertiary);">
       <div class="container">
         <div class="section-header" style="text-align: center; max-width: 800px; margin: 0 auto 2.5rem;">
           <span class="section-subtitle">Multimedia &amp; Outreach</span>
           <h2 class="section-title">Understanding Consciousness</h2>
-          <p class="section-intro">Watch our recent animation explaining how cognitive neuroscience investigates the emergence of subjective awareness from neural circuitry.</p>
+          <p class="section-intro">See below for a recent animation that we have made about "understanding consciousness".</p>
         </div>
 
         <div style="max-width: 880px; margin: 0 auto;">
@@ -142,44 +179,14 @@
             </iframe>
           </div>
           <p style="text-align: center; font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem;">
-            Educational animation produced by the Conscious Brain Lab &amp; University of Amsterdam Brain &amp; Cognition department.
+            Animation produced by the Conscious Brain Lab and University of Amsterdam.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Infographic Section -->
-    <section class="section-padding">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-subtitle">Research Framework</span>
-          <h2 class="section-title">Our Scientific Architecture</h2>
-          <p class="section-intro">How we combine psychophysics, electrophysiology, neuropharmacology, and computational modeling to dissect consciousness.</p>
-        </div>
-
-        <div class="grid-2" style="align-items: center; gap: 3rem;">
-          <div class="card" style="padding: 0.75rem; overflow: hidden; border-radius: var(--radius-lg);">
-            <img src="/assets/images/infographic_erc.jpg" alt="Conscious Brain Lab Research Infographic" style="width: 100%; border-radius: var(--radius-md);" />
-          </div>
-          <div>
-            <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Multimodal Investigation of the Mind</h3>
-            <p style="line-height: 1.8; color: var(--text-secondary); margin-bottom: 1.25rem;">
-              We are hosted at the <strong>University of Amsterdam</strong> (Simon van Gaal) and the <strong>Vrije Universiteit Amsterdam</strong> (Johannes Fahrenfort). Our projects probe subjective experience across multiple scales—from interneuron baseline firing rates to large-scale frontoparietal networks.
-            </p>
-            <p style="line-height: 1.8; color: var(--text-secondary); margin-bottom: 1.5rem;">
-              Combining high-density EEG with decoding toolboxes (such as the lab's open-source <strong>ADAM toolbox</strong>), pharmacological challenges, and 7T fMRI allows us to disentangle raw perceptual sensitivity from decisional criteria and confidence.
-            </p>
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-              <a href="./projects/" class="btn btn-primary">Discover Ongoing Projects &rarr;</a>
-              <a href="./publications/" class="btn btn-secondary">Read Our Papers</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Principal Investigators Section with Real Photos -->
-    <section class="section-padding" style="background: var(--bg-tertiary);">
+    <section class="section-padding">
       <div class="container">
         <div class="section-header" style="text-align: center;">
           <span class="section-subtitle">Lab Leadership</span>
@@ -237,7 +244,7 @@
     </section>
 
     <!-- Campus & Conference Gallery -->
-    <section class="section-padding">
+    <section class="section-padding" style="background: var(--bg-tertiary);">
       <div class="container">
         <div class="section-header">
           <span class="section-subtitle">Community &amp; Events</span>
@@ -272,60 +279,63 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="brand-logo-link">
-            <img src="./assets/images/cbl_logo.jpg" alt="Conscious Brain Lab" style="width: 36px; height: 36px; border-radius: 6px; object-fit: cover;" />
-            <span>Conscious Brain Lab</span>
+            <img src="./assets/images/cbl_logo.jpg" alt="Conscious Brain Lab" style="width: 44px; height: 44px; border-radius: 8px; object-fit: cover;" />
+            <div class="brand-text-block">
+              <span class="brand-title" style="font-size: 1.15rem;">CONSCIOUS BRAIN LAB</span>
+              <span class="brand-sub">University of Amsterdam &amp; VU Amsterdam</span>
+            </div>
           </div>
-          <p>Investigating the neural architecture of consciousness, perception, and cognitive control at the University of Amsterdam and VU Amsterdam.</p>
+          <p style="margin-top: 1rem;">Investigating the neural architecture of consciousness, perception, and cognitive control using EEG, fMRI, MEG, and computational modeling.</p>
           <div style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-            <span class="tag tag-accent">UvA Psychology</span>
-            <span class="tag tag-accent">VU Amsterdam</span>
+            <span class="tag tag-accent">Brain &amp; Cognition</span>
             <span class="tag tag-accent">Spinoza Centre</span>
           </div>
         </div>
 
         <div>
-          <h4 class="footer-heading">Research</h4>
+          <h4 class="footer-heading">Navigation</h4>
           <ul class="footer-links">
+            <li><a href="./">Home</a></li>
+            <li><a href="./members/">People &amp; Alumni</a></li>
+            <li><a href="./publications/">Publications</a></li>
             <li><a href="./projects/">Research Projects</a></li>
-            <li><a href="./publications/">Publications & Preprints</a></li>
-            <li><a href="./members/">Team & Alumni</a></li>
-            <li><a href="./news/">Talks & Symposia</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="footer-heading">Lab Info</h4>
-          <ul class="footer-links">
-            <li><a href="./proefkonijnen/">Participate (Proefkonijnen)</a></li>
+            <li><a href="./news/">News &amp; Talks</a></li>
             <li><a href="./vacatures/">Open Positions</a></li>
-            <li><a href="./nieuws/">Campus Impressions</a></li>
-            <li><a href="./contact/">Directions & Contact</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="footer-heading">Location & Direct Contact</h4>
+          <h4 class="footer-heading">Media &amp; Outreaches</h4>
+          <ul class="footer-links">
+            <li><a href="./proefkonijnen/">Proefkonijnen TV Interview</a></li>
+            <li><a href="./nieuws/">Campus Impressions</a></li>
+            <li><a href="https://www.youtube.com/watch?v=rqIEIMXOwHk" target="_blank" rel="noopener">Understanding Consciousness (Video)</a></li>
+            <li><a href="./admin/">CMS Admin Portal</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Visiting Address</h4>
           <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
             <strong>University of Amsterdam</strong><br>
-            Department of Psychology<br>
+            Department of Psychology (REC-G)<br>
             Nieuwe Achtergracht 129B<br>
             1018 WS Amsterdam, The Netherlands
           </p>
-          <a href="mailto:s.vangaal@uva.nl" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem; padding: 0.5rem 1rem;">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-            Email Lab (mailto:)
+          <a href="./contact/" class="btn btn-secondary" style="width: 100%; font-size: 0.85rem; padding: 0.5rem 1rem;">
+            Contact Page &amp; Directions &rarr;
           </a>
         </div>
       </div>
 
       <div class="footer-bottom">
         <div>
-          &copy; 2026 Conscious Brain Lab. Subscription-free open CMS on GitHub Pages.
+          &copy; 2026 Conscious Brain Lab. Subscription-free open CMS hosted on GitHub Pages.
         </div>
         <div style="display: flex; gap: 1rem; align-items: center;">
           <span>Hosted on <strong>GitHub Pages</strong></span>
           <span>•</span>
-          <a href="./admin/" style="color: var(--accent-primary); font-weight: 600;">Decap CMS Portal</a>
+          <a href="./admin/" style="color: var(--accent-primary); font-weight: 600;">Decap CMS</a>
         </div>
       </div>
     </div>
