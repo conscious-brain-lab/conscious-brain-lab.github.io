@@ -44,9 +44,19 @@ def sync_collections_to_data():
             except Exception as e:
                 print(f"Error reading {f}: {e}")
         
-        # Sort members: PIs first, current team, then alumni
-        order = {"pi": 1, "postdoc": 2, "phd": 3, "alumni": 4}
-        all_members.sort(key=lambda m: (1 if m.get("status") == "alumni" else 0, order.get(m.get("category", "phd"), 99), m.get("name", "")))
+        # Sort members: PIs first, current team, then alumni; by explicit order, then name
+        cat_order = {"pi": 1, "postdoc": 2, "phd": 3, "alumni": 4}
+        def member_sort_key(m):
+            is_alumni = 1 if m.get("status") == "alumni" else 0
+            category_rank = cat_order.get(m.get("category", "phd"), 99)
+            try:
+                display_order = int(m.get("order", 99))
+            except Exception:
+                display_order = 99
+            name = m.get("name", "")
+            return (is_alumni, category_rank, display_order, name)
+
+        all_members.sort(key=member_sort_key)
         
         data_members_path = os.path.join(BASE_DIR, "data", "members.json")
         with open(data_members_path, "w", encoding="utf-8") as df:

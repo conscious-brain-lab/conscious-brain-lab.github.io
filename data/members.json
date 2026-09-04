@@ -1,29 +1,32 @@
 [
   {
+    "name": "Simon van Gaal",
+    "role": "Principal Investigator / Associate Professor",
+    "status": "current",
+    "category": "pi",
+    "order": 1,
+    "slug": "simon-van-gaal",
+    "image": "/assets/images/simon_van_gaal.jpg",
+    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
+    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
+  },
+  {
     "name": "Johannes Fahrenfort",
     "role": "Principal Investigator / Assistant Professor",
     "status": "current",
     "category": "pi",
+    "order": 2,
     "slug": "johannes-fahrenfort",
     "image": "/assets/images/johannes_fahrenfort.jpg",
     "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and the Brain and Cognition group at UvA. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
     "link": "https://www.fahrenfort.com"
   },
   {
-    "name": "Simon van Gaal",
-    "role": "Principal Investigator / Associate Professor",
-    "status": "current",
-    "category": "pi",
-    "slug": "simon-van-gaal",
-    "image": "/assets/images/crop_1788449649704.jpg",
-    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
-    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
-  },
-  {
     "name": "Timo Stein",
     "role": "Principal Investigator / Associate Professor",
     "status": "current",
     "category": "pi",
+    "order": 3,
     "slug": "timo-stein",
     "image": "/assets/images/timo_stein.jpg",
     "bio": "Before joining the Brain and Cognition group at UvA, I was an assistant professor at the University of Trento and a postdoctoral fellow at the Max Planck Institute in Frankfurt. My research focuses on visual awareness, face and object recognition, and the dynamics of unconscious processing.",

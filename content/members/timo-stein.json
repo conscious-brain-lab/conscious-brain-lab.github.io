@@ -3,6 +3,7 @@
   "role": "Principal Investigator / Associate Professor",
   "status": "current",
   "category": "pi",
+  "order": 3,
   "slug": "timo-stein",
   "image": "/assets/images/timo_stein.jpg",
   "bio": "Before joining the Brain and Cognition group at UvA, I was an assistant professor at the University of Trento and a postdoctoral fellow at the Max Planck Institute in Frankfurt. My research focuses on visual awareness, face and object recognition, and the dynamics of unconscious processing.",

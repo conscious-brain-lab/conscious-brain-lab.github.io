@@ -22,6 +22,7 @@ collections:
       - { label: "Role / Position", name: "role", widget: "string" }
       - { label: "Status", name: "status", widget: "select", options: [{label: "Current Lab Member", value: "current"}, {label: "Alumni", value: "alumni"}], default: "current" }
       - { label: "Category", name: "category", widget: "select", options: [{label: "Principal Investigator", value: "pi"}, {label: "Postdoc", value: "postdoc"}, {label: "PhD Candidate", value: "phd"}, {label: "Alumni", value: "alumni"}], default: "phd" }
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Lower numbers appear first within the role category (e.g., 1 for Simon van Gaal, 2 for Johannes Fahrenfort, 3 for Timo Stein)." }
       - { label: "URL Slug", name: "slug", widget: "string" }
       - { label: "Photo", name: "image", widget: "image", required: false }
       - { label: "Biography", name: "bio", widget: "text", required: false }

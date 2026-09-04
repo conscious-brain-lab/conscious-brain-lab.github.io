@@ -3,8 +3,9 @@
   "role": "Principal Investigator / Associate Professor",
   "status": "current",
   "category": "pi",
+  "order": 1,
   "slug": "simon-van-gaal",
-  "image": "/assets/images/crop_1788449649704.jpg",
+  "image": "/assets/images/simon_van_gaal.jpg",
   "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
   "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
 }
