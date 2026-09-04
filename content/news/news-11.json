@@ -1,13 +1,13 @@
 {
-  "id": "assc25",
-  "title": "The Conscious Brain Lab Organizes ASSC 25",
+  "position": "center",
+  "slug": "news-11",
+  "text": "We are super proud to have organized ASSC 25 in Amsterdam. The conference was a huge success, welcoming over 500 consciousness researchers from across the globe.",
   "date": "July 2022",
   "date_sort": "2022-07",
-  "text": "We are super proud to have organized ASSC 25 in Amsterdam. The conference was a huge success, welcoming over 500 consciousness researchers from across the globe.",
-  "image": "/assets/images/news_assc25.png",
   "wix_url": "https://static.wixstatic.com/media/6ee27e_6ea40501663e495ca7ecc1798e9e37e2~mv2.png/v1/fill/w_600,h_350,al_c,q_85,enc_auto/6ee27e_6ea40501663e495ca7ecc1798e9e37e2~mv2.png",
+  "title": "The Conscious Brain Lab Organizes ASSC 25",
   "type": "logo",
-  "position": "center",
   "link": "",
-  "slug": "news-11"
+  "id": "assc25",
+  "image": "/assets/images/assclogo_png-1024x490_edited.png.avif"
 }

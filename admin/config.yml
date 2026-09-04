@@ -98,4 +98,5 @@ collections:
       - { label: "Announcement Text", name: "text", widget: "text" }
       - { label: "Date / Note", name: "date", widget: "string", required: false }
       - { label: "Image / Logo", name: "image", widget: "image", required: false }
+      - { label: "Video (YouTube link or MP4 path)", name: "video", widget: "string", required: false, hint: "Optional: Paste a YouTube link (e.g. https://www.youtube.com/watch?v=... or https://youtu.be/...) OR an MP4 file path (e.g. /assets/images/clip.mp4). If provided, an interactive video player will be displayed instead of an image." }
       - { label: "External Link", name: "link", widget: "string", required: false }
