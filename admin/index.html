@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
   
   <!-- Decap CMS Config with Cache Busting -->
-  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_sort" />
+  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_clean_cit" />
 
   <!-- Cropper.js for Client-Side Crop & Resize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
@@ -423,14 +423,39 @@
         }
 
         let citation = null;
+        let extractedDoiUrl = null;
         if (citationRes.status === 'fulfilled' && citationRes.value.ok) {
           const text = await citationRes.value.text();
-          if (text) citation = text.trim();
+          if (text) {
+            let rawCitation = text.trim();
+            // Match and extract trailing DOI/URL link (e.g. https://doi.org/..., http://dx.doi.org/..., doi: 10....)
+            const urlMatch = rawCitation.match(/\s*(?:https?:\/\/(?:dx\.)?doi\.org\/[^\s]+|https?:\/\/[^\s]+|doi:\s*10\.[^\s]+)\s*$/i);
+            if (urlMatch) {
+              const matchedUrl = urlMatch[0].trim().replace(/\.$/, '');
+              if (matchedUrl.startsWith('http')) {
+                extractedDoiUrl = matchedUrl;
+              } else if (matchedUrl.toLowerCase().startsWith('doi:')) {
+                const pureDoi = matchedUrl.replace(/^doi:\s*/i, '');
+                extractedDoiUrl = `https://doi.org/${pureDoi}`;
+              }
+              rawCitation = rawCitation.slice(0, urlMatch.index).trim();
+            }
+            // Ensure citation ends cleanly with a period and no trailing separators
+            rawCitation = rawCitation.replace(/[,;:]\s*$/, '').trim();
+            if (rawCitation && !rawCitation.endsWith('.')) {
+              rawCitation += '.';
+            }
+            citation = rawCitation;
+          }
         }
 
         let year = null;
+        let canonicalUrl = extractedDoiUrl || `https://doi.org/${doi.trim()}`;
         if (jsonRes.status === 'fulfilled' && jsonRes.value && jsonRes.value.message) {
           const msg = jsonRes.value.message;
+          if (msg.URL && msg.URL.startsWith('http')) {
+            canonicalUrl = msg.URL;
+          }
           const issued = msg['published-print'] || msg['published-online'] || msg['issued'] || msg['created'];
           if (issued && issued['date-parts'] && issued['date-parts'][0] && issued['date-parts'][0][0]) {
             year = String(issued['date-parts'][0][0]);
@@ -442,7 +467,7 @@
           if (yrMatch) year = yrMatch[1];
         }
 
-        return { bibtex, citation, year };
+        return { bibtex, citation, year, doiUrl: canonicalUrl };
       }
 
       function synthesizeBibtex(citation, year, url) {
@@ -494,22 +519,32 @@
 
           let updatedFields = [];
 
+          // 1. Populate DOI field with canonical https://doi.org/... entry
+          const targetDoiUrl = data.doiUrl || `https://doi.org/${doi}`;
+          if (paperUrlInput && paperUrlInput.value !== targetDoiUrl) {
+            setReactInputValue(paperUrlInput, targetDoiUrl);
+            updatedFields.push('DOI Link');
+          }
+
+          // 2. Populate Full Citation Text (clean, without trailing DOI link)
           if (citationEl && data.citation) {
             setReactInputValue(citationEl, data.citation);
             updatedFields.push('Citation');
           }
 
+          // 3. Populate BibTeX
           if (bibtexArea) {
             if (data.bibtex) {
               setReactInputValue(bibtexArea, data.bibtex);
               updatedFields.push('BibTeX');
             } else if (citationEl && citationEl.value) {
-              const fallback = synthesizeBibtex(citationEl.value, data.year || (yearEl ? yearEl.value : ''), paperUrl);
+              const fallback = synthesizeBibtex(citationEl.value, data.year || (yearEl ? yearEl.value : ''), targetDoiUrl);
               setReactInputValue(bibtexArea, fallback);
               updatedFields.push('BibTeX (synthesized)');
             }
           }
 
+          // 4. Populate Year
           if (yearEl && data.year) {
             setReactInputValue(yearEl, data.year);
             updatedFields.push('Year');

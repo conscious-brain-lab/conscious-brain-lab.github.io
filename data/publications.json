@@ -1,18 +1,18 @@
 [
   {
-    "id": "pub-5",
-    "citation": "Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S.M., van Gaal, S., and Fahrenfort, J.J. . Disentangling perceptual and response biases: The act of detecting a stimulus contaminates measures of conscious experience. Nature Communications",
-    "year": "2026",
-    "year_group": "2026",
     "topics": [
       "Consciousness",
       "Decision Making"
     ],
-    "doi": "https://doi.org/10.17605/OSF.IO/TBFNE",
-    "paper_url": null,
+    "citation": "Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S. M., van Gaal, S., & Fahrenfort, J. J. (2026). The act of detecting a stimulus contaminates measures of conscious experience with decision biases. Nature Communications, 17(1). https://doi.org/10.1038/s41467-026-72567-6",
+    "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={The act of detecting a stimulus contaminates measures of conscious experience with decision biases},\n  volume ={17},\n  ISSN ={2041-1723},\n  url ={http://dx.doi.org/10.1038/s41467-026-72567-6},\n  DOI ={10.1038/s41467-026-72567-6},\n  number ={1},\n  journal ={Nature Communications},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Sánchez-Fuenzalida, Nicolás and Jungerius, Chris and Fleming, Stephen M. and van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2026},\n  month =May \n}",
     "preprint_url": "https://osf.io/preprints/psyarxiv/yqa32",
+    "id": "pub-5",
+    "paper_url": "https://doi.org/10.1038/s41467-026-72567-6",
     "code_url": "https://doi.org/10.17605/OSF.IO/TBFNE",
-    "bibtex": "@article{sánchez2026_5,\n  author = {Sánchez-Fuenzalida, N},\n  title = {Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S.M., van Gaal, S., and Fahrenfort, J.J. . Disentangling perceptual and response biases: The act of detecting a stimulus contaminates measures of conscious experience. Nature Communications},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/preprints/psyarxiv/yqa32}\n}"
+    "year": "2026",
+    "year_group": "2026",
+    "doi": "https://doi.org/10.17605/OSF.IO/TBFNE"
   },
   {
     "id": "pub-6",
@@ -41,20 +41,6 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{nuiten2026_7,\n  author = {Nuiten, S},\n  title = {Nuiten, S.A., J.W. De Gee, J.B. Zantvoord, P. Sterzer, J.J. Fahrenfort & S. van Gaal. Phasic and tonic arousal distinctly shape human decision bias. Communications Biology},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s42003-026-09776-8}\n}"
-  },
-  {
-    "id": "pub-8",
-    "citation": "Stockart, F. et al., Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences (2026)",
-    "year": "2026",
-    "year_group": "2026",
-    "topics": [
-      "Consciousness"
-    ],
-    "doi": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4",
-    "paper_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4",
-    "preprint_url": null,
-    "code_url": null,
-    "bibtex": "@article{stockart2026_8,\n  author = {Stockart, F},\n  title = {Stockart, F. et al., Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences (2026)},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4}\n}"
   },
   {
     "id": "pub-9",
@@ -153,6 +139,20 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{van2025_15,\n  author = {van Gaal, S},\n  title = {van Gaal, S. Neural activity patterns stabilize during wakefulness and conscious experience, PLoS Biology (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252}\n}"
+  },
+  {
+    "topics": [
+      "Consciousness"
+    ],
+    "citation": "Stockart, F., Schreiber, M., Amerio, P., Carmel, D., Cleeremans, A., Deouell, L. Y., Dienes, Z., Elosegi, P., Gayet, S., Goldstein, A., Halchin, A.-M., Hesselmann, G., Kimchi, R., Lamy, D., Loued-Khenissi, L., Meyen, S., Micher, N., Pitts, M., Salomon, R., et al. (2025). Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences, 1–77. https://doi.org/10.1017/s0140525x25101489",
+    "bibtex": "@article{Stockart_2025,\n  title ={Studying unconscious processing: Contention and consensus},\n  ISSN ={1469-1825},\n  url ={http://dx.doi.org/10.1017/S0140525X25101489},\n  DOI ={10.1017/s0140525x25101489},\n  journal ={Behavioral and Brain Sciences},\n  publisher ={Cambridge University Press (CUP)},\n  author ={Stockart, François and Schreiber, Maor and Amerio, Pietro and Carmel, David and Cleeremans, Axel and Deouell, Leon Y. and Dienes, Zoltan and Elosegi, Patxi and Gayet, Surya and Goldstein, Alon and Halchin, Adelina-Mihaela and Hesselmann, Guido and Kimchi, Ruth and Lamy, Dominique and Loued-Khenissi, Leyla and Meyen, Sascha and Micher, Nitzan and Pitts, Michael and Salomon, Roy and Sandberg, Kristian and Schnepf, Iris A. and Schurger, Aaron and Shanks, David R. and Soto, David and Tal, Amir and Trübutschek, Darinka and Vadillo, Miguel A. and van Gaal, Simon and Yaron, Itay and Zheng, Zefan and Faivre, Nathan and Mudrik, Liad},\n  year ={2025},\n  month =July,\n  pages ={1–77} \n}",
+    "preprint_url": null,
+    "id": "pub-8",
+    "paper_url": "doi:10.1017/S0140525X25101489",
+    "code_url": null,
+    "year": "2025",
+    "year_group": "2025",
+    "doi": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4"
   },
   {
     "id": "pub-16",
@@ -1439,19 +1439,5 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{fahrenfort2007_104,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. Masking disrupts reentrant processing in human visual cortex. Journal of Cognitive Neuroscience (2007)},\n  year = {2007},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human}\n}"
-  },
-  {
-    "id": "pub-105",
-    "citation": "Copyright notice: The documents distributed here have been provided as a means to ensure timely dissemination of scholarly and technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.",
-    "year": "2007",
-    "year_group": "2007",
-    "topics": [
-      "Cognitive Neuroscience"
-    ],
-    "doi": null,
-    "paper_url": null,
-    "preprint_url": null,
-    "code_url": null,
-    "bibtex": "@article{copyright2007_105,\n  author = {Copyright notice: The documents distributed here have been provided as a means to ensure timely dissemination of scholarly and technical work on a noncommercial basis},\n  title = {Copyright notice: The documents distributed here have been provided as a means to ensure timely dissemination of scholarly and technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.},\n  year = {2007},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.consciousbrainlab.com/publications}\n}"
   }
 ]
