@@ -1,0 +1,14 @@
+{
+  "id": "pub-65",
+  "citation": "Fahrenfort, J.J., Grubert, A., Olivers, C.N.L., Eimer, M., Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection. Scientific Reports (2017)",
+  "year": "2017",
+  "year_group": "2017",
+  "topics": [
+    "EEG"
+  ],
+  "doi": "https://doi.org/10.1038/s41598-017-01911-0",
+  "paper_url": "https://doi.org/10.1038/s41598-017-01911-0",
+  "preprint_url": null,
+  "code_url": null,
+  "bibtex": "@article{fahrenfort2017_65,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Grubert, A., Olivers, C.N.L., Eimer, M., Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection. Scientific Reports (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1038/s41598-017-01911-0}\n}"
+}

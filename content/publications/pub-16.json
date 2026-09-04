@@ -1,0 +1,14 @@
+{
+  "id": "pub-16",
+  "citation": "Nuiten, SA., De Gee, JW., Zantvoord, JB., Fahrenfort, JJ. & van Gaal, S. Pharmacological elevation of catecholamine levels improves perceptual decisions, but not metacognitive insight. eNeuro (2024)",
+  "year": "2024",
+  "year_group": "2024",
+  "topics": [
+    "Decision Making"
+  ],
+  "doi": "https://www.eneuro.org/content/11/7/ENEURO.0019-24.2024.full",
+  "paper_url": "https://www.eneuro.org/content/11/7/ENEURO.0019-24.2024.full",
+  "preprint_url": null,
+  "code_url": "https://uvaauas.figshare.com/articles/dataset/Pupil_data/26235413",
+  "bibtex": "@article{nuiten2024_16,\n  author = {Nuiten, SA},\n  title = {Nuiten, SA., De Gee, JW., Zantvoord, JB., Fahrenfort, JJ. & van Gaal, S. Pharmacological elevation of catecholamine levels improves perceptual decisions, but not metacognitive insight. eNeuro (2024)},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/11/7/ENEURO.0019-24.2024.full}\n}"
+}

@@ -15,7 +15,7 @@
     "status": "current",
     "category": "pi",
     "slug": "simon-van-gaal",
-    "image": "/assets/images/simon_van_gaal.jpg",
+    "image": "/assets/images/crop_1788449649704.jpg",
     "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
     "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
   },
@@ -60,16 +60,6 @@
     "link": ""
   },
   {
-    "name": "Lola Beerendonk",
-    "role": "PhD Candidate",
-    "status": "current",
-    "category": "phd",
-    "slug": "lola-beerendonk",
-    "image": "/assets/images/lola_beerendonk.jpg",
-    "bio": "PhD candidate studying neural correlates of conscious perception and the boundaries of unconscious semantic processing.",
-    "link": ""
-  },
-  {
     "name": "Margot Steijger",
     "role": "PhD Candidate",
     "status": "current",
@@ -100,12 +90,22 @@
     "link": ""
   },
   {
+    "name": "Lola Beerendonk",
+    "role": "PhD Candidate",
+    "status": "alumni",
+    "category": "phd",
+    "slug": "lola-beerendonk",
+    "image": "/assets/images/lola_beerendonk.jpg",
+    "bio": "PhD candidate studying neural correlates of conscious perception and the boundaries of unconscious semantic processing.",
+    "link": ""
+  },
+  {
     "name": "Andres Canales-Johnson",
     "role": "Former Postdoctoral Researcher",
     "status": "alumni",
     "category": "alumni",
     "slug": "andres-canales-johnson",
-    "image": "/assets/images/alumni/andres_canales_johnson.jpg",
+    "image": "/assets/images/andres_canales_johnson.jpg",
     "bio": "Former postdoctoral researcher, now Senior Researcher at University of Cambridge and Universidad Diego Portales.",
     "link": ""
   },
@@ -115,7 +115,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "camile-correa",
-    "image": "/assets/images/alumni/camile_correa.jpg",
+    "image": "/assets/images/camile_correa.jpg",
     "bio": "Former researcher studying psychophysics and consciousness.",
     "link": ""
   },
@@ -125,7 +125,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "erik-meijs",
-    "image": "/assets/images/alumni/erik_meijs.jpg",
+    "image": "/assets/images/erik_meijs.jpg",
     "bio": "Former postdoctoral researcher, now at Donders Institute for Brain, Cognition and Behaviour.",
     "link": ""
   },
@@ -145,7 +145,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "josipa-alilovic",
-    "image": "/assets/images/alumni/josipa_alilovic.jpg",
+    "image": "/assets/images/josipa_alilovic.jpg",
     "bio": "Former PhD candidate investigating neural oscillations and temporal dynamics of consciousness.",
     "link": ""
   },
@@ -155,7 +155,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "jun-jiang",
-    "image": "/assets/images/alumni/jun_jiang.jpg",
+    "image": "/assets/images/jun_jiang.jpg",
     "bio": "Former postdoctoral fellow researching visual consciousness and neural representations.",
     "link": ""
   },
@@ -165,7 +165,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "lucia-puppo",
-    "image": "/assets/images/alumni/lucia_puppo.jpg",
+    "image": "/assets/images/lucia_puppo.jpg",
     "bio": "Former researcher at the Conscious Brain Lab.",
     "link": ""
   },
@@ -175,7 +175,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "matthew-weaver",
-    "image": "/assets/images/alumni/matthew_weaver.jpg",
+    "image": "/assets/images/matthew_weaver.jpg",
     "bio": "Former postdoctoral fellow researching visual attention and unconscious information processing.",
     "link": ""
   },
@@ -205,7 +205,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "nutsa-nanuashvili",
-    "image": "/assets/images/alumni/nutsa_nanuashvili.jpg",
+    "image": "/assets/images/nutsa_nanuashvili.jpg",
     "bio": "Former researcher in the Conscious Brain Lab.",
     "link": ""
   },
@@ -215,7 +215,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "philippa-johnson",
-    "image": "/assets/images/alumni/philippa_johnson.jpg",
+    "image": "/assets/images/philippa_johnson.jpg",
     "bio": "Former researcher at the Conscious Brain Lab.",
     "link": ""
   },
@@ -225,7 +225,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "samuel-noorman",
-    "image": "/assets/images/alumni/samuel_noorman.jpg",
+    "image": "/assets/images/samuel_noorman.jpg",
     "bio": "Former PhD candidate studying predictive processing and conscious perception.",
     "link": ""
   },
@@ -235,7 +235,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "shady-guertin-lahoud",
-    "image": "/assets/images/alumni/shady_guertin_lahoud.jpg",
+    "image": "/assets/images/shady_guertin_lahoud.jpg",
     "bio": "Former research assistant at the Conscious Brain Lab.",
     "link": ""
   },
@@ -255,7 +255,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "valeria-mongelli",
-    "image": "/assets/images/alumni/valeria_mongelli.jpg",
+    "image": "/assets/images/valeria_mongelli.jpg",
     "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",
     "link": ""
   },
@@ -265,7 +265,7 @@
     "status": "alumni",
     "category": "alumni",
     "slug": "youval-schnapper",
-    "image": "/assets/images/alumni/youval_schnapper.jpg",
+    "image": "/assets/images/youval_schnapper.jpg",
     "bio": "Former researcher in cognitive neuroscience and behavioral modeling.",
     "link": ""
   }

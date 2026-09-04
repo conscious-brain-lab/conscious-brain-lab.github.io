@@ -1,0 +1,14 @@
+{
+  "id": "pub-17",
+  "citation": "Ciceri, S. Oude Lohuis, M, Rottschafer, V, Pennartz, C, Avitabile, D, van Gaal, S, Olcese, U. The neural and computational architecture of feedback dynamics in mouse cortex during stimulus report. eNeuro (2024)",
+  "year": "2024",
+  "year_group": "2024",
+  "topics": [
+    "Cognitive Neuroscience"
+  ],
+  "doi": "https://www.eneuro.org/content/11/9/ENEURO.0191-24.2024.full",
+  "paper_url": "https://www.eneuro.org/content/11/9/ENEURO.0191-24.2024.full",
+  "preprint_url": null,
+  "code_url": "https://github.com/simoneciceri/IAS_project",
+  "bibtex": "@article{ciceri2024_17,\n  author = {Ciceri, S},\n  title = {Ciceri, S. Oude Lohuis, M, Rottschafer, V, Pennartz, C, Avitabile, D, van Gaal, S, Olcese, U. The neural and computational architecture of feedback dynamics in mouse cortex during stimulus report. eNeuro (2024)},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/11/9/ENEURO.0191-24.2024.full}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pub-42",
+  "citation": "Canales-Johnson, A. Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S.A., Fahrenfort, J.J. van Gaal, S.* & Bekinschtein, T.A.*. Decreased alertness reconfigures cognitive control networks. Journal of Neuroscience (2020) (*shared senior authors)",
+  "year": "2020",
+  "year_group": "2020",
+  "topics": [
+    "Cognitive Control"
+  ],
+  "doi": "https://www.jneurosci.org/content/40/37/7142",
+  "paper_url": "https://www.jneurosci.org/content/40/37/7142",
+  "preprint_url": "https://osf.io/xfm8r/",
+  "code_url": null,
+  "bibtex": "@article{canales2020_42,\n  author = {Canales-Johnson, A},\n  title = {Canales-Johnson, A. Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S.A., Fahrenfort, J.J. van Gaal, S.* & Bekinschtein, T.A.*. Decreased alertness reconfigures cognitive control networks. Journal of Neuroscience (2020) (*shared senior authors)},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/40/37/7142}\n}"
+}

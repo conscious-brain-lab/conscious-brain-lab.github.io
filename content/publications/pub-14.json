@@ -1,0 +1,14 @@
+{
+  "id": "pub-14",
+  "citation": "Noorman, S, Stein, T, Zantvoord, J., Fahrenfort, JJ, van Gaal, S. A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife (2025)",
+  "year": "2025",
+  "year_group": "2026",
+  "topics": [
+    "Cognitive Neuroscience"
+  ],
+  "doi": "https://elifesciences.org/articles/100530",
+  "paper_url": "https://elifesciences.org/articles/100530",
+  "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.06.10.598193v1",
+  "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28684382",
+  "bibtex": "@article{noorman2025_14,\n  author = {Noorman, S, Stein, T, Zantvoord, J},\n  title = {Noorman, S, Stein, T, Zantvoord, J., Fahrenfort, JJ, van Gaal, S. A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/100530}\n}"
+}

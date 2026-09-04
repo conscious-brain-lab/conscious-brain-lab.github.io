@@ -1,0 +1,15 @@
+{
+  "id": "pub-73",
+  "citation": "Jiang, J., Zhang, Q., & van Gaal, S. (2015). EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness. Scientific Reports. 12008 (2015)",
+  "year": "2015",
+  "year_group": "2015",
+  "topics": [
+    "Consciousness",
+    "EEG"
+  ],
+  "doi": "https://www.nature.com/articles/srep12008",
+  "paper_url": "https://www.nature.com/articles/srep12008",
+  "preprint_url": null,
+  "code_url": null,
+  "bibtex": "@article{jiang2015_73,\n  author = {Jiang, J},\n  title = {Jiang, J., Zhang, Q., & van Gaal, S. (2015). EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness. Scientific Reports. 12008 (2015)},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/srep12008}\n}"
+}

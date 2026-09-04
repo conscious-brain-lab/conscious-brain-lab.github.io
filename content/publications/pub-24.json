@@ -1,0 +1,14 @@
+{
+  "id": "pub-24",
+  "citation": "Johnson, P.A., Blom, T., van Gaal, S., Feuerriegel, D. Bode, S. Hogendoorn, H. Position representations of moving objects align with real-time position in the early visual response. eLife (2023).",
+  "year": "2023",
+  "year_group": "2024",
+  "topics": [
+    "Cognitive Neuroscience"
+  ],
+  "doi": "https://elifesciences.org/articles/82424",
+  "paper_url": "https://elifesciences.org/articles/82424",
+  "preprint_url": "https://osf.io/jbw9m/",
+  "code_url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.vx0k6djw0",
+  "bibtex": "@article{johnson2023_24,\n  author = {Johnson, P},\n  title = {Johnson, P.A., Blom, T., van Gaal, S., Feuerriegel, D. Bode, S. Hogendoorn, H. Position representations of moving objects align with real-time position in the early visual response. eLife (2023).},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/82424}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pub-31",
+  "citation": "Dijkstra, N., van Gaal, S., Geerlings, L., Bosch, S. & van Gerven, M. No evidence for neural overlap between unconsciously processed and imagined stimuli. eNeuro (2021)",
+  "year": "2021",
+  "year_group": "2021",
+  "topics": [
+    "Consciousness"
+  ],
+  "doi": "https://doi.org/10.34973/j9yn-q419",
+  "paper_url": "https://www.eneuro.org/content/8/5/ENEURO.0228-21.2021",
+  "preprint_url": null,
+  "code_url": "https://github.com/NadineDijkstra/UPCPIMfinal",
+  "bibtex": "@article{dijkstra2021_31,\n  author = {Dijkstra, N},\n  title = {Dijkstra, N., van Gaal, S., Geerlings, L., Bosch, S. & van Gerven, M. No evidence for neural overlap between unconsciously processed and imagined stimuli. eNeuro (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/8/5/ENEURO.0228-21.2021}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pub-94",
+  "citation": "Weeda, W.D., Waldorp, L., Grasman, R.P.P.P., van Gaal, S., & Huizenga, H.M. (2011) Functional connectivity analysis of fMRI data using parameterized regions of interest. Neuroimage. 54(1), 410-416.",
+  "year": "2011",
+  "year_group": "2011",
+  "topics": [
+    "fMRI"
+  ],
+  "doi": "https://www.sciencedirect.com/science/article/pii/S1053811910009730",
+  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811910009730",
+  "preprint_url": null,
+  "code_url": null,
+  "bibtex": "@article{weeda2011_94,\n  author = {Weeda, W},\n  title = {Weeda, W.D., Waldorp, L., Grasman, R.P.P.P., van Gaal, S., & Huizenga, H.M. (2011) Functional connectivity analysis of fMRI data using parameterized regions of interest. Neuroimage. 54(1), 410-416.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811910009730}\n}"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pub-54",
+  "citation": "Günseli, E., Fahrenfort, JJ., van Moorselaar, D., Daoultzis, KC., Meeter, M., Olivers, CNL. EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports (2019)",
+  "year": "2019",
+  "year_group": "2019",
+  "topics": [
+    "EEG"
+  ],
+  "doi": "https://www.nature.com/articles/s41598-019-49577-0",
+  "paper_url": "https://www.nature.com/articles/s41598-019-49577-0",
+  "preprint_url": null,
+  "code_url": null,
+  "bibtex": "@article{günseli2019_54,\n  author = {Günseli, E},\n  title = {Günseli, E., Fahrenfort, JJ., van Moorselaar, D., Daoultzis, KC., Meeter, M., Olivers, CNL. EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s41598-019-49577-0}\n}"
+}

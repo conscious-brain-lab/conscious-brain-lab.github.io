@@ -1,0 +1,14 @@
+{
+  "id": "pub-12",
+  "citation": "Fahrenfort, J.J., Johnson, PA., Kloosterman, NA, Stein, T., van Gaal, S. Criterion placement threatens the construct validity of neural measures of consciousness. eLife (2025)",
+  "year": "2025",
+  "year_group": "2026",
+  "topics": [
+    "Consciousness"
+  ],
+  "doi": "https://doi.org/10.1101/2024.02.22.581517",
+  "paper_url": "https://elifesciences.org/articles/102335",
+  "preprint_url": "https://osf.io/ap23w/",
+  "code_url": null,
+  "bibtex": "@article{fahrenfort2025_12,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Johnson, PA., Kloosterman, NA, Stein, T., van Gaal, S. Criterion placement threatens the construct validity of neural measures of consciousness. eLife (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/102335}\n}"
+}

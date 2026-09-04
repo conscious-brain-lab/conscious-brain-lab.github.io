@@ -1,0 +1,14 @@
+{
+  "id": "pub-34",
+  "citation": "Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. & Scholte, H. S. On the necessity of recurrent processing during object recognition: it depends on the need for scene segmentation. Journal of Neuroscience (2021).",
+  "year": "2021",
+  "year_group": "2021",
+  "topics": [
+    "Cognitive Neuroscience"
+  ],
+  "doi": "https://www.jneurosci.org/content/early/2021/06/01/JNEUROSCI.2851-20.2021",
+  "paper_url": "https://www.jneurosci.org/content/early/2021/06/01/JNEUROSCI.2851-20.2021",
+  "preprint_url": null,
+  "code_url": "https://github.com/noorseijdel/2020_EEG_figureground",
+  "bibtex": "@article{seijdel2021_34,\n  author = {Seijdel, N},\n  title = {Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. & Scholte, H. S. On the necessity of recurrent processing during object recognition: it depends on the need for scene segmentation. Journal of Neuroscience (2021).},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/early/2021/06/01/JNEUROSCI.2851-20.2021}\n}"
+}

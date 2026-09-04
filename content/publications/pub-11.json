@@ -1,0 +1,14 @@
+{
+  "id": "pub-11",
+  "citation": "Noorman, S, Stein, T, Fahrenfort, JJ, van Gaal, S. Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. eLife (2025)",
+  "year": "2025",
+  "year_group": "2026",
+  "topics": [
+    "Consciousness"
+  ],
+  "doi": "https://elifesciences.org/articles/97900",
+  "paper_url": "https://elifesciences.org/articles/97900",
+  "preprint_url": null,
+  "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28049231/2",
+  "bibtex": "@article{noorman2025_11,\n  author = {Noorman, S, Stein, T, Fahrenfort, JJ, van Gaal, S},\n  title = {Noorman, S, Stein, T, Fahrenfort, JJ, van Gaal, S. Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. eLife (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/97900}\n}"
+}
