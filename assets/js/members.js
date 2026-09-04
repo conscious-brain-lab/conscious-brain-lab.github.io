@@ -19,6 +19,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
     if (!res.ok) throw new Error('Failed to load members data');
     allMembers = await res.json();
+
+    // Check for special header group photo and extract it from allMembers
+    const bannerIndex = allMembers.findIndex(m => m.category === 'header' || m.slug === 'lab-group-photo' || (m.name && m.name.includes('Group Photo')));
+    if (bannerIndex !== -1) {
+      const groupBanner = allMembers.splice(bannerIndex, 1)[0];
+      const bannerImg = document.getElementById('team-group-photo');
+      if (bannerImg && groupBanner.image) {
+        bannerImg.src = groupBanner.image;
+      }
+      const bannerTitle = document.getElementById('team-group-title');
+      if (bannerTitle && groupBanner.name && !groupBanner.name.startsWith('★')) {
+        bannerTitle.textContent = groupBanner.name;
+      }
+      const bannerCaption = document.getElementById('team-group-caption');
+      if (bannerCaption && groupBanner.bio) {
+        bannerCaption.textContent = groupBanner.bio;
+      }
+      const bannerTag = document.getElementById('team-group-tag');
+      if (bannerTag && groupBanner.link) {
+        bannerTag.textContent = groupBanner.link;
+      }
+    }
+
     renderMembers();
     if (window.location.hash) {
       const rawHash = window.location.hash.replace('#', '').toLowerCase();
@@ -107,6 +130,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function filterMembersList() {
   return allMembers.filter(m => {
+    // Exclude special header group photo from member cards grid
+    if (m.category === 'header' || m.slug === 'lab-group-photo') {
+      return false;
+    }
+
     let matchesRole = true;
     if (activeRole !== 'all') {
       if (activeRole === 'pi') {

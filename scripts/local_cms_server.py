@@ -45,7 +45,7 @@ def sync_collections_to_data():
                 print(f"Error reading {f}: {e}")
         
         # Sort members: PIs first, current team, then alumni; by explicit order, then name
-        cat_order = {"pi": 1, "postdoc": 2, "phd": 3, "alumni": 4}
+        cat_order = {"header": 0, "pi": 1, "postdoc": 2, "phd": 3, "alumni": 4}
         def member_sort_key(m):
             is_alumni = 1 if m.get("status") == "alumni" else 0
             category_rank = cat_order.get(m.get("category", "phd"), 99)
