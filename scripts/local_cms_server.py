@@ -187,6 +187,25 @@ class DecapProxyHandler(http.server.BaseHTTPRequestHandler):
                                     "id": sha256_str(content)
                                 }
                             })
+
+                # Sort publications identical to the live site: Preprints/in review first, then year descending
+                if "publications" in folder.lower():
+                    def pub_entry_sort_key(item):
+                        try:
+                            d = json.loads(item.get("data") or "{}")
+                        except Exception:
+                            d = {}
+                        yg = str(d.get("year_group", "")).lower()
+                        y = str(d.get("year", "0")).lower()
+                        if "preprint" in yg or "review" in yg or "rxiv" in yg or "submitted" in yg or "preprint" in y:
+                            return (0, 9999, d.get("citation", ""))
+                        try:
+                            return (1, -int(d.get("year", 0)), d.get("citation", ""))
+                        except Exception:
+                            return (2, 0, d.get("citation", ""))
+
+                    entries.sort(key=pub_entry_sort_key)
+
                 resp_data = entries
 
             elif action == "entriesByFiles":

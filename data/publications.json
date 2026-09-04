@@ -43,18 +43,18 @@
     "doi": "https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long"
   },
   {
-    "id": "pub-7",
-    "citation": "Nuiten, S.A., J.W. De Gee, J.B. Zantvoord, P. Sterzer, J.J. Fahrenfort & S. van Gaal. Phasic and tonic arousal distinctly shape human decision bias. Communications Biology",
-    "year": "2026",
-    "year_group": "2026",
     "topics": [
       "Decision Making"
     ],
-    "doi": "https://www.nature.com/articles/s42003-026-09776-8",
-    "paper_url": "https://www.nature.com/articles/s42003-026-09776-8",
+    "citation": "Nuiten, S. A., De Gee, J. W., Zantvoord, J. B., Sterzer, P., Fahrenfort, J. J., & van Gaal, S. (2026). Phasic and tonic arousal distinctly shape human decision bias. Communications Biology, 9(1).",
+    "bibtex": "@article{Nuiten_2026,\n  title ={Phasic and tonic arousal distinctly shape human decision bias},\n  volume ={9},\n  ISSN ={2399-3642},\n  url ={http://dx.doi.org/10.1038/s42003-026-09776-8},\n  DOI ={10.1038/s42003-026-09776-8},\n  number ={1},\n  journal ={Communications Biology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Nuiten, Stijn Adriaan and De Gee, Jan Willem and Zantvoord, Jasper Brian and Sterzer, Philipp and Fahrenfort, Johannes Jacobus and van Gaal, Simon},\n  year ={2026},\n  month =Mar \n}",
     "preprint_url": null,
+    "id": "pub-7",
+    "paper_url": "https://doi.org/10.1038/s42003-026-09776-8",
     "code_url": null,
-    "bibtex": "@article{nuiten2026_7,\n  author = {Nuiten, S},\n  title = {Nuiten, S.A., J.W. De Gee, J.B. Zantvoord, P. Sterzer, J.J. Fahrenfort & S. van Gaal. Phasic and tonic arousal distinctly shape human decision bias. Communications Biology},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s42003-026-09776-8}\n}"
+    "year": "2026",
+    "year_group": "2026",
+    "doi": "https://www.nature.com/articles/s42003-026-09776-8"
   },
   {
     "id": "pub-9",

@@ -878,16 +878,69 @@
         });
       }
 
+      // Automatically keep publications in collection overview ordered identical to the live site
+      let isSortingPublications = false;
+      function sortPublicationCardsInOverview() {
+        if (isSortingPublications) return;
+        if (!window.location.hash.includes('/collections/publications')) return;
+        if (window.location.hash.includes('/entries/')) return;
+
+        const cardLinks = Array.from(document.querySelectorAll('a[href*="#/collections/publications/entries/"]'));
+        if (cardLinks.length < 2) return;
+
+        const parent = cardLinks[0].parentElement;
+        if (!parent) return;
+
+        function getCardWeight(text) {
+          const lower = text.toLowerCase();
+          const match = lower.match(/^\s*\(([^)]+)\)/);
+          const prefix = match ? match[1] : '';
+          if (prefix.includes('rxiv') || prefix.includes('submitted') || prefix.includes('preprint') || prefix.includes('review')) {
+            return 9999;
+          }
+          const yrMatch = prefix.match(/\d{4}/) || lower.match(/\b(19\d\d|20\d\d)\b/);
+          if (yrMatch) {
+            return parseInt(yrMatch[0], 10);
+          }
+          return 0;
+        }
+
+        const sortedLinks = [...cardLinks].sort((a, b) => {
+          const weightA = getCardWeight(a.textContent || '');
+          const weightB = getCardWeight(b.textContent || '');
+          if (weightB !== weightA) {
+            return weightB - weightA;
+          }
+          return (a.textContent || '').localeCompare(b.textContent || '');
+        });
+
+        let needsReorder = false;
+        for (let i = 0; i < cardLinks.length; i++) {
+          if (cardLinks[i] !== sortedLinks[i]) {
+            needsReorder = true;
+            break;
+          }
+        }
+
+        if (needsReorder) {
+          isSortingPublications = true;
+          sortedLinks.forEach(link => parent.appendChild(link));
+          setTimeout(() => { isSortingPublications = false; }, 50);
+        }
+      }
+
       // Continuous observer to attach helpers when user opens entries
       const observer = new MutationObserver(() => {
         attachPublicationHelpers();
         attachImageEditorHelpers();
+        sortPublicationCardsInOverview();
       });
 
       document.addEventListener('DOMContentLoaded', () => {
         observer.observe(document.body, { childList: true, subtree: true });
         attachPublicationHelpers();
         attachImageEditorHelpers();
+        sortPublicationCardsInOverview();
       });
     })();
   </script>
