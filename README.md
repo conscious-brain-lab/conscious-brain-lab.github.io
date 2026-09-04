@@ -19,7 +19,7 @@ This repository contains the complete, modern, subscription-free website for the
 - **Dark / Light Mode**:
   - Built-in theme toggle with auto-detection of OS preferences and persistent `localStorage` memory.
 - **Direct Email Contact**: Clean `mailto:` integration without third-party form dependencies.
-- **Dutch Section Support**: Dedicated pages for participant recruitment (`/proefkonijnen`), open positions (`/vacatures`), and campus impressions (`/nieuws`).
+- **Dutch Section Support**: Dedicated pages for participant recruitment (`/proefkonijnen`), open positions (`/vacatures`), and campus impressions (`/lab-and-campus-impressions`).
 - **100/100 Performance & SEO**: Pure HTML5 and Vanilla CSS eliminating the heavy ~1MB JavaScript bloat of the previous Wix Thunderbolt runtime.
 
 ---
@@ -37,7 +37,7 @@ duplicate_CBL_website/
 │   └── index.html                  # Searchable & Filterable Publications + BibTeX
 ├── news/
 │   └── index.html                  # News, Talks & Media Feed
-├── nieuws/
+├── lab-and-campus-impressions/
 │   └── index.html                  # Lab & Campus Impressions (Dutch)
 ├── proefkonijnen/
 │   └── index.html                  # Participant Recruitment (Dutch)

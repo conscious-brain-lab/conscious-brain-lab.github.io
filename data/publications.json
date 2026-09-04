@@ -39,17 +39,17 @@
     "bibtex": "@article{Noorman_2024,\n  title ={Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access},\n  url ={http://dx.doi.org/10.7554/elife.97900.1},\n  DOI ={10.7554/elife.97900.1},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Fahrenfort, Johannes J and van Gaal, Simon},\n  year ={2024},\n  month =July \n}"
   },
   {
-    "id": "pub-12",
-    "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N. A., Stein, T., & van Gaal, S. (2024). Criterion placement threatens the construct validity of neural measures of consciousness.",
-    "year_group": "2026",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://doi.org/10.1101/2024.02.22.581517",
-    "paper_url": "https://doi.org/10.1101/2024.02.22.581517",
+    "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N. A., Stein, T. & van Gaal, S. (2025). Criterion placement threatens the construct validity of neural measures of consciousness. eLife, 13.",
+    "bibtex": "",
     "preprint_url": "https://osf.io/ap23w/",
-    "code_url": null,
-    "bibtex": "@article{Fahrenfort_2024,\n  title ={Criterion placement threatens the construct validity of neural measures of consciousness},\n  url ={http://dx.doi.org/10.1101/2024.02.22.581517},\n  DOI ={10.1101/2024.02.22.581517},\n  publisher ={openRxiv},\n  author ={Fahrenfort, Johannes J. and Johnson, Philippa A. and Kloosterman, Niels A. and Stein, Timo and van Gaal, Simon},\n  year ={2024},\n  month =Feb \n}"
+    "id": "pub-12",
+    "paper_url": "https://doi.org/10.7554/eLife.102335",
+    "code_url": "https://osf.io/ap23w/overview",
+    "year_group": "2026",
+    "doi": "https://doi.org/10.1101/2024.02.22.581517"
   },
   {
     "id": "pub-13",
@@ -144,17 +144,17 @@
     "doi": "https://doi.org/10.1038/s42003-026-09776-8"
   },
   {
-    "id": "pub-9",
-    "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception.",
-    "year_group": "2026",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://doi.org/10.31234/osf.io/2pk5j_v1",
-    "paper_url": "https://doi.org/10.31234/osf.io/2pk5j_v1",
+    "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception. Book chapter on www.horizon-minds.com.",
+    "bibtex": "@article{Fahrenfort_2025,\n  title ={Subjective and objective approaches in the study of conscious perception},\n  url ={http://dx.doi.org/10.31234/osf.io/2pk5j_v1},\n  DOI ={10.31234/osf.io/2pk5j_v1},\n  publisher ={Center for Open Science},\n  author ={Fahrenfort, Johannes Jacobus and van Gaal, Simon and Stein, Timo},\n  year ={2025},\n  month =Oct \n}",
     "preprint_url": "https://osf.io/preprints/psyarxiv/2pk5j_v1",
-    "code_url": null,
-    "bibtex": "@article{Fahrenfort_2025,\n  title ={Subjective and objective approaches in the study of conscious perception},\n  url ={http://dx.doi.org/10.31234/osf.io/2pk5j_v1},\n  DOI ={10.31234/osf.io/2pk5j_v1},\n  publisher ={Center for Open Science},\n  author ={Fahrenfort, Johannes Jacobus and van Gaal, Simon and Stein, Timo},\n  year ={2025},\n  month =Oct \n}"
+    "id": "pub-9",
+    "paper_url": "https://doi.org/10.31234/osf.io/2pk5j_v1",
+    "code_url": "https://www.horizon-minds.com",
+    "year_group": "2026",
+    "doi": "https://doi.org/10.31234/osf.io/2pk5j_v1"
   },
   {
     "topics": [
@@ -1154,17 +1154,17 @@
     "bibtex": "@article{de_Lange_2011,\n  title ={How Awareness Changes the Relative Weights of Evidence During Human Decision-Making},\n  volume ={9},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.1001203},\n  DOI ={10.1371/journal.pbio.1001203},\n  number ={11},\n  journal ={PLoS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={de Lange, Floris P. and van Gaal, Simon and Lamme, Victor A. F. and Dehaene, Stanislas},\n  editor ={Posner, Michael},\n  year ={2011},\n  month =Nov,\n  pages ={e1001203} \n}"
   },
   {
-    "id": "pub-91",
-    "citation": "Francken, J. C., Gaal, S. v., & de Lange, F. P. (2011). Immediate and long-term priming effects are independent of prime awareness. Consciousness and Cognition, 20(4), 1793–1800.",
-    "year_group": "2011",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://doi.org/10.1016/j.concog.2011.04.005",
-    "paper_url": "https://doi.org/10.1016/j.concog.2011.04.005",
+    "citation": "Francken, J. C., Gaal, S. v., & de Lange, F. P. (2011). Immediate and long-term priming effects are independent of prime awareness. Consciousness and Cognition, 20(4), 1793–1800.",
+    "bibtex": "@article{Francken_2011,\n  title ={Immediate and long-term priming effects are independent of prime awareness},\n  volume ={20},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2011.04.005},\n  DOI ={10.1016/j.concog.2011.04.005},\n  number ={4},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Francken, Jolien C. and van Gaal, Simon and de Lange, Floris P.},\n  year ={2011},\n  month =Dec,\n  pages ={1793–1800} \n}",
     "preprint_url": null,
+    "id": "pub-91",
+    "paper_url": "https://doi.org/10.1016/j.concog.2011.04.005",
     "code_url": null,
-    "bibtex": "@article{Francken_2011,\n  title ={Immediate and long-term priming effects are independent of prime awareness},\n  volume ={20},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2011.04.005},\n  DOI ={10.1016/j.concog.2011.04.005},\n  number ={4},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Francken, Jolien C. and Gaal, Simon van and de Lange, Floris P.},\n  year ={2011},\n  month =Dec,\n  pages ={1793–1800} \n}"
+    "year_group": "2011",
+    "doi": "https://doi.org/10.1016/j.concog.2011.04.005"
   },
   {
     "id": "pub-92",
@@ -1259,17 +1259,17 @@
     "bibtex": "@article{van_Gaal_2010,\n  title ={Unconscious Activation of the Prefrontal No-Go Network},\n  volume ={30},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2992-09.2010},\n  DOI ={10.1523/jneurosci.2992-09.2010},\n  number ={11},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and Scholte, H. Steven and Lamme, Victor A. F.},\n  year ={2010},\n  month =Mar,\n  pages ={4143–4150} \n}"
   },
   {
-    "id": "pub-100",
-    "citation": "Cohen, M. X. (2009). Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Frontiers in Human Neuroscience, 3.",
-    "year_group": "2009",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://doi.org/10.3389/neuro.09.054.2009",
-    "paper_url": "https://doi.org/10.3389/neuro.09.054.2009",
+    "citation": "Cohen, M.X., van Gaal, S., Ridderinkhof, K.R. and Lamme, V.A.F. (2009). Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Front. Hum. Neurosci. 3:54.",
+    "bibtex": "",
     "preprint_url": null,
+    "id": "pub-100",
+    "paper_url": "https://doi.org/10.3389/neuro.09.054.2009",
     "code_url": null,
-    "bibtex": "@article{Cohen_2009,\n  title ={Unconscious errors enhance prefrontal-occipital oscillatory synchrony},\n  volume ={3},\n  ISSN ={1662-5161},\n  url ={http://dx.doi.org/10.3389/neuro.09.054.2009},\n  DOI ={10.3389/neuro.09.054.2009},\n  journal ={Frontiers in Human Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Cohen, Michael X.},\n  year ={2009} \n}"
+    "year_group": "2009",
+    "doi": "https://doi.org/10.3389/neuro.09.054.2009"
   },
   {
     "id": "pub-99",

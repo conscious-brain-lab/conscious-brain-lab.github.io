@@ -1,13 +1,13 @@
 {
-  "id": "pub-100",
-  "citation": "Cohen, M. X. (2009). Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Frontiers in Human Neuroscience, 3.",
-  "year_group": "2009",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://doi.org/10.3389/neuro.09.054.2009",
-  "paper_url": "https://doi.org/10.3389/neuro.09.054.2009",
+  "citation": "Cohen, M.X., van Gaal, S., Ridderinkhof, K.R. and Lamme, V.A.F. (2009). Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Front. Hum. Neurosci. 3:54.",
+  "bibtex": "",
   "preprint_url": null,
+  "id": "pub-100",
+  "paper_url": "https://doi.org/10.3389/neuro.09.054.2009",
   "code_url": null,
-  "bibtex": "@article{Cohen_2009,\n  title ={Unconscious errors enhance prefrontal-occipital oscillatory synchrony},\n  volume ={3},\n  ISSN ={1662-5161},\n  url ={http://dx.doi.org/10.3389/neuro.09.054.2009},\n  DOI ={10.3389/neuro.09.054.2009},\n  journal ={Frontiers in Human Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Cohen, Michael X.},\n  year ={2009} \n}"
+  "year_group": "2009",
+  "doi": "https://doi.org/10.3389/neuro.09.054.2009"
 }
