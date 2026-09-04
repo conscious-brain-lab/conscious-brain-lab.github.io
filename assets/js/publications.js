@@ -354,6 +354,28 @@ function formatAuthorsListAPA(authorsRaw) {
 }
 
 /**
+ * Permissively highlights Conscious Brain Lab PIs / lab heads in bold.
+ * Matches:
+ *  - Johannes Fahrenfort: J.J.Fahrenfort, J. J. Fahrenfort, Fahrenfort, J.J., Fahrenfort, J. J., Fahrenfort, J., Johannes Fahrenfort, etc.
+ *  - Simon van Gaal: van Gaal, S., Van Gaal, S., Gaal, S. van, Gaal, Simon van, Simon van Gaal, S. van Gaal, Van Gaal, van Gaal, etc.
+ *  - Timo Stein: Stein, T., Stein, Timo, Timo Stein, T. Stein, T.Stein, etc.
+ */
+function highlightPINames(text) {
+  if (!text) return '';
+
+  // Clean any preexisting <strong> around PI names to prevent duplicate tags
+  let cleaned = text.replace(/<strong>(.*?)<\/strong>/gi, '$1');
+
+  // Permissive patterns for each PI
+  const fahrenfort = '(?:(?:Johannes(?:\\s+Jacobus|\\s+J\\.?)?|J\\s*\\.\\s*J\\.?|J\\s*\\.|JJ)\\s*Fahrenfort|Fahrenfort,\\s*(?:Johannes(?:\\s+Jacobus|\\s+J\\.?)?|J\\s*\\.\\s*J\\.?|J\\s*\\.|JJ|J\\b)|Fahrenfort\\s+(?:JJ|J\\b)|Fahrenfort)';
+  const vangaal = '(?:Gaal,\\s*(?:Simon|S\\s*\\.(?:\\s*[A-Z]\\.?)?|S\\b)?\\s*,?\\s*[Vv](?:an\\b|\\.)|[Vv]an\\s+Gaal(?:,\\s*(?:Simon\\b|S\\s*\\.(?:\\s*[A-Z]\\.?)?|S\\b))?|(?:Simon|S\\s*\\.(?:\\s*[A-Z]\\.?)?|S\\b)\\s*[Vv]an\\s+Gaal|[Vv]an\\s+Gaal\\b)';
+  const stein = '(?:Stein,\\s*(?:Timo\\b|T\\s*\\.(?:\\s*[A-Z]\\.?)?|T\\b)|(?:Timo|T\\s*\\.(?:\\s*[A-Z]\\.?)?)\\s*Stein|Stein\\s+T\\b)';
+
+  const piRegex = new RegExp(`\\b(${fahrenfort}|${vangaal}|${stein})`, 'gi');
+  return cleaned.replace(piRegex, '<strong>$1</strong>');
+}
+
+/**
  * Format a BibTeX fields object into complete APA 7 HTML
  */
 function formatBibtexAPA(fields) {
@@ -392,7 +414,7 @@ function formatBibtexAPA(fields) {
   let html = parts.join(' ');
 
   // Highlight lab heads / PIs in bold
-  html = html.replace(/(van Gaal, S\.|Fahrenfort, J\. J\.|Fahrenfort, J\.J\.|Stein, T\.)/g, '<strong>$1</strong>');
+  html = highlightPINames(html);
   return html;
 }
 
@@ -417,8 +439,7 @@ function getPublicationCitationHtml(pub) {
  */
 function formatFallbackCitation(text) {
   if (!text) return '';
-  let formatted = text
-    .replace(/(van Gaal, S\.|Fahrenfort, J\.J\.|Fahrenfort, J\. J\.|Stein, T\.)/g, '<strong>$1</strong>');
+  let formatted = highlightPINames(text);
 
   const commonJournals = [
     'Nature Human Behavior', 'Nature Human Behaviour', 'Nature Neuroscience', 'Nature Communications', 'Nature',
