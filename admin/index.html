@@ -888,26 +888,48 @@
         const cardLinks = Array.from(document.querySelectorAll('a[href*="#/collections/publications/entries/"]'));
         if (cardLinks.length < 2) return;
 
-        const parent = cardLinks[0].parentElement;
-        if (!parent) return;
+        // Resolve the common container and the top-level card items to sort
+        let container = cardLinks[0].parentElement;
+        const allSameParent = cardLinks.every(l => l.parentElement === container);
+        let itemsToSort = cardLinks;
 
-        function getCardWeight(text) {
-          const lower = text.toLowerCase();
-          const match = lower.match(/^\s*\(([^)]+)\)/);
+        if (!allSameParent) {
+          container = cardLinks[0].closest('[role="list"], [class*="List"], [class*="Grid"], [class*="Collection"]') 
+                   || cardLinks[0].parentElement.parentElement;
+          if (!container) return;
+          const uniqueItems = new Set();
+          itemsToSort = cardLinks.map(l => {
+            let curr = l;
+            while (curr && curr.parentElement && curr.parentElement !== container) {
+              curr = curr.parentElement;
+            }
+            return curr;
+          }).filter(el => {
+            if (!el || uniqueItems.has(el)) return false;
+            uniqueItems.add(el);
+            return true;
+          });
+        }
+
+        if (!container || itemsToSort.length < 2) return;
+
+        function getCardWeight(el) {
+          const text = (el.textContent || '').toLowerCase();
+          const match = text.match(/^\s*\(([^)]+)\)/);
           const prefix = match ? match[1] : '';
           if (prefix.includes('rxiv') || prefix.includes('submitted') || prefix.includes('preprint') || prefix.includes('review')) {
             return 9999;
           }
-          const yrMatch = prefix.match(/\d{4}/) || lower.match(/\b(19\d\d|20\d\d)\b/);
+          const yrMatch = prefix.match(/\d{4}/) || text.match(/\b(19\d\d|20\d\d)\b/);
           if (yrMatch) {
             return parseInt(yrMatch[0], 10);
           }
           return 0;
         }
 
-        const sortedLinks = [...cardLinks].sort((a, b) => {
-          const weightA = getCardWeight(a.textContent || '');
-          const weightB = getCardWeight(b.textContent || '');
+        const sortedItems = [...itemsToSort].sort((a, b) => {
+          const weightA = getCardWeight(a);
+          const weightB = getCardWeight(b);
           if (weightB !== weightA) {
             return weightB - weightA;
           }
@@ -915,8 +937,8 @@
         });
 
         let needsReorder = false;
-        for (let i = 0; i < cardLinks.length; i++) {
-          if (cardLinks[i] !== sortedLinks[i]) {
+        for (let i = 0; i < itemsToSort.length; i++) {
+          if (itemsToSort[i] !== sortedItems[i]) {
             needsReorder = true;
             break;
           }
@@ -924,8 +946,8 @@
 
         if (needsReorder) {
           isSortingPublications = true;
-          sortedLinks.forEach(link => parent.appendChild(link));
-          setTimeout(() => { isSortingPublications = false; }, 50);
+          sortedItems.forEach(item => container.appendChild(item));
+          setTimeout(() => { isSortingPublications = false; }, 60);
         }
       }
 
