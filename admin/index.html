@@ -6,6 +6,9 @@
   <title>Content Manager | Conscious Brain Lab</title>
   <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
   
+  <!-- Decap CMS Config with Cache Busting -->
+  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904" />
+
   <!-- Cropper.js for Client-Side Crop & Resize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
   
@@ -390,7 +393,7 @@
       }
 
       // -------------------------------------------------------------
-      // 2. AUTOMATIC BIBTEX GENERATOR
+      // 2. AUTOMATIC PUBLICATION METADATA & BIBTEX GENERATOR
       // -------------------------------------------------------------
       function formatBibtex(raw) {
         let clean = raw.trim();
@@ -399,17 +402,51 @@
         return clean;
       }
 
-      async function fetchBibtexFromDoi(doi) {
-        const url = `https://api.crossref.org/works/${encodeURIComponent(doi)}/transform/application/x-bibtex`;
-        const res = await fetch(url, { headers: { 'Accept': 'application/x-bibtex' } });
-        if (!res.ok) throw new Error(`Crossref returned HTTP ${res.status}`);
-        const text = await res.text();
-        if (!text || !text.includes('@')) throw new Error('Invalid BibTeX response from Crossref');
-        return formatBibtex(text);
+      async function fetchCrossrefData(doi) {
+        const cleanDoi = encodeURIComponent(doi.trim());
+        
+        // Fetch BibTeX, APA citation, and metadata in parallel via Crossref public API (CORS enabled)
+        const [bibtexRes, citationRes, jsonRes] = await Promise.allSettled([
+          fetch(`https://api.crossref.org/works/${cleanDoi}/transform/application/x-bibtex`, {
+            headers: { 'Accept': 'application/x-bibtex' }
+          }),
+          fetch(`https://api.crossref.org/works/${cleanDoi}/transform/text/x-bibliography`, {
+            headers: { 'Accept': 'text/x-bibliography' }
+          }),
+          fetch(`https://api.crossref.org/works/${cleanDoi}`).then(r => r.json())
+        ]);
+
+        let bibtex = null;
+        if (bibtexRes.status === 'fulfilled' && bibtexRes.value.ok) {
+          const text = await bibtexRes.value.text();
+          if (text && text.includes('@')) bibtex = formatBibtex(text);
+        }
+
+        let citation = null;
+        if (citationRes.status === 'fulfilled' && citationRes.value.ok) {
+          const text = await citationRes.value.text();
+          if (text) citation = text.trim();
+        }
+
+        let year = null;
+        if (jsonRes.status === 'fulfilled' && jsonRes.value && jsonRes.value.message) {
+          const msg = jsonRes.value.message;
+          const issued = msg['published-print'] || msg['published-online'] || msg['issued'] || msg['created'];
+          if (issued && issued['date-parts'] && issued['date-parts'][0] && issued['date-parts'][0][0]) {
+            year = String(issued['date-parts'][0][0]);
+          }
+        }
+
+        if (!year && citation) {
+          const yrMatch = citation.match(/\((\d{4})\)/);
+          if (yrMatch) year = yrMatch[1];
+        }
+
+        return { bibtex, citation, year };
       }
 
       function synthesizeBibtex(citation, year, url) {
-        const parts = citation.split('.');
+        const parts = (citation || '').split('.');
         const author = parts[0] ? parts[0].trim() : 'Conscious Brain Lab';
         const title = parts[1] ? parts[1].trim() : (citation.trim() || 'Research Publication');
         const firstAuthor = author.split(',')[0].replace(/[^a-zA-Z]/g, '').toLowerCase() || 'cbl';
@@ -425,77 +462,133 @@
 }`;
       }
 
-      function attachBibtexHelper() {
-        const bibtexArea = document.querySelector('textarea[id*="bibtex"], textarea[name*="bibtex"]');
-        if (!bibtexArea) return;
-
-        const parentControl = bibtexArea.closest('div');
-        if (!parentControl || parentControl.querySelector('.cbl-bibtex-helper')) return;
-
-        const helperBar = document.createElement('div');
-        helperBar.className = 'cbl-bibtex-helper';
-        helperBar.innerHTML = `
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <button type="button" class="cbl-fetch-btn" id="cbl-btn-fetch">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-              ✨ Auto-fetch BibTeX from DOI / URL
-            </button>
-            <span class="cbl-fetch-status" id="cbl-status-text"></span>
-          </div>
-          <span style="font-size: 11px; color: #6b7280;">Instant Crossref publisher metadata</span>
-        `;
-
-        bibtexArea.parentNode.insertBefore(helperBar, bibtexArea);
-
-        const fetchBtn = helperBar.querySelector('#cbl-btn-fetch');
-        const statusText = helperBar.querySelector('#cbl-status-text');
-
-        fetchBtn.addEventListener('click', async () => {
-          fetchBtn.disabled = true;
+      async function executeAutoFetch(statusText, fetchBtn) {
+        if (fetchBtn) fetchBtn.disabled = true;
+        if (statusText) {
           statusText.className = 'cbl-fetch-status';
           statusText.textContent = '🔍 Reading DOI / Paper URL...';
+        }
 
-          try {
-            const paperUrlInput = document.querySelector('input[id*="paper_url"], input[name*="paper_url"]');
-            const paperUrl = paperUrlInput ? paperUrlInput.value.trim() : '';
-            const citationEl = document.querySelector('textarea[id*="citation"], input[id*="citation"]');
-            const citation = citationEl ? citationEl.value.trim() : '';
-            const yearEl = document.querySelector('input[id*="year"]');
-            const year = yearEl ? yearEl.value.trim() : '2024';
+        try {
+          const paperUrlInput = document.querySelector('input[id*="paper_url"], input[name*="paper_url"]');
+          const paperUrl = paperUrlInput ? paperUrlInput.value.trim() : '';
+          const citationEl = document.querySelector('textarea[id*="citation"], input[id*="citation"]');
+          const bibtexArea = document.querySelector('textarea[id*="bibtex"], textarea[name*="bibtex"]');
+          const yearEl = document.querySelector('input[id*="year"]');
+          const yearGroupEl = document.querySelector('input[id*="year_group"]');
 
-            const doiMatch = paperUrl.match(/(10\.\d{4,9}\/[-._;()/:A-Za-z0-9]+)/);
-            
-            if (doiMatch) {
-              const doi = doiMatch[1].replace(/\.$/, '');
-              statusText.textContent = `⏳ Resolving DOI: ${doi}...`;
-              try {
-                const bibtex = await fetchBibtexFromDoi(doi);
-                setReactInputValue(bibtexArea, bibtex);
-                statusText.textContent = '✓ Official BibTeX fetched from Crossref!';
-              } catch (doiErr) {
-                console.warn('DOI fetch failed, falling back to synthesis:', doiErr);
-                const fallback = synthesizeBibtex(citation, year, paperUrl);
-                setReactInputValue(bibtexArea, fallback);
-                statusText.textContent = '✓ Generated standard BibTeX citation!';
-              }
-            } else {
-              if (!citation) {
-                statusText.className = 'cbl-fetch-status error';
-                statusText.textContent = '⚠️ Please enter Paper DOI or Citation text first.';
-                return;
-              }
-              const synthesized = synthesizeBibtex(citation, year, paperUrl);
-              setReactInputValue(bibtexArea, synthesized);
-              statusText.textContent = '✓ Generated clean BibTeX citation!';
+          const doiMatch = paperUrl.match(/(10\.\d{4,9}\/[-._;()/:A-Za-z0-9]+)/i);
+
+          if (!doiMatch) {
+            if (statusText) {
+              statusText.className = 'cbl-fetch-status error';
+              statusText.textContent = '⚠️ Please enter a valid DOI or paper link in the DOI field above.';
             }
-          } catch (err) {
-            console.error('BibTeX generation error:', err);
+            return;
+          }
+
+          const doi = doiMatch[1].replace(/\.$/, '');
+          if (statusText) statusText.textContent = `⏳ Resolving DOI: ${doi} via Crossref...`;
+
+          const data = await fetchCrossrefData(doi);
+
+          let updatedFields = [];
+
+          if (citationEl && data.citation) {
+            setReactInputValue(citationEl, data.citation);
+            updatedFields.push('Citation');
+          }
+
+          if (bibtexArea) {
+            if (data.bibtex) {
+              setReactInputValue(bibtexArea, data.bibtex);
+              updatedFields.push('BibTeX');
+            } else if (citationEl && citationEl.value) {
+              const fallback = synthesizeBibtex(citationEl.value, data.year || (yearEl ? yearEl.value : ''), paperUrl);
+              setReactInputValue(bibtexArea, fallback);
+              updatedFields.push('BibTeX (synthesized)');
+            }
+          }
+
+          if (yearEl && data.year) {
+            setReactInputValue(yearEl, data.year);
+            updatedFields.push('Year');
+          }
+
+          if (yearGroupEl && data.year && (!yearGroupEl.value || yearGroupEl.value === '2026')) {
+            setReactInputValue(yearGroupEl, data.year);
+          }
+
+          if (statusText) {
+            statusText.className = 'cbl-fetch-status';
+            statusText.textContent = `✓ Populated ${updatedFields.join(', ')} from Crossref!`;
+          }
+
+        } catch (err) {
+          console.error('Auto-fetch metadata error:', err);
+          if (statusText) {
             statusText.className = 'cbl-fetch-status error';
             statusText.textContent = `❌ Error: ${err.message}`;
-          } finally {
-            fetchBtn.disabled = false;
           }
-        });
+        } finally {
+          if (fetchBtn) fetchBtn.disabled = false;
+        }
+      }
+
+      function attachPublicationHelpers() {
+        // 1. DOI field auto-fetch button (directly below DOI field at top of form)
+        const paperUrlInput = document.querySelector('input[id*="paper_url"], input[name*="paper_url"]');
+        if (paperUrlInput) {
+          const parent = paperUrlInput.parentNode;
+          if (parent && !parent.querySelector('.cbl-doi-fetch-bar')) {
+            const bar = document.createElement('div');
+            bar.className = 'cbl-doi-fetch-bar cbl-bibtex-helper';
+            bar.style.marginTop = '8px';
+            bar.style.marginBottom = '8px';
+            bar.innerHTML = `
+              <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                <button type="button" class="cbl-fetch-btn" id="cbl-btn-fetch-doi" style="background: #0284c7;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  ✨ Auto-fetch Citation, Year &amp; BibTeX from DOI
+                </button>
+                <span class="cbl-fetch-status" id="cbl-doi-status-text"></span>
+              </div>
+              <span style="font-size: 11px; color: #0369a1; font-weight: 500;">Populates Citation, Year &amp; BibTeX via Crossref</span>
+            `;
+
+            parent.appendChild(bar);
+
+            const btn = bar.querySelector('#cbl-btn-fetch-doi');
+            const status = bar.querySelector('#cbl-doi-status-text');
+            btn.addEventListener('click', () => executeAutoFetch(status, btn));
+          }
+        }
+
+        // 2. BibTeX field auto-fetch button (above BibTeX textarea)
+        const bibtexArea = document.querySelector('textarea[id*="bibtex"], textarea[name*="bibtex"]');
+        if (bibtexArea) {
+          const parentControl = bibtexArea.closest('div');
+          if (parentControl && !parentControl.querySelector('.cbl-bibtex-helper')) {
+            const helperBar = document.createElement('div');
+            helperBar.className = 'cbl-bibtex-helper';
+            helperBar.innerHTML = `
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <button type="button" class="cbl-fetch-btn" id="cbl-btn-fetch-bib">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                  ✨ Auto-fetch BibTeX &amp; Citation
+                </button>
+                <span class="cbl-fetch-status" id="cbl-bib-status-text"></span>
+              </div>
+              <span style="font-size: 11px; color: #6b7280;">Crossref metadata</span>
+            `;
+
+            bibtexArea.parentNode.insertBefore(helperBar, bibtexArea);
+
+            const btn = helperBar.querySelector('#cbl-btn-fetch-bib');
+            const status = helperBar.querySelector('#cbl-bib-status-text');
+            btn.addEventListener('click', () => executeAutoFetch(status, btn));
+          }
+        }
       }
 
       // -------------------------------------------------------------
@@ -752,13 +845,13 @@
 
       // Continuous observer to attach helpers when user opens entries
       const observer = new MutationObserver(() => {
-        attachBibtexHelper();
+        attachPublicationHelpers();
         attachImageEditorHelpers();
       });
 
       document.addEventListener('DOMContentLoaded', () => {
         observer.observe(document.body, { childList: true, subtree: true });
-        attachBibtexHelper();
+        attachPublicationHelpers();
         attachImageEditorHelpers();
       });
     })();

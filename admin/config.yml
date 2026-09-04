@@ -38,6 +38,7 @@ collections:
     identifier_field: "citation"
     summary: "({{year}}) {{citation}}"
     fields:
+      - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false, hint: "Paste a DOI (e.g. 10.3389/neuro.09.054.2009 or https://doi.org/...), then click 'Auto-fetch' below to populate Citation, Year & BibTeX." }
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Full Citation Text", name: "citation", widget: "text" }
       - { label: "Publication Year", name: "year", widget: "string" }
@@ -51,7 +52,6 @@ collections:
         display_fields: ["name"]
         multiple: true
         required: false
-      - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false }
       - { label: "Preprint URL", name: "preprint_url", widget: "string", required: false }
       - { label: "Data & Code URL", name: "code_url", widget: "string", required: false }
       - { label: "BibTeX", name: "bibtex", widget: "text", required: false }
