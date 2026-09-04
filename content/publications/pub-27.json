@@ -1,13 +1,13 @@
 {
   "id": "pub-27",
-  "citation": "Francken, J.C., Beerendonk, L., Molenaar, D., Fahrenfort, J.J., Kiverstein, J.D. Seth, A.K. & van Gaal, S. An academic survey on theoretical foundations, common assumptions and the current state of the field of consciousness science. Neuroscience of consciousness (2022) .",
+  "citation": "Francken, J. C., Beerendonk, L., Molenaar, D., Fahrenfort, J. J., Kiverstein, J. D., Seth, A. K., & van Gaal, S. (2022). An academic survey on theoretical foundations, common assumptions and the current state of consciousness science. Neuroscience of Consciousness, 2022(1).",
   "year_group": "2024",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://academic.oup.com/nc/article/2022/1/niac011/6663928",
-  "paper_url": "https://academic.oup.com/nc/article/2022/1/niac011/6663928",
+  "doi": "https://doi.org/10.1093/nc/niac011",
+  "paper_url": "https://doi.org/10.1093/nc/niac011",
   "preprint_url": "https://osf.io/e2d4w/",
   "code_url": null,
-  "bibtex": "@article{francken2022_27,\n  author = {Francken, J},\n  title = {Francken, J.C., Beerendonk, L., Molenaar, D., Fahrenfort, J.J., Kiverstein, J.D. Seth, A.K. & van Gaal, S. An academic survey on theoretical foundations, common assumptions and the current state of the field of consciousness science. Neuroscience of consciousness (2022) .},\n  year = {2022},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/nc/article/2022/1/niac011/6663928}\n}"
+  "bibtex": "@article{Francken_2022,\n  title ={An academic survey on theoretical foundations, common assumptions and the current state of consciousness science},\n  volume ={2022},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niac011},\n  DOI ={10.1093/nc/niac011},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Francken, Jolien C and Beerendonk, Lola and Molenaar, Dylan and Fahrenfort, Johannes J and Kiverstein, Julian D and Seth, Anil K and van Gaal, Simon},\n  year ={2022},\n  month =Jan \n}"
 }

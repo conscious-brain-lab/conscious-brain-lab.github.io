@@ -1,14 +1,14 @@
 {
   "id": "pub-59",
-  "citation": "Fahrenfort, J.J., van Driel, J, van Gaal, S. & Olivers, C.N.L. From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience. 12: 368 (2018).",
+  "citation": "Fahrenfort, J. J., van Driel, J., van Gaal, S., & Olivers, C. N. L. (2018). From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience, 12.",
   "year_group": "2018",
   "topics": [
     "EEG",
     "Neural Decoding"
   ],
-  "doi": "https://www.frontiersin.org/articles/10.3389/fnins.2018.00368/full",
-  "paper_url": "https://www.frontiersin.org/articles/10.3389/fnins.2018.00368/full",
+  "doi": "https://doi.org/10.3389/fnins.2018.00368",
+  "paper_url": "https://doi.org/10.3389/fnins.2018.00368",
   "preprint_url": null,
   "code_url": "https://github.com/fahrenfort/ADAM",
-  "bibtex": "@article{fahrenfort2018_59,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., van Driel, J, van Gaal, S. & Olivers, C.N.L. From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience. 12: 368 (2018).},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.frontiersin.org/articles/10.3389/fnins.2018.00368/full}\n}"
+  "bibtex": "@article{Fahrenfort_2018,\n  title ={From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM)},\n  volume ={12},\n  ISSN ={1662-453X},\n  url ={http://dx.doi.org/10.3389/fnins.2018.00368},\n  DOI ={10.3389/fnins.2018.00368},\n  journal ={Frontiers in Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Fahrenfort, Johannes J. and van Driel, Joram and van Gaal, Simon and Olivers, Christian N. L.},\n  year ={2018},\n  month =July \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-51",
-  "citation": "Meijs, E.L., Mostert, P. Slagter, H.A. de Lange, F.P. & van Gaal, S. Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness (2019).",
+  "citation": "Meijs, E. L., Mostert, P., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2019). Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness, 2019(1).",
   "year_group": "2019",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://academic.oup.com/nc/article/2019/1/niz011/5552846",
-  "paper_url": "https://academic.oup.com/nc/article/2019/1/niz011/5552846",
+  "doi": "https://doi.org/10.1093/nc/niz011",
+  "paper_url": "https://doi.org/10.1093/nc/niz011",
   "preprint_url": null,
   "code_url": "https://data.donders.ru.nl/collections/di/dccn/DSC_3018015.05_065?3",
-  "bibtex": "@article{meijs2019_51,\n  author = {Meijs, E},\n  title = {Meijs, E.L., Mostert, P. Slagter, H.A. de Lange, F.P. & van Gaal, S. Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness (2019).},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/nc/article/2019/1/niz011/5552846}\n}"
+  "bibtex": "@article{Meijs_2019,\n  title ={Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report},\n  volume ={2019},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niz011},\n  DOI ={10.1093/nc/niz011},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Meijs, Erik L and Mostert, Pim and Slagter, Heleen A and de Lange, Floris P and van Gaal, Simon},\n  year ={2019},\n  month =Jan \n}"
 }

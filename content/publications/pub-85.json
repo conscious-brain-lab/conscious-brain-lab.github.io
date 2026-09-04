@@ -1,15 +1,15 @@
 {
   "id": "pub-85",
-  "citation": "van Gaal, S., de Lange, F.P. & Cohen, M.X (2012) The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience. 6:121. doi: 10.3389/fnhum.2012.00121",
+  "citation": "van Gaal, S., de Lange, F. P., & Cohen, M. X. (2012). The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience, 6.",
   "year_group": "2012",
   "topics": [
     "Consciousness",
     "Decision Making",
     "Cognitive Control"
   ],
-  "doi": "https://www.frontiersin.org/articles/10.3389/fnhum.2012.00121/full",
-  "paper_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2012.00121/full",
+  "doi": "https://doi.org/10.3389/fnhum.2012.00121",
+  "paper_url": "https://doi.org/10.3389/fnhum.2012.00121",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2012_85,\n  author = {van Gaal, S},\n  title = {van Gaal, S., de Lange, F.P. & Cohen, M.X (2012) The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience. 6:121. doi: 10.3389/fnhum.2012.00121},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.frontiersin.org/articles/10.3389/fnhum.2012.00121/full}\n}"
+  "bibtex": "@article{van_Gaal_2012,\n  title ={The role of consciousness in cognitive control and decision making},\n  volume ={6},\n  ISSN ={1662-5161},\n  url ={http://dx.doi.org/10.3389/fnhum.2012.00121},\n  DOI ={10.3389/fnhum.2012.00121},\n  journal ={Frontiers in Human Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={van Gaal, Simon and de Lange, Floris P. and Cohen, Michael X},\n  year ={2012} \n}"
 }

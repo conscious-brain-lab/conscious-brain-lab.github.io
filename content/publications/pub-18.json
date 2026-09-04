@@ -1,6 +1,6 @@
 {
   "id": "pub-18",
-  "citation": "Stein, T., van Gaal, S., Fahrenfort, JJ. How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics, Consciousness and Cognition (2024)",
+  "citation": "Stein, T., van Gaal, S., & Fahrenfort, J. J. (2024). How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics. Consciousness and Cognition, 119, 103669.",
   "year_group": "2024",
   "topics": [
     "Consciousness"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.1016/j.concog.2024.103669",
   "preprint_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573995",
   "code_url": null,
-  "bibtex": "@article{stein2024_18,\n  author = {Stein, T},\n  title = {Stein, T., van Gaal, S., Fahrenfort, JJ. How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics, Consciousness and Cognition (2024)},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1016/j.concog.2024.103669}\n}"
+  "bibtex": "@article{Stein_2024,\n  title ={How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics},\n  volume ={119},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2024.103669},\n  DOI ={10.1016/j.concog.2024.103669},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Stein, Timo and van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2024},\n  month =Mar,\n  pages ={103669} \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-66",
-  "citation": "Slagter, H., Alilovic, J. & van Gaal, S. How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach, Cognitive Neuroscience 26-28 (2017)",
+  "citation": "Slagter, H. A., Alilovic, J., & Van Gaal, S. (2017). How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach. Cognitive Neuroscience, 9(1-2), 26–28.",
   "year_group": "2017",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": null,
-  "paper_url": null,
+  "doi": "https://doi.org/10.1080/17588928.2017.1372405",
+  "paper_url": "https://doi.org/10.1080/17588928.2017.1372405",
   "preprint_url": null,
   "code_url": "https://www.tandfonline.com/doi/abs/10.1080/17588928.2017.1372405",
-  "bibtex": "@article{slagter2017_66,\n  author = {Slagter, H},\n  title = {Slagter, H., Alilovic, J. & van Gaal, S. How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach, Cognitive Neuroscience 26-28 (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.consciousbrainlab.com/publications}\n}"
+  "bibtex": "@article{Slagter_2017,\n  title ={How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach},\n  volume ={9},\n  ISSN ={1758-8936},\n  url ={http://dx.doi.org/10.1080/17588928.2017.1372405},\n  DOI ={10.1080/17588928.2017.1372405},\n  number ={1-2},\n  journal ={Cognitive Neuroscience},\n  publisher ={Informa UK Limited},\n  author ={Slagter, Heleen A and Alilovic, Josipa and Van Gaal, Simon},\n  year ={2017},\n  month =Sept,\n  pages ={26–28} \n}"
 }

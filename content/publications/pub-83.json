@@ -1,13 +1,13 @@
 {
   "id": "pub-83",
-  "citation": "Cohen, M.X & van Gaal, S. Dynamic interactions between large-scale networks predict behavioral adaptation after perceptual errors. Cerebral Cortex. 23(5)1061-1072 (2013).",
+  "citation": "Cohen, M. X., & van Gaal, S. (2012). Dynamic Interactions between Large-Scale Brain Networks Predict Behavioral Adaptation after Perceptual Errors. Cerebral Cortex, 23(5), 1061–1072.",
   "year_group": "2013",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://academic.oup.com/cercor/article/23/5/1061/799967",
-  "paper_url": "https://academic.oup.com/cercor/article/23/5/1061/799967",
+  "doi": "https://doi.org/10.1093/cercor/bhs069",
+  "paper_url": "https://doi.org/10.1093/cercor/bhs069",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{cohen2013_83,\n  author = {Cohen, M},\n  title = {Cohen, M.X & van Gaal, S. Dynamic interactions between large-scale networks predict behavioral adaptation after perceptual errors. Cerebral Cortex. 23(5)1061-1072 (2013).},\n  year = {2013},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/cercor/article/23/5/1061/799967}\n}"
+  "bibtex": "@article{Cohen_2012,\n  title ={Dynamic Interactions between Large-Scale Brain Networks Predict Behavioral Adaptation after Perceptual Errors},\n  volume ={23},\n  ISSN ={1047-3211},\n  url ={http://dx.doi.org/10.1093/cercor/bhs069},\n  DOI ={10.1093/cercor/bhs069},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Cohen, Michael X and van Gaal, Simon},\n  year ={2012},\n  month =Apr,\n  pages ={1061–1072} \n}"
 }

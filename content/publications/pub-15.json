@@ -1,13 +1,13 @@
 {
   "id": "pub-15",
-  "citation": "van Gaal, S. Neural activity patterns stabilize during wakefulness and conscious experience, PLoS Biology (2025)",
+  "citation": "van Gaal, S. (2025). Neural activity patterns stabilize during wakefulness and conscious experience. PLOS Biology, 23(7), e3003252.",
   "year_group": "2026",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252",
-  "paper_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252",
+  "doi": "https://doi.org/10.1371/journal.pbio.3003252",
+  "paper_url": "https://doi.org/10.1371/journal.pbio.3003252",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2025_15,\n  author = {van Gaal, S},\n  title = {van Gaal, S. Neural activity patterns stabilize during wakefulness and conscious experience, PLoS Biology (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252}\n}"
+  "bibtex": "@article{van_Gaal_2025,\n  title ={Neural activity patterns stabilize during wakefulness and conscious experience},\n  volume ={23},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3003252},\n  DOI ={10.1371/journal.pbio.3003252},\n  number ={7},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={van Gaal, Simon},\n  year ={2025},\n  month =July,\n  pages ={e3003252} \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-13",
-  "citation": "Sánchez-Fuenzalida, N., van Gaal, S. Fleming, SM. Haaf, JM, Fahrenfort, JJ. Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology (2025) .",
+  "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2025). Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology, 3(1).",
   "year_group": "2026",
   "topics": [
     "Decision Making"
   ],
-  "doi": "https://www.nature.com/articles/s44271-025-00257-y",
-  "paper_url": "https://www.nature.com/articles/s44271-025-00257-y",
+  "doi": "https://doi.org/10.1038/s44271-025-00257-y",
+  "paper_url": "https://doi.org/10.1038/s44271-025-00257-y",
   "preprint_url": "https://osf.io/h3uj5/",
   "code_url": null,
-  "bibtex": "@article{sánchez2025_13,\n  author = {Sánchez-Fuenzalida, N},\n  title = {Sánchez-Fuenzalida, N., van Gaal, S. Fleming, SM. Haaf, JM, Fahrenfort, JJ. Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology (2025) .},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s44271-025-00257-y}\n}"
+  "bibtex": "@article{S_nchez_Fuenzalida_2025,\n  title ={Confidence reports during perceptual decision making dissociate from changes in subjective experience},\n  volume ={3},\n  ISSN ={2731-9121},\n  url ={http://dx.doi.org/10.1038/s44271-025-00257-y},\n  DOI ={10.1038/s44271-025-00257-y},\n  number ={1},\n  journal ={Communications Psychology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2025},\n  month =May \n}"
 }

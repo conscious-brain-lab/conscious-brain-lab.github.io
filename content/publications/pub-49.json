@@ -1,13 +1,13 @@
 {
   "id": "pub-49",
-  "citation": "Ort, E., Fahrenfort, JJ., Reeder, R., Pollmann, S., Olivers, CNL. Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage (2019)",
+  "citation": "Ort, E., Fahrenfort, J. J., Reeder, R., Pollmann, S., & Olivers, C. N. L. (2019). Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage, 202, 116133.",
   "year_group": "2019",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S1053811919307244",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811919307244",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2019.116133",
+  "paper_url": "https://doi.org/10.1016/j.neuroimage.2019.116133",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{ort2019_49,\n  author = {Ort, E},\n  title = {Ort, E., Fahrenfort, JJ., Reeder, R., Pollmann, S., Olivers, CNL. Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811919307244}\n}"
+  "bibtex": "@article{Ort_2019,\n  title ={Frontal cortex differentiates between free and imposed target selection in multiple-target search},\n  volume ={202},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2019.116133},\n  DOI ={10.1016/j.neuroimage.2019.116133},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Ort, Eduard and Fahrenfort, Johannes J. and Reeder, Reshanne and Pollmann, Stefan and Olivers, Christian N.L.},\n  year ={2019},\n  month =Nov,\n  pages ={116133} \n}"
 }

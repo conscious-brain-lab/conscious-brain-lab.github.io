@@ -1,6 +1,6 @@
 {
   "id": "pub-56",
-  "citation": "Ort, E., Fahrenfort, JJ., Ten Cate, T., Eimer, M., Olivers, CNL. Humans can efficiently look for but not select multiple visual objects. eLife (2019)",
+  "citation": "Ort, E., Fahrenfort, J. J., ten Cate, T., Eimer, M., & Olivers, C. N. (2019). Humans can efficiently look for but not select multiple visual objects. eLife, 8. CLOCKSS.",
   "year_group": "2019",
   "topics": [
     "Cognitive Neuroscience"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.7554/eLife.49130",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{ort2019_56,\n  author = {Ort, E},\n  title = {Ort, E., Fahrenfort, JJ., Ten Cate, T., Eimer, M., Olivers, CNL. Humans can efficiently look for but not select multiple visual objects. eLife (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.7554/eLife.49130}\n}"
+  "bibtex": "@article{Ort_2019,\n  title ={Humans can efficiently look for but not select multiple visual objects},\n  volume ={8},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.49130},\n  DOI ={10.7554/elife.49130},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Ort, Eduard and Fahrenfort, Johannes Jacobus and ten Cate, Tuomas and Eimer, Martin and Olivers, Christian NL},\n  year ={2019},\n  month =Aug \n}"
 }

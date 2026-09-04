@@ -6,8 +6,8 @@
     "Decision Making",
     "EEG"
   ],
-  "doi": "https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhab032/6210084",
-  "paper_url": "https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhab032/6210084",
+  "doi": "https://doi.org/10.1093/cercor/bhab032/6210084",
+  "paper_url": "https://doi.org/10.1093/cercor/bhab032/6210084",
   "preprint_url": null,
   "code_url": "https://github.com/jwdegee/2021_cereb_cortex_prediction_error",
   "bibtex": "@article{de2021_35,\n  author = {de Gee, J},\n  title = {de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. Cerebral Cortex (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhab032/6210084}\n}"

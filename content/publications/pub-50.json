@@ -1,13 +1,13 @@
 {
   "id": "pub-50",
-  "citation": "Mongelli, V., Meijs, E.L., van Gaal, S.* & Hagoort, P.* No language unification without neural feedback: How awareness affects sentence processing. (*shared senior authors). Neuroimage, 202, (2019).",
+  "citation": "Mongelli, V., Meijs, E. L., van Gaal, S., & Hagoort, P. (2019). No language unification without neural feedback: How awareness affects sentence processing. NeuroImage, 202, 116063.",
   "year_group": "2019",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S1053811919306457",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811919306457",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2019.116063",
+  "paper_url": "https://doi.org/10.1016/j.neuroimage.2019.116063",
   "preprint_url": null,
   "code_url": "https://archive.mpi.nl/mpi/islandora/search/mongelli?type=dismax",
-  "bibtex": "@article{mongelli2019_50,\n  author = {Mongelli, V},\n  title = {Mongelli, V., Meijs, E.L., van Gaal, S.* & Hagoort, P.* No language unification without neural feedback: How awareness affects sentence processing. (*shared senior authors). Neuroimage, 202, (2019).},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811919306457}\n}"
+  "bibtex": "@article{Mongelli_2019,\n  title ={No language unification without neural feedback: How awareness affects sentence processing},\n  volume ={202},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2019.116063},\n  DOI ={10.1016/j.neuroimage.2019.116063},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Mongelli, Valeria and Meijs, Erik L. and van Gaal, Simon and Hagoort, Peter},\n  year ={2019},\n  month =Nov,\n  pages ={116063} \n}"
 }

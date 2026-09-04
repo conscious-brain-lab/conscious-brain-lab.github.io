@@ -3,11 +3,11 @@
     "Cognitive Neuroscience"
   ],
   "citation": "Noorman, S., Fahrenfort, J. J., Heilbron, M., Sergent, C., Zantvoord, J. B., van Gaal, S., & Stein, T. (2026). Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing. The Journal of Neuroscience, 46(12), e0674252026.",
-  "bibtex": "@article{Noorman_2026,\n  title ={Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing},\n  volume ={46},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/JNEUROSCI.0674-25.2026},\n  DOI ={10.1523/jneurosci.0674-25.2026},\n  number ={12},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Noorman, Samuel and Fahrenfort, Johannes J. and Heilbron, Micha and Sergent, Claire and Zantvoord, Jasper B. and van Gaal, Simon and Stein, Timo},\n  year ={2026},\n  month =Feb,\n  pages ={e0674252026} \n}",
+  "bibtex": "@article{Noorman_2026,\n  title ={Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing},\n  volume ={46},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0674-25.2026},\n  DOI ={10.1523/jneurosci.0674-25.2026},\n  number ={12},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Noorman, Samuel and Fahrenfort, Johannes J. and Heilbron, Micha and Sergent, Claire and Zantvoord, Jasper B. and van Gaal, Simon and Stein, Timo},\n  year ={2026},\n  month =Feb,\n  pages ={e0674252026} \n}",
   "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707924v1.abstract",
   "id": "pub-6",
   "paper_url": "https://doi.org/10.1523/jneurosci.0674-25.2026",
   "code_url": "https://uvaauas.figshare.com/account/mycontent/projects/272102",
   "year_group": "2026",
-  "doi": "https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long"
+  "doi": "https://doi.org/10.1523/jneurosci.0674-25.2026"
 }

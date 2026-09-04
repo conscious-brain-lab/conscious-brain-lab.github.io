@@ -1,14 +1,14 @@
 {
   "id": "pub-74",
-  "citation": "Jiang, J., Zhang, Q., & van Gaal, S. Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. Neuroimage, 16, 102-111. (2015)",
+  "citation": "Jiang, J., Zhang, Q., & van Gaal, S. (2015). Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. NeuroImage, 116, 102–111.",
   "year_group": "2015",
   "topics": [
     "Consciousness",
     "Cognitive Control"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S1053811915003626",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811915003626",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2015.04.062",
+  "paper_url": "https://doi.org/10.1016/j.neuroimage.2015.04.062",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{jiang2015_74,\n  author = {Jiang, J},\n  title = {Jiang, J., Zhang, Q., & van Gaal, S. Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. Neuroimage, 16, 102-111. (2015)},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811915003626}\n}"
+  "bibtex": "@article{Jiang_2015,\n  title ={Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control},\n  volume ={116},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2015.04.062},\n  DOI ={10.1016/j.neuroimage.2015.04.062},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and Zhang, Qinglin and van Gaal, Simon},\n  year ={2015},\n  month =Aug,\n  pages ={102–111} \n}"
 }

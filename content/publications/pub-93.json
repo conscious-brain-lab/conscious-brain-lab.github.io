@@ -1,13 +1,13 @@
 {
   "id": "pub-93",
-  "citation": "Wokke, M.E.*, van Gaal, S.*, Ridderinkhof, K.R., & Lamme, V.A.F. The flexible nature of unconscious cognition. PLoS ONE. 6(9): e25729. doi:10.1371/journal.pone.0025729",
+  "citation": "Wokke, M. E., van Gaal, S., Scholte, H. S., Ridderinkhof, K. R., & Lamme, V. A. F. (2011). The Flexible Nature of Unconscious Cognition. PLoS ONE, 6(9), e25729.",
   "year_group": "2011",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025729",
-  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025729",
+  "doi": "https://doi.org/10.1371/journal.pone.0025729",
+  "paper_url": "https://doi.org/10.1371/journal.pone.0025729",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{wokke2011_93,\n  author = {Wokke, M},\n  title = {Wokke, M.E.*, van Gaal, S.*, Ridderinkhof, K.R., & Lamme, V.A.F. The flexible nature of unconscious cognition. PLoS ONE. 6(9): e25729. doi:10.1371/journal.pone.0025729},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025729}\n}"
+  "bibtex": "@article{Wokke_2011,\n  title ={The Flexible Nature of Unconscious Cognition},\n  volume ={6},\n  ISSN ={1932-6203},\n  url ={http://dx.doi.org/10.1371/journal.pone.0025729},\n  DOI ={10.1371/journal.pone.0025729},\n  number ={9},\n  journal ={PLoS ONE},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Wokke, Martijn E. and van Gaal, Simon and Scholte, H. Steven and Ridderinkhof, K. Richard and Lamme, Victor A. F.},\n  editor ={Suzuki, Satoru},\n  year ={2011},\n  month =Sept,\n  pages ={e25729} \n}"
 }

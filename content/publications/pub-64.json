@@ -1,13 +1,13 @@
 {
   "id": "pub-64",
-  "citation": "Fahrenfort, J.J., van Leeuwen, J., Olivers, C.N.L., Hogendoorn, H. Perceptual integration without conscious access. Proceedings of the National Academy of Sciences of the United States of America (2017)",
+  "citation": "Fahrenfort, J. J., van Leeuwen, J., Olivers, C. N. L., & Hogendoorn, H. (2017). Perceptual integration without conscious access. Proceedings of the National Academy of Sciences, 114(14), 3744–3749.",
   "year_group": "2017",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://www.pnas.org/doi/full/10.1073/pnas.1617268114",
-  "paper_url": "https://www.pnas.org/doi/full/10.1073/pnas.1617268114",
+  "doi": "https://doi.org/10.1073/pnas.1617268114",
+  "paper_url": "https://doi.org/10.1073/pnas.1617268114",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{fahrenfort2017_64,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., van Leeuwen, J., Olivers, C.N.L., Hogendoorn, H. Perceptual integration without conscious access. Proceedings of the National Academy of Sciences of the United States of America (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/full/10.1073/pnas.1617268114}\n}"
+  "bibtex": "@article{Fahrenfort_2017,\n  title ={Perceptual integration without conscious access},\n  volume ={114},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.1617268114},\n  DOI ={10.1073/pnas.1617268114},\n  number ={14},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Fahrenfort, Johannes J. and van Leeuwen, Jonathan and Olivers, Christian N. L. and Hogendoorn, Hinze},\n  year ={2017},\n  month =Mar,\n  pages ={3744–3749} \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-97",
-  "citation": "van Gaal, S., Lamme, V.A.F., & Ridderinkhof, K.R. (2010) Unconsciously triggered conflict adaptation. PLoS ONE, 5(7): e11508. doi:10.1371/journal.pone.0011508 .",
+  "citation": "van Gaal, S., Lamme, V. A. F., & Ridderinkhof, K. R. (2010). Unconsciously Triggered Conflict Adaptation. PLoS ONE, 5(7), e11508.",
   "year_group": "2010",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011508",
-  "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011508",
+  "doi": "https://doi.org/10.1371/journal.pone.0011508",
+  "paper_url": "https://doi.org/10.1371/journal.pone.0011508",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2010_97,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Lamme, V.A.F., & Ridderinkhof, K.R. (2010) Unconsciously triggered conflict adaptation. PLoS ONE, 5(7): e11508. doi:10.1371/journal.pone.0011508 .},\n  year = {2010},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011508}\n}"
+  "bibtex": "@article{van_Gaal_2010,\n  title ={Unconsciously Triggered Conflict Adaptation},\n  volume ={5},\n  ISSN ={1932-6203},\n  url ={http://dx.doi.org/10.1371/journal.pone.0011508},\n  DOI ={10.1371/journal.pone.0011508},\n  number ={7},\n  journal ={PLoS ONE},\n  publisher ={Public Library of Science (PLoS)},\n  author ={van Gaal, Simon and Lamme, Victor A. F. and Ridderinkhof, K. Richard},\n  editor ={Herzog, Michael H.},\n  year ={2010},\n  month =July,\n  pages ={e11508} \n}"
 }

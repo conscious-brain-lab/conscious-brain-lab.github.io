@@ -1,13 +1,13 @@
 {
   "id": "pub-32",
-  "citation": "Stein, T., Kaiser, D., Fahrenfort, J.J. & van Gaal, S. The human visual system differentially represents subjectively and objectively invisible stimuli. PLoS Biology (2021)",
+  "citation": "Stein, T., Kaiser, D., Fahrenfort, J. J., & van Gaal, S. (2021). The human visual system differentially represents subjectively and objectively invisible stimuli. PLOS Biology, 19(5), e3001241.",
   "year_group": "2021",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001241",
-  "paper_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001241",
+  "doi": "https://doi.org/10.1371/journal.pbio.3001241",
+  "paper_url": "https://doi.org/10.1371/journal.pbio.3001241",
   "preprint_url": "https://osf.io/qus5v/",
   "code_url": null,
-  "bibtex": "@article{stein2021_32,\n  author = {Stein, T},\n  title = {Stein, T., Kaiser, D., Fahrenfort, J.J. & van Gaal, S. The human visual system differentially represents subjectively and objectively invisible stimuli. PLoS Biology (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001241}\n}"
+  "bibtex": "@article{Stein_2021,\n  title ={The human visual system differentially represents subjectively and objectively invisible stimuli},\n  volume ={19},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3001241},\n  DOI ={10.1371/journal.pbio.3001241},\n  number ={5},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Stein, Timo and Kaiser, Daniel and Fahrenfort, Johannes J. and van Gaal, Simon},\n  editor ={Malach, Rafael},\n  year ={2021},\n  month =May,\n  pages ={e3001241} \n}"
 }

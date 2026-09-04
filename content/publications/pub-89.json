@@ -1,13 +1,13 @@
 {
   "id": "pub-89",
-  "citation": "Francken, J. van Gaal, S., de Lange, F.P. (2012) Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition.",
+  "citation": "Francken, J. C., van Gaal, S., & de Lange, F. P. (2012). Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition, 21(3), 1573–1574.",
   "year_group": "2012",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S1053810012001183",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053810012001183",
+  "doi": "https://doi.org/10.1016/j.concog.2012.04.005",
+  "paper_url": "https://doi.org/10.1016/j.concog.2012.04.005",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{francken2012_89,\n  author = {Francken, J},\n  title = {Francken, J. van Gaal, S., de Lange, F.P. (2012) Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition.},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053810012001183}\n}"
+  "bibtex": "@article{Francken_2012,\n  title ={Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming},\n  volume ={21},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2012.04.005},\n  DOI ={10.1016/j.concog.2012.04.005},\n  number ={3},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Francken, Jolien C. and van Gaal, Simon and de Lange, Floris P.},\n  year ={2012},\n  month =Sept,\n  pages ={1573–1574} \n}"
 }

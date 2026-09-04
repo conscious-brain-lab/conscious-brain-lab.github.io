@@ -1,13 +1,13 @@
 {
   "id": "pub-48",
-  "citation": "Fahrenfort, JJ. Multivariate methods to track the spatiotemporal profile of feature-based attentional selection using EEG. Spatial Learning and Attention Guidance (Ed: Pollmann, S.)",
+  "citation": "Fahrenfort, J. J. (2019). Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG. Spatial Learning and Attention Guidance, 129–156.",
   "year_group": "2019",
   "topics": [
     "EEG"
   ],
-  "doi": "http://fahrenfort.com/downloads/2019%20Fahrenfort%20NM_Chapter.pdf",
-  "paper_url": "http://fahrenfort.com/downloads/2019%20Fahrenfort%20NM_Chapter.pdf",
+  "doi": "https://doi.org/10.1007/7657_2019_26",
+  "paper_url": "https://doi.org/10.1007/7657_2019_26",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{fahrenfort2019_48,\n  author = {Fahrenfort, JJ},\n  title = {Fahrenfort, JJ. Multivariate methods to track the spatiotemporal profile of feature-based attentional selection using EEG. Spatial Learning and Attention Guidance (Ed: Pollmann, S.)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://fahrenfort.com/downloads/2019%20Fahrenfort%20NM_Chapter.pdf}\n}"
+  "bibtex": "@inbook{Fahrenfort_2019,\n  title ={Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG},\n  ISBN ={9781493999484},\n  ISSN ={1940-6045},\n  url ={http://dx.doi.org/10.1007/7657_2019_26},\n  DOI ={10.1007/7657_2019_26},\n  booktitle ={Spatial Learning and Attention Guidance},\n  publisher ={Springer US},\n  author ={Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  pages ={129–156} \n}"
 }

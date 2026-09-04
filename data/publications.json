@@ -1,94 +1,94 @@
 [
   {
     "id": "pub-4",
-    "citation": "Nuiten, S.A., Oude Lohuis, M.N., Schaub, A.C., van Gaal, S., Olcese, U., Pennartz, C.M.A., Sterzer, P. de Gee, J.W. Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.​",
+    "citation": "Nuiten, S. A., Lohuis, M. O., Schaub, A. C., van Gaal, S., Olcese, U., Pennartz, C., Sterzer, P., & de Gee, J. W. (2026). Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.",
     "year_group": "Submitted or on Rxiv",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": null,
-    "paper_url": null,
+    "doi": "https://doi.org/10.64898/2026.02.05.704022",
+    "paper_url": "https://doi.org/10.64898/2026.02.05.704022",
     "preprint_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4",
     "code_url": null,
-    "bibtex": "@article{nuiten2024_4,\n  author = {Nuiten, S},\n  title = {Nuiten, S.A., Oude Lohuis, M.N., Schaub, A.C., van Gaal, S., Olcese, U., Pennartz, C.M.A., Sterzer, P. de Gee, J.W. Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.​},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4}\n}"
+    "bibtex": "@article{Nuiten_2026,\n  title ={Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state},\n  url ={http://dx.doi.org/10.64898/2026.02.05.704022},\n  DOI ={10.64898/2026.02.05.704022},\n  publisher ={openRxiv},\n  author ={Nuiten, Stijn A. and Lohuis, Matthijs Oude and Schaub, Anna Chiara and van Gaal, Simon and Olcese, Umberto and Pennartz, Cyriel and Sterzer, Philipp and de Gee, Jan Willem},\n  year ={2026},\n  month =Feb \n}"
   },
   {
     "id": "pub-10",
-    "citation": "Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Jasper B. Zantvoord, Fahrenfort, JJ. van Gaal, S. Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes-Dodson curve by catecholaminergic enhancement of arousal. Proceedings of the National Academy of Sciences of the United States of America (2025)",
+    "citation": "Beerendonk, L., Mejías, J. F., Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2025). Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes–Dodson curve by catecholaminergic enhancement of arousal. Proceedings of the National Academy of Sciences, 122(28).",
     "year_group": "2026",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.pnas.org/doi/full/10.1073/pnas.2419733122",
-    "paper_url": "https://www.pnas.org/doi/full/10.1073/pnas.2419733122",
+    "doi": "https://doi.org/10.1073/pnas.2419733122",
+    "paper_url": "https://doi.org/10.1073/pnas.2419733122",
     "preprint_url": "https://osf.io/bczku/",
     "code_url": null,
-    "bibtex": "@article{beerendonk2025_10,\n  author = {Beerendonk, L},\n  title = {Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Jasper B. Zantvoord, Fahrenfort, JJ. van Gaal, S. Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes-Dodson curve by catecholaminergic enhancement of arousal. Proceedings of the National Academy of Sciences of the United States of America (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/full/10.1073/pnas.2419733122}\n}"
+    "bibtex": "@article{Beerendonk_2025,\n  title ={Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes–Dodson curve by catecholaminergic enhancement of arousal},\n  volume ={122},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2419733122},\n  DOI ={10.1073/pnas.2419733122},\n  number ={28},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2025},\n  month =July \n}"
   },
   {
     "id": "pub-11",
-    "citation": "Noorman, S, Stein, T, Fahrenfort, JJ, van Gaal, S. Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. eLife (2025)",
+    "citation": "Noorman, S., Stein, T., Fahrenfort, J. J., & van Gaal, S. (2024). Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. CLOCKSS.",
     "year_group": "2026",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://elifesciences.org/articles/97900",
-    "paper_url": "https://elifesciences.org/articles/97900",
+    "doi": "https://doi.org/10.7554/elife.97900.1",
+    "paper_url": "https://doi.org/10.7554/elife.97900.1",
     "preprint_url": null,
     "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28049231/2",
-    "bibtex": "@article{noorman2025_11,\n  author = {Noorman, S, Stein, T, Fahrenfort, JJ, van Gaal, S},\n  title = {Noorman, S, Stein, T, Fahrenfort, JJ, van Gaal, S. Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. eLife (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/97900}\n}"
+    "bibtex": "@article{Noorman_2024,\n  title ={Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access},\n  url ={http://dx.doi.org/10.7554/elife.97900.1},\n  DOI ={10.7554/elife.97900.1},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Fahrenfort, Johannes J and van Gaal, Simon},\n  year ={2024},\n  month =July \n}"
   },
   {
     "id": "pub-12",
-    "citation": "Fahrenfort, J.J., Johnson, PA., Kloosterman, NA, Stein, T., van Gaal, S. Criterion placement threatens the construct validity of neural measures of consciousness. eLife (2025)",
+    "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N. A., Stein, T., & van Gaal, S. (2024). Criterion placement threatens the construct validity of neural measures of consciousness.",
     "year_group": "2026",
     "topics": [
       "Consciousness"
     ],
     "doi": "https://doi.org/10.1101/2024.02.22.581517",
-    "paper_url": "https://elifesciences.org/articles/102335",
+    "paper_url": "https://doi.org/10.1101/2024.02.22.581517",
     "preprint_url": "https://osf.io/ap23w/",
     "code_url": null,
-    "bibtex": "@article{fahrenfort2025_12,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Johnson, PA., Kloosterman, NA, Stein, T., van Gaal, S. Criterion placement threatens the construct validity of neural measures of consciousness. eLife (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/102335}\n}"
+    "bibtex": "@article{Fahrenfort_2024,\n  title ={Criterion placement threatens the construct validity of neural measures of consciousness},\n  url ={http://dx.doi.org/10.1101/2024.02.22.581517},\n  DOI ={10.1101/2024.02.22.581517},\n  publisher ={openRxiv},\n  author ={Fahrenfort, Johannes J. and Johnson, Philippa A. and Kloosterman, Niels A. and Stein, Timo and van Gaal, Simon},\n  year ={2024},\n  month =Feb \n}"
   },
   {
     "id": "pub-13",
-    "citation": "Sánchez-Fuenzalida, N., van Gaal, S. Fleming, SM. Haaf, JM, Fahrenfort, JJ. Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology (2025) .",
+    "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2025). Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology, 3(1).",
     "year_group": "2026",
     "topics": [
       "Decision Making"
     ],
-    "doi": "https://www.nature.com/articles/s44271-025-00257-y",
-    "paper_url": "https://www.nature.com/articles/s44271-025-00257-y",
+    "doi": "https://doi.org/10.1038/s44271-025-00257-y",
+    "paper_url": "https://doi.org/10.1038/s44271-025-00257-y",
     "preprint_url": "https://osf.io/h3uj5/",
     "code_url": null,
-    "bibtex": "@article{sánchez2025_13,\n  author = {Sánchez-Fuenzalida, N},\n  title = {Sánchez-Fuenzalida, N., van Gaal, S. Fleming, SM. Haaf, JM, Fahrenfort, JJ. Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology (2025) .},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s44271-025-00257-y}\n}"
+    "bibtex": "@article{S_nchez_Fuenzalida_2025,\n  title ={Confidence reports during perceptual decision making dissociate from changes in subjective experience},\n  volume ={3},\n  ISSN ={2731-9121},\n  url ={http://dx.doi.org/10.1038/s44271-025-00257-y},\n  DOI ={10.1038/s44271-025-00257-y},\n  number ={1},\n  journal ={Communications Psychology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2025},\n  month =May \n}"
   },
   {
     "id": "pub-14",
-    "citation": "Noorman, S, Stein, T, Zantvoord, J., Fahrenfort, JJ, van Gaal, S. A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife (2025)",
+    "citation": "Noorman, S., Stein, T., Zantvoord, J., Fahrenfort, J., & van Gaal, S. (2025). A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife, 13. CLOCKSS.",
     "year_group": "2026",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://elifesciences.org/articles/100530",
-    "paper_url": "https://elifesciences.org/articles/100530",
+    "doi": "https://doi.org/10.7554/elife.100530.3",
+    "paper_url": "https://doi.org/10.7554/elife.100530.3",
     "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.06.10.598193v1",
     "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28684382",
-    "bibtex": "@article{noorman2025_14,\n  author = {Noorman, S, Stein, T, Zantvoord, J},\n  title = {Noorman, S, Stein, T, Zantvoord, J., Fahrenfort, JJ, van Gaal, S. A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/100530}\n}"
+    "bibtex": "@article{Noorman_2025,\n  title ={A causal role of the NMDA receptor in recurrent processing during perceptual integration},\n  volume ={13},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.100530.3},\n  DOI ={10.7554/elife.100530.3},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Zantvoord, Jasper and Fahrenfort, Johannes and van Gaal, Simon},\n  year ={2025},\n  month =June \n}"
   },
   {
     "id": "pub-15",
-    "citation": "van Gaal, S. Neural activity patterns stabilize during wakefulness and conscious experience, PLoS Biology (2025)",
+    "citation": "van Gaal, S. (2025). Neural activity patterns stabilize during wakefulness and conscious experience. PLOS Biology, 23(7), e3003252.",
     "year_group": "2026",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252",
-    "paper_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252",
+    "doi": "https://doi.org/10.1371/journal.pbio.3003252",
+    "paper_url": "https://doi.org/10.1371/journal.pbio.3003252",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2025_15,\n  author = {van Gaal, S},\n  title = {van Gaal, S. Neural activity patterns stabilize during wakefulness and conscious experience, PLoS Biology (2025)},\n  year = {2025},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003252}\n}"
+    "bibtex": "@article{van_Gaal_2025,\n  title ={Neural activity patterns stabilize during wakefulness and conscious experience},\n  volume ={23},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3003252},\n  DOI ={10.1371/journal.pbio.3003252},\n  number ={7},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={van Gaal, Simon},\n  year ={2025},\n  month =July,\n  pages ={e3003252} \n}"
   },
   {
     "topics": [
@@ -101,7 +101,7 @@
     "paper_url": "https://doi.org/10.1093/nc/niag052",
     "code_url": "https://doi.org/10.17605/OSF.IO/3M6FU",
     "year_group": "2026",
-    "doi": "https://doi.org/10.17605/OSF.IO/3M6FU"
+    "doi": "https://doi.org/10.1093/nc/niag052"
   },
   {
     "topics": [
@@ -115,20 +115,20 @@
     "paper_url": "https://doi.org/10.1038/s41467-026-72567-6",
     "code_url": "https://doi.org/10.17605/OSF.IO/TBFNE",
     "year_group": "2026",
-    "doi": "https://doi.org/10.17605/OSF.IO/TBFNE"
+    "doi": "https://doi.org/10.1038/s41467-026-72567-6"
   },
   {
     "topics": [
       "Cognitive Neuroscience"
     ],
     "citation": "Noorman, S., Fahrenfort, J. J., Heilbron, M., Sergent, C., Zantvoord, J. B., van Gaal, S., & Stein, T. (2026). Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing. The Journal of Neuroscience, 46(12), e0674252026.",
-    "bibtex": "@article{Noorman_2026,\n  title ={Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing},\n  volume ={46},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/JNEUROSCI.0674-25.2026},\n  DOI ={10.1523/jneurosci.0674-25.2026},\n  number ={12},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Noorman, Samuel and Fahrenfort, Johannes J. and Heilbron, Micha and Sergent, Claire and Zantvoord, Jasper B. and van Gaal, Simon and Stein, Timo},\n  year ={2026},\n  month =Feb,\n  pages ={e0674252026} \n}",
+    "bibtex": "@article{Noorman_2026,\n  title ={Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing},\n  volume ={46},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0674-25.2026},\n  DOI ={10.1523/jneurosci.0674-25.2026},\n  number ={12},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Noorman, Samuel and Fahrenfort, Johannes J. and Heilbron, Micha and Sergent, Claire and Zantvoord, Jasper B. and van Gaal, Simon and Stein, Timo},\n  year ={2026},\n  month =Feb,\n  pages ={e0674252026} \n}",
     "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707924v1.abstract",
     "id": "pub-6",
     "paper_url": "https://doi.org/10.1523/jneurosci.0674-25.2026",
     "code_url": "https://uvaauas.figshare.com/account/mycontent/projects/272102",
     "year_group": "2026",
-    "doi": "https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long"
+    "doi": "https://doi.org/10.1523/jneurosci.0674-25.2026"
   },
   {
     "topics": [
@@ -141,63 +141,63 @@
     "paper_url": "https://doi.org/10.1038/s42003-026-09776-8",
     "code_url": null,
     "year_group": "2026",
-    "doi": "https://www.nature.com/articles/s42003-026-09776-8"
+    "doi": "https://doi.org/10.1038/s42003-026-09776-8"
   },
   {
     "id": "pub-9",
-    "citation": "Fahrenfort, JJ, van Gaal, S. & T Stein. Subjective and objective approaches in the study of conscious perception (book chapter to appear in 2026)",
+    "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception.",
     "year_group": "2026",
     "topics": [
       "Consciousness"
     ],
-    "doi": null,
-    "paper_url": null,
+    "doi": "https://doi.org/10.31234/osf.io/2pk5j_v1",
+    "paper_url": "https://doi.org/10.31234/osf.io/2pk5j_v1",
     "preprint_url": "https://osf.io/preprints/psyarxiv/2pk5j_v1",
     "code_url": null,
-    "bibtex": "@article{fahrenfort2026_9,\n  author = {Fahrenfort, JJ, van Gaal, S},\n  title = {Fahrenfort, JJ, van Gaal, S. & T Stein. Subjective and objective approaches in the study of conscious perception (book chapter to appear in 2026)},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/preprints/psyarxiv/2pk5j_v1}\n}"
+    "bibtex": "@article{Fahrenfort_2025,\n  title ={Subjective and objective approaches in the study of conscious perception},\n  url ={http://dx.doi.org/10.31234/osf.io/2pk5j_v1},\n  DOI ={10.31234/osf.io/2pk5j_v1},\n  publisher ={Center for Open Science},\n  author ={Fahrenfort, Johannes Jacobus and van Gaal, Simon and Stein, Timo},\n  year ={2025},\n  month =Oct \n}"
   },
   {
     "topics": [
       "Consciousness"
     ],
     "citation": "Stockart, F., Schreiber, M., Amerio, P., Carmel, D., Cleeremans, A., Deouell, L. Y., Dienes, Z., Elosegi, P., Gayet, S., Goldstein, A., Halchin, A.-M., Hesselmann, G., Kimchi, R., Lamy, D., Loued-Khenissi, L., Meyen, S., Micher, N., Pitts, M., Salomon, R., et al. (2025). Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences, 1–77.",
-    "bibtex": "@article{Stockart_2025,\n  title ={Studying unconscious processing: Contention and consensus},\n  ISSN ={1469-1825},\n  url ={http://dx.doi.org/10.1017/S0140525X25101489},\n  DOI ={10.1017/s0140525x25101489},\n  journal ={Behavioral and Brain Sciences},\n  publisher ={Cambridge University Press (CUP)},\n  author ={Stockart, François and Schreiber, Maor and Amerio, Pietro and Carmel, David and Cleeremans, Axel and Deouell, Leon Y. and Dienes, Zoltan and Elosegi, Patxi and Gayet, Surya and Goldstein, Alon and Halchin, Adelina-Mihaela and Hesselmann, Guido and Kimchi, Ruth and Lamy, Dominique and Loued-Khenissi, Leyla and Meyen, Sascha and Micher, Nitzan and Pitts, Michael and Salomon, Roy and Sandberg, Kristian and Schnepf, Iris A. and Schurger, Aaron and Shanks, David R. and Soto, David and Tal, Amir and Trübutschek, Darinka and Vadillo, Miguel A. and van Gaal, Simon and Yaron, Itay and Zheng, Zefan and Faivre, Nathan and Mudrik, Liad},\n  year ={2025},\n  month =July,\n  pages ={1–77} \n}",
+    "bibtex": "@article{Stockart_2025,\n  title ={Studying unconscious processing: Contention and consensus},\n  ISSN ={1469-1825},\n  url ={http://dx.doi.org/10.1017/s0140525x25101489},\n  DOI ={10.1017/s0140525x25101489},\n  journal ={Behavioral and Brain Sciences},\n  publisher ={Cambridge University Press (CUP)},\n  author ={Stockart, François and Schreiber, Maor and Amerio, Pietro and Carmel, David and Cleeremans, Axel and Deouell, Leon Y. and Dienes, Zoltan and Elosegi, Patxi and Gayet, Surya and Goldstein, Alon and Halchin, Adelina-Mihaela and Hesselmann, Guido and Kimchi, Ruth and Lamy, Dominique and Loued-Khenissi, Leyla and Meyen, Sascha and Micher, Nitzan and Pitts, Michael and Salomon, Roy and Sandberg, Kristian and Schnepf, Iris A. and Schurger, Aaron and Shanks, David R. and Soto, David and Tal, Amir and Trübutschek, Darinka and Vadillo, Miguel A. and van Gaal, Simon and Yaron, Itay and Zheng, Zefan and Faivre, Nathan and Mudrik, Liad},\n  year ={2025},\n  month =July,\n  pages ={1–77} \n}",
     "preprint_url": null,
     "id": "pub-8",
     "paper_url": "https://doi.org/10.1017/s0140525x25101489",
     "code_url": null,
     "year_group": "2025",
-    "doi": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4"
+    "doi": "https://doi.org/10.1017/s0140525x25101489"
   },
   {
     "id": "pub-16",
-    "citation": "Nuiten, SA., De Gee, JW., Zantvoord, JB., Fahrenfort, JJ. & van Gaal, S. Pharmacological elevation of catecholamine levels improves perceptual decisions, but not metacognitive insight. eNeuro (2024)",
+    "citation": "Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2024). Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight. Eneuro, 11(7), ENEURO.",
     "year_group": "2024",
     "topics": [
       "Decision Making"
     ],
-    "doi": "https://www.eneuro.org/content/11/7/ENEURO.0019-24.2024.full",
-    "paper_url": "https://www.eneuro.org/content/11/7/ENEURO.0019-24.2024.full",
+    "doi": "https://doi.org/10.1523/eneuro.0019-24.2024",
+    "paper_url": "https://doi.org/10.1523/eneuro.0019-24.2024",
     "preprint_url": null,
     "code_url": "https://uvaauas.figshare.com/articles/dataset/Pupil_data/26235413",
-    "bibtex": "@article{nuiten2024_16,\n  author = {Nuiten, SA},\n  title = {Nuiten, SA., De Gee, JW., Zantvoord, JB., Fahrenfort, JJ. & van Gaal, S. Pharmacological elevation of catecholamine levels improves perceptual decisions, but not metacognitive insight. eNeuro (2024)},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/11/7/ENEURO.0019-24.2024.full}\n}"
+    "bibtex": "@article{Nuiten_2024,\n  title ={Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight},\n  volume ={11},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0019-24.2024},\n  DOI ={10.1523/eneuro.0019-24.2024},\n  number ={7},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2024},\n  month =July,\n  pages ={ENEURO.0019–24.2024} \n}"
   },
   {
     "id": "pub-17",
-    "citation": "Ciceri, S. Oude Lohuis, M, Rottschafer, V, Pennartz, C, Avitabile, D, van Gaal, S, Olcese, U. The neural and computational architecture of feedback dynamics in mouse cortex during stimulus report. eNeuro (2024)",
+    "citation": "Ciceri, S., Oude Lohuis, M. N., Rottschäfer, V., Pennartz, C. M. A., Avitabile, D., van Gaal, S., & Olcese, U. (2024). The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report. Eneuro, 11(9), ENEURO.",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.eneuro.org/content/11/9/ENEURO.0191-24.2024.full",
-    "paper_url": "https://www.eneuro.org/content/11/9/ENEURO.0191-24.2024.full",
+    "doi": "https://doi.org/10.1523/eneuro.0191-24.2024",
+    "paper_url": "https://doi.org/10.1523/eneuro.0191-24.2024",
     "preprint_url": null,
     "code_url": "https://github.com/simoneciceri/IAS_project",
-    "bibtex": "@article{ciceri2024_17,\n  author = {Ciceri, S},\n  title = {Ciceri, S. Oude Lohuis, M, Rottschafer, V, Pennartz, C, Avitabile, D, van Gaal, S, Olcese, U. The neural and computational architecture of feedback dynamics in mouse cortex during stimulus report. eNeuro (2024)},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/11/9/ENEURO.0191-24.2024.full}\n}"
+    "bibtex": "@article{Ciceri_2024,\n  title ={The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report},\n  volume ={11},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0191-24.2024},\n  DOI ={10.1523/eneuro.0191-24.2024},\n  number ={9},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Ciceri, Simone and Oude Lohuis, Matthijs N. and Rottschäfer, Vivi and Pennartz, Cyriel M. A. and Avitabile, Daniele and van Gaal, Simon and Olcese, Umberto},\n  year ={2024},\n  month =Sept,\n  pages ={ENEURO.0191–24.2024} \n}"
   },
   {
     "id": "pub-18",
-    "citation": "Stein, T., van Gaal, S., Fahrenfort, JJ. How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics, Consciousness and Cognition (2024)",
+    "citation": "Stein, T., van Gaal, S., & Fahrenfort, J. J. (2024). How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics. Consciousness and Cognition, 119, 103669.",
     "year_group": "2024",
     "topics": [
       "Consciousness"
@@ -206,33 +206,33 @@
     "paper_url": "https://doi.org/10.1016/j.concog.2024.103669",
     "preprint_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573995",
     "code_url": null,
-    "bibtex": "@article{stein2024_18,\n  author = {Stein, T},\n  title = {Stein, T., van Gaal, S., Fahrenfort, JJ. How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics, Consciousness and Cognition (2024)},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1016/j.concog.2024.103669}\n}"
+    "bibtex": "@article{Stein_2024,\n  title ={How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics},\n  volume ={119},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2024.103669},\n  DOI ={10.1016/j.concog.2024.103669},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Stein, Timo and van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2024},\n  month =Mar,\n  pages ={103669} \n}"
   },
   {
     "id": "pub-19",
-    "citation": "Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Fahrenfort, JJ. van Gaal, S. A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences of the United States of America (2024) .",
+    "citation": "Beerendonk, L., Mejías, J. F., Nuiten, S. A., de Gee, J. W., Fahrenfort, J. J., & van Gaal, S. (2024). A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences, 121(5).",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.pnas.org/doi/abs/10.1073/pnas.2312898121",
-    "paper_url": "https://www.pnas.org/doi/abs/10.1073/pnas.2312898121",
+    "doi": "https://doi.org/10.1073/pnas.2312898121",
+    "paper_url": "https://doi.org/10.1073/pnas.2312898121",
     "preprint_url": "https://osf.io/fcext/",
     "code_url": null,
-    "bibtex": "@article{beerendonk2024_19,\n  author = {Beerendonk, L},\n  title = {Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Fahrenfort, JJ. van Gaal, S. A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences of the United States of America (2024) .},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/abs/10.1073/pnas.2312898121}\n}"
+    "bibtex": "@article{Beerendonk_2024,\n  title ={A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal},\n  volume ={121},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2312898121},\n  DOI ={10.1073/pnas.2312898121},\n  number ={5},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2024},\n  month =Jan \n}"
   },
   {
     "id": "pub-20",
-    "citation": "Sánchez-Fuenzalida, N., van Gaal, S. Fleming, SM. Haaf, JM, Fahrenfort, JJ. Predictions and rewards affect decision making but not subjective experience. Proceedings of the National Academy of Sciences of the United States of America (2023) .​​",
+    "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
     "year_group": "2024",
     "topics": [
       "Decision Making"
     ],
-    "doi": "https://www.pnas.org/doi/pdf/10.1073/pnas.2220749120",
-    "paper_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2220749120",
+    "doi": "https://doi.org/10.1073/pnas.2220749120",
+    "paper_url": "https://doi.org/10.1073/pnas.2220749120",
     "preprint_url": "https://osf.io/pfe46/",
     "code_url": null,
-    "bibtex": "@article{sánchez2023_20,\n  author = {Sánchez-Fuenzalida, N},\n  title = {Sánchez-Fuenzalida, N., van Gaal, S. Fleming, SM. Haaf, JM, Fahrenfort, JJ. Predictions and rewards affect decision making but not subjective experience. Proceedings of the National Academy of Sciences of the United States of America (2023) .​​},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/pdf/10.1073/pnas.2220749120}\n}"
+    "bibtex": "@article{S_nchez_Fuenzalida_2023,\n  title ={Predictions and rewards affect decision-making but not subjective experience},\n  volume ={120},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2220749120},\n  DOI ={10.1073/pnas.2220749120},\n  number ={44},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2023},\n  month =Oct \n}"
   },
   {
     "id": "pub-21",
@@ -241,106 +241,106 @@
     "topics": [
       "Decision Making"
     ],
-    "doi": null,
-    "paper_url": null,
+    "doi": "https://doi.org/10.1101/2022.11.03.515022v1}",
+    "paper_url": "https://doi.org/10.1101/2022.11.03.515022v1}",
     "preprint_url": "https://www.biorxiv.org/content/10.1101/2022.11.03.515022v1",
     "code_url": "https://uvaauas.figshare.com/projects/Catecholaminergic_neuromodulation_and_selective_attention_jointly_shape_perceptual_decision-making/160049",
     "bibtex": "@article{nuiten2023_21,\n  author = {Nuiten, SA},\n  title = {Nuiten, SA. De Gee JW. Zantvoord, JB, Fahrenfort, JJ & van Gaal, S. Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision making. eLife (2023) .},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.biorxiv.org/content/10.1101/2022.11.03.515022v1}\n}"
   },
   {
     "id": "pub-22",
-    "citation": "Canales-Johnson, A. Beerendonk, L., Chennu, S., Ince, R.A.A., van Gaal, S. Feedback information transfer in the human brain reflects bistable perception in the absence of report. PLOS Biology (2023)",
+    "citation": "Canales-Johnson, A., Beerendonk, L., Chennu, S., Davidson, M. J., Ince, R. A. A., & van Gaal, S. (2023). Feedback information transfer in the human brain reflects bistable perception in the absence of report. PLOS Biology, 21(5), e3002120.",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002120",
-    "paper_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002120",
+    "doi": "https://doi.org/10.1371/journal.pbio.3002120",
+    "paper_url": "https://doi.org/10.1371/journal.pbio.3002120",
     "preprint_url": "https://osf.io/a2f3v/",
     "code_url": null,
-    "bibtex": "@article{canales2023_22,\n  author = {Canales-Johnson, A},\n  title = {Canales-Johnson, A. Beerendonk, L., Chennu, S., Ince, R.A.A., van Gaal, S. Feedback information transfer in the human brain reflects bistable perception in the absence of report. PLOS Biology (2023)},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002120}\n}"
+    "bibtex": "@article{Canales_Johnson_2023,\n  title ={Feedback information transfer in the human brain reflects bistable perception in the absence of report},\n  volume ={21},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3002120},\n  DOI ={10.1371/journal.pbio.3002120},\n  number ={5},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Canales-Johnson, Andres and Beerendonk, Lola and Chennu, Srivas and Davidson, Matthew J. and Ince, Robin A. A. and van Gaal, Simon},\n  editor ={Tong, Frank},\n  year ={2023},\n  month =May,\n  pages ={e3002120} \n}"
   },
   {
     "id": "pub-23",
-    "citation": "Alilović, J. Lampers, E. Slagter, H.A. & van Gaal, S. The perceptual nature of illusory object recognition. Plos Biology (2023).",
+    "citation": "Alilović, J., Lampers, E., Slagter, H. A., & van Gaal, S. (2023). Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence. PLOS Biology, 21(3), e3002009.",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002009",
-    "paper_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002009",
+    "doi": "https://doi.org/10.1371/journal.pbio.3002009",
+    "paper_url": "https://doi.org/10.1371/journal.pbio.3002009",
     "preprint_url": null,
     "code_url": "https://uvaauas.figshare.com/collections/Illusory_object_recognition_is_either_perceptual_or_cognitive_in_origin_depending_on_decision_confidence/6265233/1",
-    "bibtex": "@article{alilović2023_23,\n  author = {Alilović, J},\n  title = {Alilović, J. Lampers, E. Slagter, H.A. & van Gaal, S. The perceptual nature of illusory object recognition. Plos Biology (2023).},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002009}\n}"
+    "bibtex": "@article{Alilovi__2023,\n  title ={Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence},\n  volume ={21},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3002009},\n  DOI ={10.1371/journal.pbio.3002009},\n  number ={3},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Alilović, Josipa and Lampers, Eline and Slagter, Heleen A. and van Gaal, Simon},\n  editor ={Pack, Christopher},\n  year ={2023},\n  month =Mar,\n  pages ={e3002009} \n}"
   },
   {
     "id": "pub-24",
-    "citation": "Johnson, P.A., Blom, T., van Gaal, S., Feuerriegel, D. Bode, S. Hogendoorn, H. Position representations of moving objects align with real-time position in the early visual response. eLife (2023).",
+    "citation": "Johnson, P. A., Blom, T., van Gaal, S., Feuerriegel, D., Bode, S., & Hogendoorn, H. (2023). Position representations of moving objects align with real-time position in the early visual response. eLife, 12. CLOCKSS.",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://elifesciences.org/articles/82424",
-    "paper_url": "https://elifesciences.org/articles/82424",
+    "doi": "https://doi.org/10.7554/elife.82424",
+    "paper_url": "https://doi.org/10.7554/elife.82424",
     "preprint_url": "https://osf.io/jbw9m/",
     "code_url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.vx0k6djw0",
-    "bibtex": "@article{johnson2023_24,\n  author = {Johnson, P},\n  title = {Johnson, P.A., Blom, T., van Gaal, S., Feuerriegel, D. Bode, S. Hogendoorn, H. Position representations of moving objects align with real-time position in the early visual response. eLife (2023).},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/82424}\n}"
+    "bibtex": "@article{Johnson_2023,\n  title ={Position representations of moving objects align with real-time position in the early visual response},\n  volume ={12},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.82424},\n  DOI ={10.7554/elife.82424},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Johnson, Philippa Anne and Blom, Tessel and van Gaal, Simon and Feuerriegel, Daniel and Bode, Stefan and Hogendoorn, Hinze},\n  year ={2023},\n  month =Jan \n}"
   },
   {
     "id": "pub-25",
-    "citation": "Bouwer, FL., Fahrenfort, JJ., Millard, SK., Kloosterman, NA., Slagter, HA. A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations. Journal of Cognitive Neuroscience (2023).",
+    "citation": "Bouwer, F. L., Fahrenfort, J. J., Millard, S. K., Kloosterman, N. A., & Slagter, H. A. (2020). A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations.",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://direct.mit.edu/jocn/article/35/6/990/115364/A-Silent-Disco-Differential-Effects-of-Beat-based",
-    "paper_url": "https://direct.mit.edu/jocn/article/35/6/990/115364/A-Silent-Disco-Differential-Effects-of-Beat-based",
+    "doi": "https://doi.org/10.1101/2020.01.08.899278",
+    "paper_url": "https://doi.org/10.1101/2020.01.08.899278",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{bouwer2023_25,\n  author = {Bouwer, FL},\n  title = {Bouwer, FL., Fahrenfort, JJ., Millard, SK., Kloosterman, NA., Slagter, HA. A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations. Journal of Cognitive Neuroscience (2023).},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://direct.mit.edu/jocn/article/35/6/990/115364/A-Silent-Disco-Differential-Effects-of-Beat-based}\n}"
+    "bibtex": "@article{Bouwer_2020,\n  title ={A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations},\n  url ={http://dx.doi.org/10.1101/2020.01.08.899278},\n  DOI ={10.1101/2020.01.08.899278},\n  publisher ={openRxiv},\n  author ={Bouwer, Fleur L. and Fahrenfort, Johannes J. and Millard, Samantha K. and Kloosterman, Niels A. and Slagter, Heleen A.},\n  year ={2020},\n  month =Jan \n}"
   },
   {
     "id": "pub-26",
-    "citation": "Mazor, M., Brown, S., Ciaunica, A., Demertzi, A., Fahrenfort, JJ., Faivre, N, Francken, JC. Lamy, D., Lenggenhager, B., Moutoussis, M., Nizzi, MC., Salomon, R., Soto, D., Stein, T., Lubianiker, N. The scientific study of consciousness cannot and should not be morally neutral. Perspectives on Psychological Science (2023).",
+    "citation": "Mazor, M., Brown, S., Ciaunica, A., Demertzi, A., Fahrenfort, J., Faivre, N., Francken, J. C., Lamy, D., Lenggenhager, B., Moutoussis, M., Nizzi, M.-C., Salomon, R., Soto, D., Stein, T., & Lubianiker, N. (2022). The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral. Perspectives on Psychological Science, 18(3), 535–543.",
     "year_group": "2024",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://journals.sagepub.com/doi/full/10.1177/17456916221110222",
-    "paper_url": "https://journals.sagepub.com/doi/full/10.1177/17456916221110222",
+    "doi": "https://doi.org/10.1177/17456916221110222",
+    "paper_url": "https://doi.org/10.1177/17456916221110222",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{mazor2023_26,\n  author = {Mazor, M},\n  title = {Mazor, M., Brown, S., Ciaunica, A., Demertzi, A., Fahrenfort, JJ., Faivre, N, Francken, JC. Lamy, D., Lenggenhager, B., Moutoussis, M., Nizzi, MC., Salomon, R., Soto, D., Stein, T., Lubianiker, N. The scientific study of consciousness cannot and should not be morally neutral. Perspectives on Psychological Science (2023).},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.sagepub.com/doi/full/10.1177/17456916221110222}\n}"
+    "bibtex": "@article{Mazor_2022,\n  title ={The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral},\n  volume ={18},\n  ISSN ={1745-6924},\n  url ={http://dx.doi.org/10.1177/17456916221110222},\n  DOI ={10.1177/17456916221110222},\n  number ={3},\n  journal ={Perspectives on Psychological Science},\n  publisher ={SAGE Publications},\n  author ={Mazor, Matan and Brown, Simon and Ciaunica, Anna and Demertzi, Athena and Fahrenfort, Johannes and Faivre, Nathan and Francken, Jolien C. and Lamy, Dominique and Lenggenhager, Bigna and Moutoussis, Michael and Nizzi, Marie-Christine and Salomon, Roy and Soto, David and Stein, Timo and Lubianiker, Nitzan},\n  year ={2022},\n  month =Sept,\n  pages ={535–543} \n}"
   },
   {
     "id": "pub-27",
-    "citation": "Francken, J.C., Beerendonk, L., Molenaar, D., Fahrenfort, J.J., Kiverstein, J.D. Seth, A.K. & van Gaal, S. An academic survey on theoretical foundations, common assumptions and the current state of the field of consciousness science. Neuroscience of consciousness (2022) .",
+    "citation": "Francken, J. C., Beerendonk, L., Molenaar, D., Fahrenfort, J. J., Kiverstein, J. D., Seth, A. K., & van Gaal, S. (2022). An academic survey on theoretical foundations, common assumptions and the current state of consciousness science. Neuroscience of Consciousness, 2022(1).",
     "year_group": "2024",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://academic.oup.com/nc/article/2022/1/niac011/6663928",
-    "paper_url": "https://academic.oup.com/nc/article/2022/1/niac011/6663928",
+    "doi": "https://doi.org/10.1093/nc/niac011",
+    "paper_url": "https://doi.org/10.1093/nc/niac011",
     "preprint_url": "https://osf.io/e2d4w/",
     "code_url": null,
-    "bibtex": "@article{francken2022_27,\n  author = {Francken, J},\n  title = {Francken, J.C., Beerendonk, L., Molenaar, D., Fahrenfort, J.J., Kiverstein, J.D. Seth, A.K. & van Gaal, S. An academic survey on theoretical foundations, common assumptions and the current state of the field of consciousness science. Neuroscience of consciousness (2022) .},\n  year = {2022},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/nc/article/2022/1/niac011/6663928}\n}"
+    "bibtex": "@article{Francken_2022,\n  title ={An academic survey on theoretical foundations, common assumptions and the current state of consciousness science},\n  volume ={2022},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niac011},\n  DOI ={10.1093/nc/niac011},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Francken, Jolien C and Beerendonk, Lola and Molenaar, Dylan and Fahrenfort, Johannes J and Kiverstein, Julian D and Seth, Anil K and van Gaal, Simon},\n  year ={2022},\n  month =Jan \n}"
   },
   {
     "id": "pub-28",
-    "citation": "Overbeek, B., Lavrijsen, J., van Gaal, S., Kondziella, D., Eilander, H., Koopmans, R. Clinical significance of visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi Study. Journal of Neurology (2022)",
+    "citation": "Overbeek, B. U. H., Lavrijsen, J. C. M., van Gaal, S., Kondziella, D., Eilander, H. J., & Koopmans, R. T. C. M. (2022). Towards consensus on visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi study. Journal of Neurology, 269(6), 3204–3215.",
     "year_group": "2024",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://link.springer.com/article/10.1007/s00415-021-10905-y",
-    "paper_url": "https://link.springer.com/article/10.1007/s00415-021-10905-y",
+    "doi": "https://doi.org/10.1007/s00415-021-10905-y",
+    "paper_url": "https://doi.org/10.1007/s00415-021-10905-y",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{overbeek2022_28,\n  author = {Overbeek, B},\n  title = {Overbeek, B., Lavrijsen, J., van Gaal, S., Kondziella, D., Eilander, H., Koopmans, R. Clinical significance of visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi Study. Journal of Neurology (2022)},\n  year = {2022},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://link.springer.com/article/10.1007/s00415-021-10905-y}\n}"
+    "bibtex": "@article{Overbeek_2022,\n  title ={Towards consensus on visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi study},\n  volume ={269},\n  ISSN ={1432-1459},\n  url ={http://dx.doi.org/10.1007/s00415-021-10905-y},\n  DOI ={10.1007/s00415-021-10905-y},\n  number ={6},\n  journal ={Journal of Neurology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Overbeek, Berno U. H. and Lavrijsen, Jan C. M. and van Gaal, Simon and Kondziella, Daniel and Eilander, Henk J. and Koopmans, Raymond T. C. M.},\n  year ={2022},\n  month =Jan,\n  pages ={3204–3215} \n}"
   },
   {
     "id": "pub-29",
-    "citation": "Fong, CY., Law, WHC., Fahrenfort, JJ., Braithwaite, JJ., Mazaheri, A. Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain (2022)",
+    "citation": "Fong, C. Y., Law, W. H. C., Fahrenfort, J. J., Braithwaite, J. J., & Mazaheri, A. (2022). Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain, 23(1).",
     "year_group": "2024",
     "topics": [
       "Cognitive Neuroscience"
@@ -349,72 +349,72 @@
     "paper_url": "https://doi.org/10.1186/s10194-022-01410-2",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fong2022_29,\n  author = {Fong, CY},\n  title = {Fong, CY., Law, WHC., Fahrenfort, JJ., Braithwaite, JJ., Mazaheri, A. Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain (2022)},\n  year = {2022},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1186/s10194-022-01410-2}\n}"
+    "bibtex": "@article{Fong_2022,\n  title ={Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs},\n  volume ={23},\n  ISSN ={1129-2377},\n  url ={http://dx.doi.org/10.1186/s10194-022-01410-2},\n  DOI ={10.1186/s10194-022-01410-2},\n  number ={1},\n  journal ={The Journal of Headache and Pain},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Fong, Chun Yuen and Law, Wai Him Crystal and Fahrenfort, Johannes Jacobus and Braithwaite, Jason J. and Mazaheri, Ali},\n  year ={2022},\n  month =Apr \n}"
   },
   {
     "id": "pub-30",
-    "citation": "Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife (2021) .",
+    "citation": "Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. (2021). Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife, 10. CLOCKSS.",
     "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://elifesciences.org/articles/64431",
-    "paper_url": "https://elifesciences.org/articles/64431",
+    "doi": "https://doi.org/10.7554/elife.64431",
+    "paper_url": "https://doi.org/10.7554/elife.64431",
     "preprint_url": null,
     "code_url": "https://uvaauas.figshare.com/projects/Preserved_sensory_processing_but_hampered_conflict_detection_when_stimulus_input_is_task-irrelevant/115020",
-    "bibtex": "@article{nuiten2021_30,\n  author = {Nuiten, S},\n  title = {Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife (2021) .},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/64431}\n}"
+    "bibtex": "@article{Nuiten_2021,\n  title ={Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant},\n  volume ={10},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.64431},\n  DOI ={10.7554/elife.64431},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Nuiten, Stijn Adriaan and Canales-Johnson, Andrés and Beerendonk, Lola and Nanuashvili, Nutsa and Fahrenfort, Johannes Jacobus and Bekinschtein, Tristan and van Gaal, Simon},\n  year ={2021},\n  month =June \n}"
   },
   {
     "id": "pub-31",
-    "citation": "Dijkstra, N., van Gaal, S., Geerlings, L., Bosch, S. & van Gerven, M. No evidence for neural overlap between unconsciously processed and imagined stimuli. eNeuro (2021)",
+    "citation": "Dijkstra, N., van Gaal, S., Geerligs, L., Bosch, S., & Gerven, M. (3 C.E.). <i>Overlap in externally and internally generated visual representations</i> (Version 1) [Dataset]. Radboud University.",
     "year_group": "2021",
     "topics": [
       "Consciousness"
     ],
     "doi": "https://doi.org/10.34973/j9yn-q419",
-    "paper_url": "https://www.eneuro.org/content/8/5/ENEURO.0228-21.2021",
+    "paper_url": "https://doi.org/10.34973/j9yn-q419",
     "preprint_url": null,
     "code_url": "https://github.com/NadineDijkstra/UPCPIMfinal",
-    "bibtex": "@article{dijkstra2021_31,\n  author = {Dijkstra, N},\n  title = {Dijkstra, N., van Gaal, S., Geerlings, L., Bosch, S. & van Gerven, M. No evidence for neural overlap between unconsciously processed and imagined stimuli. eNeuro (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/8/5/ENEURO.0228-21.2021}\n}"
+    "bibtex": "@misc{https://doi.org/10.34973/j9yn-q419,\n  doi = {10.34973/J9YN-Q419},\n  url = {https://data.ru.nl/collections/di/dccn/DSC_3018030.03_435},\n  author = {Dijkstra, Nadine and van Gaal, Simon and Geerligs, Linda and Bosch, Sander and Gerven, Marcel},\n  keywords = {imagery},\n  language = {en},\n  title = {Overlap in externally and internally generated visual representations},\n  publisher = {Radboud University},\n  year = {2021},\n  copyright = {Restricted Access}\n\n}"
   },
   {
     "id": "pub-32",
-    "citation": "Stein, T., Kaiser, D., Fahrenfort, J.J. & van Gaal, S. The human visual system differentially represents subjectively and objectively invisible stimuli. PLoS Biology (2021)",
+    "citation": "Stein, T., Kaiser, D., Fahrenfort, J. J., & van Gaal, S. (2021). The human visual system differentially represents subjectively and objectively invisible stimuli. PLOS Biology, 19(5), e3001241.",
     "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001241",
-    "paper_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001241",
+    "doi": "https://doi.org/10.1371/journal.pbio.3001241",
+    "paper_url": "https://doi.org/10.1371/journal.pbio.3001241",
     "preprint_url": "https://osf.io/qus5v/",
     "code_url": null,
-    "bibtex": "@article{stein2021_32,\n  author = {Stein, T},\n  title = {Stein, T., Kaiser, D., Fahrenfort, J.J. & van Gaal, S. The human visual system differentially represents subjectively and objectively invisible stimuli. PLoS Biology (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001241}\n}"
+    "bibtex": "@article{Stein_2021,\n  title ={The human visual system differentially represents subjectively and objectively invisible stimuli},\n  volume ={19},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3001241},\n  DOI ={10.1371/journal.pbio.3001241},\n  number ={5},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Stein, Timo and Kaiser, Daniel and Fahrenfort, Johannes J. and van Gaal, Simon},\n  editor ={Malach, Rafael},\n  year ={2021},\n  month =May,\n  pages ={e3001241} \n}"
   },
   {
     "id": "pub-33",
-    "citation": "Canales-Johnson, A., Teixeira Borges, AF., Komatsu, M., Fujii, N., Fahrenfort, JJ., Miller, KJ., Noreika, V. Broadband dynamics rather than frequency-specific rhythms underlie prediction error in the primate auditory cortex. Journal of Neuroscience (20221)",
+    "citation": "Canales-Johnson, A., Teixeira Borges, A. F., Komatsu, M., Fujii, N., Fahrenfort, J. J., Miller, K. J., & Noreika, V. (2021). Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex. The Journal of Neuroscience, 41(45), 9374–9391.",
     "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.jneurosci.org/content/41/45/9374.long",
-    "paper_url": "https://www.jneurosci.org/content/41/45/9374.long",
+    "doi": "https://doi.org/10.1523/jneurosci.0367-21.2021",
+    "paper_url": "https://doi.org/10.1523/jneurosci.0367-21.2021",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{canales2021_33,\n  author = {Canales-Johnson, A},\n  title = {Canales-Johnson, A., Teixeira Borges, AF., Komatsu, M., Fujii, N., Fahrenfort, JJ., Miller, KJ., Noreika, V. Broadband dynamics rather than frequency-specific rhythms underlie prediction error in the primate auditory cortex. Journal of Neuroscience (20221)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/41/45/9374.long}\n}"
+    "bibtex": "@article{Canales_Johnson_2021,\n  title ={Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex},\n  volume ={41},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0367-21.2021},\n  DOI ={10.1523/jneurosci.0367-21.2021},\n  number ={45},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Canales-Johnson, Andrés and Teixeira Borges, Ana Filipa and Komatsu, Misako and Fujii, Naotaka and Fahrenfort, Johannes J. and Miller, Kai J. and Noreika, Valdas},\n  year ={2021},\n  month =Oct,\n  pages ={9374–9391} \n}"
   },
   {
     "id": "pub-34",
-    "citation": "Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. & Scholte, H. S. On the necessity of recurrent processing during object recognition: it depends on the need for scene segmentation. Journal of Neuroscience (2021).",
+    "citation": "Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. H. F., & Scholte, H. S. (2021). On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation. The Journal of Neuroscience, 41(29), 6281–6289.",
     "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.jneurosci.org/content/early/2021/06/01/JNEUROSCI.2851-20.2021",
-    "paper_url": "https://www.jneurosci.org/content/early/2021/06/01/JNEUROSCI.2851-20.2021",
+    "doi": "https://doi.org/10.1523/jneurosci.2851-20.2021",
+    "paper_url": "https://doi.org/10.1523/jneurosci.2851-20.2021",
     "preprint_url": null,
     "code_url": "https://github.com/noorseijdel/2020_EEG_figureground",
-    "bibtex": "@article{seijdel2021_34,\n  author = {Seijdel, N},\n  title = {Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. & Scholte, H. S. On the necessity of recurrent processing during object recognition: it depends on the need for scene segmentation. Journal of Neuroscience (2021).},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/early/2021/06/01/JNEUROSCI.2851-20.2021}\n}"
+    "bibtex": "@article{Seijdel_2021,\n  title ={On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation},\n  volume ={41},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2851-20.2021},\n  DOI ={10.1523/jneurosci.2851-20.2021},\n  number ={29},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Seijdel, Noor and Loke, Jessica and van de Klundert, Ron and van der Meer, Matthew and Quispel, Eva and van Gaal, Simon and de Haan, Edward H.F. and Scholte, H. Steven},\n  year ={2021},\n  month =June,\n  pages ={6281–6289} \n}"
   },
   {
     "id": "pub-35",
@@ -424,67 +424,67 @@
       "Decision Making",
       "EEG"
     ],
-    "doi": "https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhab032/6210084",
-    "paper_url": "https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhab032/6210084",
+    "doi": "https://doi.org/10.1093/cercor/bhab032/6210084",
+    "paper_url": "https://doi.org/10.1093/cercor/bhab032/6210084",
     "preprint_url": null,
     "code_url": "https://github.com/jwdegee/2021_cereb_cortex_prediction_error",
     "bibtex": "@article{de2021_35,\n  author = {de Gee, J},\n  title = {de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. Cerebral Cortex (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/cercor/advance-article/doi/10.1093/cercor/bhab032/6210084}\n}"
   },
   {
     "id": "pub-36",
-    "citation": "Alilović, J., van Moorselaar, D. Graetz, M. van Gaal, S.* & Slagter, H.A.* Representational dynamics preceding conscious access. Neuroimage (2021) (*shared senior authors)",
+    "citation": "Alilović, J., van Moorselaar, D., Graetz, M., van Gaal, S., & Slagter, H. A. (2021). Representational dynamics preceding conscious access. NeuroImage, 230, 117789.",
     "year_group": "2021",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811921000665",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811921000665",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2021.117789",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2021.117789",
     "preprint_url": "https://osf.io/5cpgr/",
     "code_url": null,
-    "bibtex": "@article{alilović2021_36,\n  author = {Alilović, J},\n  title = {Alilović, J., van Moorselaar, D. Graetz, M. van Gaal, S.* & Slagter, H.A.* Representational dynamics preceding conscious access. Neuroimage (2021) (*shared senior authors)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811921000665}\n}"
+    "bibtex": "@article{Alilovi__2021,\n  title ={Representational dynamics preceding conscious access},\n  volume ={230},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2021.117789},\n  DOI ={10.1016/j.neuroimage.2021.117789},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Alilović, Josipa and van Moorselaar, Dirk and Graetz, Marcel and van Gaal, Simon and Slagter, Heleen A.},\n  year ={2021},\n  month =Apr,\n  pages ={117789} \n}"
   },
   {
     "id": "pub-37",
-    "citation": "Alilović, J., Slagter, H. A. & van Gaal, S. Subjective visibility report is facilitated by conscious predictions only. Consciousness and Cognition (2021)",
+    "citation": "Alilović, J., Slagter, H. A., & van Gaal, S. (2021). Subjective visibility report is facilitated by conscious predictions only. Consciousness and Cognition, 87, 103048.",
     "year_group": "2021",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053810020305158",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053810020305158",
+    "doi": "https://doi.org/10.1016/j.concog.2020.103048",
+    "paper_url": "https://doi.org/10.1016/j.concog.2020.103048",
     "preprint_url": "https://osf.io/t9z54/",
     "code_url": null,
-    "bibtex": "@article{alilović2021_37,\n  author = {Alilović, J},\n  title = {Alilović, J., Slagter, H. A. & van Gaal, S. Subjective visibility report is facilitated by conscious predictions only. Consciousness and Cognition (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053810020305158}\n}"
+    "bibtex": "@article{Alilovi__2021,\n  title ={Subjective visibility report is facilitated by conscious predictions only},\n  volume ={87},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2020.103048},\n  DOI ={10.1016/j.concog.2020.103048},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Alilović, Josipa and Slagter, Heleen A. and van Gaal, Simon},\n  year ={2021},\n  month =Jan,\n  pages ={103048} \n}"
   },
   {
     "id": "pub-38",
-    "citation": "van Driel, J., Olivers, CNL., Fahrenfort, JJ. High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods (2021)",
+    "citation": "van Driel, J., Olivers, C. N. L., & Fahrenfort, J. J. (2021). High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods, 352, 109080.",
     "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S0165027021000157",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0165027021000157",
+    "doi": "https://doi.org/10.1016/j.jneumeth.2021.109080",
+    "paper_url": "https://doi.org/10.1016/j.jneumeth.2021.109080",
     "preprint_url": "https://osf.io/t9rkz/",
     "code_url": null,
-    "bibtex": "@article{van2021_38,\n  author = {van Driel, J},\n  title = {van Driel, J., Olivers, CNL., Fahrenfort, JJ. High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0165027021000157}\n}"
+    "bibtex": "@article{van_Driel_2021,\n  title ={High-pass filtering artifacts in multivariate classification of neural time series data},\n  volume ={352},\n  ISSN ={0165-0270},\n  url ={http://dx.doi.org/10.1016/j.jneumeth.2021.109080},\n  DOI ={10.1016/j.jneumeth.2021.109080},\n  journal ={Journal of Neuroscience Methods},\n  publisher ={Elsevier BV},\n  author ={van Driel, Joram and Olivers, Christian N.L. and Fahrenfort, Johannes J.},\n  year ={2021},\n  month =Mar,\n  pages ={109080} \n}"
   },
   {
     "id": "pub-39",
-    "citation": "Munneke, J., * Fahrenfort, JJ. *, Sutterer, D., Theeuwes, J., Awh, E. Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage (2021) (*shared first authors)",
+    "citation": "Munneke, J., Fahrenfort, J. J., Sutterer, D., Theeuwes, J., & Awh, E. (2021). Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage, 226, 117562.",
     "year_group": "2021",
     "topics": [
       "EEG"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811920310478",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811920310478",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2020.117562",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2020.117562",
     "preprint_url": "https://osf.io/g2c5y/",
     "code_url": null,
-    "bibtex": "@article{munneke2021_39,\n  author = {Munneke, J},\n  title = {Munneke, J., * Fahrenfort, JJ. *, Sutterer, D., Theeuwes, J., Awh, E. Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage (2021) (*shared first authors)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811920310478}\n}"
+    "bibtex": "@article{Munneke_2021,\n  title ={Multivariate analysis of EEG activity indexes contingent attentional capture},\n  volume ={226},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2020.117562},\n  DOI ={10.1016/j.neuroimage.2020.117562},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Munneke, Jaap and Fahrenfort, Johannes Jacobus and Sutterer, David and Theeuwes, Jan and Awh, Edward},\n  year ={2021},\n  month =Feb,\n  pages ={117562} \n}"
   },
   {
     "id": "pub-40",
-    "citation": "Kellij, S., Fahrenfort, JJ., Lau, H., Peters, MAK., Odegaard, B. An investigation of how relative precision of target encoding influences metacognitive performance. Attention, Perception, & Psychophysics (2021)",
+    "citation": "Kellij, S., Fahrenfort, J., Lau, H., Peters, M. A. K., & Odegaard, B. (2020). An investigation of how relative precision of target encoding influences metacognitive performance. Attention, Perception, &Amp; Psychophysics, 83(1), 512–524.",
     "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience"
@@ -493,37 +493,37 @@
     "paper_url": "https://doi.org/10.3758/s13414-020-02190-0",
     "preprint_url": "https://osf.io/947tv/",
     "code_url": null,
-    "bibtex": "@article{kellij2021_40,\n  author = {Kellij, S},\n  title = {Kellij, S., Fahrenfort, JJ., Lau, H., Peters, MAK., Odegaard, B. An investigation of how relative precision of target encoding influences metacognitive performance. Attention, Perception, & Psychophysics (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.3758/s13414-020-02190-0}\n}"
+    "bibtex": "@article{Kellij_2020,\n  title ={An investigation of how relative precision of target encoding influences metacognitive performance},\n  volume ={83},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-020-02190-0},\n  DOI ={10.3758/s13414-020-02190-0},\n  number ={1},\n  journal ={Attention, Perception, & Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Kellij, Sanne and Fahrenfort, Johannes and Lau, Hakwan and Peters, Megan A. K. and Odegaard, Brian},\n  year ={2020},\n  month =Nov,\n  pages ={512–524} \n}"
   },
   {
     "id": "pub-41",
-    "citation": "Fahrenfort, J.J. & van Gaal, S. Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence. Cognitive Neuroscience (2020).",
+    "citation": "Fahrenfort, J. J., & van Gaal, S. (2020). Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence. Cognitive Neuroscience, 12(2), 93–94.",
     "year_group": "2020",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.tandfonline.com/doi/full/10.1080/17588928.2020.1838470",
-    "paper_url": "https://www.tandfonline.com/doi/full/10.1080/17588928.2020.1838470",
+    "doi": "https://doi.org/10.1080/17588928.2020.1838470",
+    "paper_url": "https://doi.org/10.1080/17588928.2020.1838470",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2020_41,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J. & van Gaal, S. Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence. Cognitive Neuroscience (2020).},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.tandfonline.com/doi/full/10.1080/17588928.2020.1838470}\n}"
+    "bibtex": "@article{Fahrenfort_2020,\n  title ={Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence},\n  volume ={12},\n  ISSN ={1758-8936},\n  url ={http://dx.doi.org/10.1080/17588928.2020.1838470},\n  DOI ={10.1080/17588928.2020.1838470},\n  number ={2},\n  journal ={Cognitive Neuroscience},\n  publisher ={Informa UK Limited},\n  author ={Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2020},\n  month =Nov,\n  pages ={93–94} \n}"
   },
   {
     "id": "pub-42",
-    "citation": "Canales-Johnson, A. Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S.A., Fahrenfort, J.J. van Gaal, S.* & Bekinschtein, T.A.*. Decreased alertness reconfigures cognitive control networks. Journal of Neuroscience (2020) (*shared senior authors)",
+    "citation": "Canales-Johnson, A., Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S., Fahrenfort, J., van Gaal, S., & Bekinschtein, T. A. (2020). Decreased Alertness Reconfigures Cognitive Control Networks. The Journal of Neuroscience, 40(37), 7142–7154.",
     "year_group": "2020",
     "topics": [
       "Cognitive Control"
     ],
-    "doi": "https://www.jneurosci.org/content/40/37/7142",
-    "paper_url": "https://www.jneurosci.org/content/40/37/7142",
+    "doi": "https://doi.org/10.1523/jneurosci.0343-20.2020",
+    "paper_url": "https://doi.org/10.1523/jneurosci.0343-20.2020",
     "preprint_url": "https://osf.io/xfm8r/",
     "code_url": null,
-    "bibtex": "@article{canales2020_42,\n  author = {Canales-Johnson, A},\n  title = {Canales-Johnson, A. Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S.A., Fahrenfort, J.J. van Gaal, S.* & Bekinschtein, T.A.*. Decreased alertness reconfigures cognitive control networks. Journal of Neuroscience (2020) (*shared senior authors)},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/40/37/7142}\n}"
+    "bibtex": "@article{Canales_Johnson_2020,\n  title ={Decreased Alertness Reconfigures Cognitive Control Networks},\n  volume ={40},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0343-20.2020},\n  DOI ={10.1523/jneurosci.0343-20.2020},\n  number ={37},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Canales-Johnson, Andrés and Beerendonk, Lola and Blain, Salome and Kitaoka, Shin and Ezquerro-Nassar, Alejandro and Nuiten, Stijn and Fahrenfort, Johannes and van Gaal, Simon and Bekinschtein, Tristan A.},\n  year ={2020},\n  month =Aug,\n  pages ={7142–7154} \n}"
   },
   {
     "id": "pub-43",
-    "citation": "Kloosterman, NA., Kosciessa, JQ ., Lindenberger, U., Fahrenfort, JJ., Garrett, DD., Boosts in brain signal variability track liberal shifts in decision bias. eLife (2020)",
+    "citation": "Kloosterman, N. A., Kosciessa, J. Q., Lindenberger, U., Fahrenfort, J. J., & Garrett, D. D. (2020). Boosts in brain signal variability track liberal shifts in decision bias. eLife, 9. CLOCKSS.",
     "year_group": "2020",
     "topics": [
       "Decision Making"
@@ -532,50 +532,50 @@
     "paper_url": "https://doi.org/10.7554/eLife.54201",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{kloosterman2020_43,\n  author = {Kloosterman, NA},\n  title = {Kloosterman, NA., Kosciessa, JQ ., Lindenberger, U., Fahrenfort, JJ., Garrett, DD., Boosts in brain signal variability track liberal shifts in decision bias. eLife (2020)},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.7554/eLife.54201}\n}"
+    "bibtex": "@article{Kloosterman_2020,\n  title ={Boosts in brain signal variability track liberal shifts in decision bias},\n  volume ={9},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.54201},\n  DOI ={10.7554/elife.54201},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Kloosterman, Niels A and Kosciessa, Julian Q and Lindenberger, Ulman and Fahrenfort, Johannes Jacobus and Garrett, Douglas D},\n  year ={2020},\n  month =Aug \n}"
   },
   {
     "id": "pub-44",
-    "citation": "Wiers, R.W., van Gaal, S. & Le Pelley, M.E. Akrasia and addiction: Neurophilosophy and psychological mechanisms. Social Neuroeconomics: Integrating the Neurosciences and the Social Sciences. (Eds: J. Harbecke and C. Herrmann-Pillath)",
+    "citation": "Wiers, R. W., van Gaal, S., & Le Pelley, M. E. (2020). Akrasia and addiction. Social Neuroeconomics, 121–147.",
     "year_group": "2020",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.taylorfrancis.com/books/e/9780429296918/chapters/10.4324/9780429296918-10",
-    "paper_url": "https://www.taylorfrancis.com/books/e/9780429296918/chapters/10.4324/9780429296918-10",
+    "doi": "https://doi.org/10.4324/9780429296918-10",
+    "paper_url": "https://doi.org/10.4324/9780429296918-10",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{wiers2020_44,\n  author = {Wiers, R},\n  title = {Wiers, R.W., van Gaal, S. & Le Pelley, M.E. Akrasia and addiction: Neurophilosophy and psychological mechanisms. Social Neuroeconomics: Integrating the Neurosciences and the Social Sciences. (Eds: J. Harbecke and C. Herrmann-Pillath)},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.taylorfrancis.com/books/e/9780429296918/chapters/10.4324/9780429296918-10}\n}"
+    "bibtex": "@inbook{Wiers_2020,\n  title ={Akrasia and addiction},\n  ISBN ={9780429296918},\n  url ={http://dx.doi.org/10.4324/9780429296918-10},\n  DOI ={10.4324/9780429296918-10},\n  booktitle ={Social Neuroeconomics},\n  publisher ={Routledge},\n  author ={Wiers, Reinout W. and van Gaal, Simon and Le Pelley, Mike E.},\n  year ={2020},\n  month =Sept,\n  pages ={121–147} \n}"
   },
   {
     "id": "pub-45",
-    "citation": "Arnts, H., Groenewegen, H. , Lavrijsen, J., van Gaal, S., van Erp, W. & van den Munckhof, P.. On the pathophysiology and treatment of akinetic mutism. Neuroscience and Biobehavioral Reviews (2020).",
+    "citation": "Arnts, H., van Erp, W. S., Lavrijsen, J. C. M., van Gaal, S., Groenewegen, H. J., & van den Munckhof, P. (2020). On the pathophysiology and treatment of akinetic mutism. Neuroscience &Amp; Biobehavioral Reviews, 112, 270–278.",
     "year_group": "2020",
     "topics": [
       "EEG"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S0149763419301447?via%3Dihub",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0149763419301447?via%3Dihub",
+    "doi": "https://doi.org/10.1016/j.neubiorev.2020.02.006",
+    "paper_url": "https://doi.org/10.1016/j.neubiorev.2020.02.006",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{arnts2020_45,\n  author = {Arnts, H},\n  title = {Arnts, H., Groenewegen, H. , Lavrijsen, J., van Gaal, S., van Erp, W. & van den Munckhof, P.. On the pathophysiology and treatment of akinetic mutism. Neuroscience and Biobehavioral Reviews (2020).},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0149763419301447?via%3Dihub}\n}"
+    "bibtex": "@article{Arnts_2020,\n  title ={On the pathophysiology and treatment of akinetic mutism},\n  volume ={112},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2020.02.006},\n  DOI ={10.1016/j.neubiorev.2020.02.006},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Arnts, Hisse and van Erp, Willemijn S. and Lavrijsen, Jan C.M. and van Gaal, Simon and Groenewegen, Henk J. and van den Munckhof, Pepijn},\n  year ={2020},\n  month =May,\n  pages ={270–278} \n}"
   },
   {
     "id": "pub-46",
-    "citation": "Baas, M., Boot, N., van Gaal, S., De Dreu, C.W.K. & Cools, R. Methylphenidate does not affect convergent and divergent creative processes in healthy adults. Neuroimage, 205, (2020)",
+    "citation": "Baas, M., Boot, N., van Gaal, S., de Dreu, C. K. W., & Cools, R. (2020). Methylphenidate does not affect convergent and divergent creative processes in healthy adults. NeuroImage, 205, 116279.",
     "year_group": "2020",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811919308705",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811919308705",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2019.116279",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2019.116279",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{baas2020_46,\n  author = {Baas, M},\n  title = {Baas, M., Boot, N., van Gaal, S., De Dreu, C.W.K. & Cools, R. Methylphenidate does not affect convergent and divergent creative processes in healthy adults. Neuroimage, 205, (2020)},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811919308705}\n}"
+    "bibtex": "@article{Baas_2020,\n  title ={Methylphenidate does not affect convergent and divergent creative processes in healthy adults},\n  volume ={205},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2019.116279},\n  DOI ={10.1016/j.neuroimage.2019.116279},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Baas, Matthijs and Boot, Nathalie and van Gaal, Simon and de Dreu, Carsten K.W. and Cools, Roshan},\n  year ={2020},\n  month =Jan,\n  pages ={116279} \n}"
   },
   {
     "id": "pub-47",
-    "citation": "Kloosterman, NA., de Gee, JW., Werkle-Bergner, M., Lindenberger, U., Garrett, DD., Fahrenfort, JJ. Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife (2019)",
+    "citation": "Kloosterman, N. A., de Gee, J. W., Werkle-Bergner, M., Lindenberger, U., Garrett, D. D., & Fahrenfort, J. J. (2019). Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife, 8. CLOCKSS.",
     "year_group": "2019",
     "topics": [
       "Decision Making"
@@ -584,115 +584,115 @@
     "paper_url": "https://doi.org/10.7554/eLife.37321",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{kloosterman2019_47,\n  author = {Kloosterman, NA},\n  title = {Kloosterman, NA., de Gee, JW., Werkle-Bergner, M., Lindenberger, U., Garrett, DD., Fahrenfort, JJ. Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.7554/eLife.37321}\n}"
+    "bibtex": "@article{Kloosterman_2019,\n  title ={Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation},\n  volume ={8},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.37321},\n  DOI ={10.7554/elife.37321},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Kloosterman, Niels A and de Gee, Jan Willem and Werkle-Bergner, Markus and Lindenberger, Ulman and Garrett, Douglas D and Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  month =Feb \n}"
   },
   {
     "id": "pub-48",
-    "citation": "Fahrenfort, JJ. Multivariate methods to track the spatiotemporal profile of feature-based attentional selection using EEG. Spatial Learning and Attention Guidance (Ed: Pollmann, S.)",
+    "citation": "Fahrenfort, J. J. (2019). Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG. Spatial Learning and Attention Guidance, 129–156.",
     "year_group": "2019",
     "topics": [
       "EEG"
     ],
-    "doi": "http://fahrenfort.com/downloads/2019%20Fahrenfort%20NM_Chapter.pdf",
-    "paper_url": "http://fahrenfort.com/downloads/2019%20Fahrenfort%20NM_Chapter.pdf",
+    "doi": "https://doi.org/10.1007/7657_2019_26",
+    "paper_url": "https://doi.org/10.1007/7657_2019_26",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2019_48,\n  author = {Fahrenfort, JJ},\n  title = {Fahrenfort, JJ. Multivariate methods to track the spatiotemporal profile of feature-based attentional selection using EEG. Spatial Learning and Attention Guidance (Ed: Pollmann, S.)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://fahrenfort.com/downloads/2019%20Fahrenfort%20NM_Chapter.pdf}\n}"
+    "bibtex": "@inbook{Fahrenfort_2019,\n  title ={Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG},\n  ISBN ={9781493999484},\n  ISSN ={1940-6045},\n  url ={http://dx.doi.org/10.1007/7657_2019_26},\n  DOI ={10.1007/7657_2019_26},\n  booktitle ={Spatial Learning and Attention Guidance},\n  publisher ={Springer US},\n  author ={Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  pages ={129–156} \n}"
   },
   {
     "id": "pub-49",
-    "citation": "Ort, E., Fahrenfort, JJ., Reeder, R., Pollmann, S., Olivers, CNL. Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage (2019)",
+    "citation": "Ort, E., Fahrenfort, J. J., Reeder, R., Pollmann, S., & Olivers, C. N. L. (2019). Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage, 202, 116133.",
     "year_group": "2019",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811919307244",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811919307244",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2019.116133",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2019.116133",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{ort2019_49,\n  author = {Ort, E},\n  title = {Ort, E., Fahrenfort, JJ., Reeder, R., Pollmann, S., Olivers, CNL. Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811919307244}\n}"
+    "bibtex": "@article{Ort_2019,\n  title ={Frontal cortex differentiates between free and imposed target selection in multiple-target search},\n  volume ={202},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2019.116133},\n  DOI ={10.1016/j.neuroimage.2019.116133},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Ort, Eduard and Fahrenfort, Johannes J. and Reeder, Reshanne and Pollmann, Stefan and Olivers, Christian N.L.},\n  year ={2019},\n  month =Nov,\n  pages ={116133} \n}"
   },
   {
     "id": "pub-50",
-    "citation": "Mongelli, V., Meijs, E.L., van Gaal, S.* & Hagoort, P.* No language unification without neural feedback: How awareness affects sentence processing. (*shared senior authors). Neuroimage, 202, (2019).",
+    "citation": "Mongelli, V., Meijs, E. L., van Gaal, S., & Hagoort, P. (2019). No language unification without neural feedback: How awareness affects sentence processing. NeuroImage, 202, 116063.",
     "year_group": "2019",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811919306457",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811919306457",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2019.116063",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2019.116063",
     "preprint_url": null,
     "code_url": "https://archive.mpi.nl/mpi/islandora/search/mongelli?type=dismax",
-    "bibtex": "@article{mongelli2019_50,\n  author = {Mongelli, V},\n  title = {Mongelli, V., Meijs, E.L., van Gaal, S.* & Hagoort, P.* No language unification without neural feedback: How awareness affects sentence processing. (*shared senior authors). Neuroimage, 202, (2019).},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811919306457}\n}"
+    "bibtex": "@article{Mongelli_2019,\n  title ={No language unification without neural feedback: How awareness affects sentence processing},\n  volume ={202},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2019.116063},\n  DOI ={10.1016/j.neuroimage.2019.116063},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Mongelli, Valeria and Meijs, Erik L. and van Gaal, Simon and Hagoort, Peter},\n  year ={2019},\n  month =Nov,\n  pages ={116063} \n}"
   },
   {
     "id": "pub-51",
-    "citation": "Meijs, E.L., Mostert, P. Slagter, H.A. de Lange, F.P. & van Gaal, S. Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness (2019).",
+    "citation": "Meijs, E. L., Mostert, P., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2019). Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness, 2019(1).",
     "year_group": "2019",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://academic.oup.com/nc/article/2019/1/niz011/5552846",
-    "paper_url": "https://academic.oup.com/nc/article/2019/1/niz011/5552846",
+    "doi": "https://doi.org/10.1093/nc/niz011",
+    "paper_url": "https://doi.org/10.1093/nc/niz011",
     "preprint_url": null,
     "code_url": "https://data.donders.ru.nl/collections/di/dccn/DSC_3018015.05_065?3",
-    "bibtex": "@article{meijs2019_51,\n  author = {Meijs, E},\n  title = {Meijs, E.L., Mostert, P. Slagter, H.A. de Lange, F.P. & van Gaal, S. Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness (2019).},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/nc/article/2019/1/niz011/5552846}\n}"
+    "bibtex": "@article{Meijs_2019,\n  title ={Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report},\n  volume ={2019},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niz011},\n  DOI ={10.1093/nc/niz011},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Meijs, Erik L and Mostert, Pim and Slagter, Heleen A and de Lange, Floris P and van Gaal, Simon},\n  year ={2019},\n  month =Jan \n}"
   },
   {
     "id": "pub-52",
-    "citation": "Alilović, J., Timmermans, B. Reteig, L.C. van Gaal, S., & Slagter, H.A. No evidence that predictions and attention modulate the first feedforward sweep of cortical information processing. Cerebral Cortex (2019).",
+    "citation": "Alilović, J., Timmermans, B., Reteig, L. C., van Gaal, S., & Slagter, H. A. (2019). No Evidence that Predictions and Attention Modulate the First Feedforward Sweep of Cortical Information Processing. Cerebral Cortex, 29(5), 2261–2278.",
     "year_group": "2019",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": null,
-    "paper_url": null,
+    "doi": "https://doi.org/10.1093/cercor/bhz038",
+    "paper_url": "https://doi.org/10.1093/cercor/bhz038",
     "preprint_url": "https://osf.io/dkmwn/",
     "code_url": null,
-    "bibtex": "@article{alilović2019_52,\n  author = {Alilović, J},\n  title = {Alilović, J., Timmermans, B. Reteig, L.C. van Gaal, S., & Slagter, H.A. No evidence that predictions and attention modulate the first feedforward sweep of cortical information processing. Cerebral Cortex (2019).},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/dkmwn/}\n}"
+    "bibtex": "@article{Alilovi__2019,\n  title ={No Evidence that Predictions and Attention Modulate the First Feedforward Sweep of Cortical Information Processing},\n  volume ={29},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhz038},\n  DOI ={10.1093/cercor/bhz038},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Alilović, Josipa and Timmermans, Bart and Reteig, Leon C and van Gaal, Simon and Slagter, Heleen A},\n  year ={2019},\n  month =Mar,\n  pages ={2261–2278} \n}"
   },
   {
     "id": "pub-53",
-    "citation": "Weaver, M.D. Fahrenfort, J.J., Belopolsky, A. van Gaal, S. Independent neural activity patterns for sensory- and confidence-based information maintenance during category-selective visual processing, eNeuro. (2019) 6(1) e0268-18.2018 1–13",
+    "citation": "Weaver, M. D., Fahrenfort, J. J., Belopolsky, A., & van Gaal, S. (2019). Independent Neural Activity Patterns for Sensory- and Confidence-Based Information Maintenance during Category-Selective Visual Processing. Eneuro, 6(1), ENEURO.",
     "year_group": "2019",
     "topics": [
       "Decision Making"
     ],
-    "doi": null,
-    "paper_url": null,
+    "doi": "https://doi.org/10.1523/eneuro.0268-18.2018",
+    "paper_url": "https://doi.org/10.1523/eneuro.0268-18.2018",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{weaver2019_53,\n  author = {Weaver, M},\n  title = {Weaver, M.D. Fahrenfort, J.J., Belopolsky, A. van Gaal, S. Independent neural activity patterns for sensory- and confidence-based information maintenance during category-selective visual processing, eNeuro. (2019) 6(1) e0268-18.2018 1–13},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.consciousbrainlab.com/publications}\n}"
+    "bibtex": "@article{Weaver_2019,\n  title ={Independent Neural Activity Patterns for Sensory- and Confidence-Based Information Maintenance during Category-Selective Visual Processing},\n  volume ={6},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0268-18.2018},\n  DOI ={10.1523/eneuro.0268-18.2018},\n  number ={1},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Weaver, Matthew D. and Fahrenfort, Johannes J. and Belopolsky, Artem and van Gaal, Simon},\n  year ={2019},\n  month =Jan,\n  pages ={ENEURO.0268–18.2018} \n}"
   },
   {
     "id": "pub-54",
-    "citation": "Günseli, E., Fahrenfort, JJ., van Moorselaar, D., Daoultzis, KC., Meeter, M., Olivers, CNL. EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports (2019)",
+    "citation": "Günseli, E., Fahrenfort, J. J., van Moorselaar, D., Daoultzis, K. C., Meeter, M., & Olivers, C. N. L. (2019). EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports, 9(1).",
     "year_group": "2019",
     "topics": [
       "EEG"
     ],
-    "doi": "https://www.nature.com/articles/s41598-019-49577-0",
-    "paper_url": "https://www.nature.com/articles/s41598-019-49577-0",
+    "doi": "https://doi.org/10.1038/s41598-019-49577-0",
+    "paper_url": "https://doi.org/10.1038/s41598-019-49577-0",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{günseli2019_54,\n  author = {Günseli, E},\n  title = {Günseli, E., Fahrenfort, JJ., van Moorselaar, D., Daoultzis, KC., Meeter, M., Olivers, CNL. EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s41598-019-49577-0}\n}"
+    "bibtex": "@article{G_nseli_2019,\n  title ={EEG dynamics reveal a dissociation between storage and selective attention within working memory},\n  volume ={9},\n  ISSN ={2045-2322},\n  url ={http://dx.doi.org/10.1038/s41598-019-49577-0},\n  DOI ={10.1038/s41598-019-49577-0},\n  number ={1},\n  journal ={Scientific Reports},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Günseli, Eren and Fahrenfort, Johannes Jacobus and van Moorselaar, Dirk and Daoultzis, Konstantinos Christos and Meeter, Martijn and Olivers, Christian N. L.},\n  year ={2019},\n  month =Sept \n}"
   },
   {
     "id": "pub-55",
-    "citation": "Michel, M. et al., Opportunities and challenges for a maturing science of consciousness, Nature Human Behavior. 3, 104-107 (2019)",
+    "citation": "Michel, M., Beck, D., Block, N., Blumenfeld, H., Brown, R., Carmel, D., Carrasco, M., Chirimuuta, M., Chun, M., Cleeremans, A., Dehaene, S., Fleming, S. M., Frith, C., Haggard, P., He, B. J., Heyes, C., Goodale, M. A., Irvine, L., Kawato, M., et al. (2019). Opportunities and challenges for a maturing science of consciousness. Nature Human Behaviour, 3(2), 104–107.",
     "year_group": "2019",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.nature.com/articles/s41562-019-0531-8",
-    "paper_url": "https://www.nature.com/articles/s41562-019-0531-8",
+    "doi": "https://doi.org/10.1038/s41562-019-0531-8",
+    "paper_url": "https://doi.org/10.1038/s41562-019-0531-8",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{michel2019_55,\n  author = {Michel, M},\n  title = {Michel, M. et al., Opportunities and challenges for a maturing science of consciousness, Nature Human Behavior. 3, 104-107 (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/s41562-019-0531-8}\n}"
+    "bibtex": "@article{Michel_2019,\n  title ={Opportunities and challenges for a maturing science of consciousness},\n  volume ={3},\n  ISSN ={2397-3374},\n  url ={http://dx.doi.org/10.1038/s41562-019-0531-8},\n  DOI ={10.1038/s41562-019-0531-8},\n  number ={2},\n  journal ={Nature Human Behaviour},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Michel, Matthias and Beck, Diane and Block, Ned and Blumenfeld, Hal and Brown, Richard and Carmel, David and Carrasco, Marisa and Chirimuuta, Mazviita and Chun, Marvin and Cleeremans, Axel and Dehaene, Stanislas and Fleming, Stephen M. and Frith, Chris and Haggard, Patrick and He, Biyu J. and Heyes, Cecilia and Goodale, Melvyn A. and Irvine, Liz and Kawato, Mitsuo and Kentridge, Robert and King, Jean-Remi and Knight, Robert T. and Kouider, Sid and Lamme, Victor and Lamy, Dominique and Lau, Hakwan and Laureys, Steven and LeDoux, Joseph and Lin, Ying-Tung and Liu, Kayuet and Macknik, Stephen L. and Martinez-Conde, Susana and Mashour, George A. and Melloni, Lucia and Miracchi, Lisa and Mylopoulos, Myrto and Naccache, Lionel and Owen, Adrian M. and Passingham, Richard E. and Pessoa, Luiz and Peters, Megan A. K. and Rahnev, Dobromir and Ro, Tony and Rosenthal, David and Sasaki, Yuka and Sergent, Claire and Solovey, Guillermo and Schiff, Nicholas D. and Seth, Anil and Tallon-Baudry, Catherine and Tamietto, Marco and Tong, Frank and van Gaal, Simon and Vlassova, Alexandra and Watanabe, Takeo and Weisberg, Josh and Yan, Karen and Yoshida, Masatoshi},\n  year ={2019},\n  month =Feb,\n  pages ={104–107} \n}"
   },
   {
     "id": "pub-56",
-    "citation": "Ort, E., Fahrenfort, JJ., Ten Cate, T., Eimer, M., Olivers, CNL. Humans can efficiently look for but not select multiple visual objects. eLife (2019)",
+    "citation": "Ort, E., Fahrenfort, J. J., ten Cate, T., Eimer, M., & Olivers, C. N. (2019). Humans can efficiently look for but not select multiple visual objects. eLife, 8. CLOCKSS.",
     "year_group": "2019",
     "topics": [
       "Cognitive Neuroscience"
@@ -701,117 +701,117 @@
     "paper_url": "https://doi.org/10.7554/eLife.49130",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{ort2019_56,\n  author = {Ort, E},\n  title = {Ort, E., Fahrenfort, JJ., Ten Cate, T., Eimer, M., Olivers, CNL. Humans can efficiently look for but not select multiple visual objects. eLife (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.7554/eLife.49130}\n}"
+    "bibtex": "@article{Ort_2019,\n  title ={Humans can efficiently look for but not select multiple visual objects},\n  volume ={8},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.49130},\n  DOI ={10.7554/elife.49130},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Ort, Eduard and Fahrenfort, Johannes Jacobus and ten Cate, Tuomas and Eimer, Martin and Olivers, Christian NL},\n  year ={2019},\n  month =Aug \n}"
   },
   {
     "id": "pub-57",
-    "citation": "van den Boomen, C., Fahrenfort, JJ ., Snijders, TM., Kemner, C. Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia (2019)",
+    "citation": "van den Boomen, C., Fahrenfort, J. J., Snijders, T. M., & Kemner, C. (2019). Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia, 127, 1–8.",
     "year_group": "2019",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S0028393219300302",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0028393219300302",
+    "doi": "https://doi.org/10.1016/j.neuropsychologia.2019.02.005",
+    "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2019.02.005",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2019_57,\n  author = {van den Boomen, C},\n  title = {van den Boomen, C., Fahrenfort, JJ ., Snijders, TM., Kemner, C. Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0028393219300302}\n}"
+    "bibtex": "@article{van_den_Boomen_2019,\n  title ={Slow segmentation of faces in Autism Spectrum Disorder},\n  volume ={127},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2019.02.005},\n  DOI ={10.1016/j.neuropsychologia.2019.02.005},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={van den Boomen, C. and Fahrenfort, J.J. and Snijders, T.M. and Kemner, C.},\n  year ={2019},\n  month =Apr,\n  pages ={1–8} \n}"
   },
   {
     "id": "pub-58",
-    "citation": "van Driel, J., Ort, E., Fahrenfort, JJ., Olivers, CNL. Beta and theta oscillations differentially support free versus forced control over multiple-target search. Journal of Neuroscience (2019)",
+    "citation": "van Driel, J., Ort, E., Fahrenfort, J. J., & Olivers, C. N. L. (2019). Beta and theta oscillations differentially support free versus forced control over multiple-target search. The Journal of Neuroscience, 2547–2518.",
     "year_group": "2019",
     "topics": [
       "Cognitive Control"
     ],
-    "doi": "https://www.jneurosci.org/content/39/9/1733.full",
-    "paper_url": "https://www.jneurosci.org/content/39/9/1733.full",
+    "doi": "https://doi.org/10.1523/jneurosci.2547-18.2018",
+    "paper_url": "https://doi.org/10.1523/jneurosci.2547-18.2018",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2019_58,\n  author = {van Driel, J},\n  title = {van Driel, J., Ort, E., Fahrenfort, JJ., Olivers, CNL. Beta and theta oscillations differentially support free versus forced control over multiple-target search. Journal of Neuroscience (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/39/9/1733.full}\n}"
+    "bibtex": "@article{van_Driel_2019,\n  title ={Beta and theta oscillations differentially support free versus forced control over multiple-target search},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2547-18.2018},\n  DOI ={10.1523/jneurosci.2547-18.2018},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Driel, Joram and Ort, Eduard and Fahrenfort, Johannes J. and Olivers, Christian N. L.},\n  year ={2019},\n  month =Jan,\n  pages ={2547–18} \n}"
   },
   {
     "id": "pub-59",
-    "citation": "Fahrenfort, J.J., van Driel, J, van Gaal, S. & Olivers, C.N.L. From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience. 12: 368 (2018).",
+    "citation": "Fahrenfort, J. J., van Driel, J., van Gaal, S., & Olivers, C. N. L. (2018). From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience, 12.",
     "year_group": "2018",
     "topics": [
       "EEG",
       "Neural Decoding"
     ],
-    "doi": "https://www.frontiersin.org/articles/10.3389/fnins.2018.00368/full",
-    "paper_url": "https://www.frontiersin.org/articles/10.3389/fnins.2018.00368/full",
+    "doi": "https://doi.org/10.3389/fnins.2018.00368",
+    "paper_url": "https://doi.org/10.3389/fnins.2018.00368",
     "preprint_url": null,
     "code_url": "https://github.com/fahrenfort/ADAM",
-    "bibtex": "@article{fahrenfort2018_59,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., van Driel, J, van Gaal, S. & Olivers, C.N.L. From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience. 12: 368 (2018).},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.frontiersin.org/articles/10.3389/fnins.2018.00368/full}\n}"
+    "bibtex": "@article{Fahrenfort_2018,\n  title ={From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM)},\n  volume ={12},\n  ISSN ={1662-453X},\n  url ={http://dx.doi.org/10.3389/fnins.2018.00368},\n  DOI ={10.3389/fnins.2018.00368},\n  journal ={Frontiers in Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Fahrenfort, Johannes J. and van Driel, Joram and van Gaal, Simon and Olivers, Christian N. L.},\n  year ={2018},\n  month =July \n}"
   },
   {
     "id": "pub-60",
-    "citation": "Meijs, E., Klaassen, F., Bokeria, L., van Gaal, S., de Lange, F. Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science (2018)",
+    "citation": "Meijs, E. L., Klaassen, F. H., Bokeria, L., van Gaal, S., & de Lange, F. P. (2018). Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science, 5(10), 180524.",
     "year_group": "2018",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://royalsocietypublishing.org/doi/full/10.1098/rsos.180524",
-    "paper_url": "https://royalsocietypublishing.org/doi/full/10.1098/rsos.180524",
+    "doi": "https://doi.org/10.1098/rsos.180524",
+    "paper_url": "https://doi.org/10.1098/rsos.180524",
     "preprint_url": null,
     "code_url": "https://data.donders.ru.nl/collections/di/dccn/DSC_3018012.14_675?4",
-    "bibtex": "@article{meijs2018_60,\n  author = {Meijs, E},\n  title = {Meijs, E., Klaassen, F., Bokeria, L., van Gaal, S., de Lange, F. Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science (2018)},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://royalsocietypublishing.org/doi/full/10.1098/rsos.180524}\n}"
+    "bibtex": "@article{Meijs_2018,\n  title ={Cue predictability does not modulate bottom-up attentional capture},\n  volume ={5},\n  ISSN ={2054-5703},\n  url ={http://dx.doi.org/10.1098/rsos.180524},\n  DOI ={10.1098/rsos.180524},\n  number ={10},\n  journal ={Royal Society Open Science},\n  publisher ={The Royal Society},\n  author ={Meijs, Erik L. and Klaassen, Felix H. and Bokeria, Levan and van Gaal, Simon and de Lange, Floris P.},\n  year ={2018},\n  month =Oct,\n  pages ={180524} \n}"
   },
   {
     "id": "pub-61",
-    "citation": "Correa, C.M.C., Noorman, S. , Jiang, J. Palminteri, S., Cohen, M.X, Lebreton M., van Gaal, S. How the level of reward awareness changes the computational and electrophysiological signatures of reinforcement learning. Journal of Neuroscience. 38 (48) 10338-10348 (2018)",
+    "citation": "Correa, C. M. C., Noorman, S., Jiang, J., Palminteri, S., Cohen, M. X., Lebreton, M., & van Gaal, S. (2018). How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning. The Journal of Neuroscience, 38(48), 10338–10348.",
     "year_group": "2018",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.jneurosci.org/content/38/48/10338.abstract",
-    "paper_url": "https://www.jneurosci.org/content/38/48/10338.abstract",
+    "doi": "https://doi.org/10.1523/jneurosci.0457-18.2018",
+    "paper_url": "https://doi.org/10.1523/jneurosci.0457-18.2018",
     "preprint_url": null,
     "code_url": "https://figshare.com/s/fca2c74a2168c1f0f36e",
-    "bibtex": "@article{correa2018_61,\n  author = {Correa, C},\n  title = {Correa, C.M.C., Noorman, S. , Jiang, J. Palminteri, S., Cohen, M.X, Lebreton M., van Gaal, S. How the level of reward awareness changes the computational and electrophysiological signatures of reinforcement learning. Journal of Neuroscience. 38 (48) 10338-10348 (2018)},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/38/48/10338.abstract}\n}"
+    "bibtex": "@article{Correa_2018,\n  title ={How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning},\n  volume ={38},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0457-18.2018},\n  DOI ={10.1523/jneurosci.0457-18.2018},\n  number ={48},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Correa, Camile M.C. and Noorman, Samuel and Jiang, Jun and Palminteri, Stefano and Cohen, Michael X. and Lebreton, Maël and van Gaal, Simon},\n  year ={2018},\n  month =Oct,\n  pages ={10338–10348} \n}"
   },
   {
     "id": "pub-62",
-    "citation": "Meijs, E.L., Slagter, H. de Lange, F.P. & van Gaal, S. Dynamic interactions between top-down expectations and conscious awareness. Journal of Neuroscience 38 (9) 2318-2327 (2018)",
+    "citation": "Meijs, E. L., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2018). Dynamic Interactions between Top–Down Expectations and Conscious Awareness. The Journal of Neuroscience, 38(9), 2318–2327.",
     "year_group": "2018",
     "topics": [
       "Consciousness"
     ],
-    "doi": "http://www.jneurosci.org/content/38/9/2318.abstract",
-    "paper_url": "http://www.jneurosci.org/content/38/9/2318.abstract",
+    "doi": "https://doi.org/10.1523/jneurosci.1952-17.2017",
+    "paper_url": "https://doi.org/10.1523/jneurosci.1952-17.2017",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{meijs2018_62,\n  author = {Meijs, E},\n  title = {Meijs, E.L., Slagter, H. de Lange, F.P. & van Gaal, S. Dynamic interactions between top-down expectations and conscious awareness. Journal of Neuroscience 38 (9) 2318-2327 (2018)},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://www.jneurosci.org/content/38/9/2318.abstract}\n}"
+    "bibtex": "@article{Meijs_2018,\n  title ={Dynamic Interactions between Top–Down Expectations and Conscious Awareness},\n  volume ={38},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1952-17.2017},\n  DOI ={10.1523/jneurosci.1952-17.2017},\n  number ={9},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Meijs, Erik L. and Slagter, Heleen A. and de Lange, Floris P. and van Gaal, Simon},\n  year ={2018},\n  month =Jan,\n  pages ={2318–2327} \n}"
   },
   {
     "id": "pub-63",
-    "citation": "Jiang, J. Correa, C.M.C., Geerts, J. & van Gaal, S. The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control, Neuroimage 177, 11-19 (2018).",
+    "citation": "Jiang, J., Correa, C. M., Geerts, J., & van Gaal, S. (2018). The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control. NeuroImage, 177, 11–19.",
     "year_group": "2018",
     "topics": [
       "Consciousness",
       "Cognitive Control"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811918304051",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811918304051",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2018.05.007",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2018.05.007",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{jiang2018_63,\n  author = {Jiang, J},\n  title = {Jiang, J. Correa, C.M.C., Geerts, J. & van Gaal, S. The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control, Neuroimage 177, 11-19 (2018).},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811918304051}\n}"
+    "bibtex": "@article{Jiang_2018,\n  title ={The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control},\n  volume ={177},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2018.05.007},\n  DOI ={10.1016/j.neuroimage.2018.05.007},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and Correa, Camile M. and Geerts, Jesse and van Gaal, Simon},\n  year ={2018},\n  month =Aug,\n  pages ={11–19} \n}"
   },
   {
     "id": "pub-64",
-    "citation": "Fahrenfort, J.J., van Leeuwen, J., Olivers, C.N.L., Hogendoorn, H. Perceptual integration without conscious access. Proceedings of the National Academy of Sciences of the United States of America (2017)",
+    "citation": "Fahrenfort, J. J., van Leeuwen, J., Olivers, C. N. L., & Hogendoorn, H. (2017). Perceptual integration without conscious access. Proceedings of the National Academy of Sciences, 114(14), 3744–3749.",
     "year_group": "2017",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.pnas.org/doi/full/10.1073/pnas.1617268114",
-    "paper_url": "https://www.pnas.org/doi/full/10.1073/pnas.1617268114",
+    "doi": "https://doi.org/10.1073/pnas.1617268114",
+    "paper_url": "https://doi.org/10.1073/pnas.1617268114",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2017_64,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., van Leeuwen, J., Olivers, C.N.L., Hogendoorn, H. Perceptual integration without conscious access. Proceedings of the National Academy of Sciences of the United States of America (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/full/10.1073/pnas.1617268114}\n}"
+    "bibtex": "@article{Fahrenfort_2017,\n  title ={Perceptual integration without conscious access},\n  volume ={114},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.1617268114},\n  DOI ={10.1073/pnas.1617268114},\n  number ={14},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Fahrenfort, Johannes J. and van Leeuwen, Jonathan and Olivers, Christian N. L. and Hogendoorn, Hinze},\n  year ={2017},\n  month =Mar,\n  pages ={3744–3749} \n}"
   },
   {
     "id": "pub-65",
-    "citation": "Fahrenfort, J.J., Grubert, A., Olivers, C.N.L., Eimer, M., Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection. Scientific Reports (2017)",
+    "citation": "Fahrenfort, J. J., Grubert, A., Olivers, C. N. L., & Eimer, M. (2017). Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection. Scientific Reports, 7(1).",
     "year_group": "2017",
     "topics": [
       "EEG"
@@ -820,50 +820,50 @@
     "paper_url": "https://doi.org/10.1038/s41598-017-01911-0",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2017_65,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Grubert, A., Olivers, C.N.L., Eimer, M., Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection. Scientific Reports (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1038/s41598-017-01911-0}\n}"
+    "bibtex": "@article{Fahrenfort_2017,\n  title ={Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection},\n  volume ={7},\n  ISSN ={2045-2322},\n  url ={http://dx.doi.org/10.1038/s41598-017-01911-0},\n  DOI ={10.1038/s41598-017-01911-0},\n  number ={1},\n  journal ={Scientific Reports},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Fahrenfort, Johannes Jacobus and Grubert, Anna and Olivers, Christian N. L. and Eimer, Martin},\n  year ={2017},\n  month =May \n}"
   },
   {
     "id": "pub-66",
-    "citation": "Slagter, H., Alilovic, J. & van Gaal, S. How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach, Cognitive Neuroscience 26-28 (2017)",
+    "citation": "Slagter, H. A., Alilovic, J., & Van Gaal, S. (2017). How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach. Cognitive Neuroscience, 9(1-2), 26–28.",
     "year_group": "2017",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": null,
-    "paper_url": null,
+    "doi": "https://doi.org/10.1080/17588928.2017.1372405",
+    "paper_url": "https://doi.org/10.1080/17588928.2017.1372405",
     "preprint_url": null,
     "code_url": "https://www.tandfonline.com/doi/abs/10.1080/17588928.2017.1372405",
-    "bibtex": "@article{slagter2017_66,\n  author = {Slagter, H},\n  title = {Slagter, H., Alilovic, J. & van Gaal, S. How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach, Cognitive Neuroscience 26-28 (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.consciousbrainlab.com/publications}\n}"
+    "bibtex": "@article{Slagter_2017,\n  title ={How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach},\n  volume ={9},\n  ISSN ={1758-8936},\n  url ={http://dx.doi.org/10.1080/17588928.2017.1372405},\n  DOI ={10.1080/17588928.2017.1372405},\n  number ={1-2},\n  journal ={Cognitive Neuroscience},\n  publisher ={Informa UK Limited},\n  author ={Slagter, Heleen A and Alilovic, Josipa and Van Gaal, Simon},\n  year ={2017},\n  month =Sept,\n  pages ={26–28} \n}"
   },
   {
     "id": "pub-67",
-    "citation": "Boot, N., Baas, M., Mühlfeld, E., De Dreu, C.K.W. & van Gaal, S. Widespread neural oscillations in the delta band dissociate convergent from divergent thinking modes during creative idea generation, Neuropsychologia, 10, 8-17. (2017)",
+    "citation": "Boot, N., Baas, M., Mühlfeld, E., de Dreu, C. K. W., & van Gaal, S. (2017). Widespread neural oscillations in the delta band dissociate rule convergence from rule divergence during creative idea generation. Neuropsychologia, 104, 8–17.",
     "year_group": "2017",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S0028393217302865",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0028393217302865",
+    "doi": "https://doi.org/10.1016/j.neuropsychologia.2017.07.033",
+    "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2017.07.033",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{boot2017_67,\n  author = {Boot, N},\n  title = {Boot, N., Baas, M., Mühlfeld, E., De Dreu, C.K.W. & van Gaal, S. Widespread neural oscillations in the delta band dissociate convergent from divergent thinking modes during creative idea generation, Neuropsychologia, 10, 8-17. (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0028393217302865}\n}"
+    "bibtex": "@article{Boot_2017,\n  title ={Widespread neural oscillations in the delta band dissociate rule convergence from rule divergence during creative idea generation},\n  volume ={104},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2017.07.033},\n  DOI ={10.1016/j.neuropsychologia.2017.07.033},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={Boot, Nathalie and Baas, Matthijs and Mühlfeld, Elisabeth and de Dreu, Carsten K.W. and van Gaal, Simon},\n  year ={2017},\n  month =Sept,\n  pages ={8–17} \n}"
   },
   {
     "id": "pub-68",
-    "citation": "Boot, N., Baas, M., van Gaal, S., Cools R. & de Drue, C.W.K. Creative Cognition and Dopaminergic Modulation of Fronto-striatal Networks: Integrative Review and Research Agenda. Neuroscience & Biobehavioral Reviews, 78, 13-23. (2017).",
+    "citation": "Boot, N., Baas, M., van Gaal, S., Cools, R., & De Dreu, C. K. W. (2017). Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda. Neuroscience &Amp; Biobehavioral Reviews, 78, 13–23.",
     "year_group": "2017",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S0149763416301580",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0149763416301580",
+    "doi": "https://doi.org/10.1016/j.neubiorev.2017.04.007",
+    "paper_url": "https://doi.org/10.1016/j.neubiorev.2017.04.007",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{boot2017_68,\n  author = {Boot, N},\n  title = {Boot, N., Baas, M., van Gaal, S., Cools R. & de Drue, C.W.K. Creative Cognition and Dopaminergic Modulation of Fronto-striatal Networks: Integrative Review and Research Agenda. Neuroscience & Biobehavioral Reviews, 78, 13-23. (2017).},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0149763416301580}\n}"
+    "bibtex": "@article{Boot_2017,\n  title ={Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda},\n  volume ={78},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2017.04.007},\n  DOI ={10.1016/j.neubiorev.2017.04.007},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Boot, Nathalie and Baas, Matthijs and van Gaal, Simon and Cools, Roshan and De Dreu, Carsten K.W.},\n  year ={2017},\n  month =July,\n  pages ={13–23} \n}"
   },
   {
     "id": "pub-69",
-    "citation": "van Loon, A.M., Fahrenfort, J.J., van der Velde, B., Lirk, P.B., Vulink, N.C.C., Hollmann, M.W., Scholte, H.S., Lamme, V.A.F., NMDA receptor antagonist ketamine distorts object recognition by reducing feedback to early visual cortex. Cerebral Cortex (2016)",
+    "citation": "van Loon, A. M., Fahrenfort, J. J., van der Velde, B., Lirk, P. B., Vulink, N. C. C., Hollmann, M. W., Steven Scholte, H., & Lamme, V. A. F. (2015). NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex. Cerebral Cortex, 26(5), 1986–1996.",
     "year_group": "2016",
     "topics": [
       "Cognitive Neuroscience"
@@ -872,11 +872,11 @@
     "paper_url": "https://doi.org/10.1093/cercor/bhv018",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2016_69,\n  author = {van Loon, A},\n  title = {van Loon, A.M., Fahrenfort, J.J., van der Velde, B., Lirk, P.B., Vulink, N.C.C., Hollmann, M.W., Scholte, H.S., Lamme, V.A.F., NMDA receptor antagonist ketamine distorts object recognition by reducing feedback to early visual cortex. Cerebral Cortex (2016)},\n  year = {2016},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1093/cercor/bhv018}\n}"
+    "bibtex": "@article{van_Loon_2015,\n  title ={NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex},\n  volume ={26},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhv018},\n  DOI ={10.1093/cercor/bhv018},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={van Loon, Anouk M. and Fahrenfort, Johannes J. and van der Velde, Bauke and Lirk, Philipp B. and Vulink, Nienke C. C. and Hollmann, Markus W. and Steven Scholte, H. and Lamme, Victor A. F.},\n  year ={2015},\n  month =Feb,\n  pages ={1986–1996} \n}"
   },
   {
     "id": "pub-70",
-    "citation": "Vandenbroucke, A.R.E., Fahrenfort, J.J., Meuwese, J.D.I., Scholte, H.S., Lamme, V.A.F., Prior knowledge about objects determines neural color representation in human. Cerebral Cortex (2016)",
+    "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Meuwese, J. D. I., Scholte, H. S., & Lamme, V. A. F. (2014). Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex. Cerebral Cortex, 26(4), 1401–1408.",
     "year_group": "2016",
     "topics": [
       "Cognitive Neuroscience"
@@ -885,78 +885,78 @@
     "paper_url": "https://doi.org/10.1093/cercor/bhu224",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{vandenbroucke2016_70,\n  author = {Vandenbroucke, A},\n  title = {Vandenbroucke, A.R.E., Fahrenfort, J.J., Meuwese, J.D.I., Scholte, H.S., Lamme, V.A.F., Prior knowledge about objects determines neural color representation in human. Cerebral Cortex (2016)},\n  year = {2016},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1093/cercor/bhu224}\n}"
+    "bibtex": "@article{Vandenbroucke_2014,\n  title ={Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex},\n  volume ={26},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhu224},\n  DOI ={10.1093/cercor/bhu224},\n  number ={4},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Vandenbroucke, A. R. E. and Fahrenfort, J. J. and Meuwese, J. D. I. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2014},\n  month =Oct,\n  pages ={1401–1408} \n}"
   },
   {
     "id": "pub-71",
-    "citation": "Francken, J.C., Meijs, E.L., Hagoort, P., van Gaal, S. and de Lange, F.P. Exploring the automaticity of language-perception interactions: Effects of attention and awareness. Scientific Reports 17725 (2015).",
+    "citation": "Francken, J. C., Meijs, E. L., Hagoort, P., van Gaal, S., & de Lange, F. P. (2015). Exploring the automaticity of language-perception interactions: Effects of attention and awareness. Scientific Reports, 5(1).",
     "year_group": "2015",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.nature.com/articles/srep17725",
-    "paper_url": "https://www.nature.com/articles/srep17725",
+    "doi": "https://doi.org/10.1038/srep17725",
+    "paper_url": "https://doi.org/10.1038/srep17725",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{francken2015_71,\n  author = {Francken, J},\n  title = {Francken, J.C., Meijs, E.L., Hagoort, P., van Gaal, S. and de Lange, F.P. Exploring the automaticity of language-perception interactions: Effects of attention and awareness. Scientific Reports 17725 (2015).},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/srep17725}\n}"
+    "bibtex": "@article{Francken_2015,\n  title ={Exploring the automaticity of language-perception interactions: Effects of attention and awareness},\n  volume ={5},\n  ISSN ={2045-2322},\n  url ={http://dx.doi.org/10.1038/srep17725},\n  DOI ={10.1038/srep17725},\n  number ={1},\n  journal ={Scientific Reports},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Francken, Jolien C. and Meijs, Erik L. and Hagoort, Peter and van Gaal, Simon and de Lange, Floris P.},\n  year ={2015},\n  month =Dec \n}"
   },
   {
     "id": "pub-72",
-    "citation": "Francken, J .C., Meijs, E.L., Ridderinkhof, O., Hagoort, P., de Lange, F.P., van Gaal, S. Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness. (2015).",
+    "citation": "Francken, J. C., Meijs, E. L., Ridderinkhof, O. M., Hagoort, P., de Lange, F. P., & van Gaal, S. (2015). Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness, 2015(1), niv003.",
     "year_group": "2015",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://academic.oup.com/nc/article/2015/1/niv003/2757111",
-    "paper_url": "https://academic.oup.com/nc/article/2015/1/niv003/2757111",
+    "doi": "https://doi.org/10.1093/nc/niv003",
+    "paper_url": "https://doi.org/10.1093/nc/niv003",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{francken2015_72,\n  author = {Francken, J },\n  title = {Francken, J .C., Meijs, E.L., Ridderinkhof, O., Hagoort, P., de Lange, F.P., van Gaal, S. Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness. (2015).},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/nc/article/2015/1/niv003/2757111}\n}"
+    "bibtex": "@article{Francken_2015,\n  title ={Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions},\n  volume ={2015},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niv003},\n  DOI ={10.1093/nc/niv003},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Francken, Jolien C. and Meijs, Erik L. and Ridderinkhof, Odile M. and Hagoort, Peter and de Lange, Floris P. and van Gaal, Simon},\n  year ={2015},\n  pages ={niv003} \n}"
   },
   {
     "id": "pub-73",
-    "citation": "Jiang, J., Zhang, Q., & van Gaal, S. (2015). EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness. Scientific Reports. 12008 (2015)",
+    "citation": "Jiang, J., Zhang, Q., & Van Gaal, S. (2015). EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness. Scientific Reports, 5(1).",
     "year_group": "2015",
     "topics": [
       "Consciousness",
       "EEG"
     ],
-    "doi": "https://www.nature.com/articles/srep12008",
-    "paper_url": "https://www.nature.com/articles/srep12008",
+    "doi": "https://doi.org/10.1038/srep12008",
+    "paper_url": "https://doi.org/10.1038/srep12008",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{jiang2015_73,\n  author = {Jiang, J},\n  title = {Jiang, J., Zhang, Q., & van Gaal, S. (2015). EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness. Scientific Reports. 12008 (2015)},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.nature.com/articles/srep12008}\n}"
+    "bibtex": "@article{Jiang_2015,\n  title ={EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness},\n  volume ={5},\n  ISSN ={2045-2322},\n  url ={http://dx.doi.org/10.1038/srep12008},\n  DOI ={10.1038/srep12008},\n  number ={1},\n  journal ={Scientific Reports},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Jiang, Jun and Zhang, Qinglin and Van Gaal, Simon},\n  year ={2015},\n  month =July \n}"
   },
   {
     "id": "pub-74",
-    "citation": "Jiang, J., Zhang, Q., & van Gaal, S. Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. Neuroimage, 16, 102-111. (2015)",
+    "citation": "Jiang, J., Zhang, Q., & van Gaal, S. (2015). Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. NeuroImage, 116, 102–111.",
     "year_group": "2015",
     "topics": [
       "Consciousness",
       "Cognitive Control"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811915003626",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811915003626",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2015.04.062",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2015.04.062",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{jiang2015_74,\n  author = {Jiang, J},\n  title = {Jiang, J., Zhang, Q., & van Gaal, S. Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. Neuroimage, 16, 102-111. (2015)},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811915003626}\n}"
+    "bibtex": "@article{Jiang_2015,\n  title ={Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control},\n  volume ={116},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2015.04.062},\n  DOI ={10.1016/j.neuroimage.2015.04.062},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and Zhang, Qinglin and van Gaal, Simon},\n  year ={2015},\n  month =Aug,\n  pages ={102–111} \n}"
   },
   {
     "id": "pub-75",
-    "citation": "Pinto, Y., van Gaal, S., de Lange, F.P., Lamme, V.A.F. & Seth, A.K. Expectations accelerate entry of visual stimuli into awareness. Journal of Vision, 15. doi:10.1167/15.8.13. (2015)",
+    "citation": "Pinto, Y., van Gaal, S., de Lange, F. P., Lamme, V. A. F., & Seth, A. K. (2015). Expectations accelerate entry of visual stimuli into awareness. Journal of Vision, 15(8), 13.",
     "year_group": "2015",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://jov.arvojournals.org/article.aspx?articleid=2337707",
-    "paper_url": "https://jov.arvojournals.org/article.aspx?articleid=2337707",
+    "doi": "https://doi.org/10.1167/15.8.13",
+    "paper_url": "https://doi.org/10.1167/15.8.13",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{pinto2015_75,\n  author = {Pinto, Y},\n  title = {Pinto, Y., van Gaal, S., de Lange, F.P., Lamme, V.A.F. & Seth, A.K. Expectations accelerate entry of visual stimuli into awareness. Journal of Vision, 15. doi:10.1167/15.8.13. (2015)},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://jov.arvojournals.org/article.aspx?articleid=2337707}\n}"
+    "bibtex": "@article{Pinto_2015,\n  title ={Expectations accelerate entry of visual stimuli into awareness},\n  volume ={15},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/15.8.13},\n  DOI ={10.1167/15.8.13},\n  number ={8},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Pinto, Yair and van Gaal, Simon and de Lange, Floris P. and Lamme, Victor A. F. and Seth, Anil K.},\n  year ={2015},\n  month =June,\n  pages ={13} \n}"
   },
   {
     "id": "pub-76",
-    "citation": "Meuwese, J.D.I., van Loon, M.A., Lamme, V.A.F., Fahrenfort, J.J.. The subjective experience of object recognition: Comparing metacognition for object detection and object categorization. Attention, Perception, & Psychophysics (2014)",
+    "citation": "Meuwese, J. D. I., van Loon, A. M., Lamme, V. A. F., & Fahrenfort, J. J. (2014). The subjective experience of object recognition: comparing metacognition for object detection and object categorization. Attention, Perception, &Amp; Psychophysics, 76(4), 1057–1068.",
     "year_group": "2014",
     "topics": [
       "Decision Making"
@@ -965,11 +965,11 @@
     "paper_url": "https://doi.org/10.3758/s13414-014-0643-1",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{meuwese2014_76,\n  author = {Meuwese, J},\n  title = {Meuwese, J.D.I., van Loon, M.A., Lamme, V.A.F., Fahrenfort, J.J.. The subjective experience of object recognition: Comparing metacognition for object detection and object categorization. Attention, Perception, & Psychophysics (2014)},\n  year = {2014},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.3758/s13414-014-0643-1}\n}"
+    "bibtex": "@article{Meuwese_2014,\n  title ={The subjective experience of object recognition: comparing metacognition for object detection and object categorization},\n  volume ={76},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-014-0643-1},\n  DOI ={10.3758/s13414-014-0643-1},\n  number ={4},\n  journal ={Attention, Perception, & Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Meuwese, Julia D. I. and van Loon, Anouk M. and Lamme, Victor A. F. and Fahrenfort, Johannes J.},\n  year ={2014},\n  month =Feb,\n  pages ={1057–1068} \n}"
   },
   {
     "id": "pub-77",
-    "citation": "Vandenbroucke, A.R.E., Sligte, I.G., Barrett, A.B., Seth, A.K., Fahrenfort, J.J., Lamme, V.A.F. Accurate metacognition for visual sensory memory representations. Psychological Science (2014)",
+    "citation": "Vandenbroucke, A. R. E., Sligte, I. G., Barrett, A. B., Seth, A. K., Fahrenfort, J. J., & Lamme, V. A. F. (2014). Accurate Metacognition for Visual Sensory Memory Representations. Psychological Science, 25(4), 861–873.",
     "year_group": "2014",
     "topics": [
       "Decision Making"
@@ -978,50 +978,50 @@
     "paper_url": "https://doi.org/10.1177/0956797613516146",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{vandenbroucke2014_77,\n  author = {Vandenbroucke, A},\n  title = {Vandenbroucke, A.R.E., Sligte, I.G., Barrett, A.B., Seth, A.K., Fahrenfort, J.J., Lamme, V.A.F. Accurate metacognition for visual sensory memory representations. Psychological Science (2014)},\n  year = {2014},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1177/0956797613516146}\n}"
+    "bibtex": "@article{Vandenbroucke_2014,\n  title ={Accurate Metacognition for Visual Sensory Memory Representations},\n  volume ={25},\n  ISSN ={1467-9280},\n  url ={http://dx.doi.org/10.1177/0956797613516146},\n  DOI ={10.1177/0956797613516146},\n  number ={4},\n  journal ={Psychological Science},\n  publisher ={SAGE Publications},\n  author ={Vandenbroucke, Annelinde R. E. and Sligte, Ilja G. and Barrett, Adam B. and Seth, Anil K. and Fahrenfort, Johannes J. and Lamme, Victor A. F.},\n  year ={2014},\n  month =Feb,\n  pages ={861–873} \n}"
   },
   {
     "id": "pub-78",
-    "citation": "El Karoui, I., King, J-R., Sitt, J., Meyniel, F., van Gaal, S., Hasboun, D., Adam, C., Navarro, V., Baulac, M., Dehaene, S., Cohen, L., & Naccache, L. Event-related potential, time-frequency and functional connectivity facets of local and global auditory novelty processing: an intracranial study in humans. Cerebral Cortex (doi:10.1093/cercor/bhu143) (2014)",
+    "citation": "El Karoui, I., King, J.-R., Sitt, J., Meyniel, F., Van Gaal, S., Hasboun, D., Adam, C., Navarro, V., Baulac, M., Dehaene, S., Cohen, L., & Naccache, L. (2014). Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans. Cerebral Cortex, 25(11), 4203–4212.",
     "year_group": "2014",
     "topics": [
       "Neural Decoding"
     ],
-    "doi": "https://academic.oup.com/cercor/article/25/11/4203/2366497",
-    "paper_url": "https://academic.oup.com/cercor/article/25/11/4203/2366497",
+    "doi": "https://doi.org/10.1093/cercor/bhu143",
+    "paper_url": "https://doi.org/10.1093/cercor/bhu143",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{el2014_78,\n  author = {El Karoui, I},\n  title = {El Karoui, I., King, J-R., Sitt, J., Meyniel, F., van Gaal, S., Hasboun, D., Adam, C., Navarro, V., Baulac, M., Dehaene, S., Cohen, L., & Naccache, L. Event-related potential, time-frequency and functional connectivity facets of local and global auditory novelty processing: an intracranial study in humans. Cerebral Cortex (doi:10.1093/cercor/bhu143) (2014)},\n  year = {2014},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/cercor/article/25/11/4203/2366497}\n}"
+    "bibtex": "@article{El_Karoui_2014,\n  title ={Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans},\n  volume ={25},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhu143},\n  DOI ={10.1093/cercor/bhu143},\n  number ={11},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={El Karoui, Imen and King, Jean-Remi and Sitt, Jacobo and Meyniel, Florent and Van Gaal, Simon and Hasboun, Dominique and Adam, Claude and Navarro, Vincent and Baulac, Michel and Dehaene, Stanislas and Cohen, Laurent and Naccache, Lionel},\n  year ={2014},\n  month =June,\n  pages ={4203–4212} \n}"
   },
   {
     "id": "pub-79",
-    "citation": "van Gaal, S., Naccache, L., Meuwese, J.D.I., van Loon, A.M., Leighton, A., Cohen, L., Dehaene, S. Can the meaning of multiple unconscious words be integrated unconsciously? Philosophical Transactions of the Royal Society: B. (DOI: 10.1098/rstb.2013.0212) (2014)",
+    "citation": "van Gaal, S., Naccache, L., Meuwese, J. D. I., van Loon, A. M., Leighton, A. H., Cohen, L., & Dehaene, S. (2014). Can the meaning of multiple words be integrated unconsciously? Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1641), 20130212.",
     "year_group": "2014",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0212",
-    "paper_url": "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0212",
+    "doi": "https://doi.org/10.1098/rstb.2013.0212",
+    "paper_url": "https://doi.org/10.1098/rstb.2013.0212",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2014_79,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Naccache, L., Meuwese, J.D.I., van Loon, A.M., Leighton, A., Cohen, L., Dehaene, S. Can the meaning of multiple unconscious words be integrated unconsciously? Philosophical Transactions of the Royal Society: B. (DOI: 10.1098/rstb.2013.0212) (2014)},\n  year = {2014},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0212}\n}"
+    "bibtex": "@article{van_Gaal_2014,\n  title ={Can the meaning of multiple words be integrated unconsciously?},\n  volume ={369},\n  ISSN ={1471-2970},\n  url ={http://dx.doi.org/10.1098/rstb.2013.0212},\n  DOI ={10.1098/rstb.2013.0212},\n  number ={1641},\n  journal ={Philosophical Transactions of the Royal Society B: Biological Sciences},\n  publisher ={The Royal Society},\n  author ={van Gaal, Simon and Naccache, Lionel and Meuwese, Julia D. I. and van Loon, Anouk M. and Leighton, Alexandra H. and Cohen, Laurent and Dehaene, Stanislas},\n  year ={2014},\n  month =May,\n  pages ={20130212} \n}"
   },
   {
     "id": "pub-80",
-    "citation": "Cohen, M.X & van Gaal, S. Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors. Neuroimage, 86, 503-513 (2014).",
+    "citation": "Cohen, M. X., & van Gaal, S. (2014). Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors. NeuroImage, 86, 503–513.",
     "year_group": "2014",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811913010562",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811913010562",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2013.10.033",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2013.10.033",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{cohen2014_80,\n  author = {Cohen, M},\n  title = {Cohen, M.X & van Gaal, S. Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors. Neuroimage, 86, 503-513 (2014).},\n  year = {2014},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811913010562}\n}"
+    "bibtex": "@article{Cohen_2014,\n  title ={Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors},\n  volume ={86},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2013.10.033},\n  DOI ={10.1016/j.neuroimage.2013.10.033},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Cohen, Michael X and van Gaal, Simon},\n  year ={2014},\n  month =Feb,\n  pages ={503–513} \n}"
   },
   {
     "id": "pub-81",
-    "citation": "Vandenbroucke, A.R.E., Fahrenfort, J.J., Sligte, I.G., Lamme, V.A.F., Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report. Journal of Cognitive Neuroscience (2013)",
+    "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Sligte, I. G., & Lamme, V. A. F. (2014). Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report. Journal of Cognitive Neuroscience, 26(5), 955–969.",
     "year_group": "2013",
     "topics": [
       "Cognitive Neuroscience"
@@ -1030,61 +1030,61 @@
     "paper_url": "https://doi.org/10.1162/jocn_a_00530",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{vandenbroucke2013_81,\n  author = {Vandenbroucke, A},\n  title = {Vandenbroucke, A.R.E., Fahrenfort, J.J., Sligte, I.G., Lamme, V.A.F., Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report. Journal of Cognitive Neuroscience (2013)},\n  year = {2013},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1162/jocn_a_00530}\n}"
+    "bibtex": "@article{Vandenbroucke_2014,\n  title ={Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report},\n  volume ={26},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00530},\n  DOI ={10.1162/jocn_a_00530},\n  number ={5},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={Vandenbroucke, Annelinde R. E. and Fahrenfort, Johannes J. and Sligte, Ilja G. and Lamme, Victor A. F.},\n  year ={2014},\n  month =May,\n  pages ={955–969} \n}"
   },
   {
     "id": "pub-82",
-    "citation": "Jiang, J. van Gaal, S., Bailey, K. Chen, A. Zhang, Q. Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict. Neuropsychologia. 51, 2791-2798 (2013).",
+    "citation": "Jiang, J., van Gaal, S., Bailey, K., Chen, A., & Zhang, Q. (2013). Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict. Neuropsychologia, 51(13), 2791–2798.",
     "year_group": "2013",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S0028393213003126",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0028393213003126",
+    "doi": "https://doi.org/10.1016/j.neuropsychologia.2013.09.020",
+    "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2013.09.020",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{jiang2013_82,\n  author = {Jiang, J},\n  title = {Jiang, J. van Gaal, S., Bailey, K. Chen, A. Zhang, Q. Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict. Neuropsychologia. 51, 2791-2798 (2013).},\n  year = {2013},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0028393213003126}\n}"
+    "bibtex": "@article{Jiang_2013,\n  title ={Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict},\n  volume ={51},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2013.09.020},\n  DOI ={10.1016/j.neuropsychologia.2013.09.020},\n  number ={13},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and van Gaal, Simon and Bailey, Kira and Chen, Antao and Zhang, Qinglin},\n  year ={2013},\n  month =Nov,\n  pages ={2791–2798} \n}"
   },
   {
     "id": "pub-83",
-    "citation": "Cohen, M.X & van Gaal, S. Dynamic interactions between large-scale networks predict behavioral adaptation after perceptual errors. Cerebral Cortex. 23(5)1061-1072 (2013).",
+    "citation": "Cohen, M. X., & van Gaal, S. (2012). Dynamic Interactions between Large-Scale Brain Networks Predict Behavioral Adaptation after Perceptual Errors. Cerebral Cortex, 23(5), 1061–1072.",
     "year_group": "2013",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://academic.oup.com/cercor/article/23/5/1061/799967",
-    "paper_url": "https://academic.oup.com/cercor/article/23/5/1061/799967",
+    "doi": "https://doi.org/10.1093/cercor/bhs069",
+    "paper_url": "https://doi.org/10.1093/cercor/bhs069",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{cohen2013_83,\n  author = {Cohen, M},\n  title = {Cohen, M.X & van Gaal, S. Dynamic interactions between large-scale networks predict behavioral adaptation after perceptual errors. Cerebral Cortex. 23(5)1061-1072 (2013).},\n  year = {2013},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/cercor/article/23/5/1061/799967}\n}"
+    "bibtex": "@article{Cohen_2012,\n  title ={Dynamic Interactions between Large-Scale Brain Networks Predict Behavioral Adaptation after Perceptual Errors},\n  volume ={23},\n  ISSN ={1047-3211},\n  url ={http://dx.doi.org/10.1093/cercor/bhs069},\n  DOI ={10.1093/cercor/bhs069},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Cohen, Michael X and van Gaal, Simon},\n  year ={2012},\n  month =Apr,\n  pages ={1061–1072} \n}"
   },
   {
     "id": "pub-84",
-    "citation": "Fahrenfort, J.J., Snijders, T. M., Heinen, K., van Gaal, S., Scholte, H. S., & Lamme, V. A. F. (2012). Neuronal integration in visual cortex elevates face category tuning to conscious face perception. Proceedings of the National Academy of Sciences of the United States of America. 109(52), 21504-21509",
+    "citation": "Fahrenfort, J., Snijders, T., Heinen, K., van Gaal, S., Scholte, S., & Lamme, V. (2013). Neuronal integration in visual cortex elevates face category tuning to conscious face perception. Journal of Vision, 13(9), 1033.",
     "year_group": "2012",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.pnas.org/content/109/52/21504.short",
-    "paper_url": "https://www.pnas.org/content/109/52/21504.short",
+    "doi": "https://doi.org/10.1167/13.9.1033",
+    "paper_url": "https://doi.org/10.1167/13.9.1033",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2012_84,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Snijders, T. M., Heinen, K., van Gaal, S., Scholte, H. S., & Lamme, V. A. F. (2012). Neuronal integration in visual cortex elevates face category tuning to conscious face perception. Proceedings of the National Academy of Sciences of the United States of America. 109(52), 21504-21509},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/content/109/52/21504.short}\n}"
+    "bibtex": "@article{Fahrenfort_2013,\n  title ={Neuronal integration in visual cortex elevates face category tuning to conscious face perception},\n  volume ={13},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/13.9.1033},\n  DOI ={10.1167/13.9.1033},\n  number ={9},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Fahrenfort, J. and Snijders, T. and Heinen, K. and van Gaal, S. and Scholte, S. and Lamme, V.},\n  year ={2013},\n  month =July,\n  pages ={1033–1033} \n}"
   },
   {
     "id": "pub-85",
-    "citation": "van Gaal, S., de Lange, F.P. & Cohen, M.X (2012) The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience. 6:121. doi: 10.3389/fnhum.2012.00121",
+    "citation": "van Gaal, S., de Lange, F. P., & Cohen, M. X. (2012). The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience, 6.",
     "year_group": "2012",
     "topics": [
       "Consciousness",
       "Decision Making",
       "Cognitive Control"
     ],
-    "doi": "https://www.frontiersin.org/articles/10.3389/fnhum.2012.00121/full",
-    "paper_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2012.00121/full",
+    "doi": "https://doi.org/10.3389/fnhum.2012.00121",
+    "paper_url": "https://doi.org/10.3389/fnhum.2012.00121",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2012_85,\n  author = {van Gaal, S},\n  title = {van Gaal, S., de Lange, F.P. & Cohen, M.X (2012) The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience. 6:121. doi: 10.3389/fnhum.2012.00121},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.frontiersin.org/articles/10.3389/fnhum.2012.00121/full}\n}"
+    "bibtex": "@article{van_Gaal_2012,\n  title ={The role of consciousness in cognitive control and decision making},\n  volume ={6},\n  ISSN ={1662-5161},\n  url ={http://dx.doi.org/10.3389/fnhum.2012.00121},\n  DOI ={10.3389/fnhum.2012.00121},\n  journal ={Frontiers in Human Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={van Gaal, Simon and de Lange, Floris P. and Cohen, Michael X},\n  year ={2012} \n}"
   },
   {
     "id": "pub-86",
@@ -1101,193 +1101,193 @@
   },
   {
     "id": "pub-87",
-    "citation": "van Loon, A.M., Scholte, H.S., van Gaal, S., van der Hoort, B.J.J. & Lamme, V.A.F. (2012) GABAa agonist reduces visual awareness; a masking-EEG experiment. Journal of Cognitive Neuroscience,24(4), 965–974.",
+    "citation": "van Loon, A. M., Scholte, H. S., van Gaal, S., van der Hoort, B. J. J., & Lamme, V. A. F. (2012). GABAA Agonist Reduces Visual Awareness: A Masking–EEG Experiment. Journal of Cognitive Neuroscience, 24(4), 965–974.",
     "year_group": "2012",
     "topics": [
       "Consciousness",
       "EEG"
     ],
-    "doi": "https://www.mitpressjournals.org/doi/full/10.1162/jocn_a_00197",
-    "paper_url": "https://www.mitpressjournals.org/doi/full/10.1162/jocn_a_00197",
+    "doi": "https://doi.org/10.1162/jocn_a_00197",
+    "paper_url": "https://doi.org/10.1162/jocn_a_00197",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2012_87,\n  author = {van Loon, A},\n  title = {van Loon, A.M., Scholte, H.S., van Gaal, S., van der Hoort, B.J.J. & Lamme, V.A.F. (2012) GABAa agonist reduces visual awareness; a masking-EEG experiment. Journal of Cognitive Neuroscience,24(4), 965–974.},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.mitpressjournals.org/doi/full/10.1162/jocn_a_00197}\n}"
+    "bibtex": "@article{van_Loon_2012,\n  title ={GABAA Agonist Reduces Visual Awareness: A Masking–EEG Experiment},\n  volume ={24},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00197},\n  DOI ={10.1162/jocn_a_00197},\n  number ={4},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={van Loon, Anouk M. and Scholte, H. Steven and van Gaal, Simon and van der Hoort, Björn J. J. and Lamme, Victor A. F.},\n  year ={2012},\n  month =Apr,\n  pages ={965–974} \n}"
   },
   {
     "id": "pub-88",
-    "citation": "van Gaal, S., & Lamme, V.A.F. (2012). Unconscious high-level information processing: implications for neurobiological theories of consciousness. The Neuroscientist. 18(3) 287 - 301.",
+    "citation": "van Gaal, S., & Lamme, V. A. F. (2011). Unconscious High-Level Information Processing. The Neuroscientist, 18(3), 287–301.",
     "year_group": "2012",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://journals.sagepub.com/doi/abs/10.1177/1073858411404079",
-    "paper_url": "https://journals.sagepub.com/doi/abs/10.1177/1073858411404079",
+    "doi": "https://doi.org/10.1177/1073858411404079",
+    "paper_url": "https://doi.org/10.1177/1073858411404079",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2012_88,\n  author = {van Gaal, S},\n  title = {van Gaal, S., & Lamme, V.A.F. (2012). Unconscious high-level information processing: implications for neurobiological theories of consciousness. The Neuroscientist. 18(3) 287 - 301.},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.sagepub.com/doi/abs/10.1177/1073858411404079}\n}"
+    "bibtex": "@article{van_Gaal_2011,\n  title ={Unconscious High-Level Information Processing: Implication for Neurobiological Theories of Consciousness},\n  volume ={18},\n  ISSN ={1089-4098},\n  url ={http://dx.doi.org/10.1177/1073858411404079},\n  DOI ={10.1177/1073858411404079},\n  number ={3},\n  journal ={The Neuroscientist},\n  publisher ={SAGE Publications},\n  author ={van Gaal, Simon and Lamme, Victor A. F.},\n  year ={2011},\n  month =May,\n  pages ={287–301} \n}"
   },
   {
     "id": "pub-89",
-    "citation": "Francken, J. van Gaal, S., de Lange, F.P. (2012) Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition.",
+    "citation": "Francken, J. C., van Gaal, S., & de Lange, F. P. (2012). Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition, 21(3), 1573–1574.",
     "year_group": "2012",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053810012001183",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053810012001183",
+    "doi": "https://doi.org/10.1016/j.concog.2012.04.005",
+    "paper_url": "https://doi.org/10.1016/j.concog.2012.04.005",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{francken2012_89,\n  author = {Francken, J},\n  title = {Francken, J. van Gaal, S., de Lange, F.P. (2012) Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition.},\n  year = {2012},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053810012001183}\n}"
+    "bibtex": "@article{Francken_2012,\n  title ={Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming},\n  volume ={21},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2012.04.005},\n  DOI ={10.1016/j.concog.2012.04.005},\n  number ={3},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Francken, Jolien C. and van Gaal, Simon and de Lange, Floris P.},\n  year ={2012},\n  month =Sept,\n  pages ={1573–1574} \n}"
   },
   {
     "id": "pub-90",
-    "citation": "de Lange, F.P*., van Gaal, S.*, Lamme, V.A.F., Dehaene, S. (2011) How awareness changes the relative weights of evidence during human decision making. PLoS Biology. 9(11): e1001203. doi:10.1371/journal.pbio.1001203 .",
+    "citation": "de Lange, F. P., van Gaal, S., Lamme, V. A. F., & Dehaene, S. (2011). How Awareness Changes the Relative Weights of Evidence During Human Decision-Making. PLoS Biology, 9(11), e1001203.",
     "year_group": "2011",
     "topics": [
       "Consciousness",
       "Decision Making"
     ],
-    "doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222633/",
-    "paper_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222633/",
+    "doi": "https://doi.org/10.1371/journal.pbio.1001203",
+    "paper_url": "https://doi.org/10.1371/journal.pbio.1001203",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{de2011_90,\n  author = {de Lange, F},\n  title = {de Lange, F.P*., van Gaal, S.*, Lamme, V.A.F., Dehaene, S. (2011) How awareness changes the relative weights of evidence during human decision making. PLoS Biology. 9(11): e1001203. doi:10.1371/journal.pbio.1001203 .},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222633/}\n}"
+    "bibtex": "@article{de_Lange_2011,\n  title ={How Awareness Changes the Relative Weights of Evidence During Human Decision-Making},\n  volume ={9},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.1001203},\n  DOI ={10.1371/journal.pbio.1001203},\n  number ={11},\n  journal ={PLoS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={de Lange, Floris P. and van Gaal, Simon and Lamme, Victor A. F. and Dehaene, Stanislas},\n  editor ={Posner, Michael},\n  year ={2011},\n  month =Nov,\n  pages ={e1001203} \n}"
   },
   {
     "id": "pub-91",
-    "citation": "Francken, J. van Gaal, S., de Lange, F.P. (2011) Immediate and long-term priming effects are independent of stimulus visibility. Consciousness and Cognition. 20(4), 1793-1800.",
+    "citation": "Francken, J. C., Gaal, S. v., & de Lange, F. P. (2011). Immediate and long-term priming effects are independent of prime awareness. Consciousness and Cognition, 20(4), 1793–1800.",
     "year_group": "2011",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053810011001218",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053810011001218",
+    "doi": "https://doi.org/10.1016/j.concog.2011.04.005",
+    "paper_url": "https://doi.org/10.1016/j.concog.2011.04.005",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{francken2011_91,\n  author = {Francken, J},\n  title = {Francken, J. van Gaal, S., de Lange, F.P. (2011) Immediate and long-term priming effects are independent of stimulus visibility. Consciousness and Cognition. 20(4), 1793-1800.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053810011001218}\n}"
+    "bibtex": "@article{Francken_2011,\n  title ={Immediate and long-term priming effects are independent of prime awareness},\n  volume ={20},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2011.04.005},\n  DOI ={10.1016/j.concog.2011.04.005},\n  number ={4},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Francken, Jolien C. and Gaal, Simon van and de Lange, Floris P.},\n  year ={2011},\n  month =Dec,\n  pages ={1793–1800} \n}"
   },
   {
     "id": "pub-92",
-    "citation": "Jolij, J., Scholte, H.S., van Gaal, S., Hodgson, T.J. & Lamme, V.A.F. (2011) Act quickly, decide later: Long latency visual processing underlies perceptual decisions but not reflexive behavior. Journal of Cognitive Neuroscience. 23(12), 3734–3745.",
+    "citation": "Jolij, J., Scholte, H. S., van Gaal, S., Hodgson, T. L., & Lamme, V. A. F. (2011). Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior. Journal of Cognitive Neuroscience, 23(12), 3734–3745.",
     "year_group": "2011",
     "topics": [
       "Decision Making"
     ],
-    "doi": "https://www.mitpressjournals.org/doi/full/10.1162/jocn_a_00034",
-    "paper_url": "https://www.mitpressjournals.org/doi/full/10.1162/jocn_a_00034",
+    "doi": "https://doi.org/10.1162/jocn_a_00034",
+    "paper_url": "https://doi.org/10.1162/jocn_a_00034",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{jolij2011_92,\n  author = {Jolij, J},\n  title = {Jolij, J., Scholte, H.S., van Gaal, S., Hodgson, T.J. & Lamme, V.A.F. (2011) Act quickly, decide later: Long latency visual processing underlies perceptual decisions but not reflexive behavior. Journal of Cognitive Neuroscience. 23(12), 3734–3745.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.mitpressjournals.org/doi/full/10.1162/jocn_a_00034}\n}"
+    "bibtex": "@article{Jolij_2011,\n  title ={Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00034},\n  DOI ={10.1162/jocn_a_00034},\n  number ={12},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={Jolij, Jacob and Scholte, H. Steven and van Gaal, Simon and Hodgson, Timothy L. and Lamme, Victor A. F.},\n  year ={2011},\n  month =Dec,\n  pages ={3734–3745} \n}"
   },
   {
     "id": "pub-93",
-    "citation": "Wokke, M.E.*, van Gaal, S.*, Ridderinkhof, K.R., & Lamme, V.A.F. The flexible nature of unconscious cognition. PLoS ONE. 6(9): e25729. doi:10.1371/journal.pone.0025729",
+    "citation": "Wokke, M. E., van Gaal, S., Scholte, H. S., Ridderinkhof, K. R., & Lamme, V. A. F. (2011). The Flexible Nature of Unconscious Cognition. PLoS ONE, 6(9), e25729.",
     "year_group": "2011",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025729",
-    "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025729",
+    "doi": "https://doi.org/10.1371/journal.pone.0025729",
+    "paper_url": "https://doi.org/10.1371/journal.pone.0025729",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{wokke2011_93,\n  author = {Wokke, M},\n  title = {Wokke, M.E.*, van Gaal, S.*, Ridderinkhof, K.R., & Lamme, V.A.F. The flexible nature of unconscious cognition. PLoS ONE. 6(9): e25729. doi:10.1371/journal.pone.0025729},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025729}\n}"
+    "bibtex": "@article{Wokke_2011,\n  title ={The Flexible Nature of Unconscious Cognition},\n  volume ={6},\n  ISSN ={1932-6203},\n  url ={http://dx.doi.org/10.1371/journal.pone.0025729},\n  DOI ={10.1371/journal.pone.0025729},\n  number ={9},\n  journal ={PLoS ONE},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Wokke, Martijn E. and van Gaal, Simon and Scholte, H. Steven and Ridderinkhof, K. Richard and Lamme, Victor A. F.},\n  editor ={Suzuki, Satoru},\n  year ={2011},\n  month =Sept,\n  pages ={e25729} \n}"
   },
   {
     "id": "pub-94",
-    "citation": "Weeda, W.D., Waldorp, L., Grasman, R.P.P.P., van Gaal, S., & Huizenga, H.M. (2011) Functional connectivity analysis of fMRI data using parameterized regions of interest. Neuroimage. 54(1), 410-416.",
+    "citation": "Weeda, W. D., Waldorp, L. J., Grasman, R. P. P. P., van Gaal, S., & Huizenga, H. M. (2011). Functional connectivity analysis of fMRI data using parameterized regions-of-interest. NeuroImage, 54(1), 410–416.",
     "year_group": "2011",
     "topics": [
       "fMRI"
     ],
-    "doi": "https://www.sciencedirect.com/science/article/pii/S1053811910009730",
-    "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811910009730",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2010.07.022",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2010.07.022",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{weeda2011_94,\n  author = {Weeda, W},\n  title = {Weeda, W.D., Waldorp, L., Grasman, R.P.P.P., van Gaal, S., & Huizenga, H.M. (2011) Functional connectivity analysis of fMRI data using parameterized regions of interest. Neuroimage. 54(1), 410-416.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811910009730}\n}"
+    "bibtex": "@article{Weeda_2011,\n  title ={Functional connectivity analysis of fMRI data using parameterized regions-of-interest},\n  volume ={54},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2010.07.022},\n  DOI ={10.1016/j.neuroimage.2010.07.022},\n  number ={1},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Weeda, Wouter D. and Waldorp, Lourens J. and Grasman, Raoul P.P.P. and van Gaal, Simon and Huizenga, Hilde M.},\n  year ={2011},\n  month =Jan,\n  pages ={410–416} \n}"
   },
   {
     "id": "pub-95",
-    "citation": "van Gaal, S., Lamme, V.A.F., Fahrenfort, J.J., & Ridderinkhof, K.R. (2011) Dissociable brain mechanisms underlying the conscious and unconscious control of behavior. Journal of Cognitive Neuroscience, 23(1), 91-105.",
+    "citation": "van Gaal, S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior. Journal of Cognitive Neuroscience, 23(1), 91–105.",
     "year_group": "2011",
     "topics": [
       "Consciousness",
       "Cognitive Control"
     ],
-    "doi": "https://www.mitpressjournals.org/doi/full/10.1162/jocn.2010.21431",
-    "paper_url": "https://www.mitpressjournals.org/doi/full/10.1162/jocn.2010.21431",
+    "doi": "https://doi.org/10.1162/jocn.2010.21431",
+    "paper_url": "https://doi.org/10.1162/jocn.2010.21431",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2011_95,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Lamme, V.A.F., Fahrenfort, J.J., & Ridderinkhof, K.R. (2011) Dissociable brain mechanisms underlying the conscious and unconscious control of behavior. Journal of Cognitive Neuroscience, 23(1), 91-105.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.mitpressjournals.org/doi/full/10.1162/jocn.2010.21431}\n}"
+    "bibtex": "@article{van_Gaal_2011,\n  title ={Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2010.21431},\n  DOI ={10.1162/jocn.2010.21431},\n  number ={1},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={van Gaal, Simon and Lamme, Victor A. F. and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard},\n  year ={2011},\n  month =Jan,\n  pages ={91–105} \n}"
   },
   {
     "id": "pub-96",
-    "citation": "van Gaal, S., Scholte, H.S., Lamme, V.A.F., Fahrenfort, J.J., & Ridderinkhof, K.R. Pre-SMA gray-matter density predicts individual differences in action selection in the face of conscious and unconscious response conflict. Journal of Cognitive Neuroscience, 23(2), 382-390.",
+    "citation": "van Gaal, S., Scholte, H. S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict. Journal of Cognitive Neuroscience, 23(2), 382–390.",
     "year_group": "2011",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.mitpressjournals.org/doi/full/10.1162/jocn.2010.21444",
-    "paper_url": "https://www.mitpressjournals.org/doi/full/10.1162/jocn.2010.21444",
+    "doi": "https://doi.org/10.1162/jocn.2010.21444",
+    "paper_url": "https://doi.org/10.1162/jocn.2010.21444",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2011_96,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Scholte, H.S., Lamme, V.A.F., Fahrenfort, J.J., & Ridderinkhof, K.R. Pre-SMA gray-matter density predicts individual differences in action selection in the face of conscious and unconscious response conflict. Journal of Cognitive Neuroscience, 23(2), 382-390.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.mitpressjournals.org/doi/full/10.1162/jocn.2010.21444}\n}"
+    "bibtex": "@article{van_Gaal_2011,\n  title ={Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2010.21444},\n  DOI ={10.1162/jocn.2010.21444},\n  number ={2},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={van Gaal, Simon and Scholte, H. Steven and Lamme, Victor A. F. and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard},\n  year ={2011},\n  month =Feb,\n  pages ={382–390} \n}"
   },
   {
     "id": "pub-97",
-    "citation": "van Gaal, S., Lamme, V.A.F., & Ridderinkhof, K.R. (2010) Unconsciously triggered conflict adaptation. PLoS ONE, 5(7): e11508. doi:10.1371/journal.pone.0011508 .",
+    "citation": "van Gaal, S., Lamme, V. A. F., & Ridderinkhof, K. R. (2010). Unconsciously Triggered Conflict Adaptation. PLoS ONE, 5(7), e11508.",
     "year_group": "2010",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011508",
-    "paper_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011508",
+    "doi": "https://doi.org/10.1371/journal.pone.0011508",
+    "paper_url": "https://doi.org/10.1371/journal.pone.0011508",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2010_97,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Lamme, V.A.F., & Ridderinkhof, K.R. (2010) Unconsciously triggered conflict adaptation. PLoS ONE, 5(7): e11508. doi:10.1371/journal.pone.0011508 .},\n  year = {2010},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011508}\n}"
+    "bibtex": "@article{van_Gaal_2010,\n  title ={Unconsciously Triggered Conflict Adaptation},\n  volume ={5},\n  ISSN ={1932-6203},\n  url ={http://dx.doi.org/10.1371/journal.pone.0011508},\n  DOI ={10.1371/journal.pone.0011508},\n  number ={7},\n  journal ={PLoS ONE},\n  publisher ={Public Library of Science (PLoS)},\n  author ={van Gaal, Simon and Lamme, Victor A. F. and Ridderinkhof, K. Richard},\n  editor ={Herzog, Michael H.},\n  year ={2010},\n  month =July,\n  pages ={e11508} \n}"
   },
   {
     "id": "pub-98",
-    "citation": "van Gaal, S., Ridderinkhof, K.R., Scholte, H.S., & Lamme, V.A.F. (2010) Unconscious activation of the prefrontal No-Go network. Journal of Neuroscience, 30, 4143-4150.",
+    "citation": "van Gaal, S., Ridderinkhof, K. R., Scholte, H. S., & Lamme, V. A. F. (2010). Unconscious Activation of the Prefrontal No-Go Network. The Journal of Neuroscience, 30(11), 4143–4150.",
     "year_group": "2010",
     "topics": [
       "Consciousness"
     ],
-    "doi": "http://www.jneurosci.org/content/30/11/4143",
-    "paper_url": "http://www.jneurosci.org/content/30/11/4143",
+    "doi": "https://doi.org/10.1523/jneurosci.2992-09.2010",
+    "paper_url": "https://doi.org/10.1523/jneurosci.2992-09.2010",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2010_98,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Ridderinkhof, K.R., Scholte, H.S., & Lamme, V.A.F. (2010) Unconscious activation of the prefrontal No-Go network. Journal of Neuroscience, 30, 4143-4150.},\n  year = {2010},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://www.jneurosci.org/content/30/11/4143}\n}"
+    "bibtex": "@article{van_Gaal_2010,\n  title ={Unconscious Activation of the Prefrontal No-Go Network},\n  volume ={30},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2992-09.2010},\n  DOI ={10.1523/jneurosci.2992-09.2010},\n  number ={11},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and Scholte, H. Steven and Lamme, Victor A. F.},\n  year ={2010},\n  month =Mar,\n  pages ={4143–4150} \n}"
   },
   {
     "id": "pub-100",
-    "citation": "Cohen, M.X.*, van Gaal, S.*, Ridderinkhof, K.R., & Lamme, V.A.F. Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Frontiers in Human Neuroscience, 3, 2009. doi:10.3389/neuro.09.054.2009.",
+    "citation": "Cohen, M. X. (2009). Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Frontiers in Human Neuroscience, 3.",
     "year_group": "2009",
     "topics": [
       "Consciousness"
     ],
-    "doi": "https://www.frontiersin.org/articles/10.3389/neuro.09.054.2009/full",
-    "paper_url": "https://www.frontiersin.org/articles/10.3389/neuro.09.054.2009/full",
+    "doi": "https://doi.org/10.3389/neuro.09.054.2009",
+    "paper_url": "https://doi.org/10.3389/neuro.09.054.2009",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{cohen2009_100,\n  author = {Cohen, M},\n  title = {Cohen, M.X.*, van Gaal, S.*, Ridderinkhof, K.R., & Lamme, V.A.F. Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Frontiers in Human Neuroscience, 3, 2009. doi:10.3389/neuro.09.054.2009.},\n  year = {2009},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.frontiersin.org/articles/10.3389/neuro.09.054.2009/full}\n}"
+    "bibtex": "@article{Cohen_2009,\n  title ={Unconscious errors enhance prefrontal-occipital oscillatory synchrony},\n  volume ={3},\n  ISSN ={1662-5161},\n  url ={http://dx.doi.org/10.3389/neuro.09.054.2009},\n  DOI ={10.3389/neuro.09.054.2009},\n  journal ={Frontiers in Human Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Cohen, Michael X.},\n  year ={2009} \n}"
   },
   {
     "id": "pub-99",
-    "citation": "van Gaal, S., Ridderinkhof, K.R., van den Wildenberg, W.P.M., & Lamme, V.A.F. Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task. Journal of Experimental Psychology: Human Perception and Performance, 35, 2009, 1129-1139.",
+    "citation": "van Gaal, S., Ridderinkhof, K. R., van den Wildenberg, W. P. M., & Lamme, V. A. F. (2009). Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task. Journal of Experimental Psychology: Human Perception and Performance, 35(4), 1129–1139.",
     "year_group": "2009",
     "topics": [
       "Consciousness",
       "Cognitive Control"
     ],
-    "doi": "https://ovidsp.tx.ovid.com/sp-3.33.0b/ovidweb.cgi?&S=GPHEFPNOIIDDOGPKNCDKPAIBCHGFAA00&Link+Set=S.sh.27%7c1%7csl_10&Counter5=SS_view_found_article%7c00004788-200908000-00017%7covft%7covftdb%7covftk&Counter5Data=00004788-200908000-00017%7covft%7covftdb%7covftk",
-    "paper_url": "https://ovidsp.tx.ovid.com/sp-3.33.0b/ovidweb.cgi?&S=GPHEFPNOIIDDOGPKNCDKPAIBCHGFAA00&Link+Set=S.sh.27%7c1%7csl_10&Counter5=SS_view_found_article%7c00004788-200908000-00017%7covft%7covftdb%7covftk&Counter5Data=00004788-200908000-00017%7covft%7covftdb%7covftk",
+    "doi": "https://doi.org/10.1037/a0013551",
+    "paper_url": "https://doi.org/10.1037/a0013551",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2009_99,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Ridderinkhof, K.R., van den Wildenberg, W.P.M., & Lamme, V.A.F. Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task. Journal of Experimental Psychology: Human Perception and Performance, 35, 2009, 1129-1139.},\n  year = {2009},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://ovidsp.tx.ovid.com/sp-3.33.0b/ovidweb.cgi?&S=GPHEFPNOIIDDOGPKNCDKPAIBCHGFAA00&Link+Set=S.sh.27%7c1%7csl_10&Counter5=SS_view_found_article%7c00004788-200908000-00017%7covft%7covftdb%7covftk&Counter5Data=00004788-200908000-00017%7covft%7covftdb%7covftk}\n}"
+    "bibtex": "@article{van_Gaal_2009,\n  title ={Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task.},\n  volume ={35},\n  ISSN ={0096-1523},\n  url ={http://dx.doi.org/10.1037/a0013551},\n  DOI ={10.1037/a0013551},\n  number ={4},\n  journal ={Journal of Experimental Psychology: Human Perception and Performance},\n  publisher ={American Psychological Association (APA)},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and van den Wildenberg, Wery P. M. and Lamme, Victor A. F.},\n  year ={2009},\n  month =Aug,\n  pages ={1129–1139} \n}"
   },
   {
     "id": "pub-101",
-    "citation": "Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision (2008)",
+    "citation": "Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2008). The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision, 8(1), 12.",
     "year_group": "2008",
     "topics": [
       "Cognitive Neuroscience"
@@ -1296,46 +1296,46 @@
     "paper_url": "https://doi.org/10.1167/8.1.12",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2008_101,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision (2008)},\n  year = {2008},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1167/8.1.12}\n}"
+    "bibtex": "@article{Fahrenfort_2008,\n  title ={The spatiotemporal profile of cortical processing leading up to visual perception},\n  volume ={8},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/8.1.12},\n  DOI ={10.1167/8.1.12},\n  number ={1},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Fahrenfort, J. J. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2008},\n  month =Jan,\n  pages ={12} \n}"
   },
   {
     "id": "pub-102",
-    "citation": "van Gaal, S., Ridderinkhof, K.R., Fahrenfort, J.J., Scholte, H.S., & Lamme, V.A.F. Frontal cortex mediates unconsciously triggered inhibitory control. Journal of Neuroscience, 28, 2008, 8053-8062.",
+    "citation": "van Gaal, S., Ridderinkhof, K. R., Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2008). Frontal Cortex Mediates Unconsciously Triggered Inhibitory Control. The Journal of Neuroscience, 28(32), 8053–8062.",
     "year_group": "2008",
     "topics": [
       "Consciousness",
       "Cognitive Control"
     ],
-    "doi": "http://www.jneurosci.org/content/28/32/8053",
-    "paper_url": "http://www.jneurosci.org/content/28/32/8053",
+    "doi": "https://doi.org/10.1523/jneurosci.1278-08.2008",
+    "paper_url": "https://doi.org/10.1523/jneurosci.1278-08.2008",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2008_102,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Ridderinkhof, K.R., Fahrenfort, J.J., Scholte, H.S., & Lamme, V.A.F. Frontal cortex mediates unconsciously triggered inhibitory control. Journal of Neuroscience, 28, 2008, 8053-8062.},\n  year = {2008},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://www.jneurosci.org/content/28/32/8053}\n}"
+    "bibtex": "@article{van_Gaal_2008,\n  title ={Frontal Cortex Mediates Unconsciously Triggered Inhibitory Control},\n  volume ={28},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1278-08.2008},\n  DOI ={10.1523/jneurosci.1278-08.2008},\n  number ={32},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and Fahrenfort, Johannes J. and Scholte, H. Steven and Lamme, Victor A. F.},\n  year ={2008},\n  month =Aug,\n  pages ={8053–8062} \n}"
   },
   {
     "id": "pub-103",
-    "citation": "van Gaal, S., & Fahrenfort, J.J. The relationship between visual awareness, attention, and report. Journal of Neuroscience, 28, 2008, 5401-5402.",
+    "citation": "van Gaal, S., & Fahrenfort, J. J. (2008). The Relationship between Visual Awareness, Attention, and Report. The Journal of Neuroscience, 28(21), 5401–5402.",
     "year_group": "2008",
     "topics": [
       "Consciousness"
     ],
-    "doi": "http://www.jneurosci.org/content/28/21/5401",
-    "paper_url": "http://www.jneurosci.org/content/28/21/5401",
+    "doi": "https://doi.org/10.1523/jneurosci.1208-08.2008",
+    "paper_url": "https://doi.org/10.1523/jneurosci.1208-08.2008",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{van2008_103,\n  author = {van Gaal, S},\n  title = {van Gaal, S., & Fahrenfort, J.J. The relationship between visual awareness, attention, and report. Journal of Neuroscience, 28, 2008, 5401-5402.},\n  year = {2008},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://www.jneurosci.org/content/28/21/5401}\n}"
+    "bibtex": "@article{van_Gaal_2008,\n  title ={The Relationship between Visual Awareness, Attention, and Report},\n  volume ={28},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1208-08.2008},\n  DOI ={10.1523/jneurosci.1208-08.2008},\n  number ={21},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2008},\n  month =May,\n  pages ={5401–5402} \n}"
   },
   {
     "id": "pub-104",
-    "citation": "Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. Masking disrupts reentrant processing in human visual cortex. Journal of Cognitive Neuroscience (2007)",
+    "citation": "Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2007). Masking Disrupts Reentrant Processing in Human Visual Cortex. Journal of Cognitive Neuroscience, 19(9), 1488–1497.",
     "year_group": "2007",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human",
-    "paper_url": "https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human",
+    "doi": "https://doi.org/10.1162/jocn.2007.19.9.1488",
+    "paper_url": "https://doi.org/10.1162/jocn.2007.19.9.1488",
     "preprint_url": null,
     "code_url": null,
-    "bibtex": "@article{fahrenfort2007_104,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. Masking disrupts reentrant processing in human visual cortex. Journal of Cognitive Neuroscience (2007)},\n  year = {2007},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human}\n}"
+    "bibtex": "@article{Fahrenfort_2007,\n  title ={Masking Disrupts Reentrant Processing in Human Visual Cortex},\n  volume ={19},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2007.19.9.1488},\n  DOI ={10.1162/jocn.2007.19.9.1488},\n  number ={9},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Fahrenfort, J. J. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2007},\n  month =Sept,\n  pages ={1488–1497} \n}"
   }
 ]

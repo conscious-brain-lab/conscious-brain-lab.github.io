@@ -1,6 +1,6 @@
 {
   "id": "pub-43",
-  "citation": "Kloosterman, NA., Kosciessa, JQ ., Lindenberger, U., Fahrenfort, JJ., Garrett, DD., Boosts in brain signal variability track liberal shifts in decision bias. eLife (2020)",
+  "citation": "Kloosterman, N. A., Kosciessa, J. Q., Lindenberger, U., Fahrenfort, J. J., & Garrett, D. D. (2020). Boosts in brain signal variability track liberal shifts in decision bias. eLife, 9. CLOCKSS.",
   "year_group": "2020",
   "topics": [
     "Decision Making"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.7554/eLife.54201",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{kloosterman2020_43,\n  author = {Kloosterman, NA},\n  title = {Kloosterman, NA., Kosciessa, JQ ., Lindenberger, U., Fahrenfort, JJ., Garrett, DD., Boosts in brain signal variability track liberal shifts in decision bias. eLife (2020)},\n  year = {2020},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.7554/eLife.54201}\n}"
+  "bibtex": "@article{Kloosterman_2020,\n  title ={Boosts in brain signal variability track liberal shifts in decision bias},\n  volume ={9},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.54201},\n  DOI ={10.7554/elife.54201},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Kloosterman, Niels A and Kosciessa, Julian Q and Lindenberger, Ulman and Fahrenfort, Johannes Jacobus and Garrett, Douglas D},\n  year ={2020},\n  month =Aug \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-30",
-  "citation": "Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife (2021) .",
+  "citation": "Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. (2021). Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife, 10. CLOCKSS.",
   "year_group": "2021",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://elifesciences.org/articles/64431",
-  "paper_url": "https://elifesciences.org/articles/64431",
+  "doi": "https://doi.org/10.7554/elife.64431",
+  "paper_url": "https://doi.org/10.7554/elife.64431",
   "preprint_url": null,
   "code_url": "https://uvaauas.figshare.com/projects/Preserved_sensory_processing_but_hampered_conflict_detection_when_stimulus_input_is_task-irrelevant/115020",
-  "bibtex": "@article{nuiten2021_30,\n  author = {Nuiten, S},\n  title = {Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife (2021) .},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://elifesciences.org/articles/64431}\n}"
+  "bibtex": "@article{Nuiten_2021,\n  title ={Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant},\n  volume ={10},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.64431},\n  DOI ={10.7554/elife.64431},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Nuiten, Stijn Adriaan and Canales-Johnson, Andrés and Beerendonk, Lola and Nanuashvili, Nutsa and Fahrenfort, Johannes Jacobus and Bekinschtein, Tristan and van Gaal, Simon},\n  year ={2021},\n  month =June \n}"
 }

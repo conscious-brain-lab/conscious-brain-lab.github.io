@@ -1,13 +1,13 @@
 {
   "id": "pub-4",
-  "citation": "Nuiten, S.A., Oude Lohuis, M.N., Schaub, A.C., van Gaal, S., Olcese, U., Pennartz, C.M.A., Sterzer, P. de Gee, J.W. Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.​",
+  "citation": "Nuiten, S. A., Lohuis, M. O., Schaub, A. C., van Gaal, S., Olcese, U., Pennartz, C., Sterzer, P., & de Gee, J. W. (2026). Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.",
   "year_group": "Submitted or on Rxiv",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": null,
-  "paper_url": null,
+  "doi": "https://doi.org/10.64898/2026.02.05.704022",
+  "paper_url": "https://doi.org/10.64898/2026.02.05.704022",
   "preprint_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4",
   "code_url": null,
-  "bibtex": "@article{nuiten2024_4,\n  author = {Nuiten, S},\n  title = {Nuiten, S.A., Oude Lohuis, M.N., Schaub, A.C., van Gaal, S., Olcese, U., Pennartz, C.M.A., Sterzer, P. de Gee, J.W. Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.​},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4}\n}"
+  "bibtex": "@article{Nuiten_2026,\n  title ={Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state},\n  url ={http://dx.doi.org/10.64898/2026.02.05.704022},\n  DOI ={10.64898/2026.02.05.704022},\n  publisher ={openRxiv},\n  author ={Nuiten, Stijn A. and Lohuis, Matthijs Oude and Schaub, Anna Chiara and van Gaal, Simon and Olcese, Umberto and Pennartz, Cyriel and Sterzer, Philipp and de Gee, Jan Willem},\n  year ={2026},\n  month =Feb \n}"
 }

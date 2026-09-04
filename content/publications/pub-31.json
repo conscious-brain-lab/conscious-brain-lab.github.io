@@ -1,13 +1,13 @@
 {
   "id": "pub-31",
-  "citation": "Dijkstra, N., van Gaal, S., Geerlings, L., Bosch, S. & van Gerven, M. No evidence for neural overlap between unconsciously processed and imagined stimuli. eNeuro (2021)",
+  "citation": "Dijkstra, N., van Gaal, S., Geerligs, L., Bosch, S., & Gerven, M. (3 C.E.). <i>Overlap in externally and internally generated visual representations</i> (Version 1) [Dataset]. Radboud University.",
   "year_group": "2021",
   "topics": [
     "Consciousness"
   ],
   "doi": "https://doi.org/10.34973/j9yn-q419",
-  "paper_url": "https://www.eneuro.org/content/8/5/ENEURO.0228-21.2021",
+  "paper_url": "https://doi.org/10.34973/j9yn-q419",
   "preprint_url": null,
   "code_url": "https://github.com/NadineDijkstra/UPCPIMfinal",
-  "bibtex": "@article{dijkstra2021_31,\n  author = {Dijkstra, N},\n  title = {Dijkstra, N., van Gaal, S., Geerlings, L., Bosch, S. & van Gerven, M. No evidence for neural overlap between unconsciously processed and imagined stimuli. eNeuro (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.eneuro.org/content/8/5/ENEURO.0228-21.2021}\n}"
+  "bibtex": "@misc{https://doi.org/10.34973/j9yn-q419,\n  doi = {10.34973/J9YN-Q419},\n  url = {https://data.ru.nl/collections/di/dccn/DSC_3018030.03_435},\n  author = {Dijkstra, Nadine and van Gaal, Simon and Geerligs, Linda and Bosch, Sander and Gerven, Marcel},\n  keywords = {imagery},\n  language = {en},\n  title = {Overlap in externally and internally generated visual representations},\n  publisher = {Radboud University},\n  year = {2021},\n  copyright = {Restricted Access}\n\n}"
 }

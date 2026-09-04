@@ -1,13 +1,13 @@
 {
   "id": "pub-67",
-  "citation": "Boot, N., Baas, M., Mühlfeld, E., De Dreu, C.K.W. & van Gaal, S. Widespread neural oscillations in the delta band dissociate convergent from divergent thinking modes during creative idea generation, Neuropsychologia, 10, 8-17. (2017)",
+  "citation": "Boot, N., Baas, M., Mühlfeld, E., de Dreu, C. K. W., & van Gaal, S. (2017). Widespread neural oscillations in the delta band dissociate rule convergence from rule divergence during creative idea generation. Neuropsychologia, 104, 8–17.",
   "year_group": "2017",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S0028393217302865",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S0028393217302865",
+  "doi": "https://doi.org/10.1016/j.neuropsychologia.2017.07.033",
+  "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2017.07.033",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{boot2017_67,\n  author = {Boot, N},\n  title = {Boot, N., Baas, M., Mühlfeld, E., De Dreu, C.K.W. & van Gaal, S. Widespread neural oscillations in the delta band dissociate convergent from divergent thinking modes during creative idea generation, Neuropsychologia, 10, 8-17. (2017)},\n  year = {2017},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0028393217302865}\n}"
+  "bibtex": "@article{Boot_2017,\n  title ={Widespread neural oscillations in the delta band dissociate rule convergence from rule divergence during creative idea generation},\n  volume ={104},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2017.07.033},\n  DOI ={10.1016/j.neuropsychologia.2017.07.033},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={Boot, Nathalie and Baas, Matthijs and Mühlfeld, Elisabeth and de Dreu, Carsten K.W. and van Gaal, Simon},\n  year ={2017},\n  month =Sept,\n  pages ={8–17} \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-79",
-  "citation": "van Gaal, S., Naccache, L., Meuwese, J.D.I., van Loon, A.M., Leighton, A., Cohen, L., Dehaene, S. Can the meaning of multiple unconscious words be integrated unconsciously? Philosophical Transactions of the Royal Society: B. (DOI: 10.1098/rstb.2013.0212) (2014)",
+  "citation": "van Gaal, S., Naccache, L., Meuwese, J. D. I., van Loon, A. M., Leighton, A. H., Cohen, L., & Dehaene, S. (2014). Can the meaning of multiple words be integrated unconsciously? Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1641), 20130212.",
   "year_group": "2014",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0212",
-  "paper_url": "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0212",
+  "doi": "https://doi.org/10.1098/rstb.2013.0212",
+  "paper_url": "https://doi.org/10.1098/rstb.2013.0212",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2014_79,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Naccache, L., Meuwese, J.D.I., van Loon, A.M., Leighton, A., Cohen, L., Dehaene, S. Can the meaning of multiple unconscious words be integrated unconsciously? Philosophical Transactions of the Royal Society: B. (DOI: 10.1098/rstb.2013.0212) (2014)},\n  year = {2014},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://royalsocietypublishing.org/doi/full/10.1098/rstb.2013.0212}\n}"
+  "bibtex": "@article{van_Gaal_2014,\n  title ={Can the meaning of multiple words be integrated unconsciously?},\n  volume ={369},\n  ISSN ={1471-2970},\n  url ={http://dx.doi.org/10.1098/rstb.2013.0212},\n  DOI ={10.1098/rstb.2013.0212},\n  number ={1641},\n  journal ={Philosophical Transactions of the Royal Society B: Biological Sciences},\n  publisher ={The Royal Society},\n  author ={van Gaal, Simon and Naccache, Lionel and Meuwese, Julia D. I. and van Loon, Anouk M. and Leighton, Alexandra H. and Cohen, Laurent and Dehaene, Stanislas},\n  year ={2014},\n  month =May,\n  pages ={20130212} \n}"
 }

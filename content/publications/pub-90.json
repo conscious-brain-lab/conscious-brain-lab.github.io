@@ -1,14 +1,14 @@
 {
   "id": "pub-90",
-  "citation": "de Lange, F.P*., van Gaal, S.*, Lamme, V.A.F., Dehaene, S. (2011) How awareness changes the relative weights of evidence during human decision making. PLoS Biology. 9(11): e1001203. doi:10.1371/journal.pbio.1001203 .",
+  "citation": "de Lange, F. P., van Gaal, S., Lamme, V. A. F., & Dehaene, S. (2011). How Awareness Changes the Relative Weights of Evidence During Human Decision-Making. PLoS Biology, 9(11), e1001203.",
   "year_group": "2011",
   "topics": [
     "Consciousness",
     "Decision Making"
   ],
-  "doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222633/",
-  "paper_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222633/",
+  "doi": "https://doi.org/10.1371/journal.pbio.1001203",
+  "paper_url": "https://doi.org/10.1371/journal.pbio.1001203",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{de2011_90,\n  author = {de Lange, F},\n  title = {de Lange, F.P*., van Gaal, S.*, Lamme, V.A.F., Dehaene, S. (2011) How awareness changes the relative weights of evidence during human decision making. PLoS Biology. 9(11): e1001203. doi:10.1371/journal.pbio.1001203 .},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222633/}\n}"
+  "bibtex": "@article{de_Lange_2011,\n  title ={How Awareness Changes the Relative Weights of Evidence During Human Decision-Making},\n  volume ={9},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.1001203},\n  DOI ={10.1371/journal.pbio.1001203},\n  number ={11},\n  journal ={PLoS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={de Lange, Floris P. and van Gaal, Simon and Lamme, Victor A. F. and Dehaene, Stanislas},\n  editor ={Posner, Michael},\n  year ={2011},\n  month =Nov,\n  pages ={e1001203} \n}"
 }

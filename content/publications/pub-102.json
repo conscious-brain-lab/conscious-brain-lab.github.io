@@ -1,14 +1,14 @@
 {
   "id": "pub-102",
-  "citation": "van Gaal, S., Ridderinkhof, K.R., Fahrenfort, J.J., Scholte, H.S., & Lamme, V.A.F. Frontal cortex mediates unconsciously triggered inhibitory control. Journal of Neuroscience, 28, 2008, 8053-8062.",
+  "citation": "van Gaal, S., Ridderinkhof, K. R., Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2008). Frontal Cortex Mediates Unconsciously Triggered Inhibitory Control. The Journal of Neuroscience, 28(32), 8053–8062.",
   "year_group": "2008",
   "topics": [
     "Consciousness",
     "Cognitive Control"
   ],
-  "doi": "http://www.jneurosci.org/content/28/32/8053",
-  "paper_url": "http://www.jneurosci.org/content/28/32/8053",
+  "doi": "https://doi.org/10.1523/jneurosci.1278-08.2008",
+  "paper_url": "https://doi.org/10.1523/jneurosci.1278-08.2008",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2008_102,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Ridderinkhof, K.R., Fahrenfort, J.J., Scholte, H.S., & Lamme, V.A.F. Frontal cortex mediates unconsciously triggered inhibitory control. Journal of Neuroscience, 28, 2008, 8053-8062.},\n  year = {2008},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://www.jneurosci.org/content/28/32/8053}\n}"
+  "bibtex": "@article{van_Gaal_2008,\n  title ={Frontal Cortex Mediates Unconsciously Triggered Inhibitory Control},\n  volume ={28},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1278-08.2008},\n  DOI ={10.1523/jneurosci.1278-08.2008},\n  number ={32},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and Fahrenfort, Johannes J. and Scholte, H. Steven and Lamme, Victor A. F.},\n  year ={2008},\n  month =Aug,\n  pages ={8053–8062} \n}"
 }

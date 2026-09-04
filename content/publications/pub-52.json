@@ -1,13 +1,13 @@
 {
   "id": "pub-52",
-  "citation": "Alilović, J., Timmermans, B. Reteig, L.C. van Gaal, S., & Slagter, H.A. No evidence that predictions and attention modulate the first feedforward sweep of cortical information processing. Cerebral Cortex (2019).",
+  "citation": "Alilović, J., Timmermans, B., Reteig, L. C., van Gaal, S., & Slagter, H. A. (2019). No Evidence that Predictions and Attention Modulate the First Feedforward Sweep of Cortical Information Processing. Cerebral Cortex, 29(5), 2261–2278.",
   "year_group": "2019",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": null,
-  "paper_url": null,
+  "doi": "https://doi.org/10.1093/cercor/bhz038",
+  "paper_url": "https://doi.org/10.1093/cercor/bhz038",
   "preprint_url": "https://osf.io/dkmwn/",
   "code_url": null,
-  "bibtex": "@article{alilović2019_52,\n  author = {Alilović, J},\n  title = {Alilović, J., Timmermans, B. Reteig, L.C. van Gaal, S., & Slagter, H.A. No evidence that predictions and attention modulate the first feedforward sweep of cortical information processing. Cerebral Cortex (2019).},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/dkmwn/}\n}"
+  "bibtex": "@article{Alilovi__2019,\n  title ={No Evidence that Predictions and Attention Modulate the First Feedforward Sweep of Cortical Information Processing},\n  volume ={29},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhz038},\n  DOI ={10.1093/cercor/bhz038},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Alilović, Josipa and Timmermans, Bart and Reteig, Leon C and van Gaal, Simon and Slagter, Heleen A},\n  year ={2019},\n  month =Mar,\n  pages ={2261–2278} \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-39",
-  "citation": "Munneke, J., * Fahrenfort, JJ. *, Sutterer, D., Theeuwes, J., Awh, E. Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage (2021) (*shared first authors)",
+  "citation": "Munneke, J., Fahrenfort, J. J., Sutterer, D., Theeuwes, J., & Awh, E. (2021). Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage, 226, 117562.",
   "year_group": "2021",
   "topics": [
     "EEG"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S1053811920310478",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811920310478",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2020.117562",
+  "paper_url": "https://doi.org/10.1016/j.neuroimage.2020.117562",
   "preprint_url": "https://osf.io/g2c5y/",
   "code_url": null,
-  "bibtex": "@article{munneke2021_39,\n  author = {Munneke, J},\n  title = {Munneke, J., * Fahrenfort, JJ. *, Sutterer, D., Theeuwes, J., Awh, E. Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage (2021) (*shared first authors)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811920310478}\n}"
+  "bibtex": "@article{Munneke_2021,\n  title ={Multivariate analysis of EEG activity indexes contingent attentional capture},\n  volume ={226},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2020.117562},\n  DOI ={10.1016/j.neuroimage.2020.117562},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Munneke, Jaap and Fahrenfort, Johannes Jacobus and Sutterer, David and Theeuwes, Jan and Awh, Edward},\n  year ={2021},\n  month =Feb,\n  pages ={117562} \n}"
 }

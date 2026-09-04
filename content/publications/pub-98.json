@@ -1,13 +1,13 @@
 {
   "id": "pub-98",
-  "citation": "van Gaal, S., Ridderinkhof, K.R., Scholte, H.S., & Lamme, V.A.F. (2010) Unconscious activation of the prefrontal No-Go network. Journal of Neuroscience, 30, 4143-4150.",
+  "citation": "van Gaal, S., Ridderinkhof, K. R., Scholte, H. S., & Lamme, V. A. F. (2010). Unconscious Activation of the Prefrontal No-Go Network. The Journal of Neuroscience, 30(11), 4143–4150.",
   "year_group": "2010",
   "topics": [
     "Consciousness"
   ],
-  "doi": "http://www.jneurosci.org/content/30/11/4143",
-  "paper_url": "http://www.jneurosci.org/content/30/11/4143",
+  "doi": "https://doi.org/10.1523/jneurosci.2992-09.2010",
+  "paper_url": "https://doi.org/10.1523/jneurosci.2992-09.2010",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2010_98,\n  author = {van Gaal, S},\n  title = {van Gaal, S., Ridderinkhof, K.R., Scholte, H.S., & Lamme, V.A.F. (2010) Unconscious activation of the prefrontal No-Go network. Journal of Neuroscience, 30, 4143-4150.},\n  year = {2010},\n  journal = {Conscious Brain Lab Publications},\n  url = {http://www.jneurosci.org/content/30/11/4143}\n}"
+  "bibtex": "@article{van_Gaal_2010,\n  title ={Unconscious Activation of the Prefrontal No-Go Network},\n  volume ={30},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2992-09.2010},\n  DOI ={10.1523/jneurosci.2992-09.2010},\n  number ={11},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and Scholte, H. Steven and Lamme, Victor A. F.},\n  year ={2010},\n  month =Mar,\n  pages ={4143–4150} \n}"
 }

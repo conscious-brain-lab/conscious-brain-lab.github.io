@@ -1,13 +1,13 @@
 {
   "id": "pub-58",
-  "citation": "van Driel, J., Ort, E., Fahrenfort, JJ., Olivers, CNL. Beta and theta oscillations differentially support free versus forced control over multiple-target search. Journal of Neuroscience (2019)",
+  "citation": "van Driel, J., Ort, E., Fahrenfort, J. J., & Olivers, C. N. L. (2019). Beta and theta oscillations differentially support free versus forced control over multiple-target search. The Journal of Neuroscience, 2547–2518.",
   "year_group": "2019",
   "topics": [
     "Cognitive Control"
   ],
-  "doi": "https://www.jneurosci.org/content/39/9/1733.full",
-  "paper_url": "https://www.jneurosci.org/content/39/9/1733.full",
+  "doi": "https://doi.org/10.1523/jneurosci.2547-18.2018",
+  "paper_url": "https://doi.org/10.1523/jneurosci.2547-18.2018",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2019_58,\n  author = {van Driel, J},\n  title = {van Driel, J., Ort, E., Fahrenfort, JJ., Olivers, CNL. Beta and theta oscillations differentially support free versus forced control over multiple-target search. Journal of Neuroscience (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/39/9/1733.full}\n}"
+  "bibtex": "@article{van_Driel_2019,\n  title ={Beta and theta oscillations differentially support free versus forced control over multiple-target search},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2547-18.2018},\n  DOI ={10.1523/jneurosci.2547-18.2018},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Driel, Joram and Ort, Eduard and Fahrenfort, Johannes J. and Olivers, Christian N. L.},\n  year ={2019},\n  month =Jan,\n  pages ={2547–18} \n}"
 }

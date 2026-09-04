@@ -1,13 +1,13 @@
 {
   "id": "pub-19",
-  "citation": "Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Fahrenfort, JJ. van Gaal, S. A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences of the United States of America (2024) .",
+  "citation": "Beerendonk, L., Mejías, J. F., Nuiten, S. A., de Gee, J. W., Fahrenfort, J. J., & van Gaal, S. (2024). A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences, 121(5).",
   "year_group": "2024",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://www.pnas.org/doi/abs/10.1073/pnas.2312898121",
-  "paper_url": "https://www.pnas.org/doi/abs/10.1073/pnas.2312898121",
+  "doi": "https://doi.org/10.1073/pnas.2312898121",
+  "paper_url": "https://doi.org/10.1073/pnas.2312898121",
   "preprint_url": "https://osf.io/fcext/",
   "code_url": null,
-  "bibtex": "@article{beerendonk2024_19,\n  author = {Beerendonk, L},\n  title = {Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Fahrenfort, JJ. van Gaal, S. A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences of the United States of America (2024) .},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/abs/10.1073/pnas.2312898121}\n}"
+  "bibtex": "@article{Beerendonk_2024,\n  title ={A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal},\n  volume ={121},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2312898121},\n  DOI ={10.1073/pnas.2312898121},\n  number ={5},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2024},\n  month =Jan \n}"
 }

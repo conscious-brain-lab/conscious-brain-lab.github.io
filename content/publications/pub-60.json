@@ -1,13 +1,13 @@
 {
   "id": "pub-60",
-  "citation": "Meijs, E., Klaassen, F., Bokeria, L., van Gaal, S., de Lange, F. Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science (2018)",
+  "citation": "Meijs, E. L., Klaassen, F. H., Bokeria, L., van Gaal, S., & de Lange, F. P. (2018). Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science, 5(10), 180524.",
   "year_group": "2018",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://royalsocietypublishing.org/doi/full/10.1098/rsos.180524",
-  "paper_url": "https://royalsocietypublishing.org/doi/full/10.1098/rsos.180524",
+  "doi": "https://doi.org/10.1098/rsos.180524",
+  "paper_url": "https://doi.org/10.1098/rsos.180524",
   "preprint_url": null,
   "code_url": "https://data.donders.ru.nl/collections/di/dccn/DSC_3018012.14_675?4",
-  "bibtex": "@article{meijs2018_60,\n  author = {Meijs, E},\n  title = {Meijs, E., Klaassen, F., Bokeria, L., van Gaal, S., de Lange, F. Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science (2018)},\n  year = {2018},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://royalsocietypublishing.org/doi/full/10.1098/rsos.180524}\n}"
+  "bibtex": "@article{Meijs_2018,\n  title ={Cue predictability does not modulate bottom-up attentional capture},\n  volume ={5},\n  ISSN ={2054-5703},\n  url ={http://dx.doi.org/10.1098/rsos.180524},\n  DOI ={10.1098/rsos.180524},\n  number ={10},\n  journal ={Royal Society Open Science},\n  publisher ={The Royal Society},\n  author ={Meijs, Erik L. and Klaassen, Felix H. and Bokeria, Levan and van Gaal, Simon and de Lange, Floris P.},\n  year ={2018},\n  month =Oct,\n  pages ={180524} \n}"
 }

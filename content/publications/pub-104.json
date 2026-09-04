@@ -1,13 +1,13 @@
 {
   "id": "pub-104",
-  "citation": "Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. Masking disrupts reentrant processing in human visual cortex. Journal of Cognitive Neuroscience (2007)",
+  "citation": "Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2007). Masking Disrupts Reentrant Processing in Human Visual Cortex. Journal of Cognitive Neuroscience, 19(9), 1488–1497.",
   "year_group": "2007",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human",
-  "paper_url": "https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human",
+  "doi": "https://doi.org/10.1162/jocn.2007.19.9.1488",
+  "paper_url": "https://doi.org/10.1162/jocn.2007.19.9.1488",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{fahrenfort2007_104,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. Masking disrupts reentrant processing in human visual cortex. Journal of Cognitive Neuroscience (2007)},\n  year = {2007},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://direct.mit.edu/jocn/article/19/9/1488/4430/Masking-Disrupts-Reentrant-Processing-in-Human}\n}"
+  "bibtex": "@article{Fahrenfort_2007,\n  title ={Masking Disrupts Reentrant Processing in Human Visual Cortex},\n  volume ={19},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2007.19.9.1488},\n  DOI ={10.1162/jocn.2007.19.9.1488},\n  number ={9},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Fahrenfort, J. J. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2007},\n  month =Sept,\n  pages ={1488–1497} \n}"
 }

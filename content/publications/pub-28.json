@@ -1,13 +1,13 @@
 {
   "id": "pub-28",
-  "citation": "Overbeek, B., Lavrijsen, J., van Gaal, S., Kondziella, D., Eilander, H., Koopmans, R. Clinical significance of visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi Study. Journal of Neurology (2022)",
+  "citation": "Overbeek, B. U. H., Lavrijsen, J. C. M., van Gaal, S., Kondziella, D., Eilander, H. J., & Koopmans, R. T. C. M. (2022). Towards consensus on visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi study. Journal of Neurology, 269(6), 3204–3215.",
   "year_group": "2024",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://link.springer.com/article/10.1007/s00415-021-10905-y",
-  "paper_url": "https://link.springer.com/article/10.1007/s00415-021-10905-y",
+  "doi": "https://doi.org/10.1007/s00415-021-10905-y",
+  "paper_url": "https://doi.org/10.1007/s00415-021-10905-y",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{overbeek2022_28,\n  author = {Overbeek, B},\n  title = {Overbeek, B., Lavrijsen, J., van Gaal, S., Kondziella, D., Eilander, H., Koopmans, R. Clinical significance of visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi Study. Journal of Neurology (2022)},\n  year = {2022},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://link.springer.com/article/10.1007/s00415-021-10905-y}\n}"
+  "bibtex": "@article{Overbeek_2022,\n  title ={Towards consensus on visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi study},\n  volume ={269},\n  ISSN ={1432-1459},\n  url ={http://dx.doi.org/10.1007/s00415-021-10905-y},\n  DOI ={10.1007/s00415-021-10905-y},\n  number ={6},\n  journal ={Journal of Neurology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Overbeek, Berno U. H. and Lavrijsen, Jan C. M. and van Gaal, Simon and Kondziella, Daniel and Eilander, Henk J. and Koopmans, Raymond T. C. M.},\n  year ={2022},\n  month =Jan,\n  pages ={3204–3215} \n}"
 }

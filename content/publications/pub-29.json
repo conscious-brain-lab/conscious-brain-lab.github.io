@@ -1,6 +1,6 @@
 {
   "id": "pub-29",
-  "citation": "Fong, CY., Law, WHC., Fahrenfort, JJ., Braithwaite, JJ., Mazaheri, A. Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain (2022)",
+  "citation": "Fong, C. Y., Law, W. H. C., Fahrenfort, J. J., Braithwaite, J. J., & Mazaheri, A. (2022). Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain, 23(1).",
   "year_group": "2024",
   "topics": [
     "Cognitive Neuroscience"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.1186/s10194-022-01410-2",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{fong2022_29,\n  author = {Fong, CY},\n  title = {Fong, CY., Law, WHC., Fahrenfort, JJ., Braithwaite, JJ., Mazaheri, A. Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain (2022)},\n  year = {2022},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1186/s10194-022-01410-2}\n}"
+  "bibtex": "@article{Fong_2022,\n  title ={Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs},\n  volume ={23},\n  ISSN ={1129-2377},\n  url ={http://dx.doi.org/10.1186/s10194-022-01410-2},\n  DOI ={10.1186/s10194-022-01410-2},\n  number ={1},\n  journal ={The Journal of Headache and Pain},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Fong, Chun Yuen and Law, Wai Him Crystal and Fahrenfort, Johannes Jacobus and Braithwaite, Jason J. and Mazaheri, Ali},\n  year ={2022},\n  month =Apr \n}"
 }

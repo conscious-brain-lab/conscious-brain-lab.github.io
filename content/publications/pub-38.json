@@ -1,13 +1,13 @@
 {
   "id": "pub-38",
-  "citation": "van Driel, J., Olivers, CNL., Fahrenfort, JJ. High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods (2021)",
+  "citation": "van Driel, J., Olivers, C. N. L., & Fahrenfort, J. J. (2021). High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods, 352, 109080.",
   "year_group": "2021",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S0165027021000157",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S0165027021000157",
+  "doi": "https://doi.org/10.1016/j.jneumeth.2021.109080",
+  "paper_url": "https://doi.org/10.1016/j.jneumeth.2021.109080",
   "preprint_url": "https://osf.io/t9rkz/",
   "code_url": null,
-  "bibtex": "@article{van2021_38,\n  author = {van Driel, J},\n  title = {van Driel, J., Olivers, CNL., Fahrenfort, JJ. High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods (2021)},\n  year = {2021},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0165027021000157}\n}"
+  "bibtex": "@article{van_Driel_2021,\n  title ={High-pass filtering artifacts in multivariate classification of neural time series data},\n  volume ={352},\n  ISSN ={0165-0270},\n  url ={http://dx.doi.org/10.1016/j.jneumeth.2021.109080},\n  DOI ={10.1016/j.jneumeth.2021.109080},\n  journal ={Journal of Neuroscience Methods},\n  publisher ={Elsevier BV},\n  author ={van Driel, Joram and Olivers, Christian N.L. and Fahrenfort, Johannes J.},\n  year ={2021},\n  month =Mar,\n  pages ={109080} \n}"
 }

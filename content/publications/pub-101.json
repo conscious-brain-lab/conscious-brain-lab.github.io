@@ -1,6 +1,6 @@
 {
   "id": "pub-101",
-  "citation": "Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision (2008)",
+  "citation": "Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2008). The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision, 8(1), 12.",
   "year_group": "2008",
   "topics": [
     "Cognitive Neuroscience"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.1167/8.1.12",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{fahrenfort2008_101,\n  author = {Fahrenfort, J},\n  title = {Fahrenfort, J.J., Scholte, H.S., Lamme, V.A.F. The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision (2008)},\n  year = {2008},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.1167/8.1.12}\n}"
+  "bibtex": "@article{Fahrenfort_2008,\n  title ={The spatiotemporal profile of cortical processing leading up to visual perception},\n  volume ={8},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/8.1.12},\n  DOI ={10.1167/8.1.12},\n  number ={1},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Fahrenfort, J. J. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2008},\n  month =Jan,\n  pages ={12} \n}"
 }

@@ -1,13 +1,13 @@
 {
   "id": "pub-9",
-  "citation": "Fahrenfort, JJ, van Gaal, S. & T Stein. Subjective and objective approaches in the study of conscious perception (book chapter to appear in 2026)",
+  "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception.",
   "year_group": "2026",
   "topics": [
     "Consciousness"
   ],
-  "doi": null,
-  "paper_url": null,
+  "doi": "https://doi.org/10.31234/osf.io/2pk5j_v1",
+  "paper_url": "https://doi.org/10.31234/osf.io/2pk5j_v1",
   "preprint_url": "https://osf.io/preprints/psyarxiv/2pk5j_v1",
   "code_url": null,
-  "bibtex": "@article{fahrenfort2026_9,\n  author = {Fahrenfort, JJ, van Gaal, S},\n  title = {Fahrenfort, JJ, van Gaal, S. & T Stein. Subjective and objective approaches in the study of conscious perception (book chapter to appear in 2026)},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/preprints/psyarxiv/2pk5j_v1}\n}"
+  "bibtex": "@article{Fahrenfort_2025,\n  title ={Subjective and objective approaches in the study of conscious perception},\n  url ={http://dx.doi.org/10.31234/osf.io/2pk5j_v1},\n  DOI ={10.31234/osf.io/2pk5j_v1},\n  publisher ={Center for Open Science},\n  author ={Fahrenfort, Johannes Jacobus and van Gaal, Simon and Stein, Timo},\n  year ={2025},\n  month =Oct \n}"
 }

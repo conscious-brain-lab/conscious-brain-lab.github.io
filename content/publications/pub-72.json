@@ -1,13 +1,13 @@
 {
   "id": "pub-72",
-  "citation": "Francken, J .C., Meijs, E.L., Ridderinkhof, O., Hagoort, P., de Lange, F.P., van Gaal, S. Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness. (2015).",
+  "citation": "Francken, J. C., Meijs, E. L., Ridderinkhof, O. M., Hagoort, P., de Lange, F. P., & van Gaal, S. (2015). Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness, 2015(1), niv003.",
   "year_group": "2015",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://academic.oup.com/nc/article/2015/1/niv003/2757111",
-  "paper_url": "https://academic.oup.com/nc/article/2015/1/niv003/2757111",
+  "doi": "https://doi.org/10.1093/nc/niv003",
+  "paper_url": "https://doi.org/10.1093/nc/niv003",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{francken2015_72,\n  author = {Francken, J },\n  title = {Francken, J .C., Meijs, E.L., Ridderinkhof, O., Hagoort, P., de Lange, F.P., van Gaal, S. Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness. (2015).},\n  year = {2015},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://academic.oup.com/nc/article/2015/1/niv003/2757111}\n}"
+  "bibtex": "@article{Francken_2015,\n  title ={Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions},\n  volume ={2015},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niv003},\n  DOI ={10.1093/nc/niv003},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Francken, Jolien C. and Meijs, Erik L. and Ridderinkhof, Odile M. and Hagoort, Peter and de Lange, Floris P. and van Gaal, Simon},\n  year ={2015},\n  pages ={niv003} \n}"
 }

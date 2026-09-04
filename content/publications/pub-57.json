@@ -1,13 +1,13 @@
 {
   "id": "pub-57",
-  "citation": "van den Boomen, C., Fahrenfort, JJ ., Snijders, TM., Kemner, C. Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia (2019)",
+  "citation": "van den Boomen, C., Fahrenfort, J. J., Snijders, T. M., & Kemner, C. (2019). Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia, 127, 1–8.",
   "year_group": "2019",
   "topics": [
     "Cognitive Neuroscience"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S0028393219300302",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S0028393219300302",
+  "doi": "https://doi.org/10.1016/j.neuropsychologia.2019.02.005",
+  "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2019.02.005",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van2019_57,\n  author = {van den Boomen, C},\n  title = {van den Boomen, C., Fahrenfort, JJ ., Snijders, TM., Kemner, C. Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S0028393219300302}\n}"
+  "bibtex": "@article{van_den_Boomen_2019,\n  title ={Slow segmentation of faces in Autism Spectrum Disorder},\n  volume ={127},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2019.02.005},\n  DOI ={10.1016/j.neuropsychologia.2019.02.005},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={van den Boomen, C. and Fahrenfort, J.J. and Snijders, T.M. and Kemner, C.},\n  year ={2019},\n  month =Apr,\n  pages ={1–8} \n}"
 }

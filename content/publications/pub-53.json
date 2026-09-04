@@ -1,13 +1,13 @@
 {
   "id": "pub-53",
-  "citation": "Weaver, M.D. Fahrenfort, J.J., Belopolsky, A. van Gaal, S. Independent neural activity patterns for sensory- and confidence-based information maintenance during category-selective visual processing, eNeuro. (2019) 6(1) e0268-18.2018 1–13",
+  "citation": "Weaver, M. D., Fahrenfort, J. J., Belopolsky, A., & van Gaal, S. (2019). Independent Neural Activity Patterns for Sensory- and Confidence-Based Information Maintenance during Category-Selective Visual Processing. Eneuro, 6(1), ENEURO.",
   "year_group": "2019",
   "topics": [
     "Decision Making"
   ],
-  "doi": null,
-  "paper_url": null,
+  "doi": "https://doi.org/10.1523/eneuro.0268-18.2018",
+  "paper_url": "https://doi.org/10.1523/eneuro.0268-18.2018",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{weaver2019_53,\n  author = {Weaver, M},\n  title = {Weaver, M.D. Fahrenfort, J.J., Belopolsky, A. van Gaal, S. Independent neural activity patterns for sensory- and confidence-based information maintenance during category-selective visual processing, eNeuro. (2019) 6(1) e0268-18.2018 1–13},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.consciousbrainlab.com/publications}\n}"
+  "bibtex": "@article{Weaver_2019,\n  title ={Independent Neural Activity Patterns for Sensory- and Confidence-Based Information Maintenance during Category-Selective Visual Processing},\n  volume ={6},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0268-18.2018},\n  DOI ={10.1523/eneuro.0268-18.2018},\n  number ={1},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Weaver, Matthew D. and Fahrenfort, Johannes J. and Belopolsky, Artem and van Gaal, Simon},\n  year ={2019},\n  month =Jan,\n  pages ={ENEURO.0268–18.2018} \n}"
 }

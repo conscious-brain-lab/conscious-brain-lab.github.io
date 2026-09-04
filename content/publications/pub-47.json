@@ -1,6 +1,6 @@
 {
   "id": "pub-47",
-  "citation": "Kloosterman, NA., de Gee, JW., Werkle-Bergner, M., Lindenberger, U., Garrett, DD., Fahrenfort, JJ. Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife (2019)",
+  "citation": "Kloosterman, N. A., de Gee, J. W., Werkle-Bergner, M., Lindenberger, U., Garrett, D. D., & Fahrenfort, J. J. (2019). Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife, 8. CLOCKSS.",
   "year_group": "2019",
   "topics": [
     "Decision Making"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.7554/eLife.37321",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{kloosterman2019_47,\n  author = {Kloosterman, NA},\n  title = {Kloosterman, NA., de Gee, JW., Werkle-Bergner, M., Lindenberger, U., Garrett, DD., Fahrenfort, JJ. Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife (2019)},\n  year = {2019},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://doi.org/10.7554/eLife.37321}\n}"
+  "bibtex": "@article{Kloosterman_2019,\n  title ={Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation},\n  volume ={8},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.37321},\n  DOI ={10.7554/elife.37321},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Kloosterman, Niels A and de Gee, Jan Willem and Werkle-Bergner, Markus and Lindenberger, Ulman and Garrett, Douglas D and Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  month =Feb \n}"
 }

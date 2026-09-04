@@ -1,13 +1,13 @@
 {
   "id": "pub-94",
-  "citation": "Weeda, W.D., Waldorp, L., Grasman, R.P.P.P., van Gaal, S., & Huizenga, H.M. (2011) Functional connectivity analysis of fMRI data using parameterized regions of interest. Neuroimage. 54(1), 410-416.",
+  "citation": "Weeda, W. D., Waldorp, L. J., Grasman, R. P. P. P., van Gaal, S., & Huizenga, H. M. (2011). Functional connectivity analysis of fMRI data using parameterized regions-of-interest. NeuroImage, 54(1), 410–416.",
   "year_group": "2011",
   "topics": [
     "fMRI"
   ],
-  "doi": "https://www.sciencedirect.com/science/article/pii/S1053811910009730",
-  "paper_url": "https://www.sciencedirect.com/science/article/pii/S1053811910009730",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2010.07.022",
+  "paper_url": "https://doi.org/10.1016/j.neuroimage.2010.07.022",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{weeda2011_94,\n  author = {Weeda, W},\n  title = {Weeda, W.D., Waldorp, L., Grasman, R.P.P.P., van Gaal, S., & Huizenga, H.M. (2011) Functional connectivity analysis of fMRI data using parameterized regions of interest. Neuroimage. 54(1), 410-416.},\n  year = {2011},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.sciencedirect.com/science/article/pii/S1053811910009730}\n}"
+  "bibtex": "@article{Weeda_2011,\n  title ={Functional connectivity analysis of fMRI data using parameterized regions-of-interest},\n  volume ={54},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2010.07.022},\n  DOI ={10.1016/j.neuroimage.2010.07.022},\n  number ={1},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Weeda, Wouter D. and Waldorp, Lourens J. and Grasman, Raoul P.P.P. and van Gaal, Simon and Huizenga, Hilde M.},\n  year ={2011},\n  month =Jan,\n  pages ={410–416} \n}"
 }
