@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
   
   <!-- Decap CMS Config with Cache Busting -->
-  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_single_sec_year" />
+  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_year_dropdown" />
 
   <!-- Cropper.js for Client-Side Crop & Resize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
@@ -379,6 +379,20 @@
       // 1. REACT INPUT HELPER
       // -------------------------------------------------------------
       function setReactInputValue(input, value) {
+        if (!input) return;
+        if (input instanceof HTMLSelectElement || input.tagName === 'SELECT') {
+          input.value = value;
+          for (let i = 0; i < input.options.length; i++) {
+            if (input.options[i].value === value || input.options[i].text === value) {
+              input.selectedIndex = i;
+              break;
+            }
+          }
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          input.dispatchEvent(new Event('change', { bubbles: true }));
+          return;
+        }
+
         const prototype = input instanceof HTMLTextAreaElement 
           ? window.HTMLTextAreaElement.prototype 
           : window.HTMLInputElement.prototype;
@@ -499,7 +513,7 @@
           const paperUrl = paperUrlInput ? paperUrlInput.value.trim() : '';
           const citationEl = document.querySelector('textarea[id*="citation"], input[id*="citation"]');
           const bibtexArea = document.querySelector('textarea[id*="bibtex"], textarea[name*="bibtex"]');
-          const sectionEl = document.querySelector('input[id*="year_group"], input[name*="year_group"]');
+          const sectionEl = document.querySelector('select[id*="year_group"], select[name*="year_group"], input[id*="year_group"], input[name*="year_group"], [id*="year_group"] select, [id*="year_group"] input');
 
           const doiMatch = paperUrl.match(/(10\.\d{4,9}\/[-._;()/:A-Za-z0-9]+)/i);
 
@@ -554,13 +568,13 @@
             }
           }
 
-          // 4. Populate Section / Year
+          // 4. Populate Year / Section
           if (sectionEl && data.year) {
             const curVal = (sectionEl.value || '').trim();
             // If empty, default 2026, or purely a 4-digit year, update to DOI year
             if (!curVal || curVal === '2026' || /^\d{4}$/.test(curVal)) {
               setReactInputValue(sectionEl, data.year);
-              updatedFields.push('Section / Year');
+              updatedFields.push('Year / Section');
             }
           }
 

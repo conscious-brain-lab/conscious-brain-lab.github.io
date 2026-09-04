@@ -43,8 +43,33 @@ collections:
     fields:
       - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false, hint: "Paste a DOI (e.g. 10.3389/neuro.09.054.2009 or https://doi.org/...), then click 'Auto-fetch' below to populate Citation, Section / Year & BibTeX." }
       - { label: "ID", name: "id", widget: "string" }
-      - { label: "Full Citation Text", name: "citation", widget: "text" }
-      - { label: "Section / Year", name: "year_group", widget: "string", default: "2026", hint: "E.g. '2026', '2025', or 'Submitted or on Rxiv'. Determines the section heading on the website." }
+      - label: "Year / Section"
+        name: "year_group"
+        widget: "select"
+        default: "2026"
+        options:
+          - "Submitted or on Rxiv"
+          - "2026"
+          - "2025"
+          - "2024"
+          - "2023"
+          - "2022"
+          - "2021"
+          - "2020"
+          - "2019"
+          - "2018"
+          - "2017"
+          - "2016"
+          - "2015"
+          - "2014"
+          - "2013"
+          - "2012"
+          - "2011"
+          - "2010"
+          - "2009"
+          - "2008"
+          - "2007"
+        hint: "Select 'Submitted or on Rxiv' or the publication year."
       - label: "Research Topics"
         name: "topics"
         widget: "relation"
