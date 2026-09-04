@@ -36,8 +36,9 @@ collections:
     format: "json"
     slug: "{{id}}"
     identifier_field: "citation"
-    summary: "({{fields.year}}) {{fields.citation}}"
+    summary: "({{fields.year_group}}) {{fields.citation}}"
     sortable_fields:
+      - 'year_group'
       - 'year'
       - 'citation'
     fields:

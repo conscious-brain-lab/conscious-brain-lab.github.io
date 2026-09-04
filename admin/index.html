@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
   
   <!-- Decap CMS Config with Cache Busting -->
-  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_clean_cit" />
+  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_rxiv_top" />
 
   <!-- Cropper.js for Client-Side Crop & Resize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
@@ -880,6 +880,23 @@
 
       // Automatically keep publications in collection overview ordered identical to the live site
       let isSortingPublications = false;
+      const pubsDataMap = new Map();
+      async function initPubsData() {
+        try {
+          const res = await fetch('/data/publications.json');
+          if (res.ok) {
+            const data = await res.json();
+            data.forEach((p, idx) => {
+              if (p.id) pubsDataMap.set(p.id, { ...p, siteIndex: idx });
+            });
+            sortPublicationCardsInOverview();
+          }
+        } catch (e) {
+          // Fallback to text parsing
+        }
+      }
+      initPubsData();
+
       function sortPublicationCardsInOverview() {
         if (isSortingPublications) return;
         if (!window.location.hash.includes('/collections/publications')) return;
@@ -914,10 +931,30 @@
         if (!container || itemsToSort.length < 2) return;
 
         function getCardWeight(el) {
+          // Check by entry slug/id if present in href
+          const link = el.matches('a[href*="#/collections/publications/entries/"]') ? el : el.querySelector('a[href*="#/collections/publications/entries/"]');
+          if (link) {
+            const m = (link.getAttribute('href') || '').match(/entries\/([^/?#]+)/);
+            if (m && m[1]) {
+              const pubId = decodeURIComponent(m[1]);
+              if (pubsDataMap.has(pubId)) {
+                const pub = pubsDataMap.get(pubId);
+                const yg = (pub.year_group || '').toLowerCase();
+                const y = (pub.year || '').toLowerCase();
+                if (yg.includes('rxiv') || yg.includes('submitted') || yg.includes('preprint') || yg.includes('review') || y.includes('preprint') || y.includes('rxiv')) {
+                  return 9999;
+                }
+                const yr = parseInt(pub.year, 10);
+                if (!isNaN(yr)) return yr;
+              }
+            }
+          }
+
+          // Fallback to text inspection
           const text = (el.textContent || '').toLowerCase();
           const match = text.match(/^\s*\(([^)]+)\)/);
           const prefix = match ? match[1] : '';
-          if (prefix.includes('rxiv') || prefix.includes('submitted') || prefix.includes('preprint') || prefix.includes('review')) {
+          if (prefix.includes('rxiv') || prefix.includes('submitted') || prefix.includes('preprint') || prefix.includes('review') || text.includes('submitted or on rxiv') || text.includes('submitted') || text.includes('rxiv')) {
             return 9999;
           }
           const yrMatch = prefix.match(/\d{4}/) || text.match(/\b(19\d\d|20\d\d)\b/);

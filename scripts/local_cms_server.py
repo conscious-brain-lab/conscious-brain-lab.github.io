@@ -94,7 +94,7 @@ def sync_collections_to_data():
         def pub_sort_key(p):
             yg = str(p.get("year_group", ""))
             y = str(p.get("year", "0"))
-            if "preprint" in yg.lower() or "review" in yg.lower():
+            if "preprint" in yg.lower() or "review" in yg.lower() or "rxiv" in yg.lower() or "submitted" in yg.lower() or "preprint" in y.lower():
                 return (0, 9999)
             try:
                 return (1, -int(y))
