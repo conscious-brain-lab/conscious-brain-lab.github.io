@@ -1,11 +1,11 @@
 {
-  "name": "Johannes Fahrenfort",
-  "role": "Principal Investigator / Assistant Professor",
-  "status": "current",
-  "category": "pi",
-  "order": 2,
-  "slug": "johannes-fahrenfort",
-  "image": "/assets/images/johannes_fahrenfort.jpg",
   "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and the Brain and Cognition group at UvA. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
-  "link": "https://www.fahrenfort.com"
+  "name": "Johannes Fahrenfort",
+  "slug": "johannes-fahrenfort",
+  "order": 2,
+  "status": "current",
+  "role": "Principal Investigator / Assistant Professor",
+  "link": "https://research.vu.nl/en/persons/johannes-fahrenfort/",
+  "image": "/assets/images/johannes_fahrenfort.jpg",
+  "category": "pi"
 }

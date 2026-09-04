@@ -1,14 +1,14 @@
 {
-  "id": "pub-3",
-  "citation": "Sánchez-Fuenzalida, van Gaal, S., van den Hurk, Z., Sergent, C., N., Stein, T., Fahrenfort, J.J. Evidence for unconscious priming using a Bayesian single-subject approach.",
-  "year": "2024",
-  "year_group": "Submitted or on Rxiv",
   "topics": [
     "Consciousness"
   ],
-  "doi": "https://doi.org/10.17605/OSF.IO/3M6FU",
-  "paper_url": null,
+  "citation": "Sánchez-Fuenzalida, N., van Gaal, S., van den Hurk, Z., Stein, T., & Fahrenfort, J. J. (2026). Evidence for unconscious priming using a Bayesian single-subject approach. Neuroscience of Consciousness, 2026(1).",
+  "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={Evidence for unconscious priming using a Bayesian single-subject approach},\n  volume ={2026},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niag052},\n  DOI ={10.1093/nc/niag052},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and van den Hurk, Zazie and Stein, Timo and Fahrenfort, Johannes J},\n  year ={2026} \n}",
   "preprint_url": "https://osf.io/preprints/psyarxiv/xe345",
+  "id": "pub-3",
+  "paper_url": "https://doi.org/10.1093/nc/niag052",
   "code_url": "https://doi.org/10.17605/OSF.IO/3M6FU",
-  "bibtex": "@article{sánchez2024_3,\n  author = {Sánchez-Fuenzalida, van Gaal, S},\n  title = {Sánchez-Fuenzalida, van Gaal, S., van den Hurk, Z., Sergent, C., N., Stein, T., Fahrenfort, J.J. Evidence for unconscious priming using a Bayesian single-subject approach.},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/preprints/psyarxiv/xe345}\n}"
+  "year": "2026",
+  "year_group": "2026",
+  "doi": "https://doi.org/10.17605/OSF.IO/3M6FU"
 }

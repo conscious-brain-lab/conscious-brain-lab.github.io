@@ -1,10 +1,24 @@
 [
   {
     "topics": [
+      "Consciousness"
+    ],
+    "citation": "Sánchez-Fuenzalida, N., van Gaal, S., van den Hurk, Z., Stein, T., & Fahrenfort, J. J. (2026). Evidence for unconscious priming using a Bayesian single-subject approach. Neuroscience of Consciousness, 2026(1).",
+    "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={Evidence for unconscious priming using a Bayesian single-subject approach},\n  volume ={2026},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niag052},\n  DOI ={10.1093/nc/niag052},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and van den Hurk, Zazie and Stein, Timo and Fahrenfort, Johannes J},\n  year ={2026} \n}",
+    "preprint_url": "https://osf.io/preprints/psyarxiv/xe345",
+    "id": "pub-3",
+    "paper_url": "https://doi.org/10.1093/nc/niag052",
+    "code_url": "https://doi.org/10.17605/OSF.IO/3M6FU",
+    "year": "2026",
+    "year_group": "2026",
+    "doi": "https://doi.org/10.17605/OSF.IO/3M6FU"
+  },
+  {
+    "topics": [
       "Consciousness",
       "Decision Making"
     ],
-    "citation": "Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S. M., van Gaal, S., & Fahrenfort, J. J. (2026). The act of detecting a stimulus contaminates measures of conscious experience with decision biases. Nature Communications, 17(1). https://doi.org/10.1038/s41467-026-72567-6",
+    "citation": "Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S. M., van Gaal, S., & Fahrenfort, J. J. (2026). The act of detecting a stimulus contaminates measures of conscious experience with decision biases. Nature Communications, 17(1).",
     "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={The act of detecting a stimulus contaminates measures of conscious experience with decision biases},\n  volume ={17},\n  ISSN ={2041-1723},\n  url ={http://dx.doi.org/10.1038/s41467-026-72567-6},\n  DOI ={10.1038/s41467-026-72567-6},\n  number ={1},\n  journal ={Nature Communications},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Sánchez-Fuenzalida, Nicolás and Jungerius, Chris and Fleming, Stephen M. and van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2026},\n  month =May \n}",
     "preprint_url": "https://osf.io/preprints/psyarxiv/yqa32",
     "id": "pub-5",
@@ -15,18 +29,18 @@
     "doi": "https://doi.org/10.17605/OSF.IO/TBFNE"
   },
   {
-    "id": "pub-6",
-    "citation": "Noorman, S, Stein, T, Heilbron, M., Sergent, C., Zantvoord, J., Fahrenfort, JJ, van Gaal, S. Effects of expectation, attention, and NMDA receptor blockade on feedforward and feedback processing. Journal of Neuroscience",
-    "year": "2026",
-    "year_group": "2026",
     "topics": [
       "Cognitive Neuroscience"
     ],
-    "doi": "https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long",
-    "paper_url": "https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long",
+    "citation": "Noorman, S., Fahrenfort, J. J., Heilbron, M., Sergent, C., Zantvoord, J. B., van Gaal, S., & Stein, T. (2026). Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing. The Journal of Neuroscience, 46(12), e0674252026.",
+    "bibtex": "@article{Noorman_2026,\n  title ={Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing},\n  volume ={46},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/JNEUROSCI.0674-25.2026},\n  DOI ={10.1523/jneurosci.0674-25.2026},\n  number ={12},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Noorman, Samuel and Fahrenfort, Johannes J. and Heilbron, Micha and Sergent, Claire and Zantvoord, Jasper B. and van Gaal, Simon and Stein, Timo},\n  year ={2026},\n  month =Feb,\n  pages ={e0674252026} \n}",
     "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707924v1.abstract",
+    "id": "pub-6",
+    "paper_url": "https://doi.org/10.1523/jneurosci.0674-25.2026",
     "code_url": "https://uvaauas.figshare.com/account/mycontent/projects/272102",
-    "bibtex": "@article{noorman2026_6,\n  author = {Noorman, S, Stein, T, Heilbron, M},\n  title = {Noorman, S, Stein, T, Heilbron, M., Sergent, C., Zantvoord, J., Fahrenfort, JJ, van Gaal, S. Effects of expectation, attention, and NMDA receptor blockade on feedforward and feedback processing. Journal of Neuroscience},\n  year = {2026},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long}\n}"
+    "year": "2026",
+    "year_group": "2026",
+    "doi": "https://www.jneurosci.org/content/early/2026/02/11/JNEUROSCI.0674-25.2026.long"
   },
   {
     "id": "pub-7",
@@ -144,11 +158,11 @@
     "topics": [
       "Consciousness"
     ],
-    "citation": "Stockart, F., Schreiber, M., Amerio, P., Carmel, D., Cleeremans, A., Deouell, L. Y., Dienes, Z., Elosegi, P., Gayet, S., Goldstein, A., Halchin, A.-M., Hesselmann, G., Kimchi, R., Lamy, D., Loued-Khenissi, L., Meyen, S., Micher, N., Pitts, M., Salomon, R., et al. (2025). Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences, 1–77. https://doi.org/10.1017/s0140525x25101489",
+    "citation": "Stockart, F., Schreiber, M., Amerio, P., Carmel, D., Cleeremans, A., Deouell, L. Y., Dienes, Z., Elosegi, P., Gayet, S., Goldstein, A., Halchin, A.-M., Hesselmann, G., Kimchi, R., Lamy, D., Loued-Khenissi, L., Meyen, S., Micher, N., Pitts, M., Salomon, R., et al. (2025). Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences, 1–77.",
     "bibtex": "@article{Stockart_2025,\n  title ={Studying unconscious processing: Contention and consensus},\n  ISSN ={1469-1825},\n  url ={http://dx.doi.org/10.1017/S0140525X25101489},\n  DOI ={10.1017/s0140525x25101489},\n  journal ={Behavioral and Brain Sciences},\n  publisher ={Cambridge University Press (CUP)},\n  author ={Stockart, François and Schreiber, Maor and Amerio, Pietro and Carmel, David and Cleeremans, Axel and Deouell, Leon Y. and Dienes, Zoltan and Elosegi, Patxi and Gayet, Surya and Goldstein, Alon and Halchin, Adelina-Mihaela and Hesselmann, Guido and Kimchi, Ruth and Lamy, Dominique and Loued-Khenissi, Leyla and Meyen, Sascha and Micher, Nitzan and Pitts, Michael and Salomon, Roy and Sandberg, Kristian and Schnepf, Iris A. and Schurger, Aaron and Shanks, David R. and Soto, David and Tal, Amir and Trübutschek, Darinka and Vadillo, Miguel A. and van Gaal, Simon and Yaron, Itay and Zheng, Zefan and Faivre, Nathan and Mudrik, Liad},\n  year ={2025},\n  month =July,\n  pages ={1–77} \n}",
     "preprint_url": null,
     "id": "pub-8",
-    "paper_url": "doi:10.1017/S0140525X25101489",
+    "paper_url": "https://doi.org/10.1017/s0140525x25101489",
     "code_url": null,
     "year": "2025",
     "year_group": "2025",
@@ -209,20 +223,6 @@
     "preprint_url": "https://osf.io/fcext/",
     "code_url": null,
     "bibtex": "@article{beerendonk2024_19,\n  author = {Beerendonk, L},\n  title = {Beerendonk, L., Mejías, JF., Nuiten, SA., de Gee, JW., Fahrenfort, JJ. van Gaal, S. A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences of the United States of America (2024) .},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.pnas.org/doi/abs/10.1073/pnas.2312898121}\n}"
-  },
-  {
-    "id": "pub-3",
-    "citation": "Sánchez-Fuenzalida, van Gaal, S., van den Hurk, Z., Sergent, C., N., Stein, T., Fahrenfort, J.J. Evidence for unconscious priming using a Bayesian single-subject approach.",
-    "year": "2024",
-    "year_group": "Submitted or on Rxiv",
-    "topics": [
-      "Consciousness"
-    ],
-    "doi": "https://doi.org/10.17605/OSF.IO/3M6FU",
-    "paper_url": null,
-    "preprint_url": "https://osf.io/preprints/psyarxiv/xe345",
-    "code_url": "https://doi.org/10.17605/OSF.IO/3M6FU",
-    "bibtex": "@article{sánchez2024_3,\n  author = {Sánchez-Fuenzalida, van Gaal, S},\n  title = {Sánchez-Fuenzalida, van Gaal, S., van den Hurk, Z., Sergent, C., N., Stein, T., Fahrenfort, J.J. Evidence for unconscious priming using a Bayesian single-subject approach.},\n  year = {2024},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://osf.io/preprints/psyarxiv/xe345}\n}"
   },
   {
     "id": "pub-4",

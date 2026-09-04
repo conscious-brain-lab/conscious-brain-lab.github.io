@@ -107,7 +107,7 @@ function filterPublications() {
     // Search query matching
     let matchesSearch = true;
     if (searchQuery) {
-      const fullContent = (pub.citation + ' ' + (pub.topics ? pub.topics.join(' ') : '') + ' ' + pub.year).toLowerCase();
+      const fullContent = (pub.citation + ' ' + (pub.bibtex || '') + ' ' + (pub.topics ? pub.topics.join(' ') : '') + ' ' + pub.year).toLowerCase();
       matchesSearch = fullContent.includes(searchQuery);
     }
 
@@ -196,7 +196,7 @@ function renderPublications() {
 
       html += `
         <article class="pub-card" id="${pub.id}">
-          <div class="pub-citation-text">${formatCitation(pub.citation)}</div>
+          <div class="pub-citation-text">${getPublicationCitationHtml(pub)}</div>
           <div class="pub-meta-row">
             <div class="pub-topic-tags">${topicBadges}</div>
             <div class="pub-badge-links">
@@ -223,15 +223,228 @@ function renderPublications() {
   container.innerHTML = html;
 }
 
-function formatCitation(text) {
-  return text
-    .replace(/(van Gaal, S\.|Fahrenfort, J\.J\.|Stein, T\.)/g, '<strong>$1</strong>');
+/**
+ * Robust BibTeX Parser
+ * Extracts fields from standard and Crossref BibTeX entries.
+ */
+function parseBibtexFields(raw) {
+  if (!raw || typeof raw !== 'string') return null;
+  const str = raw.trim();
+  if (!str.startsWith('@')) return null;
+
+  const firstBrace = str.indexOf('{');
+  if (firstBrace === -1) return null;
+
+  const fields = {};
+  let pos = firstBrace + 1;
+  const firstComma = str.indexOf(',', pos);
+  if (firstComma === -1) return null;
+  pos = firstComma + 1;
+
+  while (pos < str.length) {
+    while (pos < str.length && /[\s,]/.test(str[pos])) pos++;
+    if (pos >= str.length || str[pos] === '}') break;
+
+    const nameMatch = str.slice(pos).match(/^([a-zA-Z_][a-zA-Z0-9_\-]*)\s*=/);
+    if (!nameMatch) {
+      pos++;
+      continue;
+    }
+    const fieldName = nameMatch[1].toLowerCase();
+    pos += nameMatch[0].length;
+
+    while (pos < str.length && /\s/.test(str[pos])) pos++;
+
+    let val = '';
+    if (str[pos] === '{') {
+      let depth = 1;
+      pos++;
+      const startVal = pos;
+      while (pos < str.length && depth > 0) {
+        if (str[pos] === '{') depth++;
+        else if (str[pos] === '}') depth--;
+        pos++;
+      }
+      val = str.slice(startVal, pos - 1);
+    } else if (str[pos] === '"') {
+      pos++;
+      const startVal = pos;
+      while (pos < str.length && str[pos] !== '"') {
+        if (str[pos] === '\\') pos++;
+        pos++;
+      }
+      val = str.slice(startVal, pos);
+      if (str[pos] === '"') pos++;
+    } else {
+      const startVal = pos;
+      while (pos < str.length && !/[\s,}]/.test(str[pos])) pos++;
+      val = str.slice(startVal, pos);
+    }
+
+    fields[fieldName] = val.replace(/\{|\}/g, '').replace(/\s+/g, ' ').trim();
+  }
+
+  // Validate if valid article metadata exists
+  const journal = (fields.journal || fields.journaltitle || fields.booktitle || '').trim();
+  if (!journal || journal.toLowerCase() === 'conscious brain lab publications') {
+    return null; // Fallback to full citation text
+  }
+  if (!fields.author && !fields.title) {
+    return null;
+  }
+
+  return fields;
+}
+
+/**
+ * Format a single author in APA 7 style: Lastname, Initials.
+ */
+function formatAuthorAPA(authorStr) {
+  if (!authorStr) return '';
+  const trimmed = authorStr.trim();
+  const parts = trimmed.split(/\s*,\s*/);
+  if (parts.length >= 2) {
+    const lastName = parts[0].trim();
+    const givenNames = parts[1].trim().split(/\s+/);
+    const initials = givenNames.map(g => g.charAt(0).toUpperCase() + '.').join(' ');
+    return initials ? `${lastName}, ${initials}` : lastName;
+  }
+  const tokens = trimmed.split(/\s+/);
+  if (tokens.length === 1) return tokens[0];
+  const lastName = tokens.pop();
+  const initials = tokens.map(t => t.charAt(0).toUpperCase() + '.').join(' ');
+  return initials ? `${lastName}, ${initials}` : lastName;
+}
+
+/**
+ * Format author list in APA 7 style (with '&' before last author, et al. for >20 authors)
+ */
+function formatAuthorsListAPA(authorsRaw) {
+  if (!authorsRaw) return '';
+  const authors = authorsRaw.split(/\s+and\s+/i).map(a => a.trim()).filter(Boolean);
+  if (authors.length === 0) return '';
+
+  const formatted = authors.map(formatAuthorAPA);
+  if (formatted.length === 1) {
+    return formatted[0];
+  } else if (formatted.length === 2) {
+    return `${formatted[0]}, & ${formatted[1]}`;
+  } else if (formatted.length <= 20) {
+    const allExceptLast = formatted.slice(0, -1).join(', ');
+    return `${allExceptLast}, & ${formatted[formatted.length - 1]}`;
+  } else {
+    const first19 = formatted.slice(0, 19).join(', ');
+    return `${first19}, … ${formatted[formatted.length - 1]}`;
+  }
+}
+
+/**
+ * Format a BibTeX fields object into complete APA 7 HTML
+ */
+function formatBibtexAPA(fields) {
+  const authors = formatAuthorsListAPA(fields.author);
+  const year = fields.year ? `(${fields.year}).` : '';
+
+  let title = (fields.title || '').trim();
+  if (title && !/[.!?]$/.test(title)) {
+    title += '.';
+  }
+
+  const journal = (fields.journal || fields.journaltitle || fields.booktitle || '').trim();
+  const volume = (fields.volume || '').trim();
+  const issue = (fields.number || fields.issue || '').trim();
+  const pages = (fields.pages || '').trim();
+
+  let pubDetails = '';
+  if (journal) {
+    pubDetails += `<em>${journal}</em>`;
+    if (volume) {
+      pubDetails += `, <em>${volume}</em>`;
+      if (issue) pubDetails += `(${issue})`;
+    } else if (issue) {
+      pubDetails += `(${issue})`;
+    }
+    if (pages) {
+      const cleanPages = pages.replace(/--/g, '–');
+      pubDetails += `, ${cleanPages}`;
+    }
+    if (!pubDetails.endsWith('.')) {
+      pubDetails += '.';
+    }
+  }
+
+  const parts = [authors, year, title, pubDetails].filter(Boolean);
+  let html = parts.join(' ');
+
+  // Highlight lab heads / PIs in bold
+  html = html.replace(/(van Gaal, S\.|Fahrenfort, J\. J\.|Fahrenfort, J\.J\.|Stein, T\.)/g, '<strong>$1</strong>');
+  return html;
+}
+
+/**
+ * Main Publication Formatter:
+ * Uses BibTeX APA style when present; otherwise falls back to full citation text.
+ */
+function getPublicationCitationHtml(pub) {
+  if (pub.bibtex && pub.bibtex.trim()) {
+    const fields = parseBibtexFields(pub.bibtex);
+    if (fields) {
+      const apaHtml = formatBibtexAPA(fields);
+      if (apaHtml) return apaHtml;
+    }
+  }
+  // Fallback to full citation text
+  return formatFallbackCitation(pub.citation || '');
+}
+
+/**
+ * Formats fallback citation text: highlights PIs and italicizes known journal names
+ */
+function formatFallbackCitation(text) {
+  if (!text) return '';
+  let formatted = text
+    .replace(/(van Gaal, S\.|Fahrenfort, J\.J\.|Fahrenfort, J\. J\.|Stein, T\.)/g, '<strong>$1</strong>');
+
+  const commonJournals = [
+    'Nature Human Behavior', 'Nature Human Behaviour', 'Nature Neuroscience', 'Nature Communications', 'Nature',
+    'The Journal of Neuroscience', 'Journal of Neuroscience Methods', 'Journal of Cognitive Neuroscience', 'Journal of Neuroscience', 'Journal of Vision', 'Journal of Neurology',
+    'Trends in Cognitive Sciences', 'Trends in Neurosciences',
+    'Philosophical Transactions of the Royal Society: B', 'Philosophical Transactions of the Royal Society B',
+    'Consciousness and Cognition', 'Communications Biology', 'Communications Psychology',
+    'PLOS Biology', 'PLOS Computational Biology', 'PLOS ONE', 'PLoS ONE',
+    'NeuroImage: Clinical', 'Neuroimage: Reports', 'NeuroImage', 'Neuroimage',
+    'Frontiers in Human Neuroscience', 'Frontiers in Neuroscience', 'Frontiers in Psychology',
+    'eNeuro', 'eLife', 'Cerebral Cortex', 'Current Biology', 'Behavioral and Brain Sciences',
+    'Neuroscience and Biobehavioral Reviews', 'Neuroscience & Biobehavioral Reviews', 'Neuroscience of Consciousness',
+    'Cognitive Neuroscience', 'Attention, Perception, & Psychophysics', 'Psychological Science', 'Cognition', 'Brain',
+    'Neuropsychologia', 'Scientific Reports'
+  ];
+
+  for (const j of commonJournals) {
+    const reg = new RegExp('\\b(' + j.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')\\b', 'g');
+    if (reg.test(formatted)) {
+      formatted = formatted.replace(reg, '<em>$1</em>');
+      break;
+    }
+  }
+
+  return formatted;
 }
 
 function copyCitation(pubId) {
   const pub = allPublications.find(p => p.id === pubId);
   if (!pub) return;
-  navigator.clipboard.writeText(pub.citation).then(() => {
+  let textToCopy = '';
+  if (pub.bibtex && pub.bibtex.trim()) {
+    const fields = parseBibtexFields(pub.bibtex);
+    if (fields) {
+      textToCopy = formatBibtexAPA(fields).replace(/<[^>]+>/g, '');
+    }
+  }
+  if (!textToCopy) {
+    textToCopy = pub.citation || '';
+  }
+  navigator.clipboard.writeText(textToCopy).then(() => {
     showToast('Citation copied to clipboard!');
   }).catch(() => {
     showToast('Failed to copy citation.');
