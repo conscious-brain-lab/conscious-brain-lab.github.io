@@ -577,7 +577,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Member Filter & Search Controls */
+.member-anchor {
+  display: block;
+  position: relative;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  visibility: hidden;
+  scroll-margin-top: 140px;
+}
+
 .member-controls {
+  scroll-margin-top: 140px;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
@@ -1143,6 +1155,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+  .member-anchor,
+  .member-controls {
+    scroll-margin-top: 85px;
   }
 }
 

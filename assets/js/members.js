@@ -20,6 +20,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!res.ok) throw new Error('Failed to load members data');
     allMembers = await res.json();
     renderMembers();
+    if (window.location.hash) {
+      const rawHash = window.location.hash.replace('#', '').toLowerCase();
+      if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
+        setRoleFilter(rawHash, false);
+        setTimeout(() => scrollToSelector(false), 60);
+      }
+    }
   } catch (err) {
     console.error(err);
     if (container) {
@@ -32,6 +39,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       memberSearchQuery = e.target.value.toLowerCase().trim();
       renderMembers();
     });
+  }
+
+  function scrollToSelector(smooth = true) {
+    const controls = document.getElementById('member-controls') || document.querySelector('.member-controls');
+    if (controls) {
+      controls.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+    }
   }
 
   function setRoleFilter(role, updateHash = true) {
@@ -59,16 +73,36 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   });
 
-  function checkHash() {
+  function checkHash(shouldScroll = false) {
     const rawHash = window.location.hash.replace('#', '').toLowerCase();
     if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
       setRoleFilter(rawHash, false);
+      if (shouldScroll) {
+        setTimeout(() => scrollToSelector(true), 50);
+      }
     }
   }
 
   // Listen to hash changes (e.g. from top nav dropdown clicks)
-  window.addEventListener('hashchange', checkHash);
-  checkHash();
+  window.addEventListener('hashchange', () => checkHash(true));
+
+  // Also handle clicks on dropdown menu items to scroll smoothly even if the hash was already selected
+  document.querySelectorAll('.dropdown-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      const href = link.getAttribute('href');
+      if (href && href.includes('#')) {
+        const hash = href.split('#')[1].toLowerCase();
+        if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(hash)) {
+          setRoleFilter(hash, true);
+          scrollToSelector(true);
+        }
+      }
+    });
+  });
+
+  if (window.location.hash) {
+    checkHash(true);
+  }
 });
 
 function filterMembersList() {

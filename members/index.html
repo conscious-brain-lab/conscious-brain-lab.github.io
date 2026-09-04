@@ -55,9 +55,9 @@
                 <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="../members/#pi" class="dropdown-item">Principal Investigators</a></li>
-                <li><a href="../members/#current" class="dropdown-item">Current Lab Members</a></li>
-                <li><a href="../members/#alumni" class="dropdown-item">Lab Alumni</a></li>
+                <li><a href="#pi" class="dropdown-item">Principal Investigators</a></li>
+                <li><a href="#current" class="dropdown-item">Current Lab Members</a></li>
+                <li><a href="#alumni" class="dropdown-item">Lab Alumni</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -94,7 +94,7 @@
 
       <!-- Full Lab Group Photo -->
       <div class="card" style="padding: 0; overflow: hidden; margin-bottom: 3rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-        <img src="/assets/images/lab_group_photo.png" alt="Conscious Brain Lab Full Team Photo" style="width: 100%; max-height: 480px; object-fit: cover;" />
+        <img src="/assets/images/lab_group_photo.png" alt="Conscious Brain Lab Full Team Photo" width="3570" height="2677" style="width: 100%; height: auto; max-height: 480px; object-fit: cover; aspect-ratio: 3570 / 2677;" />
         <div style="padding: 1.25rem 1.5rem; background: var(--bg-card); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
           <div>
             <strong style="font-size: 1.05rem;">The Conscious Brain Lab Group</strong>
@@ -104,8 +104,17 @@
         </div>
       </div>
 
+      <!-- Anchors for category scrolling -->
+      <div id="pi" class="member-anchor"></div>
+      <div id="current" class="member-anchor"></div>
+      <div id="alumni" class="member-anchor"></div>
+      <div id="postdoc" class="member-anchor"></div>
+      <div id="phd" class="member-anchor"></div>
+      <div id="all" class="member-anchor"></div>
+      <div id="team-selector" class="member-anchor"></div>
+
       <!-- Refined Interactive Member Controls -->
-      <div class="member-controls">
+      <div class="member-controls" id="member-controls">
         <div class="member-filter-tabs" role="tablist" aria-label="Member Categories">
           <button class="member-filter-btn active" data-role="all" id="filter-all">All People</button>
           <button class="member-filter-btn" data-role="pi" id="filter-pi">Principal Investigators</button>
@@ -200,6 +209,6 @@
   <!-- Scripts -->
   <script src="../assets/js/main.js"></script>
   <script src="../assets/js/publications.js"></script>
-  <script src="../assets/js/members.js?v=4"></script>
+  <script src="../assets/js/members.js?v=5"></script>
 </body>
 </html>
