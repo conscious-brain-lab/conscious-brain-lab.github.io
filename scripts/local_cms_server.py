@@ -92,14 +92,13 @@ def sync_collections_to_data():
         
         # Sort publications: Preprint/in review first, then year descending
         def pub_sort_key(p):
-            yg = str(p.get("year_group", ""))
-            y = str(p.get("year", "0"))
-            if "preprint" in yg.lower() or "review" in yg.lower() or "rxiv" in yg.lower() or "submitted" in yg.lower() or "preprint" in y.lower():
+            yg = str(p.get("year_group", "")).strip()
+            if any(k in yg.lower() for k in ["preprint", "review", "rxiv", "submitted"]):
                 return (0, 9999)
-            try:
-                return (1, -int(y))
-            except Exception:
-                return (2, 0)
+            m = re.search(r"\b(19\d\d|20\d\d)\b", yg) or re.search(r"\b(19\d\d|20\d\d)\b", str(p.get("citation", "")))
+            if m:
+                return (1, -int(m.group(1)))
+            return (2, 0)
 
         all_pubs.sort(key=pub_sort_key)
         data_pubs_path = os.path.join(BASE_DIR, "data", "publications.json")
@@ -195,14 +194,13 @@ class DecapProxyHandler(http.server.BaseHTTPRequestHandler):
                             d = json.loads(item.get("data") or "{}")
                         except Exception:
                             d = {}
-                        yg = str(d.get("year_group", "")).lower()
-                        y = str(d.get("year", "0")).lower()
-                        if "preprint" in yg or "review" in yg or "rxiv" in yg or "submitted" in yg or "preprint" in y:
+                        yg = str(d.get("year_group", "")).strip()
+                        if any(k in yg.lower() for k in ["preprint", "review", "rxiv", "submitted"]):
                             return (0, 9999, d.get("citation", ""))
-                        try:
-                            return (1, -int(d.get("year", 0)), d.get("citation", ""))
-                        except Exception:
-                            return (2, 0, d.get("citation", ""))
+                        m = re.search(r"\b(19\d\d|20\d\d)\b", yg) or re.search(r"\b(19\d\d|20\d\d)\b", str(d.get("citation", "")))
+                        if m:
+                            return (1, -int(m.group(1)), d.get("citation", ""))
+                        return (2, 0, d.get("citation", ""))
 
                     entries.sort(key=pub_entry_sort_key)
 

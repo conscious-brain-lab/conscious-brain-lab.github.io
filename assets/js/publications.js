@@ -83,18 +83,31 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 });
 
+function getPubYear(pub) {
+  if (pub.year && /^\d{4}$/.test(String(pub.year).trim())) {
+    return parseInt(pub.year, 10);
+  }
+  const ygMatch = (pub.year_group || '').match(/\b(19\d\d|20\d\d)\b/);
+  if (ygMatch) return parseInt(ygMatch[0], 10);
+  const citMatch = (pub.citation || '').match(/\b(19\d\d|20\d\d)\b/);
+  if (citMatch) return parseInt(citMatch[0], 10);
+  return 0;
+}
+
 function filterPublications() {
   return allPublications.filter(pub => {
     // Year matching
     let matchesYear = true;
     if (activeYear !== 'all') {
+      const yg = (pub.year_group || pub.year || '').toLowerCase();
       if (activeYear === 'preprint') {
-        matchesYear = (pub.year_group || '').toLowerCase().includes('rxiv') || (pub.year_group || '').toLowerCase().includes('submitted');
+        matchesYear = yg.includes('rxiv') || yg.includes('submitted') || yg.includes('preprint');
       } else if (activeYear === 'older') {
-        const y = parseInt(pub.year, 10);
-        matchesYear = !isNaN(y) && y <= 2018;
+        const y = getPubYear(pub);
+        matchesYear = y > 0 && y <= 2018;
       } else {
-        matchesYear = pub.year === activeYear || (pub.year_group && pub.year_group.includes(activeYear));
+        const y = getPubYear(pub);
+        matchesYear = yg.includes(activeYear) || String(y) === activeYear;
       }
     }
 
@@ -107,7 +120,7 @@ function filterPublications() {
     // Search query matching
     let matchesSearch = true;
     if (searchQuery) {
-      const fullContent = (pub.citation + ' ' + (pub.bibtex || '') + ' ' + (pub.topics ? pub.topics.join(' ') : '') + ' ' + pub.year).toLowerCase();
+      const fullContent = (pub.citation + ' ' + (pub.bibtex || '') + ' ' + (pub.topics ? pub.topics.join(' ') : '') + ' ' + (pub.year_group || '') + ' ' + (pub.year || '')).toLowerCase();
       matchesSearch = fullContent.includes(searchQuery);
     }
 
@@ -136,19 +149,21 @@ function renderPublications() {
   }
 
   // Helper to get numeric weight for sorting
-  function getYearWeight(yearGroupStr, yearStr) {
-    const s = (yearGroupStr || yearStr || '').toLowerCase();
-    if (s.includes('rxiv') || s.includes('submitted') || s.includes('preprint')) {
+  function getYearWeight(yearGroupStr, firstPub) {
+    const s = (yearGroupStr || '').toLowerCase();
+    if (s.includes('rxiv') || s.includes('submitted') || s.includes('preprint') || s.includes('review')) {
       return 9999;
     }
-    const num = parseInt(yearStr || yearGroupStr, 10);
-    return isNaN(num) ? 0 : num;
+    const yrMatch = s.match(/\b(19\d\d|20\d\d)\b/);
+    if (yrMatch) return parseInt(yrMatch[0], 10);
+    if (firstPub) return getPubYear(firstPub);
+    return 0;
   }
 
   // Group by year / year_group using an ordered Map (prevents JS numeric key auto-sort bug)
   const groupMap = new Map();
   filtered.forEach(pub => {
-    const groupName = pub.year_group || pub.year || 'Other';
+    const groupName = pub.year_group || (pub.year ? String(pub.year) : 'Other');
     if (!groupMap.has(groupName)) {
       groupMap.set(groupName, []);
     }
@@ -160,8 +175,8 @@ function renderPublications() {
 
   // Sort groups by year weight (Default: Newest First)
   sortedGroups.sort((a, b) => {
-    const weightA = getYearWeight(a[0], a[1][0]?.year);
-    const weightB = getYearWeight(b[0], b[1][0]?.year);
+    const weightA = getYearWeight(a[0], a[1][0]);
+    const weightB = getYearWeight(b[0], b[1][0]);
     if (sortOrder === 'newest') {
       return weightB - weightA;
     } else {

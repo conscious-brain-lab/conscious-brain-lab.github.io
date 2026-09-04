@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
   
   <!-- Decap CMS Config with Cache Busting -->
-  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_rxiv_top" />
+  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260904_single_sec_year" />
 
   <!-- Cropper.js for Client-Side Crop & Resize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
@@ -499,8 +499,7 @@
           const paperUrl = paperUrlInput ? paperUrlInput.value.trim() : '';
           const citationEl = document.querySelector('textarea[id*="citation"], input[id*="citation"]');
           const bibtexArea = document.querySelector('textarea[id*="bibtex"], textarea[name*="bibtex"]');
-          const yearEl = document.querySelector('input[id*="year"]');
-          const yearGroupEl = document.querySelector('input[id*="year_group"]');
+          const sectionEl = document.querySelector('input[id*="year_group"], input[name*="year_group"]');
 
           const doiMatch = paperUrl.match(/(10\.\d{4,9}\/[-._;()/:A-Za-z0-9]+)/i);
 
@@ -532,26 +531,37 @@
             updatedFields.push('Citation');
           }
 
+          // Determine numeric calendar year for BibTeX fallback
+          let calYear = data.year || '';
+          if (!calYear && sectionEl && sectionEl.value) {
+            const m = sectionEl.value.match(/\b(19\d\d|20\d\d)\b/);
+            if (m) calYear = m[1];
+          }
+          if (!calYear && citationEl && citationEl.value) {
+            const m = citationEl.value.match(/\b(19\d\d|20\d\d)\b/);
+            if (m) calYear = m[1];
+          }
+
           // 3. Populate BibTeX
           if (bibtexArea) {
             if (data.bibtex) {
               setReactInputValue(bibtexArea, data.bibtex);
               updatedFields.push('BibTeX');
             } else if (citationEl && citationEl.value) {
-              const fallback = synthesizeBibtex(citationEl.value, data.year || (yearEl ? yearEl.value : ''), targetDoiUrl);
+              const fallback = synthesizeBibtex(citationEl.value, calYear || '2026', targetDoiUrl);
               setReactInputValue(bibtexArea, fallback);
               updatedFields.push('BibTeX (synthesized)');
             }
           }
 
-          // 4. Populate Year
-          if (yearEl && data.year) {
-            setReactInputValue(yearEl, data.year);
-            updatedFields.push('Year');
-          }
-
-          if (yearGroupEl && data.year && (!yearGroupEl.value || yearGroupEl.value === '2026')) {
-            setReactInputValue(yearGroupEl, data.year);
+          // 4. Populate Section / Year
+          if (sectionEl && data.year) {
+            const curVal = (sectionEl.value || '').trim();
+            // If empty, default 2026, or purely a 4-digit year, update to DOI year
+            if (!curVal || curVal === '2026' || /^\d{4}$/.test(curVal)) {
+              setReactInputValue(sectionEl, data.year);
+              updatedFields.push('Section / Year');
+            }
           }
 
           if (statusText) {
@@ -939,13 +949,12 @@
               const pubId = decodeURIComponent(m[1]);
               if (pubsDataMap.has(pubId)) {
                 const pub = pubsDataMap.get(pubId);
-                const yg = (pub.year_group || '').toLowerCase();
-                const y = (pub.year || '').toLowerCase();
-                if (yg.includes('rxiv') || yg.includes('submitted') || yg.includes('preprint') || yg.includes('review') || y.includes('preprint') || y.includes('rxiv')) {
+                const yg = (pub.year_group || pub.year || '').toLowerCase();
+                if (yg.includes('rxiv') || yg.includes('submitted') || yg.includes('preprint') || yg.includes('review')) {
                   return 9999;
                 }
-                const yr = parseInt(pub.year, 10);
-                if (!isNaN(yr)) return yr;
+                const yrMatch = yg.match(/\b(19\d\d|20\d\d)\b/) || (pub.citation || '').match(/\b(19\d\d|20\d\d)\b/);
+                if (yrMatch) return parseInt(yrMatch[0], 10);
               }
             }
           }

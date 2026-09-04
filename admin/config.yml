@@ -39,14 +39,12 @@ collections:
     summary: "({{fields.year_group}}) {{fields.citation}}"
     sortable_fields:
       - 'year_group'
-      - 'year'
       - 'citation'
     fields:
-      - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false, hint: "Paste a DOI (e.g. 10.3389/neuro.09.054.2009 or https://doi.org/...), then click 'Auto-fetch' below to populate Citation, Year & BibTeX." }
+      - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false, hint: "Paste a DOI (e.g. 10.3389/neuro.09.054.2009 or https://doi.org/...), then click 'Auto-fetch' below to populate Citation, Section / Year & BibTeX." }
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Full Citation Text", name: "citation", widget: "text" }
-      - { label: "Year", name: "year", widget: "string" }
-      - { label: "Year Group / Section", name: "year_group", widget: "string", default: "2026" }
+      - { label: "Section / Year", name: "year_group", widget: "string", default: "2026", hint: "E.g. '2026', '2025', or 'Submitted or on Rxiv'. Determines the section heading on the website." }
       - label: "Research Topics"
         name: "topics"
         widget: "relation"
