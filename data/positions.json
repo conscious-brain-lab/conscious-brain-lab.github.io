@@ -1,22 +1,22 @@
-[
-  {
-    "title": "PhD & Postdoc Opportunities",
-    "icon": "🎓",
-    "tag": "Academic Careers",
-    "order": 1,
-    "slug": "phd-postdoc-opportunities",
-    "description": "Funded PhD and Postdoc vacancies are regularly posted through the official University of Amsterdam (UvA) and VU Amsterdam job portals when grants (ERC, NWO, Templeton) open. We also warmly welcome candidates applying with personal fellowships (e.g. Marie Curie, Rubicon, or national grants).",
-    "button_text": "Inquire with Simon van Gaal",
-    "button_link": "mailto:s.vangaal@uva.nl"
-  },
-  {
-    "title": "MSc & BSc Student Internships",
-    "icon": "🔬",
-    "tag": "Student Internships",
-    "order": 2,
-    "slug": "student-internships",
-    "description": "We offer stimulating research internships for talented Master and Bachelor students in Cognitive Neuroscience, Psychology, Artificial Intelligence, and Biomedical Sciences. You will gain hands-on experience in high-density EEG, fMRI analysis, and programming.",
-    "button_text": "Apply for an Internship",
-    "button_link": "mailto:consciousbrainlab@gmail.com"
-  }
-]
+{
+  "items": [
+    {
+      "title": "PhD & Postdoc Opportunities",
+      "icon": "🎓",
+      "tag": "Academic Careers",
+      "slug": "phd-postdoc-opportunities",
+      "description": "Funded PhD and Postdoc vacancies are regularly posted through the official University of Amsterdam (UvA) and VU Amsterdam job portals when grants (ERC, NWO, Templeton) open. We also warmly welcome candidates applying with personal fellowships (e.g. Marie Curie, Rubicon, or national grants).",
+      "button_text": "Inquire with Simon van Gaal",
+      "button_link": "mailto:s.vangaal@uva.nl"
+    },
+    {
+      "title": "MSc & BSc Student Internships",
+      "icon": "🔬",
+      "tag": "Student Internships",
+      "slug": "student-internships",
+      "description": "We offer stimulating research internships for talented Master and Bachelor students in Cognitive Neuroscience, Psychology, Artificial Intelligence, and Biomedical Sciences. You will gain hands-on experience in high-density EEG, fMRI analysis, and programming.",
+      "button_text": "Apply for an Internship",
+      "button_link": "mailto:consciousbrainlab@gmail.com"
+    }
+  ]
+}

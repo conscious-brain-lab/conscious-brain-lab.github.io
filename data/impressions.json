@@ -1,74 +1,68 @@
-[
-  {
-    "title": "EEG Lab at the UvA",
-    "tag": "EEG Facility",
-    "date": "September 2020",
-    "image": "/assets/images/eeg_lab.jpg",
-    "description": "High-density EEG setup and participant testing at the Brain and Cognition lab at the University of Amsterdam.",
-    "slug": "eeg-lab",
-    "order": 1
-  },
-  {
-    "title": "fMRI facility",
-    "tag": "Spinoza Centre",
-    "date": "September 2020",
-    "image": "/assets/images/fmri_facility.jpg",
-    "description": "Neuroimaging research facility featuring 3T and 7T ultra-high field MRI scanners and control room.",
-    "slug": "fmri-facility",
-    "order": 2
-  },
-  {
-    "title": "UvA Campus Amsterdam",
-    "tag": "Campus",
-    "date": "September 2020",
-    "image": "/assets/images/uva_campus.jpg",
-    "description": "The vibrant Roeterseilandcampus (REC) situated right along the historic canals in central Amsterdam.",
-    "slug": "uva-campus-amsterdam",
-    "order": 3
-  },
-  {
-    "title": "Eye-tracking, pupil measures",
-    "tag": "Pupillometry",
-    "date": "September 2020",
-    "image": "/assets/images/eye_tracking.jpg",
-    "description": "High-speed EyeLink system and psychophysics workstation for pupil-linked arousal and fixation tracking.",
-    "slug": "eye-tracking-pupil-measures",
-    "order": 4
-  },
-  {
-    "title": "Behavioral science lab",
-    "tag": "Behavioral Lab",
-    "date": "September 2020",
-    "image": "/assets/images/behavioral_lab.jpg",
-    "description": "Participant waiting lounge and preparation area for behavioral and cognitive testing sessions.",
-    "slug": "behavioral-science-lab",
-    "order": 5
-  },
-  {
-    "title": "Psychology building",
-    "tag": "Department",
-    "date": "September 2020",
-    "image": "/assets/images/psychology_building.jpg",
-    "description": "The iconic curved REC-G building alongside the canal, home to the University of Amsterdam Psychology department.",
-    "slug": "psychology-building",
-    "order": 6
-  },
-  {
-    "title": "Testing participants in the lab",
-    "tag": "Testing Cabins",
-    "date": "September 2020",
-    "image": "/assets/images/testing_participants.jpg",
-    "description": "Multi-monitor experimenter station recording real-time electrophysiological and behavioral data.",
-    "slug": "testing-participants-in-the-lab",
-    "order": 7
-  },
-  {
-    "title": "ASSC 25 Conference in Amsterdam",
-    "tag": "Conference",
-    "date": "July 2022",
-    "image": "/assets/images/assc_2022.jpg",
-    "description": "Conscious Brain Lab hosting 500+ international consciousness researchers for the 25th ASSC meeting.",
-    "slug": "assc-25-conference",
-    "order": 8
-  }
-]
+{
+  "items": [
+    {
+      "title": "EEG Lab at the UvA",
+      "tag": "EEG Facility",
+      "date": "September 2020",
+      "image": "/assets/images/eeg_lab.jpg",
+      "description": "High-density EEG setup and participant testing at the Brain and Cognition lab at the University of Amsterdam.",
+      "slug": "eeg-lab"
+    },
+    {
+      "title": "fMRI facility",
+      "tag": "Spinoza Centre",
+      "date": "September 2020",
+      "image": "/assets/images/fmri_facility.jpg",
+      "description": "Neuroimaging research facility featuring 3T and 7T ultra-high field MRI scanners and control room.",
+      "slug": "fmri-facility"
+    },
+    {
+      "title": "UvA Campus Amsterdam",
+      "tag": "Campus",
+      "date": "September 2020",
+      "image": "/assets/images/uva_campus.jpg",
+      "description": "The vibrant Roeterseilandcampus (REC) situated right along the historic canals in central Amsterdam.",
+      "slug": "uva-campus-amsterdam"
+    },
+    {
+      "title": "Eye-tracking, pupil measures",
+      "tag": "Pupillometry",
+      "date": "September 2020",
+      "image": "/assets/images/eye_tracking.jpg",
+      "description": "High-speed EyeLink system and psychophysics workstation for pupil-linked arousal and fixation tracking.",
+      "slug": "eye-tracking-pupil-measures"
+    },
+    {
+      "title": "Behavioral science lab",
+      "tag": "Behavioral Lab",
+      "date": "September 2020",
+      "image": "/assets/images/behavioral_lab.jpg",
+      "description": "Participant waiting lounge and preparation area for behavioral and cognitive testing sessions.",
+      "slug": "behavioral-science-lab"
+    },
+    {
+      "title": "Psychology building",
+      "tag": "Department",
+      "date": "September 2020",
+      "image": "/assets/images/psychology_building.jpg",
+      "description": "The iconic curved REC-G building alongside the canal, home to the University of Amsterdam Psychology department.",
+      "slug": "psychology-building"
+    },
+    {
+      "title": "Testing participants in the lab",
+      "tag": "Testing Cabins",
+      "date": "September 2020",
+      "image": "/assets/images/testing_participants.jpg",
+      "description": "Multi-monitor experimenter station recording real-time electrophysiological and behavioral data.",
+      "slug": "testing-participants-in-the-lab"
+    },
+    {
+      "title": "ASSC 25 Conference in Amsterdam",
+      "tag": "Conference",
+      "date": "July 2022",
+      "image": "/assets/images/assc_2022.jpg",
+      "description": "Conscious Brain Lab hosting 500+ international consciousness researchers for the 25th ASSC meeting.",
+      "slug": "assc-25-conference"
+    }
+  ]
+}

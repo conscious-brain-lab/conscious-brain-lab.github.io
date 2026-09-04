@@ -131,38 +131,43 @@ collections:
 
   - name: "impressions"
     label: "Lab & Campus Impressions"
-    label_singular: "Impression"
-    folder: "content/impressions"
-    create: true
-    format: "json"
-    slug: "{{slug}}"
-    identifier_field: "title"
-    summary: "{{title}} ({{tag}})"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Category / Tag", name: "tag", widget: "string", required: false, hint: "e.g. EEG Facility, Spinoza Centre, Campus, Conference" }
-      - { label: "Date / Period", name: "date", widget: "string", required: false, hint: "e.g. September 2020, July 2022" }
-      - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Lower numbers appear first." }
-      - { label: "URL Slug", name: "slug", widget: "string" }
-      - { label: "Photo / Image", name: "image", widget: "image" }
-      - { label: "Description", name: "description", widget: "text" }
+    files:
+      - name: "impressions_list"
+        label: "Lab & Campus Impressions (Drag & Drop to Reorder)"
+        file: "data/impressions.json"
+        description: "Curate photos and reorder them by dragging items up or down."
+        fields:
+          - label: "Impression Cards"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.tag}})"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category / Tag", name: "tag", widget: "string", required: false, hint: "e.g. EEG Facility, Spinoza Centre, Campus, Conference" }
+              - { label: "Date / Period", name: "date", widget: "string", required: false, hint: "e.g. September 2020, July 2022" }
+              - { label: "Photo / Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "URL Slug / Identifier", name: "slug", widget: "string", required: false }
 
   - name: "positions"
     label: "Open Positions"
-    label_singular: "Position"
-    folder: "content/positions"
-    create: true
-    format: "json"
-    slug: "{{slug}}"
-    identifier_field: "title"
-    summary: "{{title}}"
-    fields:
-      - { label: "Position Title", name: "title", widget: "string" }
-      - { label: "Icon / Emoji", name: "icon", widget: "string", required: false, default: "🎓", hint: "Emoji or symbol for the card header (e.g. 🎓, 🔬, 🧠, 💼)" }
-      - { label: "Category / Tag", name: "tag", widget: "string", required: false, hint: "e.g. Academic Careers, Student Internships" }
-      - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Lower numbers appear first." }
-      - { label: "URL Slug", name: "slug", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Action Button Text", name: "button_text", widget: "string", required: false, hint: "e.g. Inquire with Simon van Gaal, Apply for an Internship" }
-      - { label: "Action Button Link / Email", name: "button_link", widget: "string", required: false, hint: "e.g. mailto:s.vangaal@uva.nl or https://..." }
+    files:
+      - name: "positions_list"
+        label: "Open Positions (Drag & Drop to Reorder)"
+        file: "data/positions.json"
+        description: "Curate position tracks and reorder them by dragging items up or down."
+        fields:
+          - label: "Position Opportunities"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Position Title", name: "title", widget: "string" }
+              - { label: "Icon / Emoji", name: "icon", widget: "string", required: false, default: "🎓", hint: "Emoji or symbol for the card header (e.g. 🎓, 🔬, 🧠, 💼)" }
+              - { label: "Category / Tag", name: "tag", widget: "string", required: false, hint: "e.g. Academic Careers, Student Internships" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Action Button Text", name: "button_text", widget: "string", required: false, hint: "e.g. Inquire with Simon van Gaal, Apply for an Internship" }
+              - { label: "Action Button Link / Email", name: "button_link", widget: "string", required: false, hint: "e.g. mailto:s.vangaal@uva.nl or https://..." }
+              - { label: "URL Slug / Identifier", name: "slug", widget: "string", required: false }
+
 

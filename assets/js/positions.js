@@ -13,16 +13,9 @@ async function initPositions() {
       headers: { 'Cache-Control': 'no-cache' }
     });
     if (!res.ok) return;
-    const items = await res.json();
+    const rawData = await res.json();
+    const items = Array.isArray(rawData) ? rawData : (rawData && rawData.items ? rawData.items : []);
     if (!Array.isArray(items) || items.length === 0) return;
-
-    // Sort by order ascending, fallback to title
-    items.sort((a, b) => {
-      const orderA = parseInt(a.order ?? 99, 10);
-      const orderB = parseInt(b.order ?? 99, 10);
-      if (orderA !== orderB) return orderA - orderB;
-      return (a.title || '').localeCompare(b.title || '');
-    });
 
     container.innerHTML = items.map(item => {
       const title = item.title || '';

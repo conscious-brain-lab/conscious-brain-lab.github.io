@@ -1,9 +1,0 @@
-{
-  "title": "EEG Lab at the UvA",
-  "tag": "EEG Facility",
-  "date": "September 2020",
-  "image": "/assets/images/eeg_lab.jpg",
-  "description": "High-density EEG setup and participant testing at the Brain and Cognition lab at the University of Amsterdam.",
-  "slug": "eeg-lab",
-  "order": 1
-}
