@@ -128,3 +128,41 @@ collections:
       - { label: "Image / Logo", name: "image", widget: "image", required: false }
       - { label: "Video (YouTube link or MP4 path)", name: "video", widget: "string", required: false, hint: "Optional: Paste a YouTube link (e.g. https://www.youtube.com/watch?v=... or https://youtu.be/...) OR an MP4 file path (e.g. /assets/images/clip.mp4). If provided, an interactive video player will be displayed instead of an image." }
       - { label: "External Link", name: "link", widget: "string", required: false }
+
+  - name: "impressions"
+    label: "Lab & Campus Impressions"
+    label_singular: "Impression"
+    folder: "content/impressions"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    summary: "{{title}} ({{tag}})"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category / Tag", name: "tag", widget: "string", required: false, hint: "e.g. EEG Facility, Spinoza Centre, Campus, Conference" }
+      - { label: "Date / Period", name: "date", widget: "string", required: false, hint: "e.g. September 2020, July 2022" }
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Lower numbers appear first." }
+      - { label: "URL Slug", name: "slug", widget: "string" }
+      - { label: "Photo / Image", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+
+  - name: "positions"
+    label: "Open Positions"
+    label_singular: "Position"
+    folder: "content/positions"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    summary: "{{title}}"
+    fields:
+      - { label: "Position Title", name: "title", widget: "string" }
+      - { label: "Icon / Emoji", name: "icon", widget: "string", required: false, default: "🎓", hint: "Emoji or symbol for the card header (e.g. 🎓, 🔬, 🧠, 💼)" }
+      - { label: "Category / Tag", name: "tag", widget: "string", required: false, hint: "e.g. Academic Careers, Student Internships" }
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Lower numbers appear first." }
+      - { label: "URL Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Action Button Text", name: "button_text", widget: "string", required: false, hint: "e.g. Inquire with Simon van Gaal, Apply for an Internship" }
+      - { label: "Action Button Link / Email", name: "button_link", widget: "string", required: false, hint: "e.g. mailto:s.vangaal@uva.nl or https://..." }
+

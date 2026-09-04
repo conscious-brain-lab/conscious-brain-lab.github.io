@@ -1,0 +1,9 @@
+{
+  "title": "fMRI facility",
+  "tag": "Spinoza Centre",
+  "date": "September 2020",
+  "image": "/assets/images/fmri_facility.jpg",
+  "description": "Neuroimaging research facility featuring 3T and 7T ultra-high field MRI scanners and control room.",
+  "slug": "fmri-facility",
+  "order": 2
+}

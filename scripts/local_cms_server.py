@@ -106,6 +106,40 @@ def sync_collections_to_data():
             json.dump(all_pubs, df, indent=2, ensure_ascii=False)
         print(f"✓ Synced {len(all_pubs)} publications to data/publications.json")
 
+    # Impressions sync
+    imp_dir = os.path.join(BASE_DIR, "content", "impressions")
+    if os.path.exists(imp_dir):
+        all_imp = []
+        for f in sorted(glob.glob(os.path.join(imp_dir, "*.json"))):
+            try:
+                with open(f, "r", encoding="utf-8") as inf:
+                    all_imp.append(json.load(inf))
+            except Exception as e:
+                print(f"Error reading {f}: {e}")
+        
+        all_imp.sort(key=lambda x: (int(x.get("order", 99) or 99), x.get("title", "")))
+        data_imp_path = os.path.join(BASE_DIR, "data", "impressions.json")
+        with open(data_imp_path, "w", encoding="utf-8") as df:
+            json.dump(all_imp, df, indent=2, ensure_ascii=False)
+        print(f"✓ Synced {len(all_imp)} impressions to data/impressions.json")
+
+    # Positions sync
+    pos_dir = os.path.join(BASE_DIR, "content", "positions")
+    if os.path.exists(pos_dir):
+        all_pos = []
+        for f in sorted(glob.glob(os.path.join(pos_dir, "*.json"))):
+            try:
+                with open(f, "r", encoding="utf-8") as pf:
+                    all_pos.append(json.load(pf))
+            except Exception as e:
+                print(f"Error reading {f}: {e}")
+        
+        all_pos.sort(key=lambda x: (int(x.get("order", 99) or 99), x.get("title", "")))
+        data_pos_path = os.path.join(BASE_DIR, "data", "positions.json")
+        with open(data_pos_path, "w", encoding="utf-8") as df:
+            json.dump(all_pos, df, indent=2, ensure_ascii=False)
+        print(f"✓ Synced {len(all_pos)} positions to data/positions.json")
+
 class DecapProxyHandler(http.server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         # Clean custom logging
