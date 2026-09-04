@@ -36,12 +36,15 @@ collections:
     format: "json"
     slug: "{{id}}"
     identifier_field: "citation"
-    summary: "({{year}}) {{citation}}"
+    summary: "({{fields.year}}) {{fields.citation}}"
+    sortable_fields:
+      - 'year'
+      - 'citation'
     fields:
       - { label: "Paper / DOI URL", name: "paper_url", widget: "string", required: false, hint: "Paste a DOI (e.g. 10.3389/neuro.09.054.2009 or https://doi.org/...), then click 'Auto-fetch' below to populate Citation, Year & BibTeX." }
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Full Citation Text", name: "citation", widget: "text" }
-      - { label: "Publication Year", name: "year", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
       - { label: "Year Group / Section", name: "year_group", widget: "string", default: "2026" }
       - label: "Research Topics"
         name: "topics"
