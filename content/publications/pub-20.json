@@ -1,14 +1,15 @@
 {
-  "id": "pub-20",
-  "citation": "S\u00e1nchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
-  "year_group": "2024",
   "topics": [
     "Decision Making",
-    "Perception & Vision"
+    "Perception & Vision",
+    "Consciousness"
   ],
-  "doi": "https://doi.org/10.1073/pnas.2220749120",
-  "paper_url": "https://doi.org/10.1073/pnas.2220749120",
+  "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
+  "bibtex": "@article{S_nchez_Fuenzalida_2023,\n  title ={Predictions and rewards affect decision-making but not subjective experience},\n  volume ={120},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2220749120},\n  DOI ={10.1073/pnas.2220749120},\n  number ={44},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2023},\n  month =Oct \n}",
   "preprint_url": "https://osf.io/pfe46/",
+  "id": "pub-20",
+  "paper_url": "https://doi.org/10.1073/pnas.2220749120",
   "code_url": null,
-  "bibtex": "@article{S_nchez_Fuenzalida_2023,\n  title ={Predictions and rewards affect decision-making but not subjective experience},\n  volume ={120},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2220749120},\n  DOI ={10.1073/pnas.2220749120},\n  number ={44},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={S\u00e1nchez-Fuenzalida, Nicol\u00e1s and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2023},\n  month =Oct \n}"
+  "year_group": "2024",
+  "doi": "https://doi.org/10.1073/pnas.2220749120"
 }
