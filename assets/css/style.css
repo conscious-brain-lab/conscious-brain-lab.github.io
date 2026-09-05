@@ -1123,24 +1123,56 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 850px) {
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
   .header-nav-bar {
     display: none;
-  }
-  .mobile-toggle-btn {
-    display: block;
-  }
-  .nav-menu.mobile-open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
     background: var(--bg-card);
     border-bottom: 1px solid var(--border-color);
-    padding: 1.5rem;
-    box-shadow: var(--shadow-xl);
-    gap: 0.75rem;
+    box-shadow: var(--shadow-lg);
+    max-height: calc(100vh - 65px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .header-nav-bar.open,
+  .header-nav-bar.mobile-open {
+    display: block !important;
+    animation: fadeIn 0.2s ease-out;
+  }
+  .mobile-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-nav {
+    padding: 1rem 0;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+    padding: 0 0.5rem;
+  }
+  .nav-item {
+    width: 100%;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+  }
+  .nav-link:hover,
+  .nav-link.active {
+    background: var(--accent-light);
+    color: var(--accent-primary);
   }
   .nav-item.nav-item-right {
     margin-left: 0;
@@ -1150,8 +1182,18 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     box-shadow: none;
     border: none;
-    padding-left: 1rem;
+    border-left: 2px solid var(--accent-light);
+    margin-left: 1.25rem;
+    padding: 0.25rem 0 0.5rem 0.5rem;
     background: transparent;
+  }
+  .dropdown-item {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+  .dropdown-item:hover {
+    color: var(--accent-primary);
   }
   .footer-grid {
     grid-template-columns: 1fr;
@@ -1159,6 +1201,58 @@ h1, h2, h3, h4, h5, h6 {
   .member-anchor,
   .member-controls {
     scroll-margin-top: 85px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-top-bar {
+    padding: 0.6rem 0;
+  }
+  .brand-logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  .brand-logo-link {
+    gap: 0.6rem;
+  }
+  .brand-title {
+    font-size: 1.15rem;
+  }
+  .brand-sub {
+    font-size: 0.72rem;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .top-bar-actions {
+    gap: 0.4rem;
+  }
+  .btn-admin {
+    font-size: 0;
+    padding: 0.5rem;
+    min-width: 36px;
+    justify-content: center;
+  }
+  .btn-admin svg {
+    margin: 0;
+    width: 17px;
+    height: 17px;
+  }
+  .theme-toggle-btn,
+  .mobile-toggle-btn {
+    width: 38px;
+    height: 38px;
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .page-header {
+    padding: 2.5rem 0 1.5rem;
+  }
+  .page-title {
+    font-size: 1.75rem;
   }
 }
 

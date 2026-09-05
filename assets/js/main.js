@@ -46,22 +46,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 2. Mobile Navigation Drawer Toggle
   const mobileToggleBtn = document.getElementById('mobile-toggle');
+  const navBar = document.querySelector('.header-nav-bar');
   const navMenu = document.getElementById('nav-menu');
 
-  if (mobileToggleBtn && navMenu) {
-    mobileToggleBtn.addEventListener('click', () => {
-      navMenu.classList.toggle('open');
-      const isOpen = navMenu.classList.contains('open');
-      mobileToggleBtn.setAttribute('aria-expanded', isOpen);
-      mobileToggleBtn.innerHTML = isOpen ? '✕' : '☰';
+  function setMobileNavOpen(open) {
+    if (navBar) {
+      navBar.classList.toggle('open', open);
+      navBar.classList.toggle('mobile-open', open);
+    }
+    if (navMenu) {
+      navMenu.classList.toggle('open', open);
+      navMenu.classList.toggle('mobile-open', open);
+    }
+    if (mobileToggleBtn) {
+      mobileToggleBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      mobileToggleBtn.innerHTML = open ? '✕' : '☰';
+    }
+  }
+
+  if (mobileToggleBtn && (navBar || navMenu)) {
+    mobileToggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isCurrentlyOpen = navBar ? navBar.classList.contains('open') : (navMenu && navMenu.classList.contains('open'));
+      setMobileNavOpen(!isCurrentlyOpen);
     });
   }
 
+  // Close mobile nav when clicking any nav link
+  document.querySelectorAll('.header-nav-bar .nav-link, .header-nav-bar .dropdown-item').forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 850) {
+        setMobileNavOpen(false);
+      }
+    });
+  });
+
   // Close mobile nav on click outside
   document.addEventListener('click', (e) => {
-    if (navMenu && navMenu.classList.contains('open') && !navMenu.contains(e.target) && !mobileToggleBtn.contains(e.target)) {
-      navMenu.classList.remove('open');
-      if (mobileToggleBtn) mobileToggleBtn.innerHTML = '☰';
+    const isInsideNav = (navBar && navBar.contains(e.target)) || (navMenu && navMenu.contains(e.target));
+    const isToggle = mobileToggleBtn && mobileToggleBtn.contains(e.target);
+    if (!isInsideNav && !isToggle) {
+      setMobileNavOpen(false);
     }
   });
 
