@@ -19,7 +19,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Load publication data
   try {
-    const res = await fetch('/data/publications.json');
+    const res = await fetch('/data/publications.json?t=' + Date.now(), {
+      cache: 'no-cache',
+      headers: { 'Cache-Control': 'no-cache' }
+    });
     if (!res.ok) throw new Error('Failed to load publications');
     allPublications = await res.json();
     renderPublications();
