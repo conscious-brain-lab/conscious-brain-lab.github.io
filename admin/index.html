@@ -496,6 +496,85 @@
     .cbl-auth-links a:hover {
       text-decoration: underline;
     }
+
+    /* CMS Publications Overview & Section Headers */
+    .cbl-cms-group-header {
+      grid-column: 1 / -1 !important;
+      width: 100% !important;
+      margin: 28px 0 14px 0 !important;
+      padding-bottom: 8px !important;
+      border-bottom: 2.5px solid #e0f2fe !important;
+      box-sizing: border-box !important;
+    }
+    .cbl-cms-group-header:first-of-type {
+      margin-top: 8px !important;
+    }
+    .cbl-cms-group-title {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    }
+    .cbl-cms-group-name {
+      font-size: 1.35rem !important;
+      font-weight: 800 !important;
+      color: #0f172a !important;
+      letter-spacing: -0.01em !important;
+    }
+    .cbl-cms-group-badge {
+      font-size: 0.82rem !important;
+      font-weight: 600 !important;
+      color: #0284c7 !important;
+      background: #e0f2fe !important;
+      padding: 3px 10px !important;
+      border-radius: 9999px !important;
+      border: 1px solid #bae6fd !important;
+    }
+
+    /* Publication Card Enhancements in CMS Overview */
+    .cbl-cms-pub-tags {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 5px !important;
+      margin-top: 10px !important;
+      padding-top: 8px !important;
+      border-top: 1px dashed #e2e8f0 !important;
+    }
+    .cbl-cms-tag {
+      display: inline-flex !important;
+      align-items: center !important;
+      background: #e0f2fe !important;
+      color: #0369a1 !important;
+      border: 1px solid #bae6fd !important;
+      font-size: 11px !important;
+      font-weight: 600 !important;
+      padding: 2.5px 8px !important;
+      border-radius: 4px !important;
+      line-height: 1.3 !important;
+      letter-spacing: 0.01em !important;
+      white-space: nowrap !important;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .cbl-cms-tag-none {
+      font-size: 11px !important;
+      color: #94a3b8 !important;
+      font-style: italic !important;
+    }
+
+    /* Publications Card Hover & Highlight Styling */
+    a[href*="#/collections/publications/entries/"] {
+      text-decoration: none !important;
+      transition: all 0.2s ease !important;
+    }
+    a[href*="#/collections/publications/entries/"]:hover .cbl-cms-tag {
+      background: #bae6fd !important;
+      border-color: #7dd3fc !important;
+      color: #0284c7 !important;
+    }
+    a[href*="#/collections/publications/entries/"] h2 strong {
+      color: #0284c7 !important;
+      font-weight: 700 !important;
+    }
   </style>
 </head>
 <body>
@@ -1147,113 +1226,171 @@
         });
       }
 
-      // Automatically keep publications in collection overview ordered identical to the live site
-      let isSortingPublications = false;
+      // -------------------------------------------------------------
+      // 4. PUBLICATIONS CMS OVERVIEW & PREVIEW ENHANCEMENT
+      // -------------------------------------------------------------
+      function escapeHtml(string) {
+        return String(string)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      function highlightPINames(text) {
+        if (!text) return '';
+        let cleaned = text.replace(/<strong>(.*?)<\/strong>/gi, '$1');
+        const fahrenfort = '(?:(?:Johannes(?:\\s+Jacobus|\\s+J(?:\\.|\\b))?|J\\s*\\.\\s*J(?:\\.|\\b)|J\\s*\\.|JJ\\b)\\s*Fahrenfort|Fahrenfort,\\s*(?:Johannes(?:\\s+Jacobus|\\s+J(?:\\.|\\b))?|J\\s*\\.\\s*J(?:\\.|\\b)|J\\s*\\.|JJ\\b|J\\b)|Fahrenfort\\s+(?:JJ\\b|J\\b)|Fahrenfort\\b)';
+        const vangaal = '(?:Gaal,\\s*(?:Simon\\b|S\\s*\\.|S\\b)?\\s*,?\\s*[Vv](?:an\\b|\\.)|[Vv]an\\s+Gaal(?:,\\s*(?:Simon\\b|S\\s*\\.|S\\b))?|(?:Simon\\b|S\\s*\\.|S\\b)\\s*[Vv]an\\s+Gaal|[Vv]an\\s+Gaal\\b)';
+        const stein = '(?:Stein,\\s*(?:Timo\\b|T\\s*\\.|T\\b)|(?:Timo\\b|T\\s*\\.|T\\b)\\s*Stein|Stein\\s+T\\b)';
+        const piRegex = new RegExp(`\\b(${fahrenfort}|${vangaal}|${stein})`, 'gi');
+        return cleaned.replace(piRegex, '<strong>$1</strong>');
+      }
+
+      // Register Decap CMS live preview for publications
+      try {
+        if (window.CMS && typeof window.CMS.registerPreviewTemplate === 'function') {
+          if (typeof window.CMS.registerPreviewStyle === 'function') {
+            window.CMS.registerPreviewStyle('/assets/css/style.css');
+            window.CMS.registerPreviewStyle('/assets/css/publications.css');
+          }
+
+          const PublicationPreview = createClass({
+            render: function () {
+              const entry = this.props.entry;
+              const citation = entry.getIn(['data', 'citation']) || 'Citation preview...';
+              const yearGroup = entry.getIn(['data', 'year_group']) || 'Submitted or on Rxiv';
+              const topicsList = entry.getIn(['data', 'topics']);
+              const topics = topicsList && typeof topicsList.toJS === 'function' 
+                ? topicsList.toJS() 
+                : (topicsList ? Array.from(topicsList) : []);
+              const paperUrl = entry.getIn(['data', 'paper_url']);
+              const preprintUrl = entry.getIn(['data', 'preprint_url']);
+              const codeUrl = entry.getIn(['data', 'code_url']);
+
+              const formattedCitation = highlightPINames(citation);
+
+              return h('div', { style: { padding: '24px', maxWidth: '800px', margin: '0 auto', fontFamily: 'Inter, system-ui, -apple-system, sans-serif' } },
+                h('div', { className: 'pub-year-group' },
+                  h('h3', { className: 'pub-year-heading' },
+                    h('span', null, yearGroup),
+                    h('span', { className: 'pub-year-count' }, 'Preview')
+                  ),
+                  h('article', { className: 'pub-card', style: { marginTop: '16px' } },
+                    h('div', {
+                      className: 'pub-citation-text',
+                      dangerouslySetInnerHTML: { __html: formattedCitation }
+                    }),
+                    h('div', { className: 'pub-meta-row' },
+                      h('div', { className: 'pub-topic-tags' },
+                        topics.length > 0
+                          ? topics.map((t, i) => h('span', { key: i, className: 'tag tag-accent' }, t))
+                          : h('span', { style: { fontSize: '11px', color: '#94a3b8', fontStyle: 'italic' } }, 'No topic tags selected')
+                      ),
+                      h('div', { className: 'pub-badge-links' },
+                        preprintUrl ? h('a', { href: preprintUrl, target: '_blank', rel: 'noopener', className: 'pub-btn pub-btn-primary' }, 'Preprint') : null,
+                        paperUrl ? h('a', { href: paperUrl, target: '_blank', rel: 'noopener', className: 'pub-btn' }, 'Paper / DOI') : null,
+                        codeUrl ? h('a', { href: codeUrl, target: '_blank', rel: 'noopener', className: 'pub-btn' }, 'Data & Code') : null
+                      )
+                    )
+                  )
+                )
+              );
+            }
+          });
+
+          window.CMS.registerPreviewTemplate('publications', PublicationPreview);
+        }
+      } catch (err) {
+        console.warn('Could not register CMS Publication preview template:', err);
+      }
+
+      // Automatically organize publications into section headers & inject publication tags in overview
+      let isOrganizingPublications = false;
       const pubsDataMap = new Map();
+
       async function initPubsData() {
         try {
-          const res = await fetch('/data/publications.json');
+          const res = await fetch('/data/publications.json?v=' + Date.now());
           if (res.ok) {
             const data = await res.json();
             data.forEach((p, idx) => {
               if (p.id) pubsDataMap.set(p.id, { ...p, siteIndex: idx });
             });
-            sortPublicationCardsInOverview();
+            organizePublicationCardsInOverview();
           }
         } catch (e) {
-          // Fallback to text parsing
+          // Fallback to text inspection
         }
       }
       initPubsData();
 
-      function sortPublicationCardsInOverview() {
-        if (isSortingPublications) return;
-        if (!window.location.hash.includes('/collections/publications')) return;
-        if (window.location.hash.includes('/entries/')) return;
+      window.addEventListener('hashchange', () => {
+        if (window.location.hash.includes('/collections/publications')) {
+          initPubsData();
+          setTimeout(organizePublicationCardsInOverview, 60);
+        }
+      });
+
+      function organizePublicationCardsInOverview() {
+        const hash = window.location.hash || '';
+        if (!hash.includes('/collections/publications') || hash.includes('/entries/')) return;
 
         const cardLinks = Array.from(document.querySelectorAll('a[href*="#/collections/publications/entries/"]'));
-        if (cardLinks.length < 2) return;
+        if (cardLinks.length === 0) return;
 
-        // Resolve the common container and the top-level card items to sort
-        let container = cardLinks[0].parentElement;
-        const allSameParent = cardLinks.every(l => l.parentElement === container);
-        let itemsToSort = cardLinks;
+        let lastGroup = null;
 
-        if (!allSameParent) {
-          container = cardLinks[0].closest('[role="list"], [class*="List"], [class*="Grid"], [class*="Collection"]') 
-                   || cardLinks[0].parentElement.parentElement;
-          if (!container) return;
-          const uniqueItems = new Set();
-          itemsToSort = cardLinks.map(l => {
-            let curr = l;
-            while (curr && curr.parentElement && curr.parentElement !== container) {
-              curr = curr.parentElement;
+        cardLinks.forEach(link => {
+          const m = (link.getAttribute('href') || '').match(/entries\/([^/?#]+)/);
+          const pubId = m ? decodeURIComponent(m[1]) : '';
+          const pub = pubsDataMap.get(pubId);
+
+          // 1. Show publication tags on each card
+          let tagsBar = link.querySelector('.cbl-cms-pub-tags');
+          if (!tagsBar) {
+            tagsBar = document.createElement('div');
+            tagsBar.className = 'cbl-cms-pub-tags';
+            link.appendChild(tagsBar);
+          }
+
+          const topics = pub && pub.topics && Array.isArray(pub.topics) ? pub.topics : [];
+          const topicsKey = topics.join('|');
+          if (tagsBar.dataset.topicsKey !== topicsKey) {
+            tagsBar.dataset.topicsKey = topicsKey;
+            tagsBar.innerHTML = topics.length > 0
+              ? topics.map(t => `<span class="cbl-cms-tag">${escapeHtml(t)}</span>`).join(' ')
+              : `<span class="cbl-cms-tag-none">No tags</span>`;
+          }
+
+          // 2. Insert section header when section changes
+          let group = pub && pub.year_group ? pub.year_group.trim() : null;
+          if (!group) {
+            const match = (link.textContent || '').match(/^\s*\(([^)]+)\)/);
+            group = match ? match[1].trim() : 'Other';
+          }
+
+          // Card wrapper element (or link if cards are direct children)
+          const cardElement = (link.parentElement && link.parentElement.parentElement && link.parentElement.parentElement !== document.body && link.parentElement.tagName === 'DIV' && !link.parentElement.classList.contains('cbl-cms-group-header'))
+            ? link.parentElement
+            : link;
+
+          if (group !== lastGroup) {
+            let prev = cardElement.previousElementSibling;
+            if (!prev || !prev.classList.contains('cbl-cms-group-header') || prev.dataset.cblGroup !== group) {
+              const header = document.createElement('div');
+              header.className = 'cbl-cms-group-header';
+              header.dataset.cblGroup = group;
+              header.innerHTML = `
+                <div class="cbl-cms-group-title">
+                  <span class="cbl-cms-group-name">${escapeHtml(group)}</span>
+                </div>
+              `;
+              cardElement.parentNode.insertBefore(header, cardElement);
             }
-            return curr;
-          }).filter(el => {
-            if (!el || uniqueItems.has(el)) return false;
-            uniqueItems.add(el);
-            return true;
-          });
-        }
-
-        if (!container || itemsToSort.length < 2) return;
-
-        function getCardWeight(el) {
-          // Check by entry slug/id if present in href
-          const link = el.matches('a[href*="#/collections/publications/entries/"]') ? el : el.querySelector('a[href*="#/collections/publications/entries/"]');
-          if (link) {
-            const m = (link.getAttribute('href') || '').match(/entries\/([^/?#]+)/);
-            if (m && m[1]) {
-              const pubId = decodeURIComponent(m[1]);
-              if (pubsDataMap.has(pubId)) {
-                const pub = pubsDataMap.get(pubId);
-                const yg = (pub.year_group || pub.year || '').toLowerCase();
-                if (yg.includes('rxiv') || yg.includes('submitted') || yg.includes('preprint') || yg.includes('review')) {
-                  return 9999;
-                }
-                const yrMatch = yg.match(/\b(19\d\d|20\d\d)\b/) || (pub.citation || '').match(/\b(19\d\d|20\d\d)\b/);
-                if (yrMatch) return parseInt(yrMatch[0], 10);
-              }
-            }
+            lastGroup = group;
           }
-
-          // Fallback to text inspection
-          const text = (el.textContent || '').toLowerCase();
-          const match = text.match(/^\s*\(([^)]+)\)/);
-          const prefix = match ? match[1] : '';
-          if (prefix.includes('rxiv') || prefix.includes('submitted') || prefix.includes('preprint') || prefix.includes('review') || text.includes('submitted or on rxiv') || text.includes('submitted') || text.includes('rxiv')) {
-            return 9999;
-          }
-          const yrMatch = prefix.match(/\d{4}/) || text.match(/\b(19\d\d|20\d\d)\b/);
-          if (yrMatch) {
-            return parseInt(yrMatch[0], 10);
-          }
-          return 0;
-        }
-
-        const sortedItems = [...itemsToSort].sort((a, b) => {
-          const weightA = getCardWeight(a);
-          const weightB = getCardWeight(b);
-          if (weightB !== weightA) {
-            return weightB - weightA;
-          }
-          return (a.textContent || '').localeCompare(b.textContent || '');
         });
-
-        let needsReorder = false;
-        for (let i = 0; i < itemsToSort.length; i++) {
-          if (itemsToSort[i] !== sortedItems[i]) {
-            needsReorder = true;
-            break;
-          }
-        }
-
-        if (needsReorder) {
-          isSortingPublications = true;
-          sortedItems.forEach(item => container.appendChild(item));
-          setTimeout(() => { isSortingPublications = false; }, 60);
-        }
       }
 
       // -------------------------------------------------------------
@@ -1389,7 +1526,7 @@
       const observer = new MutationObserver(() => {
         attachPublicationHelpers();
         attachImageEditorHelpers();
-        sortPublicationCardsInOverview();
+        organizePublicationCardsInOverview();
       });
 
       function boot() {
@@ -1397,7 +1534,7 @@
         observer.observe(document.body, { childList: true, subtree: true });
         attachPublicationHelpers();
         attachImageEditorHelpers();
-        sortPublicationCardsInOverview();
+        organizePublicationCardsInOverview();
       }
 
       if (document.readyState === 'loading') {
