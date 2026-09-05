@@ -33,7 +33,7 @@
     "type": "logo",
     "link": "",
     "id": "assc25",
-    "image": "/assets/images/assclogo_png-1024x490_edited.png.avif"
+    "image": "/assets/images/assclogo.png"
   },
   {
     "id": "elife-animation",
@@ -202,7 +202,7 @@
     "type": "logo",
     "link": "/publications/",
     "id": "pnas-papers",
-    "image": "/assets/images/pnas_logo.png.avif"
+    "image": "/assets/images/pnas_logo.png"
   },
   {
     "id": "erc-grant",

@@ -38,9 +38,28 @@ function renderNewsMedia(item, title, imgPos) {
 
   const imgSrc = item.image || '';
   if (imgSrc) {
+    const isLogo = item.type === 'logo' || 
+                   imgSrc.includes('logo') || 
+                   imgSrc.includes('pnas') || 
+                   imgSrc.includes('assc') || 
+                   imgSrc.includes('erc') || 
+                   imgSrc.includes('templeton') || 
+                   imgSrc.includes('nrc') || 
+                   imgSrc.includes('proefkonijnen');
+
+    let fitStyle = `object-fit: cover; object-position: ${imgPos};`;
+    if (isLogo) {
+      const padding = (imgSrc.includes('pnas') || imgSrc.includes('nrc') || imgSrc.includes('assc')) 
+        ? 'padding: 2rem 1.5rem;' 
+        : 'padding: 1.5rem;';
+      fitStyle = `object-fit: contain; ${padding} background: var(--bg-tertiary);`;
+    } else if (item.fit === 'contain' || item.position === 'contain') {
+      fitStyle = `object-fit: contain; background: var(--bg-tertiary);`;
+    }
+
     return `
       <div class="news-card-img-wrap">
-        <img src="${imgSrc}" alt="${title}" class="news-card-img" style="object-fit: cover; object-position: ${imgPos};" onerror="this.parentElement.style.display='none';" />
+        <img src="${imgSrc}" alt="${title}" class="news-card-img ${isLogo ? 'news-card-logo' : ''}" data-type="${item.type || ''}" style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
       </div>
     `;
   }
