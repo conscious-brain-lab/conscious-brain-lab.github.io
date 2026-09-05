@@ -499,7 +499,7 @@
 <body>
   <!-- Fixed Top Utility Bar for Decap CMS: Link back to site and Logout -->
   <div id="cbl-cms-topbar">
-    <a href="../" target="_blank" rel="noopener">
+    <a href="../" id="cbl-back-to-site">
       <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
       Back to Public Website
     </a>
@@ -1294,6 +1294,14 @@
         } else {
           // Not authenticated and live site: display login overlay
           if (authOverlay) authOverlay.style.display = 'flex';
+        }
+
+        const backLink = document.getElementById('cbl-back-to-site');
+        if (backLink) {
+          backLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = '../index.html';
+          });
         }
 
         if (logoutBtn) {
