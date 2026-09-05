@@ -439,7 +439,9 @@ function getPublicationCitationHtml(pub) {
  */
 function formatFallbackCitation(text) {
   if (!text) return '';
-  let formatted = highlightPINames(text);
+  let cleaned = text.replace(/\s*\b(?:CLOCKSS|LOCKSS)\b\.?\s*$/i, '').trim();
+  if (cleaned && !cleaned.endsWith('.')) cleaned += '.';
+  let formatted = highlightPINames(cleaned);
 
   const commonJournals = [
     'Nature Human Behavior', 'Nature Human Behaviour', 'Nature Neuroscience', 'Nature Communications', 'Nature',
@@ -478,7 +480,9 @@ function copyCitation(pubId) {
     }
   }
   if (!textToCopy) {
-    textToCopy = pub.citation || '';
+    let raw = (pub.citation || '').replace(/\s*\b(?:CLOCKSS|LOCKSS)\b\.?\s*$/i, '').trim();
+    if (raw && !raw.endsWith('.')) raw += '.';
+    textToCopy = raw;
   }
   navigator.clipboard.writeText(textToCopy).then(() => {
     showToast('Citation copied to clipboard!');

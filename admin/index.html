@@ -779,6 +779,7 @@
               rawCitation = rawCitation.slice(0, urlMatch.index).trim();
             }
             // Ensure citation ends cleanly with a period and no trailing separators
+            rawCitation = rawCitation.replace(/\s*\b(?:CLOCKSS|LOCKSS)\b\.?\s*$/i, '').trim();
             rawCitation = rawCitation.replace(/[,;:]\s*$/, '').trim();
             if (rawCitation && !rawCitation.endsWith('.')) {
               rawCitation += '.';

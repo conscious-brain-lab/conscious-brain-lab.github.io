@@ -160,6 +160,7 @@ def fetch_doi_metadata(doi):
             raw_cit = resp.read().decode("utf-8").strip()
             # Strip trailing URL / DOI from citation text
             cleaned_cit = re.sub(r"\s*(?:https?://(?:dx\.)?doi\.org/[^\s]+|https?://[^\s]+|doi:\s*10\.[^\s]+)\s*$", "", raw_cit, flags=re.I).strip()
+            cleaned_cit = re.sub(r"\s*\b(?:CLOCKSS|LOCKSS)\b\.?\s*$", "", cleaned_cit, flags=re.I).strip()
             cleaned_cit = re.sub(r"[,;:]\s*$", "", cleaned_cit).strip()
             cleaned_cit = html.unescape(cleaned_cit)
             if cleaned_cit and not cleaned_cit.endswith("."):
@@ -167,11 +168,12 @@ def fetch_doi_metadata(doi):
             apa_cit = cleaned_cit
     except Exception as e:
         try:
-            alt_url = f"https://api.crossref.org/works/{urllib.parse.quote(clean_d)}/transform/text/x-bibliography?style=apa"
-            req_alt = urllib.request.Request(alt_url, headers={"User-Agent": USER_AGENT})
+            alt_url = f"https://api.crossref.org/works/{urllib.parse.quote(clean_d)}/transform/text/x-bibliography"
+            req_alt = urllib.request.Request(alt_url, headers={"Accept": "text/x-bibliography", "User-Agent": USER_AGENT})
             with urllib.request.urlopen(req_alt, context=SSL_CTX, timeout=12) as resp:
                 raw_cit = resp.read().decode("utf-8").strip()
                 cleaned_cit = re.sub(r"\s*(?:https?://(?:dx\.)?doi\.org/[^\s]+|https?://[^\s]+|doi:\s*10\.[^\s]+)\s*$", "", raw_cit, flags=re.I).strip()
+                cleaned_cit = re.sub(r"\s*\b(?:CLOCKSS|LOCKSS)\b\.?\s*$", "", cleaned_cit, flags=re.I).strip()
                 cleaned_cit = re.sub(r"[,;:]\s*$", "", cleaned_cit).strip()
                 cleaned_cit = html.unescape(cleaned_cit)
                 if cleaned_cit and not cleaned_cit.endswith("."):
