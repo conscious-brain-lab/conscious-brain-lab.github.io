@@ -38,24 +38,16 @@ function renderNewsMedia(item, title, imgPos) {
 
   const imgSrc = item.image || '';
   if (imgSrc) {
-    const isExplicitPhoto = item.type === 'photo';
-    const isLogo = !isExplicitPhoto && (
-      item.type === 'logo' || 
-      imgSrc.includes('logo') || 
-      imgSrc.includes('pnas') || 
-      imgSrc.includes('assc') || 
-      imgSrc.includes('erc') || 
-      imgSrc.includes('templeton') || 
-      imgSrc.includes('nrc')
-    );
+    // Only mark as logo if explicitly configured as logo or contain; default to photo (object-fit: cover) matching Impressions
+    const isLogo = item.type === 'logo' || item.fit === 'contain' || item.position === 'contain';
 
-    const fitStyle = (isLogo || item.fit === 'contain' || item.position === 'contain')
+    const fitStyle = isLogo
       ? 'object-fit: contain; background: var(--bg-tertiary);'
       : `object-fit: cover; object-position: ${imgPos};`;
 
     return `
       <div class="news-card-img-wrap">
-        <img src="${imgSrc}" alt="${title}" class="news-card-img ${isLogo ? 'news-card-logo' : ''}" data-type="${item.type || ''}" style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
+        <img src="${imgSrc}" alt="${title}" class="news-card-img ${isLogo ? 'news-card-logo' : ''}" data-type="${item.type || 'photo'}" style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
       </div>
     `;
   }
