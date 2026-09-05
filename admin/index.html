@@ -491,13 +491,13 @@
         const firstAuthor = author.split(',')[0].replace(/[^a-zA-Z]/g, '').toLowerCase() || 'cbl';
         const cleanYear = year ? String(year).trim() : '2024';
         const key = `${firstAuthor}${cleanYear}`;
+        const urlLine = url ? `,\n  url = {${url}}` : '';
 
         return `@article{${key},
   author = {${author}},
   title = {${title}},
   year = {${cleanYear}},
-  journal = {Conscious Brain Lab Publications},
-  url = {${url || 'https://www.consciousbrainlab.com'}}
+  journal = {Conscious Brain Lab Publications}${urlLine}
 }`;
       }
 

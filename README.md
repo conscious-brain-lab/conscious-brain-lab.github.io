@@ -1,6 +1,6 @@
 # Conscious Brain Lab Website (Subscription-Free CMS)
 
-This repository contains the complete, modern, subscription-free website for the **Conscious Brain Lab** ([consciousbrainlab.com](https://www.consciousbrainlab.com)), migrated from Wix to a lightweight static architecture powered by **Decap CMS** and hosted on **GitHub Pages** ($0/month forever).
+This repository contains the complete, modern, subscription-free website for the **Conscious Brain Lab** ([consciousbrainlab.com](https://www.consciousbrainlab.com)), built as a lightweight static architecture powered by **Decap CMS** and hosted on **GitHub Pages** ($0/month forever).
 
 ---
 
@@ -20,7 +20,7 @@ This repository contains the complete, modern, subscription-free website for the
   - Built-in theme toggle with auto-detection of OS preferences and persistent `localStorage` memory.
 - **Direct Email Contact**: Clean `mailto:` integration without third-party form dependencies.
 - **Dutch Section Support**: Dedicated pages for participant recruitment (`/proefkonijnen`), open positions (`/vacatures`), and campus impressions (`/lab-and-campus-impressions`).
-- **100/100 Performance & SEO**: Pure HTML5 and Vanilla CSS eliminating the heavy ~1MB JavaScript bloat of the previous Wix Thunderbolt runtime.
+- **100/100 Performance & SEO**: Pure HTML5 and Vanilla CSS with fast load times, semantic HTML, and zero third-party framework runtime overhead.
 
 ---
 
@@ -112,7 +112,7 @@ To preview the website locally on your computer:
 
 ## Connecting Custom Domain (`www.consciousbrainlab.com`)
 
-When you are ready to switch the live domain away from Wix:
+When you are ready to connect your live custom domain:
 1. In your GitHub repository, go to **Settings** &rarr; **Pages** &rarr; **Custom domain**.
 2. Enter `www.consciousbrainlab.com` and save.
 3. Update your DNS settings at your domain registrar (e.g. TransIP, Namecheap, Cloudflare, etc.):

@@ -20,7 +20,7 @@ import difflib
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 PUBS_DIR = os.path.join(BASE_DIR, "content", "publications")
-USER_AGENT = "ConsciousBrainLabBot/1.0 (mailto:info@consciousbrainlab.com; https://www.consciousbrainlab.com)"
+USER_AGENT = "ConsciousBrainLabBot/1.0 (mailto:consciousbrainlab@gmail.com; https://github.com/conscious-brain-lab/website)"
 
 # Create unverified SSL context for macOS certificate compatibility
 SSL_CTX = ssl._create_unverified_context()

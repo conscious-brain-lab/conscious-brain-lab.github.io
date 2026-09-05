@@ -36,7 +36,7 @@ function renderNewsMedia(item, title, imgPos) {
     `;
   }
 
-  const imgSrc = item.image || item.wix_url || '';
+  const imgSrc = item.image || '';
   if (imgSrc) {
     return `
       <div class="news-card-img-wrap">
