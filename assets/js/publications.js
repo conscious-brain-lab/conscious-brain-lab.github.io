@@ -367,9 +367,9 @@ function highlightPINames(text) {
   let cleaned = text.replace(/<strong>(.*?)<\/strong>/gi, '$1');
 
   // Permissive patterns for each PI
-  const fahrenfort = '(?:(?:Johannes(?:\\s+Jacobus|\\s+J\\.?)?|J\\s*\\.\\s*J\\.?|J\\s*\\.|JJ)\\s*Fahrenfort|Fahrenfort,\\s*(?:Johannes(?:\\s+Jacobus|\\s+J\\.?)?|J\\s*\\.\\s*J\\.?|J\\s*\\.|JJ|J\\b)|Fahrenfort\\s+(?:JJ|J\\b)|Fahrenfort)';
-  const vangaal = '(?:Gaal,\\s*(?:Simon|S\\s*\\.(?:\\s*[A-Z]\\.?)?|S\\b)?\\s*,?\\s*[Vv](?:an\\b|\\.)|[Vv]an\\s+Gaal(?:,\\s*(?:Simon\\b|S\\s*\\.(?:\\s*[A-Z]\\.?)?|S\\b))?|(?:Simon|S\\s*\\.(?:\\s*[A-Z]\\.?)?|S\\b)\\s*[Vv]an\\s+Gaal|[Vv]an\\s+Gaal\\b)';
-  const stein = '(?:Stein,\\s*(?:Timo\\b|T\\s*\\.(?:\\s*[A-Z]\\.?)?|T\\b)|(?:Timo|T\\s*\\.(?:\\s*[A-Z]\\.?)?)\\s*Stein|Stein\\s+T\\b)';
+  const fahrenfort = '(?:(?:Johannes(?:\\s+Jacobus|\\s+J(?:\\.|\\b))?|J\\s*\\.\\s*J(?:\\.|\\b)|J\\s*\\.|JJ\\b)\\s*Fahrenfort|Fahrenfort,\\s*(?:Johannes(?:\\s+Jacobus|\\s+J(?:\\.|\\b))?|J\\s*\\.\\s*J(?:\\.|\\b)|J\\s*\\.|JJ\\b|J\\b)|Fahrenfort\\s+(?:JJ\\b|J\\b)|Fahrenfort\\b)';
+  const vangaal = '(?:Gaal,\\s*(?:Simon\\b|S\\s*\\.|S\\b)?\\s*,?\\s*[Vv](?:an\\b|\\.)|[Vv]an\\s+Gaal(?:,\\s*(?:Simon\\b|S\\s*\\.|S\\b))?|(?:Simon\\b|S\\s*\\.|S\\b)\\s*[Vv]an\\s+Gaal|[Vv]an\\s+Gaal\\b)';
+  const stein = '(?:Stein,\\s*(?:Timo\\b|T\\s*\\.|T\\b)|(?:Timo\\b|T\\s*\\.|T\\b)\\s*Stein|Stein\\s+T\\b)';
 
   const piRegex = new RegExp(`\\b(${fahrenfort}|${vangaal}|${stein})`, 'gi');
   return cleaned.replace(piRegex, '<strong>$1</strong>');
