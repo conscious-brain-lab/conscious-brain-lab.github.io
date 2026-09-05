@@ -1,13 +1,16 @@
 {
   "id": "pub-34",
-  "citation": "Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. H. F., & Scholte, H. S. (2021). On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation. The Journal of Neuroscience, 41(29), 6281–6289.",
+  "citation": "Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. H. F., & Scholte, H. S. (2021). On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation. The Journal of Neuroscience, 41(29), 6281\u20136289.",
   "year_group": "2021",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "EEG",
+    "Neural Decoding",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1523/jneurosci.2851-20.2021",
   "paper_url": "https://doi.org/10.1523/jneurosci.2851-20.2021",
   "preprint_url": null,
   "code_url": "https://github.com/noorseijdel/2020_EEG_figureground",
-  "bibtex": "@article{Seijdel_2021,\n  title ={On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation},\n  volume ={41},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2851-20.2021},\n  DOI ={10.1523/jneurosci.2851-20.2021},\n  number ={29},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Seijdel, Noor and Loke, Jessica and van de Klundert, Ron and van der Meer, Matthew and Quispel, Eva and van Gaal, Simon and de Haan, Edward H.F. and Scholte, H. Steven},\n  year ={2021},\n  month =June,\n  pages ={6281–6289} \n}"
+  "bibtex": "@article{Seijdel_2021,\n  title ={On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation},\n  volume ={41},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2851-20.2021},\n  DOI ={10.1523/jneurosci.2851-20.2021},\n  number ={29},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Seijdel, Noor and Loke, Jessica and van de Klundert, Ron and van der Meer, Matthew and Quispel, Eva and van Gaal, Simon and de Haan, Edward H.F. and Scholte, H. Steven},\n  year ={2021},\n  month =June,\n  pages ={6281\u20136289} \n}"
 }

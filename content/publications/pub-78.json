@@ -1,13 +1,16 @@
 {
   "id": "pub-78",
-  "citation": "El Karoui, I., King, J.-R., Sitt, J., Meyniel, F., Van Gaal, S., Hasboun, D., Adam, C., Navarro, V., Baulac, M., Dehaene, S., Cohen, L., & Naccache, L. (2014). Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans. Cerebral Cortex, 25(11), 4203–4212.",
+  "citation": "El Karoui, I., King, J.-R., Sitt, J., Meyniel, F., Van Gaal, S., Hasboun, D., Adam, C., Navarro, V., Baulac, M., Dehaene, S., Cohen, L., & Naccache, L. (2014). Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans. Cerebral Cortex, 25(11), 4203\u20134212.",
   "year_group": "2014",
   "topics": [
-    "Neural Decoding"
+    "Cognitive Neuroscience",
+    "EEG",
+    "Neural Decoding",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1093/cercor/bhu143",
   "paper_url": "https://doi.org/10.1093/cercor/bhu143",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{El_Karoui_2014,\n  title ={Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans},\n  volume ={25},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhu143},\n  DOI ={10.1093/cercor/bhu143},\n  number ={11},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={El Karoui, Imen and King, Jean-Remi and Sitt, Jacobo and Meyniel, Florent and Van Gaal, Simon and Hasboun, Dominique and Adam, Claude and Navarro, Vincent and Baulac, Michel and Dehaene, Stanislas and Cohen, Laurent and Naccache, Lionel},\n  year ={2014},\n  month =June,\n  pages ={4203–4212} \n}"
+  "bibtex": "@article{El_Karoui_2014,\n  title ={Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans},\n  volume ={25},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhu143},\n  DOI ={10.1093/cercor/bhu143},\n  number ={11},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={El Karoui, Imen and King, Jean-Remi and Sitt, Jacobo and Meyniel, Florent and Van Gaal, Simon and Hasboun, Dominique and Adam, Claude and Navarro, Vincent and Baulac, Michel and Dehaene, Stanislas and Cohen, Laurent and Naccache, Lionel},\n  year ={2014},\n  month =June,\n  pages ={4203\u20134212} \n}"
 }

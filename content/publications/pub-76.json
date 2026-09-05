@@ -1,13 +1,16 @@
 {
   "id": "pub-76",
-  "citation": "Meuwese, J. D. I., van Loon, A. M., Lamme, V. A. F., & Fahrenfort, J. J. (2014). The subjective experience of object recognition: comparing metacognition for object detection and object categorization. Attention, Perception, &Amp; Psychophysics, 76(4), 1057–1068.",
+  "citation": "Meuwese, J. D. I., van Loon, A. M., Lamme, V. A. F., & Fahrenfort, J. J. (2014). The subjective experience of object recognition: comparing metacognition for object detection and object categorization. Attention, Perception, &Amp; Psychophysics, 76(4), 1057\u20131068.",
   "year_group": "2014",
   "topics": [
-    "Decision Making"
+    "Consciousness",
+    "Decision Making",
+    "Metacognition & Confidence",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.3758/s13414-014-0643-1",
   "paper_url": "https://doi.org/10.3758/s13414-014-0643-1",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Meuwese_2014,\n  title ={The subjective experience of object recognition: comparing metacognition for object detection and object categorization},\n  volume ={76},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-014-0643-1},\n  DOI ={10.3758/s13414-014-0643-1},\n  number ={4},\n  journal ={Attention, Perception, & Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Meuwese, Julia D. I. and van Loon, Anouk M. and Lamme, Victor A. F. and Fahrenfort, Johannes J.},\n  year ={2014},\n  month =Feb,\n  pages ={1057–1068} \n}"
+  "bibtex": "@article{Meuwese_2014,\n  title ={The subjective experience of object recognition: comparing metacognition for object detection and object categorization},\n  volume ={76},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-014-0643-1},\n  DOI ={10.3758/s13414-014-0643-1},\n  number ={4},\n  journal ={Attention, Perception, & Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Meuwese, Julia D. I. and van Loon, Anouk M. and Lamme, Victor A. F. and Fahrenfort, Johannes J.},\n  year ={2014},\n  month =Feb,\n  pages ={1057\u20131068} \n}"
 }

@@ -1,13 +1,17 @@
 {
   "id": "pub-69",
-  "citation": "van Loon, A. M., Fahrenfort, J. J., van der Velde, B., Lirk, P. B., Vulink, N. C. C., Hollmann, M. W., Steven Scholte, H., & Lamme, V. A. F. (2015). NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex. Cerebral Cortex, 26(5), 1986–1996.",
+  "citation": "van Loon, A. M., Fahrenfort, J. J., van der Velde, B., Lirk, P. B., Vulink, N. C. C., Hollmann, M. W., Steven Scholte, H., & Lamme, V. A. F. (2015). NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex. Cerebral Cortex, 26(5), 1986\u20131996.",
   "year_group": "2016",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG",
+    "Perception & Vision",
+    "Pharmacology"
   ],
   "doi": "https://doi.org/10.1093/cercor/bhv018",
   "paper_url": "https://doi.org/10.1093/cercor/bhv018",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Loon_2015,\n  title ={NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex},\n  volume ={26},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhv018},\n  DOI ={10.1093/cercor/bhv018},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={van Loon, Anouk M. and Fahrenfort, Johannes J. and van der Velde, Bauke and Lirk, Philipp B. and Vulink, Nienke C. C. and Hollmann, Markus W. and Steven Scholte, H. and Lamme, Victor A. F.},\n  year ={2015},\n  month =Feb,\n  pages ={1986–1996} \n}"
+  "bibtex": "@article{van_Loon_2015,\n  title ={NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex},\n  volume ={26},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhv018},\n  DOI ={10.1093/cercor/bhv018},\n  number ={5},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={van Loon, Anouk M. and Fahrenfort, Johannes J. and van der Velde, Bauke and Lirk, Philipp B. and Vulink, Nienke C. C. and Hollmann, Markus W. and Steven Scholte, H. and Lamme, Victor A. F.},\n  year ={2015},\n  month =Feb,\n  pages ={1986\u20131996} \n}"
 }

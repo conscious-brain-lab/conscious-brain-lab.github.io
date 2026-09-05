@@ -1,13 +1,16 @@
 {
   "id": "pub-81",
-  "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Sligte, I. G., & Lamme, V. A. F. (2014). Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report. Journal of Cognitive Neuroscience, 26(5), 955–969.",
+  "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Sligte, I. G., & Lamme, V. A. F. (2014). Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report. Journal of Cognitive Neuroscience, 26(5), 955\u2013969.",
   "year_group": "2013",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Decision Making",
+    "Perception & Vision",
+    "fMRI"
   ],
   "doi": "https://doi.org/10.1162/jocn_a_00530",
   "paper_url": "https://doi.org/10.1162/jocn_a_00530",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Vandenbroucke_2014,\n  title ={Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report},\n  volume ={26},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00530},\n  DOI ={10.1162/jocn_a_00530},\n  number ={5},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={Vandenbroucke, Annelinde R. E. and Fahrenfort, Johannes J. and Sligte, Ilja G. and Lamme, Victor A. F.},\n  year ={2014},\n  month =May,\n  pages ={955–969} \n}"
+  "bibtex": "@article{Vandenbroucke_2014,\n  title ={Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report},\n  volume ={26},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00530},\n  DOI ={10.1162/jocn_a_00530},\n  number ={5},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={Vandenbroucke, Annelinde R. E. and Fahrenfort, Johannes J. and Sligte, Ilja G. and Lamme, Victor A. F.},\n  year ={2014},\n  month =May,\n  pages ={955\u2013969} \n}"
 }

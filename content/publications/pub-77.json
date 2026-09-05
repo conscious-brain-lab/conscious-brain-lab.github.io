@@ -1,13 +1,16 @@
 {
   "id": "pub-77",
-  "citation": "Vandenbroucke, A. R. E., Sligte, I. G., Barrett, A. B., Seth, A. K., Fahrenfort, J. J., & Lamme, V. A. F. (2014). Accurate Metacognition for Visual Sensory Memory Representations. Psychological Science, 25(4), 861–873.",
+  "citation": "Vandenbroucke, A. R. E., Sligte, I. G., Barrett, A. B., Seth, A. K., Fahrenfort, J. J., & Lamme, V. A. F. (2014). Accurate Metacognition for Visual Sensory Memory Representations. Psychological Science, 25(4), 861\u2013873.",
   "year_group": "2014",
   "topics": [
-    "Decision Making"
+    "Consciousness",
+    "Decision Making",
+    "Metacognition & Confidence",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1177/0956797613516146",
   "paper_url": "https://doi.org/10.1177/0956797613516146",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Vandenbroucke_2014,\n  title ={Accurate Metacognition for Visual Sensory Memory Representations},\n  volume ={25},\n  ISSN ={1467-9280},\n  url ={http://dx.doi.org/10.1177/0956797613516146},\n  DOI ={10.1177/0956797613516146},\n  number ={4},\n  journal ={Psychological Science},\n  publisher ={SAGE Publications},\n  author ={Vandenbroucke, Annelinde R. E. and Sligte, Ilja G. and Barrett, Adam B. and Seth, Anil K. and Fahrenfort, Johannes J. and Lamme, Victor A. F.},\n  year ={2014},\n  month =Feb,\n  pages ={861–873} \n}"
+  "bibtex": "@article{Vandenbroucke_2014,\n  title ={Accurate Metacognition for Visual Sensory Memory Representations},\n  volume ={25},\n  ISSN ={1467-9280},\n  url ={http://dx.doi.org/10.1177/0956797613516146},\n  DOI ={10.1177/0956797613516146},\n  number ={4},\n  journal ={Psychological Science},\n  publisher ={SAGE Publications},\n  author ={Vandenbroucke, Annelinde R. E. and Sligte, Ilja G. and Barrett, Adam B. and Seth, Anil K. and Fahrenfort, Johannes J. and Lamme, Victor A. F.},\n  year ={2014},\n  month =Feb,\n  pages ={861\u2013873} \n}"
 }

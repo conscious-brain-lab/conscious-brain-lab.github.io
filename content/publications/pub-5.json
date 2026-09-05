@@ -1,10 +1,11 @@
 {
   "topics": [
     "Consciousness",
-    "Decision Making"
+    "Decision Making",
+    "Perception & Vision"
   ],
-  "citation": "Sánchez-Fuenzalida, N., Jungerius, C., Fleming, S. M., van Gaal, S., & Fahrenfort, J. J. (2026). The act of detecting a stimulus contaminates measures of conscious experience with decision biases. Nature Communications, 17(1).",
-  "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={The act of detecting a stimulus contaminates measures of conscious experience with decision biases},\n  volume ={17},\n  ISSN ={2041-1723},\n  url ={http://dx.doi.org/10.1038/s41467-026-72567-6},\n  DOI ={10.1038/s41467-026-72567-6},\n  number ={1},\n  journal ={Nature Communications},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Sánchez-Fuenzalida, Nicolás and Jungerius, Chris and Fleming, Stephen M. and van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2026},\n  month =May \n}",
+  "citation": "S\u00e1nchez-Fuenzalida, N., Jungerius, C., Fleming, S. M., van Gaal, S., & Fahrenfort, J. J. (2026). The act of detecting a stimulus contaminates measures of conscious experience with decision biases. Nature Communications, 17(1).",
+  "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={The act of detecting a stimulus contaminates measures of conscious experience with decision biases},\n  volume ={17},\n  ISSN ={2041-1723},\n  url ={http://dx.doi.org/10.1038/s41467-026-72567-6},\n  DOI ={10.1038/s41467-026-72567-6},\n  number ={1},\n  journal ={Nature Communications},\n  publisher ={Springer Science and Business Media LLC},\n  author ={S\u00e1nchez-Fuenzalida, Nicol\u00e1s and Jungerius, Chris and Fleming, Stephen M. and van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2026},\n  month =May \n}",
   "preprint_url": "https://osf.io/preprints/psyarxiv/yqa32",
   "id": "pub-5",
   "paper_url": "https://doi.org/10.1038/s41467-026-72567-6",

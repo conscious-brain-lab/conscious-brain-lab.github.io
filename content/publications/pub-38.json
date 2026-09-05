@@ -3,7 +3,10 @@
   "citation": "van Driel, J., Olivers, C. N. L., & Fahrenfort, J. J. (2021). High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods, 352, 109080.",
   "year_group": "2021",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "EEG",
+    "MEG",
+    "Neural Decoding"
   ],
   "doi": "https://doi.org/10.1016/j.jneumeth.2021.109080",
   "paper_url": "https://doi.org/10.1016/j.jneumeth.2021.109080",

@@ -1,6 +1,8 @@
 {
   "topics": [
-    "Consciousness"
+    "Consciousness",
+    "Metacognition & Confidence",
+    "Perception & Vision"
   ],
   "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception. Book chapter on www.horizon-minds.com.",
   "bibtex": "@article{Fahrenfort_2025,\n  title ={Subjective and objective approaches in the study of conscious perception},\n  url ={http://dx.doi.org/10.31234/osf.io/2pk5j_v1},\n  DOI ={10.31234/osf.io/2pk5j_v1},\n  publisher ={Center for Open Science},\n  author ={Fahrenfort, Johannes Jacobus and van Gaal, Simon and Stein, Timo},\n  year ={2025},\n  month =Oct \n}",

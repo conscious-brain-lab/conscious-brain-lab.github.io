@@ -1,9 +1,10 @@
 {
   "topics": [
-    "Consciousness"
+    "Consciousness",
+    "Perception & Vision"
   ],
-  "citation": "Sánchez-Fuenzalida, N., van Gaal, S., van den Hurk, Z., Stein, T., & Fahrenfort, J. J. (2026). Evidence for unconscious priming using a Bayesian single-subject approach. Neuroscience of Consciousness, 2026(1).",
-  "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={Evidence for unconscious priming using a Bayesian single-subject approach},\n  volume ={2026},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niag052},\n  DOI ={10.1093/nc/niag052},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and van den Hurk, Zazie and Stein, Timo and Fahrenfort, Johannes J},\n  year ={2026} \n}",
+  "citation": "S\u00e1nchez-Fuenzalida, N., van Gaal, S., van den Hurk, Z., Stein, T., & Fahrenfort, J. J. (2026). Evidence for unconscious priming using a Bayesian single-subject approach. Neuroscience of Consciousness, 2026(1).",
+  "bibtex": "@article{S_nchez_Fuenzalida_2026,\n  title ={Evidence for unconscious priming using a Bayesian single-subject approach},\n  volume ={2026},\n  ISSN ={2057-2107},\n  url ={http://dx.doi.org/10.1093/nc/niag052},\n  DOI ={10.1093/nc/niag052},\n  number ={1},\n  journal ={Neuroscience of Consciousness},\n  publisher ={Oxford University Press (OUP)},\n  author ={S\u00e1nchez-Fuenzalida, Nicol\u00e1s and van Gaal, Simon and van den Hurk, Zazie and Stein, Timo and Fahrenfort, Johannes J},\n  year ={2026} \n}",
   "preprint_url": "https://osf.io/preprints/psyarxiv/xe345",
   "id": "pub-3",
   "paper_url": "https://doi.org/10.1093/nc/niag052",

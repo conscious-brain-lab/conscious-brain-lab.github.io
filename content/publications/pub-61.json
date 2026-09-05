@@ -1,13 +1,17 @@
 {
   "id": "pub-61",
-  "citation": "Correa, C. M. C., Noorman, S., Jiang, J., Palminteri, S., Cohen, M. X., Lebreton, M., & van Gaal, S. (2018). How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning. The Journal of Neuroscience, 38(48), 10338–10348.",
+  "citation": "Correa, C. M. C., Noorman, S., Jiang, J., Palminteri, S., Cohen, M. X., Lebreton, M., & van Gaal, S. (2018). How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning. The Journal of Neuroscience, 38(48), 10338\u201310348.",
   "year_group": "2018",
   "topics": [
-    "Consciousness"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "Decision Making",
+    "EEG",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1523/jneurosci.0457-18.2018",
   "paper_url": "https://doi.org/10.1523/jneurosci.0457-18.2018",
   "preprint_url": null,
   "code_url": "https://figshare.com/s/fca2c74a2168c1f0f36e",
-  "bibtex": "@article{Correa_2018,\n  title ={How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning},\n  volume ={38},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0457-18.2018},\n  DOI ={10.1523/jneurosci.0457-18.2018},\n  number ={48},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Correa, Camile M.C. and Noorman, Samuel and Jiang, Jun and Palminteri, Stefano and Cohen, Michael X. and Lebreton, Maël and van Gaal, Simon},\n  year ={2018},\n  month =Oct,\n  pages ={10338–10348} \n}"
+  "bibtex": "@article{Correa_2018,\n  title ={How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning},\n  volume ={38},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0457-18.2018},\n  DOI ={10.1523/jneurosci.0457-18.2018},\n  number ={48},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Correa, Camile M.C. and Noorman, Samuel and Jiang, Jun and Palminteri, Stefano and Cohen, Michael X. and Lebreton, Ma\u00ebl and van Gaal, Simon},\n  year ={2018},\n  month =Oct,\n  pages ={10338\u201310348} \n}"
 }

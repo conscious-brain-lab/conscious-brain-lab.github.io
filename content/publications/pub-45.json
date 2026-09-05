@@ -1,13 +1,16 @@
 {
   "id": "pub-45",
-  "citation": "Arnts, H., van Erp, W. S., Lavrijsen, J. C. M., van Gaal, S., Groenewegen, H. J., & van den Munckhof, P. (2020). On the pathophysiology and treatment of akinetic mutism. Neuroscience &Amp; Biobehavioral Reviews, 112, 270–278.",
+  "citation": "Arnts, H., van Erp, W. S., Lavrijsen, J. C. M., van Gaal, S., Groenewegen, H. J., & van den Munckhof, P. (2020). On the pathophysiology and treatment of akinetic mutism. Neuroscience &Amp; Biobehavioral Reviews, 112, 270\u2013278.",
   "year_group": "2020",
   "topics": [
-    "EEG"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG",
+    "Pharmacology"
   ],
   "doi": "https://doi.org/10.1016/j.neubiorev.2020.02.006",
   "paper_url": "https://doi.org/10.1016/j.neubiorev.2020.02.006",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Arnts_2020,\n  title ={On the pathophysiology and treatment of akinetic mutism},\n  volume ={112},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2020.02.006},\n  DOI ={10.1016/j.neubiorev.2020.02.006},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Arnts, Hisse and van Erp, Willemijn S. and Lavrijsen, Jan C.M. and van Gaal, Simon and Groenewegen, Henk J. and van den Munckhof, Pepijn},\n  year ={2020},\n  month =May,\n  pages ={270–278} \n}"
+  "bibtex": "@article{Arnts_2020,\n  title ={On the pathophysiology and treatment of akinetic mutism},\n  volume ={112},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2020.02.006},\n  DOI ={10.1016/j.neubiorev.2020.02.006},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Arnts, Hisse and van Erp, Willemijn S. and Lavrijsen, Jan C.M. and van Gaal, Simon and Groenewegen, Henk J. and van den Munckhof, Pepijn},\n  year ={2020},\n  month =May,\n  pages ={270\u2013278} \n}"
 }

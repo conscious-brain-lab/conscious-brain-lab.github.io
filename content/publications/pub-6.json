@@ -1,6 +1,10 @@
 {
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "EEG",
+    "Neural Decoding",
+    "Perception & Vision",
+    "Pharmacology"
   ],
   "citation": "Noorman, S., Fahrenfort, J. J., Heilbron, M., Sergent, C., Zantvoord, J. B., van Gaal, S., & Stein, T. (2026). Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing. The Journal of Neuroscience, 46(12), e0674252026.",
   "bibtex": "@article{Noorman_2026,\n  title ={Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing},\n  volume ={46},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0674-25.2026},\n  DOI ={10.1523/jneurosci.0674-25.2026},\n  number ={12},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Noorman, Samuel and Fahrenfort, Johannes J. and Heilbron, Micha and Sergent, Claire and Zantvoord, Jasper B. and van Gaal, Simon and Stein, Timo},\n  year ={2026},\n  month =Feb,\n  pages ={e0674252026} \n}",

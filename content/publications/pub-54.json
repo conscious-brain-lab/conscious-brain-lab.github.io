@@ -1,6 +1,6 @@
 {
   "id": "pub-54",
-  "citation": "Günseli, E., Fahrenfort, J. J., van Moorselaar, D., Daoultzis, K. C., Meeter, M., & Olivers, C. N. L. (2019). EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports, 9(1).",
+  "citation": "G\u00fcnseli, E., Fahrenfort, J. J., van Moorselaar, D., Daoultzis, K. C., Meeter, M., & Olivers, C. N. L. (2019). EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports, 9(1).",
   "year_group": "2019",
   "topics": [
     "EEG"
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.1038/s41598-019-49577-0",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{G_nseli_2019,\n  title ={EEG dynamics reveal a dissociation between storage and selective attention within working memory},\n  volume ={9},\n  ISSN ={2045-2322},\n  url ={http://dx.doi.org/10.1038/s41598-019-49577-0},\n  DOI ={10.1038/s41598-019-49577-0},\n  number ={1},\n  journal ={Scientific Reports},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Günseli, Eren and Fahrenfort, Johannes Jacobus and van Moorselaar, Dirk and Daoultzis, Konstantinos Christos and Meeter, Martijn and Olivers, Christian N. L.},\n  year ={2019},\n  month =Sept \n}"
+  "bibtex": "@article{G_nseli_2019,\n  title ={EEG dynamics reveal a dissociation between storage and selective attention within working memory},\n  volume ={9},\n  ISSN ={2045-2322},\n  url ={http://dx.doi.org/10.1038/s41598-019-49577-0},\n  DOI ={10.1038/s41598-019-49577-0},\n  number ={1},\n  journal ={Scientific Reports},\n  publisher ={Springer Science and Business Media LLC},\n  author ={G\u00fcnseli, Eren and Fahrenfort, Johannes Jacobus and van Moorselaar, Dirk and Daoultzis, Konstantinos Christos and Meeter, Martijn and Olivers, Christian N. L.},\n  year ={2019},\n  month =Sept \n}"
 }

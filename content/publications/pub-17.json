@@ -1,13 +1,15 @@
 {
   "id": "pub-17",
-  "citation": "Ciceri, S., Oude Lohuis, M. N., Rottschäfer, V., Pennartz, C. M. A., Avitabile, D., van Gaal, S., & Olcese, U. (2024). The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report. Eneuro, 11(9), ENEURO.",
+  "citation": "Ciceri, S., Oude Lohuis, M. N., Rottsch\u00e4fer, V., Pennartz, C. M. A., Avitabile, D., van Gaal, S., & Olcese, U. (2024). The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report. Eneuro, 11(9), ENEURO.",
   "year_group": "2024",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1523/eneuro.0191-24.2024",
   "paper_url": "https://doi.org/10.1523/eneuro.0191-24.2024",
   "preprint_url": null,
   "code_url": "https://github.com/simoneciceri/IAS_project",
-  "bibtex": "@article{Ciceri_2024,\n  title ={The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report},\n  volume ={11},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0191-24.2024},\n  DOI ={10.1523/eneuro.0191-24.2024},\n  number ={9},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Ciceri, Simone and Oude Lohuis, Matthijs N. and Rottschäfer, Vivi and Pennartz, Cyriel M. A. and Avitabile, Daniele and van Gaal, Simon and Olcese, Umberto},\n  year ={2024},\n  month =Sept,\n  pages ={ENEURO.0191–24.2024} \n}"
+  "bibtex": "@article{Ciceri_2024,\n  title ={The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report},\n  volume ={11},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0191-24.2024},\n  DOI ={10.1523/eneuro.0191-24.2024},\n  number ={9},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Ciceri, Simone and Oude Lohuis, Matthijs N. and Rottsch\u00e4fer, Vivi and Pennartz, Cyriel M. A. and Avitabile, Daniele and van Gaal, Simon and Olcese, Umberto},\n  year ={2024},\n  month =Sept,\n  pages ={ENEURO.0191\u201324.2024} \n}"
 }

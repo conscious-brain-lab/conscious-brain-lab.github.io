@@ -17,14 +17,6 @@
       "slug": "fmri-facility"
     },
     {
-      "title": "UvA Campus Amsterdam",
-      "tag": "Campus",
-      "date": "September 2020",
-      "image": "/assets/images/uva_campus.jpg",
-      "description": "The vibrant Roeterseilandcampus (REC) situated right along the historic canals in central Amsterdam.",
-      "slug": "uva-campus-amsterdam"
-    },
-    {
       "title": "Eye-tracking, pupil measures",
       "tag": "Pupillometry",
       "date": "September 2020",
@@ -39,6 +31,21 @@
       "image": "/assets/images/behavioral_lab.jpg",
       "description": "Participant waiting lounge and preparation area for behavioral and cognitive testing sessions.",
       "slug": "behavioral-science-lab"
+    },
+    {
+      "title": "UvA Campus Amsterdam",
+      "tag": "Campus",
+      "date": "September 2020",
+      "image": "/assets/images/uva_campus.jpg",
+      "description": "The vibrant Roeterseilandcampus (REC) situated right along the historic canals in central Amsterdam.",
+      "slug": "uva-campus-amsterdam"
+    },
+    {
+      "title": "VU Campus Amsterdam",
+      "tag": "Campus",
+      "date": "September 2026",
+      "image": "/assets/images/20250501_122154-tvvelzen-30x40-1.jpg",
+      "description": "The VU campus has recently been completely renewed, with a large central garden and various sports facilities"
     },
     {
       "title": "Psychology building UvA",

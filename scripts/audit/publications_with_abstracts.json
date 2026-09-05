@@ -1,0 +1,1443 @@
+[
+  {
+    "id": "pub-3",
+    "doi": "10.1093/nc/niag052",
+    "title": "Evidence for unconscious priming using a Bayesian single-subject approach",
+    "journal": "Neuroscience of Consciousness",
+    "year": "2026",
+    "citation": "S\u00e1nchez-Fuenzalida, N., van Gaal, S., van den Hurk, Z., Stein, T., & Fahrenfort, J. J. (2026). Evidence for unconscious priming using a Bayesian single-subject approach. Neuroscience of Consciousness, 2026(1).",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Abstract Many studies have claimed the existence of unconscious priming, but a valid statistical procedure for substantiating such claims is often lacking. Absence of prime awareness is often inferred from non-significant p-values, and priming and awareness are typically tested by comparing two separate tests. In a classic study by Vorberg, D., Mattler, U., Heinecke, A., Schmidt, T., & Schwarzbach, J. (Different time courses for visual perception and action priming. Proceedings of the National Academy of Sciences 2003, 100(10), 6275\u20136280.), observers were slower to identify the direction of an arrow mask when it followed an arrow prime pointing in the opposite direction, despite being unable to identify the prime direction. Using this study as a starting point, we addressed several methodological shortcomings that are common in the field. First, we used a Bayesian methodological-statistical framework to test priming effects and prime awareness at the single-subject level across multiple sessions. Second, participants received extensive training in the prime awareness task to ensure they understood and executed the task as intended. Third, we directly compared prime awareness and priming. Using this approach, we found an indirect-task advantage consistent with unconscious priming at short prime-mask stimulus onset asynchronies (SOAs) in three out of six participants, under the assumption that the awareness task was at least as sensitive as the priming task. However, unlike in the original study by Vorberg and colleagues, evidence for unconscious priming was not consistently present across all SOAs, and awareness increased with SOA. Priming effects were highly consistent across participants, whereas awareness showed substantial inter-individual variability.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-4",
+    "doi": "10.64898/2026.02.05.704022",
+    "title": "Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state",
+    "journal": "",
+    "year": "2026",
+    "citation": "Nuiten, S. A., Lohuis, M. O., Schaub, A. C., van Gaal, S., Olcese, U., Pennartz, C., Sterzer, P., & de Gee, J. W. (2026). Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Humans and rodents alternate between discrete, persistent behavioral states during perceptual decision-making. For example, trials can be clustered into states of engaged, disengaged, and biased decision-making strategies. In mice, the probability of being in an engaged state exhibits an inverted-U relationship with baseline pupil-linked arousal, consistent with the Yerkes-Dodson Law. We replicated this relationship in mice (N=11; audio-visual change detection task) and showed that it generalizes to humans (N=69; auditory detection task). We then examined its neural basis, using simultaneous pupillometry and electrophysiological recordings in mouse V1. A nonlinear mediation model revealed that baseline activity of putative fast-spiking interneurons, but not putative pyramidal neurons, made a significant statistical contribution to the inverted-U shaped relationship between pupil-linked arousal and engaged-state probability. These findings are consistent with the idea that arousal may shape behavioral states by modulating baseline inhibitory activity within a primary sensory region.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-5",
+    "doi": "10.1038/s41467-026-72567-6",
+    "title": "The act of detecting a stimulus contaminates measures of conscious experience with decision biases",
+    "journal": "Nature Communications",
+    "year": "2026",
+    "citation": "S\u00e1nchez-Fuenzalida, N., Jungerius, C., Fleming, S. M., van Gaal, S., & Fahrenfort, J. J. (2026). The act of detecting a stimulus contaminates measures of conscious experience with decision biases. Nature Communications, 17(1).",
+    "existing_topics": [
+      "Consciousness",
+      "Decision Making"
+    ],
+    "abstract": "A central challenge in consciousness research is determining whether observers have a conscious experience of a stimulus. However, present/absent detection judgments are often biased by contextual factors, making it difficult to isolate conscious perception from non-perceptual influences. Traditional psychophysical methods struggle to disentangle these components. To address this, we conducted in-person experiments (N = 505) in which participants detected and reproduced dim and absent contrast-defined Gabor stimuli under three contextual manipulations: attentional cues, asymmetrical base rates, and payoff schemes. Using a reproduction task together with a Hurdle-Gaussian model, we quantitatively decomposed reproduction responses into a perceptual continuous contrast component and a non-perceptual \u201churdle\u201d component. We found that statistical priors (base rate) and reward structures (payoff) induced non-perceptual shifts in the reproduction hurdle, whereas attentional cues selectively shifted the continuous contrast component, consistent with changes in conscious experience. Critically, comparing conditions with and without intermixed detection trials revealed that the presence of a detection task contaminates reproduction reports with non-perceptual criterion effects. This highlights the need for caution in using and interpreting results that rely on detection judgments, even when combined with subjective measures like reproduction, especially given the central role that detection tasks play in consciousness research. A central challenge in consciousness research is determining whether people truly experience a stimulus. Here, the authors show that context biases traditional detection measures, whereas continuous reproduction better reflects conscious experience.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-6",
+    "doi": "10.1523/jneurosci.0674-25.2026",
+    "title": "Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing",
+    "journal": "The Journal of Neuroscience",
+    "year": "2026",
+    "citation": "Noorman, S., Fahrenfort, J. J., Heilbron, M., Sergent, C., Zantvoord, J. B., van Gaal, S., & Stein, T. (2026). Effects of Expectation, Attention, and NMDA Receptor Blockade on Feedforward and Feedback Processing. The Journal of Neuroscience, 46(12), e0674252026.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Perception is increasingly viewed as an inferential process wherein sensory inputs are integrated with prior expectations. We employed time-resolved decoding on electroencephalography (EEG) data ( n = 30 male participants) to investigate how expectations modulate sensory processing across varying levels of stimulus complexity and tested the effect of attention and NMDA receptor blockade. We designed a visual stimulus containing features of different complexity whose processing relies on distinct neural mechanisms: local contrast, collinearity, and the Kanizsa illusion, involving primarily feedforward, lateral, and feedback processes, respectively. EEG decoding revealed that expectations modulated lateral and feedback processing (better decoding for unexpected stimuli) but not feedforward processing. These expectation effects were confined to attended (task-relevant) features and were not observed for task-irrelevant features. The NMDA receptor antagonist memantine selectively enhanced decoding of the Kanizsa illusion, implicating NMDA-mediated feedback mechanisms in perceptual inference, but it did not modulate the effects of expectation or attention. These findings highlight the differential impact of expectations across different stages of sensory processing and reveal a distinct role of NMDA receptor-mediated feedback mechanisms.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-7",
+    "doi": "10.1038/s42003-026-09776-8",
+    "title": "Phasic and tonic arousal distinctly shape human decision bias",
+    "journal": "Communications Biology",
+    "year": "2026",
+    "citation": "Nuiten, S. A., De Gee, J. W., Zantvoord, J. B., Sterzer, P., Fahrenfort, J. J., & van Gaal, S. (2026). Phasic and tonic arousal distinctly shape human decision bias. Communications Biology, 9(1).",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "Neuroscientific theories hypothesize that arousal fluctuations influence human perception and behavior in two functionally distinct ways: through variations in baseline state (tonic arousal) and by transient task-evoked bursts (phasic arousal). We combined causal (pharmacology) and correlational (pupillometry) methods to test the hypothesis that tonic and phasic arousal differentially influence decision biases in human male participants performing a yes/no visual detection task. Computational modeling of choice behavior and analyses of neural data (EEG) revealed that experimentally induced shifts in decision bias were associated with changes in preparatory activity over motor cortex resembling a starting-point bias in the decision formation. The behavioral, computational, and neural effects of strategic shifts in decision bias were weakest on trials with high phasic pupil-linked arousal, but did not relate to tonic pupil-linked arousal or pharmacology. In sharp contrast, tonic pupil-linked arousal and pharmacological interventions were associated with more liberal decision-making (increased proportion of \u201cyes\u201d choices) independent of task context. Thus, in line with the hypothesized functional distinction, tonic arousal was associated with inherent decision bias, whereas phasic arousal was related to context-dependent strategic shifts in decision bias. Tonic (baseline) arousal promotes an overall liberal decision bias during the detection of faint visual stimuli in noise, whereas phasic (task-evoked) arousal selectively dampens task-driven shifts in bias by modulating preparatory motor activity.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-8",
+    "doi": "10.1017/s0140525x25101489",
+    "title": "Studying unconscious processing: Contention and consensus",
+    "journal": "Behavioral and Brain Sciences",
+    "year": "2025",
+    "citation": "Stockart, F., Schreiber, M., Amerio, P., Carmel, D., Cleeremans, A., Deouell, L. Y., Dienes, Z., Elosegi, P., Gayet, S., Goldstein, A., Halchin, A.-M., Hesselmann, G., Kimchi, R., Lamy, D., Loued-Khenissi, L., Meyen, S., Micher, N., Pitts, M., Salomon, R., et al. (2025). Studying unconscious processing: Contention and consensus. Behavioral and Brain Sciences, 1\u201377.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "The scope of unconscious processing has long been, and still remains, a hotly debated issue. This is driven in part by the current diversity of methods to manipulate and measure perceptual consciousness. Here, we provide ten recommendations and nine outstanding issues about designing experimental paradigms, analyzing data, and reporting the results of studies on unconscious processing. These were formed through dialogue among a group of researchers representing a range of theoretical backgrounds. We acknowledge that some of these recommendations naturally do not align with some existing approaches and are likely to change following theoretical and methodological development. Nevertheless, we hold that at this stage of the field they are instrumental in evoking a much-needed discussion about the norms of studying unconscious processes and helping researchers make more informed decisions when designing experiments. In the long run, we aim for this paper and future discussions around the outstanding issues to lead to a more convergent corpus of knowledge about the extent \u2013 and limits \u2013 of unconscious processing.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-9",
+    "doi": "10.31234/osf.io/2pk5j_v1",
+    "title": "Subjective and objective approaches in the study of conscious perception",
+    "journal": "",
+    "year": "2025",
+    "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception. Book chapter on www.horizon-minds.com.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Science uses objective measurements to falsify predictions, whereas consciousness is thought to be intrinsically personal and subjective. Consequently, behavioral measures of consciousness are often designated as \u201cobjective\u201d or \u201csubjective\u201d. Surprisingly however, the exact meaning of the terms objective and subjective is not clearly defined. Moreover, applying this label to a given behavioral measure is misleading, as the same measure can often be analyzed within a \u201csubjective\u201d or \u201cobjective\u201d framework. Thus, the terms objective and subjective are not only relevant to the measure that is used, but to several other dimensions as well. In this chapter we provide a brief overview of dichotomies along which one might conceptualize the objective-subjective distinction, such as the empirico-analytical method (manipulation vs trial-by-trial sorting), the mode of stimulus presentation (forced-choice vs nonforced-choice), the response type (Type 1 vs Type 2), and the adoption of a ground truth when computing the outcome measure (performance vs appearance). Although these dichotomies often overlap, the correspondence between them is only partial. Problems and pitfalls are discussed. Finally, we recommend to always explicitly outline how one\u2019s stimulus presentation, task, response measure, and analysis approach score on these dichotomies, requiring further explicit justification when claiming to capture \u201cconsciousness\u201d as a construct.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-10",
+    "doi": "10.1073/pnas.2419733122",
+    "title": "Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes\u2013Dodson curve by catecholaminergic enhancement of arousal",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": "2025",
+    "citation": "Beerendonk, L., Mej\u00edas, J. F., Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2025). Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes\u2013Dodson curve by catecholaminergic enhancement of arousal. Proceedings of the National Academy of Sciences, 122(28).",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Performance typically peaks at moderate arousal levels, consistent with the Yerkes-Dodson law, as confirmed by recent human and mouse pupillometry studies. Arousal states are influenced by neuromodulators like catecholamines (noradrenaline; NA and dopamine; DA) and acetylcholine (ACh). To explore their causal roles in this law, we pharmacologically enhanced arousal while measuring human decision-making and spontaneous arousal fluctuations via pupil size. The catecholaminergic agent atomoxetine (ATX) increased overall arousal and shifted the entire arousal-performance curve, suggesting a relative arousal mechanism where performance adapts to arousal fluctuations within arousal states. In contrast, the cholinergic agent donepezil (DNP) did not affect arousal or the curve. We modeled these findings in a neurobiologically plausible computational framework, showing how catecholaminergic modulation alters a disinhibitory neural circuit that encodes sensory evidence for decision-making. This work suggests that performance adapts flexibly to arousal fluctuations, ensuring optimal performance in each and every arousal state.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-11",
+    "doi": "10.7554/elife.97900.1",
+    "title": "Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access",
+    "journal": "",
+    "year": "2024",
+    "citation": "Noorman, S., Stein, T., Fahrenfort, J. J., & van Gaal, S. (2024). Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. CLOCKSS.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "This study investigates failures in conscious access resulting from either weak sensory input (perceptual blindness) or unattended input (attentional blindness). Participants viewed a Kanizsa stimulus with or without an illusory triangle within a rapid serial visual presentation of distractor stimuli. We designed a novel Kanizsa stimulus that contained additional ancillary features of different complexity (local contrast and collinearity) that were independently manipulated. Perceptual performance on the Kanizsa stimulus (presence vs. absence of an illusion) was equated between the perceptual (masking) and attentional (attentional blink) manipulation to circumvent common confounds related to conditional differences in task performance. We trained and tested classifiers on electroencephalogram (EEG) data to reflect the processing of specific stimulus features, with increasing levels of complexity. We show that late stages of processing (\u223c200-250 ms), reflecting the integration of complex stimulus features (collinearity, illusory triangle), were impaired by masking but spared by the attentional blink. In contrast, decoding of local contrast (the spatial arrangement of stimulus features) was observed early in time (\u223c80 ms) and was left largely unaffected by either manipulation. These results replicate previous work showing that feedforward processing is largely preserved under both perceptual and attentional blindness. Crucially however, under matched levels of performance, only attentional blindness left the processing of more complex visual features relatively intact, likely related to spared lateral and local feedback processes during inattention. These findings reveal distinct neural mechanisms associated with perceptual and attentional blindness and thus contribute to a comprehensive understanding of distinct neural stages leading to conscious access.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-12",
+    "doi": "10.1101/2024.02.22.581517",
+    "title": "Criterion placement threatens the construct validity of neural measures of consciousness",
+    "journal": "",
+    "year": "2026",
+    "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N. A., Stein, T. & van Gaal, S. (2025). Criterion placement threatens the construct validity of neural measures of consciousness. eLife, 13.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "How consciousness arises from brain activity has been a topic of intense scientific research for decades. But how does one identify the neural basis of something that is intrinsically personal and subjective? A hallmark approach has been to ask observers to judge stimuli as seen (conscious) and unseen (unconscious) and use post hoc sorting of neural measurements based these judgments. Unfortunately, cognitive and response biases are known to strongly affect how observers place their criterion for judging stimuli as seen vs. unseen, thereby confounding neural measures of consciousness. Surprisingly however, the effect of conservative and liberal criterion placement on neural measures of unconscious and conscious processing has never been explicitly investigated. Here we use simulations and electrophysiological brain measurements to show that conservative criterion placement has an unintuitive consequence: rather than selectively providing a cautious estimate of conscious processing, it inflates effect sizes in neural measures of both conscious and unconscious processing, while liberal criterion placement does the reverse. After showing this in simulation, we performed decoding analyses on two electroencephalography studies that employ common subjective indicators of conscious awareness, in which we experimentally manipulated the response criterion. The results confirm that the predicted confounding effects of criterion placement on neural measures of unconscious and conscious processing occur in empirical data, while further showing that the most widely used subjective scale, the Perceptual Awareness Scale (PAS), does not guard against criterion confounds. Follow-up simulations explicate how the experimental context determines whether the relative confounding effect of criterion placement is larger in neural measures of either conscious or unconscious processing. We conclude that criterion placement threatens the construct validity of neural measures of conscious and unconscious processing.",
+    "source": "biorxiv",
+    "keywords": []
+  },
+  {
+    "id": "pub-13",
+    "doi": "10.1038/s44271-025-00257-y",
+    "title": "Confidence reports during perceptual decision making dissociate from changes in subjective experience",
+    "journal": "Communications Psychology",
+    "year": "2025",
+    "citation": "S\u00e1nchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2025). Confidence reports during perceptual decision making dissociate from changes in subjective experience. Communications Psychology, 3(1).",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "In noisy perceptual environments, people frequently make decisions based on non-perceptual information to maximize rewards. Therefore, a central problem in psychophysics, metacognition and consciousness research is to distinguish between decisions resulting from changes in subjective experience and those arising from non-perceptual information. It has recently been proposed that confidence reports can be used to discriminate between changes in subjective experience and those arising from non-perceptual information. Here we use a Bayesian ordinal modelling framework combined with an explicit measure of subjective experience to show across two experiments (N = 204) and three bias manipulations that confidence during perceptual decision-making does not uniquely reflect subjective experience. Instead, non-perceptual manipulations affecting response bias \u2018leak\u2019 into perceptual confidence reports. This occurs not only for biases resulting from changes in the base rate of stimuli (\u2018cognitive\u2019 priors), but also when biasing information does not inform decision correctness (asymmetric payoff matrix). The relative strength of biases in first-order responses and confidence may help disentangle whether a given bias manipulation is perceptual in nature or not. Using explicit measures of subjective experience and a Bayesian ordinal modeling framework, this study shows that confidence reports in perceptual decisions are influenced by nonperceptual biases.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-14",
+    "doi": "10.7554/elife.100530.3",
+    "title": "A causal role of the NMDA receptor in recurrent processing during perceptual integration",
+    "journal": "eLife",
+    "year": "2025",
+    "citation": "Noorman, S., Stein, T., Zantvoord, J., Fahrenfort, J., & van Gaal, S. (2025). A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife, 13. CLOCKSS.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Memantine selectively improves neural decoding of attended illusory contours, revealing NMDA receptor-dependent enhancement of feedback processing in human visual perception.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-15",
+    "doi": "10.1371/journal.pbio.3003252",
+    "title": "Neural activity patterns stabilize during wakefulness and conscious experience",
+    "journal": "PLOS Biology",
+    "year": "2025",
+    "citation": "van Gaal, S. (2025). Neural activity patterns stabilize during wakefulness and conscious experience. PLOS Biology, 23(7), e3003252.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Several neuronal markers have been proposed to differentiate the global brain states that underly states of consciousness. A new pre-registered study in PLOS Biology compares neural markers of loss of consciousness in flies when awake, asleep, and anesthetized.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-16",
+    "doi": "10.1523/eneuro.0019-24.2024",
+    "title": "Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight",
+    "journal": "eneuro",
+    "year": "2024",
+    "citation": "Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2024). Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight. Eneuro, 11(7), ENEURO.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "Perceptual decisions are often accompanied by a feeling of decision confidence. Where the parietal cortex is known for its crucial role in shaping such perceptual decisions, metacognitive evaluations are thought to additionally rely on the (pre)frontal cortex. Because of this supposed neural differentiation between these processes, perceptual and metacognitive decisions may be divergently affected by changes in internal (e.g., attention, arousal) and external (e.g., task and environmental demands) factors. Although intriguing, causal evidence for this hypothesis remains scarce. Here, we investigated the causal effect of two neuromodulatory systems on behavioral and neural measures of perceptual and metacognitive decision-making. Specifically, we pharmacologically elevated levels of catecholamines (with atomoxetine) and acetylcholine (with donepezil) in healthy adult human participants performing a visual discrimination task in which we gauged decision confidence, while electroencephalography was measured. Where cholinergic effects were not robust, catecholaminergic enhancement improved perceptual sensitivity, while at the same time leaving metacognitive sensitivity unaffected. Neurally, catecholaminergic elevation did not affect sensory representations of task-relevant visual stimuli but instead enhanced well-known decision signals measured over the centroparietal cortex, reflecting the accumulation of sensory evidence over time. Crucially, catecholaminergic enhancement concurrently impoverished neural markers measured over the frontal cortex linked to the formation of metacognitive evaluations. Enhanced catecholaminergic neuromodulation thus improves perceptual but not metacognitive decision-making.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-17",
+    "doi": "10.1523/eneuro.0191-24.2024",
+    "title": "The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report",
+    "journal": "eneuro",
+    "year": "2024",
+    "citation": "Ciceri, S., Oude Lohuis, M. N., Rottsch\u00e4fer, V., Pennartz, C. M. A., Avitabile, D., van Gaal, S., & Olcese, U. (2024). The Neural and Computational Architecture of Feedback Dynamics in Mouse Cortex during Stimulus Report. Eneuro, 11(9), ENEURO.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Conscious reportability of visual input is associated with a bimodal neural response in the primary visual cortex (V1): an early-latency response coupled to stimulus features and a late-latency response coupled to stimulus report or detection. This late wave of activity, central to major theories of consciousness, is thought to be driven by the prefrontal cortex (PFC), responsible for \u201cigniting\u201d it. Here we analyzed two electrophysiological studies in mice performing different stimulus detection tasks and characterized neural activity profiles in three key cortical regions: V1, posterior parietal cortex (PPC), and PFC. We then developed a minimal network model, constrained by known connectivity between these regions, reproducing the spatiotemporal propagation of visual- and report-related activity. Remarkably, while PFC was indeed necessary to generate report-related activity in V1, this occurred only through the mediation of PPC. PPC, and not PFC, had the final veto in enabling the report-related late wave of V1 activity.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-18",
+    "doi": "10.1016/j.concog.2024.103669",
+    "title": "How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics",
+    "journal": "Consciousness and Cognition",
+    "year": "2024",
+    "citation": "Stein, T., van Gaal, S., & Fahrenfort, J. J. (2024). How (not) to demonstrate unconscious priming: Overcoming issues with post-hoc data selection, low power, and frequentist statistics. Consciousness and Cognition, 119, 103669.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "One widely used scientific approach to studying consciousness involves contrasting conscious operations with unconscious ones. However, challenges in establishing the absence of conscious awareness have led to debates about the extent and existence of unconscious processes. We collected experimental data on unconscious semantic priming, manipulating prime presentation duration to highlight the critical role of the analysis approach in attributing priming effects to unconscious processing. We demonstrate that common practices like post-hoc data selection, low statistical power, and frequentist statistical testing can erroneously support claims of unconscious priming. Conversely, adopting best practices like direct performance-awareness contrasts, Bayesian tests, and increased statistical power can prevent such erroneous conclusions. Many past experiments, including our own, fail to meet these standards, casting doubt on previous claims about unconscious processing. Implementing these robust practices will enhance our understanding of unconscious processing and shed light on the functions and neural mechanisms of consciousness.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-19",
+    "doi": "10.1073/pnas.2312898121",
+    "title": "A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": "2024",
+    "citation": "Beerendonk, L., Mej\u00edas, J. F., Nuiten, S. A., de Gee, J. W., Fahrenfort, J. J., & van Gaal, S. (2024). A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal. Proceedings of the National Academy of Sciences, 121(5).",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Perceptual decision-making is highly dependent on the momentary arousal state of the brain, which fluctuates over time on a scale of hours, minutes, and even seconds. The textbook relationship between momentary arousal and task performance is captured by an inverted U-shape, as put forward in the Yerkes-Dodson law (Yerkes and Dodson, 1908). This law suggests optimal performance at moderate levels of arousal, and impaired performance at low or high arousal levels. However, despite its popularity, the evidence for this relationship in humans is mixed at best. Here, we use pupil-indexed arousal and performance data from various perceptual decision-making tasks to provide converging evidence for the inverted U-shaped relationship between spontaneous arousal fluctuations and performance across different decision types (discrimination, detection) and sensory modalities (visual, auditory). To further understand this relationship, we built a neurobiologically plausible mechanistic model and show that it is possible to reproduce our findings by incorporating two types of interneurons that are both modulated by an arousal signal. The model architecture produces two dynamical regimes under the influence of arousal: one regime in which performance increases with arousal, and another regime in which performance decreases with arousal, together forming an inverted U-shaped arousal-performance relationship. We conclude that the inverted U-shaped arousal-performance relationship is a general and robust property of sensory processing. It might be brought about by the influence of arousal on two types of interneurons that together act as a disinhibitory pathway for the neural populations that encode the available sensory evidence used for the decision. Significance statement When people are repeatedly performing the exact same task, their performance fluctuates over time. One of the causes of this behavioral variability is spontaneous fluctuations in arousal. According to the Yerkes-Dodson law, task performance is optimal at moderate levels of species\u2019 arousal, with impaired performance at very low or high arousal levels. However, until now, the evidence supporting this law as a general mechanism in human decision-making is mixed, and a neural mechanism that may explain the inverted U-shaped arousal-performance relationship is lacking. We show that the Yerkes-Dodson law is a general law that holds for human observers across decision-making tasks and settings. Furthermore, we present a simple and neurobiologically plausible mechanistic model that can explain its existence.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-20",
+    "doi": "10.1073/pnas.2220749120",
+    "title": "Predictions and rewards affect decision-making but not subjective experience",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": "2023",
+    "citation": "S\u00e1nchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "To survive, organisms constantly make decisions to avoid danger and maximize rewards in information-rich environments. As a result, decisions about sensory input are not only driven by sensory information, but also by other factors, such as the expected rewards of a decision (known as the payoff matrix) or by information about temporal regularities in the environment (known as cognitive priors or predictions). However, it is unknown to what extent these different types of information affect subjective experience, or whether they merely result in non-perceptual response criterion shifts. To investigate this question, we used three carefully matched manipulations that typically result in behavioral shifts in decision criteria: a visual illusion (M\u00fcller-Lyer condition), a punishment scheme (payoff condition), and a change in the ratio of relevant stimuli (base rate condition). To gauge shifts in subjective experience, we introduce a novel task in which participants not only make decisions about what they have just seen, but are also asked to reproduce their experience of a target stimulus. Using Bayesian ordinal modeling, we show that each of these three manipulations affects decision criterion as intended, but that the visual illusion uniquely affects sensory experience as measured by reproduction. In a series of follow-up experiments, we use computational modeling to show that although the visual illusion results in a distinct drift-diffusion (DDM) parameter profile relative to non-sensory manipulations, reliance on DDM parameter estimates alone is not sufficient to ascertain whether a given manipulation is perceptual or non-perceptual.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-21",
+    "doi": "10.1101/2022.11.03.515022v1",
+    "title": "Nuiten, SA. De Gee JW. Zantvoord, JB, Fahrenfort, JJ & van Gaal, S. Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision making. eLife (2023) .",
+    "journal": "Conscious Brain Lab Publications",
+    "year": "2023",
+    "citation": "Nuiten, SA. De Gee JW. Zantvoord, JB, Fahrenfort, JJ & van Gaal, S. Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision making. eLife (2023) .",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-22",
+    "doi": "10.1371/journal.pbio.3002120",
+    "title": "Feedback information transfer in the human brain reflects bistable perception in the absence of report",
+    "journal": "PLOS Biology",
+    "year": "2023",
+    "citation": "Canales-Johnson, A., Beerendonk, L., Chennu, S., Davidson, M. J., Ince, R. A. A., & van Gaal, S. (2023). Feedback information transfer in the human brain reflects bistable perception in the absence of report. PLOS Biology, 21(5), e3002120.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "In the search for the neural basis of conscious experience, perception and the cognitive processes associated with reporting perception are typically confounded as neural activity is recorded while participants explicitly report what they experience. Here, we present a novel way to disentangle perception from report using eye movement analysis techniques based on convolutional neural networks and neurodynamical analyses based on information theory. We use a bistable visual stimulus that instantiates two well-known properties of conscious perception: integration and differentiation. At any given moment, observers either perceive the stimulus as one integrated unitary object or as two differentiated objects that are clearly distinct from each other. Using electroencephalography, we show that measures of integration and differentiation based on information theory closely follow participants\u2019 perceptual experience of those contents when switches were reported. We observed increased information integration between anterior to posterior electrodes (front to back) prior to a switch to the integrated percept, and higher information differentiation of anterior signals leading up to reporting the differentiated percept. Crucially, information integration was closely linked to perception and even observed in a no-report condition when perceptual transitions were inferred from eye movements alone. In contrast, the link between neural differentiation and perception was observed solely in the active report condition. Our results, therefore, suggest that perception and the processes associated with report require distinct amounts of anterior\u2013posterior network communication and anterior information differentiation. While front-to-back directed information is associated with changes in the content of perception when viewing bistable visual stimuli, regardless of report, frontal information differentiation was absent in the no-report condition and therefore is not directly linked to perception per se.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-23",
+    "doi": "10.1371/journal.pbio.3002009",
+    "title": "Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence",
+    "journal": "PLOS Biology",
+    "year": "2023",
+    "citation": "Alilovi\u0107, J., Lampers, E., Slagter, H. A., & van Gaal, S. (2023). Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence. PLOS Biology, 21(3), e3002009.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "We occasionally misinterpret ambiguous sensory input or report a stimulus when none is presented. It is unknown whether such errors have a sensory origin and reflect true perceptual illusions, or whether they have a more cognitive origin (e.g., are due to guessing), or both. When participants performed an error-prone and challenging face/house discrimination task, multivariate electroencephalography (EEG) analyses revealed that during decision errors (e.g., mistaking a face for a house), sensory stages of visual information processing initially represent the presented stimulus category. Crucially however, when participants were confident in their erroneous decision, so when the illusion was strongest, this neural representation flipped later in time and reflected the incorrectly reported percept. This flip in neural pattern was absent for decisions that were made with low confidence. This work demonstrates that decision confidence arbitrates between perceptual decision errors, which reflect true illusions of perception, and cognitive decision errors, which do not.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-24",
+    "doi": "10.7554/elife.82424",
+    "title": "Position representations of moving objects align with real-time position in the early visual response",
+    "journal": "eLife",
+    "year": "2023",
+    "citation": "Johnson, P. A., Blom, T., van Gaal, S., Feuerriegel, D., Bode, S., & Hogendoorn, H. (2023). Position representations of moving objects align with real-time position in the early visual response. eLife, 12. CLOCKSS.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "The survival of animals depends on their ability to respond to different stimuli quickly and efficiently. From flies fluttering away when a swatter approaches, to deer running away at the sight of a lion to humans ducking to escape a looming punch, fast-paced reactions to harmful stimuli is what keep us (and other fauna) from getting injured or seriously maimed. This entire process is orchestrated by the nervous system, where cells called neurons carry signals from our senses to higher processing centres in the brain, allowing us to react appropriately. However, this relay process from the sensory organs to the brain accumulates delays: it takes time for signals to be transmitted from cell to cell, and also for the brain to process these signals. This means that the information received by our brains is usually outdated, which could lead to delayed responses. Experiments done in cats and monkeys have shown that the brain can compensate for these delays by predicting how objects might move in the immediate future, essentially extrapolating the trajectories of objects moving in a predictable manner. This might explain why rabbits run in an impulsive zigzag manner when trying to escape a predator: if they change direction often enough, the predator may not be able to predict where they are going next. Johnson et al. wanted to find out whether human brains can also compensate for delays in processing the movement of objects, and if so, at what point (early or late) in the processing pipeline the compensation occurs. To do this, they recorded the electrical activity of neurons using electroencephalography from volunteers who were presented with both static and moving stimuli. Electroencephalography or EEG records the average activity of neurons in a region of the brain over a period of time. The data showed that the volunteers\u2019 brains responded to moving stimuli significantly faster than to static stimuli in the same position on the screen, essentially being able to track the real-time position of the moving stimulus. Johnson et al. further analysed and compared the EEG recordings for moving versus static stimuli to demonstrate that compensation for processing delays occurred early on in the processing journey. Indeed, the compensation likely happens before the signal reaches a part of the brain called the visual cortex, which processes stimuli from sight. Any delays accrued beyond this point were not accommodated for. Johnson et al. clearly demonstrate that the human brain can work around its own shortcomings to allow us to perceive moving objects in real time. These findings start to explain, for example, how sportspersons are able to catch fast-moving balls and hit serves coming to them at speeds of approximately 200 kilometres per hour. The results also lay the foundation for studying processing delays in other senses, such as hearing and touch.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-25",
+    "doi": "10.1101/2020.01.08.899278",
+    "title": "A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations",
+    "journal": "",
+    "year": "2020",
+    "citation": "Bouwer, F. L., Fahrenfort, J. J., Millard, S. K., Kloosterman, N. A., & Slagter, H. A. (2020). A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "The brain uses temporal structure in the environment, like rhythm in music and speech, to predict the timing of events, thereby optimizing their processing and perception. Temporal expectations can be grounded in different aspects of the input structure, such as a regular beat or a predictable pattern. One influential account posits that a generic mechanism underlies beat-based and pattern-based expectations, namely entrainment of low frequency neural oscillations to rhythmic input, while other accounts assume different underlying neural mechanisms. Here, we addressed this outstanding issue by examining EEG activity and behavioral responses during silent periods following rhythmic auditory sequences. We measured responses outlasting the rhythms both to avoid confounding the EEG analyses with evoked responses, and to directly test whether beat-based and pattern-based expectations persist beyond stimulation, as predicted by entrainment theories. To properly disentangle beat-based and pattern-based expectations, which often occur simultaneously, we used non-isochronous rhythms with a beat, a predictable pattern, or random timing. In Experiment 1 (N = 32), beat-based expectations affected behavioral ratings of probe events for two beat-cycles after the end of the rhythm. The effects of pattern-based expectations reflected expectations for one interval. In Experiment 2 (N = 27), using EEG, we found enhanced spectral power at the beat frequency for beat-based sequences both during listening and silence. For pattern-based sequences, enhanced power at a pattern-specific frequency was present during listening, but not silence. Moreover, we found a difference in the evoked signal following pattern-based and beat-based sequences. Finally, we show how multivariate pattern decoding and multi scale entropy - measures sensitive to non-oscillatory components of the signal - can be used to probe temporal expectations. Together, our results suggest that the input structure used to form temporal expectations may affect the associated neural mechanisms. We suggest climbing activity and low-frequency oscillations may be differentially associated with pattern-based and beat-based expectations.",
+    "source": "biorxiv",
+    "keywords": []
+  },
+  {
+    "id": "pub-26",
+    "doi": "10.1177/17456916221110222",
+    "title": "The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral",
+    "journal": "Perspectives on Psychological Science",
+    "year": "2022",
+    "citation": "Mazor, M., Brown, S., Ciaunica, A., Demertzi, A., Fahrenfort, J., Faivre, N., Francken, J. C., Lamy, D., Lenggenhager, B., Moutoussis, M., Nizzi, M.-C., Salomon, R., Soto, D., Stein, T., & Lubianiker, N. (2022). The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral. Perspectives on Psychological Science, 18(3), 535\u2013543.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "A target question for the scientific study of consciousness is how dimensions of consciousness, such as the ability to feel pain and pleasure or reflect on one\u2019s own experience, vary in different states and animal species. Considering the tight link between consciousness and moral status, answers to these questions have implications for law and ethics. Here we point out that given this link, the scientific community studying consciousness may face implicit pressure to carry out certain research programs or interpret results in ways that justify current norms rather than challenge them. We show that because consciousness largely determines moral status, the use of nonhuman animals in the scientific study of consciousness introduces a direct conflict between scientific relevance and ethics\u2014the more scientifically valuable an animal model is for studying consciousness, the more difficult it becomes to ethically justify compromises to its well-being for consciousness research. Finally, in light of these considerations, we call for a discussion of the immediate ethical corollaries of the body of knowledge that has accumulated and for a more explicit consideration of the role of ideology and ethics in the scientific study of consciousness.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-27",
+    "doi": "10.1093/nc/niac011",
+    "title": "An academic survey on theoretical foundations, common assumptions and the current state of consciousness science",
+    "journal": "Neuroscience of Consciousness",
+    "year": "2022",
+    "citation": "Francken, J. C., Beerendonk, L., Molenaar, D., Fahrenfort, J. J., Kiverstein, J. D., Seth, A. K., & van Gaal, S. (2022). An academic survey on theoretical foundations, common assumptions and the current state of consciousness science. Neuroscience of Consciousness, 2022(1).",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Abstract We report the results of an academic survey into the theoretical and methodological foundations, common assumptions, and the current state of the field of consciousness research. The survey consisted of 22 questions and was distributed on two different occasions of the annual meeting of the Association of the Scientific Study of Consciousness (2018 and 2019). We examined responses from 166 consciousness researchers with different backgrounds (e.g. philosophy, neuroscience, psychology, and computer science) and at various stages of their careers (e.g. junior/senior faculty and graduate/undergraduate students). The results reveal that there remains considerable discussion and debate between the surveyed researchers about the definition of consciousness and the way it should be studied. To highlight a few observations, a majority of respondents believe that machines could have consciousness, that consciousness is a gradual phenomenon in the animal kingdom, and that unconscious processing is extensive, encompassing both low-level and high-level cognitive functions. Further, we show which theories of consciousness are currently considered most promising by respondents and how supposedly different theories cluster together, which dependent measures are considered best to index the presence or absence of consciousness, and which neural measures are thought to be the most likely signatures of consciousness. These findings provide us with a snapshot of the current views of researchers in the field and may therefore help prioritize research and theoretical approaches to foster progress.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-28",
+    "doi": "10.1007/s00415-021-10905-y",
+    "title": "Towards consensus on visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi study",
+    "journal": "Journal of Neurology",
+    "year": "2022",
+    "citation": "Overbeek, B. U. H., Lavrijsen, J. C. M., van Gaal, S., Kondziella, D., Eilander, H. J., & Koopmans, R. T. C. M. (2022). Towards consensus on visual pursuit and visual fixation in patients with disorders of consciousness. A Delphi study. Journal of Neurology, 269(6), 3204\u20133215.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "The aim of this Delphi study was to reach consensus about definition, operationalization and assessment of visual pursuit (VP) and visual fixation (VF). In a three-round international Delphi study, clinical and research experts on disorders of consciousness indicated their level of agreement on 87 statements using a 5-point Likert scale. Consensus for agreement was defined by a median of 5, an interquartile range (IQR) \u2264 1, and \u2265 80% indicating moderate or strong agreement. Forty-three experts from three continents participated, 32 completed all three rounds. For VP, the consensus statements with the highest levels of agreement were on the term \u2018pursuit of a visual stimulus\u2019, the description \u2018ability to follow visually in horizontal and/or vertical plane\u2019, a duration &gt; 2&nbsp;s, tracking in horizontal and vertical planes, and a frequency of more than 2 times per assessment. For VF, consensus statements with the highest levels of agreement were on the term \u2018sustained VF\u2019, the description \u2018sustained fixation in response to a salient stimulus\u2019, a duration of &gt; 2&nbsp;s and a frequency of 2 or more times per assessment. The assessment factors with the highest levels of agreement were personalized stimuli, the use of eye tracking technology, a patient dependent time of assessment, sufficient environmental light, upright posture, and the necessity to exclude ocular/oculomotor problems. This first international Delphi study on VP and VF in patients with disorders of consciousness provides provisional operational definitions and an overview of the most relevant assessment factors.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-29",
+    "doi": "10.1186/s10194-022-01410-2",
+    "title": "Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs",
+    "journal": "The Journal of Headache and Pain",
+    "year": "2022",
+    "citation": "Fong, C. Y., Law, W. H. C., Fahrenfort, J. J., Braithwaite, J. J., & Mazaheri, A. (2022). Attenuated alpha oscillation and hyperresponsiveness reveals impaired perceptual learning in migraineurs. The Journal of Headache and Pain, 23(1).",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Anomalous phantom visual perceptions coupled to an aversion and discomfort to some visual patterns (especially grating in mid-range spatial frequency) have been associated with the hyperresponsiveness in migraine patients. Previous literature has found fluctuations of alpha oscillation (8-14 Hz) over the visual cortex to be associated with the gating of the visual stream. In the current study, we examined whether alpha activity was differentially modulated in migraineurs in anticipation of an upcoming stimulus as well as post-stimulus periods. We used EEG to examine the brain activity in a group of 28 migraineurs (17 with aura&nbsp;/11 without) and 29 non-migraineurs and compared their alpha power in the pre/post-stimulus period relative to the onset of stripped gratings. Overall, we found that migraineurs had significantly less alpha power prior to the onset of the stimulus relative to controls. Moreover, migraineurs had significantly greater post-stimulus alpha suppression (i.e event-related desynchronization) induced by the grating in 3 cycles per degree at the 2nd half of the experiment. These findings, taken together, provide strong support for the presence of the hyperresponsiveness of the visual cortex of migraine sufferers. We speculate that it could be the consequence of impaired perceptual learning driven by the dysfunction of GABAergic inhibitory mechanism.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-30",
+    "doi": "10.7554/elife.64431",
+    "title": "Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant",
+    "journal": "eLife",
+    "year": "2021",
+    "citation": "Nuiten, S. A., Canales-Johnson, A., Beerendonk, L., Nanuashvili, N., Fahrenfort, J. J., Bekinschtein, T., & van Gaal, S. (2021). Preserved sensory processing but hampered conflict detection when stimulus input is task-irrelevant. eLife, 10. CLOCKSS.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Focusing your attention on one thing can leave you surprisingly unaware of what goes on around you. A classic experiment known as \u2018the invisible gorilla\u2019 highlights this phenomenon. Volunteers were asked to watch a clip featuring basketball players, and count how often those wearing white shirts passed the ball: around half of participants failed to spot that someone wearing a gorilla costume wandered into the game and spent nine seconds on screen. Yet, things that you are not focusing on can sometimes grab your attention anyway. Take for example, the \u2018cocktail party effect\u2019, the ability to hear your name among the murmur of a crowded room. So why can we react to our own names, but fail to spot the gorilla? To help answer this question, Nuiten et al. examined how paying attention affects the way the brain processes input. Healthy volunteers were asked to perform various tasks while the words \u2018left\u2019 or \u2018right\u2019 played through speakers. The content of the word was sometimes consistent with its location (\u2018left\u2019 being played on the left speaker), and sometimes opposite (\u2018left\u2019 being played on the right speaker). Processing either the content or the location of the word is relatively simple for the brain; however detecting a discrepancy between these two properties is challenging, requiring the information to be processed in a brain region that monitors conflict in sensory input. To manipulate whether the volunteers needed to pay attention to the words, Nuiten et al. made their content or location either relevant or irrelevant for a task. By analyzing brain activity and task performance, they were able to study the effects of attention on how the word properties were processed. The results showed that the volunteers\u2019 brains were capable of dealing with basic information, such as location or content, even when their attention was directed elsewhere. But discrepancies between content and location could only be detected when the volunteers were focusing on the words, or when their content or location was directly relevant to the task. The findings by Nuiten et al. suggest that while performing a difficult task, our brains continue to react to basic input but often fail to process more complex information. This, in turn, has implications for a range of human activities such as driving. New technology could potentially help to counteract this phenomenon, aiming to direct attention towards complex information that might otherwise be missed.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-31",
+    "doi": "10.34973/j9yn-q419",
+    "title": "Overlap in externally and internally generated visual representations",
+    "journal": "",
+    "year": "2021",
+    "citation": "Dijkstra, N., van Gaal, S., Geerligs, L., Bosch, S., & Gerven, M. (3 C.E.). <i>Overlap in externally and internally generated visual representations</i> (Version 1) [Dataset]. Radboud University.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-32",
+    "doi": "10.1371/journal.pbio.3001241",
+    "title": "The human visual system differentially represents subjectively and objectively invisible stimuli",
+    "journal": "PLOS Biology",
+    "year": "2021",
+    "citation": "Stein, T., Kaiser, D., Fahrenfort, J. J., & van Gaal, S. (2021). The human visual system differentially represents subjectively and objectively invisible stimuli. PLOS Biology, 19(5), e3001241.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "The study of unconscious processing requires a measure of conscious awareness. Awareness measures can be either subjective (based on participant\u2019s report) or objective (based on perceptual performance). The preferred awareness measure depends on the theoretical position about consciousness and may influence conclusions about the extent of unconscious processing and about the neural correlates of consciousness. We obtained functional magnetic resonance imaging (fMRI) measurements from 43 subjects while they viewed masked faces and houses that were either subjectively or objectively invisible. Even for objectively invisible (perceptually indiscriminable) stimuli, we found significant category information in both early, lower-level visual areas and in higher-level visual cortex, although representations in anterior, category-selective ventrotemporal areas were less robust. For subjectively invisible stimuli, similar to visible stimuli, there was a clear posterior-to-anterior gradient in visual cortex, with stronger category information in ventrotemporal cortex than in early visual cortex. For objectively invisible stimuli, however, category information remained virtually unchanged from early visual cortex to object- and category-selective visual areas. These results demonstrate that although both objectively and subjectively invisible stimuli are represented in visual cortex, the extent of unconscious information processing is influenced by the measurement approach. Furthermore, our data show that subjective and objective approaches are associated with different neural correlates of consciousness and thus have implications for neural theories of consciousness.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-33",
+    "doi": "10.1523/jneurosci.0367-21.2021",
+    "title": "Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex",
+    "journal": "The Journal of Neuroscience",
+    "year": "2021",
+    "citation": "Canales-Johnson, A., Teixeira Borges, A. F., Komatsu, M., Fujii, N., Fahrenfort, J. J., Miller, K. J., & Noreika, V. (2021). Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex. The Journal of Neuroscience, 41(45), 9374\u20139391.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Detection of statistical irregularities, measured as a prediction error response, is fundamental to the perceptual monitoring of the environment. We studied whether prediction error response is associated with neural oscillations or asynchronous broadband activity. Electrocorticography was conducted in three male monkeys, who passively listened to the auditory roving oddball stimuli. Local field potentials (LFPs) recorded over the auditory cortex underwent spectral principal component analysis, which decoupled broadband and rhythmic components of the LFP signal. We found that the broadband component captured the prediction error response, whereas none of the rhythmic components were associated with statistical irregularities of sounds. The broadband component displayed more stochastic, asymmetrical multifractal properties than the rhythmic components, which revealed more self-similar dynamics. We thus conclude that the prediction error response is captured by neuronal populations generating asynchronous broadband activity, defined by irregular dynamic states, which, unlike oscillatory rhythms, appear to enable the neural representation of auditory prediction error response. SIGNIFICANCE STATEMENT This study aimed to examine the contribution of oscillatory and asynchronous components of auditory local field potentials in the generation of prediction error responses to sensory irregularities, as this has not been directly addressed in the previous studies. Here, we show that mismatch negativity\u2014an auditory prediction error response\u2014is driven by the asynchronous broadband component of potentials recorded in the auditory cortex. This finding highlights the importance of nonoscillatory neural processes in the predictive monitoring of the environment. At a more general level, the study demonstrates that stochastic neural processes, which are often disregarded as neural noise, do have a functional role in the processing of sensory information.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-34",
+    "doi": "10.1523/jneurosci.2851-20.2021",
+    "title": "On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation",
+    "journal": "The Journal of Neuroscience",
+    "year": "2021",
+    "citation": "Seijdel, N., Loke, J., van de Klundert, R., van der Meer, M., Quispel, E., van Gaal, S., de Haan, E. H. F., & Scholte, H. S. (2021). On the Necessity of Recurrent Processing during Object Recognition: It Depends on the Need for Scene Segmentation. The Journal of Neuroscience, 41(29), 6281\u20136289.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-35",
+    "doi": "10.1093/cercor/bhab032/6210084",
+    "title": "de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. Cerebral Cortex (2021)",
+    "journal": "Conscious Brain Lab Publications",
+    "year": "2021",
+    "citation": "de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. Cerebral Cortex (2021)",
+    "existing_topics": [
+      "Decision Making",
+      "EEG"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-36",
+    "doi": "10.1016/j.neuroimage.2021.117789",
+    "title": "Representational dynamics preceding conscious access",
+    "journal": "NeuroImage",
+    "year": "2021",
+    "citation": "Alilovi\u0107, J., van Moorselaar, D., Graetz, M., van Gaal, S., & Slagter, H. A. (2021). Representational dynamics preceding conscious access. NeuroImage, 230, 117789.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-37",
+    "doi": "10.1016/j.concog.2020.103048",
+    "title": "Subjective visibility report is facilitated by conscious predictions only",
+    "journal": "Consciousness and Cognition",
+    "year": "2021",
+    "citation": "Alilovi\u0107, J., Slagter, H. A., & van Gaal, S. (2021). Subjective visibility report is facilitated by conscious predictions only. Consciousness and Cognition, 87, 103048.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-38",
+    "doi": "10.1016/j.jneumeth.2021.109080",
+    "title": "High-pass filtering artifacts in multivariate classification of neural time series data",
+    "journal": "Journal of Neuroscience Methods",
+    "year": "2021",
+    "citation": "van Driel, J., Olivers, C. N. L., & Fahrenfort, J. J. (2021). High-pass filtering artifacts in multivariate classification of neural time series data. Journal of Neuroscience Methods, 352, 109080.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-39",
+    "doi": "10.1016/j.neuroimage.2020.117562",
+    "title": "Multivariate analysis of EEG activity indexes contingent attentional capture",
+    "journal": "NeuroImage",
+    "year": "2021",
+    "citation": "Munneke, J., Fahrenfort, J. J., Sutterer, D., Theeuwes, J., & Awh, E. (2021). Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage, 226, 117562.",
+    "existing_topics": [
+      "EEG"
+    ],
+    "abstract": "An extensive body of work has shown that attentional capture is contingent on the goals of the observer: Capture is strongly reduced or even eliminated when an irrelevant singleton stimulus does not match the target-defining properties (Folk et al., 1992). There has been a long-standing debate on whether attentional capture can be explained by goal-driven and/or stimulus-driven accounts. Here, we shed further light on this matter by using EEG activity (raw EEG and alpha power) to provide a time-resolved index of attentional orienting towards salient stimuli that either matched or did not match target-defining properties. A search display containing the target stimulus was preceded by a spatially uninformative singleton cue that either matched the color of the upcoming target (contingent cues), or that appeared in an irrelevant color (non-contingent cues). Multivariate analysis of raw EEG and alpha power revealed preferential tuning to the location of both contingent and non-contingent cues, with a stronger bias towards contingent than non-contingent cues. The time course of these effects, however, depended on the neural signal. Raw EEG data revealed attentional orienting towards the contingent cue early on in the trial (>156 ms), while alpha power revealed sustained spatial selection in the cued locations at a later moment in the trial (>250 ms). Moreover, while raw EEG showed stronger capture by contingent cues during this early time window, an advantage for contingent cues arose during a later time window in alpha band activity. Thus, our findings suggest that raw EEG activity and alpha-band power tap into distinct neural processes that index separate aspects of covert spatial attention.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-40",
+    "doi": "10.3758/s13414-020-02190-0",
+    "title": "An investigation of how relative precision of target encoding influences metacognitive performance",
+    "journal": "Attention, Perception, & Psychophysics",
+    "year": "2020",
+    "citation": "Kellij, S., Fahrenfort, J., Lau, H., Peters, M. A. K., & Odegaard, B. (2020). An investigation of how relative precision of target encoding influences metacognitive performance. Attention, Perception, &Amp; Psychophysics, 83(1), 512\u2013524.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Detection failures in perceptual tasks can result from different causes: sometimes we may fail to see something because perceptual information is noisy or degraded, and sometimes we may fail to see something due to the limited capacity of attention. Previous work indicates that metacognitive capacities for detection failures may differ depending on the specific stimulus visibility manipulation employed. In this investigation, we measured metacognition while matching performance in two visibility manipulations: phase-scrambling and the attentional blink. As in previous work, metacognitive asymmetries emerged: despite matched type 1 performance, metacognitive ability (measured by area under the ROC curve) for reporting stimulus absence was higher in the attentional blink condition, which was mainly driven by metacognitive ability in correct rejection trials. We performed Signal Detection Theoretic (SDT) modeling of the results, showing that differences in metacognition under equal type I performance can be explained when the variance of the signal and noise distributions are unequal. Specifically, the present study suggests that phase scrambling signal trials have a wider distribution (more variability) than attentional blink signal trials, leading to a larger area under the ROC curve for attentional blink trials where subjects reported stimulus absence. These results provide a theoretical basis for the origin of metacognitive differences on trials where subjects report stimulus absence, and may also explain previous findings where the absence of evidence during detection tasks results in lower metacognitive performance when compared to categorization.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-41",
+    "doi": "10.1080/17588928.2020.1838470",
+    "title": "Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence",
+    "journal": "Cognitive Neuroscience",
+    "year": "2020",
+    "citation": "Fahrenfort, J. J., & van Gaal, S. (2020). Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence. Cognitive Neuroscience, 12(2), 93\u201394.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "ABSTRACT Doerig and colleagues put forward the notion that we need hard and theory-neutral criteria by which to arbitrate between empirical (mechanistic) theories of consciousness. However, most of the criteria that they propose are not theory neutral because they focus on functional equivalence between systems. Because empirical theories of consciousness are mechanistic rather than functionalist, we think these criteria are not helpful when arbitrating between them.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-42",
+    "doi": "10.1523/jneurosci.0343-20.2020",
+    "title": "Decreased Alertness Reconfigures Cognitive Control Networks",
+    "journal": "The Journal of Neuroscience",
+    "year": "2020",
+    "citation": "Canales-Johnson, A., Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S., Fahrenfort, J., van Gaal, S., & Bekinschtein, T. A. (2020). Decreased Alertness Reconfigures Cognitive Control Networks. The Journal of Neuroscience, 40(37), 7142\u20137154.",
+    "existing_topics": [
+      "Cognitive Control"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-43",
+    "doi": "10.7554/eLife.54201",
+    "title": "Boosts in brain signal variability track liberal shifts in decision bias",
+    "journal": "eLife",
+    "year": "2020",
+    "citation": "Kloosterman, N. A., Kosciessa, J. Q., Lindenberger, U., Fahrenfort, J. J., & Garrett, D. D. (2020). Boosts in brain signal variability track liberal shifts in decision bias. eLife, 9. CLOCKSS.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "Modulation of moment-to-moment irregularity of neural activity closely tracks our ability to flexibly adapt decision biases to the environment.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-44",
+    "doi": "10.4324/9780429296918-10",
+    "title": "Akrasia and addiction",
+    "journal": "Social Neuroeconomics",
+    "year": "2020",
+    "citation": "Wiers, R. W., van Gaal, S., & Le Pelley, M. E. (2020). Akrasia and addiction. Social Neuroeconomics, 121\u2013147.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "In this chapter, the authors argue that human decision making is influenced by at least three types of input: bottom-up inherently salient stimuli (e.g., a loud noise), top-down goal-directed biasing, and conditioned reward and punishment signals. In addition, conditioned reward cues can capture attention, and in this way can bias decision making in the direction of cue with corresponding actions (i.e., addictive behavior), even when this counters other goals. Akrasia comes from the Greek term \u201clacking command\u201d and refers to cases where people appear to act against their better judgment or cases of \u201cweaknesses of the will\u201d. At first sight, human Akrasia problems may seem surprising, given that with evolution, progressively more advanced and abstract control mechanisms have developed, built upon simpler reflex-like processes. Regarding practical implications, there is emerging evidence that sign-tracking develops more strongly when the addictive behavior develops during adolescence; this calls for effective prevention aimed at delaying onset until adulthood, which is not easy to achieve.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-45",
+    "doi": "10.1016/j.neubiorev.2020.02.006",
+    "title": "On the pathophysiology and treatment of akinetic mutism",
+    "journal": "Neuroscience & Biobehavioral Reviews",
+    "year": "2020",
+    "citation": "Arnts, H., van Erp, W. S., Lavrijsen, J. C. M., van Gaal, S., Groenewegen, H. J., & van den Munckhof, P. (2020). On the pathophysiology and treatment of akinetic mutism. Neuroscience &Amp; Biobehavioral Reviews, 112, 270\u2013278.",
+    "existing_topics": [
+      "EEG"
+    ],
+    "abstract": "Akinetic mutism (AM) is a rare neurological disorder characterized by the presence of an intact level of consciousness and sensorimotor capacity, but with a simultaneous decrease in goal-directed behavior and emotions. Patients are in a wakeful state of profound apathy, seemingly indifferent to pain, thirst, or hunger. It represents the far end within the spectrum of disorders of diminished motivation. In recent years, more has become known about the functional roles of neurocircuits and neurotransmitters associated with human motivational behavior. More specific, there is an increasing body of behavioral evidence that links specific damage of functional frontal-subcortical organization to the occurrence of distinct neurological deficits. In this review, we combine evidence from lesion studies and neurophysiological evidence in animals, imaging studies in humans, and clinical investigations in patients with AM to form an integrative theory of its pathophysiology. Moreover, the specific pharmacological interventions that have been used to treat AM and their rationales are reviewed, providing a comprehensive overview for use in clinical practice.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-46",
+    "doi": "10.1016/j.neuroimage.2019.116279",
+    "title": "Methylphenidate does not affect convergent and divergent creative processes in healthy adults",
+    "journal": "NeuroImage",
+    "year": "2020",
+    "citation": "Baas, M., Boot, N., van Gaal, S., de Dreu, C. K. W., & Cools, R. (2020). Methylphenidate does not affect convergent and divergent creative processes in healthy adults. NeuroImage, 205, 116279.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-47",
+    "doi": "10.7554/eLife.37321",
+    "title": "Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation",
+    "journal": "eLife",
+    "year": "2019",
+    "citation": "Kloosterman, N. A., de Gee, J. W., Werkle-Bergner, M., Lindenberger, U., Garrett, D. D., & Fahrenfort, J. J. (2019). Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife, 8. CLOCKSS.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "How do you decide whether to buy a new car? One factor to consider is how well the economy is doing. During an economic boom, you might happily commit to buying a new vehicle that goes on sale, but prefer to sit on your savings during a financial crisis, despite how good the offer may be. Adjusting how you make decisions in situations like this can help you optimize choices in an ever-changing world. It\u2019s currently thought that when deciding, we accumulate evidence for each of the available options. When evidence for one of the options passes a threshold, we choose that option. External factors \u2013 such as a booming economy when considering buying a car \u2013 could bias this process in two different ways. The standard view is that they move the starting point of evidence accumulation towards one of the two choices, so that the threshold for choosing that option is more easily reached. Alternatively, they could bias the accumulation process itself, so that evidence builds up more quickly towards one of the choices. To distinguish between these possibilities, Kloosterman et al. asked volunteers to press a button whenever they detected a target hidden among a stream of visual patterns. To bias their decisions, volunteers were penalized differently in two experimental conditions: either when they failed to report a target (a \u2018miss\u2019), or when they \u2018detected\u2019 a target when in fact nothing was there (a \u2018false alarm\u2019). As expected, punishing participants for missing a target made them more liberal towards reporting targets, whereas penalizing false alarms made them more conservative. Computational modeling of behavior revealed that when participants used a liberal strategy, they did not move closer to the threshold for deciding target presence. Instead, they accumulated evidence for target presence at a faster rate, even when in fact no target was shown. Brain activity recorded during this task reveals how this bias in evidence accumulation might come about. When a volunteer adopted a liberal response strategy, visual brain areas showed a reduction in low-frequency \u2018alpha\u2019 waves, suggesting increased attention. This in turn triggered an increase in high-frequency \u2018gamma\u2019 waves, reflecting biased evidence accumulation for target presence (irrespective of whether a target actually appeared or not). Overall, the findings reported by Kloosterman et al. suggest that we can strategically bias perceptual decision-making by varying how quickly we accumulate evidence in favor of different response options. This might explain how we are able to adapt our decisions to environments that differ in payoffs and punishments. The next challenge is to understand whether such biases also affect high-level decisions, for example, when purchasing a new car.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-48",
+    "doi": "10.1007/7657_2019_26",
+    "title": "Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG",
+    "journal": "Spatial Learning and Attention Guidance",
+    "year": "2019",
+    "citation": "Fahrenfort, J. J. (2019). Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG. Spatial Learning and Attention Guidance, 129\u2013156.",
+    "existing_topics": [
+      "EEG"
+    ],
+    "abstract": "This chapter provides a tutorial style guide to analyzing electroencephalogram (EEG) data contingent on feature-based attentional selection. It is targeted at researchers that currently investigate attentional processes using univariate methods but consider moving to...",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-49",
+    "doi": "10.1016/j.neuroimage.2019.116133",
+    "title": "Frontal cortex differentiates between free and imposed target selection in multiple-target search",
+    "journal": "NeuroImage",
+    "year": "2019",
+    "citation": "Ort, E., Fahrenfort, J. J., Reeder, R., Pollmann, S., & Olivers, C. N. L. (2019). Frontal cortex differentiates between free and imposed target selection in multiple-target search. NeuroImage, 202, 116133.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Cognitive control can involve proactive (preparatory) and reactive (corrective) mechanisms. Using a gaze-contingent eye tracking paradigm combined with fMRI, we investigated the involvement of these different modes of control and their underlying neural networks, when switching between different targets in multiple-target search. Participants simultaneously searched for two possible targets presented among distractors, and selected one of them. In one condition, only one of the targets was available in each display, so that the choice was imposed, and reactive control would be required. In the other condition, both targets were present, giving observers free choice over target selection, and allowing for proactive control. Switch costs emerged only when targets were imposed and not when target selection was free. We found differential levels of activity in the frontoparietal control network depending on whether target switches were free or imposed. Furthermore, we observed core regions of the default mode network to be active during target repetitions, indicating reduced control on these trials. Free and imposed switches jointly activated parietal and posterior frontal cortices, while free switches additionally activated anterior frontal cortices. These findings highlight unique contributions of proactive and reactive control during visual search.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-50",
+    "doi": "10.1016/j.neuroimage.2019.116063",
+    "title": "No language unification without neural feedback: How awareness affects sentence processing",
+    "journal": "NeuroImage",
+    "year": "2019",
+    "citation": "Mongelli, V., Meijs, E. L., van Gaal, S., & Hagoort, P. (2019). No language unification without neural feedback: How awareness affects sentence processing. NeuroImage, 202, 116063.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "How does the human brain combine a finite number of words to form an infinite variety of sentences? According to the Memory, Unification and Control (MUC) model, sentence processing requires long-range feedback from the left inferior frontal cortex (LIFC) to left posterior temporal cortex (LPTC). Single word processing however may only require feedforward propagation of semantic information from sensory regions to LPTC. Here we tested the claim that long-range feedback is required for sentence processing by reducing visual awareness of words using a masking technique. Masking disrupts feedback processing while leaving feedforward processing relatively intact. Previous studies have shown that masked single words still elicit an N400 ERP effect, a neural signature of semantic incongruency. However, whether multiple words can be combined to form a sentence under reduced levels of awareness is controversial. To investigate this issue, we performed two experiments in which we measured electroencephalography (EEG) while 40 subjects performed a masked priming task. Words were presented either successively or simultaneously, thereby forming a short sentence that could be congruent or incongruent with a target picture. This sentence condition was compared with a typical single word condition. In the masked condition we only found an N400 effect for single words, whereas in the unmasked condition we observed an N400 effect for both unmasked sentences and single words. Our findings suggest that long-range feedback processing is required for sentence processing, but not for single word processing.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-51",
+    "doi": "10.1093/nc/niz011",
+    "title": "Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report",
+    "journal": "Neuroscience of Consciousness",
+    "year": "2019",
+    "citation": "Meijs, E. L., Mostert, P., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2019). Exploring the role of expectations and stimulus relevance on stimulus-specific neural representations and conscious report. Neuroscience of Consciousness, 2019(1).",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Abstract Subjective experience can be influenced by top-down factors, such as expectations and stimulus relevance. Recently, it has been shown that expectations can enhance the likelihood that a stimulus is consciously reported, but the neural mechanisms supporting this enhancement are still unclear. We manipulated stimulus expectations within the attentional blink (AB) paradigm using letters and combined visual psychophysics with magnetoencephalographic (MEG) recordings to investigate whether prior expectations may enhance conscious access by sharpening stimulus-specific neural representations. We further explored how stimulus-specific neural activity patterns are affected by the factors expectation, stimulus relevance and conscious report. First, we show that valid expectations about the identity of an upcoming stimulus increase the likelihood that it is consciously reported. Second, using a series of multivariate decoding analyses, we show that the identity of letters presented in and out of the AB can be reliably decoded from MEG data. Third, we show that early sensory stimulus-specific neural representations are similar for reported and missed target letters in the AB task (active report required) and an oddball task in which the letter was clearly presented but its identity was task-irrelevant. However, later sustained and stable stimulus-specific representations were uniquely observed when target letters were consciously reported (decision-dependent signal). Fourth, we show that global pre-stimulus neural activity biased perceptual decisions for a \u2018seen\u2019 response. Fifth and last, no evidence was obtained for the sharpening of sensory representations by top-down expectations. We discuss these findings in light of emerging models of perception and conscious report highlighting the role of expectations and stimulus relevance.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-52",
+    "doi": "10.1093/cercor/bhz038",
+    "title": "No Evidence that Predictions and Attention Modulate the First Feedforward Sweep of Cortical Information Processing",
+    "journal": "Cerebral Cortex",
+    "year": "2019",
+    "citation": "Alilovi\u0107, J., Timmermans, B., Reteig, L. C., van Gaal, S., & Slagter, H. A. (2019). No Evidence that Predictions and Attention Modulate the First Feedforward Sweep of Cortical Information Processing. Cerebral Cortex, 29(5), 2261\u20132278.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Predictive coding models propose that predictions (stimulus likelihood) reduce sensory signals as early as primary visual cortex (V1), and that attention (stimulus relevance) can modulate these effects. Indeed, both prediction and attention have been shown to modulate V1 activity, albeit with fMRI, which has low temporal resolution. This leaves it unclear whether these effects reflect a modulation of the first feedforward sweep of visual information processing and/or later, feedback-related activity. In two experiments, we used EEG and orthogonally manipulated spatial predictions and attention to address this issue. Although clear top-down biases were found, as reflected in pre-stimulus alpha-band activity, we found no evidence for top-down effects on the earliest visual cortical processing stage (<80ms post-stimulus), as indexed by the amplitude of the C1 ERP component and multivariate pattern analyses. These findings indicate that initial visual afferent activity may be impenetrable to top-down influences by spatial prediction and attention.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-53",
+    "doi": "10.1523/eneuro.0268-18.2018",
+    "title": "Independent Neural Activity Patterns for Sensory- and Confidence-Based Information Maintenance during Category-Selective Visual Processing",
+    "journal": "eneuro",
+    "year": "2019",
+    "citation": "Weaver, M. D., Fahrenfort, J. J., Belopolsky, A., & van Gaal, S. (2019). Independent Neural Activity Patterns for Sensory- and Confidence-Based Information Maintenance during Category-Selective Visual Processing. Eneuro, 6(1), ENEURO.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "Several influential theories of consciousness attempt to explain how, when and where conscious perception arises in the brain. The extent of conscious perception of a stimulus is often probed by asking subjects to provide confidence estimations in their choices in challenging perceptual decision-making tasks. Here, we aimed to dissociate neural patterns of \u201ccognitive\u201d and \u201csensory\u201d information maintenance by linking category selective visual processes to decision confidence using multivariate decoding techniques on human EEG data. Participants discriminated at-threshold masked face versus house stimuli and reported confidence in their discrimination performance. Three distinct types of category-selective neural activity patterns were observed, dissociable by their timing, scalp topography, relationship with decision confidence, and generalization profile. An early (\u223c150\u2013200 ms) decoding profile was unrelated to confidence and quickly followed by two distinct decodable patterns of late neural activity (350\u2013500 ms). One pattern was on - diagonal, global and highly related to decision confidence, likely indicating cognitive maintenance of consciously reportable stimulus representations. The other pattern however was off-diagonal, restricted to posterior electrode sites (local), and independent of decision confidence, and therefore may reflect sensory maintenance of category-specific information, possibly operating via recurrent processes within visual cortices. These results highlight that two functionally independent neural processes are operating in parallel, only one of which is related to decision confidence and conscious access.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-54",
+    "doi": "10.1038/s41598-019-49577-0",
+    "title": "EEG dynamics reveal a dissociation between storage and selective attention within working memory",
+    "journal": "Scientific Reports",
+    "year": "2019",
+    "citation": "G\u00fcnseli, E., Fahrenfort, J. J., van Moorselaar, D., Daoultzis, K. C., Meeter, M., & Olivers, C. N. L. (2019). EEG dynamics reveal a dissociation between storage and selective attention within working memory. Scientific Reports, 9(1).",
+    "existing_topics": [
+      "EEG"
+    ],
+    "abstract": "Selective attention plays a prominent role in prioritizing information in working memory (WM), improving performance for attended representations. However, it remains unclear whether unattended WM representations suffer from information loss. Here we tested the hypothesis that within WM, selectively attending to an item and stopping storing other items are independent mechanisms. We recorded EEG while participants performed a WM recall task in which the item most likely to be tested was cued retrospectively during retention. By manipulating retro-cue reliability (i.e., the ratio of valid to invalid cue trials), we varied the incentive to retain non-cued items. Storage and selective attention in WM were measured during the retention interval by contralateral delay activity (CDA) and contralateral alpha power suppression, respectively. Soon after highly reliable cues, the cued item was attended, and non-cued items suffered information loss. However, for less reliable cues, initially the cued item was attended, but unattended items were kept in WM. Later during the delay, previously unattended items suffered information loss despite now attention being reallocated to their locations, presumably to strengthen their weakening traces. These results show that storage and attention in WM are distinct processes that can behave differently depending on the relative importance of representations.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-55",
+    "doi": "10.1038/s41562-019-0531-8",
+    "title": "Opportunities and challenges for a maturing science of consciousness",
+    "journal": "Nature Human Behaviour",
+    "year": "2019",
+    "citation": "Michel, M., Beck, D., Block, N., Blumenfeld, H., Brown, R., Carmel, D., Carrasco, M., Chirimuuta, M., Chun, M., Cleeremans, A., Dehaene, S., Fleming, S. M., Frith, C., Haggard, P., He, B. J., Heyes, C., Goodale, M. A., Irvine, L., Kawato, M., et al. (2019). Opportunities and challenges for a maturing science of consciousness. Nature Human Behaviour, 3(2), 104\u2013107.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Scientific research on consciousness is critical to multiple scientific, clinical, and ethical issues. The growth of the field could also be beneficial to several areas including neurology and mental health research. To achieve this goal, we need to set funding priorities carefully and address problems such as job creation and potential media misrepresentation.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-56",
+    "doi": "10.7554/eLife.49130",
+    "title": "Humans can efficiently look for but not select multiple visual objects",
+    "journal": "eLife",
+    "year": "2019",
+    "citation": "Ort, E., Fahrenfort, J. J., ten Cate, T., Eimer, M., & Olivers, C. N. (2019). Humans can efficiently look for but not select multiple visual objects. eLife, 8. CLOCKSS.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "During search for multiple targets, individuals can efficiently prepare to select multiple target objects simultaneously, but the actual selection of those objects from the sensory input is limited.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-57",
+    "doi": "10.1016/j.neuropsychologia.2019.02.005",
+    "title": "Slow segmentation of faces in Autism Spectrum Disorder",
+    "journal": "Neuropsychologia",
+    "year": "2019",
+    "citation": "van den Boomen, C., Fahrenfort, J. J., Snijders, T. M., & Kemner, C. (2019). Slow segmentation of faces in Autism Spectrum Disorder. Neuropsychologia, 127, 1\u20138.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "ABSTRACT Atypical visual segmentation, affecting object perception, might contribute to face processing problems in Autism Spectrum Disorder (ASD). The current study investigated impairments in visual segmentation of faces in ASD. Thirty participants (ASD: 16; Control: 14) viewed texture\u2010defined faces, houses, and homogeneous images, while electroencephalographic and behavioral responses were recorded. The ASD group showed slower face\u2010segmentation related brain activity and longer segmentation reaction times than the control group, but no difference in house\u2010segmentation related activity or behavioral performance. Furthermore, individual differences in face\u2010segmentation but not house\u2010segmentation correlated with score on the Autism Quotient. Segmentation is thus selectively impaired for faces in ASD, and relates to the degree of ASD traits. Face segmentation relates to recurrent connectivity from the fusiform face area (FFA) to the visual cortex. These findings thus suggest that atypical connectivity from the FFA might contribute to delayed face processing in ASD. HIGHLIGHTSAtypical visual segmentation might contribute to impaired face perception.Segmentation of faces and houses was investigated in Autism Spectrum Disorder.Electroencephalography (EEG) measures showed delayed face segmentation.Behavioral measures showed longer reaction times for face and house segmentation.EEG and behavioral results correlated with the degree of Autism traits.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-58",
+    "doi": "10.1523/jneurosci.2547-18.2018",
+    "title": "Beta and theta oscillations differentially support free versus forced control over multiple-target search",
+    "journal": "The Journal of Neuroscience",
+    "year": "2019",
+    "citation": "van Driel, J., Ort, E., Fahrenfort, J. J., & Olivers, C. N. L. (2019). Beta and theta oscillations differentially support free versus forced control over multiple-target search. The Journal of Neuroscience, 2547\u20132518.",
+    "existing_topics": [
+      "Cognitive Control"
+    ],
+    "abstract": "Many important situations require human observers to simultaneously search for more than one object. Despite a long history of research into visual search, the behavioral and neural mechanisms associated with multiple-target search are poorly understood. Here we test the novel theory that the efficiency of looking for multiple targets critically depends on the mode of cognitive control the environment affords to the observer. We used an innovative combination of electroencephalogram (EEG) and eye tracking while participants searched for two targets, within two different contexts: either both targets were present in the search display and observers were free to prioritize either one of them, thus enabling proactive control over selection; or only one of the two targets would be present in each search display, which requires reactive control to reconfigure selection when the wrong target has been prioritized. During proactive control, both univariate and multivariate signals of beta-band (15\u201335 Hz) power suppression before display onset predicted switches between target selections. This signal originated over midfrontal and sensorimotor regions and has previously been associated with endogenous state changes. In contrast, imposed target selections requiring reactive control elicited prefrontal power enhancements in the delta/theta band (2\u20138 Hz), but only after display onset. This signal predicted individual differences in associated oculomotor switch costs, reflecting reactive reconfiguration of target selection. The results provide compelling evidence that multiple target representations are differentially prioritized during visual search, and for the first time reveal distinct neural mechanisms underlying proactive and reactive control over multiple-target search. SIGNIFICANCE STATEMENT Searching for more than one object in complex visual scenes can be detrimental for search performance. Although perhaps annoying in daily life, this can have severe consequences in professional settings such as medical and security screening. Previous research has not yet resolved whether multiple-target search involves changing priorities in what people attend to, and how such changes are controlled. We approached these questions by concurrently measuring cortical activity and eye movements using EEG and eye tracking while observers searched for multiple possible targets. Our findings provide the first unequivocal support for the existence of two modes of control during multiple-target search, which are expressed in qualitatively distinct time-frequency signatures of the EEG both before and after visual selection.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-59",
+    "doi": "10.3389/fnins.2018.00368",
+    "title": "From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM)",
+    "journal": "Frontiers in Neuroscience",
+    "year": "2018",
+    "citation": "Fahrenfort, J. J., van Driel, J., van Gaal, S., & Olivers, C. N. L. (2018). From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience, 12.",
+    "existing_topics": [
+      "EEG",
+      "Neural Decoding"
+    ],
+    "abstract": "In recent years, time-resolved multivariate pattern analysis (MVPA) has gained much popularity in the analysis of electroencephalography (EEG) and magnetoencephalography (MEG) data. However, MVPA may appear daunting to those who have been applying traditional analyses using event-related potentials (ERPs) or event-related fields (ERFs). To ease this transition, we recently developed the Amsterdam Decoding and Modeling (ADAM) toolbox in MATLAB. ADAM is an entry-level toolbox that allows a direct comparison of ERP/ERF results to MVPA results using any dataset in standard EEGLAB or Fieldtrip format. The toolbox performs and visualizes multiple-comparison corrected group decoding and forward encoding results in a variety of ways, such as classifier performance across time, temporal generalization (time-by-time) matrices of classifier performance, channel tuning functions (CTFs) and topographical maps of (forward-transformed) classifier weights. All analyses can be performed directly on raw data or can be preceded by a time-frequency decomposition of the data in which case the analyses are performed separately on different frequency bands. The figures ADAM produces are publication-ready. In the current manuscript, we provide a cookbook in which we apply a decoding analysis to a publicly available MEG/EEG dataset involving the perception of famous, non-famous and scrambled faces. The manuscript covers the steps involved in single subject analysis and shows how to perform and visualize a subsequent group-level statistical analysis. The processing pipeline covers computation and visualization of group ERPs, ERP difference waves, as well as MVPA decoding results. It ends with a comparison of the differences and similarities between EEG and MEG decoding results. The manuscript has a level of description that allows application of these analyses to any dataset in EEGLAB or Fieldtrip format.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-60",
+    "doi": "10.1098/rsos.180524",
+    "title": "Cue predictability does not modulate bottom-up attentional capture",
+    "journal": "Royal Society Open Science",
+    "year": "2018",
+    "citation": "Meijs, E. L., Klaassen, F. H., Bokeria, L., van Gaal, S., & de Lange, F. P. (2018). Cue predictability does not modulate bottom-up attentional capture. Royal Society Open Science, 5(10), 180524.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Attention can be involuntarily captured by physically salient stimuli, a phenomenon known as bottom-up attention. Typically, these salient stimuli occur unpredictably in time and space. Therefore, in a series of three behavioural experiments, we investigated the extent to which such bottom-up attentional capture is a function of one's prior expectations. In the context of an exogenous cueing task, we systematically manipulated participants' spatial (Experiment 1) or temporal (Experiments 2 and 3) expectations about an uninformative cue and examined the amount of attentional capture by the cue. We anticipated larger attentional capture for unexpected compared to expected cues. However, while we observed attentional capture, we did not find any evidence for a modulation of attentional capture by prior expectation. This suggests that bottom-up attentional capture does not appear modulated by the degree to which the cue is expected or surprising.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-61",
+    "doi": "10.1523/jneurosci.0457-18.2018",
+    "title": "How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning",
+    "journal": "The Journal of Neuroscience",
+    "year": "2018",
+    "citation": "Correa, C. M. C., Noorman, S., Jiang, J., Palminteri, S., Cohen, M. X., Lebreton, M., & van Gaal, S. (2018). How the Level of Reward Awareness Changes the Computational and Electrophysiological Signatures of Reinforcement Learning. The Journal of Neuroscience, 38(48), 10338\u201310348.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "The extent to which subjective awareness influences reward processing, and thereby affects future decisions, is currently largely unknown. In the present report, we investigated this question in a reinforcement learning framework, combining perceptual masking, computational modeling, and electroencephalographic recordings (human male and female participants). Our results indicate that degrading the visibility of the reward decreased, without completely obliterating, the ability of participants to learn from outcomes, but concurrently increased their tendency to repeat previous choices. We dissociated electrophysiological signatures evoked by the reward-based learning processes from those elicited by the reward-independent repetition of previous choices and showed that these neural activities were significantly modulated by reward visibility. Overall, this report sheds new light on the neural computations underlying reward-based learning and decision-making and highlights that awareness is beneficial for the trial-by-trial adjustment of decision-making strategies. SIGNIFICANCE STATEMENT The notion of reward is strongly associated with subjective evaluation, related to conscious processes such as \u201cpleasure,\u201d \u201cliking,\u201d and \u201cwanting.\u201d Here we show that degrading reward visibility in a reinforcement learning task decreases, without completely obliterating, the ability of participants to learn from outcomes, but concurrently increases subjects' tendency to repeat previous choices. Electrophysiological recordings, in combination with computational modeling, show that neural activities were significantly modulated by reward visibility. Overall, we dissociate different neural computations underlying reward-based learning and decision-making, which highlights a beneficial role of reward awareness in adjusting decision-making strategies.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-62",
+    "doi": "10.1523/jneurosci.1952-17.2017",
+    "title": "Dynamic Interactions between Top\u2013Down Expectations and Conscious Awareness",
+    "journal": "The Journal of Neuroscience",
+    "year": "2018",
+    "citation": "Meijs, E. L., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2018). Dynamic Interactions between Top\u2013Down Expectations and Conscious Awareness. The Journal of Neuroscience, 38(9), 2318\u20132327.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "It is well known that top\u2013down expectations affect perceptual processes. Yet, remarkably little is known about the relationship between expectations and conscious awareness. We address three crucial outstanding questions: (1) how do expectations affect the likelihood of conscious stimulus perception?; (2) does the brain register violations of expectations nonconsciously?; and (3) do expectations need to be conscious to influence perceptual decisions? Using human participants, we performed three experiments in which we manipulated stimulus predictability within the attentional blink paradigm, while combining visual psychophysics with electrophysiological recordings. We found that valid stimulus expectations increase the likelihood of conscious access of stimuli. Furthermore, our findings suggest a clear dissociation in the interaction between expectations and consciousness: conscious awareness seems crucial for the implementation of top\u2013down expectations, but not for the generation of bottom-up stimulus-evoked prediction errors. These results constrain and update influential theories about the role of consciousness in the predictive brain. SIGNIFICANCE STATEMENT While the relationship between expectations and conscious awareness plays a major role in many prediction-based theories of brain functioning, thus far few empirical studies have examined this relationship. Here, we address this gap in knowledge in a set of three experiments. Our results suggest that the effect of expectations on conscious awareness varies between different steps of the hierarchy of predictive processing. While the active use of top\u2013down expectations for perceptual decisions requires conscious awareness, prediction errors can be triggered outside of conscious awareness. These results constrain and update influential theories about the role of consciousness in the predictive brain.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-63",
+    "doi": "10.1016/j.neuroimage.2018.05.007",
+    "title": "The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control",
+    "journal": "NeuroImage",
+    "year": "2018",
+    "citation": "Jiang, J., Correa, C. M., Geerts, J., & van Gaal, S. (2018). The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control. NeuroImage, 177, 11\u201319.",
+    "existing_topics": [
+      "Consciousness",
+      "Cognitive Control"
+    ],
+    "abstract": "&NA; Cognitive control over conflict, mediated by the prefrontal cortex, is an important skill for successful decision\u2010making. Although it has been shown that cognitive control may operate unconsciously, it has recently been proposed that control operations may be driven by the metacognitive awareness of conflict, e.g. arising from the feeling of task difficulty or the ease of action selection, and therefore crucially depends on conflict awareness. Behavioral and electroencephalography (EEG) data are presented from 64 subjects performing a masked priming paradigm to test this hypothesis. Although the subjective experience of conflict elicited behavioral adaptation, this was also the case when conflict was present, but not experienced. In EEG, typical oscillatory markers of conflict processing in the theta\u2010, alpha\u2010 and beta\u2010band were observed (relative broadband), but these were differentially modulated by conflict experience. This demonstrates that conflict adaptation does not depend on conflict experience, but that conflict experience is associated with increased cognitive control. HighlightsThe relationship between conflict awareness and conflict adaptation were studied.The conflict adaptation effects were observed irrespective of the conflict experienced or not experienced.Theta, alpha and beta were observed during conflict processing irrespective of conflict experience.Conflict adaptation does not depend on conflict experience.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-64",
+    "doi": "10.1073/pnas.1617268114",
+    "title": "Perceptual integration without conscious access",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": "2017",
+    "citation": "Fahrenfort, J. J., van Leeuwen, J., Olivers, C. N. L., & Hogendoorn, H. (2017). Perceptual integration without conscious access. Proceedings of the National Academy of Sciences, 114(14), 3744\u20133749.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Significance Our brain constantly selects salient and/or goal-relevant objects from the visual environment, so that it can operate on neural representations of these objects, but what is the fate of objects that are not selected? Are these discarded so that the brain only has an impoverished nonperceptual representation of them, or does the brain construct perceptually rich representations, even when objects are not consciously accessed by our cognitive system? Here, we answer that question by manipulating the information that enters into awareness, while simultaneously measuring cortical activity using EEG. We show that objects that do not enter consciousness can nevertheless have a neural signature that is indistinguishable from perceptually rich representations that occur for objects that do enter into conscious awareness.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-65",
+    "doi": "10.1038/s41598-017-01911-0",
+    "title": "Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection",
+    "journal": "Scientific Reports",
+    "year": "2017",
+    "citation": "Fahrenfort, J. J., Grubert, A., Olivers, C. N. L., & Eimer, M. (2017). Multivariate EEG analyses support high-resolution tracking of feature-based attentional selection. Scientific Reports, 7(1).",
+    "existing_topics": [
+      "EEG"
+    ],
+    "abstract": "The primary electrophysiological marker of feature-based selection is the N2pc, a lateralized posterior negativity emerging around 180\u2013200 ms. As it relies on hemispheric differences, its ability to discriminate the locus of focal attention is severely limited. Here we demonstrate that multivariate analyses of raw EEG data provide a much more fine-grained spatial profile of feature-based target selection. When training a pattern classifier to determine target position from EEG, we were able to decode target positions on the vertical midline, which cannot be achieved using standard N2pc methodology. Next, we used a forward encoding model to construct a channel tuning function that describes the continuous relationship between target position and multivariate EEG in an eight-position display. This model can spatially discriminate individual target positions in these displays and is fully invertible, enabling us to construct hypothetical topographic activation maps for target positions that were never used. When tested against the real pattern of neural activity obtained from a different group of subjects, the constructed maps from the forward model turned out statistically indistinguishable, thus providing independent validation of our model. Our findings demonstrate the power of multivariate EEG analysis to track feature-based target selection with high spatial and temporal precision.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-66",
+    "doi": "10.1080/17588928.2017.1372405",
+    "title": "How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach",
+    "journal": "Cognitive Neuroscience",
+    "year": "2017",
+    "citation": "Slagter, H. A., Alilovic, J., & Van Gaal, S. (2017). How early does attention modulate visual information processing? The importance of experimental protocol and data analysis approach. Cognitive Neuroscience, 9(1-2), 26\u201328.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-67",
+    "doi": "10.1016/j.neuropsychologia.2017.07.033",
+    "title": "Widespread neural oscillations in the delta band dissociate rule convergence from rule divergence during creative idea generation",
+    "journal": "Neuropsychologia",
+    "year": "2017",
+    "citation": "Boot, N., Baas, M., M\u00fchlfeld, E., de Dreu, C. K. W., & van Gaal, S. (2017). Widespread neural oscillations in the delta band dissociate rule convergence from rule divergence during creative idea generation. Neuropsychologia, 104, 8\u201317.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-68",
+    "doi": "10.1016/j.neubiorev.2017.04.007",
+    "title": "Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda",
+    "journal": "Neuroscience & Biobehavioral Reviews",
+    "year": "2017",
+    "citation": "Boot, N., Baas, M., van Gaal, S., Cools, R., & De Dreu, C. K. W. (2017). Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda. Neuroscience &Amp; Biobehavioral Reviews, 78, 13\u201323.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-69",
+    "doi": "10.1093/cercor/bhv018",
+    "title": "NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex",
+    "journal": "Cerebral Cortex",
+    "year": "2015",
+    "citation": "van Loon, A. M., Fahrenfort, J. J., van der Velde, B., Lirk, P. B., Vulink, N. C. C., Hollmann, M. W., Steven Scholte, H., & Lamme, V. A. F. (2015). NMDA Receptor Antagonist Ketamine Distorts Object Recognition by Reducing Feedback to Early Visual Cortex. Cerebral Cortex, 26(5), 1986\u20131996.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-70",
+    "doi": "10.1093/cercor/bhu224",
+    "title": "Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex",
+    "journal": "Cerebral Cortex",
+    "year": "2014",
+    "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Meuwese, J. D. I., Scholte, H. S., & Lamme, V. A. F. (2014). Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex. Cerebral Cortex, 26(4), 1401\u20131408.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-71",
+    "doi": "10.1038/srep17725",
+    "title": "Exploring the automaticity of language-perception interactions: Effects of attention and awareness",
+    "journal": "Scientific Reports",
+    "year": "2015",
+    "citation": "Francken, J. C., Meijs, E. L., Hagoort, P., van Gaal, S., & de Lange, F. P. (2015). Exploring the automaticity of language-perception interactions: Effects of attention and awareness. Scientific Reports, 5(1).",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Previous studies have shown that language can modulate visual perception, by biasing and/or enhancing perceptual performance. However, it is still debated where in the brain visual and linguistic information are integrated and whether the effects of language on perception are automatic and persist even in the absence of awareness of the linguistic material. Here, we aimed to explore the automaticity of language-perception interactions and the neural loci of these interactions in an fMRI study. Participants engaged in a visual motion discrimination task (upward or downward moving dots). Before each trial, a word prime was briefly presented that implied upward or downward motion (e.g., \u201crise\u201d, \u201cfall\u201d). These word primes strongly influenced behavior: congruent motion words sped up reaction times and improved performance relative to incongruent motion words. Neural congruency effects were only observed in the left middle temporal gyrus, showing higher activity for congruent compared to incongruent conditions. This suggests that higher-level conceptual areas rather than sensory areas are the locus of language-perception interactions. When motion words were rendered unaware by means of masking, they still affected visual motion perception, suggesting that language-perception interactions may rely on automatic feed-forward integration of perceptual and semantic material in language areas of the brain.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-72",
+    "doi": "10.1093/nc/niv003",
+    "title": "Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions",
+    "journal": "Neuroscience of Consciousness",
+    "year": "2015",
+    "citation": "Francken, J. C., Meijs, E. L., Ridderinkhof, O. M., Hagoort, P., de Lange, F. P., & van Gaal, S. (2015). Manipulating word awareness dissociates feed-forward from feedback models of language-perception interactions. Neuroscience of Consciousness, 2015(1), niv003.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Abstract Previous studies suggest that linguistic material can modulate visual perception, but it is unclear at which level of processing these interactions occur. Here we aim to dissociate between two competing models of language\u2013perception interactions: a feed-forward and a feedback model. We capitalized on the fact that the models make different predictions on the role of feedback. We presented unmasked (aware) or masked (unaware) words implying motion (e.g. \u201crise,\u201d \u201cfall\u201d), directly preceding an upward or downward visual motion stimulus. Crucially, masking leaves intact feed-forward information processing from low- to high-level regions, whereas it abolishes subsequent feedback. Under this condition, participants remained faster and more accurate when the direction implied by the motion word was congruent with the direction of the visual motion stimulus. This suggests that language\u2013perception interactions are driven by the feed-forward convergence of linguistic and perceptual information at higher-level conceptual and decision stages.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-73",
+    "doi": "10.1038/srep12008",
+    "title": "EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness",
+    "journal": "Scientific Reports",
+    "year": "2015",
+    "citation": "Jiang, J., Zhang, Q., & Van Gaal, S. (2015). EEG neural oscillatory dynamics reveal semantic and response conflict at difference levels of conflict awareness. Scientific Reports, 5(1).",
+    "existing_topics": [
+      "Consciousness",
+      "EEG"
+    ],
+    "abstract": "Although previous work has shown that conflict can be detected in the absence of awareness, it is unknown how different sources of conflict (i.e., semantic, response) are processed in the human brain and whether these processes are differently modulated by conflict awareness. To explore this issue, we extracted oscillatory power dynamics from electroencephalographic (EEG) data recorded while human participants performed a modified version of the Stroop task. Crucially, in this task conflict awareness was manipulated by masking a conflict-inducing color word preceding a color patch target. We isolated semantic from response conflict by introducing four color words/patches, of which two were matched to the same response. We observed that both semantic as well as response conflict were associated with mid-frontal theta-band and parietal alpha-band power modulations, irrespective of the level of conflict awareness (high vs. low), although awareness of conflict increased these conflict-related power dynamics. These results show that both semantic and response conflict can be processed in the human brain and suggest that the neural oscillatory mechanisms in EEG reflect mainly \u201cdomain general\u201d conflict processing mechanisms, instead of conflict source specific effects.",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-74",
+    "doi": "10.1016/j.neuroimage.2015.04.062",
+    "title": "Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control",
+    "journal": "NeuroImage",
+    "year": "2015",
+    "citation": "Jiang, J., Zhang, Q., & van Gaal, S. (2015). Conflict awareness dissociates theta-band neural dynamics of the medial frontal and lateral frontal cortex during trial-by-trial cognitive control. NeuroImage, 116, 102\u2013111.",
+    "existing_topics": [
+      "Consciousness",
+      "Cognitive Control"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-75",
+    "doi": "10.1167/15.8.13",
+    "title": "Expectations accelerate entry of visual stimuli into awareness",
+    "journal": "Journal of Vision",
+    "year": "2015",
+    "citation": "Pinto, Y., van Gaal, S., de Lange, F. P., Lamme, V. A. F., & Seth, A. K. (2015). Expectations accelerate entry of visual stimuli into awareness. Journal of Vision, 15(8), 13.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "How do expectations influence transitions between unconscious and conscious perceptual processing? According to the influential predictive processing framework, perceptual content is determined by predictive models of the causes of sensory signals. On one interpretation, conscious contents arise when predictive models are verified by matching sensory input (minimizing prediction error). On another, conscious contents arise when surprising events falsify current perceptual predictions. Finally, the cognitive impenetrability account posits that conscious perception is not affected by such higher level factors. To discriminate these positions, we combined predictive cueing with continuous flash suppression (CFS) in which the relative contrast of a target image gradually increases over time. In four experiments we established that expected stimuli enter consciousness faster than neutral or unexpected stimuli. These effects are difficult to account for in terms of response priming, pre-existing stimulus associations, or the attentional mechanisms that cause asynchronous temporal order judgments (of simultaneously presented stimuli). Our results further suggest that top-down expectations play a larger role when bottom-up input is ambiguous, in line with predictive processing accounts of perception. Taken together, our findings support the hypothesis that conscious access depends on verification of perceptual predictions.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-76",
+    "doi": "10.3758/s13414-014-0643-1",
+    "title": "The subjective experience of object recognition: comparing metacognition for object detection and object categorization",
+    "journal": "Attention, Perception, & Psychophysics",
+    "year": "2014",
+    "citation": "Meuwese, J. D. I., van Loon, A. M., Lamme, V. A. F., & Fahrenfort, J. J. (2014). The subjective experience of object recognition: comparing metacognition for object detection and object categorization. Attention, Perception, &Amp; Psychophysics, 76(4), 1057\u20131068.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "Perceptual decisions seem to be made automatically and almost instantly. Constructing a unitary subjective conscious experience takes more time. For example, when trying to avoid a collision with a car on a foggy road you brake or steer away in a reflex, before realizing you were in a near accident. This subjective aspect of object recognition has been given little attention. We used metacognition (assessed with confidence ratings) to measure subjective experience during object detection and object categorization for degraded and masked objects, while objective performance was matched. Metacognition was equal for degraded and masked objects, but categorization led to higher metacognition than did detection. This effect turned out to be driven by a difference in metacognition for correct rejection trials, which seemed to be caused by an asymmetry of the distractor stimulus: It does not contain object-related information in the detection task, whereas it does contain such information in the categorization task. Strikingly, this asymmetry selectively impacted metacognitive ability when objective performance was matched. This finding reveals a fundamental difference in how humans reflect versus act on information: When matching the amount of information required to perform two tasks at some objective level of accuracy (acting), metacognitive ability (reflecting) is still better in tasks that rely on positive evidence (categorization) than in tasks that rely more strongly on an absence of evidence (detection).",
+    "source": "doi_description_meta",
+    "keywords": []
+  },
+  {
+    "id": "pub-77",
+    "doi": "10.1177/0956797613516146",
+    "title": "Accurate Metacognition for Visual Sensory Memory Representations",
+    "journal": "Psychological Science",
+    "year": "2014",
+    "citation": "Vandenbroucke, A. R. E., Sligte, I. G., Barrett, A. B., Seth, A. K., Fahrenfort, J. J., & Lamme, V. A. F. (2014). Accurate Metacognition for Visual Sensory Memory Representations. Psychological Science, 25(4), 861\u2013873.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "The capacity to attend to multiple objects in the visual field is limited. However, introspectively, people feel that they see the whole visual world at once. Some scholars suggest that this introspective feeling is based on short-lived sensory memory representations, whereas others argue that the feeling of seeing more than can be attended to is illusory. Here, we investigated this phenomenon by combining objective memory performance with subjective confidence ratings during a change-detection task. This allowed us to compute a measure of metacognition\u2014the degree of knowledge that subjects have about the correctness of their decisions\u2014for different stages of memory. We show that subjects store more objects in sensory memory than they can attend to but, at the same time, have similar metacognition for sensory memory and working memory representations. This suggests that these subjective impressions are not an illusion but accurate reflections of the richness of visual perception.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-78",
+    "doi": "10.1093/cercor/bhu143",
+    "title": "Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans",
+    "journal": "Cerebral Cortex",
+    "year": "2014",
+    "citation": "El Karoui, I., King, J.-R., Sitt, J., Meyniel, F., Van Gaal, S., Hasboun, D., Adam, C., Navarro, V., Baulac, M., Dehaene, S., Cohen, L., & Naccache, L. (2014). Event-Related Potential, Time-frequency, and Functional Connectivity Facets of Local and Global Auditory Novelty Processing: An Intracranial Study in Humans. Cerebral Cortex, 25(11), 4203\u20134212.",
+    "existing_topics": [
+      "Neural Decoding"
+    ],
+    "abstract": "Auditory novelty detection has been associated with different cognitive processes. Bekinschtein et al. (2009) developed an experimental paradigm to dissociate these processes, using local and global novelty, which were associated, respectively, with automatic versus strategic perceptual processing. They have mostly been studied using event-related potentials (ERPs), but local spiking activity as indexed by gamma (60\u2013120 Hz) power and interactions between brain regions as indexed by modulations in beta-band (13\u201325 Hz) power and functional connectivity have not been explored. We thus recorded 9 epileptic patients with intracranial electrodes to compare the precise dynamics of the responses to local and global novelty. Local novelty triggered an early response observed as an intracranial mismatch negativity (MMN) contemporary with a strong power increase in the gamma band and an increase in connectivity in the beta band. Importantly, all these responses were strictly confined to the temporal auditory cortex. In contrast, global novelty gave rise to a late ERP response distributed across brain areas, contemporary with a sustained power decrease in the beta band (13\u201325 Hz) and an increase in connectivity in the alpha band (8\u201313 Hz) within the frontal lobe. We discuss these multi-facet signatures in terms of conscious access to perceptual information.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-79",
+    "doi": "10.1098/rstb.2013.0212",
+    "title": "Can the meaning of multiple words be integrated unconsciously?",
+    "journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "year": "2014",
+    "citation": "van Gaal, S., Naccache, L., Meuwese, J. D. I., van Loon, A. M., Leighton, A. H., Cohen, L., & Dehaene, S. (2014). Can the meaning of multiple words be integrated unconsciously? Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1641), 20130212.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "What are the limits of unconscious language processing? Can language circuits process simple grammatical constructions unconsciously and integrate the meaning of several unseen words? Using behavioural priming and electroencephalography (EEG), we studied a specific rule-based linguistic operation traditionally thought to require conscious cognitive control: the negation of valence. In a masked priming paradigm, two masked words were successively (Experiment 1) or simultaneously presented (Experiment 2), a modifier (\u2018not\u2019/\u2018very\u2019) and an adjective (e.g. \u2018good\u2019/\u2018bad\u2019), followed by a visible target noun (e.g. \u2018peace\u2019/\u2018murder\u2019). Subjects indicated whether the target noun had a positive or negative valence. The combination of these three words could either be contextually consistent (e.g. \u2018very bad - murder\u2019) or inconsistent (e.g. \u2018not bad - murder\u2019). EEG recordings revealed that grammatical negations could unfold partly unconsciously, as reflected in similar occipito-parietal N400 effects for conscious and unconscious three-word sequences forming inconsistent combinations. However, only conscious word sequences elicited P600 effects, later in time. Overall, these results suggest that multiple unconscious words can be rapidly integrated and that an unconscious negation can automatically \u2018flip the sign\u2019 of an unconscious adjective. These findings not only extend the limits of subliminal combinatorial language processes, but also highlight how consciousness modulates the grammatical integration of multiple words.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-80",
+    "doi": "10.1016/j.neuroimage.2013.10.033",
+    "title": "Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors",
+    "journal": "NeuroImage",
+    "year": "2014",
+    "citation": "Cohen, M. X., & van Gaal, S. (2014). Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors. NeuroImage, 86, 503\u2013513.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-81",
+    "doi": "10.1162/jocn_a_00530",
+    "title": "Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report",
+    "journal": "Journal of Cognitive Neuroscience",
+    "year": "2014",
+    "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Sligte, I. G., & Lamme, V. A. F. (2014). Seeing without Knowing: Neural Signatures of Perceptual Inference in the Absence of Report. Journal of Cognitive Neuroscience, 26(5), 955\u2013969.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Abstract Every day, we experience a rich and complex visual world. Our brain constantly translates meaningless fragmented input into coherent objects and scenes. However, our attentional capabilities are limited, and we can only report the few items that we happen to attend to. So what happens to items that are not cognitively accessed? Do these remain fragmentary and meaningless? Or are they processed up to a level where perceptual inferences take place about image composition? To investigate this, we recorded brain activity using fMRI while participants viewed images containing a Kanizsa figure, an illusion in which an object is perceived by means of perceptual inference. Participants were presented with the Kanizsa figure and three matched nonillusory control figures while they were engaged in an attentionally demanding distractor task. After the task, one group of participants was unable to identify the Kanizsa figure in a forced-choice decision task; hence, they were \u201cinattentionally blind.\u201d A second group had no trouble identifying the Kanizsa figure. Interestingly, the neural signature that was unique to the processing of the Kanizsa figure was present in both groups. Moreover, within-subject multivoxel pattern analysis showed that the neural signature of unreported Kanizsa figures could be used to classify reported Kanizsa figures and that this cross-report classification worked better for the Kanizsa condition than for the control conditions. Together, these results suggest that stimuli that are not cognitively accessed are processed up to levels of perceptual interpretation.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-82",
+    "doi": "10.1016/j.neuropsychologia.2013.09.020",
+    "title": "Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict",
+    "journal": "Neuropsychologia",
+    "year": "2013",
+    "citation": "Jiang, J., van Gaal, S., Bailey, K., Chen, A., & Zhang, Q. (2013). Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict. Neuropsychologia, 51(13), 2791\u20132798.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-83",
+    "doi": "10.1093/cercor/bhs069",
+    "title": "Dynamic Interactions between Large-Scale Brain Networks Predict Behavioral Adaptation after Perceptual Errors",
+    "journal": "Cerebral Cortex",
+    "year": "2012",
+    "citation": "Cohen, M. X., & van Gaal, S. (2012). Dynamic Interactions between Large-Scale Brain Networks Predict Behavioral Adaptation after Perceptual Errors. Cerebral Cortex, 23(5), 1061\u20131072.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Failures to perceive visual stimuli lead to errors in decision making. Different theoretical accounts implicate either medial frontal (MF) cognitive control processes or prestimulus occipital (OC) cortical oscillatory dynamics in errors during perceptual tasks. Here, we show that these 2 previously unconnected theoretical accounts can be reconciled, and the brain regions described by the 2 theories have complimentary and interactive roles in supporting error adaptation. Using a perceptual discrimination task and time\u2013frequency network-based analyses of electroencephalography data, we show that perceptual anticipation and posterror top\u2013down control mechanisms recruit distinct but interacting brain networks. MF sites were a hub for theta-band networks and theta\u2013alpha coupling elicited after errors, whereas occipital sites were a network hub during stimulus anticipation and alpha\u2013gamma coupling. Granger causality analyses revealed that these networks communicate in their preferred direction and frequency band: response-related MF \u2192 OC interactions occurred in the theta band, whereas stimulus anticipation-related OC \u2192 MF interactions occurred in the alpha band. Subjects with stronger network interactions were more likely to improve performance after errors. These findings demonstrate that multiple large-scale brain networks interact dynamically and in a directionally specific manner in different frequency bands to support flexible behavior adaptation during perceptual decision making.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-84",
+    "doi": "10.1167/13.9.1033",
+    "title": "Neuronal integration in visual cortex elevates face category tuning to conscious face perception",
+    "journal": "Journal of Vision",
+    "year": "2013",
+    "citation": "Fahrenfort, J., Snijders, T., Heinen, K., van Gaal, S., Scholte, S., & Lamme, V. (2013). Neuronal integration in visual cortex elevates face category tuning to conscious face perception. Journal of Vision, 13(9), 1033.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-85",
+    "doi": "10.3389/fnhum.2012.00121",
+    "title": "The role of consciousness in cognitive control and decision making",
+    "journal": "Frontiers in Human Neuroscience",
+    "year": "2012",
+    "citation": "van Gaal, S., de Lange, F. P., & Cohen, M. X. (2012). The role of consciousness in cognitive control and decision making. Frontiers in Human Neuroscience, 6.",
+    "existing_topics": [
+      "Consciousness",
+      "Decision Making",
+      "Cognitive Control"
+    ],
+    "abstract": "Here we review studies on the complexity and strength of unconscious information processing. We focus on empirical evidence that relates awareness of information to cognitive control processes (e.g. response inhibition, conflict resolution, and task-switching), the life-time of information maintenance (e.g. working memory) and the possibility to integrate multiple pieces of information across space and time. Overall, the results that we review paint a picture of local and specific effects of unconscious information on various (high-level) brain regions, including areas in the prefrontal cortex. Although this neural activation does not elicit any conscious experience, it is functional and capable of influencing many perceptual, cognitive (control) and decision-related processes, sometimes even for relatively long periods of time. However, recent evidence also points out interesting dissociations between conscious and unconscious information processing when it comes to the duration, flexibility and the strategic use of that information for complex operations and decision-making. Based on the available evidence, we conclude that the role of task-relevance of subliminal information and meta-cognitive factors in unconscious cognition need more attention in future work.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-86",
+    "doi": "http://www.jneurosci.org/content/32/43/14915/tab-e-letters#responses-in-the-fusiform-face-area-do-not-cause-conscious-face-perception",
+    "title": "Fahrenfort, J.J. & van Gaal, S. Responses in Fusiform Face Area do not cause Conscious Face Perception (comment on Parvizi et al., 2012). Journal of Neuroscience.",
+    "journal": "Conscious Brain Lab Publications",
+    "year": "2012",
+    "citation": "Fahrenfort, J.J. & van Gaal, S. Responses in Fusiform Face Area do not cause Conscious Face Perception (comment on Parvizi et al., 2012). Journal of Neuroscience.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-87",
+    "doi": "10.1162/jocn_a_00197",
+    "title": "GABAA Agonist Reduces Visual Awareness: A Masking\u2013EEG Experiment",
+    "journal": "Journal of Cognitive Neuroscience",
+    "year": "2012",
+    "citation": "van Loon, A. M., Scholte, H. S., van Gaal, S., van der Hoort, B. J. J., & Lamme, V. A. F. (2012). GABAA Agonist Reduces Visual Awareness: A Masking\u2013EEG Experiment. Journal of Cognitive Neuroscience, 24(4), 965\u2013974.",
+    "existing_topics": [
+      "Consciousness",
+      "EEG"
+    ],
+    "abstract": "Abstract Consciousness can be manipulated in many ways. Here, we seek to understand whether two such ways, visual masking and pharmacological intervention, share a common pathway in manipulating visual consciousness. We recorded EEG from human participants who performed a backward-masking task in which they had to detect a masked figure form its background (masking strength was varied across trials). In a within-subject design, participants received dextromethorphan (a N-methyl-d-aspartate receptor antagonist), lorazepam (LZP; a GABAA receptor agonist), scopolamine (a muscarine receptor antagonist), or placebo. The behavioral results show that detection rate decreased with increasing masking strength and that of all the drugs, only LZP induced a further decrease in detection rate. Figure-related ERP signals showed three neural events of interest: (1) an early posterior occipital and temporal generator (94\u2013121 msec) that was not influenced by any pharmacological manipulation nor by masking, (2) a later bilateral perioccipital generator (156\u2013211 msec) that was reduced by masking as well as LZP (but not by any other drugs), and (3) a late bilateral occipital temporal generator (293\u2013387 msec) that was mainly affected by masking. Crucially, only the intermediate neural event correlated with detection performance. In combination with previous findings, these results suggest that LZP and masking both reduce visual awareness by means of modulating late activity in the visual cortex but leave early activation intact. These findings provide the first evidence for a common mechanism for these two distinct ways of manipulating consciousness.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-88",
+    "doi": "10.1177/1073858411404079",
+    "title": "Unconscious High-Level Information Processing: Implication for Neurobiological Theories of Consciousness",
+    "journal": "The Neuroscientist",
+    "year": "2011",
+    "citation": "van Gaal, S., & Lamme, V. A. F. (2011). Unconscious High-Level Information Processing. The Neuroscientist, 18(3), 287\u2013301.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Theories about the neural correlates and functional relevance of consciousness have traditionally assigned a crucial role to the prefrontal cortex in generating consciousness as well as in orchestrating high-level conscious control over behavior. However, recent neuroscientific findings show that prefrontal cortex can be activated unconsciously. The depth, direction, and scope of these activations depend on several top-down factors such as the task being probed (task-set, strategy) and on (temporal/spatial) attention. Regardless, such activations\u2014when mediated by feedforward activation only\u2014do not lead to a conscious sensation. Although unconscious, these prefrontal activations are functional, in the sense that they are associated with behavioral effects of cognitive control, such as response inhibition, task switching, conflict monitoring, and error detection. These findings challenge the pivotal role of the prefrontal cortex in consciousness. Instead, it appears that specific brain areas (or cognitive modules) may support specific cognitive functions but that consciousness is independent of this. Conscious sensations arise only when the brain areas involved engage in recurrent interactions enabling the long-lasting exchange of information between brain regions. Moreover, recent evidence suggests that also the state of consciousness, for example, in vegetative state patients or during sleep and anesthesia, is closely related to the scope and extent of residual recurrent interactions among brain regions.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-89",
+    "doi": "10.1016/j.concog.2012.04.005",
+    "title": "Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming",
+    "journal": "Consciousness and Cognition",
+    "year": "2012",
+    "citation": "Francken, J. C., van Gaal, S., & de Lange, F. P. (2012). Response to Desender & Van den Bussche: On the absence of a relationship between discriminability and priming. Consciousness and Cognition, 21(3), 1573\u20131574.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-90",
+    "doi": "10.1371/journal.pbio.1001203",
+    "title": "How Awareness Changes the Relative Weights of Evidence During Human Decision-Making",
+    "journal": "PLoS Biology",
+    "year": "2011",
+    "citation": "de Lange, F. P., van Gaal, S., Lamme, V. A. F., & Dehaene, S. (2011). How Awareness Changes the Relative Weights of Evidence During Human Decision-Making. PLoS Biology, 9(11), e1001203.",
+    "existing_topics": [
+      "Consciousness",
+      "Decision Making"
+    ],
+    "abstract": "A combined behavioral and brain imaging study shows how sensory awareness and stimulus visibility can influence the dynamics of decision-making in humans.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-91",
+    "doi": "10.1016/j.concog.2011.04.005",
+    "title": "Immediate and long-term priming effects are independent of prime awareness",
+    "journal": "Consciousness and Cognition",
+    "year": "2011",
+    "citation": "Francken, J. C., Gaal, S. v., & de Lange, F. P. (2011). Immediate and long-term priming effects are independent of prime awareness. Consciousness and Cognition, 20(4), 1793\u20131800.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-92",
+    "doi": "10.1162/jocn_a_00034",
+    "title": "Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior",
+    "journal": "Journal of Cognitive Neuroscience",
+    "year": "2011",
+    "citation": "Jolij, J., Scholte, H. S., van Gaal, S., Hodgson, T. L., & Lamme, V. A. F. (2011). Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior. Journal of Cognitive Neuroscience, 23(12), 3734\u20133745.",
+    "existing_topics": [
+      "Decision Making"
+    ],
+    "abstract": "Abstract Humans largely guide their behavior by their visual representation of the world. Recent studies have shown that visual information can trigger behavior within 150 msec, suggesting that visually guided responses to external events, in fact, precede conscious awareness of those events. However, is such a view correct? By using a texture discrimination task, we show that the brain relies on long-latency visual processing in order to guide perceptual decisions. Decreasing stimulus saliency leads to selective changes in long-latency visually evoked potential components reflecting scene segmentation. These latency changes are accompanied by almost equal changes in simple RTs and points of subjective simultaneity. Furthermore, we find a strong correlation between individual RTs and the latencies of scene segmentation related components in the visually evoked potentials, showing that the processes underlying these late brain potentials are critical in triggering a response. However, using the same texture stimuli in an antisaccade task, we found that reflexive, but erroneous, prosaccades, but not antisaccades, can be triggered by earlier visual processes. In other words: The brain can act quickly, but decides late. Differences between our study and earlier findings suggesting that action precedes conscious awareness can be explained by assuming that task demands determine whether a fast and unconscious, or a slower and conscious, representation is used to initiate a visually guided response.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-93",
+    "doi": "10.1371/journal.pone.0025729",
+    "title": "The Flexible Nature of Unconscious Cognition",
+    "journal": "PLoS ONE",
+    "year": "2011",
+    "citation": "Wokke, M. E., van Gaal, S., Scholte, H. S., Ridderinkhof, K. R., & Lamme, V. A. F. (2011). The Flexible Nature of Unconscious Cognition. PLoS ONE, 6(9), e25729.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "The cognitive signature of unconscious processes is hotly debated recently. Generally, consciousness is thought to mediate flexible, adaptive and goal-directed behavior, but in the last decade unconscious processing has rapidly gained ground on traditional conscious territory. In this study we demonstrate that the scope and impact of unconscious information on behavior and brain activity can be modulated dynamically on a trial-by-trial basis. Participants performed a Go/No-Go experiment in which an unconscious (masked) stimulus preceding a conscious target could be associated with either a Go or No-Go response. Importantly, the mapping of stimuli onto these actions varied on a trial-by-trial basis, preventing the formation of stable associations and hence the possibility that unconscious stimuli automatically activate these control actions. By eliminating stimulus-response associations established through practice we demonstrate that unconscious information can be processed in a flexible and adaptive manner. In this experiment we show that the same unconscious stimulus can have a substantially different effect on behavior and (prefrontal) brain activity depending on the rapidly changing task context in which it is presented. This work suggests that unconscious information processing shares many sophisticated characteristics (including flexibility and context-specificity) with its conscious counterpart.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-94",
+    "doi": "10.1016/j.neuroimage.2010.07.022",
+    "title": "Functional connectivity analysis of fMRI data using parameterized regions-of-interest",
+    "journal": "NeuroImage",
+    "year": "2011",
+    "citation": "Weeda, W. D., Waldorp, L. J., Grasman, R. P. P. P., van Gaal, S., & Huizenga, H. M. (2011). Functional connectivity analysis of fMRI data using parameterized regions-of-interest. NeuroImage, 54(1), 410\u2013416.",
+    "existing_topics": [
+      "fMRI"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-95",
+    "doi": "10.1162/jocn.2010.21431",
+    "title": "Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior",
+    "journal": "Journal of Cognitive Neuroscience",
+    "year": "2011",
+    "citation": "van Gaal, S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior. Journal of Cognitive Neuroscience, 23(1), 91\u2013105.",
+    "existing_topics": [
+      "Consciousness",
+      "Cognitive Control"
+    ],
+    "abstract": "Abstract Cognitive control allows humans to overrule and inhibit habitual responses to optimize performance in challenging situations. Contradicting traditional views, recent studies suggest that cognitive control processes can be initiated unconsciously. To further capture the relation between consciousness and cognitive control, we studied the dynamics of inhibitory control processes when triggered consciously versus unconsciously in a modified version of the stop task. Attempts to inhibit an imminent response were often successful after unmasked (visible) stop signals. Masked (invisible) stop signals rarely succeeded in instigating overt inhibition but did trigger slowing down of response times. Masked stop signals elicited a sequence of distinct ERP components that were also observed on unmasked stop signals. The N2 component correlated with the efficiency of inhibitory control when elicited by unmasked stop signals and with the magnitude of slowdown when elicited by masked stop signals. Thus, the N2 likely reflects the initiation of inhibitory control, irrespective of conscious awareness. The P3 component was much reduced in amplitude and duration on masked versus unmasked stop trials. These patterns of differences and similarities between conscious and unconscious cognitive control processes are discussed in a framework that differentiates between feedforward and feedback connections in yielding conscious experience.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-96",
+    "doi": "10.1162/jocn.2010.21444",
+    "title": "Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict",
+    "journal": "Journal of Cognitive Neuroscience",
+    "year": "2011",
+    "citation": "van Gaal, S., Scholte, H. S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict. Journal of Cognitive Neuroscience, 23(2), 382\u2013390.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Abstract The presupplementary motor area (pre-SMA) is considered key in contributing to voluntary action selection during response conflict. Here we test whether individual differences in the ability to select appropriate actions in the face of strong (conscious) and weak (virtually unconscious) distracting alternatives are related to individual variability in pre-SMA anatomy. To this end, we scanned 58 participants, who performed a masked priming task in which conflicting response tendencies were elicited either consciously (through primes that were weakly masked) or virtually unconsciously (strongly masked primes), with structural magnetic resonance imaging. Voxel-based morphometry revealed that individual differences in pre-SMA gray-matter density are related to subjects' ability to voluntary select the correct action in the face of conflict, irrespective of the awareness level of conflict-inducing stimuli. These results link structural anatomy to individual differences in cognitive control ability, and provide support for the role of the pre-SMA in the selection of appropriate actions in situations of response conflict. Furthermore, these results suggest that flexible and voluntary behavior requires efficiently dealing with competing response tendencies, even those that are activated automatically and unconsciously.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-97",
+    "doi": "10.1371/journal.pone.0011508",
+    "title": "Unconsciously Triggered Conflict Adaptation",
+    "journal": "PLoS ONE",
+    "year": "2010",
+    "citation": "van Gaal, S., Lamme, V. A. F., & Ridderinkhof, K. R. (2010). Unconsciously Triggered Conflict Adaptation. PLoS ONE, 5(7), e11508.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "In conflict tasks such as the Stroop, the Eriksen flanker or the Simon task, it is generally observed that the detection of conflict in the current trial reduces the impact of conflicting information in the subsequent trial; a phenomenon termed conflict adaptation. This higher-order cognitive control function has been assumed to be restricted to cases where conflict is experienced consciously. In the present experiment we manipulated the awareness of conflict-inducing stimuli in a metacontrast masking paradigm to directly test this assumption. Conflicting response tendencies were elicited either consciously (through primes that were weakly masked) or unconsciously (strongly masked primes). We demonstrate trial-by-trial conflict adaptation effects after conscious as well as unconscious conflict, which could not be explained by direct stimulus/response repetitions. These findings show that unconscious information can have a longer-lasting influence on our behavior than previously thought and further stretch the functional boundaries of unconscious cognition.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-98",
+    "doi": "10.1523/jneurosci.2992-09.2010",
+    "title": "Unconscious Activation of the Prefrontal No-Go Network",
+    "journal": "The Journal of Neuroscience",
+    "year": "2010",
+    "citation": "van Gaal, S., Ridderinkhof, K. R., Scholte, H. S., & Lamme, V. A. F. (2010). Unconscious Activation of the Prefrontal No-Go Network. The Journal of Neuroscience, 30(11), 4143\u20134150.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Cognitive control processes involving prefrontal cortex allow humans to overrule and inhibit habitual responses to optimize performance in new and challenging situations, and traditional views hold that cognitive control is tightly linked with consciousness. We used functional magnetic resonance imaging to investigate to what extent unconscious \u201cno-go\u201d stimuli are capable of reaching cortical areas involved in inhibitory control, particularly the inferior frontal cortex (IFC) and the pre-supplementary motor area (pre-SMA). Participants performed a go/no-go task that included conscious (weakly masked) no-go trials, unconscious (strongly masked) no-go trials, as well as go trials. Replicating typical neuroimaging findings, response inhibition on conscious no-go stimuli was associated with a (mostly right-lateralized) frontoparietal \u201cinhibition network.\u201d Here, we demonstrate, however, that an unconscious no-go stimulus also can activate prefrontal control networks, most prominently the IFC and the pre-SMA. Moreover, if it does so, it brings about a substantial slowdown in the speed of responding, as if participants attempted to inhibit their response but just failed to withhold it completely. Interestingly, overall activation in this \u201cunconscious inhibition network\u201d correlated positively with the amount of slowdown triggered by unconscious no-go stimuli. In addition, neural differences between conscious and unconscious control are revealed. These results expand our understanding of the limits and depths of unconscious information processing in the human brain and demonstrate that prefrontal cognitive control functions are not exclusively influenced by conscious information.",
+    "source": "crossref",
+    "keywords": []
+  },
+  {
+    "id": "pub-99",
+    "doi": "10.1037/a0013551",
+    "title": "Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task.",
+    "journal": "Journal of Experimental Psychology: Human Perception and Performance",
+    "year": "2009",
+    "citation": "van Gaal, S., Ridderinkhof, K. R., van den Wildenberg, W. P. M., & Lamme, V. A. F. (2009). Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task. Journal of Experimental Psychology: Human Perception and Performance, 35(4), 1129\u20131139.",
+    "existing_topics": [
+      "Consciousness",
+      "Cognitive Control"
+    ],
+    "abstract": "",
+    "source": "",
+    "keywords": []
+  },
+  {
+    "id": "pub-100",
+    "doi": "10.3389/neuro.09.054.2009",
+    "title": "Unconscious errors enhance prefrontal-occipital oscillatory synchrony",
+    "journal": "",
+    "year": "2009",
+    "citation": "Cohen, M.X., van Gaal, S., Ridderinkhof, K.R. and Lamme, V.A.F. (2009). Unconscious errors enhance prefrontal-occipital oscillatory synchrony. Front. Hum. Neurosci. 3:54.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "The medial prefrontal cortex (MFC) is critical for our ability to learn from previous mistakes. Here we provide evidence that neurophysiological oscillatory long-range synchrony is a mechanism of post-error adaptation that occurs even without conscious awareness of the error. During a visually signaled Go/No-Go task in which half of the No-Go cues were masked and thus not consciously perceived, response errors enhanced tonic (i.e., over 1-2 seconds) oscillatory synchrony between MFC and occipital cortex leading up to and during the subsequent trial. Spectral Granger causality analyses demonstrated that MFC > occipital cortex directional synchrony was enhanced during trials following both conscious and unconscious errors, whereas transient stimulus-induced occipital > MFC directional synchrony was independent of errors in the previous trial. Further, the strength of pre-trial MFC-occipital synchrony predicted individual differences in task performance. Together, these findings suggest that synchronous neurophysiological oscillations are a plausible mechanism of MFC-driven cognitive control that is independent of conscious awareness.",
+    "source": "doi_citation_abstract",
+    "keywords": []
+  },
+  {
+    "id": "pub-101",
+    "doi": "10.1167/8.1.12",
+    "title": "The spatiotemporal profile of cortical processing leading up to visual perception",
+    "journal": "Journal of Vision",
+    "year": "2008",
+    "citation": "Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2008). The spatiotemporal profile of cortical processing leading up to visual perception. Journal of Vision, 8(1), 12.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Much controversy exists around the locus of conscious visual perception in human cortex. Some authors have proposed that its neural correlates correspond with recurrent processing within visual cortex, whereas others have argued they are located in a frontoparietal network. The present experiment aims to bring together these competing viewpoints. We recorded EEG from human subjects that were engaged in detecting masked visual targets. From this, we obtained a spatiotemporal profile of neural activity selectively related to the processing of the targets, which we correlated with the subjects' ability to detect those targets. This made it possible to distinguish between those stages of visual processing that correlate with human perception and those that do not. The results show that target induced extra-striate feedforward activity peaking at 121 ms does not correlate with perception, whereas more posterior recurrent activity peaking at 160 ms does. Several subsequent stages show an alternating pattern of frontoparietal and occipital activity, all of which correlate highly with perception. This shows that perception emerges early on, but only after an initial feedforward volley, and suggests that multiple reentrant loops are involved in propagating this signal to frontoparietal areas.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-102",
+    "doi": "10.1523/jneurosci.1278-08.2008",
+    "title": "Frontal Cortex Mediates Unconsciously Triggered Inhibitory Control",
+    "journal": "The Journal of Neuroscience",
+    "year": "2008",
+    "citation": "van Gaal, S., Ridderinkhof, K. R., Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2008). Frontal Cortex Mediates Unconsciously Triggered Inhibitory Control. The Journal of Neuroscience, 28(32), 8053\u20138062.",
+    "existing_topics": [
+      "Consciousness",
+      "Cognitive Control"
+    ],
+    "abstract": "To further our understanding of the function of conscious experience we need to know which cognitive processes require awareness and which do not. Here, we show that an unconscious stimulus can trigger inhibitory control processes, commonly ascribed to conscious control mechanisms. We combined the metacontrast masking paradigm and the Go/No-Go paradigm to study whether unconscious No-Go signals can actively trigger high-level inhibitory control processes, strongly associated with the prefrontal cortex (PFC). Behaviorally, unconscious No-Go signals sometimes triggered response inhibition to the level of complete response termination and yielded a slow down in the speed of responses that were not inhibited. Electroencephalographic recordings showed that unconscious No-Go signals elicit two neural events: (1) an early occipital event and (2) a frontocentral event somewhat later in time. The first neural event represents the visual encoding of the unconscious No-Go stimulus, and is also present in a control experiment where the masked stimulus has no behavioral relevance. The second event is unique to the Go/No-Go experiment, and shows the subsequent implementation of inhibitory control in the PFC. The size of the frontal activity pattern correlated highly with the impact of unconscious No-Go signals on subsequent behavior. We conclude that unconscious stimuli can influence whether a task will be performed or interrupted, and thus exert a form of cognitive control. These findings challenge traditional views concerning the proposed relationship between awareness and cognitive control and stretch the alleged limits and depth of unconscious information processing.",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-103",
+    "doi": "10.1523/jneurosci.1208-08.2008",
+    "title": "The Relationship between Visual Awareness, Attention, and Report",
+    "journal": "The Journal of Neuroscience",
+    "year": "2008",
+    "citation": "van Gaal, S., & Fahrenfort, J. J. (2008). The Relationship between Visual Awareness, Attention, and Report. The Journal of Neuroscience, 28(21), 5401\u20135402.",
+    "existing_topics": [
+      "Consciousness"
+    ],
+    "abstract": "Attention and awareness seem to be intimately related. Intuitively, it seems logical that we become aware of events that we attend to, whereas information outside the scope of our attention remains undetected. Indeed, some have argued that there is a tight relationship between attention and",
+    "source": "semanticscholar",
+    "keywords": []
+  },
+  {
+    "id": "pub-104",
+    "doi": "10.1162/jocn.2007.19.9.1488",
+    "title": "Masking Disrupts Reentrant Processing in Human Visual Cortex",
+    "journal": "Journal of Cognitive Neuroscience",
+    "year": "2007",
+    "citation": "Fahrenfort, J. J., Scholte, H. S., & Lamme, V. A. F. (2007). Masking Disrupts Reentrant Processing in Human Visual Cortex. Journal of Cognitive Neuroscience, 19(9), 1488\u20131497.",
+    "existing_topics": [
+      "Cognitive Neuroscience"
+    ],
+    "abstract": "Abstract In masking, a stimulus is rendered invisible through the presentation of a second stimulus shortly after the first. Over the years, authors have typically explained masking by postulating some early disruption process. In these feedforward-type explanations, the mask somehow \u201ccatches up\u201d with the target stimulus, disrupting its processing either through lateral or interchannel inhibition. However, studies from recent years indicate that visual perception\u2014and most notably visual awareness itself\u2014may depend strongly on cortico-cortical feedback connections from higher to lower visual areas. This has led some researchers to propose that masking derives its effectiveness from selectively interrupting these reentrant processes. In this experiment, we used electroencephalogram measurements to determine what happens in the human visual cortex during detection of a texture-defined square under nonmasked (seen) and masked (unseen) conditions. Electro-encephalogram derivatives that are typically associated with reentrant processing turn out to be absent in the masked condition. Moreover, extrastriate visual areas are still activated early on by both seen and unseen stimuli, as shown by scalp surface Laplacian current source-density maps. This conclusively shows that feedforward processing is preserved, even when subject performance is at chance as determined by objective measures. From these results, we conclude that masking derives its effectiveness, at least partly, from disrupting reentrant processing, thereby interfering with the neural mechanisms of figure-ground segmentation and visual awareness itself.",
+    "source": "crossref",
+    "keywords": []
+  }
+]

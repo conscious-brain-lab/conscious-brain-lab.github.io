@@ -1,13 +1,14 @@
 {
   "id": "pub-103",
-  "citation": "van Gaal, S., & Fahrenfort, J. J. (2008). The Relationship between Visual Awareness, Attention, and Report. The Journal of Neuroscience, 28(21), 5401–5402.",
+  "citation": "van Gaal, S., & Fahrenfort, J. J. (2008). The Relationship between Visual Awareness, Attention, and Report. The Journal of Neuroscience, 28(21), 5401\u20135402.",
   "year_group": "2008",
   "topics": [
-    "Consciousness"
+    "Consciousness",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1523/jneurosci.1208-08.2008",
   "paper_url": "https://doi.org/10.1523/jneurosci.1208-08.2008",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Gaal_2008,\n  title ={The Relationship between Visual Awareness, Attention, and Report},\n  volume ={28},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1208-08.2008},\n  DOI ={10.1523/jneurosci.1208-08.2008},\n  number ={21},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2008},\n  month =May,\n  pages ={5401–5402} \n}"
+  "bibtex": "@article{van_Gaal_2008,\n  title ={The Relationship between Visual Awareness, Attention, and Report},\n  volume ={28},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1208-08.2008},\n  DOI ={10.1523/jneurosci.1208-08.2008},\n  number ={21},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2008},\n  month =May,\n  pages ={5401\u20135402} \n}"
 }

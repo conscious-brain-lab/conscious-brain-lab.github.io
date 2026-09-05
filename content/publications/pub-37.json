@@ -1,13 +1,16 @@
 {
   "id": "pub-37",
-  "citation": "Alilović, J., Slagter, H. A., & van Gaal, S. (2021). Subjective visibility report is facilitated by conscious predictions only. Consciousness and Cognition, 87, 103048.",
+  "citation": "Alilovi\u0107, J., Slagter, H. A., & van Gaal, S. (2021). Subjective visibility report is facilitated by conscious predictions only. Consciousness and Cognition, 87, 103048.",
   "year_group": "2021",
   "topics": [
-    "Consciousness"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "Metacognition & Confidence",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1016/j.concog.2020.103048",
   "paper_url": "https://doi.org/10.1016/j.concog.2020.103048",
   "preprint_url": "https://osf.io/t9z54/",
   "code_url": null,
-  "bibtex": "@article{Alilovi__2021,\n  title ={Subjective visibility report is facilitated by conscious predictions only},\n  volume ={87},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2020.103048},\n  DOI ={10.1016/j.concog.2020.103048},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Alilović, Josipa and Slagter, Heleen A. and van Gaal, Simon},\n  year ={2021},\n  month =Jan,\n  pages ={103048} \n}"
+  "bibtex": "@article{Alilovi__2021,\n  title ={Subjective visibility report is facilitated by conscious predictions only},\n  volume ={87},\n  ISSN ={1053-8100},\n  url ={http://dx.doi.org/10.1016/j.concog.2020.103048},\n  DOI ={10.1016/j.concog.2020.103048},\n  journal ={Consciousness and Cognition},\n  publisher ={Elsevier BV},\n  author ={Alilovi\u0107, Josipa and Slagter, Heleen A. and van Gaal, Simon},\n  year ={2021},\n  month =Jan,\n  pages ={103048} \n}"
 }

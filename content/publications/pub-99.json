@@ -1,14 +1,15 @@
 {
   "id": "pub-99",
-  "citation": "van Gaal, S., Ridderinkhof, K. R., van den Wildenberg, W. P. M., & Lamme, V. A. F. (2009). Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task. Journal of Experimental Psychology: Human Perception and Performance, 35(4), 1129–1139.",
+  "citation": "van Gaal, S., Ridderinkhof, K. R., van den Wildenberg, W. P. M., & Lamme, V. A. F. (2009). Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task. Journal of Experimental Psychology: Human Perception and Performance, 35(4), 1129\u20131139.",
   "year_group": "2009",
   "topics": [
-    "Consciousness",
-    "Cognitive Control"
+    "Cognitive Control",
+    "Cognitive Neuroscience",
+    "Consciousness"
   ],
   "doi": "https://doi.org/10.1037/a0013551",
   "paper_url": "https://doi.org/10.1037/a0013551",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Gaal_2009,\n  title ={Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task.},\n  volume ={35},\n  ISSN ={0096-1523},\n  url ={http://dx.doi.org/10.1037/a0013551},\n  DOI ={10.1037/a0013551},\n  number ={4},\n  journal ={Journal of Experimental Psychology: Human Perception and Performance},\n  publisher ={American Psychological Association (APA)},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and van den Wildenberg, Wery P. M. and Lamme, Victor A. F.},\n  year ={2009},\n  month =Aug,\n  pages ={1129–1139} \n}"
+  "bibtex": "@article{van_Gaal_2009,\n  title ={Dissociating consciousness from inhibitory control: Evidence for unconsciously triggered response inhibition in the stop-signal task.},\n  volume ={35},\n  ISSN ={0096-1523},\n  url ={http://dx.doi.org/10.1037/a0013551},\n  DOI ={10.1037/a0013551},\n  number ={4},\n  journal ={Journal of Experimental Psychology: Human Perception and Performance},\n  publisher ={American Psychological Association (APA)},\n  author ={van Gaal, Simon and Ridderinkhof, K. Richard and van den Wildenberg, Wery P. M. and Lamme, Victor A. F.},\n  year ={2009},\n  month =Aug,\n  pages ={1129\u20131139} \n}"
 }

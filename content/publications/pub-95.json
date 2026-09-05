@@ -1,14 +1,16 @@
 {
   "id": "pub-95",
-  "citation": "van Gaal, S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior. Journal of Cognitive Neuroscience, 23(1), 91–105.",
+  "citation": "van Gaal, S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior. Journal of Cognitive Neuroscience, 23(1), 91\u2013105.",
   "year_group": "2011",
   "topics": [
+    "Cognitive Control",
+    "Cognitive Neuroscience",
     "Consciousness",
-    "Cognitive Control"
+    "EEG"
   ],
   "doi": "https://doi.org/10.1162/jocn.2010.21431",
   "paper_url": "https://doi.org/10.1162/jocn.2010.21431",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Gaal_2011,\n  title ={Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2010.21431},\n  DOI ={10.1162/jocn.2010.21431},\n  number ={1},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={van Gaal, Simon and Lamme, Victor A. F. and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard},\n  year ={2011},\n  month =Jan,\n  pages ={91–105} \n}"
+  "bibtex": "@article{van_Gaal_2011,\n  title ={Dissociable Brain Mechanisms Underlying the Conscious and Unconscious Control of Behavior},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2010.21431},\n  DOI ={10.1162/jocn.2010.21431},\n  number ={1},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={van Gaal, Simon and Lamme, Victor A. F. and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard},\n  year ={2011},\n  month =Jan,\n  pages ={91\u2013105} \n}"
 }

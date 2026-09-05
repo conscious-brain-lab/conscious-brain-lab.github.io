@@ -1,13 +1,17 @@
 {
   "id": "pub-92",
-  "citation": "Jolij, J., Scholte, H. S., van Gaal, S., Hodgson, T. L., & Lamme, V. A. F. (2011). Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior. Journal of Cognitive Neuroscience, 23(12), 3734–3745.",
+  "citation": "Jolij, J., Scholte, H. S., van Gaal, S., Hodgson, T. L., & Lamme, V. A. F. (2011). Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior. Journal of Cognitive Neuroscience, 23(12), 3734\u20133745.",
   "year_group": "2011",
   "topics": [
-    "Decision Making"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "Decision Making",
+    "EEG",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1162/jocn_a_00034",
   "paper_url": "https://doi.org/10.1162/jocn_a_00034",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Jolij_2011,\n  title ={Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00034},\n  DOI ={10.1162/jocn_a_00034},\n  number ={12},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={Jolij, Jacob and Scholte, H. Steven and van Gaal, Simon and Hodgson, Timothy L. and Lamme, Victor A. F.},\n  year ={2011},\n  month =Dec,\n  pages ={3734–3745} \n}"
+  "bibtex": "@article{Jolij_2011,\n  title ={Act Quickly, Decide Later: Long-latency Visual Processing Underlies Perceptual Decisions but Not Reflexive Behavior},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00034},\n  DOI ={10.1162/jocn_a_00034},\n  number ={12},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={Jolij, Jacob and Scholte, H. Steven and van Gaal, Simon and Hodgson, Timothy L. and Lamme, Victor A. F.},\n  year ={2011},\n  month =Dec,\n  pages ={3734\u20133745} \n}"
 }

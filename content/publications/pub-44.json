@@ -1,13 +1,14 @@
 {
   "id": "pub-44",
-  "citation": "Wiers, R. W., van Gaal, S., & Le Pelley, M. E. (2020). Akrasia and addiction. Social Neuroeconomics, 121–147.",
+  "citation": "Wiers, R. W., van Gaal, S., & Le Pelley, M. E. (2020). Akrasia and addiction. Social Neuroeconomics, 121\u2013147.",
   "year_group": "2020",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Decision Making"
   ],
   "doi": "https://doi.org/10.4324/9780429296918-10",
   "paper_url": "https://doi.org/10.4324/9780429296918-10",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@inbook{Wiers_2020,\n  title ={Akrasia and addiction},\n  ISBN ={9780429296918},\n  url ={http://dx.doi.org/10.4324/9780429296918-10},\n  DOI ={10.4324/9780429296918-10},\n  booktitle ={Social Neuroeconomics},\n  publisher ={Routledge},\n  author ={Wiers, Reinout W. and van Gaal, Simon and Le Pelley, Mike E.},\n  year ={2020},\n  month =Sept,\n  pages ={121–147} \n}"
+  "bibtex": "@inbook{Wiers_2020,\n  title ={Akrasia and addiction},\n  ISBN ={9780429296918},\n  url ={http://dx.doi.org/10.4324/9780429296918-10},\n  DOI ={10.4324/9780429296918-10},\n  booktitle ={Social Neuroeconomics},\n  publisher ={Routledge},\n  author ={Wiers, Reinout W. and van Gaal, Simon and Le Pelley, Mike E.},\n  year ={2020},\n  month =Sept,\n  pages ={121\u2013147} \n}"
 }

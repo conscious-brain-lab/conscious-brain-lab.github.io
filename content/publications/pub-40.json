@@ -1,13 +1,17 @@
 {
   "id": "pub-40",
-  "citation": "Kellij, S., Fahrenfort, J., Lau, H., Peters, M. A. K., & Odegaard, B. (2020). An investigation of how relative precision of target encoding influences metacognitive performance. Attention, Perception, &Amp; Psychophysics, 83(1), 512–524.",
+  "citation": "Kellij, S., Fahrenfort, J., Lau, H., Peters, M. A. K., & Odegaard, B. (2020). An investigation of how relative precision of target encoding influences metacognitive performance. Attention, Perception, &Amp; Psychophysics, 83(1), 512\u2013524.",
   "year_group": "2021",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "Decision Making",
+    "Metacognition & Confidence",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.3758/s13414-020-02190-0",
   "paper_url": "https://doi.org/10.3758/s13414-020-02190-0",
   "preprint_url": "https://osf.io/947tv/",
   "code_url": null,
-  "bibtex": "@article{Kellij_2020,\n  title ={An investigation of how relative precision of target encoding influences metacognitive performance},\n  volume ={83},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-020-02190-0},\n  DOI ={10.3758/s13414-020-02190-0},\n  number ={1},\n  journal ={Attention, Perception, & Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Kellij, Sanne and Fahrenfort, Johannes and Lau, Hakwan and Peters, Megan A. K. and Odegaard, Brian},\n  year ={2020},\n  month =Nov,\n  pages ={512–524} \n}"
+  "bibtex": "@article{Kellij_2020,\n  title ={An investigation of how relative precision of target encoding influences metacognitive performance},\n  volume ={83},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-020-02190-0},\n  DOI ={10.3758/s13414-020-02190-0},\n  number ={1},\n  journal ={Attention, Perception, & Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Kellij, Sanne and Fahrenfort, Johannes and Lau, Hakwan and Peters, Megan A. K. and Odegaard, Brian},\n  year ={2020},\n  month =Nov,\n  pages ={512\u2013524} \n}"
 }

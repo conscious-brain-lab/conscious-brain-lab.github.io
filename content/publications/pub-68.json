@@ -1,13 +1,15 @@
 {
   "id": "pub-68",
-  "citation": "Boot, N., Baas, M., van Gaal, S., Cools, R., & De Dreu, C. K. W. (2017). Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda. Neuroscience &Amp; Biobehavioral Reviews, 78, 13–23.",
+  "citation": "Boot, N., Baas, M., van Gaal, S., Cools, R., & De Dreu, C. K. W. (2017). Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda. Neuroscience &Amp; Biobehavioral Reviews, 78, 13\u201323.",
   "year_group": "2017",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Control",
+    "Cognitive Neuroscience",
+    "Pharmacology"
   ],
   "doi": "https://doi.org/10.1016/j.neubiorev.2017.04.007",
   "paper_url": "https://doi.org/10.1016/j.neubiorev.2017.04.007",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Boot_2017,\n  title ={Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda},\n  volume ={78},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2017.04.007},\n  DOI ={10.1016/j.neubiorev.2017.04.007},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Boot, Nathalie and Baas, Matthijs and van Gaal, Simon and Cools, Roshan and De Dreu, Carsten K.W.},\n  year ={2017},\n  month =July,\n  pages ={13–23} \n}"
+  "bibtex": "@article{Boot_2017,\n  title ={Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda},\n  volume ={78},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2017.04.007},\n  DOI ={10.1016/j.neubiorev.2017.04.007},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Boot, Nathalie and Baas, Matthijs and van Gaal, Simon and Cools, Roshan and De Dreu, Carsten K.W.},\n  year ={2017},\n  month =July,\n  pages ={13\u201323} \n}"
 }

@@ -4,7 +4,9 @@
   "year_group": "2018",
   "topics": [
     "EEG",
-    "Neural Decoding"
+    "MEG",
+    "Neural Decoding",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.3389/fnins.2018.00368",
   "paper_url": "https://doi.org/10.3389/fnins.2018.00368",

@@ -1,13 +1,17 @@
 {
   "id": "pub-36",
-  "citation": "Alilović, J., van Moorselaar, D., Graetz, M., van Gaal, S., & Slagter, H. A. (2021). Representational dynamics preceding conscious access. NeuroImage, 230, 117789.",
+  "citation": "Alilovi\u0107, J., van Moorselaar, D., Graetz, M., van Gaal, S., & Slagter, H. A. (2021). Representational dynamics preceding conscious access. NeuroImage, 230, 117789.",
   "year_group": "2021",
   "topics": [
-    "Consciousness"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG",
+    "Neural Decoding",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1016/j.neuroimage.2021.117789",
   "paper_url": "https://doi.org/10.1016/j.neuroimage.2021.117789",
   "preprint_url": "https://osf.io/5cpgr/",
   "code_url": null,
-  "bibtex": "@article{Alilovi__2021,\n  title ={Representational dynamics preceding conscious access},\n  volume ={230},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2021.117789},\n  DOI ={10.1016/j.neuroimage.2021.117789},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Alilović, Josipa and van Moorselaar, Dirk and Graetz, Marcel and van Gaal, Simon and Slagter, Heleen A.},\n  year ={2021},\n  month =Apr,\n  pages ={117789} \n}"
+  "bibtex": "@article{Alilovi__2021,\n  title ={Representational dynamics preceding conscious access},\n  volume ={230},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2021.117789},\n  DOI ={10.1016/j.neuroimage.2021.117789},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Alilovi\u0107, Josipa and van Moorselaar, Dirk and Graetz, Marcel and van Gaal, Simon and Slagter, Heleen A.},\n  year ={2021},\n  month =Apr,\n  pages ={117789} \n}"
 }

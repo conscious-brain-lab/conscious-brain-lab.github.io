@@ -3,11 +3,16 @@
   "citation": "Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2024). Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight. Eneuro, 11(7), ENEURO.",
   "year_group": "2024",
   "topics": [
-    "Decision Making"
+    "Cognitive Neuroscience",
+    "Decision Making",
+    "EEG",
+    "Metacognition & Confidence",
+    "Perception & Vision",
+    "Pharmacology"
   ],
   "doi": "https://doi.org/10.1523/eneuro.0019-24.2024",
   "paper_url": "https://doi.org/10.1523/eneuro.0019-24.2024",
   "preprint_url": null,
   "code_url": "https://uvaauas.figshare.com/articles/dataset/Pupil_data/26235413",
-  "bibtex": "@article{Nuiten_2024,\n  title ={Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight},\n  volume ={11},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0019-24.2024},\n  DOI ={10.1523/eneuro.0019-24.2024},\n  number ={7},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2024},\n  month =July,\n  pages ={ENEURO.0019–24.2024} \n}"
+  "bibtex": "@article{Nuiten_2024,\n  title ={Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight},\n  volume ={11},\n  ISSN ={2373-2822},\n  url ={http://dx.doi.org/10.1523/eneuro.0019-24.2024},\n  DOI ={10.1523/eneuro.0019-24.2024},\n  number ={7},\n  journal ={eneuro},\n  publisher ={Society for Neuroscience},\n  author ={Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2024},\n  month =July,\n  pages ={ENEURO.0019\u201324.2024} \n}"
 }

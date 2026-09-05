@@ -1,13 +1,16 @@
 {
   "id": "pub-62",
-  "citation": "Meijs, E. L., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2018). Dynamic Interactions between Top–Down Expectations and Conscious Awareness. The Journal of Neuroscience, 38(9), 2318–2327.",
+  "citation": "Meijs, E. L., Slagter, H. A., de Lange, F. P., & van Gaal, S. (2018). Dynamic Interactions between Top\u2013Down Expectations and Conscious Awareness. The Journal of Neuroscience, 38(9), 2318\u20132327.",
   "year_group": "2018",
   "topics": [
-    "Consciousness"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1523/jneurosci.1952-17.2017",
   "paper_url": "https://doi.org/10.1523/jneurosci.1952-17.2017",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Meijs_2018,\n  title ={Dynamic Interactions between Top–Down Expectations and Conscious Awareness},\n  volume ={38},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1952-17.2017},\n  DOI ={10.1523/jneurosci.1952-17.2017},\n  number ={9},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Meijs, Erik L. and Slagter, Heleen A. and de Lange, Floris P. and van Gaal, Simon},\n  year ={2018},\n  month =Jan,\n  pages ={2318–2327} \n}"
+  "bibtex": "@article{Meijs_2018,\n  title ={Dynamic Interactions between Top\u2013Down Expectations and Conscious Awareness},\n  volume ={38},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1952-17.2017},\n  DOI ={10.1523/jneurosci.1952-17.2017},\n  number ={9},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Meijs, Erik L. and Slagter, Heleen A. and de Lange, Floris P. and van Gaal, Simon},\n  year ={2018},\n  month =Jan,\n  pages ={2318\u20132327} \n}"
 }

@@ -1,13 +1,15 @@
 {
   "id": "pub-80",
-  "citation": "Cohen, M. X., & van Gaal, S. (2014). Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors. NeuroImage, 86, 503–513.",
+  "citation": "Cohen, M. X., & van Gaal, S. (2014). Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors. NeuroImage, 86, 503\u2013513.",
   "year_group": "2014",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Control",
+    "Cognitive Neuroscience",
+    "EEG"
   ],
   "doi": "https://doi.org/10.1016/j.neuroimage.2013.10.033",
   "paper_url": "https://doi.org/10.1016/j.neuroimage.2013.10.033",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Cohen_2014,\n  title ={Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors},\n  volume ={86},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2013.10.033},\n  DOI ={10.1016/j.neuroimage.2013.10.033},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Cohen, Michael X and van Gaal, Simon},\n  year ={2014},\n  month =Feb,\n  pages ={503–513} \n}"
+  "bibtex": "@article{Cohen_2014,\n  title ={Subthreshold muscle twitches dissociate oscillatory neural signatures of conflicts from errors},\n  volume ={86},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2013.10.033},\n  DOI ={10.1016/j.neuroimage.2013.10.033},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Cohen, Michael X and van Gaal, Simon},\n  year ={2014},\n  month =Feb,\n  pages ={503\u2013513} \n}"
 }

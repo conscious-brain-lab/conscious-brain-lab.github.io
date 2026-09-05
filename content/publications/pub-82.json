@@ -1,13 +1,16 @@
 {
   "id": "pub-82",
-  "citation": "Jiang, J., van Gaal, S., Bailey, K., Chen, A., & Zhang, Q. (2013). Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict. Neuropsychologia, 51(13), 2791–2798.",
+  "citation": "Jiang, J., van Gaal, S., Bailey, K., Chen, A., & Zhang, Q. (2013). Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict. Neuropsychologia, 51(13), 2791\u20132798.",
   "year_group": "2013",
   "topics": [
-    "Consciousness"
+    "Cognitive Control",
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG"
   ],
   "doi": "https://doi.org/10.1016/j.neuropsychologia.2013.09.020",
   "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2013.09.020",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Jiang_2013,\n  title ={Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict},\n  volume ={51},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2013.09.020},\n  DOI ={10.1016/j.neuropsychologia.2013.09.020},\n  number ={13},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and van Gaal, Simon and Bailey, Kira and Chen, Antao and Zhang, Qinglin},\n  year ={2013},\n  month =Nov,\n  pages ={2791–2798} \n}"
+  "bibtex": "@article{Jiang_2013,\n  title ={Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict},\n  volume ={51},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2013.09.020},\n  DOI ={10.1016/j.neuropsychologia.2013.09.020},\n  number ={13},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and van Gaal, Simon and Bailey, Kira and Chen, Antao and Zhang, Qinglin},\n  year ={2013},\n  month =Nov,\n  pages ={2791\u20132798} \n}"
 }

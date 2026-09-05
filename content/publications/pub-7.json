@@ -1,6 +1,11 @@
 {
   "topics": [
-    "Decision Making"
+    "Cognitive Neuroscience",
+    "Decision Making",
+    "EEG",
+    "Perception & Vision",
+    "Pharmacology",
+    "Pupillometry"
   ],
   "citation": "Nuiten, S. A., De Gee, J. W., Zantvoord, J. B., Sterzer, P., Fahrenfort, J. J., & van Gaal, S. (2026). Phasic and tonic arousal distinctly shape human decision bias. Communications Biology, 9(1).",
   "bibtex": "@article{Nuiten_2026,\n  title ={Phasic and tonic arousal distinctly shape human decision bias},\n  volume ={9},\n  ISSN ={2399-3642},\n  url ={http://dx.doi.org/10.1038/s42003-026-09776-8},\n  DOI ={10.1038/s42003-026-09776-8},\n  number ={1},\n  journal ={Communications Biology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Nuiten, Stijn Adriaan and De Gee, Jan Willem and Zantvoord, Jasper Brian and Sterzer, Philipp and Fahrenfort, Johannes Jacobus and van Gaal, Simon},\n  year ={2026},\n  month =Mar \n}",

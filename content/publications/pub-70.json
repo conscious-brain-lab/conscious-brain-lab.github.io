@@ -1,13 +1,15 @@
 {
   "id": "pub-70",
-  "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Meuwese, J. D. I., Scholte, H. S., & Lamme, V. A. F. (2014). Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex. Cerebral Cortex, 26(4), 1401–1408.",
+  "citation": "Vandenbroucke, A. R. E., Fahrenfort, J. J., Meuwese, J. D. I., Scholte, H. S., & Lamme, V. A. F. (2014). Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex. Cerebral Cortex, 26(4), 1401\u20131408.",
   "year_group": "2016",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "EEG",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1093/cercor/bhu224",
   "paper_url": "https://doi.org/10.1093/cercor/bhu224",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Vandenbroucke_2014,\n  title ={Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex},\n  volume ={26},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhu224},\n  DOI ={10.1093/cercor/bhu224},\n  number ={4},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Vandenbroucke, A. R. E. and Fahrenfort, J. J. and Meuwese, J. D. I. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2014},\n  month =Oct,\n  pages ={1401–1408} \n}"
+  "bibtex": "@article{Vandenbroucke_2014,\n  title ={Prior Knowledge about Objects Determines Neural Color Representation in Human Visual Cortex},\n  volume ={26},\n  ISSN ={1460-2199},\n  url ={http://dx.doi.org/10.1093/cercor/bhu224},\n  DOI ={10.1093/cercor/bhu224},\n  number ={4},\n  journal ={Cerebral Cortex},\n  publisher ={Oxford University Press (OUP)},\n  author ={Vandenbroucke, A. R. E. and Fahrenfort, J. J. and Meuwese, J. D. I. and Scholte, H. S. and Lamme, V. A. F.},\n  year ={2014},\n  month =Oct,\n  pages ={1401\u20131408} \n}"
 }

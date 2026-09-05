@@ -1,13 +1,14 @@
 {
   "id": "pub-41",
-  "citation": "Fahrenfort, J. J., & van Gaal, S. (2020). Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence. Cognitive Neuroscience, 12(2), 93–94.",
+  "citation": "Fahrenfort, J. J., & van Gaal, S. (2020). Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence. Cognitive Neuroscience, 12(2), 93\u201394.",
   "year_group": "2020",
   "topics": [
+    "Cognitive Neuroscience",
     "Consciousness"
   ],
   "doi": "https://doi.org/10.1080/17588928.2020.1838470",
   "paper_url": "https://doi.org/10.1080/17588928.2020.1838470",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Fahrenfort_2020,\n  title ={Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence},\n  volume ={12},\n  ISSN ={1758-8936},\n  url ={http://dx.doi.org/10.1080/17588928.2020.1838470},\n  DOI ={10.1080/17588928.2020.1838470},\n  number ={2},\n  journal ={Cognitive Neuroscience},\n  publisher ={Informa UK Limited},\n  author ={Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2020},\n  month =Nov,\n  pages ={93–94} \n}"
+  "bibtex": "@article{Fahrenfort_2020,\n  title ={Criteria for empirical theories of consciousness should focus on the explanatory power of mechanisms, not on functional equivalence},\n  volume ={12},\n  ISSN ={1758-8936},\n  url ={http://dx.doi.org/10.1080/17588928.2020.1838470},\n  DOI ={10.1080/17588928.2020.1838470},\n  number ={2},\n  journal ={Cognitive Neuroscience},\n  publisher ={Informa UK Limited},\n  author ={Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2020},\n  month =Nov,\n  pages ={93\u201394} \n}"
 }

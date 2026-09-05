@@ -1,13 +1,16 @@
 {
   "id": "pub-42",
-  "citation": "Canales-Johnson, A., Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S., Fahrenfort, J., van Gaal, S., & Bekinschtein, T. A. (2020). Decreased Alertness Reconfigures Cognitive Control Networks. The Journal of Neuroscience, 40(37), 7142–7154.",
+  "citation": "Canales-Johnson, A., Beerendonk, L., Blain, S., Kitaoka, S., Ezquerro-Nassar, A., Nuiten, S., Fahrenfort, J., van Gaal, S., & Bekinschtein, T. A. (2020). Decreased Alertness Reconfigures Cognitive Control Networks. The Journal of Neuroscience, 40(37), 7142\u20137154.",
   "year_group": "2020",
   "topics": [
-    "Cognitive Control"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG",
+    "Hypnosis"
   ],
   "doi": "https://doi.org/10.1523/jneurosci.0343-20.2020",
   "paper_url": "https://doi.org/10.1523/jneurosci.0343-20.2020",
   "preprint_url": "https://osf.io/xfm8r/",
   "code_url": null,
-  "bibtex": "@article{Canales_Johnson_2020,\n  title ={Decreased Alertness Reconfigures Cognitive Control Networks},\n  volume ={40},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0343-20.2020},\n  DOI ={10.1523/jneurosci.0343-20.2020},\n  number ={37},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Canales-Johnson, Andrés and Beerendonk, Lola and Blain, Salome and Kitaoka, Shin and Ezquerro-Nassar, Alejandro and Nuiten, Stijn and Fahrenfort, Johannes and van Gaal, Simon and Bekinschtein, Tristan A.},\n  year ={2020},\n  month =Aug,\n  pages ={7142–7154} \n}"
+  "bibtex": "@article{Canales_Johnson_2020,\n  title ={Decreased Alertness Reconfigures Cognitive Control Networks},\n  volume ={40},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0343-20.2020},\n  DOI ={10.1523/jneurosci.0343-20.2020},\n  number ={37},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Canales-Johnson, Andr\u00e9s and Beerendonk, Lola and Blain, Salome and Kitaoka, Shin and Ezquerro-Nassar, Alejandro and Nuiten, Stijn and Fahrenfort, Johannes and van Gaal, Simon and Bekinschtein, Tristan A.},\n  year ={2020},\n  month =Aug,\n  pages ={7142\u20137154} \n}"
 }

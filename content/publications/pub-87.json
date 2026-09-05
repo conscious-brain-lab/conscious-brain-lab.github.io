@@ -1,14 +1,17 @@
 {
   "id": "pub-87",
-  "citation": "van Loon, A. M., Scholte, H. S., van Gaal, S., van der Hoort, B. J. J., & Lamme, V. A. F. (2012). GABAA Agonist Reduces Visual Awareness: A Masking–EEG Experiment. Journal of Cognitive Neuroscience, 24(4), 965–974.",
+  "citation": "van Loon, A. M., Scholte, H. S., van Gaal, S., van der Hoort, B. J. J., & Lamme, V. A. F. (2012). GABAA Agonist Reduces Visual Awareness: A Masking\u2013EEG Experiment. Journal of Cognitive Neuroscience, 24(4), 965\u2013974.",
   "year_group": "2012",
   "topics": [
+    "Cognitive Neuroscience",
     "Consciousness",
-    "EEG"
+    "EEG",
+    "Perception & Vision",
+    "Pharmacology"
   ],
   "doi": "https://doi.org/10.1162/jocn_a_00197",
   "paper_url": "https://doi.org/10.1162/jocn_a_00197",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Loon_2012,\n  title ={GABAA Agonist Reduces Visual Awareness: A Masking–EEG Experiment},\n  volume ={24},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00197},\n  DOI ={10.1162/jocn_a_00197},\n  number ={4},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={van Loon, Anouk M. and Scholte, H. Steven and van Gaal, Simon and van der Hoort, Björn J. J. and Lamme, Victor A. F.},\n  year ={2012},\n  month =Apr,\n  pages ={965–974} \n}"
+  "bibtex": "@article{van_Loon_2012,\n  title ={GABAA Agonist Reduces Visual Awareness: A Masking\u2013EEG Experiment},\n  volume ={24},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_00197},\n  DOI ={10.1162/jocn_a_00197},\n  number ={4},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press - Journals},\n  author ={van Loon, Anouk M. and Scholte, H. Steven and van Gaal, Simon and van der Hoort, Bj\u00f6rn J. J. and Lamme, Victor A. F.},\n  year ={2012},\n  month =Apr,\n  pages ={965\u2013974} \n}"
 }

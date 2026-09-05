@@ -1,13 +1,16 @@
 {
   "id": "pub-10",
-  "citation": "Beerendonk, L., Mejías, J. F., Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2025). Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes–Dodson curve by catecholaminergic enhancement of arousal. Proceedings of the National Academy of Sciences, 122(28).",
+  "citation": "Beerendonk, L., Mej\u00edas, J. F., Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2025). Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes\u2013Dodson curve by catecholaminergic enhancement of arousal. Proceedings of the National Academy of Sciences, 122(28).",
   "year_group": "2026",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Decision Making",
+    "Pharmacology",
+    "Pupillometry"
   ],
   "doi": "https://doi.org/10.1073/pnas.2419733122",
   "paper_url": "https://doi.org/10.1073/pnas.2419733122",
   "preprint_url": "https://osf.io/bczku/",
   "code_url": null,
-  "bibtex": "@article{Beerendonk_2025,\n  title ={Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes–Dodson curve by catecholaminergic enhancement of arousal},\n  volume ={122},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2419733122},\n  DOI ={10.1073/pnas.2419733122},\n  number ={28},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2025},\n  month =July \n}"
+  "bibtex": "@article{Beerendonk_2025,\n  title ={Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes\u2013Dodson curve by catecholaminergic enhancement of arousal},\n  volume ={122},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2419733122},\n  DOI ={10.1073/pnas.2419733122},\n  number ={28},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mej\u00edas, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2025},\n  month =July \n}"
 }

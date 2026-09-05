@@ -1,13 +1,16 @@
 {
   "id": "pub-96",
-  "citation": "van Gaal, S., Scholte, H. S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict. Journal of Cognitive Neuroscience, 23(2), 382–390.",
+  "citation": "van Gaal, S., Scholte, H. S., Lamme, V. A. F., Fahrenfort, J. J., & Ridderinkhof, K. R. (2011). Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict. Journal of Cognitive Neuroscience, 23(2), 382\u2013390.",
   "year_group": "2011",
   "topics": [
-    "Consciousness"
+    "Cognitive Control",
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "fMRI"
   ],
   "doi": "https://doi.org/10.1162/jocn.2010.21444",
   "paper_url": "https://doi.org/10.1162/jocn.2010.21444",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Gaal_2011,\n  title ={Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2010.21444},\n  DOI ={10.1162/jocn.2010.21444},\n  number ={2},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={van Gaal, Simon and Scholte, H. Steven and Lamme, Victor A. F. and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard},\n  year ={2011},\n  month =Feb,\n  pages ={382–390} \n}"
+  "bibtex": "@article{van_Gaal_2011,\n  title ={Pre-SMA Gray-matter Density Predicts Individual Differences in Action Selection in the Face of Conscious and Unconscious Response Conflict},\n  volume ={23},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2010.21444},\n  DOI ={10.1162/jocn.2010.21444},\n  number ={2},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={van Gaal, Simon and Scholte, H. Steven and Lamme, Victor A. F. and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard},\n  year ={2011},\n  month =Feb,\n  pages ={382\u2013390} \n}"
 }

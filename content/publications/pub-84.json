@@ -3,11 +3,14 @@
   "citation": "Fahrenfort, J., Snijders, T., Heinen, K., van Gaal, S., Scholte, S., & Lamme, V. (2013). Neuronal integration in visual cortex elevates face category tuning to conscious face perception. Journal of Vision, 13(9), 1033.",
   "year_group": "2012",
   "topics": [
-    "Consciousness"
+    "Cognitive Neuroscience",
+    "Consciousness",
+    "EEG",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1167/13.9.1033",
   "paper_url": "https://doi.org/10.1167/13.9.1033",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Fahrenfort_2013,\n  title ={Neuronal integration in visual cortex elevates face category tuning to conscious face perception},\n  volume ={13},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/13.9.1033},\n  DOI ={10.1167/13.9.1033},\n  number ={9},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Fahrenfort, J. and Snijders, T. and Heinen, K. and van Gaal, S. and Scholte, S. and Lamme, V.},\n  year ={2013},\n  month =July,\n  pages ={1033–1033} \n}"
+  "bibtex": "@article{Fahrenfort_2013,\n  title ={Neuronal integration in visual cortex elevates face category tuning to conscious face perception},\n  volume ={13},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/13.9.1033},\n  DOI ={10.1167/13.9.1033},\n  number ={9},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Fahrenfort, J. and Snijders, T. and Heinen, K. and van Gaal, S. and Scholte, S. and Lamme, V.},\n  year ={2013},\n  month =July,\n  pages ={1033\u20131033} \n}"
 }

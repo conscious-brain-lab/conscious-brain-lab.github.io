@@ -1,13 +1,15 @@
 {
   "id": "pub-33",
-  "citation": "Canales-Johnson, A., Teixeira Borges, A. F., Komatsu, M., Fujii, N., Fahrenfort, J. J., Miller, K. J., & Noreika, V. (2021). Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex. The Journal of Neuroscience, 41(45), 9374–9391.",
+  "citation": "Canales-Johnson, A., Teixeira Borges, A. F., Komatsu, M., Fujii, N., Fahrenfort, J. J., Miller, K. J., & Noreika, V. (2021). Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex. The Journal of Neuroscience, 41(45), 9374\u20139391.",
   "year_group": "2021",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Neural Decoding",
+    "Perception & Vision"
   ],
   "doi": "https://doi.org/10.1523/jneurosci.0367-21.2021",
   "paper_url": "https://doi.org/10.1523/jneurosci.0367-21.2021",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Canales_Johnson_2021,\n  title ={Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex},\n  volume ={41},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0367-21.2021},\n  DOI ={10.1523/jneurosci.0367-21.2021},\n  number ={45},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Canales-Johnson, Andrés and Teixeira Borges, Ana Filipa and Komatsu, Misako and Fujii, Naotaka and Fahrenfort, Johannes J. and Miller, Kai J. and Noreika, Valdas},\n  year ={2021},\n  month =Oct,\n  pages ={9374–9391} \n}"
+  "bibtex": "@article{Canales_Johnson_2021,\n  title ={Broadband Dynamics Rather than Frequency-Specific Rhythms Underlie Prediction Error in the Primate Auditory Cortex},\n  volume ={41},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.0367-21.2021},\n  DOI ={10.1523/jneurosci.0367-21.2021},\n  number ={45},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={Canales-Johnson, Andr\u00e9s and Teixeira Borges, Ana Filipa and Komatsu, Misako and Fujii, Naotaka and Fahrenfort, Johannes J. and Miller, Kai J. and Noreika, Valdas},\n  year ={2021},\n  month =Oct,\n  pages ={9374\u20139391} \n}"
 }
