@@ -1,8 +1,12 @@
 local_backend: true
 backend:
-  name: git-gateway
+  name: github
   repo: conscious-brain-lab/conscious-brain-lab.github.io
   branch: main
+
+site_url: "https://conscious-brain-lab.github.io"
+display_url: "https://conscious-brain-lab.github.io"
+logo_url: "https://conscious-brain-lab.github.io/assets/images/CBL_logo.png"
 
 media_folder: "assets/images"
 public_folder: "/assets/images"

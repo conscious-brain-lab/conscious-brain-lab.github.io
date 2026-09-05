@@ -293,9 +293,252 @@
       background: #9ca3af;
       cursor: not-allowed;
     }
+
+    /* CMS Top Utility Bar */
+    #cbl-cms-topbar {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 38px;
+      background: #0f172a;
+      color: #f8fafc;
+      z-index: 99999;
+      padding: 0 16px;
+      align-items: center;
+      justify-content: space-between;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    }
+    #cbl-cms-topbar a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    #cbl-cms-topbar a:hover {
+      text-decoration: underline;
+    }
+    .cbl-topbar-right {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    #cbl-user-badge {
+      color: #94a3b8;
+      font-weight: 500;
+    }
+    #cbl-logout-btn {
+      background: #334155;
+      color: #e2e8f0;
+      border: 1px solid #475569;
+      border-radius: 4px;
+      padding: 4px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    #cbl-logout-btn:hover {
+      background: #dc2626;
+      border-color: #dc2626;
+      color: #ffffff;
+    }
+
+    /* Auth Modal Overlay */
+    #cbl-auth-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9999999;
+      background: #071124;
+      background-image: radial-gradient(circle at 50% 25%, rgba(2, 132, 199, 0.22), transparent 70%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .cbl-auth-card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 480px;
+      border-radius: 16px;
+      padding: 36px 30px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      animation: modalFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: translateY(12px) scale(0.97); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .cbl-auth-logo-img {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      object-fit: cover;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    }
+    .cbl-auth-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 0 0 6px;
+    }
+    .cbl-auth-subtitle {
+      font-size: 0.88rem;
+      color: #64748b;
+      margin: 0 0 22px;
+      line-height: 1.45;
+    }
+    .cbl-auth-form {
+      text-align: left;
+    }
+    .cbl-auth-label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #334155;
+      margin-bottom: 6px;
+    }
+    .cbl-token-input-row {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .cbl-token-input {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-family: monospace;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .cbl-token-input:focus {
+      border-color: #0284c7;
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+    .cbl-token-toggle {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 0 12px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .cbl-auth-btn {
+      width: 100%;
+      background: #0284c7;
+      color: #ffffff;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .cbl-auth-btn:hover {
+      background: #0369a1;
+    }
+    .cbl-auth-btn:disabled {
+      background: #94a3b8;
+      cursor: not-allowed;
+    }
+    .cbl-auth-msg {
+      margin-top: 12px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      display: none;
+      line-height: 1.4;
+    }
+    .cbl-auth-msg.error {
+      display: block;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #b91c1c;
+    }
+    .cbl-auth-msg.success {
+      display: block;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #15803d;
+    }
+    .cbl-auth-links {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    .cbl-auth-links a {
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .cbl-auth-links a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <!-- Fixed Top Utility Bar for Decap CMS: Link back to site and Logout -->
+  <div id="cbl-cms-topbar">
+    <a href="../" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+      Back to Public Website
+    </a>
+    <div class="cbl-topbar-right">
+      <span id="cbl-user-badge"></span>
+      <button type="button" id="cbl-logout-btn">Sign Out / Switch Token</button>
+    </div>
+  </div>
+
+  <!-- Dedicated GitHub Personal Access Token Login Overlay -->
+  <div id="cbl-auth-overlay">
+    <div class="cbl-auth-card">
+      <img src="../assets/images/CBL_logo.png" alt="Conscious Brain Lab" class="cbl-auth-logo-img" />
+      <h2 class="cbl-auth-title">Conscious Brain Lab CMS</h2>
+      <p class="cbl-auth-subtitle">Sign in using a GitHub Personal Access Token to edit publications, team members, news, and research projects.</p>
+
+      <div class="cbl-auth-form">
+        <label for="cbl-gh-token" class="cbl-auth-label">GitHub Personal Access Token</label>
+        <div class="cbl-token-input-row">
+          <input type="password" id="cbl-gh-token" class="cbl-token-input" placeholder="ghp_... or github_pat_..." autocomplete="off" spellcheck="false" />
+          <button type="button" id="cbl-toggle-token-vis" class="cbl-token-toggle" title="Show/Hide Token">👁️</button>
+        </div>
+        <button type="button" id="cbl-submit-token" class="cbl-auth-btn">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          Sign In to CMS
+        </button>
+        <div id="cbl-auth-msg" class="cbl-auth-msg"></div>
+
+        <div class="cbl-auth-links">
+          <a href="https://github.com/settings/tokens/new?description=Conscious%20Brain%20Lab%20CMS&scopes=repo" target="_blank" rel="noopener">
+            🔑 Generate Token on GitHub (1 Click) &rarr;
+          </a>
+          <span style="font-size: 0.78rem; color: #64748b;">(Check the <strong>repo</strong> scope so the CMS can commit edits)</span>
+          <a href="../" style="margin-top: 8px; color: #475569; font-weight: 500;">&larr; Return to Public Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Official Decap CMS Runtime -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   
@@ -1011,6 +1254,133 @@
         }
       }
 
+      // -------------------------------------------------------------
+      // GitHub Token Authentication & Top Utility Bar Management
+      // -------------------------------------------------------------
+      function initCblAuth() {
+        const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const topBar = document.getElementById('cbl-cms-topbar');
+        const authOverlay = document.getElementById('cbl-auth-overlay');
+        const userBadge = document.getElementById('cbl-user-badge');
+        const logoutBtn = document.getElementById('cbl-logout-btn');
+        const tokenInput = document.getElementById('cbl-gh-token');
+        const submitBtn = document.getElementById('cbl-submit-token');
+        const toggleVisBtn = document.getElementById('cbl-toggle-token-vis');
+        const authMsg = document.getElementById('cbl-auth-msg');
+
+        let user = null;
+        try {
+          const raw = localStorage.getItem('decap-cms-user') || localStorage.getItem('netlify-cms-user');
+          if (raw) user = JSON.parse(raw);
+        } catch(e) {}
+
+        if (user && user.token) {
+          // Valid token exists in localStorage
+          if (topBar) {
+            topBar.style.display = 'flex';
+            document.body.style.paddingTop = '38px';
+          }
+          if (userBadge) {
+            userBadge.textContent = user.name ? `Logged in as ${user.name}` : `Logged in as @${user.login || 'GitHub User'}`;
+          }
+        } else if (isLocalhost) {
+          if (topBar) {
+            topBar.style.display = 'flex';
+            document.body.style.paddingTop = '38px';
+          }
+          if (userBadge) {
+            userBadge.textContent = 'Local Dev Mode (proxy active)';
+          }
+        } else {
+          // Not authenticated and live site: display login overlay
+          if (authOverlay) authOverlay.style.display = 'flex';
+        }
+
+        if (logoutBtn) {
+          logoutBtn.addEventListener('click', () => {
+            localStorage.removeItem('decap-cms-user');
+            localStorage.removeItem('netlify-cms-user');
+            location.reload();
+          });
+        }
+
+        if (toggleVisBtn && tokenInput) {
+          toggleVisBtn.addEventListener('click', () => {
+            tokenInput.type = tokenInput.type === 'password' ? 'text' : 'password';
+          });
+        }
+
+        if (submitBtn && tokenInput) {
+          submitBtn.addEventListener('click', async () => {
+            const token = tokenInput.value.trim();
+            if (!token) {
+              showAuthMsg('Please enter a GitHub Personal Access Token.', 'error');
+              return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = 'Verifying Token with GitHub...';
+            showAuthMsg('Checking authentication with GitHub API...', '');
+
+            try {
+              // 1. Verify user profile
+              const userRes = await fetch('https://api.github.com/user', {
+                headers: { 'Authorization': `Bearer ${token}` }
+              });
+              if (!userRes.ok) {
+                throw new Error('Invalid token. GitHub rejected with status ' + userRes.status + ' (Bad credentials).');
+              }
+              const userData = await userRes.json();
+
+              // 2. Verify repository access
+              const repoRes = await fetch('https://api.github.com/repos/conscious-brain-lab/conscious-brain-lab.github.io', {
+                headers: { 'Authorization': `Bearer ${token}` }
+              });
+              if (!repoRes.ok) {
+                throw new Error(`Token authenticated as @${userData.login}, but cannot access conscious-brain-lab/conscious-brain-lab.github.io. Ensure token has "repo" scope.`);
+              }
+
+              // 3. Save to localStorage for Decap CMS runtime
+              const userPayload = {
+                backendName: 'github',
+                token: token,
+                login: userData.login,
+                name: userData.name || userData.login,
+                avatar_url: userData.avatar_url
+              };
+
+              localStorage.setItem('decap-cms-user', JSON.stringify(userPayload));
+              localStorage.setItem('netlify-cms-user', JSON.stringify(userPayload));
+
+              showAuthMsg(`✓ Welcome @${userData.login}! Opening CMS dashboard...`, 'success');
+              setTimeout(() => {
+                location.reload();
+              }, 600);
+
+            } catch (err) {
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = 'Sign In to CMS';
+              showAuthMsg(err.message || 'Authentication failed. Please check your token.', 'error');
+            }
+          });
+
+          tokenInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') submitBtn.click();
+          });
+        }
+
+        function showAuthMsg(text, type) {
+          if (!authMsg) return;
+          if (!text) {
+            authMsg.style.display = 'none';
+            return;
+          }
+          authMsg.textContent = text;
+          authMsg.className = 'cbl-auth-msg ' + type;
+          authMsg.style.display = 'block';
+        }
+      }
+
       // Continuous observer to attach helpers when user opens entries
       const observer = new MutationObserver(() => {
         attachPublicationHelpers();
@@ -1018,12 +1388,19 @@
         sortPublicationCardsInOverview();
       });
 
-      document.addEventListener('DOMContentLoaded', () => {
+      function boot() {
+        initCblAuth();
         observer.observe(document.body, { childList: true, subtree: true });
         attachPublicationHelpers();
         attachImageEditorHelpers();
         sortPublicationCardsInOverview();
-      });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', boot);
+      } else {
+        boot();
+      }
     })();
   </script>
 </body>
