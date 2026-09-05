@@ -38,14 +38,16 @@ function renderNewsMedia(item, title, imgPos) {
 
   const imgSrc = item.image || '';
   if (imgSrc) {
-    const isLogo = item.type === 'logo' || 
-                   imgSrc.includes('logo') || 
-                   imgSrc.includes('pnas') || 
-                   imgSrc.includes('assc') || 
-                   imgSrc.includes('erc') || 
-                   imgSrc.includes('templeton') || 
-                   imgSrc.includes('nrc') || 
-                   imgSrc.includes('proefkonijnen');
+    const isExplicitPhoto = item.type === 'photo';
+    const isLogo = !isExplicitPhoto && (
+      item.type === 'logo' || 
+      imgSrc.includes('logo') || 
+      imgSrc.includes('pnas') || 
+      imgSrc.includes('assc') || 
+      imgSrc.includes('erc') || 
+      imgSrc.includes('templeton') || 
+      imgSrc.includes('nrc')
+    );
 
     const fitStyle = (isLogo || item.fit === 'contain' || item.position === 'contain')
       ? 'object-fit: contain; background: var(--bg-tertiary);'
