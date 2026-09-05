@@ -32,23 +32,6 @@
     "bibtex": "@article{Beerendonk_2025,\n  title ={Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes–Dodson curve by catecholaminergic enhancement of arousal},\n  volume ={122},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2419733122},\n  DOI ={10.1073/pnas.2419733122},\n  number ={28},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2025},\n  month =July \n}"
   },
   {
-    "id": "pub-11",
-    "citation": "Noorman, S., Stein, T., Fahrenfort, J. J., & van Gaal, S. (2024). Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access. CLOCKSS.",
-    "year_group": "2026",
-    "topics": [
-      "Cognitive Neuroscience",
-      "Consciousness",
-      "EEG",
-      "Neural Decoding",
-      "Perception & Vision"
-    ],
-    "doi": "https://doi.org/10.7554/elife.97900.1",
-    "paper_url": "https://doi.org/10.7554/elife.97900.1",
-    "preprint_url": null,
-    "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28049231/2",
-    "bibtex": "@article{Noorman_2024,\n  title ={Distinct neural mechanisms underlying perceptual and attentional impairments of conscious access},\n  url ={http://dx.doi.org/10.7554/elife.97900.1},\n  DOI ={10.7554/elife.97900.1},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Fahrenfort, Johannes J and van Gaal, Simon},\n  year ={2024},\n  month =July \n}"
-  },
-  {
     "topics": [
       "Cognitive Neuroscience",
       "Consciousness",
@@ -82,9 +65,6 @@
     "bibtex": "@article{S_nchez_Fuenzalida_2025,\n  title ={Confidence reports during perceptual decision making dissociate from changes in subjective experience},\n  volume ={3},\n  ISSN ={2731-9121},\n  url ={http://dx.doi.org/10.1038/s44271-025-00257-y},\n  DOI ={10.1038/s44271-025-00257-y},\n  number ={1},\n  journal ={Communications Psychology},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2025},\n  month =May \n}"
   },
   {
-    "id": "pub-14",
-    "citation": "Noorman, S., Stein, T., Zantvoord, J., Fahrenfort, J., & van Gaal, S. (2025). A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife, 13. CLOCKSS.",
-    "year_group": "2026",
     "topics": [
       "Cognitive Neuroscience",
       "Consciousness",
@@ -92,11 +72,14 @@
       "Perception & Vision",
       "Pharmacology"
     ],
-    "doi": "https://doi.org/10.7554/elife.100530.3",
-    "paper_url": "https://doi.org/10.7554/elife.100530.3",
+    "citation": "Noorman, S., Stein, T., Zantvoord, J., Fahrenfort, J., & van Gaal, S. (2025). A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife, 13.",
+    "bibtex": "@article{Noorman_2025,\n  title ={A causal role of the NMDA receptor in recurrent processing during perceptual integration},\n  volume ={13},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.100530.3},\n  DOI ={10.7554/elife.100530.3},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Zantvoord, Jasper and Fahrenfort, Johannes and van Gaal, Simon},\n  year ={2025},\n  month =June \n}",
     "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.06.10.598193v1",
+    "id": "pub-14",
+    "paper_url": "https://doi.org/10.7554/elife.100530.3",
     "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28684382",
-    "bibtex": "@article{Noorman_2025,\n  title ={A causal role of the NMDA receptor in recurrent processing during perceptual integration},\n  volume ={13},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.100530.3},\n  DOI ={10.7554/elife.100530.3},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Zantvoord, Jasper and Fahrenfort, Johannes and van Gaal, Simon},\n  year ={2025},\n  month =June \n}"
+    "year_group": "2026",
+    "doi": "https://doi.org/10.7554/elife.100530.3"
   },
   {
     "id": "pub-15",
@@ -208,6 +191,23 @@
     "doi": "https://doi.org/10.1017/s0140525x25101489"
   },
   {
+    "topics": [
+      "Cognitive Neuroscience",
+      "Consciousness",
+      "EEG",
+      "Neural Decoding",
+      "Perception & Vision"
+    ],
+    "citation": "Noorman, S., Stein, T., Fahrenfort, J. J., & van Gaal, S. (2025) Perceptual and attentional impairments of conscious access involve distinct neural mechanisms despite equal task performance eLife 13:RP97900.",
+    "bibtex": "",
+    "preprint_url": null,
+    "id": "pub-11",
+    "paper_url": "https://doi.org/10.7554/elife.97900.3",
+    "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28049231/2",
+    "year_group": "2024",
+    "doi": "https://doi.org/10.7554/elife.97900.1"
+  },
+  {
     "id": "pub-16",
     "citation": "Nuiten, S. A., de Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2024). Pharmacological Elevation of Catecholamine Levels Improves Perceptual Decisions, But Not Metacognitive Insight. Eneuro, 11(7), ENEURO.",
     "year_group": "2024",
@@ -272,18 +272,19 @@
     "bibtex": "@article{Beerendonk_2024,\n  title ={A disinhibitory circuit mechanism explains a general principle of peak performance during mid-level arousal},\n  volume ={121},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2312898121},\n  DOI ={10.1073/pnas.2312898121},\n  number ={5},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2024},\n  month =Jan \n}"
   },
   {
-    "id": "pub-20",
-    "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
-    "year_group": "2024",
     "topics": [
       "Decision Making",
-      "Perception & Vision"
+      "Perception & Vision",
+      "Consciousness"
     ],
-    "doi": "https://doi.org/10.1073/pnas.2220749120",
-    "paper_url": "https://doi.org/10.1073/pnas.2220749120",
+    "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
+    "bibtex": "@article{S_nchez_Fuenzalida_2023,\n  title ={Predictions and rewards affect decision-making but not subjective experience},\n  volume ={120},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2220749120},\n  DOI ={10.1073/pnas.2220749120},\n  number ={44},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2023},\n  month =Oct \n}",
     "preprint_url": "https://osf.io/pfe46/",
+    "id": "pub-20",
+    "paper_url": "https://doi.org/10.1073/pnas.2220749120",
     "code_url": null,
-    "bibtex": "@article{S_nchez_Fuenzalida_2023,\n  title ={Predictions and rewards affect decision-making but not subjective experience},\n  volume ={120},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2220749120},\n  DOI ={10.1073/pnas.2220749120},\n  number ={44},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2023},\n  month =Oct \n}"
+    "year_group": "2024",
+    "doi": "https://doi.org/10.1073/pnas.2220749120"
   },
   {
     "id": "pub-21",
