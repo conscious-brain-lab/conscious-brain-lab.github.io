@@ -1,6 +1,7 @@
 {
   "title": "Pharmacological studies",
   "tag": "ERC Grants",
+  "order": 6,
   "slug": "pharmacological-studies",
   "image": "/assets/images/project_pharmacology.jpg",
   "description": "Most of the ERC funded studies combine pharmacological interventions with neuroimaging to study the neural basis of conscious experience."

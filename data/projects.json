@@ -1,20 +1,50 @@
-{
-  "title": "Projects",
-  "description": "Research projects and paradigms at the Conscious Brain Lab.",
-  "paragraphs": [
-    "How does our brain generate subjective experience? Many of the projects that we do in our lab are focused on this question. We use several experimental techniques, such as masking or the attentional blink, to manipulate consciousness to explore how conscious experience unfolds in our brains (using EEG, MEG, fMRI etc).",
-    "What happens when a person loses consciousness, e.g when falling asleep or when placed under anesthetic? How can we apply the knowledge that we’ve gained about consciousness in the clinic to help the diagnosis and prognosis of patients with disorders of consciousness? These recent projects are a collaboration with many people (doctors, psychologists etc.) and take place at the Amsterdam Medical Center.",
-    "Many of the projects that we do in our lab are focused on the relationship between consciousness and cognition and decision making. In particular we use computational modeling to explore the influence of criterion shifts on conscious perception, and how such shifts relate to confidence judgements.",
-    "Hypnosis can evoke changes in sensation, perception and cognition, seemingly allowing one to override highly automated instances of information processing. In an upcoming research project, we aim to identify the level at which hypnosis interferes with cortical processing to make this possible.",
-    "What is the relationship between consciousness and language? To what extent can semantic processing unfold in the absence of consciousness? In several projects we aim to answer these and other questions regarding the relationship between consciousness and language.",
-    "Most of the ERC funded studies combine pharmacological interventions with neuroimaging to study the neural basis of conscious experience."
-  ],
-  "images": [
-    "/assets/images/project_conscious_unconscious.jpg",
-    "/assets/images/project_disorders.jpg",
-    "/assets/images/project_decision_making.jpg",
-    "/assets/images/project_hypnosis.jpg",
-    "/assets/images/project_language.png",
-    "/assets/images/project_pharmacology.jpg"
-  ]
-}
+[
+  {
+    "title": "Conscious and unconscious processes",
+    "tag": "Consciousness & Perception",
+    "order": 1,
+    "slug": "conscious-and-unconscious-processes",
+    "image": "/assets/images/project_conscious_unconscious.jpg",
+    "description": "How does our brain generate subjective experience? Many of the projects that we do in our lab are focused on this question. We use several experimental techniques, such as masking or the attentional blink, to manipulate consciousness to explore how conscious experience unfolds in our brains (using EEG, MEG, fMRI etc)."
+  },
+  {
+    "title": "Disorders of consciousness",
+    "tag": "Clinical Collaboration",
+    "order": 2,
+    "slug": "disorders-of-consciousness",
+    "image": "/assets/images/project_disorders.jpg",
+    "description": "What happens when a person loses consciousness, e.g when falling asleep or when placed under anesthetic? How can we apply the knowledge that we’ve gained about consciousness in the clinic to help the diagnosis and prognosis of patients with disorders of consciousness? These recent projects are a collaboration with many people (doctors, psychologists etc.) and take place at the Amsterdam Medical Center."
+  },
+  {
+    "title": "Consciousness and decision making",
+    "tag": "Cognition & Modeling",
+    "order": 3,
+    "slug": "consciousness-and-decision-making",
+    "image": "/assets/images/project_decision_making.jpg",
+    "description": "Many of the projects that we do in our lab are focused on the relationship between consciousness and cognition and decision making. In particular we use computational modeling to explore the influence of criterion shifts on conscious perception, and how such shifts relate to confidence judgements."
+  },
+  {
+    "title": "Hypnosis",
+    "tag": "Cognitive Control",
+    "order": 4,
+    "slug": "hypnosis",
+    "image": "/assets/images/project_hypnosis.jpg",
+    "description": "Hypnosis can evoke changes in sensation, perception and cognition, seemingly allowing one to override highly automated instances of information processing. In an upcoming research project, we aim to identify the level at which hypnosis interferes with cortical processing to make this possible."
+  },
+  {
+    "title": "Consciousness and language",
+    "tag": "Semantics & Awareness",
+    "order": 5,
+    "slug": "consciousness-and-language",
+    "image": "/assets/images/6f2981_e993b12b48c84ac48bf37265afcd5885~mv2.png.avif",
+    "description": "What is the relationship between consciousness and language? To what extent can semantic processing unfold in the absence of consciousness? In several projects we aim to answer these and other questions regarding the relationship between consciousness and language."
+  },
+  {
+    "title": "Pharmacological studies",
+    "tag": "ERC Grants",
+    "order": 6,
+    "slug": "pharmacological-studies",
+    "image": "/assets/images/project_pharmacology.jpg",
+    "description": "Most of the ERC funded studies combine pharmacological interventions with neuroimaging to study the neural basis of conscious experience."
+  }
+]

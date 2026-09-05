@@ -113,8 +113,10 @@ collections:
     fields:
       - { label: "Project Title", name: "title", widget: "string" }
       - { label: "Core Pillar Tag", name: "tag", widget: "string" }
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Order in which the project appears (1, 2, 3...)" }
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Project Image", name: "image", widget: "image" }
+      - { label: "Image Fit", name: "fit", widget: "select", options: [{label: "Photo (fills card)", value: "cover"}, {label: "Contained (Diagram / Graphic)", value: "contain"}], default: "cover", required: false }
       - { label: "Description", name: "description", widget: "text" }
 
   - name: "news"
