@@ -1,7 +1,4 @@
 {
-  "id": "pub-14",
-  "citation": "Noorman, S., Stein, T., Zantvoord, J., Fahrenfort, J., & van Gaal, S. (2025). A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife, 13. CLOCKSS.",
-  "year_group": "2026",
   "topics": [
     "Cognitive Neuroscience",
     "Consciousness",
@@ -9,9 +6,12 @@
     "Perception & Vision",
     "Pharmacology"
   ],
-  "doi": "https://doi.org/10.7554/elife.100530.3",
-  "paper_url": "https://doi.org/10.7554/elife.100530.3",
+  "citation": "Noorman, S., Stein, T., Zantvoord, J., Fahrenfort, J., & van Gaal, S. (2025). A causal role of the NMDA receptor in recurrent processing during perceptual integration. eLife, 13.",
+  "bibtex": "@article{Noorman_2025,\n  title ={A causal role of the NMDA receptor in recurrent processing during perceptual integration},\n  volume ={13},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.100530.3},\n  DOI ={10.7554/elife.100530.3},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Zantvoord, Jasper and Fahrenfort, Johannes and van Gaal, Simon},\n  year ={2025},\n  month =June \n}",
   "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.06.10.598193v1",
+  "id": "pub-14",
+  "paper_url": "https://doi.org/10.7554/elife.100530.3",
   "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28684382",
-  "bibtex": "@article{Noorman_2025,\n  title ={A causal role of the NMDA receptor in recurrent processing during perceptual integration},\n  volume ={13},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.100530.3},\n  DOI ={10.7554/elife.100530.3},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Zantvoord, Jasper and Fahrenfort, Johannes and van Gaal, Simon},\n  year ={2025},\n  month =June \n}"
+  "year_group": "2026",
+  "doi": "https://doi.org/10.7554/elife.100530.3"
 }
