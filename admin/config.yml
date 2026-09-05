@@ -124,14 +124,19 @@ collections:
     create: true
     format: "json"
     slug: "{{slug}}"
-    summary: "{{text}}"
+    identifier_field: "title"
+    summary: "{{title}} ({{date}})"
     fields:
-      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Card Title", name: "title", widget: "string" }
       - { label: "Announcement Text", name: "text", widget: "text" }
-      - { label: "Date / Note", name: "date", widget: "string", required: false }
+      - { label: "Display Date", name: "date", widget: "string", required: false, hint: "e.g. March 2024" }
+      - { label: "Sort Date (YYYY-MM)", name: "date_sort", widget: "string", required: false, hint: "Format: YYYY-MM (e.g. 2024-03). Used for strict chronological sorting." }
       - { label: "Image / Logo", name: "image", widget: "image", required: false }
+      - { label: "Image Display Type", name: "type", widget: "select", options: [{label: "Photo (fills card)", value: "photo"}, {label: "Logo (contained)", value: "logo"}], default: "photo", required: false }
+      - { label: "Image Position", name: "position", widget: "string", required: false, default: "center", hint: "CSS object-position (e.g. 'center', 'center 15%')." }
       - { label: "Video (YouTube link or MP4 path)", name: "video", widget: "string", required: false, hint: "Optional: Paste a YouTube link (e.g. https://www.youtube.com/watch?v=... or https://youtu.be/...) OR an MP4 file path (e.g. /assets/images/clip.mp4). If provided, an interactive video player will be displayed instead of an image." }
       - { label: "External Link", name: "link", widget: "string", required: false }
+      - { label: "Slug", name: "slug", widget: "string" }
 
   - name: "impressions"
     label: "Lab & Campus Impressions"
