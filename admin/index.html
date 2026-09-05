@@ -294,23 +294,24 @@
       cursor: not-allowed;
     }
 
-    /* CMS Top Utility Bar */
+    /* CMS Floating Utility Pill (Bottom Corner) */
     #cbl-cms-topbar {
       display: none;
       position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 38px;
-      background: #0f172a;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999999;
+      background: rgba(15, 23, 42, 0.94);
+      backdrop-filter: blur(8px);
       color: #f8fafc;
-      z-index: 99999;
-      padding: 0 16px;
+      padding: 7px 15px;
+      border-radius: 9999px;
       align-items: center;
-      justify-content: space-between;
+      gap: 12px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-size: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+      box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.15);
     }
     #cbl-cms-topbar a {
       color: #38bdf8;
@@ -326,18 +327,19 @@
     .cbl-topbar-right {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 10px;
     }
     #cbl-user-badge {
       color: #94a3b8;
       font-weight: 500;
+      font-size: 11px;
     }
     #cbl-logout-btn {
       background: #334155;
       color: #e2e8f0;
       border: 1px solid #475569;
-      border-radius: 4px;
-      padding: 4px 10px;
+      border-radius: 6px;
+      padding: 3px 8px;
       font-size: 11px;
       font-weight: 600;
       cursor: pointer;
@@ -1276,18 +1278,12 @@
 
         if (user && user.token) {
           // Valid token exists in localStorage
-          if (topBar) {
-            topBar.style.display = 'flex';
-            document.body.style.paddingTop = '38px';
-          }
+          if (topBar) topBar.style.display = 'flex';
           if (userBadge) {
             userBadge.textContent = user.name ? `Logged in as ${user.name}` : `Logged in as @${user.login || 'GitHub User'}`;
           }
         } else if (isLocalhost) {
-          if (topBar) {
-            topBar.style.display = 'flex';
-            document.body.style.paddingTop = '38px';
-          }
+          if (topBar) topBar.style.display = 'flex';
           if (userBadge) {
             userBadge.textContent = 'Local Dev Mode (proxy active)';
           }
