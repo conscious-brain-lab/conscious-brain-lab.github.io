@@ -765,22 +765,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .news-card-img.news-card-logo,
-.news-card-img[data-type="logo"],
-.news-card-img[src*="logo"],
-.news-card-img[src*="pnas"],
-.news-card-img[src*="assc"],
-.news-card-img[src*="erc"],
-.news-card-img[src*="templeton"],
-.news-card-img[src*="nrc"],
-.news-card-img[src*="proefkonijnen"] {
-  object-fit: contain !important;
-  padding: 1.5rem !important;
-  background: var(--bg-tertiary) !important;
-}
-
-.news-card-img[src*="pnas"],
-.news-card-img[src*="nrc"] {
-  padding: 2.25rem 1.5rem !important;
+.news-card-img[data-type="logo"] {
+  object-fit: contain;
+  background: var(--bg-tertiary);
 }
 
 .news-card:hover .news-card-img {

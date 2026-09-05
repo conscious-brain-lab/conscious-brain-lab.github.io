@@ -47,15 +47,9 @@ function renderNewsMedia(item, title, imgPos) {
                    imgSrc.includes('nrc') || 
                    imgSrc.includes('proefkonijnen');
 
-    let fitStyle = `object-fit: cover; object-position: ${imgPos};`;
-    if (isLogo) {
-      const padding = (imgSrc.includes('pnas') || imgSrc.includes('nrc') || imgSrc.includes('assc')) 
-        ? 'padding: 2rem 1.5rem;' 
-        : 'padding: 1.5rem;';
-      fitStyle = `object-fit: contain; ${padding} background: var(--bg-tertiary);`;
-    } else if (item.fit === 'contain' || item.position === 'contain') {
-      fitStyle = `object-fit: contain; background: var(--bg-tertiary);`;
-    }
+    const fitStyle = (isLogo || item.fit === 'contain' || item.position === 'contain')
+      ? 'object-fit: contain; background: var(--bg-tertiary);'
+      : `object-fit: cover; object-position: ${imgPos};`;
 
     return `
       <div class="news-card-img-wrap">
