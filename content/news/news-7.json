@@ -1,12 +1,12 @@
 {
-  "id": "proefkonijnen-tv",
-  "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
+  "position": "center 25%",
+  "slug": "news-7",
+  "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
   "date": "October 2023",
   "date_sort": "2023-10",
-  "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
-  "image": "/assets/images/news_tv_proefkonijnen.png",
-  "type": "photo",
-  "position": "center 25%",
+  "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
+  "type": "logo",
   "link": "/proefkonijnen/",
-  "slug": "news-7"
+  "id": "proefkonijnen-tv",
+  "image": "/assets/images/news_tv_proefkonijnen.png"
 }
