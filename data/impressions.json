@@ -64,18 +64,18 @@
       "slug": "testing-participants-in-the-lab"
     },
     {
+      "title": "blabla test",
+      "image": "/assets/images/1713272486650.jpeg",
+      "tag": "none",
+      "description": "test test"
+    },
+    {
       "title": "ASSC 25 Conference in Amsterdam",
       "tag": "Conference",
       "date": "July 2022",
       "image": "/assets/images/assc_2022.jpg",
       "description": "Conscious Brain Lab hosting 500+ international consciousness researchers for the 25th ASSC meeting.",
       "slug": "assc-25-conference"
-    },
-    {
-      "title": "blabla test",
-      "image": "/assets/images/1713272486650.jpeg",
-      "tag": "none",
-      "description": "test test"
     }
   ]
 }
