@@ -1,0 +1,15 @@
+{
+  "year_group": "2026",
+  "paper_url": "https://doi.org/10.1162/jocn.a.2691",
+  "citation": "Gnodde, S., Aslanov, V., Hogan, A., Francken, J. C., Olcese, U., & Stein, T. (2026). Subjective Visibility Enhances Early Posterior EEG Decoding of Stimulus Location across Report and No-report Tasks. Journal of Cognitive Neuroscience, 1–15.",
+  "bibtex": "@article{Gnodde_2026,\n  title ={Subjective Visibility Enhances Early Posterior EEG Decoding of Stimulus Location across Report and No-report Tasks},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/JOCN.a.2691},\n  DOI ={10.1162/jocn.a.2691},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Gnodde, Sabine and Aslanov, Vlada and Hogan, Abigail and Francken, Jolien C. and Olcese, Umberto and Stein, Timo},\n  year ={2026},\n  month =Aug,\n  pages ={1–15} \n}",
+  "preprint_url": "https://doi.org/10.64898/2026.04.20.719596",
+  "topics": [
+    "Consciousness",
+    "EEG",
+    "Neural Decoding",
+    "Cognitive Neuroscience",
+    "Decision Making"
+  ],
+  "id": "pub-105"
+}
