@@ -72,16 +72,16 @@
     "image": "/assets/images/1713272486650.jpeg"
   },
   {
-    "id": "proefkonijnen-tv",
-    "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
+    "position": "center 25%",
+    "slug": "news-7",
+    "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
     "date": "October 2023",
     "date_sort": "2023-10",
-    "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
-    "image": "/assets/images/news_tv_proefkonijnen.png",
-    "type": "photo",
-    "position": "center 25%",
+    "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
+    "type": "logo",
     "link": "/proefkonijnen/",
-    "slug": "news-7"
+    "id": "proefkonijnen-tv",
+    "image": "/assets/images/news_tv_proefkonijnen.png"
   },
   {
     "position": "center",
@@ -132,17 +132,17 @@
     "image": "/assets/images/assclogo.png"
   },
   {
-    "id": "elife-animation",
-    "title": "Animation: New eLife Paper!",
+    "position": "center 20%",
+    "slug": "news-12",
+    "text": "A 7-minute animation made by Josella.nl about the paper by Stijn Nuiten and colleagues, accepted for publication in eLife.",
     "date": "June 2022",
     "date_sort": "2022-06",
-    "text": "A 7-minute animation made by Josella.nl about the paper by Stijn Nuiten and colleagues, accepted for publication in eLife.",
-    "image": "/assets/images/news_elife.jpg",
-    "video": "/assets/images/are-we-automatic-processing-machines-.mp4",
+    "title": "Animation: New eLife Paper!",
     "type": "photo",
-    "position": "center 20%",
     "link": "/publications/",
-    "slug": "news-12"
+    "video": "https://www.youtube.com/watch?v=ljWN3zmg_Qc",
+    "id": "elife-animation",
+    "image": ""
   },
   {
     "id": "josipa-defense",
