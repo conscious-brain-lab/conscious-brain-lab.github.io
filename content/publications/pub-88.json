@@ -1,7 +1,7 @@
 {
   "id": "pub-88",
-  "citation": "van Gaal, S., & Lamme, V. A. F. (2011). Unconscious High-Level Information Processing. The Neuroscientist, 18(3), 287\u2013301.",
-  "year_group": "2012",
+  "citation": "van Gaal, S., & Lamme, V. A. F. (2011). Unconscious High-Level Information Processing. The Neuroscientist, 18(3), 287–301.",
+  "year_group": "2011",
   "topics": [
     "Cognitive Control",
     "Cognitive Neuroscience",
@@ -12,5 +12,5 @@
   "paper_url": "https://doi.org/10.1177/1073858411404079",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{van_Gaal_2011,\n  title ={Unconscious High-Level Information Processing: Implication for Neurobiological Theories of Consciousness},\n  volume ={18},\n  ISSN ={1089-4098},\n  url ={http://dx.doi.org/10.1177/1073858411404079},\n  DOI ={10.1177/1073858411404079},\n  number ={3},\n  journal ={The Neuroscientist},\n  publisher ={SAGE Publications},\n  author ={van Gaal, Simon and Lamme, Victor A. F.},\n  year ={2011},\n  month =May,\n  pages ={287\u2013301} \n}"
+  "bibtex": "@article{van_Gaal_2011,\n  title ={Unconscious High-Level Information Processing: Implication for Neurobiological Theories of Consciousness},\n  volume ={18},\n  ISSN ={1089-4098},\n  url ={http://dx.doi.org/10.1177/1073858411404079},\n  DOI ={10.1177/1073858411404079},\n  number ={3},\n  journal ={The Neuroscientist},\n  publisher ={SAGE Publications},\n  author ={van Gaal, Simon and Lamme, Victor A. F.},\n  year ={2011},\n  month =May,\n  pages ={287–301} \n}"
 }

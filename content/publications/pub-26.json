@@ -1,7 +1,7 @@
 {
   "id": "pub-26",
-  "citation": "Mazor, M., Brown, S., Ciaunica, A., Demertzi, A., Fahrenfort, J., Faivre, N., Francken, J. C., Lamy, D., Lenggenhager, B., Moutoussis, M., Nizzi, M.-C., Salomon, R., Soto, D., Stein, T., & Lubianiker, N. (2022). The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral. Perspectives on Psychological Science, 18(3), 535\u2013543.",
-  "year_group": "2024",
+  "citation": "Mazor, M., Brown, S., Ciaunica, A., Demertzi, A., Fahrenfort, J., Faivre, N., Francken, J. C., Lamy, D., Lenggenhager, B., Moutoussis, M., Nizzi, M.-C., Salomon, R., Soto, D., Stein, T., & Lubianiker, N. (2022). The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral. Perspectives on Psychological Science, 18(3), 535–543.",
+  "year_group": "2022",
   "topics": [
     "Consciousness"
   ],
@@ -9,5 +9,5 @@
   "paper_url": "https://doi.org/10.1177/17456916221110222",
   "preprint_url": null,
   "code_url": null,
-  "bibtex": "@article{Mazor_2022,\n  title ={The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral},\n  volume ={18},\n  ISSN ={1745-6924},\n  url ={http://dx.doi.org/10.1177/17456916221110222},\n  DOI ={10.1177/17456916221110222},\n  number ={3},\n  journal ={Perspectives on Psychological Science},\n  publisher ={SAGE Publications},\n  author ={Mazor, Matan and Brown, Simon and Ciaunica, Anna and Demertzi, Athena and Fahrenfort, Johannes and Faivre, Nathan and Francken, Jolien C. and Lamy, Dominique and Lenggenhager, Bigna and Moutoussis, Michael and Nizzi, Marie-Christine and Salomon, Roy and Soto, David and Stein, Timo and Lubianiker, Nitzan},\n  year ={2022},\n  month =Sept,\n  pages ={535\u2013543} \n}"
+  "bibtex": "@article{Mazor_2022,\n  title ={The Scientific Study of Consciousness Cannot and Should Not Be Morally Neutral},\n  volume ={18},\n  ISSN ={1745-6924},\n  url ={http://dx.doi.org/10.1177/17456916221110222},\n  DOI ={10.1177/17456916221110222},\n  number ={3},\n  journal ={Perspectives on Psychological Science},\n  publisher ={SAGE Publications},\n  author ={Mazor, Matan and Brown, Simon and Ciaunica, Anna and Demertzi, Athena and Fahrenfort, Johannes and Faivre, Nathan and Francken, Jolien C. and Lamy, Dominique and Lenggenhager, Bigna and Moutoussis, Michael and Nizzi, Marie-Christine and Salomon, Roy and Soto, David and Stein, Timo and Lubianiker, Nitzan},\n  year ={2022},\n  month =Sept,\n  pages ={535–543} \n}"
 }

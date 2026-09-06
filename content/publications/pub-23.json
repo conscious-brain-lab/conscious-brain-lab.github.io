@@ -1,7 +1,7 @@
 {
   "id": "pub-23",
-  "citation": "Alilovi\u0107, J., Lampers, E., Slagter, H. A., & van Gaal, S. (2023). Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence. PLOS Biology, 21(3), e3002009.",
-  "year_group": "2024",
+  "citation": "Alilović, J., Lampers, E., Slagter, H. A., & van Gaal, S. (2023). Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence. PLOS Biology, 21(3), e3002009.",
+  "year_group": "2023",
   "topics": [
     "Cognitive Neuroscience",
     "Decision Making",
@@ -14,5 +14,5 @@
   "paper_url": "https://doi.org/10.1371/journal.pbio.3002009",
   "preprint_url": null,
   "code_url": "https://uvaauas.figshare.com/collections/Illusory_object_recognition_is_either_perceptual_or_cognitive_in_origin_depending_on_decision_confidence/6265233/1",
-  "bibtex": "@article{Alilovi__2023,\n  title ={Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence},\n  volume ={21},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3002009},\n  DOI ={10.1371/journal.pbio.3002009},\n  number ={3},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Alilovi\u0107, Josipa and Lampers, Eline and Slagter, Heleen A. and van Gaal, Simon},\n  editor ={Pack, Christopher},\n  year ={2023},\n  month =Mar,\n  pages ={e3002009} \n}"
+  "bibtex": "@article{Alilovi__2023,\n  title ={Illusory object recognition is either perceptual or cognitive in origin depending on decision confidence},\n  volume ={21},\n  ISSN ={1545-7885},\n  url ={http://dx.doi.org/10.1371/journal.pbio.3002009},\n  DOI ={10.1371/journal.pbio.3002009},\n  number ={3},\n  journal ={PLOS Biology},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Alilović, Josipa and Lampers, Eline and Slagter, Heleen A. and van Gaal, Simon},\n  editor ={Pack, Christopher},\n  year ={2023},\n  month =Mar,\n  pages ={e3002009} \n}"
 }
