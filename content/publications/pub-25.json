@@ -1,16 +1,16 @@
 {
-  "id": "pub-25",
-  "citation": "Bouwer, F. L., Fahrenfort, J. J., Millard, S. K., Kloosterman, N. A., & Slagter, H. A. (2020). A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations.",
-  "year_group": "2024",
   "topics": [
     "Cognitive Neuroscience",
     "EEG",
     "Neural Decoding",
     "Perception & Vision"
   ],
-  "doi": "https://doi.org/10.1101/2020.01.08.899278",
-  "paper_url": "https://doi.org/10.1101/2020.01.08.899278",
-  "preprint_url": null,
+  "citation": "Bouwer, F. L., Fahrenfort, J. J., Millard, S. K., Kloosterman, N. A., & Slagter, H. A. (2023). A Silent Disco: Differential Effects of Beat-based and Pattern-based Temporal Expectations on Persistent Entrainment of Low-frequency Neural Oscillations. Journal of Cognitive Neuroscience, 35(6), 990–1020.",
+  "bibtex": "@article{Bouwer_2023,\n  title ={A Silent Disco: Differential Effects of Beat-based and Pattern-based Temporal Expectations on Persistent Entrainment of Low-frequency Neural Oscillations},\n  volume ={35},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn_a_01985},\n  DOI ={10.1162/jocn_a_01985},\n  number ={6},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Bouwer, Fleur L. and Fahrenfort, Johannes J. and Millard, Samantha K. and Kloosterman, Niels A. and Slagter, Heleen A.},\n  year ={2023},\n  pages ={990–1020} \n}",
+  "preprint_url": "https://doi.org/10.1101/2020.01.08.899278",
+  "id": "pub-25",
+  "paper_url": "https://doi.org/10.1162/jocn_a_01985",
   "code_url": null,
-  "bibtex": "@article{Bouwer_2020,\n  title ={A silent disco: Differential effects of beat-based and pattern-based temporal expectations on persistent entrainment of low-frequency neural oscillations},\n  url ={http://dx.doi.org/10.1101/2020.01.08.899278},\n  DOI ={10.1101/2020.01.08.899278},\n  publisher ={openRxiv},\n  author ={Bouwer, Fleur L. and Fahrenfort, Johannes J. and Millard, Samantha K. and Kloosterman, Niels A. and Slagter, Heleen A.},\n  year ={2020},\n  month =Jan \n}"
+  "year_group": "2024",
+  "doi": "https://doi.org/10.1101/2020.01.08.899278"
 }
