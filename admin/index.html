@@ -1037,6 +1037,137 @@
         }
       }
 
+      function slugify(text) {
+        if (!text) return '';
+        return text
+          .toString()
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .toLowerCase()
+          .trim()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/[\s_-]+/g, '-')
+          .replace(/^-+|-+$/g, '');
+      }
+
+      async function getNextNewsId() {
+        try {
+          const res = await fetch('/data/news.json?v=' + Date.now());
+          if (!res.ok) return 'news-19';
+          const items = await res.json();
+          let maxNum = 0;
+          items.forEach(item => {
+            const m = String(item.slug || item.id || '').match(/^news-(\d+)$/i);
+            if (m) {
+              const n = parseInt(m[1], 10);
+              if (n > maxNum) maxNum = n;
+            }
+          });
+          return `news-${maxNum > 0 ? maxNum + 1 : 19}`;
+        } catch (e) {
+          return 'news-19';
+        }
+      }
+
+      function attachSlugHelpers() {
+        const hash = window.location.hash || '';
+        const isMembers = hash.includes('/collections/members');
+        const isProjects = hash.includes('/collections/projects');
+        const isTopics = hash.includes('/collections/topics');
+        const isNews = hash.includes('/collections/news');
+
+        if (!isMembers && !isProjects && !isTopics && !isNews) return;
+
+        // Target slug input
+        const slugInput = document.querySelector('input[id^="slug-field-"], input[id*="-slug-field-"], input[name="slug"]');
+        if (!slugInput) return;
+
+        // Target source input
+        let sourceInput = null;
+        let sourceLabel = '';
+        if (isMembers || isTopics) {
+          sourceInput = document.querySelector('input[id^="name-field-"], input[id*="-name-field-"], input[name="name"]');
+          sourceLabel = isMembers ? 'Full Name' : 'Topic Name';
+        } else if (isProjects || isNews) {
+          sourceInput = document.querySelector('input[id^="title-field-"], input[id*="-title-field-"], input[name="title"]');
+          sourceLabel = isProjects ? 'Project Title' : 'Card Title';
+        }
+
+        // Track manual changes by user on slug input
+        if (!slugInput.dataset.listenerAttached) {
+          slugInput.dataset.listenerAttached = 'true';
+          slugInput.addEventListener('input', () => {
+            slugInput.dataset.manualEdit = slugInput.value.trim() ? 'true' : '';
+          });
+        }
+
+        // Auto-fill slug as user types into source input
+        if (sourceInput && !sourceInput.dataset.slugSourceAttached) {
+          sourceInput.dataset.slugSourceAttached = 'true';
+          sourceInput.addEventListener('input', () => {
+            if (!slugInput.dataset.manualEdit || !slugInput.value.trim()) {
+              const genSlug = slugify(sourceInput.value);
+              setReactInputValue(slugInput, genSlug);
+            }
+          });
+        }
+
+        // Attach helper buttons below slug field if not already present
+        const parent = slugInput.parentNode;
+        if (parent && !parent.querySelector('.cbl-slug-helper-bar')) {
+          const bar = document.createElement('div');
+          bar.className = 'cbl-slug-helper-bar cbl-bibtex-helper';
+          bar.style.marginTop = '6px';
+          bar.style.marginBottom = '6px';
+
+          let buttonsHtml = `
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <button type="button" class="cbl-fetch-btn" id="cbl-btn-auto-slug" style="background: #0284c7; padding: 4px 10px; font-size: 11px;">
+                ✨ Auto-generate from ${sourceLabel || 'Title'}
+              </button>
+          `;
+
+          if (isNews) {
+            buttonsHtml += `
+              <button type="button" class="cbl-fetch-btn" id="cbl-btn-next-news" style="background: #0d9488; padding: 4px 10px; font-size: 11px;">
+                ✨ Use Sequential ID
+              </button>
+              <span id="cbl-news-id-preview" style="font-size: 11px; color: #0f766e; font-weight: 500;"></span>
+            `;
+          }
+
+          buttonsHtml += `</div>`;
+          bar.innerHTML = buttonsHtml;
+          parent.appendChild(bar);
+
+          const autoBtn = bar.querySelector('#cbl-btn-auto-slug');
+          if (autoBtn) {
+            autoBtn.addEventListener('click', () => {
+              const currentSourceVal = sourceInput ? sourceInput.value : '';
+              if (currentSourceVal) {
+                const s = slugify(currentSourceVal);
+                setReactInputValue(slugInput, s);
+                slugInput.dataset.manualEdit = '';
+              }
+            });
+          }
+
+          if (isNews) {
+            const nextNewsBtn = bar.querySelector('#cbl-btn-next-news');
+            const newsPreview = bar.querySelector('#cbl-news-id-preview');
+            getNextNewsId().then(nextId => {
+              if (newsPreview) newsPreview.textContent = `(Suggested: ${nextId})`;
+              if (nextNewsBtn) {
+                nextNewsBtn.addEventListener('click', () => {
+                  setReactInputValue(slugInput, nextId);
+                  slugInput.dataset.manualEdit = 'true';
+                });
+              }
+            });
+          }
+        }
+      }
+
       // -------------------------------------------------------------
       // 3. IMAGE EDITOR & CROPPER EXTENSION
       // -------------------------------------------------------------
@@ -1588,6 +1719,7 @@
       // Continuous observer to attach helpers when user opens entries
       const observer = new MutationObserver(() => {
         attachPublicationHelpers();
+        attachSlugHelpers();
         attachImageEditorHelpers();
         organizePublicationCardsInOverview();
       });
@@ -1596,6 +1728,7 @@
         initCblAuth();
         observer.observe(document.body, { childList: true, subtree: true });
         attachPublicationHelpers();
+        attachSlugHelpers();
         attachImageEditorHelpers();
         organizePublicationCardsInOverview();
       }
