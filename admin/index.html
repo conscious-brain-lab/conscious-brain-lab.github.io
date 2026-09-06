@@ -826,6 +826,25 @@
 }`;
       }
 
+      async function getNextPublicationId() {
+        try {
+          const res = await fetch('/data/publications.json?v=' + Date.now());
+          if (!res.ok) return 'pub-105';
+          const pubs = await res.json();
+          let maxNum = 0;
+          pubs.forEach(p => {
+            const m = String(p.id || '').match(/^pub-(\d+)$/i);
+            if (m) {
+              const n = parseInt(m[1], 10);
+              if (n > maxNum) maxNum = n;
+            }
+          });
+          return `pub-${maxNum > 0 ? maxNum + 1 : 105}`;
+        } catch (e) {
+          return 'pub-105';
+        }
+      }
+
       async function executeAutoFetch(statusText, fetchBtn) {
         if (fetchBtn) fetchBtn.disabled = true;
         if (statusText) {
@@ -856,6 +875,16 @@
           const data = await fetchCrossrefData(doi);
 
           let updatedFields = [];
+
+          // 0. Auto-assign ID if currently empty
+          const idInput = document.querySelector('input[id^="id-field-"], input[id*="-id-field-"], input[name="id"]');
+          if (idInput && !idInput.value.trim()) {
+            const nextId = await getNextPublicationId();
+            if (nextId) {
+              setReactInputValue(idInput, nextId);
+              updatedFields.push(`ID (${nextId})`);
+            }
+          }
 
           // 1. Populate DOI field with canonical https://doi.org/... entry
           const targetDoiUrl = data.doiUrl || `https://doi.org/${doi}`;
@@ -971,6 +1000,39 @@
             const btn = helperBar.querySelector('#cbl-btn-fetch-bib');
             const status = helperBar.querySelector('#cbl-bib-status-text');
             btn.addEventListener('click', () => executeAutoFetch(status, btn));
+          }
+        }
+
+        // 3. ID field auto-fill helper (below ID field in publications)
+        const idInput = document.querySelector('input[id^="id-field-"], input[id*="-id-field-"], input[name="id"]');
+        if (idInput && window.location.hash.includes('/collections/publications')) {
+          const parent = idInput.parentNode;
+          if (parent && !parent.querySelector('.cbl-id-helper-bar')) {
+            const idBar = document.createElement('div');
+            idBar.className = 'cbl-id-helper-bar cbl-bibtex-helper';
+            idBar.style.marginTop = '6px';
+            idBar.style.marginBottom = '6px';
+            idBar.innerHTML = `
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                <button type="button" class="cbl-fetch-btn" id="cbl-btn-next-id" style="background: #0d9488; padding: 4px 10px; font-size: 11px;">
+                  ✨ Auto-fill Next ID
+                </button>
+                <span id="cbl-id-preview" style="font-size: 11px; color: #0f766e; font-weight: 500;"></span>
+              </div>
+            `;
+            parent.appendChild(idBar);
+
+            const nextBtn = idBar.querySelector('#cbl-btn-next-id');
+            const preview = idBar.querySelector('#cbl-id-preview');
+
+            getNextPublicationId().then(nextId => {
+              if (preview) preview.textContent = `(Suggested next: ${nextId})`;
+              if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                  setReactInputValue(idInput, nextId);
+                });
+              }
+            });
           }
         }
       }
