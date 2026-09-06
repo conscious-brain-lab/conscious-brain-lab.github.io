@@ -1,7 +1,4 @@
 {
-  "id": "pub-21",
-  "citation": "Nuiten, SA. De Gee JW. Zantvoord, JB, Fahrenfort, JJ & van Gaal, S. Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision making. eLife (2023) .",
-  "year_group": "2024",
   "topics": [
     "Cognitive Neuroscience",
     "Decision Making",
@@ -9,9 +6,12 @@
     "Pharmacology",
     "Pupillometry"
   ],
-  "doi": "https://doi.org/10.1101/2022.11.03.515022v1",
-  "paper_url": "https://doi.org/10.1101/2022.11.03.515022v1",
+  "citation": "Nuiten, S. A., De Gee, J. W., Zantvoord, J. B., Fahrenfort, J. J., & van Gaal, S. (2022). Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision-making.",
+  "bibtex": "@article{Nuiten_2022,\n  title ={Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision-making},\n  url ={http://dx.doi.org/10.1101/2022.11.03.515022},\n  DOI ={10.1101/2022.11.03.515022},\n  publisher ={openRxiv},\n  author ={Nuiten, Stijn A. and De Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2022},\n  month =Nov \n}",
   "preprint_url": "https://www.biorxiv.org/content/10.1101/2022.11.03.515022v1",
+  "id": "pub-21",
+  "paper_url": "https://doi.org/10.1101/2022.11.03.515022",
   "code_url": "https://uvaauas.figshare.com/projects/Catecholaminergic_neuromodulation_and_selective_attention_jointly_shape_perceptual_decision-making/160049",
-  "bibtex": "@article{nuiten2023_21,\n  author = {Nuiten, SA},\n  title = {Nuiten, SA. De Gee JW. Zantvoord, JB, Fahrenfort, JJ & van Gaal, S. Catecholaminergic neuromodulation and selective attention jointly shape perceptual decision making. eLife (2023) .},\n  year = {2023},\n  journal = {Conscious Brain Lab Publications},\n  url = {https://www.biorxiv.org/content/10.1101/2022.11.03.515022v1}\n}"
+  "year_group": "2024",
+  "doi": "https://doi.org/10.1101/2022.11.03.515022v1"
 }
