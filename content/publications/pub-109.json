@@ -1,0 +1,12 @@
+{
+  "year_group": "2026",
+  "paper_url": "https://doi.org/10.1016/j.tics.2012.01.004",
+  "id": "pub-109",
+  "citation": "Fahrenfort, J. J., & Lamme, V. A. F. (2012). A true science of consciousness explains phenomenology: comment on Cohen and Dennett. Trends in Cognitive Sciences, 16(3), 138–139.",
+  "bibtex": "@article{Fahrenfort_2012,\n  title ={A true science of consciousness explains phenomenology: comment on Cohen and Dennett},\n  volume ={16},\n  ISSN ={1364-6613},\n  url ={http://dx.doi.org/10.1016/j.tics.2012.01.004},\n  DOI ={10.1016/j.tics.2012.01.004},\n  number ={3},\n  journal ={Trends in Cognitive Sciences},\n  publisher ={Elsevier BV},\n  author ={Fahrenfort, Johannes J. and Lamme, Victor A.F.},\n  year ={2012},\n  month =Mar,\n  pages ={138–139} \n}",
+  "topics": [
+    "Consciousness",
+    "Decision Making",
+    "Perception & Vision"
+  ]
+}
