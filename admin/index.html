@@ -1455,9 +1455,10 @@
               const citation = entry.getIn(['data', 'citation']) || 'Citation preview...';
               const yearGroup = entry.getIn(['data', 'year_group']) || 'Submitted or on Rxiv';
               const topicsList = entry.getIn(['data', 'topics']);
-              const topics = topicsList && typeof topicsList.toJS === 'function' 
+              const rawTopics = topicsList && typeof topicsList.toJS === 'function' 
                 ? topicsList.toJS() 
                 : (topicsList ? Array.from(topicsList) : []);
+              const topics = rawTopics.slice().sort((a, b) => String(a).localeCompare(String(b), undefined, { sensitivity: 'base' }));
               const paperUrl = entry.getIn(['data', 'paper_url']);
               const preprintUrl = entry.getIn(['data', 'preprint_url']);
               const codeUrl = entry.getIn(['data', 'code_url']);
@@ -1548,7 +1549,8 @@
             link.appendChild(tagsBar);
           }
 
-          const topics = pub && pub.topics && Array.isArray(pub.topics) ? pub.topics : [];
+          const rawTopics = pub && pub.topics && Array.isArray(pub.topics) ? pub.topics : [];
+          const topics = rawTopics.slice().sort((a, b) => String(a).localeCompare(String(b), undefined, { sensitivity: 'base' }));
           const topicsKey = topics.join('|');
           if (tagsBar.dataset.topicsKey !== topicsKey) {
             tagsBar.dataset.topicsKey = topicsKey;

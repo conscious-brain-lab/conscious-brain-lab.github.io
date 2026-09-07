@@ -199,7 +199,8 @@ function renderPublications() {
     `;
 
     pubs.forEach(pub => {
-      const topicBadges = (pub.topics || []).map(t => `<span class="tag tag-accent">${t}</span>`).join(' ');
+      const sortedTopics = (pub.topics || []).slice().sort((a, b) => String(a).localeCompare(String(b), undefined, { sensitivity: 'base' }));
+      const topicBadges = sortedTopics.map(t => `<span class="tag tag-accent">${t}</span>`).join(' ');
       
       let linkButtons = '';
       if (pub.preprint_url) {

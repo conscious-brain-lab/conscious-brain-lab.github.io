@@ -22,11 +22,11 @@
     "bibtex": "@article{Gnodde_2026,\n  title ={Subjective Visibility Enhances Early Posterior EEG Decoding of Stimulus Location across Report and No-report Tasks},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/JOCN.a.2691},\n  DOI ={10.1162/jocn.a.2691},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Gnodde, Sabine and Aslanov, Vlada and Hogan, Abigail and Francken, Jolien C. and Olcese, Umberto and Stein, Timo},\n  year ={2026},\n  month =Aug,\n  pages ={1–15} \n}",
     "preprint_url": "https://doi.org/10.64898/2026.04.20.719596",
     "topics": [
-      "Consciousness",
-      "EEG",
-      "Neural Decoding",
       "Cognitive Neuroscience",
-      "Decision Making"
+      "Consciousness",
+      "Decision Making",
+      "EEG",
+      "Neural Decoding"
     ],
     "id": "pub-105"
   },
@@ -128,11 +128,11 @@
     "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N., Stein, T., & van Gaal, S. (2025). Response to comment on ‘Criterion placement threatens the construct validity of neural measures of consciousness’. eLife, 14.",
     "bibtex": "@article{Fahrenfort_2025,\n  title ={Response to comment on ‘Criterion placement threatens the construct validity of neural measures of consciousness’},\n  volume ={14},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.107622},\n  DOI ={10.7554/elife.107622},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Fahrenfort, Johannes Jacobus and Johnson, Philippa A and Kloosterman, Niels and Stein, Timo and van Gaal, Simon},\n  year ={2025},\n  month =Aug \n}",
     "topics": [
-      "Consciousness",
-      "EEG",
-      "Neural Decoding",
       "Cognitive Neuroscience",
-      "Decision Making"
+      "Consciousness",
+      "Decision Making",
+      "EEG",
+      "Neural Decoding"
     ]
   },
   {
@@ -325,9 +325,9 @@
   },
   {
     "topics": [
+      "Consciousness",
       "Decision Making",
-      "Perception & Vision",
-      "Consciousness"
+      "Perception & Vision"
     ],
     "citation": "Sánchez-Fuenzalida, N., van Gaal, S., Fleming, S. M., Haaf, J. M., & Fahrenfort, J. J. (2023). Predictions and rewards affect decision-making but not subjective experience. Proceedings of the National Academy of Sciences, 120(44).",
     "bibtex": "@article{S_nchez_Fuenzalida_2023,\n  title ={Predictions and rewards affect decision-making but not subjective experience},\n  volume ={120},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2220749120},\n  DOI ={10.1073/pnas.2220749120},\n  number ={44},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Sánchez-Fuenzalida, Nicolás and van Gaal, Simon and Fleming, Stephen M. and Haaf, Julia M. and Fahrenfort, Johannes J.},\n  year ={2023},\n  month =Oct \n}",
@@ -517,8 +517,8 @@
     "topics": [
       "Cognitive Neuroscience",
       "Consciousness",
-      "Perception & Vision",
-      "fMRI"
+      "fMRI",
+      "Perception & Vision"
     ],
     "doi": "https://doi.org/10.1371/journal.pbio.3001241",
     "paper_url": "https://doi.org/10.1371/journal.pbio.3001241",
@@ -785,9 +785,9 @@
     "topics": [
       "Cognitive Control",
       "Cognitive Neuroscience",
+      "fMRI",
       "Perception & Vision",
-      "Pupillometry",
-      "fMRI"
+      "Pupillometry"
     ],
     "doi": "https://doi.org/10.1016/j.neuroimage.2019.116133",
     "paper_url": "https://doi.org/10.1016/j.neuroimage.2019.116133",
@@ -837,9 +837,9 @@
     "topics": [
       "Cognitive Neuroscience",
       "EEG",
+      "fMRI",
       "Neural Decoding",
-      "Perception & Vision",
-      "fMRI"
+      "Perception & Vision"
     ],
     "doi": "https://doi.org/10.1093/cercor/bhz038",
     "paper_url": "https://doi.org/10.1093/cercor/bhz038",
@@ -913,8 +913,8 @@
     "topics": [
       "Cognitive Neuroscience",
       "EEG",
-      "Perception & Vision",
-      "fMRI"
+      "fMRI",
+      "Perception & Vision"
     ],
     "doi": "https://doi.org/10.1016/j.neuropsychologia.2019.02.005",
     "paper_url": "https://doi.org/10.1016/j.neuropsychologia.2019.02.005",
@@ -1118,9 +1118,9 @@
     "topics": [
       "Cognitive Neuroscience",
       "Consciousness",
+      "fMRI",
       "Language & Semantics",
-      "Perception & Vision",
-      "fMRI"
+      "Perception & Vision"
     ],
     "doi": "https://doi.org/10.1038/srep17725",
     "paper_url": "https://doi.org/10.1038/srep17725",
@@ -1293,8 +1293,8 @@
     "topics": [
       "Cognitive Neuroscience",
       "Decision Making",
-      "Perception & Vision",
-      "fMRI"
+      "fMRI",
+      "Perception & Vision"
     ],
     "doi": "https://doi.org/10.1162/jocn_a_00530",
     "paper_url": "https://doi.org/10.1162/jocn_a_00530",
@@ -1387,8 +1387,8 @@
     "topics": [
       "Cognitive Neuroscience",
       "Consciousness",
-      "Perception & Vision",
-      "fMRI"
+      "fMRI",
+      "Perception & Vision"
     ],
     "doi": "http://www.jneurosci.org/content/32/43/14915/tab-e-letters#responses-in-the-fusiform-face-area-do-not-cause-conscious-face-perception",
     "paper_url": "http://www.jneurosci.org/content/32/43/14915/tab-e-letters#responses-in-the-fusiform-face-area-do-not-cause-conscious-face-perception",

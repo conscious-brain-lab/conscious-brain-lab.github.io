@@ -118,7 +118,11 @@ def compile_publications():
     if not items:
         return
 
-    # Sort publications: Preprint/in review first, then year descending
+    # Sort topics alphabetically and sort publications by preprint/year descending
+    for p in items:
+        if isinstance(p.get("topics"), list):
+            p["topics"] = sorted(p["topics"], key=lambda x: str(x).lower())
+
     def pub_sort_key(p):
         yg = str(p.get("year_group", "")).strip()
         if any(k in yg.lower() for k in ["preprint", "review", "rxiv", "submitted"]):

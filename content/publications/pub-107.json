@@ -5,10 +5,10 @@
   "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N., Stein, T., & van Gaal, S. (2025). Response to comment on ‘Criterion placement threatens the construct validity of neural measures of consciousness’. eLife, 14.",
   "bibtex": "@article{Fahrenfort_2025,\n  title ={Response to comment on ‘Criterion placement threatens the construct validity of neural measures of consciousness’},\n  volume ={14},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.107622},\n  DOI ={10.7554/elife.107622},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Fahrenfort, Johannes Jacobus and Johnson, Philippa A and Kloosterman, Niels and Stein, Timo and van Gaal, Simon},\n  year ={2025},\n  month =Aug \n}",
   "topics": [
-    "Consciousness",
-    "EEG",
-    "Neural Decoding",
     "Cognitive Neuroscience",
-    "Decision Making"
+    "Consciousness",
+    "Decision Making",
+    "EEG",
+    "Neural Decoding"
   ]
 }

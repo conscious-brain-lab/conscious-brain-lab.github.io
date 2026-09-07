@@ -90,6 +90,11 @@ def sync_collections_to_data():
             except Exception as e:
                 print(f"Error reading {f}: {e}")
         
+        # Sort topics alphabetically
+        for p in all_pubs:
+            if isinstance(p.get("topics"), list):
+                p["topics"] = sorted(p["topics"], key=lambda x: str(x).lower())
+
         # Sort publications: Preprint/in review first, then year descending
         def pub_sort_key(p):
             yg = str(p.get("year_group", "")).strip()
