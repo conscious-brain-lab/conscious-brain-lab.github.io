@@ -31,6 +31,17 @@
     "id": "pub-105"
   },
   {
+    "year_group": "2026",
+    "paper_url": "https://doi.org/10.1016/j.neubiorev.2026.106817",
+    "id": "pub-108",
+    "citation": "Lageman, J., Fahrenfort, J. J., & Slagter, H. A. (2026). Prediction in action: Toward an empirical science of active inference. Neuroscience &Amp; Biobehavioral Reviews, 188, 106817.",
+    "bibtex": "@article{Lageman_2026,\n  title ={Prediction in action: Toward an empirical science of active inference},\n  volume ={188},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2026.106817},\n  DOI ={10.1016/j.neubiorev.2026.106817},\n  journal ={Neuroscience &amp; Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Lageman, Jet and Fahrenfort, Johannes J. and Slagter, Heleen A.},\n  year ={2026},\n  month =Sept,\n  pages ={106817} \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "Perception & Vision"
+    ]
+  },
+  {
     "topics": [
       "Consciousness",
       "Perception & Vision"
@@ -111,6 +122,20 @@
     "bibtex": "@article{Beerendonk_2025,\n  title ={Adaptive arousal regulation: Pharmacologically shifting the peak of the Yerkes–Dodson curve by catecholaminergic enhancement of arousal},\n  volume ={122},\n  ISSN ={1091-6490},\n  url ={http://dx.doi.org/10.1073/pnas.2419733122},\n  DOI ={10.1073/pnas.2419733122},\n  number ={28},\n  journal ={Proceedings of the National Academy of Sciences},\n  publisher ={National Academy of Sciences},\n  author ={Beerendonk, Lola and Mejías, Jorge F. and Nuiten, Stijn A. and de Gee, Jan Willem and Zantvoord, Jasper B. and Fahrenfort, Johannes J. and van Gaal, Simon},\n  year ={2025},\n  month =July \n}"
   },
   {
+    "year_group": "2025",
+    "paper_url": "https://doi.org/10.7554/elife.107622",
+    "id": "pub-107",
+    "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N., Stein, T., & van Gaal, S. (2025). Response to comment on ‘Criterion placement threatens the construct validity of neural measures of consciousness’. eLife, 14.",
+    "bibtex": "@article{Fahrenfort_2025,\n  title ={Response to comment on ‘Criterion placement threatens the construct validity of neural measures of consciousness’},\n  volume ={14},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.107622},\n  DOI ={10.7554/elife.107622},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Fahrenfort, Johannes Jacobus and Johnson, Philippa A and Kloosterman, Niels and Stein, Timo and van Gaal, Simon},\n  year ={2025},\n  month =Aug \n}",
+    "topics": [
+      "Consciousness",
+      "EEG",
+      "Neural Decoding",
+      "Cognitive Neuroscience",
+      "Decision Making"
+    ]
+  },
+  {
     "topics": [
       "Cognitive Neuroscience",
       "Consciousness",
@@ -132,8 +157,8 @@
       "Cognitive Neuroscience",
       "Consciousness",
       "Decision Making",
-      "Perception & Vision",
-      "Pupillometry"
+      "EEG",
+      "Neural Decoding"
     ],
     "citation": "Fahrenfort, J. J., Johnson, P. A., Kloosterman, N. A., Stein, T. & van Gaal, S. (2025). Criterion placement threatens the construct validity of neural measures of consciousness. eLife, 13.",
     "bibtex": "",
@@ -221,6 +246,18 @@
     "code_url": "https://www.horizon-minds.com",
     "year_group": "2025",
     "doi": "https://doi.org/10.31234/osf.io/2pk5j_v1"
+  },
+  {
+    "year_group": "2024",
+    "paper_url": "https://doi.org/10.1111/psyp.14636",
+    "id": "pub-106",
+    "citation": "Tortajada, M., Fahrenfort, J. J., Sandoval‐Lentisco, A., Martínez‐Pérez, V., Palmero, L. B., Castillo, A., Fuentes, L. J., Campoy, G., & Olivers, C. N. L. (2024). Decoding load or selection in visuospatial working memory? Psychophysiology, 61(10). ",
+    "bibtex": "@article{Tortajada_2024,\n  title ={Decoding load or selection in visuospatial working memory?},\n  volume ={61},\n  ISSN ={1469-8986},\n  url ={http://dx.doi.org/10.1111/psyp.14636},\n  DOI ={10.1111/psyp.14636},\n  number ={10},\n  journal ={Psychophysiology},\n  publisher ={Wiley},\n  author ={Tortajada, Miriam and Fahrenfort, Johannes J. and Sandoval‐Lentisco, Alejandro and Martínez‐Pérez, Víctor and Palmero, Lucía B. and Castillo, Alejandro and Fuentes, Luis J. and Campoy, Guillermo and Olivers, Christian N. L.},\n  year ={2024},\n  month =June \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "EEG",
+      "Perception & Vision"
+    ]
   },
   {
     "id": "pub-16",
@@ -586,18 +623,20 @@
     "bibtex": "@article{van_Driel_2021,\n  title ={High-pass filtering artifacts in multivariate classification of neural time series data},\n  volume ={352},\n  ISSN ={0165-0270},\n  url ={http://dx.doi.org/10.1016/j.jneumeth.2021.109080},\n  DOI ={10.1016/j.jneumeth.2021.109080},\n  journal ={Journal of Neuroscience Methods},\n  publisher ={Elsevier BV},\n  author ={van Driel, Joram and Olivers, Christian N.L. and Fahrenfort, Johannes J.},\n  year ={2021},\n  month =Mar,\n  pages ={109080} \n}"
   },
   {
-    "id": "pub-39",
-    "citation": "Munneke, J., Fahrenfort, J. J., Sutterer, D., Theeuwes, J., & Awh, E. (2021). Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage, 226, 117562.",
-    "year_group": "2021",
     "topics": [
       "Cognitive Neuroscience",
-      "EEG"
+      "EEG",
+      "Neural Decoding",
+      "Perception & Vision"
     ],
-    "doi": "https://doi.org/10.1016/j.neuroimage.2020.117562",
-    "paper_url": "https://doi.org/10.1016/j.neuroimage.2020.117562",
+    "citation": "Munneke, J., Fahrenfort, J. J., Sutterer, D., Theeuwes, J., & Awh, E. (2021). Multivariate analysis of EEG activity indexes contingent attentional capture. NeuroImage, 226, 117562.",
+    "bibtex": "@article{Munneke_2021,\n  title ={Multivariate analysis of EEG activity indexes contingent attentional capture},\n  volume ={226},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2020.117562},\n  DOI ={10.1016/j.neuroimage.2020.117562},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Munneke, Jaap and Fahrenfort, Johannes Jacobus and Sutterer, David and Theeuwes, Jan and Awh, Edward},\n  year ={2021},\n  month =Feb,\n  pages ={117562} \n}",
     "preprint_url": "https://osf.io/g2c5y/",
+    "id": "pub-39",
+    "paper_url": "https://doi.org/10.1016/j.neuroimage.2020.117562",
     "code_url": null,
-    "bibtex": "@article{Munneke_2021,\n  title ={Multivariate analysis of EEG activity indexes contingent attentional capture},\n  volume ={226},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2020.117562},\n  DOI ={10.1016/j.neuroimage.2020.117562},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Munneke, Jaap and Fahrenfort, Johannes Jacobus and Sutterer, David and Theeuwes, Jan and Awh, Edward},\n  year ={2021},\n  month =Feb,\n  pages ={117562} \n}"
+    "year_group": "2021",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2020.117562"
   },
   {
     "id": "pub-40",
@@ -725,17 +764,19 @@
     "bibtex": "@article{Kloosterman_2019,\n  title ={Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation},\n  volume ={8},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.37321},\n  DOI ={10.7554/elife.37321},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Kloosterman, Niels A and de Gee, Jan Willem and Werkle-Bergner, Markus and Lindenberger, Ulman and Garrett, Douglas D and Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  month =Feb \n}"
   },
   {
-    "id": "pub-48",
-    "citation": "Fahrenfort, J. J. (2019). Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG. Spatial Learning and Attention Guidance, 129–156.",
-    "year_group": "2019",
     "topics": [
-      "EEG"
+      "EEG",
+      "Neural Decoding",
+      "Perception & Vision"
     ],
-    "doi": "https://doi.org/10.1007/7657_2019_26",
-    "paper_url": "https://doi.org/10.1007/7657_2019_26",
+    "citation": "Fahrenfort, J. J. (2019). Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG. Spatial Learning and Attention Guidance, 129–156.",
+    "bibtex": "@inbook{Fahrenfort_2019,\n  title ={Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG},\n  ISBN ={9781493999484},\n  ISSN ={1940-6045},\n  url ={http://dx.doi.org/10.1007/7657_2019_26},\n  DOI ={10.1007/7657_2019_26},\n  booktitle ={Spatial Learning and Attention Guidance},\n  publisher ={Springer US},\n  author ={Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  pages ={129–156} \n}",
     "preprint_url": null,
+    "id": "pub-48",
+    "paper_url": "https://doi.org/10.1007/7657_2019_26",
     "code_url": null,
-    "bibtex": "@inbook{Fahrenfort_2019,\n  title ={Multivariate Methods to Track the Spatiotemporal Profile of Feature-Based Attentional Selection Using EEG},\n  ISBN ={9781493999484},\n  ISSN ={1940-6045},\n  url ={http://dx.doi.org/10.1007/7657_2019_26},\n  DOI ={10.1007/7657_2019_26},\n  booktitle ={Spatial Learning and Attention Guidance},\n  publisher ={Springer US},\n  author ={Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  pages ={129–156} \n}"
+    "year_group": "2019",
+    "doi": "https://doi.org/10.1007/7657_2019_26"
   },
   {
     "id": "pub-49",
@@ -1276,6 +1317,18 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{Jiang_2013,\n  title ={Electrophysiological correlates of block-wise strategic adaptations to consciously and unconsciously triggered conflict},\n  volume ={51},\n  ISSN ={0028-3932},\n  url ={http://dx.doi.org/10.1016/j.neuropsychologia.2013.09.020},\n  DOI ={10.1016/j.neuropsychologia.2013.09.020},\n  number ={13},\n  journal ={Neuropsychologia},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and van Gaal, Simon and Bailey, Kira and Chen, Antao and Zhang, Qinglin},\n  year ={2013},\n  month =Nov,\n  pages ={2791–2798} \n}"
+  },
+  {
+    "year_group": "2012",
+    "paper_url": "https://doi.org/10.1016/j.tics.2012.01.004",
+    "id": "pub-109",
+    "citation": "Fahrenfort, J. J., & Lamme, V. A. F. (2012). A true science of consciousness explains phenomenology: comment on Cohen and Dennett. Trends in Cognitive Sciences, 16(3), 138–139.",
+    "bibtex": "@article{Fahrenfort_2012,\n  title ={A true science of consciousness explains phenomenology: comment on Cohen and Dennett},\n  volume ={16},\n  ISSN ={1364-6613},\n  url ={http://dx.doi.org/10.1016/j.tics.2012.01.004},\n  DOI ={10.1016/j.tics.2012.01.004},\n  number ={3},\n  journal ={Trends in Cognitive Sciences},\n  publisher ={Elsevier BV},\n  author ={Fahrenfort, Johannes J. and Lamme, Victor A.F.},\n  year ={2012},\n  month =Mar,\n  pages ={138–139} \n}",
+    "topics": [
+      "Consciousness",
+      "Decision Making",
+      "Perception & Vision"
+    ]
   },
   {
     "id": "pub-83",
