@@ -5,6 +5,7 @@
   "citation": "Lageman, J., Fahrenfort, J. J., & Slagter, H. A. (2026). Prediction in action: Toward an empirical science of active inference. Neuroscience &Amp; Biobehavioral Reviews, 188, 106817.",
   "bibtex": "@article{Lageman_2026,\n  title ={Prediction in action: Toward an empirical science of active inference},\n  volume ={188},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2026.106817},\n  DOI ={10.1016/j.neubiorev.2026.106817},\n  journal ={Neuroscience &amp; Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Lageman, Jet and Fahrenfort, Johannes J. and Slagter, Heleen A.},\n  year ={2026},\n  month =Sept,\n  pages ={106817} \n}",
   "topics": [
-    "Cognitive Neuroscience"
+    "Cognitive Neuroscience",
+    "Perception & Vision"
   ]
 }
