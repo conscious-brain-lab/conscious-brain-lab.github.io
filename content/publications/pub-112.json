@@ -1,0 +1,12 @@
+{
+  "year_group": "2008",
+  "paper_url": "https://doi.org/10.1162/jocn.2008.20142",
+  "id": "pub-112",
+  "citation": "Scholte, H. S., Jolij, J., Fahrenfort, J. J., & Lamme, V. A. F. (2008). Feedforward and Recurrent Processing in Scene Segmentation: Electroencephalography and Functional Magnetic Resonance Imaging. Journal of Cognitive Neuroscience, 20(11), 2097–2109.",
+  "bibtex": "@article{Scholte_2008,\n  title ={Feedforward and Recurrent Processing in Scene Segmentation: Electroencephalography and Functional Magnetic Resonance Imaging},\n  volume ={20},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2008.20142},\n  DOI ={10.1162/jocn.2008.20142},\n  number ={11},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Scholte, H. Steven and Jolij, Jacob and Fahrenfort, Johannes J. and Lamme, Victor A. F.},\n  year ={2008},\n  month =Nov,\n  pages ={2097–2109} \n}",
+  "topics": [
+    "Cognitive Neuroscience",
+    "EEG",
+    "Perception & Vision"
+  ]
+}
