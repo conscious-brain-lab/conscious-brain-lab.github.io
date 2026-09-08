@@ -1,0 +1,12 @@
+{
+  "year_group": "2026",
+  "paper_url": "https://doi.org/10.3389/fnins.2012.00028",
+  "id": "pub-110",
+  "citation": "Fahrenfort, J. J., van Winden, F., Pelloux, B., Stallen, M., & Ridderinkhof, K. R. (2012). Neural Correlates of Dynamically Evolving Interpersonal Ties Predict Prosocial Behavior. Frontiers in Neuroscience, 6.",
+  "bibtex": "@article{Fahrenfort_2012,\n  title ={Neural Correlates of Dynamically Evolving Interpersonal Ties Predict Prosocial Behavior},\n  volume ={6},\n  ISSN ={1662-4548},\n  url ={http://dx.doi.org/10.3389/fnins.2012.00028},\n  DOI ={10.3389/fnins.2012.00028},\n  journal ={Frontiers in Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Fahrenfort, Johannes J. and van Winden, Frans and Pelloux, Benjamin and Stallen, Mirre and Ridderinkhof, K. Richard},\n  year ={2012} \n}",
+  "topics": [
+    "Cognitive Neuroscience",
+    "Decision Making",
+    "fMRI"
+  ]
+}
