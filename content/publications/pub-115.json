@@ -1,0 +1,12 @@
+{
+  "year_group": "2018",
+  "paper_url": "https://doi.org/10.3758/s13414-018-1579-7",
+  "id": "pub-115",
+  "citation": "Ort, E., Fahrenfort, J. J., & Olivers, C. N. L. (2018). Lack of free choice reveals the cost of multiple-target search within and across feature dimensions. Attention, Perception, &Amp; Psychophysics, 80(8), 1904–1917.",
+  "bibtex": "@article{Ort_2018,\n  title ={Lack of free choice reveals the cost of multiple-target search within and across feature dimensions},\n  volume ={80},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-018-1579-7},\n  DOI ={10.3758/s13414-018-1579-7},\n  number ={8},\n  journal ={Attention, Perception, &amp; Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Ort, Eduard and Fahrenfort, Johannes Jacobus and Olivers, Christian N. L.},\n  year ={2018},\n  month =Aug,\n  pages ={1904–1917} \n}",
+  "topics": [
+    "Cognitive Control",
+    "Decision Making",
+    "Perception & Vision"
+  ]
+}
