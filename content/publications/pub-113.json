@@ -1,0 +1,12 @@
+{
+  "year_group": "2015",
+  "paper_url": "https://doi.org/10.3389/fpsyg.2015.00667",
+  "id": "pub-113",
+  "citation": "Van Den Boomen, C., Fahrenfort, J. J., Snijders, T. M., & Kemner, C. (2015). Segmentation precedes face categorization under suboptimal conditions. Frontiers in Psychology, 6.",
+  "bibtex": "@article{Van_Den_Boomen_2015,\n  title ={Segmentation precedes face categorization under suboptimal conditions},\n  volume ={6},\n  ISSN ={1664-1078},\n  url ={http://dx.doi.org/10.3389/fpsyg.2015.00667},\n  DOI ={10.3389/fpsyg.2015.00667},\n  journal ={Frontiers in Psychology},\n  publisher ={Frontiers Media SA},\n  author ={Van Den Boomen, Carlijn and Fahrenfort, Johannes J. and Snijders, Tineke M. and Kemner, Chantal},\n  year ={2015},\n  month =May \n}",
+  "topics": [
+    "Cognitive Neuroscience",
+    "Perception & Vision",
+    "EEG"
+  ]
+}
