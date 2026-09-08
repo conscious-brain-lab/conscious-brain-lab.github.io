@@ -1,0 +1,12 @@
+{
+  "year_group": "2015",
+  "paper_url": "https://doi.org/10.1093/scan/nsu138",
+  "id": "pub-114",
+  "citation": "Bault, N., Pelloux, B., Fahrenfort, J. J., Ridderinkhof, K. R., & van Winden, F. (2014). Neural dynamics of social tie formation in economic decision-making. Social Cognitive and Affective Neuroscience, 10(6), 877–884.",
+  "bibtex": "@article{Bault_2014,\n  title ={Neural dynamics of social tie formation in economic decision-making},\n  volume ={10},\n  ISSN ={1749-5024},\n  url ={http://dx.doi.org/10.1093/scan/nsu138},\n  DOI ={10.1093/scan/nsu138},\n  number ={6},\n  journal ={Social Cognitive and Affective Neuroscience},\n  publisher ={Oxford University Press (OUP)},\n  author ={Bault, Nadège and Pelloux, Benjamin and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard and van Winden, Frans},\n  year ={2014},\n  month =Oct,\n  pages ={877–884} \n}",
+  "topics": [
+    "Cognitive Neuroscience",
+    "Decision Making",
+    "fMRI"
+  ]
+}
