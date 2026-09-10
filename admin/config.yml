@@ -23,7 +23,6 @@ collections:
     summary: "{{name}} ({{role}} - {{status}})"
     fields:
       - { label: "Full Name", name: "name", widget: "string" }
-      - { label: "Role / Position", name: "role", widget: "string" }
       - { label: "Status", name: "status", widget: "select", options: [{label: "Current Lab Member", value: "current"}, {label: "Alumni", value: "alumni"}], default: "current", hint: "Set to 'Current Lab Member' or 'Alumni'." }
       - label: "Category"
         name: "category"
@@ -38,6 +37,7 @@ collections:
           - { label: "Top Page Group Banner (Header Photo)", value: "header" }
         default: ["phd"]
         hint: "Select one or more categories that apply to this member."
+      - { label: "Role / Position", name: "role", widget: "string", hint: "Auto-updates when Status or Category changes, pre-pending 'Former' for alumni. Can be manually edited." }
       - { label: "Display Order", name: "order", widget: "number", value_type: "int", required: false, default: 99, hint: "Lower numbers appear first within the role category (e.g., 1 for Simon van Gaal, 2 for Johannes Fahrenfort, 3 for Timo Stein)." }
       - { label: "URL Slug", name: "slug", widget: "string", hint: "Identifier slug (auto-filled from Full Name, e.g. 'jane-doe')." }
       - { label: "Photo", name: "image", widget: "image", required: false }

@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/assets/images/CBL_logo.png" />
   
   <!-- Decap CMS Config with Cache Busting -->
-  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260910_member_categories" />
+  <link rel="cms-config-url" type="text/yaml" href="/admin/config.yml?v=20260910_member_role_order" />
 
   <!-- Cropper.js for Client-Side Crop & Resize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.1/cropper.min.css" />
@@ -1169,6 +1169,285 @@
       }
 
       // -------------------------------------------------------------
+      // 2B. MEMBER ROLE / POSITION AUTO-UPDATE HELPER
+      // -------------------------------------------------------------
+      const MEMBER_CATEGORIES_CONFIG = [
+        { key: 'ra', label: 'Research Assistant', rank: 1, matchers: ['research assistant', 'ra'] },
+        { key: 'phd', label: 'PhD Candidate', rank: 2, matchers: ['phd candidate', 'phd'] },
+        { key: 'postdoc', label: 'Postdoctoral Researcher', rank: 3, matchers: ['postdoctoral researcher', 'postdoc'] },
+        { key: 'visiting', label: 'Visiting Researcher', rank: 4, matchers: ['visiting researcher', 'visiting'] },
+        { key: 'pi', label: 'Principal Investigator', rank: 5, matchers: ['principal investigator', 'pi'] },
+        { key: 'header', label: 'Top Banner (People Page)', rank: 6, matchers: ['top page group banner', 'header photo', 'header'] },
+      ];
+
+      function getMemberRoleField() {
+        return document.querySelector('input[id^="role-field-"], input[id*="-role-field-"], input[name="role"]');
+      }
+
+      function getFieldPane(name, labelText) {
+        // 1. By ID or name
+        const el = document.querySelector(`[id^="${name}-field-"], [id*="-${name}-field-"], [name="${name}"]`);
+        if (el) {
+          const pane = el.closest('[class*="ControlPane"], [class*="FieldGroup"], [class*="ControlWrapper"], [class*="field-"]') || el.parentElement;
+          return { element: el, pane: pane || el };
+        }
+        // 2. By Label
+        const labels = Array.from(document.querySelectorAll('label'));
+        for (const lbl of labels) {
+          const text = lbl.textContent.trim().toLowerCase();
+          if (text.startsWith(labelText.toLowerCase())) {
+            const forId = lbl.getAttribute('for');
+            if (forId) {
+              const target = document.getElementById(forId);
+              if (target) {
+                const pane = target.closest('[class*="ControlPane"], [class*="FieldGroup"]') || target.parentElement;
+                return { element: target, pane: pane || target };
+              }
+            }
+            const parent = lbl.parentElement;
+            if (parent) {
+              const ctrl = parent.querySelector('input, select, [class*="control"], [class*="Control"]');
+              return { element: ctrl || parent, pane: parent };
+            }
+          }
+        }
+        return null;
+      }
+
+      function readMemberStatus(statusObj) {
+        if (!statusObj) return 'current';
+        const { element, pane } = statusObj;
+
+        // Native select
+        const sel = pane.querySelector('select') || (element && element.tagName === 'SELECT' ? element : null);
+        if (sel) {
+          const val = (sel.value || '').toLowerCase();
+          if (val.includes('alumni')) return 'alumni';
+          if (val.includes('current')) return 'current';
+          const optText = (sel.options[sel.selectedIndex]?.text || '').toLowerCase();
+          if (optText.includes('alumni')) return 'alumni';
+          if (optText.includes('current')) return 'current';
+        }
+
+        // React-select single value
+        const singleVal = pane.querySelector('[class*="singleValue"], [class*="SingleValue"]');
+        if (singleVal) {
+          const txt = singleVal.textContent.toLowerCase();
+          if (txt.includes('alumni')) return 'alumni';
+          if (txt.includes('current')) return 'current';
+        }
+
+        // Any input value inside status pane
+        const inputs = pane.querySelectorAll('input');
+        for (const inp of inputs) {
+          const v = (inp.value || '').toLowerCase();
+          if (v.includes('alumni')) return 'alumni';
+          if (v.includes('current')) return 'current';
+        }
+
+        // Fallback text content of pane
+        const paneText = (pane.textContent || '').toLowerCase();
+        if (paneText.includes('alumni') && !paneText.includes('current lab member')) {
+          return 'alumni';
+        }
+        return 'current';
+      }
+
+      function readMemberCategories(categoryObj) {
+        if (!categoryObj) return [];
+        const { element, pane } = categoryObj;
+
+        // 1. Native select multiple
+        const sel = pane.querySelector('select') || (element && element.tagName === 'SELECT' ? element : null);
+        if (sel && sel.multiple) {
+          const selectedVals = Array.from(sel.selectedOptions).map(o => (o.value || o.text || '').toLowerCase());
+          const matched = [];
+          for (const item of MEMBER_CATEGORIES_CONFIG) {
+            if (selectedVals.some(sv => item.matchers.some(m => sv === m || sv.includes(m)))) {
+              matched.push(item);
+            }
+          }
+          return matched;
+        }
+
+        // 2. React-Select multi-value items
+        const multiValues = pane.querySelectorAll('[class*="multiValue"], [class*="multi-value"], [class*="MultiValue"]');
+        if (multiValues && multiValues.length > 0) {
+          const matched = [];
+          multiValues.forEach(mv => {
+            const txt = mv.textContent.toLowerCase().trim();
+            for (const item of MEMBER_CATEGORIES_CONFIG) {
+              if (item.matchers.some(m => txt.includes(m))) {
+                if (!matched.some(m => m.key === item.key)) {
+                  matched.push(item);
+                }
+                break;
+              }
+            }
+          });
+          matched.sort((a, b) => a.rank - b.rank);
+          return matched;
+        }
+
+        // 3. Fallback: check any tag or badge elements
+        const tags = pane.querySelectorAll('[class*="badge"], [class*="tag"], [class*="value-container"] > div');
+        const matched = [];
+        tags.forEach(t => {
+          const txt = t.textContent.toLowerCase().trim();
+          for (const item of MEMBER_CATEGORIES_CONFIG) {
+            if (item.matchers.some(m => txt.includes(m))) {
+              if (!matched.some(m => m.key === item.key)) {
+                matched.push(item);
+              }
+              break;
+            }
+          }
+        });
+        matched.sort((a, b) => a.rank - b.rank);
+        return matched;
+      }
+
+      function generateRoleText(status, categories) {
+        if (!categories || categories.length === 0) {
+          return status === 'alumni' ? 'Former Member' : 'Lab Member';
+        }
+
+        // Exclude header banner if other categories are selected
+        let validCats = categories.filter(c => c.key !== 'header');
+        if (validCats.length === 0) {
+          validCats = categories;
+        }
+
+        // Canonical rank: RA (1), PhD Candidate (2), Postdoctoral Researcher (3), Visiting Researcher (4), PI (5)
+        validCats.sort((a, b) => a.rank - b.rank);
+
+        const labels = validCats.map(c => c.label);
+        let joined = '';
+        if (labels.length === 1) {
+          joined = labels[0];
+        } else if (labels.length === 2) {
+          joined = `${labels[0]} and ${labels[1]}`;
+        } else {
+          joined = `${labels.slice(0, -1).join(', ')} and ${labels[labels.length - 1]}`;
+        }
+
+        if (status === 'alumni') {
+          return `Former ${joined}`;
+        } else {
+          return joined;
+        }
+      }
+
+      function attachMemberRoleHelper() {
+        const hash = window.location.hash || '';
+        if (!hash.includes('/collections/members')) return;
+
+        const roleInput = getMemberRoleField();
+        if (!roleInput) return;
+
+        const statusObj = getFieldPane('status', 'Status');
+        const categoryObj = getFieldPane('category', 'Category');
+        if (!statusObj || !categoryObj) return;
+
+        // Reset tracking if navigated to another entry
+        if (roleInput.dataset.currentEntryHash !== hash) {
+          roleInput.dataset.currentEntryHash = hash;
+          roleInput.dataset.helperInitialized = '';
+        }
+
+        const currentStatus = readMemberStatus(statusObj);
+        const currentCats = readMemberCategories(categoryObj);
+        const currentCatsKey = currentCats.map(c => c.key).join(',');
+
+        if (!roleInput.dataset.helperInitialized) {
+          roleInput.dataset.helperInitialized = 'true';
+          roleInput.dataset.lastStatus = currentStatus;
+          roleInput.dataset.lastCatsKey = currentCatsKey;
+          // Do not touch roleInput.value on initial load
+        } else {
+          const statusChanged = currentStatus !== roleInput.dataset.lastStatus;
+          const catsChanged = currentCatsKey !== roleInput.dataset.lastCatsKey;
+
+          if (statusChanged || catsChanged) {
+            roleInput.dataset.lastStatus = currentStatus;
+            roleInput.dataset.lastCatsKey = currentCatsKey;
+
+            const newRole = generateRoleText(currentStatus, currentCats);
+            setReactInputValue(roleInput, newRole);
+          }
+        }
+
+        // Attach helper bar below roleInput if not present
+        const parent = roleInput.parentNode;
+        if (parent && !parent.querySelector('.cbl-role-helper-bar')) {
+          const bar = document.createElement('div');
+          bar.className = 'cbl-role-helper-bar cbl-bibtex-helper';
+          bar.style.marginTop = '6px';
+          bar.style.marginBottom = '6px';
+          bar.innerHTML = `
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <button type="button" class="cbl-fetch-btn" id="cbl-btn-auto-role" style="background: #0284c7; padding: 4px 10px; font-size: 11px;">
+                ✨ Regenerate from Status &amp; Category
+              </button>
+              <span id="cbl-role-helper-hint" style="font-size: 11px; color: #0284c7; font-weight: 500;">(Auto-updates when Status or Category changes)</span>
+            </div>
+          `;
+          parent.appendChild(bar);
+
+          const autoBtn = bar.querySelector('#cbl-btn-auto-role');
+          if (autoBtn) {
+            autoBtn.addEventListener('click', () => {
+              const s = readMemberStatus(statusObj);
+              const c = readMemberCategories(categoryObj);
+              const generated = generateRoleText(s, c);
+              setReactInputValue(roleInput, generated);
+              roleInput.dataset.lastStatus = s;
+              roleInput.dataset.lastCatsKey = c.map(item => item.key).join(',');
+            });
+          }
+        }
+
+        // Also attach listeners to trigger immediately on user clicks/changes
+        if (statusObj.pane && !statusObj.pane.dataset.roleListenerAttached) {
+          statusObj.pane.dataset.roleListenerAttached = 'true';
+          const trigger = () => {
+            setTimeout(() => {
+              const s = readMemberStatus(statusObj);
+              const c = readMemberCategories(categoryObj);
+              const catsKey = c.map(item => item.key).join(',');
+              if (s !== roleInput.dataset.lastStatus || catsKey !== roleInput.dataset.lastCatsKey) {
+                roleInput.dataset.lastStatus = s;
+                roleInput.dataset.lastCatsKey = catsKey;
+                const newRole = generateRoleText(s, c);
+                setReactInputValue(roleInput, newRole);
+              }
+            }, 60);
+          };
+          statusObj.pane.addEventListener('change', trigger);
+          statusObj.pane.addEventListener('click', trigger);
+        }
+
+        if (categoryObj.pane && !categoryObj.pane.dataset.roleListenerAttached) {
+          categoryObj.pane.dataset.roleListenerAttached = 'true';
+          const trigger = () => {
+            setTimeout(() => {
+              const s = readMemberStatus(statusObj);
+              const c = readMemberCategories(categoryObj);
+              const catsKey = c.map(item => item.key).join(',');
+              if (s !== roleInput.dataset.lastStatus || catsKey !== roleInput.dataset.lastCatsKey) {
+                roleInput.dataset.lastStatus = s;
+                roleInput.dataset.lastCatsKey = catsKey;
+                const newRole = generateRoleText(s, c);
+                setReactInputValue(roleInput, newRole);
+              }
+            }, 60);
+          };
+          categoryObj.pane.addEventListener('change', trigger);
+          categoryObj.pane.addEventListener('click', trigger);
+        }
+      }
+
+      // -------------------------------------------------------------
       // 3. IMAGE EDITOR & CROPPER EXTENSION
       // -------------------------------------------------------------
       let cropperInstance = null;
@@ -1722,6 +2001,7 @@
       const observer = new MutationObserver(() => {
         attachPublicationHelpers();
         attachSlugHelpers();
+        attachMemberRoleHelper();
         attachImageEditorHelpers();
         organizePublicationCardsInOverview();
       });
@@ -1731,6 +2011,7 @@
         observer.observe(document.body, { childList: true, subtree: true });
         attachPublicationHelpers();
         attachSlugHelpers();
+        attachMemberRoleHelper();
         attachImageEditorHelpers();
         organizePublicationCardsInOverview();
       }
