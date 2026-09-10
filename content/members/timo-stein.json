@@ -1,13 +1,13 @@
 {
+  "bio": "After completing a PhD at the Berlin School of Mind and Brain and a postdoctoral fellowship at the University of Trento, I joined the University of Amsterdam in 2016. I am now co-PI of the Conscious Brain Lab with Johannes Fahrenfort and Simon van Gaal.",
   "name": "Timo Stein",
-  "role": "Principal Investigator / Associate Professor",
+  "slug": "timo-stein",
+  "order": 3,
   "status": "current",
+  "role": "Principal Investigator / Associate Professor",
+  "link": "https://www.uva.nl/profiel/s/t/t.stein/t.stein.html",
+  "image": "/assets/images/timo_stein.jpg",
   "category": [
     "pi"
-  ],
-  "order": 3,
-  "slug": "timo-stein",
-  "image": "/assets/images/timo_stein.jpg",
-  "bio": "Before joining the Brain and Cognition group at UvA, I was an assistant professor at the University of Trento and a postdoctoral fellow at the Max Planck Institute in Frankfurt. My research focuses on visual awareness, face and object recognition, and the dynamics of unconscious processing.",
-  "link": "https://www.uva.nl/profiel/s/t/t.stein/t.stein.html"
+  ]
 }
