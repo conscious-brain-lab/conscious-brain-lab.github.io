@@ -49,16 +49,28 @@ def sync_collections_to_data():
         def member_sort_key(m):
             is_alumni = 1 if m.get("status") == "alumni" else 0
             raw_cat = m.get("category", "phd")
-            if isinstance(raw_cat, list):
-                ranks = [cat_order.get(c, 99) for c in raw_cat]
+            ranks = []
+            if isinstance(raw_cat, (list, tuple)):
+                for c in raw_cat:
+                    if isinstance(c, (list, tuple)):
+                        ranks.extend([cat_order.get(str(sub_c), 99) for sub_c in c])
+                    elif isinstance(c, str):
+                        ranks.append(cat_order.get(c, 99))
+                    elif isinstance(c, dict):
+                        val = c.get("value") or c.get("label") or ""
+                        ranks.append(cat_order.get(str(val), 99))
+                    else:
+                        ranks.append(cat_order.get(str(c), 99))
                 category_rank = min(ranks) if ranks else 99
-            else:
+            elif isinstance(raw_cat, str):
                 category_rank = cat_order.get(raw_cat, 99)
+            else:
+                category_rank = 99
             try:
                 display_order = int(m.get("order", 99))
             except Exception:
                 display_order = 99
-            name = m.get("name", "")
+            name = str(m.get("name", ""))
             return (is_alumni, category_rank, display_order, name)
 
         all_members.sort(key=member_sort_key)

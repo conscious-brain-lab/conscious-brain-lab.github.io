@@ -1,16 +1,5 @@
 [
   {
-    "position": "center",
-    "slug": "news-19",
-    "text": "In this episode of the Dutch UvA podcast series \"Net Echt\", Simon van Gaal and Jolien Francken delve into the world of brain enhancement: from Ritalin to neuro-gadgets. ",
-    "date": "May 2026",
-    "date_sort": "2026-05",
-    "title": "Simon talks about brain improvement",
-    "type": "photo",
-    "link": "https://podcastluisteren.nl/ep/Net-Echt-Limitless-je-brein-verbeteren-met-een-pil-kan-dat-En-moeten-we-dat-willen",
-    "image": "/assets/images/42349178-1730715493125-0b8ee178c5f51.jpg.webp"
-  },
-  {
     "id": "nico-defense",
     "title": "Congratulations Nico!",
     "date": "May 2025",
@@ -21,102 +10,6 @@
     "position": "center 15%",
     "link": "",
     "slug": "news-1"
-  },
-  {
-    "id": "lola-defense",
-    "title": "Congratulations Lola!",
-    "date": "April 2025",
-    "date_sort": "2025-04",
-    "text": "Lola Beerendonk successfully defended her PhD thesis on May 28, well done!",
-    "image": "/assets/images/news_lola.jpg",
-    "type": "photo",
-    "position": "center 15%",
-    "link": "",
-    "slug": "news-2"
-  },
-  {
-    "id": "samuel-defense",
-    "title": "Congratulations Samuel!",
-    "date": "September 2024",
-    "date_sort": "2024-09",
-    "text": "Samuel Noorman successfully defended his PhD thesis on April 8, well done!",
-    "image": "/assets/images/news_samuel.jpg",
-    "type": "photo",
-    "position": "center 15%",
-    "link": "",
-    "slug": "news-3"
-  },
-  {
-    "id": "stijn-defense",
-    "title": "Congratulations Stijn!",
-    "date": "April 2024",
-    "date_sort": "2024-04",
-    "text": "Stijn Nuijten successfully defended his PhD thesis on Sept 4, well done!",
-    "image": "/assets/images/news_stijn.jpg",
-    "type": "photo",
-    "position": "center 15%",
-    "link": "",
-    "slug": "news-4"
-  },
-  {
-    "id": "simon-parool",
-    "title": "Simon Interviewed for Dutch Newspaper",
-    "date": "March 2024",
-    "date_sort": "2024-03-b",
-    "text": "Simon was interviewed by Dutch newspaper 'Het Parool' discussing cognitive control, brain mechanisms, and conscious decision-making.",
-    "image": "/assets/images/news_simon_nrc.png",
-    "type": "logo",
-    "position": "center",
-    "link": "",
-    "slug": "news-6"
-  },
-  {
-    "position": "center",
-    "slug": "news-5",
-    "text": "The Open Science Award of the Faculty of Behavioural and Movement Sciences at the Free University Amsterdam was awarded to Johannes Fahrenfort for developing the open-source ADAM decoding toolbox.",
-    "date": "March 2024",
-    "date_sort": "2024-03",
-    "title": "Johannes Receives Faculty's Open Science Award",
-    "type": "photo",
-    "link": "https://www.linkedin.com/posts/fahrenfort_last-week-i-received-the-open-science-award-activity-7185985651257790464-X5D2",
-    "id": "open-science-award",
-    "image": "/assets/images/1713272486650.jpeg"
-  },
-  {
-    "position": "center 25%",
-    "slug": "news-7",
-    "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
-    "date": "October 2023",
-    "date_sort": "2023-10",
-    "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
-    "type": "logo",
-    "link": "/proefkonijnen/",
-    "id": "proefkonijnen-tv",
-    "image": "/assets/images/news_tv_proefkonijnen.png"
-  },
-  {
-    "position": "center",
-    "slug": "news-8",
-    "text": "This year we had not one but two PNAS publications! Very proud of Nico and Lola who did all the hard work on these projects exploring perceptual consciousness.",
-    "date": "November 2022",
-    "date_sort": "2022-11",
-    "title": "Two PNAS Publications in One Year",
-    "type": "logo",
-    "link": "/publications/",
-    "id": "pnas-papers",
-    "image": "/assets/images/pnas_logo.png"
-  },
-  {
-    "id": "erc-grant",
-    "title": "Simon Receives an ERC Consolidator Grant",
-    "date": "September 2022",
-    "date_sort": "2022-09",
-    "text": "We are happy to consolidate our work on the neural mechanisms of consciousness! Simon van Gaal has been awarded a €2 million ERC Consolidator Grant.",
-    "image": "/assets/images/news_erc.png",
-    "type": "logo",
-    "position": "center",
-    "link": "/projects/",
-    "slug": "news-9"
   },
   {
     "position": "center",
@@ -226,5 +119,112 @@
     "position": "center 20%",
     "link": "",
     "slug": "news-18"
+  },
+  {
+    "id": "lola-defense",
+    "title": "Congratulations Lola!",
+    "date": "April 2025",
+    "date_sort": "2025-04",
+    "text": "Lola Beerendonk successfully defended her PhD thesis on May 28, well done!",
+    "image": "/assets/images/news_lola.jpg",
+    "type": "photo",
+    "position": "center 15%",
+    "link": "",
+    "slug": "news-2"
+  },
+  {
+    "id": "samuel-defense",
+    "title": "Congratulations Samuel!",
+    "date": "September 2024",
+    "date_sort": "2024-09",
+    "text": "Samuel Noorman successfully defended his PhD thesis on April 8, well done!",
+    "image": "/assets/images/news_samuel.jpg",
+    "type": "photo",
+    "position": "center 15%",
+    "link": "",
+    "slug": "news-3"
+  },
+  {
+    "id": "stijn-defense",
+    "title": "Congratulations Stijn!",
+    "date": "April 2024",
+    "date_sort": "2024-04",
+    "text": "Stijn Nuijten successfully defended his PhD thesis on Sept 4, well done!",
+    "image": "/assets/images/news_stijn.jpg",
+    "type": "photo",
+    "position": "center 15%",
+    "link": "",
+    "slug": "news-4"
+  },
+  {
+    "position": "center",
+    "slug": "news-5",
+    "text": "The Open Science Award of the Faculty of Behavioural and Movement Sciences at the Free University Amsterdam was awarded to Johannes Fahrenfort for developing the open-source ADAM decoding toolbox.",
+    "date": "March 2024",
+    "date_sort": "2024-03",
+    "title": "Johannes Receives Faculty's Open Science Award",
+    "type": "photo",
+    "link": "https://www.linkedin.com/posts/fahrenfort_last-week-i-received-the-open-science-award-activity-7185985651257790464-X5D2",
+    "id": "open-science-award",
+    "image": "/assets/images/1713272486650.jpeg"
+  },
+  {
+    "id": "simon-parool",
+    "title": "Simon Interviewed for Dutch Newspaper",
+    "date": "March 2024",
+    "date_sort": "2024-03-b",
+    "text": "Simon was interviewed by Dutch newspaper 'Het Parool' discussing cognitive control, brain mechanisms, and conscious decision-making.",
+    "image": "/assets/images/news_simon_nrc.png",
+    "type": "logo",
+    "position": "center",
+    "link": "",
+    "slug": "news-6"
+  },
+  {
+    "position": "center 25%",
+    "slug": "news-7",
+    "text": "Johannes was interviewed about hypnosis and visual perception for the kids science TV show 'Proefkonijnen' (guinea pigs). You can watch the video excerpt on our website.",
+    "date": "October 2023",
+    "date_sort": "2023-10",
+    "title": "Johannes Interviewed for Kids TV 'Proefkonijnen'",
+    "type": "logo",
+    "link": "/proefkonijnen/",
+    "id": "proefkonijnen-tv",
+    "image": "/assets/images/news_tv_proefkonijnen.png"
+  },
+  {
+    "position": "center",
+    "slug": "news-8",
+    "text": "This year we had not one but two PNAS publications! Very proud of Nico and Lola who did all the hard work on these projects exploring perceptual consciousness.",
+    "date": "November 2022",
+    "date_sort": "2022-11",
+    "title": "Two PNAS Publications in One Year",
+    "type": "logo",
+    "link": "/publications/",
+    "id": "pnas-papers",
+    "image": "/assets/images/pnas_logo.png"
+  },
+  {
+    "id": "erc-grant",
+    "title": "Simon Receives an ERC Consolidator Grant",
+    "date": "September 2022",
+    "date_sort": "2022-09",
+    "text": "We are happy to consolidate our work on the neural mechanisms of consciousness! Simon van Gaal has been awarded a €2 million ERC Consolidator Grant.",
+    "image": "/assets/images/news_erc.png",
+    "type": "logo",
+    "position": "center",
+    "link": "/projects/",
+    "slug": "news-9"
+  },
+  {
+    "position": "center",
+    "slug": "news-19",
+    "text": "In this episode of the Dutch UvA podcast series \"Net Echt\", Simon van Gaal and Jolien Francken delve into the world of brain enhancement: from Ritalin to neuro-gadgets. ",
+    "date": "May 2026",
+    "date_sort": "2026-05",
+    "title": "Simon talks about brain improvement",
+    "type": "photo",
+    "link": "https://podcastluisteren.nl/ep/Net-Echt-Limitless-je-brein-verbeteren-met-een-pil-kan-dat-En-moeten-we-dat-willen",
+    "image": "/assets/images/42349178-1730715493125-0b8ee178c5f51.jpg.webp"
   }
 ]
