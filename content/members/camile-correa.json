@@ -2,7 +2,9 @@
   "name": "Camile Correa",
   "role": "Former PhD Candidate",
   "status": "alumni",
-  "category": "alumni",
+  "category": [
+    "phd"
+  ],
   "slug": "camile-correa",
   "image": "/assets/images/camile_correa.jpg",
   "bio": "Former researcher studying psychophysics and consciousness.",

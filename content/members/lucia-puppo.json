@@ -2,7 +2,9 @@
   "name": "Lucia Puppo",
   "role": "Former Researcher",
   "status": "alumni",
-  "category": "alumni",
+  "category": [
+    "ra"
+  ],
   "slug": "lucia-puppo",
   "image": "/assets/images/lucia_puppo.jpg",
   "bio": "Former researcher at the Conscious Brain Lab.",

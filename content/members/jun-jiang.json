@@ -2,7 +2,9 @@
   "name": "Jun Jiang",
   "role": "Former Postdoctoral Researcher",
   "status": "alumni",
-  "category": "alumni",
+  "category": [
+    "postdoc"
+  ],
   "slug": "jun-jiang",
   "image": "/assets/images/jun_jiang.jpg",
   "bio": "Former postdoctoral fellow researching visual consciousness and neural representations.",

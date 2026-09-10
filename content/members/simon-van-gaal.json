@@ -2,7 +2,9 @@
   "name": "Simon van Gaal",
   "role": "Principal Investigator / Associate Professor",
   "status": "current",
-  "category": "pi",
+  "category": [
+    "pi"
+  ],
   "order": 1,
   "slug": "simon-van-gaal",
   "image": "/assets/images/simon_van_gaal.jpg",

@@ -2,7 +2,9 @@
   "name": "Philippa Johnson",
   "role": "Former Researcher",
   "status": "alumni",
-  "category": "alumni",
+  "category": [
+    "visiting"
+  ],
   "slug": "philippa-johnson",
   "image": "/assets/images/philippa_johnson.jpg",
   "bio": "Former researcher at the Conscious Brain Lab.",

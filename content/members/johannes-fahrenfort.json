@@ -7,5 +7,7 @@
   "role": "Principal Investigator / Assistant Professor",
   "link": "https://research.vu.nl/en/persons/johannes-fahrenfort/",
   "image": "/assets/images/johannes_fahrenfort.jpg",
-  "category": "pi"
+  "category": [
+    "pi"
+  ]
 }

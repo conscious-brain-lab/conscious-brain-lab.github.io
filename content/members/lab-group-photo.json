@@ -2,7 +2,9 @@
   "name": "★ Full Lab Group Photo",
   "role": "Top Banner (People Page)",
   "status": "current",
-  "category": "header",
+  "category": [
+    "header"
+  ],
   "order": 0,
   "slug": "lab-group-photo",
   "image": "/assets/images/lab_group_photo.png",

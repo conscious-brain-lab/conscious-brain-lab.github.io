@@ -85,10 +85,15 @@ def compile_members():
         return
 
     # Sort members: PIs first, current team, then alumni; by explicit order, then name
-    cat_order = {"header": 0, "pi": 1, "postdoc": 2, "phd": 3, "alumni": 4}
+    cat_order = {"header": 0, "pi": 1, "postdoc": 2, "phd": 3, "ra": 4, "visiting": 5}
     def member_sort_key(m):
         is_alumni = 1 if m.get("status") == "alumni" else 0
-        category_rank = cat_order.get(m.get("category", "phd"), 99)
+        raw_cat = m.get("category", "phd")
+        if isinstance(raw_cat, list):
+            ranks = [cat_order.get(c, 99) for c in raw_cat]
+            category_rank = min(ranks) if ranks else 99
+        else:
+            category_rank = cat_order.get(raw_cat, 99)
         try:
             display_order = int(m.get("order", 99))
         except Exception:

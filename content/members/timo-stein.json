@@ -2,7 +2,9 @@
   "name": "Timo Stein",
   "role": "Principal Investigator / Associate Professor",
   "status": "current",
-  "category": "pi",
+  "category": [
+    "pi"
+  ],
   "order": 3,
   "slug": "timo-stein",
   "image": "/assets/images/timo_stein.jpg",

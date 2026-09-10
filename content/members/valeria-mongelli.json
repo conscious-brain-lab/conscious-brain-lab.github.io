@@ -2,7 +2,9 @@
   "name": "Valeria Mongelli",
   "role": "Former Postdoctoral Researcher",
   "status": "alumni",
-  "category": "alumni",
+  "category": [
+    "postdoc"
+  ],
   "slug": "valeria-mongelli",
   "image": "/assets/images/valeria_mongelli.jpg",
   "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",

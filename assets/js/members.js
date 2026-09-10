@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     allMembers = await res.json();
 
     // Check for special header group photo and extract it from allMembers
-    const bannerIndex = allMembers.findIndex(m => m.category === 'header' || m.slug === 'lab-group-photo' || (m.name && m.name.includes('Group Photo')));
+    const bannerIndex = allMembers.findIndex(m => hasCategory(m, 'header') || m.slug === 'lab-group-photo' || (m.name && m.name.includes('Group Photo')));
     if (bannerIndex !== -1) {
       const groupBanner = allMembers.splice(bannerIndex, 1)[0];
       const bannerImg = document.getElementById('team-group-photo');
@@ -128,25 +128,33 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
+function hasCategory(member, cat) {
+  if (!member || !member.category) return false;
+  if (Array.isArray(member.category)) {
+    return member.category.includes(cat);
+  }
+  return member.category === cat;
+}
+
 function filterMembersList() {
   return allMembers.filter(m => {
     // Exclude special header group photo from member cards grid
-    if (m.category === 'header' || m.slug === 'lab-group-photo') {
+    if (hasCategory(m, 'header') || m.slug === 'lab-group-photo') {
       return false;
     }
 
     let matchesRole = true;
     if (activeRole !== 'all') {
       if (activeRole === 'pi') {
-        matchesRole = m.category === 'pi';
+        matchesRole = hasCategory(m, 'pi') && m.status === 'current';
       } else if (activeRole === 'current') {
         matchesRole = m.status === 'current';
       } else if (activeRole === 'postdoc') {
-        matchesRole = m.category === 'postdoc' && m.status !== 'alumni';
+        matchesRole = hasCategory(m, 'postdoc') && m.status === 'current';
       } else if (activeRole === 'phd') {
-        matchesRole = m.category === 'phd' && m.status !== 'alumni';
+        matchesRole = hasCategory(m, 'phd') && m.status === 'current';
       } else if (activeRole === 'alumni') {
-        matchesRole = m.status === 'alumni' || m.category === 'alumni';
+        matchesRole = m.status === 'alumni';
       }
     }
 

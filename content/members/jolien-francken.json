@@ -2,7 +2,9 @@
   "name": "Jolien Francken",
   "role": "Former Postdoctoral Researcher",
   "status": "alumni",
-  "category": "alumni",
+  "category": [
+    "postdoc"
+  ],
   "slug": "jolien-francken",
   "image": "/assets/images/jolien_francken.jpg",
   "bio": "Former postdoc in the lab, now Assistant Professor at Radboud University Nijmegen. Studies the relationship between language, perception, and consciousness.",
