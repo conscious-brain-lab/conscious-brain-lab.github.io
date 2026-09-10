@@ -197,20 +197,8 @@
     "link": ""
   },
   {
-    "name": "Valeria Mongelli",
-    "role": "Former Postdoctoral Researcher",
-    "status": "alumni",
-    "category": [
-      "postdoc"
-    ],
-    "slug": "valeria-mongelli",
-    "image": "/assets/images/valeria_mongelli.jpg",
-    "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",
-    "link": ""
-  },
-  {
     "name": "Camile Correa",
-    "role": "Former Researcher",
+    "role": "Former PhD Candidate",
     "status": "alumni",
     "category": [
       "phd"
@@ -281,6 +269,18 @@
     "link": ""
   },
   {
+    "name": "Valeria Mongelli",
+    "role": "Former PhD Candidate",
+    "status": "alumni",
+    "category": [
+      "phd"
+    ],
+    "slug": "valeria-mongelli",
+    "image": "/assets/images/valeria_mongelli.jpg",
+    "bio": "Former postdoctoral researcher investigating linguistic processing and awareness.",
+    "link": ""
+  },
+  {
     "name": "Lucia Puppo",
     "role": "Former Researcher",
     "status": "alumni",
@@ -337,7 +337,7 @@
     ],
     "slug": "youval-schnapper",
     "image": "/assets/images/youval_schnapper.jpg",
-    "bio": "Former researcher in cognitive neuroscience and behavioral modeling.",
+    "bio": "Former independent contributor to the hypnosis project under supervision of Johannes Fahrenfort",
     "link": ""
   }
 ]
