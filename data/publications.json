@@ -240,9 +240,9 @@
     ],
     "citation": "Fahrenfort, J. J., van Gaal, S., & Stein, T. (2025). Subjective and objective approaches in the study of conscious perception. Book chapter on www.horizon-minds.com.",
     "bibtex": "@article{Fahrenfort_2025,\n  title ={Subjective and objective approaches in the study of conscious perception},\n  url ={http://dx.doi.org/10.31234/osf.io/2pk5j_v1},\n  DOI ={10.31234/osf.io/2pk5j_v1},\n  publisher ={Center for Open Science},\n  author ={Fahrenfort, Johannes Jacobus and van Gaal, Simon and Stein, Timo},\n  year ={2025},\n  month =Oct \n}",
-    "preprint_url": "https://osf.io/preprints/psyarxiv/2pk5j_v1",
+    "preprint_url": "https://osf.io/preprints/psyarxiv/2pk5j",
     "id": "pub-9",
-    "paper_url": "https://doi.org/10.31234/osf.io/2pk5j_v1",
+    "paper_url": "https://static1.squarespace.com/static/6605831012d79b3ae78b24e0/t/6a107c29c5074a3ae823bd87/1779465257832/Ch._3.1_Fahrenfort_van_Gaal_Stein.pdf",
     "code_url": "https://www.horizon-minds.com",
     "year_group": "2025",
     "doi": "https://doi.org/10.31234/osf.io/2pk5j_v1"
@@ -940,6 +940,18 @@
     "bibtex": "@article{van_Driel_2019,\n  title ={Beta and theta oscillations differentially support free versus forced control over multiple-target search},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.2547-18.2018},\n  DOI ={10.1523/jneurosci.2547-18.2018},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Driel, Joram and Ort, Eduard and Fahrenfort, Johannes J. and Olivers, Christian N. L.},\n  year ={2019},\n  month =Jan,\n  pages ={2547–18} \n}"
   },
   {
+    "year_group": "2018",
+    "paper_url": "https://doi.org/10.3758/s13414-018-1579-7",
+    "id": "pub-115",
+    "citation": "Ort, E., Fahrenfort, J. J., & Olivers, C. N. L. (2018). Lack of free choice reveals the cost of multiple-target search within and across feature dimensions. Attention, Perception, &Amp; Psychophysics, 80(8), 1904–1917.",
+    "bibtex": "@article{Ort_2018,\n  title ={Lack of free choice reveals the cost of multiple-target search within and across feature dimensions},\n  volume ={80},\n  ISSN ={1943-393X},\n  url ={http://dx.doi.org/10.3758/s13414-018-1579-7},\n  DOI ={10.3758/s13414-018-1579-7},\n  number ={8},\n  journal ={Attention, Perception, &amp; Psychophysics},\n  publisher ={Springer Science and Business Media LLC},\n  author ={Ort, Eduard and Fahrenfort, Johannes Jacobus and Olivers, Christian N. L.},\n  year ={2018},\n  month =Aug,\n  pages ={1904–1917} \n}",
+    "topics": [
+      "Cognitive Control",
+      "Decision Making",
+      "Perception & Vision"
+    ]
+  },
+  {
     "id": "pub-59",
     "citation": "Fahrenfort, J. J., van Driel, J., van Gaal, S., & Olivers, C. N. L. (2018). From ERPs to MVPA Using the Amsterdam Decoding and Modeling Toolbox (ADAM). Frontiers in Neuroscience, 12.",
     "year_group": "2018",
@@ -1020,6 +1032,17 @@
     "bibtex": "@article{Jiang_2018,\n  title ={The relationship between conflict awareness and behavioral and oscillatory signatures of immediate and delayed cognitive control},\n  volume ={177},\n  ISSN ={1053-8119},\n  url ={http://dx.doi.org/10.1016/j.neuroimage.2018.05.007},\n  DOI ={10.1016/j.neuroimage.2018.05.007},\n  journal ={NeuroImage},\n  publisher ={Elsevier BV},\n  author ={Jiang, Jun and Correa, Camile M. and Geerts, Jesse and van Gaal, Simon},\n  year ={2018},\n  month =Aug,\n  pages ={11–19} \n}"
   },
   {
+    "year_group": "2017",
+    "paper_url": "https://doi.org/10.1016/j.joep.2017.04.004",
+    "id": "pub-116",
+    "citation": "Bault, N., Fahrenfort, J. J., Pelloux, B., Ridderinkhof, K. R., & van Winden, F. (2017). An affective social tie mechanism: Theory, evidence, and implications. Journal of Economic Psychology, 61, 152–175.",
+    "bibtex": "@article{Bault_2017,\n  title ={An affective social tie mechanism: Theory, evidence, and implications},\n  volume ={61},\n  ISSN ={0167-4870},\n  url ={http://dx.doi.org/10.1016/j.joep.2017.04.004},\n  DOI ={10.1016/j.joep.2017.04.004},\n  journal ={Journal of Economic Psychology},\n  publisher ={Elsevier BV},\n  author ={Bault, Nadège and Fahrenfort, Johannes J. and Pelloux, Benjamin and Ridderinkhof, K. Richard and van Winden, Frans},\n  year ={2017},\n  month =Aug,\n  pages ={152–175} \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "Decision Making"
+    ]
+  },
+  {
     "id": "pub-64",
     "citation": "Fahrenfort, J. J., van Leeuwen, J., Olivers, C. N. L., & Hogendoorn, H. (2017). Perceptual integration without conscious access. Proceedings of the National Academy of Sciences, 114(14), 3744–3749.",
     "year_group": "2017",
@@ -1093,6 +1116,18 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{Boot_2017,\n  title ={Creative cognition and dopaminergic modulation of fronto-striatal networks: Integrative review and research agenda},\n  volume ={78},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2017.04.007},\n  DOI ={10.1016/j.neubiorev.2017.04.007},\n  journal ={Neuroscience & Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Boot, Nathalie and Baas, Matthijs and van Gaal, Simon and Cools, Roshan and De Dreu, Carsten K.W.},\n  year ={2017},\n  month =July,\n  pages ={13–23} \n}"
+  },
+  {
+    "year_group": "2015",
+    "paper_url": "https://doi.org/10.3389/fpsyg.2015.00667",
+    "id": "pub-113",
+    "citation": "Van Den Boomen, C., Fahrenfort, J. J., Snijders, T. M., & Kemner, C. (2015). Segmentation precedes face categorization under suboptimal conditions. Frontiers in Psychology, 6.",
+    "bibtex": "@article{Van_Den_Boomen_2015,\n  title ={Segmentation precedes face categorization under suboptimal conditions},\n  volume ={6},\n  ISSN ={1664-1078},\n  url ={http://dx.doi.org/10.3389/fpsyg.2015.00667},\n  DOI ={10.3389/fpsyg.2015.00667},\n  journal ={Frontiers in Psychology},\n  publisher ={Frontiers Media SA},\n  author ={Van Den Boomen, Carlijn and Fahrenfort, Johannes J. and Snijders, Tineke M. and Kemner, Chantal},\n  year ={2015},\n  month =May \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "EEG",
+      "Perception & Vision"
+    ]
   },
   {
     "id": "pub-69",
@@ -1191,6 +1226,18 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{Pinto_2015,\n  title ={Expectations accelerate entry of visual stimuli into awareness},\n  volume ={15},\n  ISSN ={1534-7362},\n  url ={http://dx.doi.org/10.1167/15.8.13},\n  DOI ={10.1167/15.8.13},\n  number ={8},\n  journal ={Journal of Vision},\n  publisher ={Association for Research in Vision and Ophthalmology (ARVO)},\n  author ={Pinto, Yair and van Gaal, Simon and de Lange, Floris P. and Lamme, Victor A. F. and Seth, Anil K.},\n  year ={2015},\n  month =June,\n  pages ={13} \n}"
+  },
+  {
+    "year_group": "2014",
+    "paper_url": "https://doi.org/10.1093/scan/nsu138",
+    "id": "pub-114",
+    "citation": "Bault, N., Pelloux, B., Fahrenfort, J. J., Ridderinkhof, K. R., & van Winden, F. (2014). Neural dynamics of social tie formation in economic decision-making. Social Cognitive and Affective Neuroscience, 10(6), 877–884.",
+    "bibtex": "@article{Bault_2014,\n  title ={Neural dynamics of social tie formation in economic decision-making},\n  volume ={10},\n  ISSN ={1749-5024},\n  url ={http://dx.doi.org/10.1093/scan/nsu138},\n  DOI ={10.1093/scan/nsu138},\n  number ={6},\n  journal ={Social Cognitive and Affective Neuroscience},\n  publisher ={Oxford University Press (OUP)},\n  author ={Bault, Nadège and Pelloux, Benjamin and Fahrenfort, Johannes J. and Ridderinkhof, K. Richard and van Winden, Frans},\n  year ={2014},\n  month =Oct,\n  pages ={877–884} \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "Decision Making",
+      "fMRI"
+    ]
   },
   {
     "id": "pub-70",
@@ -1324,6 +1371,30 @@
     "id": "pub-109",
     "citation": "Fahrenfort, J. J., & Lamme, V. A. F. (2012). A true science of consciousness explains phenomenology: comment on Cohen and Dennett. Trends in Cognitive Sciences, 16(3), 138–139.",
     "bibtex": "@article{Fahrenfort_2012,\n  title ={A true science of consciousness explains phenomenology: comment on Cohen and Dennett},\n  volume ={16},\n  ISSN ={1364-6613},\n  url ={http://dx.doi.org/10.1016/j.tics.2012.01.004},\n  DOI ={10.1016/j.tics.2012.01.004},\n  number ={3},\n  journal ={Trends in Cognitive Sciences},\n  publisher ={Elsevier BV},\n  author ={Fahrenfort, Johannes J. and Lamme, Victor A.F.},\n  year ={2012},\n  month =Mar,\n  pages ={138–139} \n}",
+    "topics": [
+      "Consciousness",
+      "Decision Making",
+      "Perception & Vision"
+    ]
+  },
+  {
+    "year_group": "2012",
+    "paper_url": "https://doi.org/10.3389/fnins.2012.00028",
+    "id": "pub-110",
+    "citation": "Fahrenfort, J. J., van Winden, F., Pelloux, B., Stallen, M., & Ridderinkhof, K. R. (2012). Neural Correlates of Dynamically Evolving Interpersonal Ties Predict Prosocial Behavior. Frontiers in Neuroscience, 6.",
+    "bibtex": "@article{Fahrenfort_2012,\n  title ={Neural Correlates of Dynamically Evolving Interpersonal Ties Predict Prosocial Behavior},\n  volume ={6},\n  ISSN ={1662-4548},\n  url ={http://dx.doi.org/10.3389/fnins.2012.00028},\n  DOI ={10.3389/fnins.2012.00028},\n  journal ={Frontiers in Neuroscience},\n  publisher ={Frontiers Media SA},\n  author ={Fahrenfort, Johannes J. and van Winden, Frans and Pelloux, Benjamin and Stallen, Mirre and Ridderinkhof, K. Richard},\n  year ={2012} \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "Decision Making",
+      "fMRI"
+    ]
+  },
+  {
+    "year_group": "2012",
+    "paper_url": "https://doi.org/10.1371/journal.pone.0050042",
+    "id": "pub-111",
+    "citation": "Vandenbroucke, A. R. E., Sligte, I. G., Fahrenfort, J. J., Ambroziak, K. B., & Lamme, V. A. F. (2012). Non-Attended Representations are Perceptual Rather than Unconscious in Nature. PLoS ONE, 7(11), e50042.",
+    "bibtex": "@article{Vandenbroucke_2012,\n  title ={Non-Attended Representations are Perceptual Rather than Unconscious in Nature},\n  volume ={7},\n  ISSN ={1932-6203},\n  url ={http://dx.doi.org/10.1371/journal.pone.0050042},\n  DOI ={10.1371/journal.pone.0050042},\n  number ={11},\n  journal ={PLoS ONE},\n  publisher ={Public Library of Science (PLoS)},\n  author ={Vandenbroucke, Annelinde R. E. and Sligte, Ilja G. and Fahrenfort, Johannes J. and Ambroziak, Klaudia B. and Lamme, Victor A. F.},\n  editor ={de Lange, Floris P.},\n  year ={2012},\n  month =Nov,\n  pages ={e50042} \n}",
     "topics": [
       "Consciousness",
       "Decision Making",
@@ -1655,6 +1726,18 @@
     "preprint_url": null,
     "code_url": null,
     "bibtex": "@article{van_Gaal_2008,\n  title ={The Relationship between Visual Awareness, Attention, and Report},\n  volume ={28},\n  ISSN ={1529-2401},\n  url ={http://dx.doi.org/10.1523/jneurosci.1208-08.2008},\n  DOI ={10.1523/jneurosci.1208-08.2008},\n  number ={21},\n  journal ={The Journal of Neuroscience},\n  publisher ={Society for Neuroscience},\n  author ={van Gaal, Simon and Fahrenfort, Johannes J.},\n  year ={2008},\n  month =May,\n  pages ={5401–5402} \n}"
+  },
+  {
+    "year_group": "2008",
+    "paper_url": "https://doi.org/10.1162/jocn.2008.20142",
+    "id": "pub-112",
+    "citation": "Scholte, H. S., Jolij, J., Fahrenfort, J. J., & Lamme, V. A. F. (2008). Feedforward and Recurrent Processing in Scene Segmentation: Electroencephalography and Functional Magnetic Resonance Imaging. Journal of Cognitive Neuroscience, 20(11), 2097–2109.",
+    "bibtex": "@article{Scholte_2008,\n  title ={Feedforward and Recurrent Processing in Scene Segmentation: Electroencephalography and Functional Magnetic Resonance Imaging},\n  volume ={20},\n  ISSN ={1530-8898},\n  url ={http://dx.doi.org/10.1162/jocn.2008.20142},\n  DOI ={10.1162/jocn.2008.20142},\n  number ={11},\n  journal ={Journal of Cognitive Neuroscience},\n  publisher ={MIT Press},\n  author ={Scholte, H. Steven and Jolij, Jacob and Fahrenfort, Johannes J. and Lamme, Victor A. F.},\n  year ={2008},\n  month =Nov,\n  pages ={2097–2109} \n}",
+    "topics": [
+      "Cognitive Neuroscience",
+      "EEG",
+      "Perception & Vision"
+    ]
   },
   {
     "id": "pub-104",
