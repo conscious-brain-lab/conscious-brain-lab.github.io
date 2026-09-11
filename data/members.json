@@ -13,17 +13,17 @@
     "link": "Amsterdam, NL"
   },
   {
+    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
     "name": "Simon van Gaal",
-    "role": "Principal Investigator / Associate Professor",
+    "slug": "simon-van-gaal",
+    "order": 1,
     "status": "current",
+    "role": "Principal Investigator",
+    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html",
+    "image": "/assets/images/simon_van_gaal.jpg",
     "category": [
       "pi"
-    ],
-    "order": 1,
-    "slug": "simon-van-gaal",
-    "image": "/assets/images/simon_van_gaal.jpg",
-    "bio": "I am a cognitive neuroscientist working at the Brain and Cognition group (Department of Psychology) of the University of Amsterdam. In our lab we study the neural correlates of consciousness and the role of consciousness in cognitive control and decision-making using various neuroimaging techniques (e.g., high-density EEG, functional and structural MRI, MEG).",
-    "link": "https://www.uva.nl/profiel/g/a/s.vangaal/s.vangaal.html"
+    ]
   },
   {
     "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and the Brain and Cognition group at UvA. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
@@ -31,7 +31,7 @@
     "slug": "johannes-fahrenfort",
     "order": 2,
     "status": "current",
-    "role": "Principal Investigator / Assistant Professor",
+    "role": "Principal Investigator",
     "link": "https://research.vu.nl/en/persons/johannes-fahrenfort/",
     "image": "/assets/images/johannes_fahrenfort.jpg",
     "category": [
@@ -44,7 +44,7 @@
     "slug": "timo-stein",
     "order": 3,
     "status": "current",
-    "role": "Principal Investigator / Associate Professor",
+    "role": "Principal Investigator",
     "link": "https://timostein.net",
     "image": "/assets/images/timo_stein.jpg",
     "category": [
@@ -73,7 +73,7 @@
     "slug": "maartje-de-jong",
     "image": "/assets/images/maartje_de_jong.jpg",
     "bio": "I investigate how the brain transforms sensory input into meaningful visual perception, using MRI, scalp and intracranial EEG, and psychophysics. My research examines phenomena such as optical illusions, perceptual learning, ambiguous images, binocular rivalry, and face perception.",
-    "link": "https://www.spinozacentre.nl/persoon/maartje-de-jong/"
+    "link": "https://www.maartjedejong.com"
   },
   {
     "name": "Ana-Maria Barosan",
