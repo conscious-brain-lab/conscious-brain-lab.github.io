@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (bannerIndex !== -1) {
       const groupBanner = allMembers.splice(bannerIndex, 1)[0];
       const bannerImg = document.getElementById('team-group-photo');
-      if (bannerImg && groupBanner.image) {
+      if (bannerImg && groupBanner.image && bannerImg.getAttribute('src') !== groupBanner.image) {
         bannerImg.src = groupBanner.image;
       }
       const bannerTitle = document.getElementById('team-group-title');
