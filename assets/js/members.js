@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const rawHash = window.location.hash.replace('#', '').toLowerCase();
       if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
         setRoleFilter(rawHash, false);
-        setTimeout(() => scrollToSelector(false), 60);
+        setTimeout(() => scrollToMembers(false), 60);
       }
     }
   } catch (err) {
@@ -64,10 +64,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  function scrollToSelector(smooth = true) {
-    const controls = document.getElementById('member-controls') || document.querySelector('.member-controls');
-    if (controls) {
-      controls.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+  function scrollToMembers(smooth = true) {
+    const target = document.getElementById('members-grid') || document.getElementById('pi');
+    if (target) {
+      target.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
     }
   }
 
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
       setRoleFilter(rawHash, false);
       if (shouldScroll) {
-        setTimeout(() => scrollToSelector(true), 50);
+        setTimeout(() => scrollToMembers(true), 50);
       }
     }
   }
@@ -111,13 +111,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Also handle clicks on dropdown menu items to scroll smoothly even if the hash was already selected
   document.querySelectorAll('.dropdown-menu a').forEach(link => {
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (e) => {
       const href = link.getAttribute('href');
       if (href && href.includes('#')) {
         const hash = href.split('#')[1].toLowerCase();
         if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(hash)) {
+          e.preventDefault();
           setRoleFilter(hash, true);
-          scrollToSelector(true);
+          scrollToMembers(true);
         }
       }
     });

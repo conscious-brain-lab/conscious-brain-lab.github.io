@@ -577,6 +577,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Member Filter & Search Controls */
+.member-anchor,
+#members-grid {
+  scroll-margin-top: 140px;
+}
+
 .member-anchor {
   display: block;
   position: relative;
@@ -585,7 +590,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   border: 0;
   visibility: hidden;
-  scroll-margin-top: 140px;
 }
 
 .member-controls {
@@ -1206,7 +1210,8 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
   }
   .member-anchor,
-  .member-controls {
+  .member-controls,
+  #members-grid {
     scroll-margin-top: 85px;
   }
 }
