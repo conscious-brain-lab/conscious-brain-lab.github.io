@@ -13,8 +13,10 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../assets/css/style.css?v=20260905_mobile">
   <link rel="stylesheet" href="../assets/css/publications.css?v=20260905_mobile">
-  <!-- Preload Above-the-Fold Project Image -->
+  <!-- Preload Above-the-Fold Project Images (Top 3 Cards) -->
   <link rel="preload" as="image" href="/assets/images/project_conscious_unconscious.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="/assets/images/project_disorders.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="/assets/images/project_decision_making.jpg" fetchpriority="high">
 </head>
 <body>
   <!-- Global Header with Top Brand Bar and Main Navigation -->
@@ -120,7 +122,7 @@
         <!-- Project 3: Consciousness and decision making -->
         <article class="project-card">
           <div class="project-card-img-wrap">
-            <img src="/assets/images/project_decision_making.jpg" alt="Consciousness and decision making" class="project-card-img" loading="lazy" decoding="async" />
+            <img src="/assets/images/project_decision_making.jpg" alt="Consciousness and decision making" class="project-card-img" loading="eager" fetchpriority="high" decoding="async" />
           </div>
           <div class="project-card-body">
             <span class="tag tag-accent project-card-tag">Cognition &amp; Modeling</span>

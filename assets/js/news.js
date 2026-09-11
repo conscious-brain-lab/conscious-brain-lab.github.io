@@ -16,22 +16,24 @@ function isDirectVideoFile(url) {
   return clean.endsWith('.mp4') || clean.endsWith('.webm') || clean.endsWith('.mov') || clean.endsWith('.ogg');
 }
 
-function renderNewsMedia(item, title, imgPos) {
+function renderNewsMedia(item, title, imgPos, index = 0) {
   const videoSource = item.video || (isDirectVideoFile(item.image) || getYouTubeEmbedUrl(item.image) ? item.image : '');
   const ytEmbed = getYouTubeEmbedUrl(videoSource);
 
   if (ytEmbed) {
+    const iframeLoading = index < 3 ? 'eager' : 'lazy';
     return `
       <div class="news-card-video-wrap">
-        <iframe src="${ytEmbed}" title="${title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <iframe src="${ytEmbed}" title="${title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="${iframeLoading}"></iframe>
       </div>
     `;
   }
 
   if (isDirectVideoFile(videoSource)) {
+    const videoPreload = index < 3 ? 'auto' : 'metadata';
     return `
       <div class="news-card-video-wrap">
-        <video src="${videoSource}" controls playsinline preload="metadata" class="news-card-video"></video>
+        <video src="${videoSource}" controls playsinline preload="${videoPreload}" class="news-card-video"></video>
       </div>
     `;
   }
@@ -45,9 +47,15 @@ function renderNewsMedia(item, title, imgPos) {
       ? 'object-fit: contain; background: var(--bg-tertiary);'
       : `object-fit: cover; object-position: ${imgPos};`;
 
+    // Automatically prioritize top 3 cards (entire top row) on any screen
+    const isTopCard = index < 3;
+    const loadingAttrs = isTopCard
+      ? 'loading="eager" fetchpriority="high" decoding="async"'
+      : 'loading="lazy" decoding="async"';
+
     return `
       <div class="news-card-img-wrap">
-        <img src="${imgSrc}" alt="${title}" class="news-card-img ${isLogo ? 'news-card-logo' : ''}" data-type="${item.type || 'photo'}" style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
+        <img src="${imgSrc}" alt="${title}" class="news-card-img ${isLogo ? 'news-card-logo' : ''}" data-type="${item.type || 'photo'}" ${loadingAttrs} style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
       </div>
     `;
   }
@@ -75,14 +83,14 @@ async function initNews() {
       return dateB.localeCompare(dateA);
     });
 
-    newsGrid.innerHTML = newsItems.map(item => {
+    newsGrid.innerHTML = newsItems.map((item, index) => {
       const imgPos = item.position || 'center 20%';
       const title = item.title || 'News Update';
       const date = item.date || '';
       const text = item.text || '';
       const link = item.link || '';
 
-      const mediaHtml = renderNewsMedia(item, title, imgPos);
+      const mediaHtml = renderNewsMedia(item, title, imgPos, index);
 
       const linkHtml = link 
         ? `<div style="margin-top: 0.75rem;">

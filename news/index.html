@@ -13,8 +13,10 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../assets/css/style.css?v=20260905_clean">
   <link rel="stylesheet" href="../assets/css/publications.css?v=20260905_contain">
-  <!-- Preload Top News Story Image -->
+  <!-- Preload Top News Row Images (Top 3 Cards) -->
+  <link rel="preload" as="image" href="/assets/images/42349178-1730715493125-0b8ee178c5f51.jpg.webp" fetchpriority="high">
   <link rel="preload" as="image" href="/assets/images/news_nico.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="/assets/images/news_lola.jpg" fetchpriority="high">
 </head>
 <body>
   <header class="site-header">
@@ -114,7 +116,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_samuel.jpg" alt="Congratulations Samuel!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_samuel.jpg" alt="Congratulations Samuel!" class="news-card-img" loading="eager" fetchpriority="high" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">September 2024</span>

@@ -16,6 +16,46 @@ CONTENT_DIR = os.path.join(BASE_DIR, "content")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 
+def update_html_preloads(html_rel_path, image_urls, comment_label="Top Row Images"):
+    """Automatically synchronizes <link rel="preload"> in the given HTML file with the top images."""
+    html_path = os.path.join(BASE_DIR, html_rel_path)
+    if not os.path.exists(html_path) or not image_urls:
+        return
+    if isinstance(image_urls, str):
+        image_urls = [image_urls]
+
+    # Deduplicate and preserve order
+    valid_urls = []
+    for u in image_urls:
+        if u and isinstance(u, str) and u not in valid_urls:
+            valid_urls.append(u)
+
+    if not valid_urls:
+        return
+
+    try:
+        with open(html_path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        preload_tags = "\n".join([f'  <link rel="preload" as="image" href="{u}" fetchpriority="high">' for u in valid_urls])
+        replacement_block = f'  <!-- Preload {comment_label} -->\n{preload_tags}'
+
+        # Match existing preload comment (if any) and all consecutive image preload link tags
+        pattern = r'(?:[ \t]*<!-- Preload [^\n]*-->\n)?(?:[ \t]*<link rel="preload" as="image"[^\n]*>\n?)+'
+
+        if re.search(pattern, content):
+            new_content = re.sub(pattern, replacement_block + "\n", content, count=1)
+        else:
+            new_content = content.replace("</head>", f"{replacement_block}\n</head>")
+
+        if new_content != content:
+            with open(html_path, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print(f"Updated {html_rel_path} preload tags -> {valid_urls}")
+    except Exception as e:
+        print(f"Warning: Failed to update preloads in {html_rel_path}: {e}")
+
+
 def compile_news():
     folder_path = os.path.join(CONTENT_DIR, "news")
     if not os.path.exists(folder_path):
@@ -37,6 +77,18 @@ def compile_news():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
     print(f"Successfully compiled {len(items)} news items into {out_path}")
+
+    # Auto-synchronize the preload tags in news/index.html with the top 3 news items' images (entire top row)
+    top_news_imgs = []
+    for it in items:
+        img = it.get("image")
+        if img and isinstance(img, str) and not (img.endswith(".mp4") or "youtube" in img or "youtu.be" in img):
+            if img not in top_news_imgs:
+                top_news_imgs.append(img)
+                if len(top_news_imgs) == 3:
+                    break
+    if top_news_imgs:
+        update_html_preloads("news/index.html", top_news_imgs, "Top News Row Images (Top 3 Cards)")
 
 
 def compile_projects():
@@ -67,6 +119,18 @@ def compile_projects():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
     print(f"Successfully compiled {len(items)} project items into {out_path}")
+
+    # Auto-synchronize the preload tags in projects/index.html with the top 3 projects' images (entire top row)
+    top_proj_imgs = []
+    for p in items:
+        img = p.get("image")
+        if img and isinstance(img, str):
+            if img not in top_proj_imgs:
+                top_proj_imgs.append(img)
+                if len(top_proj_imgs) == 3:
+                    break
+    if top_proj_imgs:
+        update_html_preloads("projects/index.html", top_proj_imgs, "Above-the-Fold Project Images (Top 3 Cards)")
 
 
 def compile_members():

@@ -24,7 +24,7 @@ async function initProjects() {
       return (a.title || '').localeCompare(b.title || '');
     });
 
-    container.innerHTML = items.map(item => {
+    container.innerHTML = items.map((item, index) => {
       const title = item.title || '';
       const tag = item.tag ? `<span class="tag tag-accent project-card-tag">${item.tag}</span>` : '';
       const desc = item.description || '';
@@ -36,9 +36,15 @@ async function initProjects() {
         : 'object-fit: cover;';
       const wrapStyle = fit === 'contain' ? 'style="background: #ffffff;"' : '';
 
+      // Automatically prioritize top 3 cards (entire top row) on any screen
+      const isTopCard = index < 3;
+      const loadingAttrs = isTopCard
+        ? 'loading="eager" fetchpriority="high" decoding="async"'
+        : 'loading="lazy" decoding="async"';
+
       const imgHtml = img ? `
         <div class="project-card-img-wrap" ${wrapStyle}>
-          <img src="${img}" alt="${title}" class="project-card-img" style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
+          <img src="${img}" alt="${title}" class="project-card-img" ${loadingAttrs} style="${fitStyle}" onerror="this.parentElement.style.display='none';" />
         </div>
       ` : '';
 
