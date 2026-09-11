@@ -231,6 +231,35 @@ function openBioModal(slug) {
   const initial = member.name.charAt(0);
   const avatarHtml = member.image ? `<img src="${member.image}" alt="${member.name}" style="width:100px; height:100px; border-radius:50%; object-fit:cover; border:3px solid var(--accent-light);" />` : `<div style="width:100px; height:100px; border-radius:50%; background:var(--brand-gradient); color:#fff; display:flex; align-items:center; justify-content:center; font-size:2rem; font-weight:700;">${initial}</div>`;
 
+  const pubs = member.publications || [];
+  let pubsHtml = '';
+  if (pubs.length > 0) {
+    const listItems = pubs.map((p, idx) => {
+      const cleanCitation = (p.citation || '').replace(/&Amp;/g, '&amp;');
+      return `
+        <div class="modal-pub-item" style="font-size: 0.82rem; line-height: 1.55; color: var(--text-secondary); padding-bottom: 0.65rem; ${idx < pubs.length - 1 ? 'border-bottom: 1px dashed var(--border-color);' : ''}">
+          <div>${cleanCitation}</div>
+          ${p.url ? `<div style="margin-top: 0.25rem;"><a href="${p.url}" target="_blank" rel="noopener" style="color: var(--accent-primary); font-size: 0.78rem; font-weight: 500; text-decoration: none; display: inline-flex; align-items: center; gap: 0.25rem;">View paper &rarr;</a></div>` : ''}
+        </div>
+      `;
+    }).join('');
+
+    pubsHtml = `
+      <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.5rem 0 1.25rem 0;" />
+      <div class="modal-publications-section">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.85rem;">
+          <h4 style="font-size: 0.95rem; font-weight: 600; color: var(--text-primary); margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+            <span>Publications</span>
+            <span class="tag tag-accent" style="font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 9999px;">${pubs.length}</span>
+          </h4>
+        </div>
+        <div class="modal-publications-list" style="max-height: 250px; overflow-y: auto; padding-right: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+          ${listItems}
+        </div>
+      </div>
+    `;
+  }
+
   modal.innerHTML = `
     <div class="modal-box">
       <div class="modal-header">
@@ -244,9 +273,10 @@ function openBioModal(slug) {
         <button class="modal-close-btn" onclick="closeBioModal()">&times;</button>
       </div>
       <div style="margin: 1.5rem 0; line-height: 1.8; color: var(--text-secondary);">
-        ${member.bio.replace(/\n\n/g, '<br><br>')}
+        ${(member.bio || '').replace(/\n\n/g, '<br><br>')}
       </div>
-      <div style="display: flex; justify-content: space-between; align-items:center; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+      ${pubsHtml}
+      <div style="display: flex; justify-content: space-between; align-items:center; border-top: 1px solid var(--border-color); padding-top: 1rem; margin-top: 1.25rem;">
         ${member.link ? `<a href="${member.link}" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size:0.85rem;">University Profile &rarr;</a>` : '<span></span>'}
         <button class="btn btn-primary" onclick="closeBioModal()">Close</button>
       </div>
@@ -254,12 +284,13 @@ function openBioModal(slug) {
   `;
 
   modal.classList.add('open');
-  modal.addEventListener('click', (e) => {
+  modal.onclick = (e) => {
     if (e.target === modal) closeBioModal();
-  });
+  };
 }
 
 function closeBioModal() {
   const modal = document.getElementById('bio-modal');
   if (modal) modal.classList.remove('open');
 }
+

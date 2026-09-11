@@ -10,6 +10,7 @@ import os
 import glob
 import json
 import re
+import unicodedata
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(BASE_DIR, "content")
@@ -262,6 +263,65 @@ def compile_projects():
     update_html_grid("projects/index.html", r'<div class="projects-grid">', r'      </div>\s*</div>\s*</main>', render_project_cards(items))
 
 
+def normalize_text_ascii(text):
+    if not text or not isinstance(text, str):
+        return ""
+    return "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn").lower()
+
+
+def match_member_publications(member, pubs):
+    name = member.get("name", "").replace("★", "").strip()
+    if not name:
+        return []
+    parts = name.split()
+    if len(parts) == 1:
+        surname = parts[0]
+    else:
+        dutch_prefixes = {"van", "de", "den", "der", "ten", "ter", "von"}
+        surname_parts = []
+        for p in parts[1:]:
+            if p.lower() in dutch_prefixes or surname_parts:
+                surname_parts.append(p)
+        surname = " ".join(surname_parts) if surname_parts else parts[-1]
+
+    norm_surname = normalize_text_ascii(surname)
+    matched = []
+    for p in pubs:
+        cit = p.get("citation", "")
+        bib = p.get("bibtex", "")
+        norm_cit = normalize_text_ascii(cit)
+        norm_bib = normalize_text_ascii(bib)
+
+        # Match hyphenated surname (e.g. Canales-Johnson, Sánchez-Fuenzalida)
+        if "-" in norm_surname:
+            if re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_cit) or re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_bib):
+                matched.append(p)
+        # Match multi-word Dutch surname (e.g. van Gaal, de Jong)
+        elif " " in norm_surname:
+            if re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_cit) or re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_bib):
+                matched.append(p)
+        # Match single surname (e.g. Fahrenfort, Stein, Nuiten)
+        else:
+            pattern = r'(?<!-)\b' + re.escape(norm_surname) + r'\b'
+            if re.search(pattern, norm_cit) or re.search(pattern, norm_bib):
+                if norm_surname == "johnson":
+                    if re.search(r'\bjohnson,\s*p\b', norm_cit) or "philippa" in norm_bib:
+                        matched.append(p)
+                else:
+                    matched.append(p)
+
+    # Format lightweight summaries for the member profile
+    summaries = []
+    for p in matched:
+        summaries.append({
+            "id": p.get("id"),
+            "citation": p.get("citation", ""),
+            "url": p.get("paper_url") or p.get("doi") or p.get("preprint_url") or "",
+            "year": p.get("year_group", "")
+        })
+    return summaries
+
+
 def compile_members():
     folder_path = os.path.join(CONTENT_DIR, "members")
     if not os.path.exists(folder_path):
@@ -276,6 +336,23 @@ def compile_members():
 
     if not items:
         return
+
+    # Load publications to link them to members
+    pubs_path = os.path.join(DATA_DIR, "publications.json")
+    all_pubs = []
+    if os.path.exists(pubs_path):
+        try:
+            with open(pubs_path, "r", encoding="utf-8") as f:
+                all_pubs = json.load(f)
+        except Exception as e:
+            print(f"Warning: Failed to load publications for members: {e}")
+
+    for m in items:
+        if m.get("slug") == "lab-group-photo":
+            continue
+        matched_pubs = match_member_publications(m, all_pubs)
+        m["publications"] = matched_pubs
+        m["publication_count"] = len(matched_pubs)
 
     # Sort members: PIs first, current team, then alumni; by explicit order, then name
     cat_order = {"header": 0, "pi": 1, "postdoc": 2, "phd": 3, "ra": 4, "visiting": 5}
@@ -310,7 +387,7 @@ def compile_members():
     out_path = os.path.join(DATA_DIR, "members.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
-    print(f"Successfully compiled {len(items)} members into {out_path}")
+    print(f"Successfully compiled {len(items)} members into {out_path} (linked publications)")
 
     # Auto-synchronize the group banner photo in members/index.html
     banner = next((m for m in items if m.get("slug") == "lab-group-photo" or "header" in m.get("category", []) or "Group Photo" in str(m.get("name", ""))), None)
@@ -437,8 +514,8 @@ def main():
     print("Compiling CMS content collections...")
     compile_news()
     compile_projects()
-    compile_members()
     compile_publications()
+    compile_members()
     compile_impressions()
     print("Content compilation complete.")
 

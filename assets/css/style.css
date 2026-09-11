@@ -1081,6 +1081,25 @@ h1, h2, h3, h4, h5, h6 {
   animation: modalScale 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.modal-publications-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-publications-list::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+  border-radius: 3px;
+}
+
+.modal-publications-list::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+.modal-publications-list::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+
 .modal-header {
   display: flex;
   justify-content: space-between;
