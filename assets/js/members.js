@@ -9,6 +9,7 @@ let memberSearchQuery = '';
 
 document.addEventListener('DOMContentLoaded', async () => {
   const container = document.getElementById('members-grid');
+  if (!container) return;
   const searchInput = document.getElementById('member-search-input');
   const filterBtns = document.querySelectorAll('.member-filter-btn');
 
@@ -113,8 +114,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.querySelectorAll('.dropdown-menu a').forEach(link => {
     link.addEventListener('click', (e) => {
       const href = link.getAttribute('href');
-      if (href && href.includes('#')) {
-        const hash = href.split('#')[1].toLowerCase();
+      if (href && href.startsWith('#')) {
+        const hash = href.replace('#', '').toLowerCase();
         if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(hash)) {
           e.preventDefault();
           setRoleFilter(hash, true);
