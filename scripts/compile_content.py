@@ -41,7 +41,7 @@ def update_html_preloads(html_rel_path, image_urls, comment_label="Top Row Image
         replacement_block = f'  <!-- Preload {comment_label} -->\n{preload_tags}'
 
         # Match existing preload comment (if any) and all consecutive image preload link tags
-        pattern = r'(?:[ \t]*<!-- Preload [^\n]*-->\n)?(?:[ \t]*<link rel="preload" as="image"[^\n]*>\n?)+'
+        pattern = r'(?:[ \t]*<!-- (?:Preload|Prioritize) [^\n]*-->\n)?(?:[ \t]*<link rel="preload" as="image"[^\n]*>\n?)+'
 
         if re.search(pattern, content):
             new_content = re.sub(pattern, replacement_block + "\n", content, count=1)
@@ -182,6 +182,27 @@ def compile_members():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
     print(f"Successfully compiled {len(items)} members into {out_path}")
+
+    # Auto-synchronize the group banner photo in members/index.html
+    banner = next((m for m in items if m.get("slug") == "lab-group-photo" or "header" in m.get("category", []) or "Group Photo" in str(m.get("name", ""))), None)
+    if banner and banner.get("image"):
+        banner_img = banner.get("image")
+        update_html_preloads("members/index.html", [banner_img], "Lab Overview Photo")
+
+        # Also update the static <img id="team-group-photo" src="..."> in members/index.html
+        html_path = os.path.join(BASE_DIR, "members/index.html")
+        if os.path.exists(html_path):
+            try:
+                with open(html_path, "r", encoding="utf-8") as f:
+                    html_content = f.read()
+
+                new_html = re.sub(r'(<img\s+id="team-group-photo"[^>]*\ssrc=")[^"]*(")', r'\g<1>' + banner_img + r'\2', html_content)
+                if new_html != html_content:
+                    with open(html_path, "w", encoding="utf-8") as f:
+                        f.write(new_html)
+                    print(f"Updated members/index.html #team-group-photo src -> {banner_img}")
+            except Exception as e:
+                print(f"Warning: Failed to update team-group-photo in members/index.html: {e}")
 
 
 def compile_publications():
