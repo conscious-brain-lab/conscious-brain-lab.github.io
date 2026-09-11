@@ -11,6 +11,8 @@ import glob
 import json
 import re
 import unicodedata
+import html
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(BASE_DIR, "content")
@@ -263,6 +265,144 @@ def compile_projects():
     update_html_grid("projects/index.html", r'<div class="projects-grid">', r'      </div>\s*</div>\s*</main>', render_project_cards(items))
 
 
+def clean_bib_val(val):
+    if not val:
+        return ""
+    val = re.sub(r"\s+", " ", str(val)).strip()
+    val = val.replace("{", "").replace("}", "")
+    return val
+
+
+def parse_bibtex(raw):
+    if not raw or not isinstance(raw, str) or not raw.strip().startswith("@"):
+        return None
+    first_brace = raw.find("{")
+    if first_brace == -1:
+        return None
+    first_comma = raw.find(",", first_brace)
+    if first_comma == -1:
+        return None
+    body = raw[first_comma + 1:]
+    fields = {}
+    pattern = re.compile(r'([a-zA-Z_\-]+)\s*=\s*(?:\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}|\"([^\"]*)\"|([a-zA-Z0-9_\-]+))', re.DOTALL)
+    for m in pattern.finditer(body):
+        k = m.group(1).lower()
+        v = m.group(2) if m.group(2) is not None else (m.group(3) if m.group(3) is not None else m.group(4))
+        if v:
+            fields[k] = clean_bib_val(v)
+    return fields
+
+
+def format_author_apa(a):
+    a = a.strip()
+    if "," in a:
+        parts = [p.strip() for p in a.split(",", 1)]
+        last = parts[0]
+        given = parts[1].split()
+        inits = " ".join(g[0].upper() + "." for g in given if g)
+        return f"{last}, {inits}" if inits else last
+    parts = a.split()
+    if len(parts) == 1:
+        return parts[0]
+    dutch = {"van", "de", "den", "der", "ten", "ter", "von"}
+    if len(parts) >= 3 and parts[-2].lower() in dutch:
+        last = " ".join(parts[-2:])
+        inits = " ".join(p[0].upper() + "." for p in parts[:-2] if p)
+        return f"{last}, {inits}" if inits else last
+    last = parts[-1]
+    inits = " ".join(p[0].upper() + "." for p in parts[:-1] if p)
+    return f"{last}, {inits}" if inits else last
+
+
+def format_authors_apa(raw_authors):
+    if not raw_authors:
+        return ""
+    authors = [a.strip() for a in re.split(r"\s+and\s+", raw_authors, flags=re.I) if a.strip()]
+    if not authors:
+        return ""
+    formatted = [format_author_apa(a) for a in authors]
+    if len(formatted) == 1:
+        return formatted[0]
+    elif len(formatted) == 2:
+        return f"{formatted[0]}, & {formatted[1]}"
+    elif len(formatted) <= 20:
+        main_part = ", ".join(formatted[:-1])
+        return f"{main_part}, & {formatted[-1]}"
+    else:
+        main_part = ", ".join(formatted[:19])
+        return f"{main_part}, … {formatted[-1]}"
+
+
+def format_pub_apa_html(pub):
+    b = parse_bibtex(pub.get("bibtex", ""))
+    journal = (b.get("journal") or b.get("journaltitle") or b.get("booktitle") or "").strip() if b else ""
+    publisher = (b.get("publisher") or "").strip() if b else ""
+
+    # Only use BibTeX formatter if we have real journal/publisher metadata and not dummy journal
+    if b and (publisher or (journal and journal.lower() != "conscious brain lab publications")):
+        authors = format_authors_apa(b.get("author", ""))
+        yr = b.get("year", "")
+        year_str = f"({yr})." if yr else ""
+        title = (b.get("title") or "").strip()
+        if title and not title.endswith((".", "!", "?")):
+            title += "."
+        volume = (b.get("volume") or "").strip()
+        issue = (b.get("number") or b.get("issue") or "").strip()
+        pages = (b.get("pages") or "").strip().replace("--", "–")
+
+        pub_details = ""
+        if journal and journal.lower() != "conscious brain lab publications":
+            pub_details = f"<em>{html.escape(journal)}</em>"
+            if volume:
+                pub_details += f", <em>{html.escape(volume)}</em>"
+                if issue:
+                    pub_details += f"({html.escape(issue)})"
+            elif issue:
+                pub_details += f"({html.escape(issue)})"
+            if pages:
+                pub_details += f", {html.escape(pages)}"
+            if not pub_details.endswith("."):
+                pub_details += "."
+        elif publisher:
+            pub_details = f"<em>{html.escape(publisher)}</em>."
+
+        if authors or title:
+            parts = [p for p in [authors, year_str, title, pub_details] if p]
+            res = " ".join(parts)
+            res = res.replace("&amp;amp;", "&amp;").replace("&Amp;", "&amp;")
+            return res
+
+    # Fallback to citation string with journal italicization
+    cit = pub.get("citation", "").strip()
+    cit = re.sub(r"\s*\b(?:CLOCKSS|LOCKSS)\b\.?\s*$", "", cit)
+    cit = cit.replace("<i>", "<em>").replace("</i>", "</em>")
+    if cit and not cit.endswith("."):
+        cit += "."
+
+    common = [
+        "Nature Human Behavior", "Nature Human Behaviour", "Nature Neuroscience", "Nature Communications", "Nature",
+        "The Journal of Neuroscience", "Journal of Neuroscience Methods", "Journal of Cognitive Neuroscience", "Journal of Neuroscience", "Journal of Vision", "Journal of Neurology",
+        "Trends in Cognitive Sciences", "Trends in Neurosciences",
+        "Philosophical Transactions of the Royal Society: B", "Philosophical Transactions of the Royal Society B",
+        "Consciousness and Cognition", "Communications Biology", "Communications Psychology",
+        "PLOS Biology", "PLOS Computational Biology", "PLOS ONE", "PLoS ONE",
+        "NeuroImage: Clinical", "Neuroimage: Reports", "NeuroImage", "Neuroimage",
+        "Frontiers in Human Neuroscience", "Frontiers in Neuroscience", "Frontiers in Psychology",
+        "Front. Hum. Neurosci.", "eNeuro", "eLife", "Cerebral Cortex", "Current Biology", "Behavioral and Brain Sciences",
+        "Neuroscience and Biobehavioral Reviews", "Neuroscience & Biobehavioral Reviews", "Neuroscience &amp; Biobehavioral Reviews", "Neuroscience of Consciousness",
+        "Cognitive Neuroscience", "Attention, Perception, & Psychophysics", "Psychological Science", "Cognition", "Brain",
+        "Neuropsychologia", "Scientific Reports", "Radboud University"
+    ]
+    for j in common:
+        pattern = r"(?<!\w)" + re.escape(j) + r"(?!\w)"
+        if re.search(pattern, cit):
+            cit = re.sub(pattern, f"<em>{j}</em>", cit, count=1)
+            break
+
+    cit = cit.replace("&amp;amp;", "&amp;").replace("&Amp;", "&amp;")
+    return cit
+
+
 def normalize_text_ascii(text):
     if not text or not isinstance(text, str):
         return ""
@@ -316,10 +456,12 @@ def match_member_publications(member, pubs):
         summaries.append({
             "id": p.get("id"),
             "citation": p.get("citation", ""),
+            "citation_html": p.get("citation_html") or format_pub_apa_html(p),
             "url": p.get("paper_url") or p.get("doi") or p.get("preprint_url") or "",
             "year": p.get("year_group", "")
         })
     return summaries
+
 
 
 def compile_members():
@@ -426,10 +568,12 @@ def compile_publications():
     if not items:
         return
 
-    # Sort topics alphabetically and sort publications by preprint/year descending
+    # Sort topics alphabetically, generate formatted APA HTML, and sort publications
     for p in items:
         if isinstance(p.get("topics"), list):
             p["topics"] = sorted(p["topics"], key=lambda x: str(x).lower())
+        p["citation_html"] = format_pub_apa_html(p)
+
 
     def pub_sort_key(p):
         yg = str(p.get("year_group", "")).strip()
