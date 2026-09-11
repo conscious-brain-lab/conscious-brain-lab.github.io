@@ -45,7 +45,7 @@
     "order": 3,
     "status": "current",
     "role": "Principal Investigator / Associate Professor",
-    "link": "https://www.uva.nl/profiel/s/t/t.stein/t.stein.html",
+    "link": "https://timostein.net",
     "image": "/assets/images/timo_stein.jpg",
     "category": [
       "pi"
@@ -73,7 +73,7 @@
     "slug": "maartje-de-jong",
     "image": "/assets/images/maartje_de_jong.jpg",
     "bio": "I investigate how the brain transforms sensory input into meaningful visual perception, using MRI, scalp and intracranial EEG, and psychophysics. My research examines phenomena such as optical illusions, perceptual learning, ambiguous images, binocular rivalry, and face perception.",
-    "link": ""
+    "link": "https://www.spinozacentre.nl/persoon/maartje-de-jong/"
   },
   {
     "name": "Ana-Maria Barosan",
@@ -85,7 +85,7 @@
     "slug": "ana-maria-barosan",
     "image": "/assets/images/ana_maria_barosan.jpg",
     "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal and Timo Stein. I investigate how arousal shapes perceptual decision-making using fMRI, EEG, psychophysics, pupillometry, and pharmacological methods.",
-    "link": ""
+    "link": "https://www.uva.nl/en/profile/b/a/a.m.barosan/a.m.barosan.html"
   },
   {
     "name": "Margot Steijger",
@@ -97,7 +97,7 @@
     "slug": "margot-steijger",
     "image": "/assets/images/margot_steijger.jpg",
     "bio": "I joined the Conscious Brain Lab as a PhD candidate, supported by an ERC Consolidator Grant. My research investigates how arousal shapes performance and conscious perception, using behavioural, pupillometric, neural, and physiological measures.",
-    "link": ""
+    "link": "https://www.uva.nl/profiel/s/t/m.c.e.steijger/m.c.e.steijger.html"
   },
   {
     "name": "Sean van Mil",
@@ -109,7 +109,7 @@
     "slug": "sean-van-mil",
     "image": "/assets/images/sean_van_mil.jpg",
     "bio": "I am a PhD candidate in the Conscious Brain Lab, supervised by Simon van Gaal and supported by an ERC Consolidator Grant. Building on research at the University of Cambridge, I investigate how arousal shapes decision-making, performance, and conscious perception.",
-    "link": ""
+    "link": "https://www.uva.nl/en/profile/m/i/s.d.van-mil/s.d.van-mil.html"
   },
   {
     "name": "Vlada Aslanov",
@@ -121,7 +121,7 @@
     "slug": "vlada-aslanov",
     "image": "/assets/images/vlada_aslanov.jpg",
     "bio": "I started my PhD in Cognitive Psychology at Vrije Universiteit Amsterdam in November 2023, supervised by Johannes Fahrenfort. My research investigates the neural basis of phenomenological control, including how post-hypnotic suggestions can interrupt automatic processing.",
-    "link": ""
+    "link": "https://research.vu.nl/en/persons/vlada-aslanov/"
   },
   {
     "name": "Andres Canales-Johnson",
@@ -157,7 +157,7 @@
     "slug": "jolien-francken",
     "image": "/assets/images/jolien_francken.jpg",
     "bio": "Former postdoc in the lab, now Assistant Professor at Radboud University Nijmegen. Studies the relationship between language, perception, and consciousness.",
-    "link": "https://www.ru.nl"
+    "link": "https://jolienfrancken.com"
   },
   {
     "name": "Jun Jiang",
@@ -194,7 +194,7 @@
     "slug": "nicolas-sanchez-fuenzalida",
     "image": "/assets/images/nicolas_sanchez.jpg",
     "bio": "I completed my PhD at the Conscious Brain Lab, investigating consciousness and decision thresholds using behavioural and physiological methods. I subsequently worked as a postdoctoral researcher at Vrije Universiteit Amsterdam, developing a statistical framework for establishing unconscious cognition.",
-    "link": ""
+    "link": "https://scholar.google.com/citations?user=2oxkW38AAAAJ&hl=en"
   },
   {
     "name": "Camile Correa",
