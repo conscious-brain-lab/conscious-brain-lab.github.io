@@ -1104,6 +1104,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-primary);
 }
 
+.pub-inline-icon {
+  opacity: 0.8;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.pub-inline-icon:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+
 
 
 .modal-header {
