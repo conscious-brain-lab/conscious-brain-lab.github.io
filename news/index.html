@@ -13,6 +13,8 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="../assets/css/style.css?v=20260905_clean">
   <link rel="stylesheet" href="../assets/css/publications.css?v=20260905_contain">
+  <!-- Preload Top News Story Image -->
+  <link rel="preload" as="image" href="/assets/images/news_nico.jpg" fetchpriority="high">
 </head>
 <body>
   <header class="site-header">
@@ -90,7 +92,7 @@
         
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_nico.jpg" alt="Congratulations Nico!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_nico.jpg" alt="Congratulations Nico!" class="news-card-img" loading="eager" fetchpriority="high" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">May 2025</span>
@@ -101,7 +103,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_lola.jpg" alt="Congratulations Lola!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_lola.jpg" alt="Congratulations Lola!" class="news-card-img" loading="eager" fetchpriority="high" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">April 2025</span>
@@ -112,7 +114,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_samuel.jpg" alt="Congratulations Samuel!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_samuel.jpg" alt="Congratulations Samuel!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">September 2024</span>
@@ -123,7 +125,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_stijn.jpg" alt="Congratulations Stijn!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_stijn.jpg" alt="Congratulations Stijn!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">April 2024</span>
@@ -134,7 +136,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/1713272486650.jpeg" alt="Johannes Receives Faculty's Open Science Award" class="news-card-img" style="object-fit: cover; object-position: center;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/1713272486650.jpeg" alt="Johannes Receives Faculty's Open Science Award" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">March 2024</span>
@@ -146,7 +148,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_simon_nrc.png" alt="Simon Interviewed for Dutch Newspaper" class="news-card-img news-card-logo" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_simon_nrc.png" alt="Simon Interviewed for Dutch Newspaper" class="news-card-img news-card-logo" loading="lazy" decoding="async" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">March 2024</span>
@@ -157,7 +159,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_tv_proefkonijnen.jpg" alt="Johannes Interviewed for Kids TV 'Proefkonijnen'" class="news-card-img news-card-logo" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_tv_proefkonijnen.jpg" alt="Johannes Interviewed for Kids TV 'Proefkonijnen'" class="news-card-img news-card-logo" loading="lazy" decoding="async" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">October 2023</span>
@@ -169,7 +171,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/pnas_logo.png" alt="Two PNAS Publications in One Year" class="news-card-img news-card-logo" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/pnas_logo.png" alt="Two PNAS Publications in One Year" class="news-card-img news-card-logo" loading="lazy" decoding="async" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">November 2022</span>
@@ -181,7 +183,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_erc.png" alt="Simon Receives an ERC Consolidator Grant" class="news-card-img news-card-logo" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_erc.png" alt="Simon Receives an ERC Consolidator Grant" class="news-card-img news-card-logo" loading="lazy" decoding="async" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">September 2022</span>
@@ -193,7 +195,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/jtf-logo-primary-cmyk.jpg" alt="Johannes Receives Templeton ARC Grant" class="news-card-img news-card-logo" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/jtf-logo-primary-cmyk.jpg" alt="Johannes Receives Templeton ARC Grant" class="news-card-img news-card-logo" loading="lazy" decoding="async" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">August 2022</span>
@@ -205,7 +207,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/assclogo.png" alt="The Conscious Brain Lab Organizes ASSC 25" class="news-card-img news-card-logo" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/assclogo.png" alt="The Conscious Brain Lab Organizes ASSC 25" class="news-card-img news-card-logo" loading="lazy" decoding="async" style="object-fit: contain; background: var(--bg-tertiary);" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">July 2022</span>
@@ -228,7 +230,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_josipa.jpg" alt="Congratulations Josipa!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_josipa.jpg" alt="Congratulations Josipa!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">July 2021</span>
@@ -239,7 +241,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_valeria.jpg" alt="Congratulations to Valeria!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_valeria.jpg" alt="Congratulations to Valeria!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">January 2020</span>
@@ -250,7 +252,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_maartje.jpg" alt="ABC Grant for Maartje de Jong: New CBL Member!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_maartje.jpg" alt="ABC Grant for Maartje de Jong: New CBL Member!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">May 2019</span>
@@ -262,7 +264,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_erik.jpg" alt="Congratulations to Erik!" class="news-card-img" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_erik.jpg" alt="Congratulations to Erik!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 15%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">March 2019</span>
@@ -273,7 +275,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/camile_defense.jpg" alt="Congratulations to Camile!" class="news-card-img" style="object-fit: cover; object-position: center center;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/camile_defense.jpg" alt="Congratulations to Camile!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center center;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">November 2018</span>
@@ -284,7 +286,7 @@
     
       <article class="news-card">
         <div class="news-card-img-wrap">
-          <img src="/assets/images/news_krakow.jpeg" alt="ASSC 20 in Krakow!" class="news-card-img" style="object-fit: cover; object-position: center 20%;" onerror="this.parentElement.style.display='none';" />
+          <img src="/assets/images/news_krakow.jpeg" alt="ASSC 20 in Krakow!" class="news-card-img" loading="lazy" decoding="async" style="object-fit: cover; object-position: center 20%;" onerror="this.parentElement.style.display='none';" />
         </div>
         <div class="news-card-body">
           <span class="news-card-date">July 2016</span>
