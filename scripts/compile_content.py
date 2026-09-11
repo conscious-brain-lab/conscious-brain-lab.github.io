@@ -56,6 +56,98 @@ def update_html_preloads(html_rel_path, image_urls, comment_label="Top Row Image
         print(f"Warning: Failed to update preloads in {html_rel_path}: {e}")
 
 
+def update_html_grid(html_rel_path, start_pattern, end_pattern, cards_html):
+    """Synchronizes static HTML cards container with newly compiled items to eliminate layout shift."""
+    html_path = os.path.join(BASE_DIR, html_rel_path)
+    if not os.path.exists(html_path):
+        return
+    try:
+        with open(html_path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        pattern = re.compile(f'({start_pattern})(.*?)({end_pattern})', re.DOTALL)
+        m = pattern.search(content)
+        if m:
+            replacement = m.group(1) + "\n" + cards_html + "\n" + m.group(3)
+            new_content = content[:m.start()] + replacement + content[m.end():]
+            if new_content != content:
+                with open(html_path, "w", encoding="utf-8") as f:
+                    f.write(new_content)
+                print(f"Synchronized static grid in {html_rel_path}")
+    except Exception as e:
+        print(f"Warning: Failed to update grid in {html_rel_path}: {e}")
+
+
+def get_youtube_embed_url(url):
+    if not url or not isinstance(url, str):
+        return ""
+    m = re.search(r'(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})', url)
+    return f"https://www.youtube-nocookie.com/embed/{m.group(1)}" if m else ""
+
+
+def is_direct_video_file(url):
+    if not url or not isinstance(url, str):
+        return False
+    clean = url.split("?")[0].lower()
+    return clean.endswith((".mp4", ".webm", ".mov", ".ogg"))
+
+
+def render_news_cards(items):
+    cards = []
+    for index, item in enumerate(items):
+        title = item.get("title") or "News Update"
+        date = item.get("date") or ""
+        text = item.get("text") or ""
+        link = item.get("link") or ""
+        img_pos = item.get("position") or "center 20%"
+
+        video_source = item.get("video") or ""
+        img_src = item.get("image") or ""
+        if not video_source and (is_direct_video_file(img_src) or get_youtube_embed_url(img_src)):
+            video_source = img_src
+
+        yt_embed = get_youtube_embed_url(video_source)
+        if yt_embed:
+            iframe_loading = "eager" if index < 3 else "lazy"
+            media_html = f'''        <div class="news-card-video-wrap">
+          <iframe src="{yt_embed}" title="{title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="{iframe_loading}"></iframe>
+        </div>'''
+        elif is_direct_video_file(video_source):
+            video_preload = "auto" if index < 3 else "metadata"
+            media_html = f'''        <div class="news-card-video-wrap">
+          <video src="{video_source}" controls playsinline preload="{video_preload}" class="news-card-video"></video>
+        </div>'''
+        elif img_src:
+            is_logo = item.get("type") == "logo" or item.get("fit") == "contain" or item.get("position") == "contain"
+            logo_class = " news-card-logo" if is_logo else ""
+            fit_style = "object-fit: contain; background: var(--bg-tertiary);" if is_logo else f"object-fit: cover; object-position: {img_pos};"
+            loading_attrs = 'loading="eager" fetchpriority="high" decoding="async"' if index < 3 else 'loading="lazy" decoding="async"'
+            item_type = item.get("type", "photo")
+            media_html = f'''        <div class="news-card-img-wrap">
+          <img src="{img_src}" alt="{title}" class="news-card-img{logo_class}" data-type="{item_type}" {loading_attrs} style="{fit_style}" onerror="this.parentElement.style.display='none';" />
+        </div>'''
+        else:
+            media_html = ""
+
+        date_html = f'\n          <span class="news-card-date">{date}</span>' if date else ""
+        link_html = f'''\n          <div style="margin-top: 0.75rem;">
+            <a href="{link}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">
+              Read More &rarr;
+            </a>
+          </div>''' if link else ""
+
+        media_block = f'\n{media_html}' if media_html else ""
+
+        card_str = f'''      <article class="news-card">{media_block}
+        <div class="news-card-body">{date_html}
+          <h3 class="news-card-title">{title}</h3>
+          <p class="news-card-desc">{text}</p>{link_html}
+        </div>
+      </article>'''
+        cards.append(card_str)
+    return "\n\n".join(cards)
+
+
 def compile_news():
     folder_path = os.path.join(CONTENT_DIR, "news")
     if not os.path.exists(folder_path):
@@ -89,6 +181,40 @@ def compile_news():
                     break
     if top_news_imgs:
         update_html_preloads("news/index.html", top_news_imgs, "Top News Row Images (Top 3 Cards)")
+
+    # Auto-synchronize static fallback news grid
+    update_html_grid("news/index.html", r'<div class="news-grid">', r'      </div>\s*</div>\s*</main>', render_news_cards(items))
+
+
+def render_project_cards(items):
+    cards = []
+    for index, item in enumerate(items):
+        title = item.get("title") or ""
+        tag = item.get("tag") or ""
+        desc = item.get("description") or ""
+        img = item.get("image") or ""
+        slug = item.get("slug") or ""
+        fit = "contain" if item.get("fit") == "contain" else "cover"
+        fit_style = "object-fit: contain; padding: 1.5rem;" if fit == "contain" else "object-fit: cover;"
+        wrap_style = ' style="background: #ffffff;"' if fit == "contain" else ""
+
+        loading_attrs = 'loading="eager" fetchpriority="high" decoding="async"' if index < 3 else 'loading="lazy" decoding="async"'
+
+        img_html = f'''        <div class="project-card-img-wrap"{wrap_style}>
+          <img src="{img}" alt="{title}" class="project-card-img" {loading_attrs} style="{fit_style}" onerror="this.parentElement.style.display='none';" />
+        </div>\n''' if img else ""
+
+        tag_html = f'<span class="tag tag-accent project-card-tag">{tag}</span>\n            ' if tag else ""
+        desc_p = desc.replace("\n\n", '</p><p class="project-card-desc">')
+
+        card_str = f'''      <article class="project-card" id="project-{slug}">
+{img_html}        <div class="project-card-body">
+            {tag_html}<h2 class="project-card-title">{title}</h2>
+            <p class="project-card-desc">{desc_p}</p>
+          </div>
+        </article>'''
+        cards.append(card_str)
+    return "\n\n".join(cards)
 
 
 def compile_projects():
@@ -131,6 +257,9 @@ def compile_projects():
                     break
     if top_proj_imgs:
         update_html_preloads("projects/index.html", top_proj_imgs, "Above-the-Fold Project Images (Top 3 Cards)")
+
+    # Auto-synchronize static fallback projects grid
+    update_html_grid("projects/index.html", r'<div class="projects-grid">', r'      </div>\s*</div>\s*</main>', render_project_cards(items))
 
 
 def compile_members():
@@ -241,6 +370,40 @@ def compile_publications():
     print(f"Successfully compiled {len(items)} publications into {out_path}")
 
 
+def render_impression_cards(items):
+    cards = []
+    for index, item in enumerate(items):
+        title = item.get("title") or ""
+        tag = item.get("tag") or ""
+        date = item.get("date") or ""
+        image = item.get("image") or ""
+        description = item.get("description") or ""
+        slug = item.get("slug") or ""
+
+        loading_attrs = 'loading="eager" fetchpriority="high" decoding="async"' if index < 3 else 'loading="lazy" decoding="async"'
+
+        img_html = f'''          <div style="width: 100%; height: 280px; overflow: hidden; background: var(--bg-tertiary);">
+            <img src="{image}" alt="{title}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" {loading_attrs} onerror="this.parentElement.style.display='none';" />
+          </div>''' if image else ""
+
+        tag_html = f'<span class="tag tag-accent">{tag}</span>' if tag else '<span></span>'
+        date_html = f'\n              <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">{date}</span>' if date else ""
+
+        img_block = f'\n{img_html}' if img_html else ""
+
+        card_str = f'''      <article class="card" style="padding: 0; overflow: hidden; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);" id="impression-{slug}">{img_block}
+        <div style="padding: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.5rem;">
+            {tag_html}{date_html}
+          </div>
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.3rem;">{title}</h3>
+          <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">{description}</p>
+        </div>
+      </article>'''
+        cards.append(card_str)
+    return "\n\n".join(cards)
+
+
 def compile_impressions():
     file_path = os.path.join(DATA_DIR, "impressions.json")
     if not os.path.exists(file_path):
@@ -262,8 +425,11 @@ def compile_impressions():
                         break
         if top_imp_imgs:
             update_html_preloads("lab-and-campus-impressions/index.html", top_imp_imgs, "Above-the-Fold Impression Images (Top 3 Cards)")
+
+        # Auto-synchronize static fallback impressions grid
+        update_html_grid("lab-and-campus-impressions/index.html", r'<div class="grid-2"[^>]*id="impressions-grid">', r'      </div>\s*</div>\s*</main>', render_impression_cards(items))
     except Exception as e:
-        print(f"Warning: Failed to compile impressions preloads: {e}")
+        print(f"Warning: Failed to compile impressions: {e}")
 
 
 def main():
