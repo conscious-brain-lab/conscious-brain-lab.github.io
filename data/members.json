@@ -39,17 +39,17 @@
     ]
   },
   {
+    "bio": "I am a co-PI of the Conscious Brain Lab at the University of Amsterdam, together with Johannes Fahrenfort and Simon van Gaal. Before joining the Brain and Cognition group in 2016, I completed a PhD at the Berlin School of Mind and Brain and a postdoctoral fellowship at the University of Trento, following studies in psychology and cognitive neuroscience in Mainz, Munich, and Princeton.",
     "name": "Timo Stein",
-    "role": "Principal Investigator / Associate Professor",
+    "slug": "timo-stein",
+    "order": 3,
     "status": "current",
+    "role": "Principal Investigator / Associate Professor",
+    "link": "https://www.uva.nl/profiel/s/t/t.stein/t.stein.html",
+    "image": "/assets/images/timo_stein.jpg",
     "category": [
       "pi"
-    ],
-    "order": 3,
-    "slug": "timo-stein",
-    "image": "/assets/images/timo_stein.jpg",
-    "bio": "Before joining the Brain and Cognition group at UvA, I was an assistant professor at the University of Trento and a postdoctoral fellow at the Max Planck Institute in Frankfurt. My research focuses on visual awareness, face and object recognition, and the dynamics of unconscious processing.",
-    "link": "https://www.uva.nl/profiel/s/t/t.stein/t.stein.html"
+    ]
   },
   {
     "name": "Ivan Ivanchei",
@@ -72,7 +72,7 @@
     ],
     "slug": "maartje-de-jong",
     "image": "/assets/images/maartje_de_jong.jpg",
-    "bio": "Postdoctoral researcher studying visual perception, bistable perception, and how neural representations transition into subjective conscious experience.",
+    "bio": "I investigate how the brain transforms sensory input into meaningful visual perception, using MRI, scalp and intracranial EEG, and psychophysics. My research examines phenomena such as optical illusions, perceptual learning, ambiguous images, binocular rivalry, and face perception.",
     "link": ""
   },
   {
@@ -84,7 +84,7 @@
     ],
     "slug": "ana-maria-barosan",
     "image": "/assets/images/ana_maria_barosan.jpg",
-    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal. My research investigates how consciousness unfolds in time and space using advanced EEG and behavioral paradigms.",
+    "bio": "I started my PhD at the Conscious Brain Lab in September 2024, supervised by Simon van Gaal and Timo Stein. I investigate how arousal shapes perceptual decision-making using fMRI, EEG, psychophysics, pupillometry, and pharmacological methods.",
     "link": ""
   },
   {
@@ -96,7 +96,7 @@
     ],
     "slug": "margot-steijger",
     "image": "/assets/images/margot_steijger.jpg",
-    "bio": "PhD candidate in the Conscious Brain Lab investigating conscious and unconscious cognitive control and decision making.",
+    "bio": "I joined the Conscious Brain Lab as a PhD candidate, supported by an ERC Consolidator Grant. My research investigates how arousal shapes performance and conscious perception, using behavioural, pupillometric, neural, and physiological measures.",
     "link": ""
   },
   {
@@ -108,7 +108,7 @@
     ],
     "slug": "sean-van-mil",
     "image": "/assets/images/sean_van_mil.jpg",
-    "bio": "PhD candidate exploring neural mechanisms of perception and consciousness using EEG and computational modeling.",
+    "bio": "I am a PhD candidate in the Conscious Brain Lab, supervised by Simon van Gaal and supported by an ERC Consolidator Grant. Building on research at the University of Cambridge, I investigate how arousal shapes decision-making, performance, and conscious perception.",
     "link": ""
   },
   {
@@ -120,7 +120,7 @@
     ],
     "slug": "vlada-aslanov",
     "image": "/assets/images/vlada_aslanov.jpg",
-    "bio": "PhD candidate investigating the neural basis of subjective experience, metacognition, and perceptual confidence.",
+    "bio": "I started my PhD in Cognitive Psychology at Vrije Universiteit Amsterdam in November 2023, supervised by Johannes Fahrenfort. My research investigates the neural basis of phenomenological control, including how post-hypnotic suggestions can interrupt automatic processing.",
     "link": ""
   },
   {
@@ -193,7 +193,7 @@
     ],
     "slug": "nicolas-sanchez-fuenzalida",
     "image": "/assets/images/nicolas_sanchez.jpg",
-    "bio": "Former PhD candidate and postdoc at Conscious Brain Lab. Researched perceptual vs response biases and Bayesian single-subject methods for conscious experience (published in Nature Communications).",
+    "bio": "I completed my PhD at the Conscious Brain Lab, investigating consciousness and decision thresholds using behavioural and physiological methods. I subsequently worked as a postdoctoral researcher at Vrije Universiteit Amsterdam, developing a statistical framework for establishing unconscious cognition.",
     "link": ""
   },
   {
@@ -229,7 +229,7 @@
     ],
     "slug": "lola-beerendonk",
     "image": "/assets/images/lola_beerendonk.jpg",
-    "bio": "PhD candidate studying neural correlates of conscious perception and the boundaries of unconscious semantic processing.",
+    "bio": "I started my PhD at the Department of Psychology of the University of Amsterdam in January 2018. In my NWO funded PhD project, I investigated the influence of cortical state and neuromodulation on conscious perception. I combined EEG, pupillometry, behavioral manipulations, and pharmacological interventions to elucidate the influence of fluctuations in endogenous activity on consciousness.",
     "link": ""
   },
   {
@@ -318,7 +318,7 @@
   },
   {
     "name": "Philippa Johnson",
-    "role": "Former Researcher",
+    "role": "Former Visiting Researcher",
     "status": "alumni",
     "category": [
       "visiting"
