@@ -220,6 +220,31 @@ def compile_publications():
     print(f"Successfully compiled {len(items)} publications into {out_path}")
 
 
+def compile_impressions():
+    file_path = os.path.join(DATA_DIR, "impressions.json")
+    if not os.path.exists(file_path):
+        return
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = data if isinstance(data, list) else data.get("items", [])
+        if not items:
+            return
+
+        top_imp_imgs = []
+        for it in items:
+            img = it.get("image")
+            if img and isinstance(img, str):
+                if img not in top_imp_imgs:
+                    top_imp_imgs.append(img)
+                    if len(top_imp_imgs) == 3:
+                        break
+        if top_imp_imgs:
+            update_html_preloads("lab-and-campus-impressions/index.html", top_imp_imgs, "Above-the-Fold Impression Images (Top 3 Cards)")
+    except Exception as e:
+        print(f"Warning: Failed to compile impressions preloads: {e}")
+
+
 def main():
     os.makedirs(DATA_DIR, exist_ok=True)
     print("Compiling CMS content collections...")
@@ -227,6 +252,7 @@ def main():
     compile_projects()
     compile_members()
     compile_publications()
+    compile_impressions()
     print("Content compilation complete.")
 
 

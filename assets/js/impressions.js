@@ -17,15 +17,21 @@ async function initImpressions() {
     const items = Array.isArray(rawData) ? rawData : (rawData && rawData.items ? rawData.items : []);
     if (!Array.isArray(items) || items.length === 0) return;
 
-    container.innerHTML = items.map(item => {
+    container.innerHTML = items.map((item, index) => {
       const title = item.title || '';
       const tag = item.tag || '';
       const date = item.date || '';
       const image = item.image || '';
       const description = item.description || '';
 
+      // Automatically prioritize top 3 cards (entire top row on desktop)
+      const isTopCard = index < 3;
+      const loadingAttrs = isTopCard
+        ? 'loading="eager" fetchpriority="high" decoding="async"'
+        : 'loading="lazy" decoding="async"';
+
       const imgHtml = image
-        ? `<img src="${image}" alt="${title}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" loading="lazy" onerror="this.parentElement.style.display='none';" />`
+        ? `<img src="${image}" alt="${title}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'" ${loadingAttrs} onerror="this.parentElement.style.display='none';" />`
         : '';
 
       return `
