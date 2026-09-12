@@ -421,6 +421,43 @@ def normalize_text_ascii(text):
     return "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn").lower()
 
 
+def highlight_member_in_citation(cit, member_name):
+    if not cit or not member_name:
+        return cit
+    clean_name = member_name.replace("★", "").strip()
+    parts = clean_name.split()
+    if not parts:
+        return cit
+    first_name = parts[0]
+    first_initial = first_name[0]
+
+    dutch_prefixes = {"van", "de", "den", "der", "ten", "ter", "von"}
+    if len(parts) > 1:
+        surname_parts = []
+        for p in parts[1:]:
+            if p.lower() in dutch_prefixes or surname_parts:
+                surname_parts.append(p)
+        surname = " ".join(surname_parts) if surname_parts else parts[-1]
+    else:
+        surname = parts[0]
+
+    cit_clean = re.sub(r"</?strong>", "", cit)
+    sn_escaped = re.escape(surname)
+    norm_sn = normalize_text_ascii(surname)
+    if norm_sn != surname:
+        sn_escaped = f"(?:{sn_escaped}|{re.escape(norm_sn)})"
+
+    neg_lookbehind = r"(?<!-)" if "-" not in surname else r"(?<!\w)"
+    p1 = rf"{neg_lookbehind}\b{sn_escaped},\s*{first_initial}(?:\.[A-Za-z\.]*|\b[a-zA-Z]*)(?:\s+[A-Z]\.?)*"
+    p2 = rf"{neg_lookbehind}\b{sn_escaped}\b"
+
+    if re.search(p1, cit_clean, re.I):
+        return re.sub(rf"({p1})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+    elif re.search(p2, cit_clean, re.I):
+        return re.sub(rf"({p2})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+    return cit_clean
+
+
 def match_member_publications(member, pubs):
     name = member.get("name", "").replace("★", "").strip()
     if not name:
@@ -462,15 +499,15 @@ def match_member_publications(member, pubs):
                 else:
                     matched.append(p)
 
-    # Format lightweight summaries for the member profile (unbolded PI names)
+    # Format lightweight summaries for the member profile (bolds the member's own name)
     summaries = []
     for p in matched:
         cit_html = p.get("citation_html") or format_pub_apa_html(p)
-        cit_html_unbolded = re.sub(r"</?strong>", "", cit_html)
+        cit_html_member = highlight_member_in_citation(cit_html, member.get("name", ""))
         summaries.append({
             "id": p.get("id"),
             "citation": p.get("citation", ""),
-            "citation_html": cit_html_unbolded,
+            "citation_html": cit_html_member,
             "url": p.get("paper_url") or p.get("doi") or p.get("preprint_url") or "",
             "year": p.get("year_group", "")
         })

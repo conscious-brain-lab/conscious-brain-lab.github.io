@@ -238,9 +238,7 @@ function openBioModal(slug) {
     const headerTitle = isPI ? 'Publications' : 'Conscious Brain Lab publications';
 
     const listItems = pubs.map((p, idx) => {
-      const formattedCitation = (p.citation_html || p.citation || '')
-        .replace(/<\/?strong>/gi, '')
-        .replace(/&Amp;/g, '&amp;');
+      const formattedCitation = (p.citation_html || p.citation || '').replace(/&Amp;/g, '&amp;');
       const linkIcon = p.url ? ` <a href="${p.url}" target="_blank" rel="noopener" title="Open paper" class="pub-inline-icon" style="color: var(--accent-primary); text-decoration: none; margin-left: 0.35rem; display: inline-flex; align-items: center; vertical-align: middle;"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg></a>` : '';
       return `
         <div class="modal-pub-item" style="font-size: 0.82rem; line-height: 1.55; color: var(--text-secondary); padding-bottom: 0.65rem; ${idx < pubs.length - 1 ? 'border-bottom: 1px dashed var(--border-color);' : ''}">
