@@ -1,19 +1,19 @@
 [
   {
-    "id": "pub-4",
-    "citation": "Nuiten, S. A., Lohuis, M. O., Schaub, A. C., van Gaal, S., Olcese, U., Pennartz, C., Sterzer, P., & de Gee, J. W. (2026). Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.",
-    "year_group": "Submitted or on Rxiv",
     "topics": [
       "Cognitive Neuroscience",
       "Decision Making",
       "Perception & Vision",
       "Pupillometry"
     ],
-    "doi": "https://doi.org/10.64898/2026.02.05.704022",
-    "paper_url": "https://doi.org/10.64898/2026.02.05.704022",
-    "preprint_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4",
-    "code_url": null,
+    "citation": "Nuiten, S. A., Lohuis, M. O., Schaub, A. C., van Gaal, S., Olcese, U., Pennartz, C., Sterzer, P., & de Gee, J. W. (2026). Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state.",
     "bibtex": "@article{Nuiten_2026,\n  title ={Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state},\n  url ={http://dx.doi.org/10.64898/2026.02.05.704022},\n  DOI ={10.64898/2026.02.05.704022},\n  publisher ={openRxiv},\n  author ={Nuiten, Stijn A. and Lohuis, Matthijs Oude and Schaub, Anna Chiara and van Gaal, Simon and Olcese, Umberto and Pennartz, Cyriel and Sterzer, Philipp and de Gee, Jan Willem},\n  year ={2026},\n  month =Feb \n}",
+    "preprint_url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/studying-unconscious-processing-contention-and-consensus/36A74876AEBF472BF7B3597FFB3A4DC4",
+    "id": "pub-4",
+    "paper_url": "https://doi.org/10.64898/2026.02.05.704022",
+    "code_url": null,
+    "year_group": "Submitted or on Rxiv",
+    "doi": "https://doi.org/10.64898/2026.02.05.704022",
     "citation_html": "Nuiten, S. A., Lohuis, M. O., Schaub, A. C., <strong>van Gaal, S.</strong>, Olcese, U., Pennartz, C., Sterzer, P., & de Gee, J. W. (2026). Baseline activity of V1 interneurons connects pupil-linked arousal to engaged behavioral state. <em>openRxiv</em>."
   },
   {
