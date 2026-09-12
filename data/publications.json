@@ -154,7 +154,7 @@
     ],
     "citation": "Noorman, S., Stein, T., Fahrenfort, J. J., & van Gaal, S. (2025). Perceptual and attentional impairments of conscious access involve distinct neural mechanisms despite equal task performance. eLife, 13.",
     "bibtex": "@article{Noorman_2025,\n  title ={Perceptual and attentional impairments of conscious access involve distinct neural mechanisms despite equal task performance},\n  volume ={13},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/elife.97900.3},\n  DOI ={10.7554/elife.97900.3},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Noorman, Samuel and Stein, Timo and Fahrenfort, Johannes Jacobus and van Gaal, Simon},\n  year ={2025},\n  month =May \n}",
-    "preprint_url": null,
+    "preprint_url": "https://www.biorxiv.org/content/10.1101/2023.10.16.562523v3",
     "id": "pub-11",
     "paper_url": "https://doi.org/10.7554/elife.97900.3",
     "code_url": "https://uvaauas.figshare.com/articles/dataset/Data/28049231/2",
