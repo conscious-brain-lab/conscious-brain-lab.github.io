@@ -44,13 +44,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     renderMembers();
-    if (window.location.hash) {
-      const rawHash = window.location.hash.replace('#', '').toLowerCase();
-      if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
-        setRoleFilter(rawHash, false);
-        setTimeout(() => scrollToMembers(false), 60);
-      }
-    }
+    checkInitialNavigation();
   } catch (err) {
     console.error(err);
     if (container) {
@@ -69,6 +63,48 @@ document.addEventListener('DOMContentLoaded', async () => {
     const target = document.getElementById('members-grid') || document.getElementById('pi');
     if (target) {
       target.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+    }
+  }
+
+  function checkInitialNavigation() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const querySlug = urlParams.get('member');
+
+    let targetMemberSlug = querySlug;
+    let rawHash = window.location.hash ? window.location.hash.replace('#', '').toLowerCase().trim() : '';
+
+    if (!targetMemberSlug && rawHash) {
+      if (rawHash.startsWith('member-')) {
+        targetMemberSlug = rawHash.replace('member-', '');
+      } else if (!['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
+        targetMemberSlug = rawHash;
+      }
+    }
+
+    if (targetMemberSlug) {
+      const found = allMembers.find(m => m.slug && m.slug.toLowerCase() === targetMemberSlug.toLowerCase());
+      if (found) {
+        if (hasCategory(found, 'pi')) {
+          setRoleFilter('pi', false);
+        } else if (found.status === 'alumni') {
+          setRoleFilter('alumni', false);
+        } else {
+          setRoleFilter('all', false);
+        }
+        setTimeout(() => {
+          const card = document.getElementById(`member-${found.slug}`);
+          if (card) {
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+          openBioModal(found.slug);
+        }, 120);
+        return;
+      }
+    }
+
+    if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
+      setRoleFilter(rawHash, false);
+      setTimeout(() => scrollToMembers(false), 60);
     }
   }
 
@@ -98,16 +134,26 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   function checkHash(shouldScroll = false) {
-    const rawHash = window.location.hash.replace('#', '').toLowerCase();
+    const rawHash = window.location.hash ? window.location.hash.replace('#', '').toLowerCase().trim() : '';
     if (['all', 'pi', 'current', 'postdoc', 'phd', 'alumni'].includes(rawHash)) {
       setRoleFilter(rawHash, false);
       if (shouldScroll) {
         setTimeout(() => scrollToMembers(true), 50);
       }
+    } else if (rawHash) {
+      const slug = rawHash.startsWith('member-') ? rawHash.replace('member-', '') : rawHash;
+      const found = allMembers.find(m => m.slug && m.slug.toLowerCase() === slug.toLowerCase());
+      if (found) {
+        openBioModal(found.slug);
+        if (shouldScroll) {
+          const el = document.getElementById(`member-${found.slug}`);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
     }
   }
 
-  // Listen to hash changes (e.g. from top nav dropdown clicks)
+  // Listen to hash changes (e.g. from top nav dropdown clicks or back/forward)
   window.addEventListener('hashchange', () => checkHash(true));
 
   // Also handle clicks on dropdown menu items to scroll smoothly even if the hash was already selected
@@ -124,10 +170,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     });
   });
-
-  if (window.location.hash) {
-    checkHash(true);
-  }
 });
 
 function hasCategory(member, cat) {
@@ -290,10 +332,17 @@ function openBioModal(slug) {
   modal.onclick = (e) => {
     if (e.target === modal) closeBioModal();
   };
+
+  if (window.location.hash !== '#' + slug) {
+    history.replaceState(null, '', '#' + slug);
+  }
 }
 
 function closeBioModal() {
   const modal = document.getElementById('bio-modal');
   if (modal) modal.classList.remove('open');
+  const targetHash = (activeRole && activeRole !== 'all') ? '#' + activeRole : '';
+  history.replaceState(null, '', window.location.pathname + targetHash);
 }
+
 

@@ -603,6 +603,35 @@ def compile_members():
             except Exception as e:
                 print(f"Warning: Failed to update team-group-photo in members/index.html: {e}")
 
+    # Auto-generate direct slug redirects for PIs (e.g. /johannes-fahrenfort, /simon-van-gaal, /timo-stein)
+    for m in items:
+        if "pi" in m.get("category", []) and m.get("slug"):
+            slug = m["slug"]
+            name = m.get("name", "").replace("★", "").strip()
+            pi_dir = os.path.join(BASE_DIR, slug)
+            os.makedirs(pi_dir, exist_ok=True)
+            pi_html_path = os.path.join(pi_dir, "index.html")
+            redirect_html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/members/#{slug}">
+  <link rel="canonical" href="https://consciousbrainlab.com/members/#{slug}">
+  <title>{name} | Conscious Brain Lab</title>
+  <script>
+    window.location.replace('/members/#' + '{slug}');
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="/members/#{slug}">{name}</a>...</p>
+</body>
+</html>
+"""
+            with open(pi_html_path, "w", encoding="utf-8") as f:
+                f.write(redirect_html)
+            print(f"Generated PI redirect: /{slug}/ -> /members/#{slug}")
+
+
 
 def compile_publications():
     folder_path = os.path.join(CONTENT_DIR, "publications")
