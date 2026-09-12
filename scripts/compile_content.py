@@ -462,13 +462,15 @@ def match_member_publications(member, pubs):
                 else:
                     matched.append(p)
 
-    # Format lightweight summaries for the member profile
+    # Format lightweight summaries for the member profile (unbolded PI names)
     summaries = []
     for p in matched:
+        cit_html = p.get("citation_html") or format_pub_apa_html(p)
+        cit_html_unbolded = re.sub(r"</?strong>", "", cit_html)
         summaries.append({
             "id": p.get("id"),
             "citation": p.get("citation", ""),
-            "citation_html": p.get("citation_html") or format_pub_apa_html(p),
+            "citation_html": cit_html_unbolded,
             "url": p.get("paper_url") or p.get("doi") or p.get("preprint_url") or "",
             "year": p.get("year_group", "")
         })
