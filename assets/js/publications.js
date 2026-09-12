@@ -215,7 +215,7 @@ function renderPublications() {
 
       html += `
         <article class="pub-card" id="${pub.id}">
-          <div class="pub-citation-text">${pub.citation_html || getPublicationCitationHtml(pub)}</div>
+          <div class="pub-citation-text">${highlightPINames(pub.citation_html || getPublicationCitationHtml(pub))}</div>
           <div class="pub-meta-row">
             <div class="pub-topic-tags">${topicBadges}</div>
             <div class="pub-badge-links">

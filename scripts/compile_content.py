@@ -333,6 +333,17 @@ def format_authors_apa(raw_authors):
         return f"{main_part}, … {formatted[-1]}"
 
 
+def highlight_pi_names(text):
+    if not text:
+        return ""
+    cleaned = re.sub(r"<strong>(.*?)</strong>", r"\1", text, flags=re.I)
+    fahrenfort = r"(?:(?:Johannes(?:\s+Jacobus|\s+J(?:\.|\b))?|J\s*\.\s*J(?:\.|\b)|J\s*\.|JJ\b)\s*Fahrenfort|Fahrenfort,\s*(?:Johannes(?:\s+Jacobus|\s+J(?:\.|\b))?|J\s*\.\s*J(?:\.|\b)|J\s*\.|JJ\b|J\b)|Fahrenfort\s+(?:JJ\b|J\b)|Fahrenfort\b)"
+    vangaal = r"(?:Gaal,\s*(?:Simon\b|S\s*\.|S\b)?\s*,?\s*[Vv](?:an\b|\.)|[Vv]an\s+Gaal(?:,\s*(?:Simon\b|S\s*\.|S\b))?|(?:Simon\b|S\s*\.|S\b)\s*[Vv]an\s+Gaal|[Vv]an\s+Gaal\b)"
+    stein = r"(?:Stein,\s*(?:Timo\b|T\s*\.|T\b)|(?:Timo\b|T\s*\.|T\b)\s*Stein|Stein\s+T\b)"
+    pi_regex = re.compile(rf"\b({fahrenfort}|{vangaal}|{stein})", re.I)
+    return pi_regex.sub(r"<strong>\1</strong>", cleaned)
+
+
 def format_pub_apa_html(pub):
     b = parse_bibtex(pub.get("bibtex", ""))
     journal = (b.get("journal") or b.get("journaltitle") or b.get("booktitle") or "").strip() if b else ""
@@ -370,7 +381,7 @@ def format_pub_apa_html(pub):
             parts = [p for p in [authors, year_str, title, pub_details] if p]
             res = " ".join(parts)
             res = res.replace("&amp;amp;", "&amp;").replace("&Amp;", "&amp;")
-            return res
+            return highlight_pi_names(res)
 
     # Fallback to citation string with journal italicization
     cit = pub.get("citation", "").strip()
@@ -400,7 +411,8 @@ def format_pub_apa_html(pub):
             break
 
     cit = cit.replace("&amp;amp;", "&amp;").replace("&Amp;", "&amp;")
-    return cit
+    return highlight_pi_names(cit)
+
 
 
 def normalize_text_ascii(text):
