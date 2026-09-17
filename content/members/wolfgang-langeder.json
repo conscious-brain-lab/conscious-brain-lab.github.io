@@ -1,12 +1,13 @@
 {
+  "bio": "I study adaptive behaviour in teams and individuals. My PhD looks at how arousal, cognitive control and beliefs shape the balance between exploration and exploitation, using fMRI and eye tracking, supervised by Matthijs Baas, Simon van Gaal and Timo Stein (UvA) and Wolfgang Güttel (TU Wien). I also train leadership teams in adaptive behaviour and entrepreneurial thinking.",
+  "name": "Wolfgang Langeder",
+  "slug": "wolfgang-langeder",
+  "order": 99,
   "status": "current",
+  "role": "PhD candidate",
+  "link": "https://langeder.nl",
+  "image": "/assets/images/wolf_s.png",
   "category": [
     "phd"
-  ],
-  "order": 99,
-  "slug": "wolfgang-langeder",
-  "name": "Wolfgang Langeder",
-  "bio": "I study adaptive behaviour in individuals, teams and organizations. My PhD looks at how arousal, cognitive control and beliefs shape the balance between exploration and exploitation, using fMRI and eye tracking. It sits across Brain & Cognition and Work & Organizational Psychology at the University of Amsterdam and Leadership & Strategy at TU Wien, supervised by Matthijs Baas, Simon van Gaal and Timo Stein (UvA) and Wolfgang Güttel (TU Wien). I also train leadership teams in adaptive behaviour and entrepreneurial thinking. Before academia I spent 10 years as a senior manager and expansion consultant in European tech. I studied business, neuroscience and psychology in Vienna, Vancouver, Glasgow and Utrecht.",
-  "role": "PhD candidate",
-  "image": "/assets/images/wolf_s.png"
+  ]
 }
