@@ -582,7 +582,7 @@
     "publication_count": 79
   },
   {
-    "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and the Brain and Cognition group at UvA. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
+    "bio": "I am a cognitive neuroscientist in the Cognitive Psychology department at VU Amsterdam and PI in the Conscious Brain Lab. In the Conscious Brain Lab we use EEG, fMRI and psychophysics to investigate consciousness, perceptual bias, confidence, and automatic sensory control. I developed the open-source ADAM toolbox for multivariate EEG/MEG decoding.",
     "name": "Johannes Fahrenfort",
     "slug": "johannes-fahrenfort",
     "order": 2,
@@ -1039,7 +1039,7 @@
     "publication_count": 63
   },
   {
-    "bio": "I am a co-PI of the Conscious Brain Lab at the University of Amsterdam, together with Johannes Fahrenfort and Simon van Gaal. Before joining the Brain and Cognition group in 2016, I completed a PhD at the Berlin School of Mind and Brain and a postdoctoral fellowship at the University of Trento, following studies in psychology and cognitive neuroscience in Mainz, Munich, and Princeton.",
+    "bio": "I am a PI in the Conscious Brain Lab at the University of Amsterdam, together with Johannes Fahrenfort and Simon van Gaal. Before joining the Brain and Cognition group in 2016, I completed a PhD at the Berlin School of Mind and Brain and a postdoctoral fellowship at the University of Trento, following studies in psychology and cognitive neuroscience in Mainz, Munich, and Princeton.",
     "name": "Timo Stein",
     "slug": "timo-stein",
     "order": 3,
@@ -1146,20 +1146,6 @@
     "publication_count": 0
   },
   {
-    "name": "Maartje de Jong",
-    "role": "Postdoctoral Researcher",
-    "status": "current",
-    "category": [
-      "postdoc"
-    ],
-    "slug": "maartje-de-jong",
-    "image": "/assets/images/maartje_de_jong.jpg",
-    "bio": "I investigate how the brain transforms sensory input into meaningful visual perception, using MRI, scalp and intracranial EEG, and psychophysics. My research examines phenomena such as optical illusions, perceptual learning, ambiguous images, binocular rivalry, and face perception.",
-    "link": "https://www.maartjedejong.com",
-    "publications": [],
-    "publication_count": 0
-  },
-  {
     "name": "Ana-Maria Barosan",
     "role": "PhD Candidate",
     "status": "current",
@@ -1222,6 +1208,21 @@
       }
     ],
     "publication_count": 1
+  },
+  {
+    "bio": "I study adaptive behaviour in teams and individuals. My PhD looks at how arousal, cognitive control and beliefs shape the balance between exploration and exploitation, using fMRI and eye tracking, supervised by Matthijs Baas, Simon van Gaal and Timo Stein (UvA) and Wolfgang Güttel (TU Wien). I also train leadership teams in adaptive behaviour and entrepreneurial thinking.",
+    "name": "Wolfgang Langeder",
+    "slug": "wolfgang-langeder",
+    "order": 99,
+    "status": "current",
+    "role": "PhD candidate",
+    "link": "https://langeder.nl",
+    "image": "/assets/images/wolf_s.png",
+    "category": [
+      "phd"
+    ],
+    "publications": [],
+    "publication_count": 0
   },
   {
     "name": "Andres Canales-Johnson",
@@ -1436,6 +1437,20 @@
       }
     ],
     "publication_count": 5
+  },
+  {
+    "name": "Maartje de Jong",
+    "role": "Former Postdoctoral Researcher",
+    "status": "alumni",
+    "category": [
+      "postdoc"
+    ],
+    "slug": "maartje-de-jong",
+    "image": "/assets/images/maartje_de_jong.jpg",
+    "bio": "I investigate how the brain transforms sensory input into meaningful visual perception, using MRI, scalp and intracranial EEG, and psychophysics. My research examines phenomena such as optical illusions, perceptual learning, ambiguous images, binocular rivalry, and face perception.",
+    "link": "https://www.maartjedejong.com",
+    "publications": [],
+    "publication_count": 0
   },
   {
     "name": "Matthew Weaver",

@@ -414,7 +414,7 @@ class DecapProxyHandler(http.server.BaseHTTPRequestHandler):
                             f"https://doi.org/{doi}",
                             headers={
                                 "Accept": "application/x-bibtex",
-                                "User-Agent": "ConsciousBrainLabBot/1.0 (mailto:consciousbrainlab@gmail.com; https://github.com/conscious-brain-lab/website)"
+                                "User-Agent": "ConsciousBrainLabBot/1.0 (mailto:s.vangaal@uva.nl; https://github.com/conscious-brain-lab/website)"
                             }
                         )
                         with urllib.request.urlopen(doi_req, timeout=8) as resp:

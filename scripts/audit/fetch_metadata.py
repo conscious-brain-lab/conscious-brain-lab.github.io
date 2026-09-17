@@ -141,7 +141,7 @@ def fetch_semantic_scholar(doi):
 def fetch_crossref(doi):
     try:
         url = f'https://api.crossref.org/works/{doi}'
-        req = urllib.request.Request(url, headers={'User-Agent': 'CBL-Auditor/1.0 (mailto:info@consciousbrainlab.com)'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'CBL-Auditor/1.0 (mailto:s.vangaal@uva.nl)'})
         with urllib.request.urlopen(req, context=ctx, timeout=3) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             msg = data.get('message', {})

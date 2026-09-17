@@ -795,21 +795,20 @@
     "citation_html": "Baas, M., Boot, N., <strong>van Gaal, S.</strong>, de Dreu, C. K., & Cools, R. (2020). Methylphenidate does not affect convergent and divergent creative processes in healthy adults. <em>NeuroImage</em>, <em>205</em>, 116279."
   },
   {
-    "id": "pub-47",
-    "citation": "Kloosterman, N. A., de Gee, J. W., Werkle-Bergner, M., Lindenberger, U., Garrett, D. D., & Fahrenfort, J. J. (2019). Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife, 8.",
-    "year_group": "2019",
     "topics": [
       "Cognitive Neuroscience",
       "Decision Making",
       "EEG",
-      "Perception & Vision",
-      "Pupillometry"
+      "Perception & Vision"
     ],
-    "doi": "https://doi.org/10.7554/eLife.37321",
-    "paper_url": "https://doi.org/10.7554/eLife.37321",
-    "preprint_url": null,
-    "code_url": null,
+    "citation": "Kloosterman, N. A., de Gee, J. W., Werkle-Bergner, M., Lindenberger, U., Garrett, D. D., & Fahrenfort, J. J. (2019). Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. eLife, 8.",
     "bibtex": "@article{Kloosterman_2019,\n  title ={Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation},\n  volume ={8},\n  ISSN ={2050-084X},\n  url ={http://dx.doi.org/10.7554/eLife.37321},\n  DOI ={10.7554/elife.37321},\n  journal ={eLife},\n  publisher ={eLife Sciences Publications, Ltd},\n  author ={Kloosterman, Niels A and de Gee, Jan Willem and Werkle-Bergner, Markus and Lindenberger, Ulman and Garrett, Douglas D and Fahrenfort, Johannes Jacobus},\n  year ={2019},\n  month =Feb \n}",
+    "preprint_url": null,
+    "id": "pub-47",
+    "paper_url": "https://doi.org/10.7554/eLife.37321",
+    "code_url": null,
+    "year_group": "2019",
+    "doi": "https://doi.org/10.7554/eLife.37321",
     "citation_html": "Kloosterman, N. A., de Gee, J. W., Werkle-Bergner, M., Lindenberger, U., Garrett, D. D., & <strong>Fahrenfort, J. J.</strong> (2019). Humans strategically shift decision bias by flexibly adjusting sensory evidence accumulation. <em>eLife</em>, <em>8</em>."
   },
   {

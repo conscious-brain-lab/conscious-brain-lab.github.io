@@ -22,7 +22,7 @@ async function initPositions() {
       const icon = item.icon || '🎓';
       const description = item.description || '';
       const buttonText = item.button_text || 'Inquire with the Lab';
-      const buttonLink = item.button_link || 'mailto:consciousbrainlab@gmail.com';
+      const buttonLink = item.button_link || 'mailto:s.vangaal@uva.nl';
       const tag = item.tag ? `<span class="tag tag-accent" style="margin-bottom: 0.5rem; display: inline-block;">${item.tag}</span>` : '';
 
       return `
