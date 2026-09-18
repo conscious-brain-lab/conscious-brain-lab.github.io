@@ -231,7 +231,7 @@
       {
         "id": "pub-35",
         "citation": "de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. Cerebral Cortex (2021).",
-        "citation_html": "de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & <strong>van Gaal, S. P</strong>upil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. <em>Cerebral Cortex</em> (2021).",
+        "citation_html": "de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & <strong>van Gaal, S.</strong> Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. <em>Cerebral Cortex</em> (2021).",
         "url": "https://doi.org/10.1093/cercor/bhab032/6210084",
         "year": "2021"
       },
@@ -462,7 +462,7 @@
       {
         "id": "pub-86",
         "citation": "Fahrenfort, J.J. & van Gaal, S. Responses in Fusiform Face Area do not cause Conscious Face Perception (comment on Parvizi et al., 2012). Journal of Neuroscience.",
-        "citation_html": "Fahrenfort, J.J. & <strong>van Gaal, S. R</strong>esponses in Fusiform Face Area do not cause Conscious Face Perception (comment on Parvizi et al., 2012). <em>Journal of Neuroscience</em>.",
+        "citation_html": "Fahrenfort, J.J. & <strong>van Gaal, S.</strong> Responses in Fusiform Face Area do not cause Conscious Face Perception (comment on Parvizi et al., 2012). <em>Journal of Neuroscience</em>.",
         "url": "http://www.jneurosci.org/content/32/43/14915/tab-e-letters#responses-in-the-fusiform-face-area-do-not-cause-conscious-face-perception",
         "year": "2012"
       },
@@ -1160,6 +1160,20 @@
     "publication_count": 0
   },
   {
+    "status": "current",
+    "category": [
+      "phd"
+    ],
+    "order": 99,
+    "slug": "daniel-van-der-meer",
+    "name": "Daniel van der Meer",
+    "role": "PhD Candidate",
+    "image": "/assets/images/daniel-kopie.jpeg",
+    "bio": "I am a PhD candidate researching the perceptual dynamics of viewing multiple bistable stimuli simultaneously, under the supervision of Simon van Gaal, Han van der Maas, Michael Nunez and Raoul Grasman. As part of a larger project on cascading transitions in psychology, I aim to integrate experimental findings into a mathematical model of bistable perception.",
+    "publications": [],
+    "publication_count": 0
+  },
+  {
     "name": "Margot Steijger",
     "role": "PhD Candidate",
     "status": "current",
@@ -1540,7 +1554,7 @@
       {
         "id": "pub-35",
         "citation": "de Gee, J. W., Correa, C. M.C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. Cerebral Cortex (2021).",
-        "citation_html": "de Gee, J. W., <strong>Correa, C. M.</strong>C. , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. <em>Cerebral Cortex</em> (2021).",
+        "citation_html": "de Gee, J. W., <strong>Correa, C. M.C.</strong> , Weaver, M., Donner, T. H. & van Gaal, S. Pupil dilation and the slow wave ERP reflect surprise about choice outcome resulting from intrinsic variability in decision confidence. <em>Cerebral Cortex</em> (2021).",
         "url": "https://doi.org/10.1093/cercor/bhab032/6210084",
         "year": "2021"
       },

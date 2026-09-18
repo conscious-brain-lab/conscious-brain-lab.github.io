@@ -333,14 +333,93 @@ def format_authors_apa(raw_authors):
         return f"{main_part}, … {formatted[-1]}"
 
 
+DUTCH_PREFIXES = {"van", "de", "den", "der", "ten", "ter", "von"}
+
+
+def get_member_name_parts(member_name):
+    clean = member_name.replace("★", "").strip()
+    if not clean or "Group Photo" in clean:
+        return "", ""
+    parts = clean.split()
+    if len(parts) == 1:
+        return "", parts[0]
+    prefix_idx = None
+    for i, p in enumerate(parts[1:], start=1):
+        if p.lower() in DUTCH_PREFIXES:
+            prefix_idx = i
+            break
+    if prefix_idx is not None:
+        first_name = " ".join(parts[:prefix_idx])
+        surname = " ".join(parts[prefix_idx:])
+    else:
+        first_name = " ".join(parts[:-1])
+        surname = parts[-1]
+    return first_name, surname
+
+
+_CACHED_PI_REGEX = None
+
+
+def get_pi_regex():
+    global _CACHED_PI_REGEX
+    if _CACHED_PI_REGEX is not None:
+        return _CACHED_PI_REGEX
+
+    folder_path = os.path.join(CONTENT_DIR, "members")
+    pi_patterns = []
+    if os.path.exists(folder_path):
+        for filepath in sorted(glob.glob(os.path.join(folder_path, "*.json"))):
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    m = json.load(f)
+                cat = m.get("category", [])
+                is_pi = (cat == "pi") or (isinstance(cat, (list, tuple)) and "pi" in cat)
+                if not is_pi:
+                    continue
+
+                name = m.get("name", "").replace("★", "").strip()
+                first, last = get_member_name_parts(name)
+                if not last:
+                    continue
+
+                sn_escaped = re.escape(last)
+                norm_sn = normalize_text_ascii(last)
+                if norm_sn != last:
+                    sn_escaped = f"(?:{sn_escaped}|{re.escape(norm_sn)})"
+
+                first_init = first[0] if first else ""
+                neg_lookbehind = r"(?<!-)" if "-" not in last else r"(?<!\w)"
+
+                # Handle Dutch multiword surname e.g. "van Gaal" -> "Gaal, S. van" / "Gaal, S. v."
+                if " " in last:
+                    parts = last.split()
+                    if len(parts) == 2 and parts[0].lower() in DUTCH_PREFIXES:
+                        prefix, main_sn = parts
+                        prefix_re = rf"[Vv](?:{re.escape(prefix[1:])}\b|\.)" if prefix.lower().startswith("v") else re.escape(prefix)
+                        dutch_rev = rf"{main_sn},\s*(?:{re.escape(first)}\b|{first_init}\s*\.|{first_init}\b)?\s*,?\s*{prefix_re}"
+                        pi_patterns.append(dutch_rev)
+
+                if first_init:
+                    init_esc = re.escape(first_init)
+                    pi_patterns.append(rf"{neg_lookbehind}{sn_escaped},\s*(?:{re.escape(first)}(?:\s+[A-Z](?:\.[A-Za-z\.]*|[a-z]*))*|{init_esc}\.(?:\s*[A-Z]\.)*|{init_esc}\b)")
+                    pi_patterns.append(rf"(?:{re.escape(first)}(?:\s+[A-Z](?:\.[A-Za-z\.]*|[a-z]*))*|{init_esc}\.(?:\s*[A-Z]\.)*|{init_esc}\b)\s+{neg_lookbehind}{sn_escaped}")
+                pi_patterns.append(rf"{neg_lookbehind}{sn_escaped}\b")
+            except Exception as e:
+                print(f"Warning: Failed reading PI member {filepath}: {e}")
+
+    if pi_patterns:
+        combined = "|".join(f"(?:{p})" for p in pi_patterns)
+        _CACHED_PI_REGEX = re.compile(rf"\b({combined})", re.I)
+    else:
+        _CACHED_PI_REGEX = re.compile(r"(?!)")
+    return _CACHED_PI_REGEX
+
+
 def highlight_pi_names(text):
     if not text:
         return ""
     cleaned = re.sub(r"<strong>(.*?)</strong>", r"\1", text, flags=re.I)
-    fahrenfort = r"(?:(?:Johannes(?:\s+Jacobus|\s+J(?:\.|\b))?|J\s*\.\s*J(?:\.|\b)|J\s*\.|JJ\b)\s*Fahrenfort|Fahrenfort,\s*(?:Johannes(?:\s+Jacobus|\s+J(?:\.|\b))?|J\s*\.\s*J(?:\.|\b)|J\s*\.|JJ\b|J\b)|Fahrenfort\s+(?:JJ\b|J\b)|Fahrenfort\b)"
-    vangaal = r"(?:Gaal,\s*(?:Simon\b|S\s*\.|S\b)?\s*,?\s*[Vv](?:an\b|\.)|[Vv]an\s+Gaal(?:,\s*(?:Simon\b|S\s*\.|S\b))?|(?:Simon\b|S\s*\.|S\b)\s*[Vv]an\s+Gaal|[Vv]an\s+Gaal\b)"
-    stein = r"(?:Stein,\s*(?:Timo\b|T\s*\.|T\b)|(?:Timo\b|T\s*\.|T\b)\s*Stein|Stein\s+T\b)"
-    pi_regex = re.compile(rf"\b({fahrenfort}|{vangaal}|{stein})", re.I)
+    pi_regex = get_pi_regex()
     return pi_regex.sub(r"<strong>\1</strong>", cleaned)
 
 
@@ -421,25 +500,43 @@ def normalize_text_ascii(text):
     return "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn").lower()
 
 
+def matches_first_name(given_str, member_first):
+    if not member_first or not given_str:
+        return True
+
+    norm_given = normalize_text_ascii(given_str).strip()
+    norm_member = normalize_text_ascii(member_first).strip()
+
+    m_given_init = re.search(r"[a-z]", norm_given)
+    m_member_init = re.search(r"[a-z]", norm_member)
+
+    if not m_given_init or not m_member_init:
+        return True
+
+    given_init = m_given_init.group(0)
+    member_init = m_member_init.group(0)
+
+    # First initial must match (e.g. 'J.' matches 'Johannes', but 'M.' does not match 'Daniel')
+    if given_init != member_init:
+        return False
+
+    # If both provide full words (>1 letter without punctuation), verify compatibility
+    words = re.findall(r"[a-z]+", norm_given)
+    member_words = re.findall(r"[a-z]+", norm_member)
+    if words and member_words and len(words[0]) > 1 and len(member_words[0]) > 1:
+        if not (words[0].startswith(member_words[0]) or member_words[0].startswith(words[0])):
+            return False
+
+    return True
+
+
 def highlight_member_in_citation(cit, member_name):
     if not cit or not member_name:
         return cit
-    clean_name = member_name.replace("★", "").strip()
-    parts = clean_name.split()
-    if not parts:
+    first_name, surname = get_member_name_parts(member_name)
+    if not surname:
         return cit
-    first_name = parts[0]
-    first_initial = first_name[0]
-
-    dutch_prefixes = {"van", "de", "den", "der", "ten", "ter", "von"}
-    if len(parts) > 1:
-        surname_parts = []
-        for p in parts[1:]:
-            if p.lower() in dutch_prefixes or surname_parts:
-                surname_parts.append(p)
-        surname = " ".join(surname_parts) if surname_parts else parts[-1]
-    else:
-        surname = parts[0]
+    first_initial = first_name[0] if first_name else ""
 
     cit_clean = re.sub(r"</?strong>", "", cit)
     sn_escaped = re.escape(surname)
@@ -448,56 +545,111 @@ def highlight_member_in_citation(cit, member_name):
         sn_escaped = f"(?:{sn_escaped}|{re.escape(norm_sn)})"
 
     neg_lookbehind = r"(?<!-)" if "-" not in surname else r"(?<!\w)"
-    p1 = rf"{neg_lookbehind}\b{sn_escaped},\s*{first_initial}(?:\.[A-Za-z\.]*|\b[a-zA-Z]*)(?:\s+[A-Z]\.?)*"
-    p2 = rf"{neg_lookbehind}\b{sn_escaped}\b"
 
-    if re.search(p1, cit_clean, re.I):
-        return re.sub(rf"({p1})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
-    elif re.search(p2, cit_clean, re.I):
-        return re.sub(rf"({p2})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+    if first_initial:
+        init_escaped = re.escape(first_initial)
+        norm_init = normalize_text_ascii(first_initial)
+        if norm_init != first_initial:
+            init_escaped = f"(?:{init_escaped}|{re.escape(norm_init)})"
+
+        # Surname, Initials/Firstname (e.g. "Fahrenfort, J. J.", "van der Meer, D.", "Fahrenfort, Johannes")
+        p1 = rf"{neg_lookbehind}\b{sn_escaped},\s*(?:{re.escape(first_name)}(?:\s+[A-Z](?:\.[A-Za-z\.]*|[a-z]*))*|{init_escaped}\.(?:\s*[A-Z]\.)*|{init_escaped}\b)"
+        # Firstname/Initials Surname (e.g. "Simon van Gaal", "S. van Gaal")
+        p1_rev = rf"\b(?:{re.escape(first_name)}(?:\s+[A-Z](?:\.[A-Za-z\.]*|[a-z]*))*|{init_escaped}\.(?:\s*[A-Z]\.)*|{init_escaped}\b)\s+{neg_lookbehind}{sn_escaped}\b"
+
+        if re.search(p1, cit_clean, re.I):
+            return re.sub(rf"({p1})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+        if re.search(p1_rev, cit_clean, re.I):
+            return re.sub(rf"({p1_rev})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+
+        # Fallback to surname alone ONLY IF not followed by a mismatched initial
+        p2 = rf"{neg_lookbehind}\b{sn_escaped}\b(?!\s*,\s*[A-Za-z])"
+        if re.search(p2, cit_clean, re.I):
+            return re.sub(rf"({p2})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+    else:
+        p2 = rf"{neg_lookbehind}\b{sn_escaped}\b"
+        if re.search(p2, cit_clean, re.I):
+            return re.sub(rf"({p2})", r"<strong>\1</strong>", cit_clean, count=1, flags=re.I)
+
     return cit_clean
 
 
 def match_member_publications(member, pubs):
-    name = member.get("name", "").replace("★", "").strip()
-    if not name:
+    first_name, surname = get_member_name_parts(member.get("name", ""))
+    if not surname:
         return []
-    parts = name.split()
-    if len(parts) == 1:
-        surname = parts[0]
-    else:
-        dutch_prefixes = {"van", "de", "den", "der", "ten", "ter", "von"}
-        surname_parts = []
-        for p in parts[1:]:
-            if p.lower() in dutch_prefixes or surname_parts:
-                surname_parts.append(p)
-        surname = " ".join(surname_parts) if surname_parts else parts[-1]
 
     norm_surname = normalize_text_ascii(surname)
+    norm_first = normalize_text_ascii(first_name)
+    neg_lookbehind = r"(?<!-)" if "-" not in norm_surname else r"(?<!\w)"
+
     matched = []
     for p in pubs:
         cit = p.get("citation", "")
         bib = p.get("bibtex", "")
         norm_cit = normalize_text_ascii(cit)
         norm_bib = normalize_text_ascii(bib)
+        is_match = False
 
-        # Match hyphenated surname (e.g. Canales-Johnson, Sánchez-Fuenzalida)
-        if "-" in norm_surname:
-            if re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_cit) or re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_bib):
-                matched.append(p)
-        # Match multi-word Dutch surname (e.g. van Gaal, de Jong)
-        elif " " in norm_surname:
-            if re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_cit) or re.search(r'\b' + re.escape(norm_surname) + r'\b', norm_bib):
-                matched.append(p)
-        # Match single surname (e.g. Fahrenfort, Stein, Nuiten)
-        else:
-            pattern = r'(?<!-)\b' + re.escape(norm_surname) + r'\b'
-            if re.search(pattern, norm_cit) or re.search(pattern, norm_bib):
-                if norm_surname == "johnson":
-                    if re.search(r'\bjohnson,\s*p\b', norm_cit) or "philippa" in norm_bib:
-                        matched.append(p)
+        # 1. Check BibTeX authors if available
+        b = parse_bibtex(bib) if bib else None
+        if b and b.get("author"):
+            authors = re.split(r"\s+and\s+", b.get("author", ""), flags=re.I)
+            for a in authors:
+                norm_a = normalize_text_ascii(a).strip()
+                if "," in norm_a:
+                    sn_part, given_part = norm_a.split(",", 1)
+                    sn_part = sn_part.strip()
+                    given_part = given_part.strip()
                 else:
-                    matched.append(p)
+                    parts = norm_a.split()
+                    if len(parts) > 1:
+                        prefix_idx = None
+                        for i, part_word in enumerate(parts[1:], start=1):
+                            if part_word.lower() in DUTCH_PREFIXES:
+                                prefix_idx = i
+                                break
+                        if prefix_idx is not None:
+                            given_part = " ".join(parts[:prefix_idx])
+                            sn_part = " ".join(parts[prefix_idx:])
+                        else:
+                            given_part = " ".join(parts[:-1])
+                            sn_part = parts[-1]
+                    else:
+                        sn_part = parts[0]
+                        given_part = ""
+
+                sn_matched = False
+                if "-" in norm_surname or " " in norm_surname:
+                    if re.search(r"\b" + re.escape(norm_surname) + r"\b", sn_part):
+                        sn_matched = True
+                else:
+                    if re.search(r"(?<!-)\b" + re.escape(norm_surname) + r"\b", sn_part):
+                        sn_matched = True
+
+                if sn_matched and matches_first_name(given_part, norm_first):
+                    is_match = True
+                    break
+
+        # 2. Check Citation APA string
+        if not is_match and norm_cit:
+            p_cit = rf"{neg_lookbehind}\b{re.escape(norm_surname)},\s*([a-z]+(?:\.[a-z\.\s]*|\b[a-z\s]*))"
+            for m_match in re.finditer(p_cit, norm_cit):
+                given_part = m_match.group(1).strip()
+                if matches_first_name(given_part, norm_first):
+                    is_match = True
+                    break
+
+            if not is_match:
+                p_cit_rev = rf"\b([a-z]+(?:\.[a-z\.\s]*|\b[a-z\s]*))\s+{neg_lookbehind}{re.escape(norm_surname)}\b"
+                for m_match in re.finditer(p_cit_rev, norm_cit):
+                    given_part = m_match.group(1).strip()
+                    if matches_first_name(given_part, norm_first):
+                        is_match = True
+                        break
+
+        if is_match:
+            matched.append(p)
 
     # Format lightweight summaries for the member profile (bolds the member's own name)
     summaries = []

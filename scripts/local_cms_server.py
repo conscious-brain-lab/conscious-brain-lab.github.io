@@ -33,100 +33,12 @@ def full_path(rel_path):
 
 def sync_collections_to_data():
     """Compiles content/ files into data/*.json so frontend immediately updates."""
-    # Members sync
-    members_dir = os.path.join(BASE_DIR, "content", "members")
-    if os.path.exists(members_dir):
-        all_members = []
-        for f in sorted(glob.glob(os.path.join(members_dir, "*.json"))):
-            try:
-                with open(f, "r", encoding="utf-8") as mf:
-                    all_members.append(json.load(mf))
-            except Exception as e:
-                print(f"Error reading {f}: {e}")
-        
-        # Sort members: PIs first, current team, then alumni; by explicit order, then name
-        cat_order = {"header": 0, "pi": 1, "postdoc": 2, "phd": 3, "ra": 4, "visiting": 5}
-        def member_sort_key(m):
-            is_alumni = 1 if m.get("status") == "alumni" else 0
-            raw_cat = m.get("category", "phd")
-            ranks = []
-            if isinstance(raw_cat, (list, tuple)):
-                for c in raw_cat:
-                    if isinstance(c, (list, tuple)):
-                        ranks.extend([cat_order.get(str(sub_c), 99) for sub_c in c])
-                    elif isinstance(c, str):
-                        ranks.append(cat_order.get(c, 99))
-                    elif isinstance(c, dict):
-                        val = c.get("value") or c.get("label") or ""
-                        ranks.append(cat_order.get(str(val), 99))
-                    else:
-                        ranks.append(cat_order.get(str(c), 99))
-                category_rank = min(ranks) if ranks else 99
-            elif isinstance(raw_cat, str):
-                category_rank = cat_order.get(raw_cat, 99)
-            else:
-                category_rank = 99
-            try:
-                display_order = int(m.get("order", 99))
-            except Exception:
-                display_order = 99
-            name = str(m.get("name", ""))
-            return (is_alumni, category_rank, display_order, name)
+    try:
+        import compile_content
+        compile_content.main()
+    except Exception as e:
+        print(f"Error compiling content via compile_content: {e}")
 
-        all_members.sort(key=member_sort_key)
-        
-        data_members_path = os.path.join(BASE_DIR, "data", "members.json")
-        with open(data_members_path, "w", encoding="utf-8") as df:
-            json.dump(all_members, df, indent=2, ensure_ascii=False)
-        print(f"✓ Synced {len(all_members)} members to data/members.json")
-
-    # News sync
-    news_dir = os.path.join(BASE_DIR, "content", "news")
-    if os.path.exists(news_dir):
-        all_news = []
-        for f in sorted(glob.glob(os.path.join(news_dir, "*.json"))):
-            try:
-                with open(f, "r", encoding="utf-8") as nf:
-                    all_news.append(json.load(nf))
-            except Exception as e:
-                print(f"Error reading {f}: {e}")
-        
-        data_news_path = os.path.join(BASE_DIR, "data", "news.json")
-        with open(data_news_path, "w", encoding="utf-8") as df:
-            json.dump(all_news, df, indent=2, ensure_ascii=False)
-        print(f"✓ Synced {len(all_news)} news items to data/news.json")
-
-    # Publications sync
-    pubs_dir = os.path.join(BASE_DIR, "content", "publications")
-    if os.path.exists(pubs_dir):
-        all_pubs = []
-        for f in sorted(glob.glob(os.path.join(pubs_dir, "*.json"))):
-            try:
-                with open(f, "r", encoding="utf-8") as pf:
-                    all_pubs.append(json.load(pf))
-            except Exception as e:
-                print(f"Error reading {f}: {e}")
-        
-        # Sort topics alphabetically
-        for p in all_pubs:
-            if isinstance(p.get("topics"), list):
-                p["topics"] = sorted(p["topics"], key=lambda x: str(x).lower())
-
-        # Sort publications: Preprint/in review first, then year descending
-        def pub_sort_key(p):
-            yg = str(p.get("year_group", "")).strip()
-            if any(k in yg.lower() for k in ["preprint", "review", "rxiv", "submitted"]):
-                return (0, 9999)
-            m = re.search(r"\b(19\d\d|20\d\d)\b", yg) or re.search(r"\b(19\d\d|20\d\d)\b", str(p.get("citation", "")))
-            if m:
-                return (1, -int(m.group(1)))
-            return (2, 0)
-
-        all_pubs.sort(key=pub_sort_key)
-        data_pubs_path = os.path.join(BASE_DIR, "data", "publications.json")
-        with open(data_pubs_path, "w", encoding="utf-8") as df:
-            json.dump(all_pubs, df, indent=2, ensure_ascii=False)
-        print(f"✓ Synced {len(all_pubs)} publications to data/publications.json")
 
 class DecapProxyHandler(http.server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
