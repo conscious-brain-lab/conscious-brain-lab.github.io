@@ -1,0 +1,12 @@
+{
+  "status": "current",
+  "category": [
+    "phd"
+  ],
+  "order": 99,
+  "slug": "daniel-van-der-meer",
+  "name": "Daniel van der Meer",
+  "role": "PhD Candidate",
+  "image": "/assets/images/daniel-kopie.jpeg",
+  "bio": "I am a PhD candidate researching the perceptual dynamics of viewing multiple bistable stimuli simultaneously, under the supervision of Simon van Gaal, Han van der Maas, Michael Nunez and Raoul Grasman. As part of a larger project on cascading transitions in psychology, I aim to integrate experimental findings into a mathematical model of bistable perception."
+}
