@@ -373,6 +373,7 @@
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
       text-align: center;
       animation: modalFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
     }
     @keyframes modalFadeIn {
       from { opacity: 0; transform: translateY(12px) scale(0.97); }
@@ -477,6 +478,12 @@
       background: #f0fdf4;
       border: 1px solid #bbf7d0;
       color: #15803d;
+    }
+    .cbl-auth-msg.info {
+      display: block;
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      color: #0369a1;
     }
     .cbl-auth-links {
       margin-top: 20px;
@@ -593,6 +600,7 @@
   <!-- Dedicated GitHub Personal Access Token Login Overlay -->
   <div id="cbl-auth-overlay">
     <div class="cbl-auth-card">
+      <button type="button" id="cbl-close-auth-card" class="cbl-modal-close" style="position: absolute; top: 14px; right: 16px; font-size: 20px;" title="Dismiss overlay">&times;</button>
       <img src="../assets/images/CBL_logo.png" alt="Conscious Brain Lab" class="cbl-auth-logo-img" />
       <h2 class="cbl-auth-title">Conscious Brain Lab CMS</h2>
       <p class="cbl-auth-subtitle">Sign in using a GitHub Personal Access Token to edit publications, team members, news, and research projects.</p>
@@ -1881,6 +1889,7 @@
         const submitBtn = document.getElementById('cbl-submit-token');
         const toggleVisBtn = document.getElementById('cbl-toggle-token-vis');
         const authMsg = document.getElementById('cbl-auth-msg');
+        const closeOverlayBtn = document.getElementById('cbl-close-auth-card');
 
         let user = null;
         try {
@@ -1889,11 +1898,33 @@
         } catch(e) {}
 
         if (user && user.token) {
-          // Valid token exists in localStorage
+          // Token exists in localStorage - initially set topBar
           if (topBar) topBar.style.display = 'flex';
           if (userBadge) {
             userBadge.textContent = user.name ? `Logged in as ${user.name}` : `Logged in as @${user.login || 'GitHub User'}`;
           }
+
+          // Asynchronously verify token is still active and valid with GitHub
+          fetch('https://api.github.com/user', {
+            headers: { 'Authorization': `Bearer ${user.token}` }
+          }).then(async (res) => {
+            if (res.status === 401 || res.status === 403) {
+              console.warn('[CBL CMS] Stored GitHub token is expired or unauthorized (status ' + res.status + '). Clearing session.');
+              localStorage.removeItem('decap-cms-user');
+              localStorage.removeItem('netlify-cms-user');
+              if (topBar) topBar.style.display = 'none';
+              if (authOverlay) authOverlay.style.display = 'flex';
+              showAuthMsg('Your previous GitHub Personal Access Token has expired or was revoked. Please generate a new token below.', 'error');
+            } else if (res.ok) {
+              const userData = await res.json();
+              if (userBadge) {
+                userBadge.textContent = userData.name ? `Logged in as ${userData.name}` : `Logged in as @${userData.login}`;
+              }
+            }
+          }).catch((err) => {
+            console.log('[CBL CMS] Token connectivity check skipped:', err);
+          });
+
         } else if (isLocalhost) {
           if (topBar) topBar.style.display = 'flex';
           if (userBadge) {
@@ -1903,6 +1934,20 @@
           // Not authenticated and live site: display login overlay
           if (authOverlay) authOverlay.style.display = 'flex';
         }
+
+        if (closeOverlayBtn && authOverlay) {
+          closeOverlayBtn.addEventListener('click', () => {
+            authOverlay.style.display = 'none';
+            authOverlay.dataset.dismissed = 'true';
+          });
+        }
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && authOverlay && authOverlay.style.display === 'flex') {
+            authOverlay.style.display = 'none';
+            authOverlay.dataset.dismissed = 'true';
+          }
+        });
 
         const backLink = document.getElementById('cbl-back-to-site');
         if (backLink) {
@@ -1995,6 +2040,67 @@
           authMsg.className = 'cbl-auth-msg ' + type;
           authMsg.style.display = 'block';
         }
+
+        window.__cblShowAuth = showAuthMsg;
+      }
+
+      // -------------------------------------------------------------
+      // Decap CMS Fallback Button Interceptor
+      // Prevents Decap CMS's built-in "Login with GitHub" button from
+      // launching Netlify's 404 OAuth popup, showing the PAT card instead
+      // -------------------------------------------------------------
+      function interceptDecapLogin() {
+        const authOverlay = document.getElementById('cbl-auth-overlay');
+        const tokenInput = document.getElementById('cbl-gh-token');
+
+        // 1. Intercept any button labeled "Login with GitHub"
+        const allButtons = document.querySelectorAll('button');
+        allButtons.forEach(btn => {
+          if (btn.dataset.cblIntercepted) return;
+          const text = (btn.textContent || '').trim().toLowerCase();
+          if (text.includes('login with github')) {
+            btn.dataset.cblIntercepted = 'true';
+            btn.title = 'Click to sign in with GitHub Personal Access Token';
+
+            // Capture-phase listener stops Decap's default OAuth action
+            btn.addEventListener('click', (e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              e.stopImmediatePropagation();
+
+              if (authOverlay) {
+                authOverlay.style.display = 'flex';
+                delete authOverlay.dataset.dismissed;
+                if (window.__cblShowAuth) {
+                  window.__cblShowAuth('GitHub Pages requires a Personal Access Token to sign in. Click "Generate Token on GitHub" below.', 'info');
+                }
+                if (tokenInput) tokenInput.focus();
+              } else {
+                window.open('https://github.com/settings/tokens/new?description=Conscious%20Brain%20Lab%20CMS&scopes=repo', '_blank');
+              }
+            }, true);
+          }
+        });
+
+        // 2. If Decap CMS login screen is mounted and user has no valid session, show auth overlay
+        const ncRoot = document.getElementById('nc-root');
+        if (ncRoot) {
+          const loginView = ncRoot.querySelector('button, [class*="login"], [class*="Login"]');
+          if (loginView && (loginView.textContent || '').toLowerCase().includes('login with github')) {
+            const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            let storedUser = null;
+            try {
+              const raw = localStorage.getItem('decap-cms-user') || localStorage.getItem('netlify-cms-user');
+              if (raw) storedUser = JSON.parse(raw);
+            } catch(e) {}
+
+            if (!storedUser || !storedUser.token) {
+              if (authOverlay && authOverlay.style.display !== 'flex' && !authOverlay.dataset.dismissed && !isLocalhost) {
+                authOverlay.style.display = 'flex';
+              }
+            }
+          }
+        }
       }
 
       // Continuous observer to attach helpers when user opens entries
@@ -2004,6 +2110,7 @@
         attachMemberRoleHelper();
         attachImageEditorHelpers();
         organizePublicationCardsInOverview();
+        interceptDecapLogin();
       });
 
       function boot() {
@@ -2014,6 +2121,7 @@
         attachMemberRoleHelper();
         attachImageEditorHelpers();
         organizePublicationCardsInOverview();
+        interceptDecapLogin();
       }
 
       if (document.readyState === 'loading') {
