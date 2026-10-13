@@ -4,5 +4,6 @@
   "order": 5,
   "slug": "artificial-intelligence-and-consciousness",
   "image": "/assets/images/robohead_padding.png",
-  "description": "Is or can Artificial Intelligence be conscious? To what extent do people attribute consciousness or other epistemic properties to AI? How do such attributions affect how humans make decisions based on interactions with AI?"
+  "description": "Is or can Artificial Intelligence be conscious? To what extent do people attribute consciousness or other epistemic properties to AI? How do such attributions affect how humans make decisions based on interactions with AI?",
+  "fit": "contain"
 }
