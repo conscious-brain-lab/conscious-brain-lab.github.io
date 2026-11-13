@@ -6,42 +6,160 @@
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Theme Management (Dark / Light Mode)
   const themeToggleBtn = document.getElementById('theme-toggle');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  const lightQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: light)') : null;
   const savedTheme = localStorage.getItem('cbl-theme');
 
-  const currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme', currentTheme);
-  updateThemeIcon(currentTheme);
+  if (themeToggleBtn && !themeToggleBtn.querySelector('.theme-toggle-thumb')) {
+    themeToggleBtn.innerHTML = `
+      <span class="theme-toggle-thumb" aria-hidden="true"></span>
+      <span class="theme-toggle-slot theme-toggle-slot--sun" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="15" height="15"><circle cx="12" cy="12" r="4" fill="currentColor"/><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="5.28" y1="5.28" x2="7.05" y2="7.05"/><line x1="16.95" y1="16.95" x2="18.72" y2="18.72"/><line x1="18.72" y1="5.28" x2="16.95" y2="7.05"/><line x1="7.05" y1="16.95" x2="5.28" y2="18.72"/></g></svg>
+      </span>
+      <span class="theme-toggle-slot theme-toggle-slot--moon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+      </span>
+    `;
+  }
+
+  function getMachineTheme() {
+    if (darkQuery && darkQuery.matches) return 'dark';
+    if (lightQuery && lightQuery.matches) return 'light';
+    return null;
+  }
+
+  function getTimezoneCoordinates(date) {
+    const tz = Intl.DateTimeFormat ? Intl.DateTimeFormat().resolvedOptions().timeZone : '';
+    const coordsByTz = {
+      'Europe/Amsterdam': [52.37, 4.90],
+      'Europe/Brussels': [50.85, 4.35],
+      'Europe/London': [51.51, -0.13],
+      'Europe/Paris': [48.86, 2.35],
+      'Europe/Berlin': [52.52, 13.40],
+      'Europe/Zurich': [47.37, 8.54],
+      'Europe/Madrid': [40.42, -3.70],
+      'Europe/Rome': [41.90, 12.50],
+      'Europe/Stockholm': [59.33, 18.07],
+      'Europe/Oslo': [59.91, 10.75],
+      'Europe/Copenhagen': [55.68, 12.57],
+      'Europe/Warsaw': [52.23, 21.01],
+      'Europe/Athens': [37.98, 23.73],
+      'Europe/Istanbul': [41.01, 28.98],
+      'Europe/Moscow': [55.76, 37.62],
+      'America/New_York': [40.71, -74.01],
+      'America/Toronto': [43.65, -79.38],
+      'America/Chicago': [41.88, -87.63],
+      'America/Denver': [39.74, -104.99],
+      'America/Los_Angeles': [34.05, -118.24],
+      'America/Vancouver': [49.28, -123.12],
+      'America/Mexico_City': [19.43, -99.13],
+      'America/Sao_Paulo': [-23.55, -46.63],
+      'America/Argentina/Buenos_Aires': [-34.60, -58.38],
+      'Asia/Tokyo': [35.68, 139.77],
+      'Asia/Seoul': [37.57, 126.98],
+      'Asia/Shanghai': [31.23, 121.47],
+      'Asia/Hong_Kong': [22.32, 114.17],
+      'Asia/Singapore': [1.35, 103.82],
+      'Asia/Kolkata': [28.61, 77.21],
+      'Asia/Dubai': [25.20, 55.27],
+      'Australia/Sydney': [-33.87, 151.21],
+      'Australia/Melbourne': [-37.81, 144.96],
+      'Pacific/Auckland': [-36.85, 174.76],
+      'Africa/Cairo': [30.04, 31.24],
+      'Africa/Johannesburg': [-26.20, 28.05]
+    };
+    if (tz && coordsByTz[tz]) return coordsByTz[tz];
+
+    // Estimate coordinates from timezone offset and region if not in lookup table
+    const approxLon = (-date.getTimezoneOffset() / 60) * 15;
+    const region = tz.split('/')[0];
+    const regionLat = { Europe: 50, America: 38, Asia: 34, Australia: -33, Pacific: -30, Africa: 5 };
+    return [regionLat[region] ?? 40, approxLon];
+  }
+
+  function getTimeOfDayTheme(now = new Date()) {
+    // Calculate solar sunrise/sunset for the current timezone & date (NOAA equation)
+    const [lat, lon] = getTimezoneCoordinates(now);
+    const dayOfYear = Math.floor(
+      (Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) - Date.UTC(now.getFullYear(), 0, 0)) / 86400000
+    );
+    const gamma = ((2 * Math.PI) / 365) * (dayOfYear - 1);
+    const eqtime = 229.18 * (
+      0.000075 +
+      0.001868 * Math.cos(gamma) -
+      0.032077 * Math.sin(gamma) -
+      0.014615 * Math.cos(2 * gamma) -
+      0.040849 * Math.sin(2 * gamma)
+    );
+    const decl =
+      0.006918 -
+      0.399912 * Math.cos(gamma) +
+      0.070257 * Math.sin(gamma) -
+      0.006758 * Math.cos(2 * gamma) +
+      0.000907 * Math.sin(2 * gamma) -
+      0.002697 * Math.cos(3 * gamma) +
+      0.00148 * Math.sin(3 * gamma);
+
+    const latRad = (lat * Math.PI) / 180;
+    const zenithRad = (90.833 * Math.PI) / 180;
+    const cosHA = Math.cos(zenithRad) / (Math.cos(latRad) * Math.cos(decl)) - Math.tan(latRad) * Math.tan(decl);
+
+    if (cosHA > 1) return 'dark';  // Polar night
+    if (cosHA < -1) return 'light'; // Midnight sun
+
+    const haDeg = (Math.acos(cosHA) * 180) / Math.PI;
+    const tzOffsetMin = -now.getTimezoneOffset();
+    const sunriseLocal = (((720 - 4 * (lon + haDeg) - eqtime + tzOffsetMin) % 1440) + 1440) % 1440;
+    const sunsetLocal = (((720 - 4 * (lon - haDeg) - eqtime + tzOffsetMin) % 1440) + 1440) % 1440;
+    const nowLocal = now.getHours() * 60 + now.getMinutes() + now.getSeconds() / 60;
+
+    const isDaylight = sunriseLocal < sunsetLocal
+      ? nowLocal >= sunriseLocal && nowLocal < sunsetLocal
+      : nowLocal >= sunriseLocal || nowLocal < sunsetLocal;
+
+    return isDaylight ? 'light' : 'dark';
+  }
+
+  function resolveAutomaticTheme() {
+    return getMachineTheme() || getTimeOfDayTheme();
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    updateThemeIcon(theme);
+  }
+
+  const currentTheme = savedTheme || resolveAutomaticTheme();
+  applyTheme(currentTheme);
+
+  const handleMachineThemeChange = () => {
+    if (!localStorage.getItem('cbl-theme')) {
+      applyTheme(resolveAutomaticTheme());
+    }
+  };
+
+  if (darkQuery && darkQuery.addEventListener) {
+    darkQuery.addEventListener('change', handleMachineThemeChange);
+  }
+  if (lightQuery && lightQuery.addEventListener) {
+    lightQuery.addEventListener('change', handleMachineThemeChange);
+  }
 
   if (themeToggleBtn) {
+    themeToggleBtn.setAttribute('role', 'switch');
     themeToggleBtn.addEventListener('click', () => {
       const activeTheme = document.documentElement.getAttribute('data-theme');
       const newTheme = activeTheme === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', newTheme);
+      applyTheme(newTheme);
       localStorage.setItem('cbl-theme', newTheme);
-      updateThemeIcon(newTheme);
     });
   }
 
   function updateThemeIcon(theme) {
     if (!themeToggleBtn) return;
-    if (theme === 'dark') {
-      // Show Sun icon for switching to light
-      themeToggleBtn.innerHTML = `
-        <svg viewBox="0 0 24 24" width="20" height="20">
-          <path fill="currentColor" d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0z"/>
-        </svg>
-      `;
-      themeToggleBtn.setAttribute('title', 'Switch to Light Mode');
-    } else {
-      // Show Moon icon for switching to dark
-      themeToggleBtn.innerHTML = `
-        <svg viewBox="0 0 24 24" width="20" height="20">
-          <path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/>
-        </svg>
-      `;
-      themeToggleBtn.setAttribute('title', 'Switch to Dark Mode');
-    }
+    const isDark = theme === 'dark';
+    themeToggleBtn.setAttribute('aria-checked', isDark ? 'true' : 'false');
+    themeToggleBtn.setAttribute('title', isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode');
   }
 
   // 2. Mobile Navigation Drawer Toggle

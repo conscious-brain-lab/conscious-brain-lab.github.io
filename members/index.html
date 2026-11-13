@@ -31,8 +31,14 @@
         </a>
 
         <div class="top-bar-actions">
-          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Theme">
-            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.67 10.59 20 12 20c4.97 0 9-4.03 9-9 0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <button class="theme-toggle-btn" id="theme-toggle" role="switch" aria-checked="false" aria-label="Toggle Dark/Light Mode" title="Toggle Dark/Light Theme">
+            <span class="theme-toggle-thumb" aria-hidden="true"></span>
+            <span class="theme-toggle-slot theme-toggle-slot--sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="15" height="15"><circle cx="12" cy="12" r="4" fill="currentColor"/><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="5.28" y1="5.28" x2="7.05" y2="7.05"/><line x1="16.95" y1="16.95" x2="18.72" y2="18.72"/><line x1="18.72" y1="5.28" x2="16.95" y2="7.05"/><line x1="7.05" y1="16.95" x2="5.28" y2="18.72"/></g></svg>
+            </span>
+            <span class="theme-toggle-slot theme-toggle-slot--moon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+            </span>
           </button>
           <button class="mobile-toggle-btn" id="mobile-toggle" aria-label="Open Mobile Menu">&#9776;</button>
         </div>
