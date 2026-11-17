@@ -1,11 +1,10 @@
 {
   "year_group": "Submitted or on Rxiv",
-  "paper_url": "https://doi.org/10.64898/2026.06.02.729595",
+  "paper_url": "https://doi.org/10.31234/osf.io/4ewmf_v3",
   "id": "pub-118",
-  "citation": "del Agua, E., Nuiten, S. A., Zantvoord, J. B., Deco, G., & van Gaal, S. (2026). Global nonequilibrium cortical dynamics tie mid-level pupil-linked arousal to optimal task performance in humans.",
-  "bibtex": "@article{del_Agua_2026,\n  title ={Global nonequilibrium cortical dynamics tie mid-level pupil-linked arousal to optimal task performance in humans},\n  url ={http://dx.doi.org/10.64898/2026.06.02.729595},\n  DOI ={10.64898/2026.06.02.729595},\n  publisher ={openRxiv},\n  author ={del Agua, Elvira and Nuiten, Stijn Adriaan and Zantvoord, Jasper B. and Deco, Gustavo and van Gaal, Simon},\n  year ={2026},\n  month =June \n}",
+  "citation": "van Gaal, S., Beerendonk, L., Zhang, H., Donner, T. H., & de Gee, J. W. (2026). Noradrenaline-centric bias in the pupil-linked arousal literature.",
+  "bibtex": "@article{van_Gaal_2026,\n  title ={Noradrenaline-centric bias in the pupil-linked arousal literature},\n  url ={http://dx.doi.org/10.31234/osf.io/4ewmf_v3},\n  DOI ={10.31234/osf.io/4ewmf_v3},\n  publisher ={Center for Open Science},\n  author ={van Gaal, Simon and Beerendonk, Lola and Zhang, Haoyue and Donner, Tobias H. and de Gee, Jan Willem},\n  year ={2026},\n  month =Nov \n}",
   "topics": [
-    "EEG",
     "Cognitive Neuroscience",
     "Pupillometry"
   ]
