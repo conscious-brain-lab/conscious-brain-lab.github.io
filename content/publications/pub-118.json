@@ -1,9 +1,9 @@
 {
-  "year_group": "2026",
-  "paper_url": "https://doi.org/10.1016/j.neubiorev.2026.106742",
+  "year_group": "Submitted or on Rxiv",
+  "paper_url": "https://doi.org/10.31234/osf.io/4ewmf_v3",
   "id": "pub-118",
-  "citation": "Corcoran, A. W., Haun, A. M., Dorman, R., Tononi, G., Friston, K. J., & Pennartz, C. M. A. (2026). Integrated information and predictive processing theories of consciousness: An adversarial collaborative review. Neuroscience &Amp; Biobehavioral Reviews, 187, 106742.",
-  "bibtex": "@article{Corcoran_2026,\n  title ={Integrated information and predictive processing theories of consciousness: An adversarial collaborative review},\n  volume ={187},\n  ISSN ={0149-7634},\n  url ={http://dx.doi.org/10.1016/j.neubiorev.2026.106742},\n  DOI ={10.1016/j.neubiorev.2026.106742},\n  journal ={Neuroscience &amp; Biobehavioral Reviews},\n  publisher ={Elsevier BV},\n  author ={Corcoran, Andrew W. and Haun, Andrew M. and Dorman, Reinder and Tononi, Giulio and Friston, Karl J. and Pennartz, Cyriel M.A.},\n  year ={2026},\n  month =Aug,\n  pages ={106742} \n}",
+  "citation": "van Gaal, S., Beerendonk, L., Zhang, H., Donner, T. H., & de Gee, J. W. (2026). Noradrenaline-centric bias in the pupil-linked arousal literature.",
+  "bibtex": "@article{van_Gaal_2026,\n  title ={Noradrenaline-centric bias in the pupil-linked arousal literature},\n  url ={http://dx.doi.org/10.31234/osf.io/4ewmf_v3},\n  DOI ={10.31234/osf.io/4ewmf_v3},\n  publisher ={Center for Open Science},\n  author ={van Gaal, Simon and Beerendonk, Lola and Zhang, Haoyue and Donner, Tobias H. and de Gee, Jan Willem},\n  year ={2026},\n  month =Nov \n}",
   "topics": [
     "Cognitive Neuroscience",
     "Pupillometry"
